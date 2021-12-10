@@ -12,6 +12,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/ubo.owl>
 
 Import(<http://purl.obolibrary.org/obo/ubo/imports/ncbitaxon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ubo/components/breeds.owl>)
 
 
 
