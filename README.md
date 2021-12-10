@@ -21,6 +21,9 @@ http://purl.obolibrary.org/obo/ubo.owl
 
 Editors of this ontology should use the edit version, [src/ontology/ubo-edit.owl](src/ontology/ubo-edit.owl)
 
+## License
+[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/monarch-initiative/unified_breed_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
