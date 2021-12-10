@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@main
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

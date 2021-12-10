@@ -1,7 +1,7 @@
 id: ubo
 title: "Unified Breed Ontology"
 github_org: monarch-initiative
-git_main_branch: main
+git_main_branch: master
 repo: unified-breed-ontology
 release_artefacts: 
   - base
