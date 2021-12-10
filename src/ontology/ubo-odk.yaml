@@ -1,0 +1,29 @@
+id: ubo
+title: "Unified Breed Ontology"
+github_org: monarch-initiative
+git_main_branch: main
+repo: unified_breed_ontology
+release_artefacts: 
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+robot_java_args: '-Xmx8G'
+import_group:
+  use_base_merging: TRUE
+  slme_individuals: exclude
+  exclude_iri_patterns:
+    - <http://www.informatics.jax.org/marker/MGI:*>
+  products:
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+pattern_pipelines_group:
+  products:
+    - id: clustering
+      dosdp_tools_options: "--obo-prefixes=true"
+robot_java_args: '-Xmx16G'
+allow_equivalents: asserted-only
