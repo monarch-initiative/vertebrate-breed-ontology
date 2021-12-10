@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/ubo
+
+idspace: UBO
+base_url: /obo/ubo
+
+products:
+- ubo.owl: https://raw.githubusercontent.com/monarch-initiative/unified_breed_ontology/main/ubo.owl
+- ubo.obo: https://raw.githubusercontent.com/monarch-initiative/unified_breed_ontology/main/ubo.obo
+
+term_browser: ontobee
+example_terms:
+- UBO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/monarch-initiative/unified_breed_ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/monarch-initiative/unified_breed_ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/UBO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/monarch-initiative/unified_breed_ontology/main/
