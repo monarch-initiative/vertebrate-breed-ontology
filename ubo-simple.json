@@ -1,0 +1,42 @@
+{
+  "graphs": [
+    {
+      "domainRangeAxioms": [],
+      "edges": [],
+      "equivalentNodesSets": [],
+      "id": "http://purl.obolibrary.org/obo/ubo/ubo-simple.json",
+      "logicalDefinitionAxioms": [],
+      "meta": {
+        "basicPropertyValues": [
+          {
+            "pred": "http://purl.org/dc/elements/1.1/description",
+            "val": "None"
+          },
+          {
+            "pred": "http://purl.org/dc/elements/1.1/title",
+            "val": "Unified Breed Ontology"
+          },
+          {
+            "pred": "http://purl.org/dc/terms/license",
+            "val": "https://creativecommons.org/licenses/unspecified"
+          },
+          {
+            "pred": "http://www.w3.org/2002/07/owl#versionInfo",
+            "val": "2021-12-10"
+          }
+        ],
+        "subsets": [],
+        "version": "http://purl.obolibrary.org/obo/ubo/releases/2021-12-10/ubo-simple.json",
+        "xrefs": []
+      },
+      "nodes": [
+        {
+          "id": "http://purl.obolibrary.org/obo/UBO_00000000",
+          "lbl": "root node",
+          "type": "CLASS"
+        }
+      ],
+      "propertyChainAxioms": []
+    }
+  ]
+}

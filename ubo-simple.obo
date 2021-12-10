@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: ubo/releases/2021-12-10/ubo-simple.owl
+ontology: ubo/ubo-simple
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Unified Breed Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2021-12-10" xsd:string
+
+[Term]
+id: UBO:00000000
+name: root node
+
