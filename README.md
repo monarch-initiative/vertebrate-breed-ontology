@@ -1,5 +1,6 @@
 
 ![Build Status](https://github.com/monarch-initiative/unified_breed_ontology/workflows/CI/badge.svg)
+
 # Unified Breed Ontology
 
 This ontology... YOUR DESCRIPTION HERE
