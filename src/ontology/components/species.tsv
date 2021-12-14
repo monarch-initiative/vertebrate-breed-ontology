@@ -1,5 +1,5 @@
 UBO id	DADIS taxon names = label	NCBI Taxon name = exact synonym	NCBITaxon id	Genbank common name (if different from DADIS name) =exact synonym	NCBITaxon CURIE = X-ref (EquivalentTo)
-ID	LABEL	A oboInOwl:hasExactSynonym		A oboInOwl:hasExactSynonym	>A oboInOwl:source 
+ID	LABEL	A oboInOwl:hasExactSynonym		A oboInOwl:hasExactSynonym	A oboInOwl:hasDbXref        
 UBO:0000001	Alpaca	Vicugna pacos	30538		NCBITaxon:30538
 UBO:0000002	American Bison	Bison bison	9901		NCBITaxon:9901
 UBO:0000003	Ass	Equus asinus 	9793		NCBITaxon:9793
