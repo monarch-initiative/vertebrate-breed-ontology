@@ -29,4 +29,6 @@ These are the components in UBO
 
 | Filename | URL |
 | -------- | --- |
+| species.owl | None |
+| transboundary.owl | None |
 | breeds.owl | None |

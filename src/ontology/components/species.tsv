@@ -1,0 +1,39 @@
+UBO id	DADIS taxon names = label	NCBI Taxon name = exact synonym	NCBITaxon id	Genbank common name (if different from DADIS name) =exact synonym	NCBITaxon CURIE = X-ref (EquivalentTo)
+ID	LABEL	A oboInOwl:hasExactSynonym		A oboInOwl:hasExactSynonym	>A oboInOwl:source 
+UBO:0000001	Alpaca	Vicugna pacos	30538		NCBITaxon:30538
+UBO:0000002	American Bison	Bison bison	9901		NCBITaxon:9901
+UBO:0000003	Ass	Equus asinus 	9793		NCBITaxon:9793
+UBO:0000004	Bactrian camel	Camelus bactrianus	9837	Bactrian camel	NCBITaxon:9837
+UBO:0000005	Buffalo	Bubalus bubalis	89462	Water buffalo	NCBITaxon:89462
+UBO:0000006	Cassowary	Casuarius casuarius	8787	Southern cassowary	NCBITaxon:8787
+UBO:0000007	Cattle	Bos taurus	9913		NCBITaxon:9913
+UBO:0000008	Chicken	Gallus gallus	9031		NCBITaxon:9031
+UBO:0000009	Deer	Cervinae	34878		NCBITaxon:34878
+UBO:0000010	Dog	Canis lupus familiaris	9615		NCBITaxon:9615
+UBO:0000011	Dromedary	Camelus dromedarius	9838	Arabian camel	NCBITaxon:9838
+UBO:0000012	Dromedary Bactrian Camel				
+UBO:0000013	Duck (domestic)	Anas platyrhynchos	8839	Mallard	NCBITaxon:8839
+UBO:0000014	Duck(domestic) Muscovy duck	Anas platyrhynchos × Cairina moschata	8841	domestic duck x muscovy duck	NCBITaxon:8841
+UBO:0000015	Emu	Dromaius novaehollandiae	8790		NCBITaxon:8790
+UBO:0000016	Goat	Capra hircus	9925		NCBITaxon:9925
+UBO:0000017	Goose (domestic)	Anser anser	8843	Domestic goose	NCBITaxon:8843
+UBO:0000018	Guanaco	Lama guanicoe	9840		NCBITaxon:9840
+UBO:0000019	Guinea fowl	Numididae	8990		NCBITaxon:8990
+UBO:0000020	Guinea pig	Cavia porcellus	10141	Domestic guinea pig	NCBITaxon:10141
+UBO:0000021	Horse	Equus caballus	9796		NCBITaxon:9796
+UBO:0000022	Llama	Lama glama	9844		NCBITaxon:9844
+UBO:0000023	Muscovy duck	Cairina moschata	8855		NCBITaxon:8855
+UBO:0000024	Nandu	Rhea	8796		NCBITaxon:8796
+UBO:0000025	Ostrich	Struthio camelus	8801	African ostrich	NCBITaxon:8801
+UBO:0000026	Partridge	Perdicinae	466544		NCBITaxon:466544
+UBO:0000027	Peacock	Pavo	9048	Peafowls	NCBITaxon:9048
+UBO:0000028	Pheasant	Phasianinae	9072		NCBITaxon:9072
+UBO:0000029	Pig	Sus scrofa	9823		NCBITaxon:9823
+UBO:0000030	Pigeon	Columba livia	8932	Rock pigeon	NCBITaxon:8932
+UBO:0000031	Quail	Coturnix	9090		NCBITaxon:9090
+UBO:0000032	Rabbit	Oryctolagus cuniculus	9986		NCBITaxon:9986
+UBO:0000033	Sheep	Ovis aries	9940		NCBITaxon:9940
+UBO:0000034	Swallow	Aerodramus fuciphagus	46478	Edible-nest swiftlet	NCBITaxon:46478
+UBO:0000035	Turkey	Meleagris gallopavo	9103		NCBITaxon:9103
+UBO:0000036	VicuÃ±a [Vicuna]	Vicugna vicugna	9843	Vicugna	NCBITaxon:9843
+UBO:0000037	Yak (domestic)	Bos grunniens	30521	Domestic yak	NCBITaxon:30521

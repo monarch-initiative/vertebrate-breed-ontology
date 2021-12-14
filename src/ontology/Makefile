@@ -43,7 +43,7 @@ TODAY ?=                    $(shell date +%Y-%m-%d)
 OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
-OTHER_SRC =                 $(COMPONENTSDIR)/breeds.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/species.owl $(COMPONENTSDIR)/transboundary.owl $(COMPONENTSDIR)/breeds.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 
 FORMATS = $(sort  owl obo json owl)
@@ -261,6 +261,10 @@ no-mirror-refresh-%:
 $(COMPONENTSDIR)/%:
 	touch $@
 .PRECIOUS: $(COMPONENTSDIR)/%
+
+
+
+
 
 
 
