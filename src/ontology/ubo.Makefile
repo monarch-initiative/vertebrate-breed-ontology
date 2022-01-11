@@ -8,10 +8,10 @@ NCBIBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244
 
 .PHONY: sync_ncbitransbound
 .PHONY: sync_ncbibreeds
-	
+
 sync_google_sheets:
 	wget $(NCBITRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/ncbitransbound.tsv
-	wget $(NCBIBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/breeds.tsv
+	wget $(NCBIBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/ncbibreeds.tsv
 
 
 
