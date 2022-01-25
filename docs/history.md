@@ -1,4 +1,4 @@
-# A brief history of UBO
+# A brief history of VBO
 
 [Online Mendelian Inheritance in Animals (OMIA)](https://omia.org) provides up-to-date summary information on all known harmful and beneficial variants in vertebrates (apart from those vertebrates that have their own similar resource), together with background information on all known inherited disorders and non-disease traits, which are collectively called ‘phenes’. OMIA is hosted by the Sydney School of Veterinary Science (SSVS) within the University of Sydney.
 
