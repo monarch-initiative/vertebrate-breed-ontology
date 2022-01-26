@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-  <uri name="http://purl.obolibrary.org/obo/ubo/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/ubo/components/breeds.owl" uri="components/breeds.owl"/>
-
-</group>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ubo/components/ncbibreeds.owl" uri="components/ncbibreeds.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ubo/components/ncbitransbound.owl" uri="components/ncbitransbound.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/ubo/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+    </group>
 </catalog>

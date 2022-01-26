@@ -29,4 +29,5 @@ These are the components in UBO
 
 | Filename | URL |
 | -------- | --- |
-| breeds.owl | None |
+| ncbitransbound.owl | None |
+| ncbibreeds.owl | None |
