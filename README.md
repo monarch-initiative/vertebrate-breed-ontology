@@ -1,7 +1,7 @@
 
 ![Build Status](https://github.com/monarch-initiative/unified_breed_ontology/workflows/CI/badge.svg)
 
-# Unified Breed Ontology
+# Vertebrate Breed Ontology
 
 [Online Mendelian Inheritance in Animals (OMIA)](https://omia.org) provides up-to-date summary information on all known harmful and beneficial variants in vertebrates (apart from those vertebrates that have their own similar resource), together with background information on all known inherited disorders and non-disease traits, which are collectively called ‘phenes’. OMIA is hosted by the Sydney School of Veterinary Science (SSVS) within the University of Sydney.
 
@@ -26,13 +26,13 @@ More information can be found at http://obofoundry.org/ontology/ubo
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/ubo.owl
+http://purl.obolibrary.org/obo/vbo.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/ubo-edit.owl](src/ontology/ubo-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/vbo-edit.owl](src/ontology/vbo-edit.owl)
 
 ## License
 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
