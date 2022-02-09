@@ -1,7 +1,7 @@
-# UBO Ontology Documentation
+# VBO Ontology Documentation
 
 [//]: # "This file is meant to be edited by the ontology maintainer."
 
-Welcome to the UBO documentation!
+Welcome to the VBO documentation!
 
 You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
