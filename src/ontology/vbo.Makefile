@@ -1,5 +1,5 @@
-## Customize Makefile settings for ubo
-## 
+## Customize Makefile settings for vbo
+##
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
@@ -18,5 +18,5 @@ sync_google_sheets:
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
-	$(ROBOT) merge -i $(SRC) template --template $< --prefix "UBO: http://purl.obolibrary.org/obo/UBO_" --output $@ && \
+	$(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --output $@ && \
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@

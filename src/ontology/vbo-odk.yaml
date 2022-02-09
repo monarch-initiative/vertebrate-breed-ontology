@@ -1,8 +1,8 @@
-id: ubo
-title: "Unified Breed Ontology"
+id: vbo
+title: "Vertebrate Breed Ontology"
 github_org: monarch-initiative
 git_main_branch: master
-repo: unified-breed-ontology
+repo: vertebrate-breed-ontology
 release_artefacts:
   - base
   - full

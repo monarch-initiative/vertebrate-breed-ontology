@@ -10,14 +10,14 @@ bin/
 src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
-src/ontology/ubo.owl
-src/ontology/ubo.obo
-src/ontology/ubo.json
-src/ontology/ubo-base.*
-src/ontology/ubo-basic.*
-src/ontology/ubo-full.*
-src/ontology/ubo-simple.*
-src/ontology/ubo-simple-non-classified.*
+src/ontology/vbo.owl
+src/ontology/vbo.obo
+src/ontology/vbo.json
+src/ontology/vbo-base.*
+src/ontology/vbo-basic.*
+src/ontology/vbo-full.*
+src/ontology/vbo-simple.*
+src/ontology/vbo-simple-non-classified.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
@@ -25,7 +25,7 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
-src/ontology/merged-ubo-edit.owl
+src/ontology/merged-vbo-edit.owl
 
 src/ontology/target/
 src/ontology/tmp/*

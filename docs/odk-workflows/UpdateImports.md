@@ -49,7 +49,7 @@ This workflow is appropriate if:
 1. You prefer to manage all your imported terms in a single file (rather than multiple files like in the "Using term files" workflow above).
 2. You wish to augment your imported ontologies with additional information. This requires a cautionary discussion.
 
-To enable this workflow, you add the following to your ODK config file (`src/ontology/ubo-odk.yaml`), and [update the repository](RepoManagement.md):
+To enable this workflow, you add the following to your ODK config file (`src/ontology/vbo-odk.yaml`), and [update the repository](RepoManagement.md):
 
 ```
 use_custom_import_module: TRUE

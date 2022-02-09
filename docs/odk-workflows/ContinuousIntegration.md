@@ -2,7 +2,7 @@
 
 Historically, most repos have been using Travis CI for continuous integration testing and building, but due to
 runtime restrictions, we recently switched a lot of our repos to GitHub actions. You can set up your repo with CI by adding 
-this to your configuration file (src/ontology/ubo-odk.yaml):
+this to your configuration file (src/ontology/vbo-odk.yaml):
 
 ```
 ci:
