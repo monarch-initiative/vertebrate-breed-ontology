@@ -1,1 +1,1 @@
-# How to contribute to UBO
+# How to contribute to VBO
