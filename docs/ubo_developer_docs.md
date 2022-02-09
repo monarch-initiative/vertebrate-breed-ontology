@@ -20,6 +20,9 @@ sh run.sh make components/breeds.owl
 
 This will refresh the breeds component based on the current ROBOT template stored in components/breeds.tsv.
 
+Note: The component will not update unless the content of the google sheet or the ubo-edit file has changed. To "force" the update, add `-B` at the end of the command. For example: 
+`sh run.sh make components/breeds.owl -B`
+
 ## Adding entirely new components:
 
 - Add the name of the component to `src/ontology/ubo-odk.yaml` (in the `components/products` section, like `breeds.owl`).
