@@ -1,4 +1,4 @@
-# UBO Developer Docs
+# VBO Developer Docs
 
 ## How to refresh components
 
@@ -20,14 +20,14 @@ sh run.sh make components/breeds.owl
 
 This will refresh the breeds component based on the current ROBOT template stored in components/breeds.tsv.
 
-Note: The component will not update unless the content of the google sheet or the ubo-edit file has changed. To "force" the update, add `-B` at the end of the command. For example: 
+Note: The component will not update unless the content of the google sheet or the vbo-edit file has changed. To "force" the update, add `-B` at the end of the command. For example: 
 `sh run.sh make components/breeds.owl -B`
 
 ## Adding entirely new components:
 
-- Add the name of the component to `src/ontology/ubo-odk.yaml` (in the `components/products` section, like `breeds.owl`).
+- Add the name of the component to `src/ontology/vbo-odk.yaml` (in the `components/products` section, like `breeds.owl`).
 - Run `sh run.sh make update_repo`
-- Add the component to the `sync_google_sheets` `make` commmand in `ubo.Makefile`, essentially:
+- Add the component to the `sync_google_sheets` `make` commmand in `vbo.Makefile`, essentially:
    - creating a new variable for it (like `BREED_TEMPLATE`)
    - adding a wget command underneat the one that is currrently there.
 
@@ -37,7 +37,7 @@ sync_google_sheets:
 	wget $(NEW_TEMPLATE) -O $(COMPONENTSDIR)/new.tsv
 ```
 
-- Add the component to the list of imports in `src/ontology/ubo-edit.owl`
+- Add the component to the list of imports in `src/ontology/vbo-edit.owl`
 - Add the component to `src/ontology/catalog-v001.xml` (analogous to the breed one)
 - [Update the component](#updating-components)
 
