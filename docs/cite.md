@@ -1,1 +1,1 @@
-# How to cite UBO
+# How to cite VBO
