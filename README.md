@@ -18,7 +18,7 @@ In collaboration with FAO colleagues responsible for DADIS (Roswitha Baumung and
 Breed names and synonyms not included in the DADIS list, e.g. for cats, will be added to the VBO. OMIA breed names will then be mapped to VBO ids, as will LBO ids and ids or names from other relevant breed lists. Once developed, the VBO will be incorporated into OMIA and AHIDA, and will be made freely available.
 It is recognised that, as with the LBO, there will be a continual need for enhancement of the VBO. 
 
-More information can be found at http://obofoundry.org/ontology/ubo
+More information can be found at http://obofoundry.org/ontology/vbo
 
 ## Versions
 
