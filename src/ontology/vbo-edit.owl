@@ -16,10 +16,13 @@ Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
 
 
-Annotation(dce:title "Vertebrate Breed Ontology")
+Annotation(dcterms:title "Vertebrate Breed Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dce:description "None")
+Annotation(dcterms:description "None")
 
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
 Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
 
 

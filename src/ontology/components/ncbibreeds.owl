@@ -2391,12 +2391,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0001317 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001317"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0001318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001318"/>
@@ -2931,12 +2925,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0001407 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001407"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0001408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001408"/>
@@ -3240,12 +3228,6 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0001458 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001458"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0001459 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001459"/>
     
 
 
@@ -4194,12 +4176,6 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0001617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001617"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0001618 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001618"/>
     
 
 
@@ -7684,7 +7660,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0002022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0000085"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WasserbÃ¼ffel-Switzerland [water Buffalo (Buffalo)]</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WasserbÃ¼ffel-Switzerland [water buffalo (Buffalo)]</rdfs:label>
     </owl:Class>
     
 
@@ -19995,7 +19971,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0006447">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0000630"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sussex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suseks-Slovenia [Sussex (Chicken)]</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sussex-Slovenia [Sussex (Chicken)]</rdfs:label>
     </owl:Class>
     
 
@@ -38251,9 +38227,9 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0014215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0014215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001316"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bebiri Barbados</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbados Blackbelly-Malaysia [Barbados Blackbelly (Sheep)]</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbados Blackbelly-Malaysia [Barbados Black Belly (Sheep)]</rdfs:label>
     </owl:Class>
     
 
@@ -41850,9 +41826,9 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0014594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0014594">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001406"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merino de l&apos;Est</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Est Ã  laine MÃ©rinos-France [Est Å• laine MÃ©rino (Sheep)]</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Est Ã  laine MÃ©rinos-France [Est Ã  laine MÃ©rino (Sheep)]</rdfs:label>
     </owl:Class>
     
 
@@ -43438,10 +43414,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0014757 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0014757">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001459"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001458"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karakacanska ovca</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karakachan sheep</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karakachan-Serbia [Karakachan sheep (Sheep)]</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karakachan-Serbia [Karakachan (Sheep)]</rdfs:label>
     </owl:Class>
     
 
@@ -48575,8 +48551,8 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0015290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0015290">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001618"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spel-Denmark [spÃ¦lsau (Sheep)]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001617"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spel-Denmark [spÄ‡lsau (Sheep)]</rdfs:label>
     </owl:Class>
     
 
@@ -48584,8 +48560,8 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0015291 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0015291">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001618"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spelsau-Sweden [spÃ¦lsau (Sheep)]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001617"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spelsau-Sweden [spÄ‡lsau (Sheep)]</rdfs:label>
     </owl:Class>
     
 

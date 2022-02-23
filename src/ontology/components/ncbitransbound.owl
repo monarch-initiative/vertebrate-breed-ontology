@@ -642,7 +642,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89462"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water Buffalo (Buffalo)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water buffalo (Buffalo)</rdfs:label>
     </owl:Class>
     
 
@@ -670,15 +670,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Zavot) (Cattle)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0000089 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aberdeen Angus (Cattle)</rdfs:label>
     </owl:Class>
     
 
@@ -913,15 +904,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian Friesian Sahiwal (Cattle)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0000116 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian Friesian-Sahiwal (Cattle)</rdfs:label>
     </owl:Class>
     
 
@@ -1223,29 +1205,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blonde d Aguitaine (Cattle)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0000151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blonde d&apos;Aquitaine (Cattle)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0000152 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blonde Dâ€™aquitaine (Cattle)</rdfs:label>
     </owl:Class>
     
 
@@ -1498,15 +1462,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chusco (Cattle)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0000181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CrÃ©ole (Cattle)</rdfs:label>
     </owl:Class>
     
 
@@ -2029,15 +1984,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holstein Friesian (Cattle)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0000240 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000240">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holstein Friesian (black and white) (Cattle)</rdfs:label>
     </owl:Class>
     
 
@@ -11726,15 +11672,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0001317 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbados Blackbelly (Sheep)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0001318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001318">
@@ -12536,15 +12473,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0001407 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001407">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Est Å• laine MÃ©rino (Sheep)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0001408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001408">
@@ -13000,15 +12928,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001458">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karakachan (Sheep)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0001459 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001459">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karakachan sheep (Sheep)</rdfs:label>
     </owl:Class>
     
 
@@ -14431,15 +14350,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001617">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spÄ‡lsau (Sheep)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0001618 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spÃ¦lsau (Sheep)</rdfs:label>
     </owl:Class>
     
 
