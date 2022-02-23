@@ -48,11 +48,11 @@ riverine buffalo!%!Buffalo	VBO:0000081	riverine buffalo (Buffalo)	riverine buffa
 Surti!%!Buffalo	VBO:0000082	Surti (Buffalo)	Surti	Buffalo	NCBITaxon:89462
 Swamp buffalo!%!Buffalo	VBO:0000083	Swamp buffalo (Buffalo)	Swamp buffalo	Buffalo	NCBITaxon:89462
 Tarai!%!Buffalo	VBO:0000084	Tarai (Buffalo)	Tarai	Buffalo	NCBITaxon:89462
-water Buffalo!%!Buffalo	VBO:0000085	water Buffalo (Buffalo)	water Buffalo	Buffalo	NCBITaxon:89462
+water buffalo!%!Buffalo	VBO:0000085	water buffalo (Buffalo)	water buffalo	Buffalo	NCBITaxon:89462
 Wild Water Buffalo!%!Buffalo	VBO:0000086	Wild Water Buffalo (Buffalo)	Wild Water Buffalo	Buffalo	NCBITaxon:89462
 Cassowary!%!Cassowary	VBO:0000087	Cassowary (Cassowary)	Cassowary	Cassowary	NCBITaxon:8787
 (Zavot)!%!Cattle	VBO:0000088	(Zavot) (Cattle)	(Zavot)	Cattle	NCBITaxon:9913
-Aberdeen Angus!%!Cattle	VBO:0000089	Aberdeen Angus (Cattle)	Aberdeen Angus	Cattle	NCBITaxon:9913
+					
 Aberdeen-Angus!%!Cattle	VBO:0000090	Aberdeen-Angus (Cattle)	Aberdeen-Angus	Cattle	NCBITaxon:9913
 Abondance!%!Cattle	VBO:0000091	Abondance (Cattle)	Abondance	Cattle	NCBITaxon:9913
 Adamawa!%!Cattle	VBO:0000092	Adamawa (Cattle)	Adamawa	Cattle	NCBITaxon:9913
@@ -79,7 +79,6 @@ Aubrac!%!Cattle	VBO:0000112	Aubrac (Cattle)	Aubrac	Cattle	NCBITaxon:9913
 Aulie-Ata!%!Cattle	VBO:0000113	Aulie-Ata (Cattle)	Aulie-Ata	Cattle	NCBITaxon:9913
 Australian Bazadais!%!Cattle	VBO:0000114	Australian Bazadais (Cattle)	Australian Bazadais	Cattle	NCBITaxon:9913
 Australian Friesian Sahiwal!%!Cattle	VBO:0000115	Australian Friesian Sahiwal (Cattle)	Australian Friesian Sahiwal	Cattle	NCBITaxon:9913
-Australian Friesian-Sahiwal!%!Cattle	VBO:0000116	Australian Friesian-Sahiwal (Cattle)	Australian Friesian-Sahiwal	Cattle	NCBITaxon:9913
 Australian Lowline!%!Cattle	VBO:0000117	Australian Lowline (Cattle)	Australian Lowline	Cattle	NCBITaxon:9913
 Australian Milking Zebu!%!Cattle	VBO:0000118	Australian Milking Zebu (Cattle)	Australian Milking Zebu	Cattle	NCBITaxon:9913
 AVILEÃ‘A-NEGRA IBÃ‰RICA!%!Cattle	VBO:0000119	AVILEÃ‘A-NEGRA IBÃ‰RICA (Cattle)	AVILEÃ‘A-NEGRA IBÃ‰RICA	Cattle	NCBITaxon:9913
@@ -113,9 +112,7 @@ Blaarkop!%!Cattle	VBO:0000146	Blaarkop (Cattle)	Blaarkop	Cattle	NCBITaxon:9913
 Black-Motley!%!Cattle	VBO:0000147	Black-Motley (Cattle)	Black-Motley	Cattle	NCBITaxon:9913
 Blended Milking Shorthorn!%!Cattle	VBO:0000148	Blended Milking Shorthorn (Cattle)	Blended Milking Shorthorn	Cattle	NCBITaxon:9913
 Bleue du Nord!%!Cattle	VBO:0000149	Bleue du Nord (Cattle)	Bleue du Nord	Cattle	NCBITaxon:9913
-Blonde d Aguitaine!%!Cattle	VBO:0000150	Blonde d Aguitaine (Cattle)	Blonde d Aguitaine	Cattle	NCBITaxon:9913
 Blonde d'Aquitaine!%!Cattle	VBO:0000151	Blonde d'Aquitaine (Cattle)	Blonde d'Aquitaine	Cattle	NCBITaxon:9913
-Blonde Dâ€™aquitaine!%!Cattle	VBO:0000152	Blonde Dâ€™aquitaine (Cattle)	Blonde Dâ€™aquitaine	Cattle	NCBITaxon:9913
 Blondes!%!Cattle	VBO:0000153	Blondes (Cattle)	Blondes	Cattle	NCBITaxon:9913
 Bokolodji!%!Cattle	VBO:0000154	Bokolodji (Cattle)	Bokolodji	Cattle	NCBITaxon:9913
 Bonsmara!%!Cattle	VBO:0000155	Bonsmara (Cattle)	Bonsmara	Cattle	NCBITaxon:9913
@@ -144,7 +141,6 @@ Charolais!%!Cattle	VBO:0000177	Charolais (Cattle)	Charolais	Cattle	NCBITaxon:991
 Chianina!%!Cattle	VBO:0000178	Chianina (Cattle)	Chianina	Cattle	NCBITaxon:9913
 Chillingham!%!Cattle	VBO:0000179	Chillingham (Cattle)	Chillingham	Cattle	NCBITaxon:9913
 Chusco!%!Cattle	VBO:0000180	Chusco (Cattle)	Chusco	Cattle	NCBITaxon:9913
-CrÃ©ole!%!Cattle	VBO:0000181	CrÃ©ole (Cattle)	CrÃ©ole	Cattle	NCBITaxon:9913
 Creole!%!Cattle	VBO:0000182	Creole (Cattle)	Creole	Cattle	NCBITaxon:9913
 Czech Red!%!Cattle	VBO:0000183	Czech Red (Cattle)	Czech Red	Cattle	NCBITaxon:9913
 Dahomey!%!Cattle	VBO:0000184	Dahomey (Cattle)	Dahomey	Cattle	NCBITaxon:9913
@@ -203,7 +199,6 @@ Hissar!%!Cattle	VBO:0000236	Hissar (Cattle)	Hissar	Cattle	NCBITaxon:9913
 Holstein (black and white)!%!Cattle	VBO:0000237	Holstein (black and white) (Cattle)	Holstein (black and white)	Cattle	NCBITaxon:9913
 Holstein (red and white)!%!Cattle	VBO:0000238	Holstein (red and white) (Cattle)	Holstein (red and white)	Cattle	NCBITaxon:9913
 Holstein Friesian!%!Cattle	VBO:0000239	Holstein Friesian (Cattle)	Holstein Friesian	Cattle	NCBITaxon:9913
-Holstein Friesian (black and white)!%!Cattle	VBO:0000240	Holstein Friesian (black and white) (Cattle)	Holstein Friesian (black and white)	Cattle	NCBITaxon:9913
 Hungarian Grey!%!Cattle	VBO:0000241	Hungarian Grey (Cattle)	Hungarian Grey	Cattle	NCBITaxon:9913
 Icelandic Cattle!%!Cattle	VBO:0000242	Icelandic Cattle (Cattle)	Icelandic Cattle	Cattle	NCBITaxon:9913
 Illawarra Shorthorn!%!Cattle	VBO:0000243	Illawarra Shorthorn (Cattle)	Illawarra Shorthorn	Cattle	NCBITaxon:9913
@@ -1280,7 +1275,6 @@ Baluchi!%!Sheep	VBO:0001313	Baluchi (Sheep)	Baluchi	Sheep	NCBITaxon:9940
 Baraka!%!Sheep	VBO:0001314	Baraka (Sheep)	Baraka	Sheep	NCBITaxon:9940
 Barbado!%!Sheep	VBO:0001315	Barbado (Sheep)	Barbado	Sheep	NCBITaxon:9940
 Barbados Black Belly!%!Sheep	VBO:0001316	Barbados Black Belly (Sheep)	Barbados Black Belly	Sheep	NCBITaxon:9940
-Barbados Blackbelly!%!Sheep	VBO:0001317	Barbados Blackbelly (Sheep)	Barbados Blackbelly	Sheep	NCBITaxon:9940
 Bardoka!%!Sheep	VBO:0001318	Bardoka (Sheep)	Bardoka	Sheep	NCBITaxon:9940
 Baregeois!%!Sheep	VBO:0001319	Baregeois (Sheep)	Baregeois	Sheep	NCBITaxon:9940
 Barki!%!Sheep	VBO:0001320	Barki (Sheep)	Barki	Sheep	NCBITaxon:9940
@@ -1370,7 +1364,6 @@ East African long tailed!%!Sheep	VBO:0001403	East African long tailed (Sheep)	Ea
 East Friesian!%!Sheep	VBO:0001404	East Friesian (Sheep)	East Friesian	Sheep	NCBITaxon:9940
 Entre-Sambre-et-Meuse!%!Sheep	VBO:0001405	Entre-Sambre-et-Meuse (Sheep)	Entre-Sambre-et-Meuse	Sheep	NCBITaxon:9940
 Est Ã  laine MÃ©rino!%!Sheep	VBO:0001406	Est Ã  laine MÃ©rino (Sheep)	Est Ã  laine MÃ©rino	Sheep	NCBITaxon:9940
-Est Å• laine MÃ©rino!%!Sheep	VBO:0001407	Est Å• laine MÃ©rino (Sheep)	Est Å• laine MÃ©rino	Sheep	NCBITaxon:9940
 Estonian Blackhead!%!Sheep	VBO:0001408	Estonian Blackhead (Sheep)	Estonian Blackhead	Sheep	NCBITaxon:9940
 Estonian Whitehead!%!Sheep	VBO:0001409	Estonian Whitehead (Sheep)	Estonian Whitehead	Sheep	NCBITaxon:9940
 Exmoor Horn!%!Sheep	VBO:0001410	Exmoor Horn (Sheep)	Exmoor Horn	Sheep	NCBITaxon:9940
@@ -1422,7 +1415,6 @@ Kangal White Karaman!%!Sheep	VBO:0001455	Kangal White Karaman (Sheep)	Kangal Whi
 Karabakh!%!Sheep	VBO:0001456	Karabakh (Sheep)	Karabakh	Sheep	NCBITaxon:9940
 Karagouniko!%!Sheep	VBO:0001457	Karagouniko (Sheep)	Karagouniko	Sheep	NCBITaxon:9940
 Karakachan!%!Sheep	VBO:0001458	Karakachan (Sheep)	Karakachan	Sheep	NCBITaxon:9940
-Karakachan sheep!%!Sheep	VBO:0001459	Karakachan sheep (Sheep)	Karakachan sheep	Sheep	NCBITaxon:9940
 Karakas!%!Sheep	VBO:0001460	Karakas (Sheep)	Karakas	Sheep	NCBITaxon:9940
 Karakul!%!Sheep	VBO:0001461	Karakul (Sheep)	Karakul	Sheep	NCBITaxon:9940
 Karayaka!%!Sheep	VBO:0001462	Karayaka (Sheep)	Karayaka	Sheep	NCBITaxon:9940
@@ -1581,7 +1573,6 @@ Southdown!%!Sheep	VBO:0001614	Southdown (Sheep)	Southdown	Sheep	NCBITaxon:9940
 Soviet Merino!%!Sheep	VBO:0001615	Soviet Merino (Sheep)	Soviet Merino	Sheep	NCBITaxon:9940
 Soviet Mutton-Wool!%!Sheep	VBO:0001616	Soviet Mutton-Wool (Sheep)	Soviet Mutton-Wool	Sheep	NCBITaxon:9940
 spÄ‡lsau!%!Sheep	VBO:0001617	spÄ‡lsau (Sheep)	spÄ‡lsau	Sheep	NCBITaxon:9940
-spÃ¦lsau!%!Sheep	VBO:0001618	spÃ¦lsau (Sheep)	spÃ¦lsau	Sheep	NCBITaxon:9940
 Spanish Churro!%!Sheep	VBO:0001619	Spanish Churro (Sheep)	Spanish Churro	Sheep	NCBITaxon:9940
 Spanish Merino!%!Sheep	VBO:0001620	Spanish Merino (Sheep)	Spanish Merino	Sheep	NCBITaxon:9940
 Spiegel!%!Sheep	VBO:0001621	Spiegel (Sheep)	Spiegel	Sheep	NCBITaxon:9940
