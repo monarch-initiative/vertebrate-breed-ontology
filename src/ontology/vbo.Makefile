@@ -14,9 +14,10 @@ sync_google_sheets:
 	wget $(NCBIBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/ncbibreeds.tsv
 
 
-
-
-
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
 	$(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --output $@ && \
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@
+
+
+report-query-%:
+	$(ROBOT) query --use-graphs true -i $(SRC) -f tsv --query $(SPARQLDIR)/reports/$*.sparql reports/report-$*.tsv
