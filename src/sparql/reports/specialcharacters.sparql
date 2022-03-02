@@ -13,7 +13,7 @@ WHERE {
   ?cls a owl:Class; 
       rdfs:label ?clslabel .
     
-    FILTER (regex(str(?clslabel), "[A-Za-z0-9-_()]"))
+    FILTER (regex(str(?clslabel), "[^ +'.,A-Za-z0-9-_()\\[\\]]"))
 
     FILTER( !isBlank(?cls) && STRSTARTS(str(?cls), "http://purl.obolibrary.org/obo/VBO_"))
         
