@@ -1,38 +1,1140 @@
+format-version: 1.2
+import: http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl
+import: http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl
+import: http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl
+ontology: vbo
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "Vertebrate Breed Ontology" xsd:string
 
-Prefix(:=<http://purl.obolibrary.org/obo/vbo.owl#>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
-Prefix(dcterms:=<http://purl.org/dc/terms/>)
+[Term]
+id: VBO:00000000
+name: root node
 
+[Term]
+id: VBO:0001829 ! Zamorano-LeonÃ©s-Spain [Ass]
+synonym: "Zamorano-Leonés" EXACT [] {source="OMIA"}
+xref: OMIA:913
 
-Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
+[Term]
+id: VBO:0001841 ! Ã‚ne normand-France [Ass]
+synonym: "Normand" EXACT [] {source="OMIA"}
+xref: OMIA:1076
 
-Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
+[Term]
+id: VBO:0001922 ! Miniature-United States of America [Ass]
+synonym: "Miniature Donkey" EXACT [] {source="OMIA"}
+xref: OMIA:1077
 
+[Term]
+id: VBO:0002298
+synonym: "Finnish Ayrshire" EXACT [] {source="OMIA"}
+xref: OMIA:923
 
-Annotation(dcterms:title "Vertebrate Breed Ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:description "None")
+[Term]
+id: VBO:0002354
+synonym: "German Fleckvieh" EXACT [] {source="OMIA"}
+xref: OMIA:850
 
-Declaration(AnnotationProperty(dcterms:description))
-Declaration(AnnotationProperty(dcterms:license))
-Declaration(AnnotationProperty(dcterms:title))
-Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
+[Term]
+id: VBO:0002614
+synonym: "American Brown Swiss" EXACT [] {source="OMIA"}
+xref: OMIA:1036
 
+[Term]
+id: VBO:0002637
+synonym: "Montafon" EXACT [] {source="OMIA"}
+xref: OMIA:594
 
-############################
-#   Classes
-############################
+[Term]
+id: VBO:0002807
+synonym: "Red Bohemian" EXACT [] {source="OMIA"}
+xref: OMIA:609
 
-# Class: <http://purl.obolibrary.org/obo/VBO_00000000>
+[Term]
+id: VBO:0002882
+synonym: "Rubia Gallega" EXACT [] {source="OMIA"}
+xref: OMIA:471
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBO_00000000> "root node"@en)
+[Term]
+id: VBO:0002964
+synonym: "British Gloucester" EXACT [] {source="OMIA"}
+xref: OMIA:1113
 
+[Term]
+id: VBO:0003105
+synonym: "Swedish Highland" EXACT [] {source="OMIA"}
+xref: OMIA:445
 
-)
+[Term]
+id: VBO:0003122
+synonym: "Schwarzbunt" EXACT [] {source="OMIA"}
+xref: OMIA:218
+
+[Term]
+id: VBO:0003139
+synonym: "Black Pied Swiss" EXACT [] {source="OMIA"}
+synonym: "Black Spotted Swiss" EXACT [] {source="OMIA"}
+synonym: "Swiss Holstein" EXACT [] {source="OMIA"}
+xref: OMIA:1034
+xref: OMIA:208
+xref: OMIA:705
+
+[Term]
+id: VBO:0003151
+synonym: "Pied" EXACT [] {source="OMIA"}
+xref: OMIA:651
+
+[Term]
+id: VBO:0003152
+synonym: "German Holstein" EXACT [] {source="OMIA"}
+xref: OMIA:1033
+
+[Term]
+id: VBO:0003169
+synonym: "French Holstein" EXACT [] {source="OMIA"}
+xref: OMIA:1117
+
+[Term]
+id: VBO:0003179
+synonym: "Pied Hungarian" EXACT [] {source="OMIA"}
+xref: OMIA:203
+
+[Term]
+id: VBO:0003180
+synonym: "Indian Holstein" EXACT [] {source="OMIA"}
+xref: OMIA:756
+
+[Term]
+id: VBO:0003254
+synonym: "Lowland Swedish" EXACT [] {source="OMIA"}
+synonym: "Swedish Lowland" EXACT [] {source="OMIA"}
+xref: OMIA:250
+xref: OMIA:287
+
+[Term]
+id: VBO:0003300
+synonym: "Black and White Polish Lowland" EXACT [] {source="OMIA"}
+xref: OMIA:682
+
+[Term]
+id: VBO:0003310
+synonym: "Grey Hungarian" EXACT [] {source="OMIA"}
+xref: OMIA:521
+
+[Term]
+id: VBO:0003317
+synonym: "Indubrazil" EXACT [] {source="OMIA"}
+xref: OMIA:489
+
+[Term]
+id: VBO:0003581
+synonym: "Rouge-des-Prés" EXACT [] {source="OMIA"}
+xref: OMIA:1073
+
+[Term]
+id: VBO:0003823
+synonym: "Red Polish" EXACT [] {source="OMIA"}
+xref: OMIA:71
+
+[Term]
+id: VBO:0003825
+synonym: "Red Pied Lowland" EXACT [] {source="OMIA"}
+xref: OMIA:526
+
+[Term]
+id: VBO:0003880
+synonym: "Red and White Westphalian" EXACT [] {source="OMIA"}
+xref: OMIA:289
+
+[Term]
+id: VBO:0003934
+synonym: "Grey Steppe" EXACT [] {source="OMIA"}
+xref: OMIA:746
+
+[Term]
+id: VBO:0004127
+synonym: "Red Pied" EXACT [] {source="OMIA"}
+xref: OMIA:556
+
+[Term]
+id: VBO:0004129
+synonym: "German Simmental" EXACT [] {source="OMIA"}
+xref: OMIA:608
+
+[Term]
+id: VBO:0004144
+synonym: "Hungarian Red Spotted" EXACT [] {source="OMIA"}
+synonym: "Red Spotted Hungarian" EXACT [] {source="OMIA"}
+synonym: "Spotted Hungarian" EXACT [] {source="OMIA"}
+xref: OMIA:403
+xref: OMIA:513
+xref: OMIA:525
+
+[Term]
+id: VBO:0004147
+synonym: "Pezzata Rossa" EXACT [] {source="OMIA"}
+xref: OMIA:934
+
+[Term]
+id: VBO:0004195
+synonym: "Shorthorn West African" EXACT [] {source="OMIA"}
+xref: OMIA:557
+
+[Term]
+id: VBO:0004240
+synonym: "Sykia Chalkidiki" EXACT [] {source="OMIA"}
+xref: OMIA:695
+
+[Term]
+id: VBO:0004345
+synonym: "British White Park" EXACT [] {source="OMIA"}
+xref: OMIA:168
+
+[Term]
+id: VBO:0004351
+synonym: "Yakutian" EXACT [] {source="OMIA"}
+xref: OMIA:1137
+
+[Term]
+id: VBO:0004377
+synonym: "Red Norwegian" EXACT [] {source="OMIA"}
+xref: OMIA:538
+
+[Term]
+id: VBO:0004403
+synonym: "Spotted Mountain" EXACT [] {source="OMIA"}
+xref: OMIA:142
+
+[Term]
+id: VBO:0004409
+synonym: "Tux-Zillertaler" EXACT [] {source="OMIA"}
+xref: OMIA:1111
+
+[Term]
+id: VBO:0004423
+synonym: "Red Pied Flemish" EXACT [] {source="OMIA"}
+xref: OMIA:702
+
+[Term]
+id: VBO:0004428
+synonym: "Black Pied Lowland" EXACT [] {source="OMIA"}
+xref: OMIA:231
+
+[Term]
+id: VBO:0004445
+synonym: "Red Bulgarian" EXACT [] {source="OMIA"}
+xref: OMIA:333
+
+[Term]
+id: VBO:0004447
+synonym: "Sofia Brown" EXACT [] {source="OMIA"}
+xref: OMIA:593
+
+[Term]
+id: VBO:0004467
+synonym: "Canchim" EXACT [] {source="OMIA"}
+xref: OMIA:508
+
+[Term]
+id: VBO:0004468
+synonym: "Caracu" EXACT [] {source="OMIA"}
+xref: OMIA:536
+
+[Term]
+id: VBO:0004478
+synonym: "Pitangueiras" EXACT [] {source="OMIA"}
+xref: OMIA:256
+
+[Term]
+id: VBO:0004498
+synonym: "Evolèner" EXACT [] {source="OMIA"}
+xref: OMIA:1116
+
+[Term]
+id: VBO:0004499
+synonym: "Fribourg" EXACT [] {source="OMIA"}
+synonym: "Fribourg Black Spotted" EXACT [] {source="OMIA"}
+xref: OMIA:300
+xref: OMIA:601
+
+[Term]
+id: VBO:0004501
+synonym: "Red Holstein" EXACT [] {source="OMIA"}
+xref: OMIA:243
+
+[Term]
+id: VBO:0004595
+synonym: "Wakwa" EXACT [] {source="OMIA"}
+xref: OMIA:671
+
+[Term]
+id: VBO:0004632
+synonym: "Angler" EXACT [] {source="OMIA"}
+xref: OMIA:475
+
+[Term]
+id: VBO:0004634
+synonym: "Black Pied" EXACT [] {source="OMIA"}
+synonym: "Black Pied German" EXACT [] {source="OMIA"}
+xref: OMIA:317
+xref: OMIA:88
+
+[Term]
+id: VBO:0004642
+synonym: "Rotes Höhenvieh" EXACT [] {source="OMIA"}
+xref: OMIA:857
+
+[Term]
+id: VBO:0004643
+synonym: "Uckermärker" EXACT [] {source="OMIA"}
+xref: OMIA:1142
+
+[Term]
+id: VBO:0004645
+synonym: "Vorderwald" EXACT [] {source="OMIA"}
+xref: OMIA:204
+
+[Term]
+id: VBO:0004665
+synonym: "Black Pied Danish" EXACT [] {source="OMIA"}
+xref: OMIA:129
+
+[Term]
+id: VBO:0004696
+synonym: "Baladi" EXACT [] {source="OMIA"}
+xref: OMIA:474
+
+[Term]
+id: VBO:0004704
+synonym: "Spanish Berrenda en negro" EXACT [] {source="OMIA"}
+xref: OMIA:1114
+
+[Term]
+id: VBO:0004751
+synonym: "Northern Finncattle" EXACT [] {source="OMIA"}
+xref: OMIA:905
+
+[Term]
+id: VBO:0004799
+synonym: "Miniature Zebu" EXACT [] {source="OMIA"}
+xref: OMIA:1094
+
+[Term]
+id: VBO:0004827
+synonym: "Gold Coast Shorthorn" EXACT [] {source="OMIA"}
+xref: OMIA:684
+
+[Term]
+id: VBO:0004834
+synonym: "Barrosa" EXACT [] {source="OMIA"}
+xref: OMIA:291
+
+[Term]
+id: VBO:0004855
+synonym: "Banteng (Bali)" EXACT [] {source="OMIA"}
+xref: OMIA:151
+
+[Term]
+id: VBO:0004877
+synonym: "Malvi" EXACT [] {source="OMIA"}
+xref: OMIA:362
+
+[Term]
+id: VBO:0004878
+synonym: "Dangi" EXACT [] {source="OMIA"}
+xref: OMIA:365
+
+[Term]
+id: VBO:0004885
+synonym: "Ganjam" EXACT [] {source="OMIA"}
+xref: OMIA:524
+
+[Term]
+id: VBO:0004892
+synonym: "Kankrej" EXACT [] {source="OMIA"}
+xref: OMIA:909
+
+[Term]
+id: VBO:0004905
+synonym: "Kumauni Hill" EXACT [] {source="OMIA"}
+xref: OMIA:283
+
+[Term]
+id: VBO:0004926
+synonym: "Rathi" EXACT [] {source="OMIA"}
+xref: OMIA:551
+
+[Term]
+id: VBO:0004968
+synonym: "Maremmana" EXACT [] {source="OMIA"}
+xref: OMIA:529
+
+[Term]
+id: VBO:0004971
+synonym: "Pisa" EXACT [] {source="OMIA"}
+xref: OMIA:426
+
+[Term]
+id: VBO:0004979
+synonym: "Red Pied Aosta" EXACT [] {source="OMIA"}
+xref: OMIA:309
+
+[Term]
+id: VBO:0004987
+synonym: "Black Japanese" EXACT [] {source="OMIA"}
+synonym: "Japanese Black" EXACT [] {source="OMIA"}
+xref: OMIA:234
+xref: OMIA:31
+
+[Term]
+id: VBO:0004988
+synonym: "Japanese Brown" EXACT [] {source="OMIA"}
+xref: OMIA:330
+
+[Term]
+id: VBO:0005011
+synonym: "Teso" EXACT [] {source="OMIA"}
+xref: OMIA:420
+
+[Term]
+id: VBO:0005124
+synonym: "Kedah Kelantan" EXACT [] {source="OMIA"}
+xref: OMIA:715
+
+[Term]
+id: VBO:0005141
+synonym: "Red Friesian" EXACT [] {source="OMIA"}
+xref: OMIA:597
+
+[Term]
+id: VBO:0005145
+synonym: "Red and White Norwegian" EXACT [] {source="OMIA"}
+xref: OMIA:404
+
+[Term]
+id: VBO:0005147
+synonym: "Blacksided Trondheim" EXACT [] {source="OMIA"}
+synonym: "Coloursided Tronder" EXACT [] {source="OMIA"}
+xref: OMIA:570
+xref: OMIA:571
+
+[Term]
+id: VBO:0005148
+synonym: "Telemark" EXACT [] {source="OMIA"}
+xref: OMIA:405
+
+[Term]
+id: VBO:0005241
+synonym: "Butana" EXACT [] {source="OMIA"}
+xref: OMIA:677
+
+[Term]
+id: VBO:0005244
+synonym: "Kenana" EXACT [] {source="OMIA"}
+xref: OMIA:676
+
+[Term]
+id: VBO:0005269
+synonym: "Pied Slovak" EXACT [] {source="OMIA"}
+xref: OMIA:611
+
+[Term]
+id: VBO:0005270
+synonym: "Slovenian Cika" EXACT [] {source="OMIA"}
+xref: OMIA:1112
+
+[Term]
+id: VBO:0005274
+synonym: "Swedish Mountain" EXACT [] {source="OMIA"}
+xref: OMIA:447
+
+[Term]
+id: VBO:0005277
+synonym: "Red and white Swedish" EXACT [] {source="OMIA"}
+synonym: "Red Pied Swedish" EXACT [] {source="OMIA"}
+xref: OMIA:448
+xref: OMIA:658
+
+[Term]
+id: VBO:0005339
+synonym: "Nganda" EXACT [] {source="OMIA"}
+xref: OMIA:290
+
+[Term]
+id: VBO:0005340
+synonym: "Bukedi" EXACT [] {source="OMIA"}
+xref: OMIA:737
+
+[Term]
+id: VBO:0005370 ! Carora-Venezuela (Bolivarian Republic of) [Cattle]
+synonym: "Carora" EXACT [] {source="OMIA"}
+xref: OMIA:919
+
+[Term]
+id: VBO:0005372 ! Limonero-Venezuela (Bolivarian Republic of) [Cattle]
+synonym: "Limonero" EXACT [] {source="OMIA"}
+xref: OMIA:1065
+
+[Term]
+id: VBO:0005376 ! Romosinuano-Venezuela (Bolivarian Republic of) [Cattle]
+synonym: "Romosinuano" EXACT [] {source="OMIA"}
+xref: OMIA:920
+
+[Term]
+id: VBO:0005410 ! Tonga-Zambia [Cattle]
+synonym: "Tonga" EXACT [] {source="OMIA"}
+xref: OMIA:233
+
+[Term]
+id: VBO:0005876 ! Single Comb White Leghorn-Line 01-Ukraine [Commercial strain- layer- Leghorn (Chicken)]
+synonym: "Single Comb White Leghorn" EXACT [] {source="OMIA"}
+xref: OMIA:543
+
+[Term]
+id: VBO:0005952 ! Sebright Bantams-United Kingdom of Great Britain and Northern Ireland [Commercial strain- Sebright (Chicken)]
+synonym: "Sebright Bantam" EXACT [] {source="OMIA"}
+xref: OMIA:9
+
+[Term]
+id: VBO:0006532 ! Gallina Mapuche-Argentina [Chicken]
+synonym: "Mapuche" EXACT [] {source="OMIA"}
+xref: OMIA:895
+
+[Term]
+id: VBO:0006654 ! Anyi gray chicken-China [Chicken]
+synonym: "Anyi Tile-Like gray" EXACT [] {source="OMIA"}
+xref: OMIA:969
+
+[Term]
+id: VBO:0006660 ! Beijing You-China [Chicken]
+synonym: "Beijing Fatty" EXACT [] {source="OMIA"}
+synonym: "Beijing You" EXACT [] {source="OMIA"}
+xref: OMIA:1063
+xref: OMIA:971
+
+[Term]
+id: VBO:0006672 ! Dongï¼Œan chicken-China [Chicken]
+synonym: "Dongxiang" EXACT [] {source="OMIA"}
+xref: OMIA:860
+
+[Term]
+id: VBO:0006695 ! Huiyang Bearded-China [Chicken]
+synonym: "Huiyang Bearded" EXACT [] {source="OMIA"}
+xref: OMIA:1054
+
+[Term]
+id: VBO:0006725 ! Lushi-China [Chicken]
+synonym: "Lushi" EXACT [] {source="OMIA"}
+xref: OMIA:896
+
+[Term]
+id: VBO:0006731 ! Muchuan Silkies Black-China [Chicken]
+synonym: "Muchuan" EXACT [] {source="OMIA"}
+xref: OMIA:972
+
+[Term]
+id: VBO:0007053 ! Gallina Castellana Negra-Spain [Chicken]
+synonym: "Black Castilian" EXACT [] {source="OMIA"}
+xref: OMIA:355
+
+[Term]
+id: VBO:0007067 ! Utrerana-Spain [Chicken]
+synonym: "Barred Utreranian" EXACT [] {source="OMIA"}
+xref: OMIA:356
+
+[Term]
+id: VBO:0007148 ! Ameraucana-United Kingdom of Great Britain and Northern Ireland [Chicken]
+synonym: "White American" EXACT [] {source="OMIA"}
+xref: OMIA:591
+
+[Term]
+id: VBO:0007320 ! Kedu-Indonesia [Chicken]
+synonym: "Ayam Cemani" EXACT [] {source="OMIA"}
+xref: OMIA:862
+
+[Term]
+id: VBO:0007408 ! Minohiki-Japan [Chicken]
+synonym: "Minohiki" EXACT [] {source="OMIA"}
+xref: OMIA:914
+
+[Term]
+id: VBO:0007680
+synonym: "Black Leghorn" EXACT [] {source="OMIA"}
+xref: OMIA:548
+
+[Term]
+id: VBO:0007792
+synonym: "Svarthöna (ohuslän-Dals Svarthöna)" EXACT [] {source="OMIA"}
+xref: OMIA:864
+
+[Term]
+id: VBO:0007907
+synonym: "Black H'Mong" EXACT [] {source="OMIA"}
+xref: OMIA:863
+
+[Term]
+id: VBO:0008739
+synonym: "Nubian" EXACT [] {source="OMIA"}
+xref: OMIA:1
+
+[Term]
+id: VBO:0009062
+synonym: "Norwegian Dairy Goat" EXACT [] {source="OMIA"}
+xref: OMIA:1126
+
+[Term]
+id: VBO:0009480
+synonym: "Colombian" EXACT [] {source="OMIA"}
+xref: OMIA:532
+
+[Term]
+id: VBO:0009586
+synonym: "Pashmina" EXACT [] {source="OMIA"}
+xref: OMIA:273
+
+[Term]
+id: VBO:0009611
+synonym: "Sirohi" EXACT [] {source="OMIA"}
+xref: OMIA:621
+
+[Term]
+id: VBO:0009647
+synonym: "Girgentana" EXACT [] {source="OMIA"}
+xref: OMIA:1146
+
+[Term]
+id: VBO:0009659
+synonym: "Sardinian" EXACT [] {source="OMIA"}
+xref: OMIA:114
+
+[Term]
+id: VBO:0009749
+synonym: "Dutch Landrace" EXACT [] {source="OMIA"}
+xref: OMIA:988
+
+[Term]
+id: VBO:0009774
+synonym: "Dera Din Panah" EXACT [] {source="OMIA"}
+xref: OMIA:1134
+
+[Term]
+id: VBO:0009786
+synonym: "Nachi" EXACT [] {source="OMIA"}
+xref: OMIA:1135
+
+[Term]
+id: VBO:0009787
+synonym: "Pak angora" EXACT [] {source="OMIA"}
+xref: OMIA:1141
+
+[Term]
+id: VBO:0009816
+synonym: "Dagestan White" EXACT [] {source="OMIA"}
+xref: OMIA:638
+
+[Term]
+id: VBO:0009987
+synonym: "Gang" EXACT [] {source="OMIA"}
+xref: OMIA:1140
+
+[Term]
+id: VBO:0010413
+synonym: "Berber" EXACT [] {source="OMIA"}
+xref: OMIA:1164
+
+[Term]
+id: VBO:0010460
+synonym: "Trait Breton" EXACT [] {source="OMIA"}
+xref: OMIA:796
+
+[Term]
+id: VBO:0011097
+synonym: "Old-Tori" EXACT [] {source="OMIA"}
+xref: OMIA:1007
+
+[Term]
+id: VBO:0011249
+synonym: "Swiss Warmblood" EXACT [] {source="OMIA"}
+xref: OMIA:1016
+
+[Term]
+id: VBO:0011358
+synonym: "Missouri Foxtrotter" EXACT [] {source="OMIA"}
+xref: OMIA:1089
+
+[Term]
+id: VBO:0011370
+synonym: "Pony of the Americas" EXACT [] {source="OMIA"}
+xref: OMIA:1046
+
+[Term]
+id: VBO:0011384
+synonym: "South German Draft" EXACT [] {source="OMIA"}
+xref: OMIA:1015
+
+[Term]
+id: VBO:0011409
+synonym: "Menorca" EXACT [] {source="OMIA"}
+xref: OMIA:968
+
+[Term]
+id: VBO:0011461
+synonym: "British Spotted Pony" EXACT [] {source="OMIA"}
+xref: OMIA:1047
+
+[Term]
+id: VBO:0011496
+synonym: "Gipsy" EXACT [] {source="OMIA"}
+synonym: "Gypsy" EXACT [] {source="OMIA"}
+xref: OMIA:1014
+xref: OMIA:1122
+
+[Term]
+id: VBO:0011580
+synonym: "Italian draft horse" EXACT [] {source="OMIA"}
+xref: OMIA:942
+
+[Term]
+id: VBO:0011598
+synonym: "Italian Trotter" EXACT [] {source="OMIA"}
+xref: OMIA:979
+
+[Term]
+id: VBO:0011828
+synonym: "Colorado Ranger" EXACT [] {source="OMIA"}
+xref: OMIA:655
+
+[Term]
+id: VBO:0012372
+synonym: "Edelschwein" EXACT [] {source="OMIA"}
+xref: OMIA:467
+
+[Term]
+id: VBO:0012400
+synonym: "Deutsches Edelschwein" EXACT [] {source="OMIA"}
+xref: OMIA:562
+
+[Term]
+id: VBO:0012408
+synonym: "Finnish Yorkshire" EXACT [] {source="OMIA"}
+xref: OMIA:840
+
+[Term]
+id: VBO:0012462
+synonym: "Great Yorkshire" EXACT [] {source="OMIA"}
+xref: OMIA:435
+
+[Term]
+id: VBO:0012556
+synonym: "Casco de Mula" EXACT [] {source="OMIA"}
+xref: OMIA:473
+
+[Term]
+id: VBO:0012562
+synonym: "Laconie" EXACT [] {source="OMIA"}
+xref: OMIA:319
+
+[Term]
+id: VBO:0012718
+synonym: "Canastrao" EXACT [] {source="OMIA"}
+xref: OMIA:5
+
+[Term]
+id: VBO:0012741
+synonym: "Bama miniature" EXACT [] {source="OMIA"}
+xref: OMIA:1008
+
+[Term]
+id: VBO:0012749
+synonym: "Dahe" EXACT [] {source="OMIA"}
+xref: OMIA:789
+
+[Term]
+id: VBO:0012786
+synonym: "Shaziling" EXACT [] {source="OMIA"}
+xref: OMIA:928
+
+[Term]
+id: VBO:0012819
+synonym: "Minzhu" EXACT [] {source="OMIA"}
+xref: OMIA:429
+
+[Term]
+id: VBO:0012835
+synonym: "Rongchang" EXACT [] {source="OMIA"}
+xref: OMIA:861
+
+[Term]
+id: VBO:0012845
+synonym: "Chinese Erhualian" EXACT [] {source="OMIA"}
+xref: OMIA:984
+
+[Term]
+id: VBO:0012847
+synonym: "Fengjing" EXACT [] {source="OMIA"}
+xref: OMIA:428
+
+[Term]
+id: VBO:0012853
+synonym: "Small Red" EXACT [] {source="OMIA"}
+xref: OMIA:710
+
+[Term]
+id: VBO:0012856
+synonym: "Chinese-Tibetan" EXACT [] {source="OMIA"}
+xref: OMIA:791
+
+[Term]
+id: VBO:0012864
+synonym: "Kele" EXACT [] {source="OMIA"}
+xref: OMIA:790
+
+[Term]
+id: VBO:0012865
+synonym: "Liangshan" EXACT [] {source="OMIA"}
+xref: OMIA:935
+
+[Term]
+id: VBO:0012910
+synonym: "Bavarian Landschwein" EXACT [] {source="OMIA"}
+xref: OMIA:875
+
+[Term]
+id: VBO:0013037
+synonym: "Desi" EXACT [] {source="OMIA"}
+xref: OMIA:587
+
+[Term]
+id: VBO:0013055
+synonym: "Cinta Senese" EXACT [] {source="OMIA"}
+xref: OMIA:1120
+
+[Term]
+id: VBO:0013099
+synonym: "Estonian Bacon" EXACT [] {source="OMIA"}
+xref: OMIA:390
+
+[Term]
+id: VBO:0013234
+synonym: "Yucatan miniature pig" EXACT [] {source="OMIA"}
+xref: OMIA:1168
+
+[Term]
+id: VBO:0014088 ! orjaÅ¡ki lisec-Slovenia [Rabbit]
+synonym: "Checkered Giant" EXACT [] {source="OMIA"}
+xref: OMIA:918
+
+[Term]
+id: VBO:0014105 ! Beveren-United States of America [Rabbit]
+synonym: "Beveren" EXACT [] {source="OMIA"}
+xref: OMIA:604
+
+[Term]
+id: VBO:0014559 ! Drents Heideschaap-Netherlands [Drenthe Heath Sheep (Sheep)]
+synonym: "Drenthe" EXACT [] {source="OMIA"}
+xref: OMIA:372
+
+[Term]
+id: VBO:0014616 ! Commune des Alpes-France [French Alpine (Sheep)]
+synonym: "Communes des Alpes" EXACT [] {source="OMIA"}
+xref: OMIA:662
+
+[Term]
+id: VBO:0014736 ! INRA 401-France [INRA 401 (Sheep)]
+synonym: "Romane" EXACT [] {source="OMIA"}
+xref: OMIA:967
+
+[Term]
+id: VBO:0015035 ! Pelibuey-Mexico [Pelibuey (Sheep)]
+synonym: "Mexican Pelibuey" EXACT [] {source="OMIA"}
+xref: OMIA:1121
+
+[Term]
+id: VBO:0015203 ! Santa Ines-Brazil [Santa Ines (Sheep)]
+synonym: "Brazilian Santa Inês" EXACT [] {source="OMIA"}
+xref: OMIA:1039
+
+[Term]
+id: VBO:0015256 ! Somali Brasileiro-Brazil [Somali (Sheep)]
+synonym: "Brazilian Somali" EXACT [] {source="OMIA"}
+xref: OMIA:226
+
+[Term]
+id: VBO:0015476 ! Bororo-Chad [Uda (Sheep)]
+synonym: "Bororo" EXACT [] {source="OMIA"}
+xref: OMIA:225
+
+[Term]
+id: VBO:0015497 ! Mouton vendÃ©en-France [Vendeen (Sheep)]
+synonym: "Mouton Vendeen" EXACT [] {source="OMIA"}
+xref: OMIA:459
+
+[Term]
+id: VBO:0015510 ! WeiÃŸes Alpenschaf-Switzerland [WeiÃŸes Alpenschaf (Sheep)]
+synonym: "Swiss Alpine" EXACT [] {source="OMIA"}
+xref: OMIA:877
+
+[Term]
+id: VBO:0015619 ! Elliotdale-Australia [Sheep]
+synonym: "Elliottdale" EXACT [] {source="OMIA"}
+xref: OMIA:482
+
+[Term]
+id: VBO:0015622 ! Gromark-Australia [Sheep]
+synonym: "Gromark" EXACT [] {source="OMIA"}
+xref: OMIA:566
+
+[Term]
+id: VBO:0015623 ! Hyfer-Australia [Sheep]
+synonym: "Hyfer" EXACT [] {source="OMIA"}
+xref: OMIA:358
+
+[Term]
+id: VBO:0015629 ! Tasmanian Merino-Australia [Sheep]
+synonym: "Tasmanian Merino" EXACT [] {source="OMIA"}
+xref: OMIA:25
+
+[Term]
+id: VBO:0015690 ! Dubska-Bosnia and Herzegovina [Sheep]
+synonym: "Pramenka" EXACT [] {source="OMIA"}
+xref: OMIA:719
+
+[Term]
+id: VBO:0015696 ! Crioula-Brazil [Sheep]
+synonym: "Crioula" EXACT [] {source="OMIA"}
+synonym: "Crioula Lanada" EXACT [] {source="OMIA"}
+xref: OMIA:368
+xref: OMIA:369
+
+[Term]
+id: VBO:0015734 ! Altay Fat-Rumped-China [Sheep]
+synonym: "Altay" EXACT [] {source="OMIA"}
+xref: OMIA:1128
+
+[Term]
+id: VBO:0015810 ! RhÃ¶nschaf-Germany [Sheep]
+synonym: "Rhoenschaf" EXACT [] {source="OMIA"}
+synonym: "Rhon" EXACT [] {source="OMIA"}
+xref: OMIA:631
+xref: OMIA:727
+
+[Term]
+id: VBO:0015823 ! WeiÃŸkÃ¶pfiges Fleischschaf-Germany [Sheep]
+synonym: "German Whiteheaded Mutton" EXACT [] {source="OMIA"}
+xref: OMIA:628
+
+[Term]
+id: VBO:0015839 ! Ossimi-Egypt [Sheep]
+synonym: "Ausimi" EXACT [] {source="OMIA"}
+synonym: "Osimi" EXACT [] {source="OMIA"}
+xref: OMIA:663
+xref: OMIA:664
+
+[Term]
+id: VBO:0015840 ! Rahmani-Egypt [Sheep]
+synonym: "Rahmani" EXACT [] {source="OMIA"}
+xref: OMIA:665
+
+[Term]
+id: VBO:0015863 ! Rasa Aragonesa-Spain [Sheep]
+synonym: "Rasa Aragonesa" EXACT [] {source="OMIA"}
+xref: OMIA:883
+
+[Term]
+id: VBO:0015887 ! MÃ©rinos d'Arles-France [Sheep]
+synonym: "Merino d'Arles" EXACT [] {source="OMIA"}
+xref: OMIA:67
+
+[Term]
+id: VBO:0015888 ! PrÃ©Alpes du Sud-France [Sheep]
+synonym: "Prealpes" EXACT [] {source="OMIA"}
+xref: OMIA:661
+
+[Term]
+id: VBO:0015942 ! Swaledale-United Kingdom of Great Britain and Northern Ireland [Sheep]
+synonym: "Swaledale" EXACT [] {source="OMIA"}
+xref: OMIA:433
+
+[Term]
+id: VBO:0015947 ! Welsh Mountain-United Kingdom of Great Britain and Northern Ireland [Sheep]
+synonym: "Welsh Mountain" EXACT [] {source="OMIA"}
+xref: OMIA:193
+
+[Term]
+id: VBO:0016011 ! Priangan-Indonesia [Sheep]
+synonym: "Indonesian Thin Tail" EXACT [] {source="OMIA"}
+xref: OMIA:6
+
+[Term]
+id: VBO:0016028 ! Chokla-India [Sheep]
+synonym: "Chokla" EXACT [] {source="OMIA"}
+xref: OMIA:623
+
+[Term]
+id: VBO:0016036 ! Gaddi-India [Sheep]
+synonym: "Gaddi" EXACT [] {source="OMIA"}
+xref: OMIA:509
+
+[Term]
+id: VBO:0016053 ! Kilakarsal-India [Sheep]
+synonym: "Keezhakkaraisal" EXACT [] {source="OMIA"}
+xref: OMIA:704
+
+[Term]
+id: VBO:0016054 ! Magra-India [Sheep]
+synonym: "Magra" EXACT [] {source="OMIA"}
+xref: OMIA:285
+
+[Term]
+id: VBO:0016058 ! Marwari-India [Sheep]
+synonym: "Marwari" EXACT [] {source="OMIA"}
+xref: OMIA:478
+
+[Term]
+id: VBO:0016061 ! Muzaffarnagri-India [Sheep]
+synonym: "Muzaffarnagari" EXACT [] {source="OMIA"}
+xref: OMIA:281
+
+[Term]
+id: VBO:0016062 ! Nali-India [Sheep]
+synonym: "Nali" EXACT [] {source="OMIA"}
+xref: OMIA:624
+
+[Term]
+id: VBO:0016063 ! Nellore-India [Sheep]
+synonym: "Nellore" EXACT [] {source="OMIA"}
+xref: OMIA:425
+
+[Term]
+id: VBO:0016064 ! Nilgiri-India [Sheep]
+synonym: "Nilgiri" EXACT [] {source="OMIA"}
+xref: OMIA:241
+
+[Term]
+id: VBO:0016066 ! Patanwadi-India [Sheep]
+synonym: "Patanwadi" EXACT [] {source="OMIA"}
+xref: OMIA:530
+
+[Term]
+id: VBO:0016108 ! Altamurana-Italy [Sheep]
+synonym: "Altamurana" EXACT [] {source="OMIA"}
+xref: OMIA:410
+
+[Term]
+id: VBO:0016122 ! Delle Langhe-Italy [Sheep]
+synonym: "Langhe" EXACT [] {source="OMIA"}
+xref: OMIA:183
+
+[Term]
+id: VBO:0016132 ! Massese-Italy [Sheep]
+synonym: "Massese" EXACT [] {source="OMIA"}
+xref: OMIA:1109
+
+[Term]
+id: VBO:0016156 ! Valle del Belice-Italy [Sheep]
+synonym: "Valle del Belice" EXACT [] {source="OMIA"}
+xref: OMIA:990
+
+[Term]
+id: VBO:0016177 ! Kazakhskaya Tonkorunnaya-Kazakhstan [Sheep]
+synonym: "Kazakh Finewool" EXACT [] {source="OMIA"}
+xref: OMIA:219
+
+[Term]
+id: VBO:0016189 ! Alai-Kyrgyzstan [Sheep]
+synonym: "Alai Fat Rumped" EXACT [] {source="OMIA"}
+xref: OMIA:216
+
+[Term]
+id: VBO:0016221 ! Sardi-Morocco [Sheep]
+synonym: "Sardi" EXACT [] {source="OMIA"}
+xref: OMIA:81
+
+[Term]
+id: VBO:0016295 ! Gammelnorsk spaelsau-Norway [Sheep]
+synonym: "Norwegian White" EXACT [] {source="OMIA"}
+synonym: "Spael" EXACT [] {source="OMIA"}
+xref: OMIA:616
+xref: OMIA:991
+
+[Term]
+id: VBO:0016308 ! Borderdale-New Zealand [Sheep]
+synonym: "Borderdale" EXACT [] {source="OMIA"}
+xref: OMIA:891
+
+[Term]
+id: VBO:0016317 ! South Hampshire-New Zealand [Sheep]
+synonym: "South Hampshire" EXACT [] {source="OMIA"}
+xref: OMIA:194
+
+[Term]
+id: VBO:0016371 ! Polska owca gÃ³rska-Poland [Sheep]
+synonym: "Polish Mountain" EXACT [] {source="OMIA"}
+xref: OMIA:411
+
+[Term]
+id: VBO:0016462 ! Sur-Russian Federation [Sheep]
+synonym: "Sur" EXACT [] {source="OMIA"}
+xref: OMIA:385
+
+[Term]
+id: VBO:0016483 ! Hejazi-Saudi Arabia [Sheep]
+synonym: "Hejazi" EXACT [] {source="OMIA"}
+xref: OMIA:352
+
+[Term]
+id: VBO:0016509 ! Jezersko-solÄavska ovca-Slovenia [Sheep]
+synonym: "Solcava" EXACT [] {source="OMIA"}
+xref: OMIA:720
+
+[Term]
+id: VBO:0016517 ! HelsingefÃ¥r-Sweden [Sheep]
+synonym: "Helsinge" EXACT [] {source="OMIA"}
+xref: OMIA:1107
+
+[Term]
+id: VBO:0016518 ! KlÃ¶vsjÃ¶fÃ¥r-Sweden [Sheep]
+synonym: "Klövsjö" EXACT [] {source="OMIA"}
+xref: OMIA:1108
+
+[Term]
+id: VBO:0016519 ! RoslagsfÃ¥r-Sweden [Sheep]
+synonym: "Swedish Landrace" EXACT [] {source="OMIA"}
+xref: OMIA:890
+
+[Term]
+id: VBO:0016522 ! VÃ¤rmlandsfÃ¥r-Sweden [Sheep]
+synonym: "Värmland" EXACT [] {source="OMIA"}
+xref: OMIA:1106
+
+[Term]
+id: VBO:0016537 ! Saraja-Turkmenistan [Sheep]
+synonym: "Saraja" EXACT [] {source="OMIA"}
+xref: OMIA:217
+
+[Term]
+id: VBO:0016577 ! Sokil'ska-Ukraine [Sheep]
+synonym: "Sokolka" EXACT [] {source="OMIA"}
+xref: OMIA:331
+
+[Term]
+id: VBO:0016618 ! Namaqua Afrikaner-South Africa [Sheep]
+synonym: "Namaqua" EXACT [] {source="OMIA"}
+xref: OMIA:485
+
+[Term]
+id: VBO:0016700 ! White Holland-United States of America [Dutch White (Turkey)]
+synonym: "White Holland" EXACT [] {source="OMIA"}
+xref: OMIA:723
+
+[Term]
+id: VBO:0016813 ! Mongolian Yak-Mongolia [Yak (Yak (domestic))]
+synonym: "Mongolian" EXACT [] {source="OMIA"}
+xref: OMIA:975
+
+[Term]
+id: VBO:0016844
+synonym: "Schwerfurt" EXACT [] {source="OMIA"}
+xref: OMIA:502
+

@@ -21,3 +21,13 @@ $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
 
 report-query-%:
 	$(ROBOT) query --use-graphs true -i $(SRC) -f tsv --query $(SPARQLDIR)/reports/$*.sparql reports/report-$*.tsv
+
+MERGE_TEMPLATE=tmp/merge_template.tsv
+TEMPLATE_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1vTV6ITR7RJMt5jswUHBmEEcfbNAeZWpj4VkDbMY3Bvh_fcmfXEw1CFvbgzOUPDxsj6oT5vsFQRg8FuM/pub?gid=346126899&single=true&output=tsv
+
+tmp/merge_template.tsv:
+				wget "$(TEMPLATE_URL)" -O $@
+
+merge_template: $(MERGE_TEMPLATE)
+					$(ROBOT) template --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --merge-before --input $(SRC) \
+					--template $(MERGE_TEMPLATE) convert -f obo -o $(SRC)
