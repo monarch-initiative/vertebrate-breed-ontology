@@ -43,7 +43,7 @@ TODAY ?=                    $(shell date +%Y-%m-%d)
 OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
-OTHER_SRC =                 $(COMPONENTSDIR)/ncbitransbound.owl $(COMPONENTSDIR)/ncbibreeds.owl $(COMPONENTSDIR)/OMIAtransbound.owl $(COMPONENTSDIR)/OMIAbreeds.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/ncbitransbound.owl $(COMPONENTSDIR)/ncbibreeds.owl $(COMPONENTSDIR)/omiatransbound.owl $(COMPONENTSDIR)/omiabreeds.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 
 FORMATS = $(sort  owl obo json owl)
