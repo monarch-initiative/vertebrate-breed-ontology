@@ -1,0 +1,399 @@
+VBO id	transboundary name as in VBO	OMIA breed_id	xref	OMIA breed_name	syn source	NCBITaxon_species_id	Xlookup NCBITaxon species name	DADIS Transboundary name	Synonyms for transboundary name, to be added	Notes (could be "A rdfs:comment" but unsure whether there is already a comment, so not adding at this point)
+ID			A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source					
+VBO:0000854	West African Dwarf (Goat)	674	OMIA:674	African Dwarf	OMIA	9925	Goat	West African Dwarf		
+VBO:0000094	Africander (Cattle)	79	OMIA:79	Afrikander|Afrikaner	OMIA	9913	Cattle	Africander	Afrikander, Afrikaner	
+VBO:0000894	Akhal-Teke (Horse)	954	OMIA:954	Akhal-Teke		9796	Horse	Akhal-Teke		
+VBO:0000096	Ala-Tau (Cattle)	252	OMIA:252	Ala Tau	OMIA	9913	Cattle	Ala-Tau	Ala Tau	
+VBO:0000717	Alpine (Goat)	78	OMIA:78	Alpine	OMIA	9925	Goat	Alpine		
+VBO:0000222	Grauvieh (Cattle)	174	OMIA:174	Alpine Grey	OMIA	9913	Cattle	Grauvieh	Alpine Grey	
+VBO:0000913	Bashkir Curly (Horse)	1088	OMIA:1088	American Bashkir Curly horse		9796	Horse	Bashkir Curly		
+VBO:0000896	American Miniatur Horse (Horse)	1006	OMIA:1006	American Miniature Horse	OMIA	9796	Horse	American Miniatur Horse	American Miniature Horse	
+VBO:0000897	American Paint (Horse)	947	OMIA:947	American Paint Horse	OMIA	9796	Horse	American Paint	American Paint Horse	
+VBO:0001057	Quarter Horse (Horse)	427	OMIA:427	American Quarter Horse		9796	Horse	Quarter Horse		
+VBO:0000898	American Saddle Horse (Horse)	848	OMIA:848	American Saddlebred		9796	Horse	American Saddle Horse		
+VBO:0000899	American Trotter (Horse)	520	OMIA:520	American Standardbred		9796	Horse	American Trotter		
+VBO:0000441	Ancona (Chicken)	340	OMIA:340	Ancona	OMIA	9031	Chicken	Ancona		
+VBO:0000102	Angeln (Cattle)	527	OMIA:527	Angeln	OMIA	9913	Cattle	Angeln		
+VBO:0001108	Angeln Saddleback (Pig)	439	OMIA:439	Angeln Saddleback		9823	Pig	Angeln Saddleback		
+VBO:0000722	Anglo-Nubian (Goat)	431	OMIA:431	Anglo Nubian	OMIA	9925	Goat	Anglo-Nubian	Anglo Nubian	
+VBO:0000103	Angoni (Cattle)	188	OMIA:188	Angoni	OMIA	9913	Cattle	Angoni		
+VBO:0000104	Angus (Cattle)	44	OMIA:44	Angus	OMIA	9913	Cattle	Angus		
+VBO:0000105	Ankole (Cattle)	421	OMIA:421	Ankole	OMIA	9913	Cattle	Ankole		
+VBO:0000904	Appaloosa (Horse)	589	OMIA:589	Appaloosa		9796	Horse	Appaloosa		
+VBO:0000724	Appenzell (Goat)	1147	OMIA:1147	Appenzell	OMIA	9925	Goat	Appenzell		
+VBO:0000443	Appenzeller Barthuhn (Chicken)	1066	OMIA:1066	Appenzeller Barthuhn	OMIA	9031	Chicken	Appenzeller Barthuhn		
+VBO:0000336	Podolian (Cattle)	164	OMIA:164	Apulian	OMIA	9913	Cattle	Podolian		
+VBO:0000905	Arab (Horse)	134	OMIA:134	Arabian	OMIA	9796	Horse	Arab	Arabian	
+VBO:0000445	Araucana (Chicken)	828	OMIA:828	Araucana	OMIA	9031	Chicken	Araucana		
+VBO:0000907	Ardennes (Horse)	686	OMIA:686	Ardennes		9796	Horse	Ardennes		
+VBO:0001304	Assaf (Sheep)	338	OMIA:338	Assaf		9940	Sheep	Assaf		
+VBO:0000111	Asturian Valley (Cattle)	472	OMIA:472	Asturiana	OMIA	9913	Cattle	Asturian Valley	Asturiana	
+VBO:0000115	Australian Friesian Sahiwal (Cattle)	361	OMIA:361	Australian Friesian Sahiwal	OMIA	9913	Cattle	Australian Friesian Sahiwal		
+VBO:0000243	Illawarra Shorthorn (Cattle)	197	OMIA:197	Australian Illawarra Shorthorn	OMIA	9913	Cattle	Illawarra Shorthorn		
+VBO:0000118	Australian Milking Zebu (Cattle)	400	OMIA:400	Australian Milking Zebu	OMIA	9913	Cattle	Australian Milking Zebu		
+VBO:0000448	Australorp (Chicken)	383	OMIA:383	Australorp	OMIA	9031	Chicken	Australorp		
+VBO:0000119	AVILEÃ‘A-NEGRA IBÃ‰RICA [Avileña-Negra Ibérica] (Cattle)	249	OMIA:249	Avilena	OMIA	9913	Cattle	AVILEÃ‘A-NEGRA IBÃ‰RICA [Avileña-Negra Ibérica]		
+VBO:0001308	Awassi (Sheep)	43	OMIA:43	Awassi		9940	Sheep	Awassi		
+VBO:0000120	Ayrshire (Cattle)	105	OMIA:105	Ayrshire	OMIA	9913	Cattle	Ayrshire		
+VBO:0000129	BaoulÃ© [Baoulé] (Cattle)	523	OMIA:523	Baoule	OMIA	9913	Cattle	BaoulÃ© [Baoulé]	Baoule	
+VBO:0001316	Barbados Black Belly (Sheep)	127	OMIA:127	Barbados Black Belly		9940	Sheep	Barbados Black Belly		
+VBO:0000728	Barbari (Goat)	262	OMIA:262	Barbari	OMIA	9925	Goat	Barbari		
+VBO:0000131	Barotse (Cattle)	232	OMIA:232	Barotse	OMIA	9913	Cattle	Barotse		
+VBO:0000455	Barred Plymouth Rock D11 (Chicken)	477	OMIA:477	Barred Plymouth Rock	OMIA	9031	Chicken	Barred Plymouth Rock D11		
+VBO:0000913	Bashkir Curly (Horse)	1041	OMIA:1041	Bashkir Curly Horse	OMIA	9796	Horse	Bashkir Curly	Bashkir Curly Horse	
+VBO:0000729	Beetal (Goat)	503	OMIA:503	Beetal	OMIA	9925	Goat	Beetal		
+VBO:0001322	Belclare (Sheep)	884	OMIA:884	Belclare		9940	Sheep	Belclare		
+VBO:0000915	Belgian Draft (Horse)	15	OMIA:15	Belgian		9796	Horse	Belgian Draft		
+VBO:0000139	Belgian Blue (Cattle)	49	OMIA:49	Belgian Blue	OMIA	9913	Cattle	Belgian Blue		
+VBO:0000915	Belgian Draft (Horse)	1082	OMIA:1082	Belgian draft horse	OMIA	9796	Horse	Belgian Draft	Belgian draft horse	
+VBO:0000139	Belgian Blue (Cattle)	155	OMIA:155	Belgian White and Blue Pied	OMIA	9913	Cattle	Belgian Blue		
+VBO:0000141	Belmont Red (Cattle)	103	OMIA:103	Belmont Red	OMIA	9913	Cattle	Belmont Red		
+VBO:0000142	Belted Galloway (Cattle)	853	OMIA:853	Belted Galloway	OMIA	9913	Cattle	Belted Galloway		
+VBO:0001327	Beni Guil (Sheep)	82	OMIA:82	Beni Guil		9940	Sheep	Beni Guil		
+VBO:0001328	Bentheim (Sheep)	632	OMIA:632	Bentheim		9940	Sheep	Bentheim		
+VBO:0001114	Berkshire (Pig)	398	OMIA:398	Berkshire		9823	Pig	Berkshire		
+VBO:0000733	Bezoar (Goat)	1152	OMIA:1152	Bezoar	OMIA	9925	Goat	Bezoar		
+VBO:0000237	Holstein (black and white) (Cattle)	505	OMIA:505	Black and White	OMIA	9913	Cattle	Holstein (black and white)		
+VBO:0000731	Bengal (Goat)	504	OMIA:504	Black Bengal	OMIA	9925	Goat	Bengal		
+VBO:0001109	Basque Black Pied (Pig)	654	OMIA:654	Black Pied Basque		9823	Pig	Basque Black Pied		
+VBO:0000424	Welsh Black (Cattle)	314	OMIA:314	Black Welsh	OMIA	9913	Cattle	Welsh Black		
+VBO:0001339	Blackhead Persian (Sheep)	277	OMIA:277	Blackhead Persian		9940	Sheep	Blackhead Persian		
+VBO:0000151	Blonde Dâ€™aquitaine [Blonde d'Aquitaine] (Cattle)	97	OMIA:97	Blonde d'Aquitaine	OMIA	9913	Cattle	Blonde Dâ€™aquitaine [Blonde d'Aquitaine]		
+VBO:0000139	Belgian Blue (Cattle)	335	OMIA:335	Blue and White Belgian	OMIA	9913	Cattle	Belgian Blue		
+VBO:0000442	Andalusian (Chicken)	62	OMIA:62	Blue Andalusian	OMIA	9031	Chicken	Andalusian		
+VBO:0001344	Bluefaced Leicester (Sheep)	432	OMIA:432	Blue Faced Leicester	OMIA	9940	Sheep	Bluefaced Leicester	Blue Faced Leicester	
+VBO:0001341	Bleu Du Maine (Sheep)	295	OMIA:295	Blue Faced Maine		9940	Sheep	Bleu Du Maine		
+VBO:0000736	Boer (Goat)	561	OMIA:561	Boer	OMIA	9925	Goat	Boer		
+VBO:0000155	Bonsmara (Cattle)	119	OMIA:119	Bonsmara	OMIA	9913	Cattle	Bonsmara		
+VBO:0001345	Booroola (Sheep)	1038	OMIA:1038	Booroola		9940	Sheep	Booroola		
+VBO:0000156	Boran (Cattle)	99	OMIA:99	Boran	OMIA	9913	Cattle	Boran		
+VBO:0001347	Border Leicester (Sheep)	359	OMIA:359	Border Leicester		9940	Sheep	Border Leicester		
+VBO:0000158	Braford (Cattle)	169	OMIA:169	Braford	OMIA	9913	Cattle	Braford		
+VBO:0000159	Brahman (Cattle)	24	OMIA:24	Brahman	OMIA	9913	Cattle	Brahman		
+VBO:0000161	Brangus (Cattle)	449	OMIA:449	Brangus	OMIA	9913	Cattle	Brangus		
+VBO:0000166	Brown Swiss (Cattle)	59	OMIA:59	Braunvieh	OMIA	9913	Cattle	Brown Swiss		
+VBO:0001700	Broad Breasted Bronze (Turkey)	440	OMIA:440	Broad Breasted Bronze		9103	Turkey	Broad Breasted Bronze		
+VBO:0001701	Broad Breasted White (Turkey)	297	OMIA:297	Broad Breasted White		9103	Turkey	Broad Breasted White		
+VBO:0000505	Commercial strain- layer- Leghorn (Chicken)	341	OMIA:341	Brown Leghorn	OMIA	9031	Chicken	Commercial strain- layer- Leghorn		
+VBO:0000364	Russian Brown (Cattle)	434	OMIA:434	Brown Russian	OMIA	9913	Cattle	Russian Brown		
+VBO:0000166	Brown Swiss (Cattle)	106	OMIA:106	Brown Swiss	OMIA	9913	Cattle	Brown Swiss		
+VBO:0000427	White Fulani (Cattle)	707	OMIA:707	Bunaji	OMIA	9913	Cattle	White Fulani		
+VBO:0000167	BuÅ¡a [Buša] (Cattle)	717	OMIA:717	Busa	OMIA	9913	Cattle	BuÅ¡a [Buša]		
+VBO:0001682	West African Dwarf (Sheep)	878	OMIA:878	Cameroon		9940	Sheep	West African Dwarf		
+VBO:0000139	Belgian Blue (Cattle)	347	OMIA:347	Central Belgian	OMIA	9913	Cattle	Belgian Blue		https://www.thecattlesite.com/breeds/beef/8/belgian-blue/
+VBO:0000747	Chamois Coloured (Goat)	1149	OMIA:1149	Chamois Colored	OMIA	9925	Goat	Chamois Coloured	Chamois Colored	
+VBO:0000177	Charolais (Cattle)	19	OMIA:19	Charolais	OMIA	9913	Cattle	Charolais		
+VBO:0001120	Chester White (Pig)	321	OMIA:321	Chester White		9823	Pig	Chester White		
+VBO:0001686	Cheviot (Sheep)	191	OMIA:191	Cheviot		9940	Sheep	Cheviot		
+VBO:0000178	Chianina (Cattle)	211	OMIA:211	Chianina	OMIA	9913	Cattle	Chianina		
+VBO:0000179	Chillingham (Cattle)	264	OMIA:264	Chillingham	OMIA	9913	Cattle	Chillingham		
+VBO:0001619	Spanish Churro (Sheep)	889	OMIA:889	Churra		9940	Sheep	Spanish Churro		
+VBO:0001653	Tsigai (Sheep)	344	OMIA:344	Cigaja		9940	Sheep	Tsigai		
+VBO:0001373	Clun Forest (Sheep)	499	OMIA:499	Clun Forest		9940	Sheep	Clun Forest		
+VBO:0000934	Clydesdale (Horse)	136	OMIA:136	Clydesdale		9796	Horse	Clydesdale		
+VBO:0001378	Columbia (Sheep)	354	OMIA:354	Columbia		9940	Sheep	Columbia		
+VBO:0000471	Columbian Rock (Chicken)	507	OMIA:507	Columbian Rock	OMIA	9031	Chicken	Columbian Rock		
+VBO:0000937	Connemara Pony (Horse)	908	OMIA:908	Connemara pony	OMIA	9796	Horse	Connemara Pony	Connemara pony	
+VBO:0001380	Coopworth (Sheep)	148	OMIA:148	Coopworth		9940	Sheep	Coopworth		
+VBO:0000516	Cornish (Chicken)	272	OMIA:272	Cornish	OMIA	9031	Chicken	Cornish		
+VBO:0001382	Corriedale (Sheep)	53	OMIA:53	Corriedale		9940	Sheep	Corriedale		
+VBO:0001385	Cotswold (Sheep)	681	OMIA:681	Cotswold		9940	Sheep	Cotswold		
+VBO:0000559	Legbar (Chicken)	897	OMIA:897	Cream Legbar	OMIA	9031	Chicken	Legbar		
+VBO:0000750	Creole (Goat)	590	OMIA:590	Creole	OMIA	9925	Goat	Creole		
+VBO:0000517	CrÃ¨vecoeur [Crèvecœur] (Chicken)	898	OMIA:898	Crevecoeur	OMIA	9031	Chicken	CrÃ¨vecoeur [Crèvecœur]		
+VBO:0000108	Argentine Criollo (Cattle)	533	OMIA:533	Criolla	OMIA	9913	Cattle	Argentine Criollo		
+VBO:0000108	Argentine Criollo (Cattle)	648	OMIA:648	Criollo	OMIA	9913	Cattle	Argentine Criollo		
+VBO:0000943	Curly Horse (Horse)	976	OMIA:976	Curly	OMIA	9796	Horse	Curly Horse	Curly	
+VBO:0001387	D'man (Sheep)	83	OMIA:83	D'man		9940	Sheep	D'man		
+VBO:0000186	Dairy Shorthorn (Cattle)	107	OMIA:107	Dairy Shorthorn	OMIA	9913	Cattle	Dairy Shorthorn		
+VBO:0001389	Dala (Sheep)	189	OMIA:189	Dala		9940	Sheep	Dala		
+VBO:0000947	Dales (Horse)	1043	OMIA:1043	Dales Pony	OMIA	9796	Horse	Dales	Dales Pony	
+VBO:0001390	Damara (Sheep)	938	OMIA:938	Damara		9940	Sheep	Damara		
+VBO:0000755	Damascus (Goat)	484	OMIA:484	Damascus	OMIA	9925	Goat	Damascus		
+VBO:0000190	Danish Holstein (Cattle)	1022	OMIA:1022	Danish Holstein	OMIA	9913	Cattle	Danish Holstein		
+VBO:0001124	Danish Landrace (Pig)	1145	OMIA:1145	Danish Landrace		9823	Pig	Danish Landrace		
+VBO:0000663	Danish/swedish Farm Dog (Dog)	1154	OMIA:1154	Danish-Swedish farmdog	OMIA	9615	Dog	Danish/swedish Farm Dog	Danish-Swedish farmdog	
+VBO:0000192	Devon (Cattle)	185	OMIA:185	Devon	OMIA	9913	Cattle	Devon		
+VBO:0000193	Dexter (Cattle)	36	OMIA:36	Dexter	OMIA	9913	Cattle	Dexter		
+VBO:0001398	Dorset Down (Sheep)	694	OMIA:694	Dorset Down		9940	Sheep	Dorset Down		
+VBO:0001398	Dorset Horn (Sheep)	112	OMIA:112	Dorset Horn		9940	Sheep	Dorset Horn		
+VBO:0000196	Droughtmaster (Cattle)	644	OMIA:644	Droughtmaster	OMIA	9913	Cattle	Droughtmaster		
+VBO:0001127	Duroc (Pig)	93	OMIA:93	Duroc		9823	Pig	Duroc		
+VBO:0000197	Dutch Belted (Cattle)	600	OMIA:600	Dutch Belted	OMIA	9913	Cattle	Dutch Belted		
+VBO:0001404	East Friesian (Sheep)	629	OMIA:629	East Friesian		9940	Sheep	East Friesian		
+VBO:0000233	Herens (Cattle)	1115	OMIA:1115	Eringer	OMIA	9913	Cattle	Herens		
+VBO:0000528	Fayoumi (Chicken)	1053	OMIA:1053	Fayoumi eplipeptic strain	OMIA	9031	Chicken	Fayoumi		
+VBO:0000958	Fell Pony (Horse)	1042	OMIA:1042	Fell Pony		9796	Horse	Fell Pony		
+VBO:0001414	Finnish Landrace (Sheep)	35	OMIA:35	Finnish Landrace		9940	Sheep	Finnish Landrace		
+VBO:0001414	Finnish Landrace (Sheep)	111	OMIA:111	Finnsheep		9940	Sheep	Finnish Landrace		
+VBO:0000961	Fjord (Horse)	687	OMIA:687	Fjord		9796	Horse	Fjord		
+VBO:0000380	Simmental (Cattle)	167	OMIA:167	Fleckvieh	OMIA	9913	Cattle	Simmental		
+VBO:0001249	Flemish Giant (Rabbit)	455	OMIA:455	Flemish Giant		9986	Rabbit	Flemish Giant		
+VBO:0000965	Freiberger (Horse)	855	OMIA:855	Franches-Montagnes		9796	Horse	Freiberger		
+VBO:0000212	Gelbvieh (Cattle)	209	OMIA:209	Franconian	OMIA	9913	Cattle	Gelbvieh		https://www.thecattlesite.com/breeds/beef/54/gelbvieh/
+VBO:0001252	French Silver (Rabbit)	605	OMIA:605	French		9986	Rabbit	French Silver		
+VBO:0001133	Finnish Landrace (Pig)	466	OMIA:466	French Landrace		9823	Pig	Finnish Landrace		
+VBO:0000237	Holstein (black and white) (Cattle)	39	OMIA:39	Friesian	OMIA	9913	Cattle	Holstein (black and white)		
+VBO:0000969	Friesian (Horse)	998	OMIA:998	Friesian		9796	Horse	Friesian		
+VBO:0001418	Fulani (Sheep)	223	OMIA:223	Fulani		9940	Sheep	Fulani		
+VBO:0000528	Fayoumi (Chicken)	443	OMIA:443	Fyoumi	OMIA	9031	Chicken	Fayoumi	Fyoumi	
+VBO:0000207	Galloway (Cattle)	18	OMIA:18	Galloway	OMIA	9913	Cattle	Galloway		
+VBO:0001420	Galway (Sheep)	275	OMIA:275	Galway		9940	Sheep	Galway		
+VBO:0000209	Gascon (Cattle)	985	OMIA:985	Gasconne	OMIA	9913	Cattle	Gascon	Gasconne	
+VBO:0001137	Gascony (Pig)	653	OMIA:653	Gascony		9823	Pig	Gascony		
+VBO:0000212	Gelbvieh (Cattle)	61	OMIA:61	Gelbvieh	OMIA	9913	Cattle	Gelbvieh		
+VBO:0000090	Aberdeen-Angus (Cattle)	1087	OMIA:1087	German Angus	OMIA	9913	Cattle	Aberdeen-Angus		
+VBO:0001598	Scottish Blackface (Sheep)	849	OMIA:849	German Blackface		9940	Sheep	Scottish Blackface		
+VBO:0001423	German Blackheaded Mutton (Sheep)	627	OMIA:627	German Blackheaded Mutton		9940	Sheep	German Blackheaded Mutton		
+VBO:0000327	Original German Brown (Cattle)	238	OMIA:238	German Brown	OMIA	9913	Cattle	Original German Brown		
+VBO:0001604	Skudde (Sheep)	630	OMIA:630	German Heath		9940	Sheep	Skudde		
+VBO:0000768	German Improved Fawn (Goat)	675	OMIA:675	German Improved	OMIA	9925	Goat	German Improved Fawn	German Improved	
+VBO:0000972	German Riding Pony (Horse)	931	OMIA:931	German Riding Pony		9796	Horse	German Riding Pony		
+VBO:0000215	Gir (Cattle)	65	OMIA:65	Gir	OMIA	9913	Cattle	Gir		
+VBO:0000216	Girolando (Cattle)	606	OMIA:606	Girolanda	OMIA	9913	Cattle	Girolando	Girolanda	
+VBO:0000466	Campine (Chicken)	45	OMIA:45	Golden Campine	OMIA	9031	Chicken	Campine		
+VBO:0001631	Swedish Fur (Sheep)	247	OMIA:247	Gotland		9940	Sheep	Swedish Fur		
+VBO:0000222	Grauvieh (Cattle)	171	OMIA:171	Grauvieh	OMIA	9913	Cattle	Grauvieh		
+VBO:0000533	Green-Legged Partridge (Chicken)	130	OMIA:130	Greenleg	OMIA	9031	Chicken	Green-Legged Partridge		
+VBO:0000771	Grisons Striped (Goat)	1148	OMIA:1148	Grisons Striped	OMIA	9925	Goat	Grisons Striped		
+VBO:0001428	Grivette (Sheep)	322	OMIA:322	Grivette		9940	Sheep	Grivette		
+VBO:0000225	Groningen White-Headed (Cattle)	564	OMIA:564	Groningen	OMIA	9913	Cattle	Groningen White-Headed		
+VBO:0000383	Sokoto Gudali (Cattle)	670	OMIA:670	Gudali	OMIA	9913	Cattle	Sokoto Gudali		
+VBO:0000227	Guernsey (Cattle)	87	OMIA:87	Guernsey	OMIA	9913	Cattle	Guernsey		
+VBO:0000166	Brown Swiss (Cattle)	1138	OMIA:1138	Gurtenvieh	OMIA	9913	Cattle	Brown Swiss	Gurtenvieh	
+VBO:0001429	Gute (Sheep)	1105	OMIA:1105	Gute		9940	Sheep	Gute		
+VBO:0000228	Guzerat (Cattle)	441	OMIA:441	Guzera|Guzerá	OMIA	9913	Cattle	Guzerat	Guzerá	
+VBO:0000228	Guzerat (Cattle)	581	OMIA:581	Guzerat	OMIA	9913	Cattle	Guzerat		
+VBO:0000215	Gir (Cattle)	567	OMIA:567	Gyr	OMIA	9913	Cattle	Gir		
+VBO:0000978	Haflinger (Horse)	956	OMIA:956	Haflinger		9796	Horse	Haflinger		
+VBO:0001431	Hampshire Down (Sheep)	175	OMIA:175	Hampshire		9940	Sheep	Hampshire Down		
+VBO:0001431	Hampshire Down (Sheep)	724	OMIA:724	Hampshire Down		9940	Sheep	Hampshire Down		
+VBO:0000230	Hariana (Cattle)	166	OMIA:166	Hariana	OMIA	9913	Cattle	Hariana		
+VBO:0000232	Hereford (Cattle)	17	OMIA:17	Hereford	OMIA	9913	Cattle	Hereford		
+VBO:0000234	Highland (Cattle)	1000	OMIA:1000	Highland	OMIA	9913	Cattle	Highland		
+VBO:0000235	Hinterwald (Cattle)	205	OMIA:205	Hinterwalder	OMIA	9913	Cattle	Hinterwald		
+VBO:0000237	Holstein (black and white) (Cattle)	86	OMIA:86	Holstein	OMIA	9913	Cattle	Holstein (black and white)		
+VBO:0000239	Holstein Friesian (Cattle)	73	OMIA:73	Holstein Friesian	OMIA	9913	Cattle	Holstein Friesian		
+VBO:0000239	Holstein Friesian (Cattle)	755	OMIA:755	Holstein-Friesian	OMIA	9913	Cattle	Holstein Friesian		
+VBO:0000986	Holsteiner (Horse)	220	OMIA:220	Holsteiner		9796	Horse	Holsteiner		
+VBO:0000990	Iceland Pony (Horse)	826	OMIA:826	Icelandic	OMIA	9796	Horse	Iceland Pony	Icelandic	
+VBO:0001444	Ile-De-France (Sheep)	260	OMIA:260	Ile de France	OMIA	9940	Sheep	Ile-De-France	Ile de France	
+VBO:0001355	Cambridge (Sheep)	869	OMIA:869	Irish Cambridge		9940	Sheep	Cambridge		
+VBO:0000504	Commercial strain- layer- ISA Brown (Chicken)	1058	OMIA:1058	ISA Brown	OMIA	9031	Chicken	Commercial strain- layer- ISA Brown		
+VBO:0001449	Istrska pramenka (Sheep)	1123	OMIA:1123	Istrian Pramenka	OMIA	9940	Sheep	Istrska pramenka	Istrian Pramenka	
+VBO:0001450	Jacob (Sheep)	867	OMIA:867	Jacob		9940	Sheep	Jacob		
+VBO:0000780	Jamnapari (Goat)	261	OMIA:261	Jamunapari	OMIA	9925	Goat	Jamnapari	Jamunapari	
+VBO:0000546	Japanese Game Bantam (Chicken)	1003	OMIA:1003	Japanese game fowl	OMIA	9031	Chicken	Japanese Game Bantam	Japanese game fowl	
+VBO:0000250	Jersey (Cattle)	46	OMIA:46	Jersey	OMIA	9913	Cattle	Jersey		
+VBO:0000547	Jersey Giant (Chicken)	417	OMIA:417	Jersey Giant	OMIA	9031	Chicken	Jersey Giant		
+VBO:0001153	Jia-Xing (Pig)	318	OMIA:318	Jiaxing	OMIA	9823	Pig	Jia-Xing	Jiaxing	
+VBO:0000253	Kalmyk (Cattle)	712	OMIA:712	Kalmyk	OMIA	9913	Cattle	Kalmyk		
+VBO:0000783	Kamori (Goat)	1136	OMIA:1136	Kamori	OMIA	9925	Goat	Kamori		
+VBO:0001458	Karakachan (Sheep)	625	OMIA:625	Karakachan		9940	Sheep	Karakachan		
+VBO:0001461	Karakul (Sheep)	102	OMIA:102	Karakul		9940	Sheep	Karakul		
+VBO:0001582	Romney Marsh (Sheep)	413	OMIA:413	Kent		9940	Sheep	Romney Marsh		
+VBO:0000258	Kerry (Cattle)	101	OMIA:101	Kerry	OMIA	9913	Cattle	Kerry		
+VBO:0000259	Khillari (Cattle)	363	OMIA:363	Khillar	OMIA	9913	Cattle	Khillari	Khillar	
+VBO:0000260	Kholmogory (Cattle)	734	OMIA:734	Kholmogor	OMIA	9913	Cattle	Kholmogory	Kholmogor	
+VBO:0001008	Knabstrupper (Horse)	1045	OMIA:1045	Knabstrupper		9796	Horse	Knabstrupper		
+VBO:0001474	Lacaune (Sheep)	904	OMIA:904	Lacaune		9940	Sheep	Lacaune		
+VBO:0001477	Lacha (Sheep)	370	OMIA:370	Lacha		9940	Sheep	Lacha		
+VBO:0001160	Lacombe (Pig)	152	OMIA:152	Lacombe		9823	Pig	Lacombe		
+VBO:0000267	Lakenvelder (Cattle)	1139	OMIA:1139	Lakenvelder	OMIA	9913	Cattle	Lakenvelder		
+VBO:0001161	Landrace (Pig)	74	OMIA:74	Landrace		9823	Pig	Landrace		
+VBO:0001162	Large Black (Pig)	568	OMIA:568	Large Black		9823	Pig	Large Black		
+VBO:0001163	Large White (Pig)	51	OMIA:51	Large White		9823	Pig	Large White		
+VBO:0001163	Large White (Pig)	733	OMIA:733	Large White Czech		9823	Pig	Large White		
+VBO:0000505	Commercial strain- layer- Leghorn (Chicken)	279	OMIA:279	Leghorn	OMIA	9031	Chicken	Commercial strain- layer- Leghorn		
+VBO:0001484	Leicester Longwool (Sheep)	138	OMIA:138	Leicester		9940	Sheep	Leicester Longwool		
+VBO:0001485	Leine (Sheep)	376	OMIA:376	Leine		9940	Sheep	Leine		
+VBO:0000505	Commercial strain- layer- Leghorn (Chicken)	200	OMIA:200	Light Brown Leghorn	OMIA	9031	Chicken	Commercial strain- layer- Leghorn		
+VBO:0000566	Light Sussex (Chicken)	542	OMIA:542	Light Sussex	OMIA	9031	Chicken	Light Sussex		
+VBO:0000274	Limousin (Cattle)	58	OMIA:58	Limousin	OMIA	9913	Cattle	Limousin		
+VBO:0001490	Lincoln Longwool (Sheep)	192	OMIA:192	Lincoln	OMIA	9940	Sheep	Lincoln Longwool	Lincoln	
+VBO:0001014	Lipizzan horse (Horse)	1072	OMIA:1072	Lipizzan	OMIA	9796	Horse	Lipizzan horse	Lipizzan	
+VBO:0000507	Commercial strain- layer- Lohmann Brown (Chicken)	1059	OMIA:1059	Lohmann Brown	OMIA	9031	Chicken	Commercial strain- layer- Lohmann Brown		
+VBO:0000278	Longhorn (Cattle)	535	OMIA:535	Longhorn	OMIA	9913	Cattle	Longhorn		
+VBO:0001017	Lusitanian (Horse)	872	OMIA:872	Lusitano	OMIA	9796	Horse	Lusitanian	Lusitano	
+VBO:0001495	Madras Red (Sheep)	588	OMIA:588	Madras Red		9940	Sheep	Madras Red		
+VBO:0000286	Maine-Anjou (Cattle)	96	OMIA:96	Maine Anjou	OMIA	9913	Cattle	Maine-Anjou	Maine Anjou	
+VBO:0001169	Mangalitsa (Pig)	1169	OMIA:1169	Mangalitza	OMIA	9823	Pig	Mangalitsa	Mangalitza	
+VBO:0000319	Nguni (Cattle)	159	OMIA:159	Manguni	OMIA	9913	Cattle	Nguni		
+VBO:0000569	Marans (Chicken)	1060	OMIA:1060	Marans	OMIA	9031	Chicken	Marans		
+VBO:0000291	Marchigiana (Cattle)	580	OMIA:580	Marchigiana	OMIA	9913	Cattle	Marchigiana		
+VBO:0001502	Marsh Sheep (Sheep)	141	OMIA:141	Marsh	OMIA	9940	Sheep	Marsh Sheep	Marsh	
+VBO:0000294	Mashona (Cattle)	160	OMIA:160	Mashona	OMIA	9913	Cattle	Mashona		
+VBO:0001505	Maure (Sheep)	224	OMIA:224	Maure		9940	Sheep	Maure		
+VBO:0001175	Meishan (Pig)	52	OMIA:52	Meishan		9823	Pig	Meishan		
+VBO:0001508	Merino (Sheep)	40	OMIA:40	Merino		9940	Sheep	Merino		
+VBO:0001425	German Mutton Merino (Sheep)	496	OMIA:496	Merino Fleisch Schafe		9940	Sheep	German Mutton Merino		
+VBO:0001512	Merinolandschaf (Sheep)	374	OMIA:374	Merinolandschaf		9940	Sheep	Merinolandschaf		
+VBO:0000238	Holstein (red and white) (Cattle)	122	OMIA:122	Meuse Rhine Yssel	OMIA	9913	Cattle	Holstein (red and white)		
+VBO:0001176	Middle White (Pig)	730	OMIA:730	Middle Yorkshire		9823	Pig	Middle White		
+VBO:0000302	Modicana (Cattle)	419	OMIA:419	Modica	OMIA	9913	Cattle	Modicana	Modica	
+VBO:0000256	Kazakh (Cattle)	1009	OMIA:1009	Mongolian Turano	OMIA	9913	Cattle	Kazakh		
+VBO:0001515	Montadale (Sheep)	545	OMIA:545	Montadale		9940	Sheep	Montadale		
+VBO:0000306	MontbÃ©liarde [Montbéliarde] (Cattle)	162	OMIA:162	Montbeliarde	OMIA	9913	Cattle	MontbÃ©liarde [Montbéliarde]	Montbeliarde	
+VBO:0001518	Morada Nova (Sheep)	227	OMIA:227	Morada Nova		9940	Sheep	Morada Nova		
+VBO:0001022	Morgan (Horse)	1005	OMIA:1005	Morgan		9796	Horse	Morgan		
+VBO:0000309	Murboden (Cattle)	315	OMIA:315	Murboden	OMIA	9913	Cattle	Murboden		
+VBO:0000807	Murcia-Granada (Goat)	230	OMIA:230	Murciana Granadina	OMIA	9925	Goat	Murcia-Granada	Murciana Granadina	
+VBO:0000311	Murnau-Werdenfels (Cattle)	304	OMIA:304	Murnau Werdenfelser	OMIA	9913	Cattle	Murnau-Werdenfels	Murnau Werdenfelser	
+VBO:0000312	Murray Grey (Cattle)	326	OMIA:326	Murray Grey	OMIA	9913	Cattle	Murray Grey		
+VBO:0000314	Muturu (Cattle)	713	OMIA:713	Muturu	OMIA	9913	Cattle	Muturu		
+VBO:0000314	Muturu (Cattle)	699	OMIA:699	Muturu West African	OMIA	9913	Cattle	Muturu		
+VBO:0000315	N'dama (Cattle)	98	OMIA:98	N'Dama	OMIA	9913	Cattle	N'dama	N'Dama	
+VBO:0001523	Najdi (Sheep)	351	OMIA:351	Najdi		9940	Sheep	Najdi		
+VBO:0001524	Navajo-Churro (Sheep)	939	OMIA:939	Navajo-Churro		9940	Sheep	Navajo-Churro		
+VBO:0001266	Netherland dwarf (Rabbit)	1019	OMIA:1019	Netherland Dwarf		9986	Rabbit	Netherland dwarf		
+VBO:0001026	New Forest Pony (Horse)	932	OMIA:932	New Forest Pony		9796	Horse	New Forest Pony		
+VBO:0000576	New Hampshire (Chicken)	332	OMIA:332	New Hampshire	OMIA	9031	Chicken	New Hampshire		
+VBO:0001269	New Zealand White (Rabbit)	456	OMIA:456	New Zealand White		9986	Rabbit	New Zealand White		
+VBO:0000319	Nguni (Cattle)	121	OMIA:121	Nguni	OMIA	9913	Cattle	Nguni		
+VBO:0000576	New Hampshire (Chicken)	1055	OMIA:1055	NH-413 strain	OMIA	9031	Chicken	New Hampshire		
+VBO:0000237	Holstein (black and white) (Cattle)	915	OMIA:915	Nordic Holstein	OMIA	9913	Cattle	Holstein (black and white)		
+VBO:0001030	Noric (Horse)	1013	OMIA:1013	Noriker		9796	Horse	Noric		
+VBO:0000322	Normande (Cattle)	618	OMIA:618	Normande|Normandy	OMIA	9913	Cattle	Normande	Normandy	
+VBO:0000322	Normande (Cattle)	367	OMIA:367	Normandy	OMIA	9913	Cattle	Normande		
+VBO:0000668	Old Danish Pointing Dog (Dog)	792	OMIA:792	Old Danish Pointing Dog	OMIA	9615	Dog	Old Danish Pointing Dog		
+VBO:0001034	Oldenburg (Horse)	572	OMIA:572	Oldenberg	OMIA	9796	Horse	Oldenburg	Oldenberg	
+VBO:0001034	Oldenburg (Horse)	436	OMIA:436	Oldenburg		9796	Horse	Oldenburg		
+VBO:0001539	Olkuska (Sheep)	882	OMIA:882	Olkuska		9940	Sheep	Olkuska		
+VBO:0000588	Orpington (Chicken)	1093	OMIA:1093	Orpington	OMIA	9031	Chicken	Orpington		
+VBO:0001544	Oxford Down (Sheep)	139	OMIA:139	Oxforddown		9940	Sheep	Oxford Down		
+VBO:0001037	Palomino (Horse)	409	OMIA:409	Palomino		9796	Horse	Palomino		
+VBO:0000330	Parthenais (Cattle)	986	OMIA:986	Parthenaise	OMIA	9913	Cattle	Parthenais	Parthenaise	
+VBO:0001040	Paso Fino (Horse)	868	OMIA:868	Paso Fino		9796	Horse	Paso Fino		
+VBO:0000818	Peacock Goat (Goat)	1151	OMIA:1151	Peacock	OMIA	9925	Goat	Peacock Goat	Peacock	
+VBO:0001041	Percheron (Horse)	135	OMIA:135	Percheron		9796	Horse	Percheron		
+VBO:0001550	Perendale (Sheep)	165	OMIA:165	Perendale		9940	Sheep	Perendale		
+VBO:0001042	Peruvian Paso (Horse)	1049	OMIA:1049	Peruvian Paso		9796	Horse	Peruvian Paso		
+VBO:0000332	Piedmont (Cattle)	221	OMIA:221	Piedmont	OMIA	9913	Cattle	Piedmont		
+VBO:0000332	Piedmont (Cattle)	48	OMIA:48	Piedmontese	OMIA	9913	Cattle	Piedmont		
+VBO:0000332	Piedmont (Cattle)	753	OMIA:753	Piemontese	OMIA	9913	Cattle	Piedmont		
+VBO:0001189	Pietrain (Pig)	108	OMIA:108	Pietrain		9823	Pig	Pietrain		
+VBO:0000334	Pinzgau (Cattle)	145	OMIA:145	Pinzgau|Pinzgauer	OMIA	9913	Cattle	Pinzgau	Pinzgauer	
+VBO:0000334	Pinzgau (Cattle)	60	OMIA:60	Pinzgauer	OMIA	9913	Cattle	Pinzgau		
+VBO:0000592	Plymouth Rock (Chicken)	667	OMIA:667	Plymouth Rock	OMIA	9031	Chicken	Plymouth Rock		
+VBO:0000336	Podolian (Cattle)	163	OMIA:163	Podolian	OMIA	9913	Cattle	Podolian		
+VBO:0000336	Podolian (Cattle)	246	OMIA:246	Podolian Grey Steppe	OMIA	9913	Cattle	Podolian		
+VBO:0000058	Poitou (Ass)	946	OMIA:946	Poitou	OMIA	9793	Ass	Poitou		
+VBO:0001190	Poland China (Pig)	613	OMIA:613	Poland China		9823	Pig	Poland China		
+VBO:0000595	Polbar (Chicken)	584	OMIA:584	Polbar	OMIA	9031	Chicken	Polbar		
+VBO:0000533	Green-Legged Partridge (Chicken)	585	OMIA:585	Polish Greenleg	OMIA	9031	Chicken	Green-Legged Partridge		
+VBO:0000237	Holstein (black and white) (Cattle)	757	OMIA:757	Polish Holstein-Friesian cattle	OMIA	9913	Cattle	Holstein (black and white)		
+VBO:0001047	Polish Konik (Horse)	688	OMIA:688	Polish Koniks	OMIA	9796	Horse	Polish Konik	Polish Koniks	
+VBO:0000338	Polish Red (Cattle)	541	OMIA:541	Polish Red	OMIA	9913	Cattle	Polish Red		
+VBO:0001557	Poll Dorset (Sheep)	41	OMIA:41	Poll Dorset		9940	Sheep	Poll Dorset		
+VBO:0000341	Polled Hereford (Cattle)	95	OMIA:95	Poll Hereford	OMIA	9913	Cattle	Polled Hereford	Poll Hereford	
+VBO:0000342	Polled Shorthorn (Cattle)	255	OMIA:255	Poll Shorthorn	OMIA	9913	Cattle	Polled Shorthorn	Poll Shorthorn	
+VBO:0001559	Polwarth (Sheep)	54	OMIA:54	Polwarth		9940	Sheep	Polwarth		
+VBO:0001560	Polypay (Sheep)	418	OMIA:418	Polypay		9940	Sheep	Polypay		
+VBO:0001567	Priangan (Sheep)	547	OMIA:547	Priangan		9940	Sheep	Priangan		
+VBO:0001056	Purebred Spanish (Horse)	1099	OMIA:1099	Purebred Spanish horse		9796	Horse	Purebred Spanish		
+VBO:0001057	Quarter Horse (Horse)	133	OMIA:133	Quarter	OMIA	9796	Horse	Quarter Horse	Quarter	
+VBO:0001057	Quarter Horse (Horse)	16	OMIA:16	Quarter Horse		9796	Horse	Quarter Horse		
+VBO:0001568	Racka (Sheep)	666	OMIA:666	Racka		9940	Sheep	Racka		
+VBO:0001570	Rambouillet (Sheep)	26	OMIA:26	Rambouillet		9940	Sheep	Rambouillet		
+VBO:0000238	Holstein (red and white) (Cattle)	207	OMIA:207	Red and White	OMIA	9913	Cattle	Holstein (red and white)		
+VBO:0000285	Maas-Rijn-Ijssel (Cattle)	237	OMIA:237	Red and White Dutch	OMIA	9913	Cattle	Maas-Rijn-Ijssel		
+VBO:0000350	Red Angus (Cattle)	176	OMIA:176	Red Angus	OMIA	9913	Cattle	Red Angus		
+VBO:0000353	Red Dane (Cattle)	391	OMIA:391	Red Dane	OMIA	9913	Cattle	Red Dane		
+VBO:0000353	Red Dane (Cattle)	72	OMIA:72	Red Danish	OMIA	9913	Cattle	Red Dane		
+VBO:0000238	Holstein (red and white) (Cattle)	962	OMIA:962	Red Holstein Friesian	OMIA	9913	Cattle	Holstein (red and white)		
+VBO:0000355	Red Poll (Cattle)	57	OMIA:57	Red Poll	OMIA	9913	Cattle	Red Poll		
+VBO:0000356	Red Sindhi (Cattle)	586	OMIA:586	Red Sindhi	OMIA	9913	Cattle	Red Sindhi		
+VBO:0000599	Rhode Island Red (Chicken)	423	OMIA:423	Rhode Island	OMIA	9031	Chicken	Rhode Island Red		
+VBO:0000599	Rhode Island Red (Chicken)	280	OMIA:280	Rhode Island Red	OMIA	9031	Chicken	Rhode Island Red		
+VBO:0000360	Romagnola (Cattle)	202	OMIA:202	Romagna	OMIA	9913	Cattle	Romagnola	Romagna	
+VBO:0000360	Romagnola (Cattle)	437	OMIA:437	Romagnola	OMIA	9913	Cattle	Romagnola		
+VBO:0001580	Romanov (Sheep)	47	OMIA:47	Romanov		9940	Sheep	Romanov		
+VBO:0001582	Romney Marsh (Sheep)	55	OMIA:55	Romney Marsh		9940	Sheep	Romney Marsh		
+VBO:0001582	Romney Marsh (Sheep)	680	OMIA:680	Romney Marsh (Kent)		9940	Sheep	Romney Marsh		
+VBO:0001591	Rygja (Sheep)	190	OMIA:190	Rygja		9940	Sheep	Rygja		
+VBO:0000827	Saanen (Goat)	77	OMIA:77	Saanen	OMIA	9925	Goat	Saanen		
+VBO:0001193	Saddleback (Pig)	451	OMIA:451	Saddleback		9823	Pig	Saddleback		
+VBO:0000828	Sahelian (Goat)	716	OMIA:716	Sahelian	OMIA	9925	Goat	Sahelian		
+VBO:0000365	Sahiwal (Cattle)	302	OMIA:302	Sahiwal	OMIA	9913	Cattle	Sahiwal		
+VBO:0000366	Salers (Cattle)	257	OMIA:257	Salers	OMIA	9913	Cattle	Salers		
+VBO:0000368	Santa Gertrudis (Cattle)	120	OMIA:120	Santa Gertrudis	OMIA	9913	Cattle	Santa Gertrudis		
+VBO:0001595	Santa Ines (Sheep)	228	OMIA:228	Santa Ines		9940	Sheep	Santa Ines		
+VBO:0001423	German Blackheaded Mutton (Sheep)	728	OMIA:728	Schwarzkoepfiges Fleischschaf		9940	Sheep	German Blackheaded Mutton		
+VBO:0001598	Scottish Blackface (Sheep)	531	OMIA:531	Scottish Blackface		9940	Sheep	Scottish Blackface		
+VBO:0000234	Highland (Cattle)	1095	OMIA:1095	Scottish Highland	OMIA	9913	Cattle	Highland		
+VBO:0000515	Commercial strain- Sebright (Chicken)	245	OMIA:245	Sebright	OMIA	9031	Chicken	Commercial strain- Sebright		
+VBO:0001066	Shetland Pony (Horse)	293	OMIA:293	Shetland		9796	Horse	Shetland Pony		
+VBO:0001066	Shetland Pony (Horse)	110	OMIA:110	Shetland Pony		9796	Horse	Shetland Pony		
+VBO:0000375	Shorthorn (Cattle)	76	OMIA:76	Shorthorn	OMIA	9913	Cattle	Shorthorn		
+VBO:0001603	Shropshire (Sheep)	140	OMIA:140	Shropshire		9940	Sheep	Shropshire		
+VBO:0000376	Shuwa (Cattle)	714	OMIA:714	Shuwa	OMIA	9913	Cattle	Shuwa		
+VBO:0000376	Shuwa (Cattle)	698	OMIA:698	Shuwa Arab	OMIA	9913	Cattle	Shuwa		
+VBO:0000619	Silkie (Chicken)	837	OMIA:837	Silky|Silkie	OMIA	9031	Chicken	Silkie	Silky	
+VBO:0000515	Commercial strain- Sebright (Chicken)	64	OMIA:64	Silver Sebright	OMIA	9031	Chicken	Commercial strain- Sebright		
+VBO:0000534	Hamburg (Chicken)	63	OMIA:63	Silver Spangled Hamburgh	OMIA	9031	Chicken	Hamburg		
+VBO:0000380	Simmental (Cattle)	3	OMIA:3	Simmental	OMIA	9913	Cattle	Simmental		
+VBO:0000356	Sindhi (Cattle)	301	OMIA:301	Sindhi	OMIA	9913	Cattle	Sindhi		
+VBO:0001604	Skudde (Sheep)	729	OMIA:729	Skudde		9940	Sheep	Skudde		
+VBO:0001605	Soay (Sheep)	743	OMIA:743	Soay		9940	Sheep	Soay		
+VBO:0001606	Solognot (Sheep)	323	OMIA:323	Solognot		9940	Sheep	Solognot		
+VBO:0000385	South Devon (Cattle)	118	OMIA:118	South Devon	OMIA	9913	Cattle	South Devon		
+VBO:0001611	South Down (Sheep)	222	OMIA:222	Southdown	OMIA	9940	Sheep	South Down	Southdown	
+VBO:0001622	St. Croix (Sheep)	126	OMIA:126	St Croix	OMIA	9940	Sheep	St. Croix	St Croix	
+VBO:0000839	St Gallen Booted Goat (Goat)	1150	OMIA:1150	St. Gallen Booted	OMIA	9925	Goat	St Gallen Booted Goat	St. Gallen Booted	
+VBO:0000899	American Trotter (Horse)	132	OMIA:132	Standardbred		9796	Horse	American Trotter		
+VBO:0001627	Suffolk (Sheep)	124	OMIA:124	Suffolk		9940	Sheep	Suffolk		
+VBO:0000630	Sussex (Chicken)	647	OMIA:647	Sussex	OMIA	9031	Chicken	Sussex		
+VBO:0000391	Swedish Red (Cattle)	940	OMIA:940	Swedish Red	OMIA	9913	Cattle	Swedish Red		
+VBO:0000392	Swedish Red and White (Cattle)	131	OMIA:131	Swedish Red and White 	OMIA	9913	Cattle	Swedish Red and White		
+VBO:0001163	Large White (Pig)	1161	OMIA:1161	Swiss Large White		9823	Pig	Large White		
+VBO:0000397	Tabapua (Cattle)	582	OMIA:582	Tabapuan	OMIA	9913	Cattle	Tabapua	Tabapuan	
+VBO:0001202	Tamworth (Pig)	266	OMIA:266	Tamworth		9823	Pig	Tamworth		
+VBO:0000402	Tarentaise (Cattle)	263	OMIA:263	Tarentaise	OMIA	9913	Cattle	Tarentaise		
+VBO:0001638	Targhee (Sheep)	125	OMIA:125	Targhee		9940	Sheep	Targhee		
+VBO:0001081	Tennessee Walking Horse (Horse)	1125	OMIA:1125	Tennessee Walking Horse		9796	Horse	Tennessee Walking Horse		
+VBO:0001641	Texel (Sheep)	137	OMIA:137	Texel		9940	Sheep	Texel		
+VBO:0000405	Thari (Cattle)	643	OMIA:643	Tharparkar	OMIA	9913	Cattle	Thari		
+VBO:0001083	Thoroughbred (Horse)	113	OMIA:113	Thoroughbred		9796	Horse	Thoroughbred		
+VBO:0000846	Toggenburg (Goat)	284	OMIA:284	Toggenburg	OMIA	9925	Goat	Toggenburg		
+VBO:0000936	Comtois (Horse)	797	OMIA:797	Trait Comtois		9796	Horse	Comtois		
+VBO:0001087	Trakehner (Horse)	1004	OMIA:1004	Trakehner		9796	Horse	Trakehner		
+VBO:0000639	Transylvanian Naked Neck (Chicken)	1062	OMIA:1062	Transylvanian naked neck	OMIA	9031	Chicken	Transylvanian Naked Neck	Transylvanian naked neck	
+VBO:0001653	Tsigai (Sheep)	123	OMIA:123	Tsigai		9940	Sheep	Tsigai		
+VBO:0001657	Tukidale (Sheep)	735	OMIA:735	Tukidale		9940	Sheep	Tukidale		
+VBO:0000415	Tuli (Cattle)	158	OMIA:158	Tuli	OMIA	9913	Cattle	Tuli		
+VBO:0001658	Tunisian Barbary (Sheep)	958	OMIA:958	Tunisian Barbarine	OMIA	9940	Sheep	Tunisian Barbary	Tunisian Barbarine	
+VBO:0000407	Tirolean gray cattle (Cattle)	596	OMIA:596	Tyrolean Grey	OMIA	9913	Cattle	Tirolean gray cattle	Tyrolean Grey	
+VBO:0001653	Tsigai (Sheep)	620	OMIA:620	Tzigaia		9940	Sheep	Tsigai		
+VBO:0000139	Belgian Blue (Cattle)	348	OMIA:348	Upper Belgian	OMIA	9913	Cattle	Belgian Blue		
+VBO:0000849	Valais Blackneck (Goat)	924	OMIA:924	Valais Blackneck		9925	Goat	Valais Blackneck		
+VBO:0001666	Valais Red (Sheep)	1118	OMIA:1118	Valais Red		9940	Sheep	Valais Red		
+VBO:0001671	Vendeen (Sheep)	180	OMIA:180	Vendee		9940	Sheep	Vendeen		
+VBO:0001671	Vendeen (Sheep)	324	OMIA:324	Vendeen		9940	Sheep	Vendeen		
+VBO:0000422	Wagyu (Cattle)	33	OMIA:33	Wagyu	OMIA	9913	Cattle	Wagyu		
+VBO:0001210	Welsh (Pig)	146	OMIA:146	Welsh		9823	Pig	Welsh		
+VBO:0001091	Welsh Pony (Horse)	1012	OMIA:1012	Welsh Pony		9796	Horse	Welsh Pony		
+VBO:0001681	Wensleydale (Sheep)	248	OMIA:248	Wensleydale		9940	Sheep	Wensleydale		
+VBO:0001211	Wessex Saddleback (Pig)	147	OMIA:147	Wessex		9823	Pig	Wessex Saddleback		
+VBO:0001211	Wessex Saddleback (Pig)	874	OMIA:874	Wessex Saddleback		9823	Pig	Wessex Saddleback		
+VBO:0000234	Highland (Cattle)	346	OMIA:346	West Highland	OMIA	9913	Cattle	Highland		
+VBO:0001163	Large White (Pig)	94	OMIA:94	White		9823	Pig	Large White		
+VBO:0000163	British White (Cattle)	128	OMIA:128	White British	OMIA	9913	Cattle	British White		
+VBO:0000645	White Cornish (Chicken)	565	OMIA:565	White Cornish	OMIA	9031	Chicken	White Cornish		
+VBO:0001163	Large White (Pig)	392	OMIA:392	White Czecholslovakian		9823	Pig	Large White		
+VBO:0001397	Dorper (Sheep)	977	OMIA:977	White Dorper		9940	Sheep	Dorper		
+VBO:0000427	White Fulani (Cattle)	353	OMIA:353	White Fulani	OMIA	9913	Cattle	White Fulani		
+VBO:0001451	Jaidara (Sheep)	490	OMIA:490	White Jaidara		9940	Sheep	Jaidara		
+VBO:0001684	White Karaman (Sheep)	497	OMIA:497	White Karaman		9940	Sheep	White Karaman		
+VBO:0000646	White Leghorn (Chicken)	116	OMIA:116	White Leghorn	OMIA	9031	Chicken	White Leghorn		
+VBO:0000594	Plymouth Rock White (Chicken)	271	OMIA:271	White Plymouth Rock	OMIA	9031	Chicken	Plymouth Rock White		
+VBO:0000856	White Shorthaired Goat (Goat)	603	OMIA:603	White Polled Short Hair		9925	Goat	White Shorthaired Goat		
+VBO:0000594	Plymouth Rock White (Chicken)	399	OMIA:399	White Rock	OMIA	9031	Chicken	Plymouth Rock White		
+VBO:0001653	Tsigai (Sheep)	519	OMIA:519	White Tzagai		9940	Sheep	Tsigai		
+VBO:0000648	Wyandotte White (Chicken)	310	OMIA:310	White Wyandotte	OMIA	9031	Chicken	Wyandotte White	White Wyandotte	
+VBO:0000257	Kazakh Whiteheaded (Cattle)	253	OMIA:253	Whiteheaded Kazakh	OMIA	9913	Cattle	Kazakh Whiteheaded		
+VBO:0001689	Wrzosowka (Sheep)	522	OMIA:522	Wrzosowka		9940	Sheep	Wrzosowka		
+VBO:0001512	Merinolandschaf (Sheep)	626	OMIA:626	Wurttemberg Merino		9940	Sheep	Merinolandschaf		
+VBO:0001512	Merinolandschaf (Sheep)	375	OMIA:375	Wuttemberg Merino		9940	Sheep	Merinolandschaf		
+VBO:0000647	Wyandotte (Chicken)	1092	OMIA:1092	Wyandotte	OMIA	9031	Chicken	Wyandotte		
+VBO:0001212	Yorkshire (Pig)	115	OMIA:115	Yorkshire		9823	Pig	Yorkshire		
+VBO:0001694	Zwartbles (Sheep)	1163	OMIA:1163	Zwartbles		9940	Sheep	Zwartbles		

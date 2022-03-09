@@ -10,8 +10,9 @@
 
 
   <uri name="http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl" uri="components/ncbitransbound.owl"/>
-
   <uri name="http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl" uri="components/ncbibreeds.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl" uri="components/omiatransbound.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl" uri="components/omiabreeds.owl"/>
 
 
 </group>
