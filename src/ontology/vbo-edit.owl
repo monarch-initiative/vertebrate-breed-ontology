@@ -11,10 +11,11 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
 
-Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
-
+Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl>)
 
 Annotation(dcterms:title "Vertebrate Breed Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
