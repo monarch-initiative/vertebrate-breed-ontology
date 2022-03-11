@@ -15287,6 +15287,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30521"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yak (Yak (domestic))</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crested (Chicken)</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
