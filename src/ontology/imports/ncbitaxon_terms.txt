@@ -34,3 +34,5 @@ http://purl.obolibrary.org/obo/NCBITaxon_46478
 http://purl.obolibrary.org/obo/NCBITaxon_9103
 http://purl.obolibrary.org/obo/NCBITaxon_9843
 http://purl.obolibrary.org/obo/NCBITaxon_30521
+http://purl.obolibrary.org/obo/NCBITaxon_10042
+http://purl.obolibrary.org/obo/NCBITaxon_37174

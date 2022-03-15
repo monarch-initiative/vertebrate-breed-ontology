@@ -15296,6 +15296,78 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crested (Chicken)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016846">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friesian cross (Cattle)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nordic Red (Cattle)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miniature Horse (Horse)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016849">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standardbred x Tennessee Walking Horse cross (Horse)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016850">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camborough (Pig)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016851">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Racing Homer (Pigeon)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016852">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silky fantail (Pigeon)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016853">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Carneau (Pigeon)</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

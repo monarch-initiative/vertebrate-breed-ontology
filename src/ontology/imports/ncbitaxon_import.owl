@@ -9,13 +9,13 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vbo/releases/2022-01-11/imports/ncbitaxon_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-11</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vbo/releases/2022-03-15/imports/ncbitaxon_import.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-03-15</owl:versionInfo>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -23,58 +23,62 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank"/>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -82,7 +86,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
@@ -100,7 +104,41 @@
         <owl:annotatedTarget>all</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337963"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:10040</oboInOwl:id>
+        <rdfs:label>Peromyscus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10040"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:162312</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>North American deer mouse</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:10042</oboInOwl:id>
+        <rdfs:label>Peromyscus maniculatus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>North American deer mouse</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
+    </owl:Axiom>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10139 -->
@@ -120,7 +158,7 @@
         <owl:annotatedTarget>cavies</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10140 -->
@@ -147,7 +185,7 @@
         <owl:annotatedTarget>guinea-pigs</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10141 -->
@@ -189,7 +227,7 @@
         <owl:annotatedTarget>Cavia cobaya</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_117570 -->
@@ -202,7 +240,7 @@
         <oboInOwl:id>NCBITaxon:117570</oboInOwl:id>
         <rdfs:label>Teleostomi</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_117571 -->
@@ -223,7 +261,7 @@
         <owl:annotatedTarget>bony vertebrates</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_131567 -->
@@ -242,7 +280,7 @@
         <owl:annotatedTarget>biota</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1329799 -->
@@ -271,7 +309,7 @@
         <owl:annotatedTarget>Testudines + Archosauria group</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1338369 -->
@@ -284,7 +322,7 @@
         <oboInOwl:id>NCBITaxon:1338369</oboInOwl:id>
         <rdfs:label>Dipnotetrapodomorpha</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1437010 -->
@@ -306,7 +344,7 @@
         <owl:annotatedTarget>Boreotheria</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1549675 -->
@@ -333,7 +371,34 @@
         <owl:annotatedTarget>ducks, geese, chickens, fowl, quail, currasows and allies</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1963758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1963758">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9989"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_suborder"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mice and others</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Sciurognathi</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>NCBITaxon:1963758</oboInOwl:id>
+        <rdfs:label>Myomorpha</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1963758"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>mice and others</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1963758"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Sciurognathi</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#in_part"/>
+    </owl:Axiom>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2068716 -->
@@ -346,7 +411,7 @@
         <oboInOwl:id>NCBITaxon:2068716</oboInOwl:id>
         <rdfs:label>Anatinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2068722 -->
@@ -359,7 +424,7 @@
         <oboInOwl:id>NCBITaxon:2068722</oboInOwl:id>
         <rdfs:label>Anserinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
@@ -423,7 +488,7 @@
         <owl:annotatedTarget>eukaryotes</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_27592 -->
@@ -436,7 +501,7 @@
         <oboInOwl:id>NCBITaxon:27592</oboInOwl:id>
         <rdfs:label>Bovinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30521 -->
@@ -477,7 +542,7 @@
         <owl:annotatedTarget>Peophagus grunniens</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30538 -->
@@ -512,7 +577,7 @@
         <owl:annotatedTarget>Lama pacos</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30539 -->
@@ -525,7 +590,7 @@
         <oboInOwl:id>NCBITaxon:30539</oboInOwl:id>
         <rdfs:label>Vicugna</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_314145 -->
@@ -541,7 +606,7 @@
         <oboInOwl:id>NCBITaxon:314145</oboInOwl:id>
         <rdfs:label>Laurasiatheria</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_314146 -->
@@ -558,7 +623,7 @@
         <oboInOwl:id>NCBITaxon:314146</oboInOwl:id>
         <rdfs:label>Euarchontoglires</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_314147 -->
@@ -581,7 +646,7 @@
         <owl:annotatedTarget>Rodents and rabbits</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_32523 -->
@@ -601,7 +666,7 @@
         <owl:annotatedTarget>tetrapods</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_32524 -->
@@ -621,7 +686,7 @@
         <owl:annotatedTarget>amniotes</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_32525 -->
@@ -641,7 +706,7 @@
         <owl:annotatedTarget>Theria</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#scientific_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_32561 -->
@@ -668,7 +733,7 @@
         <owl:annotatedTarget>Diapsida</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33154 -->
@@ -695,7 +760,7 @@
         <owl:annotatedTarget>opisthokonts</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33208 -->
@@ -736,7 +801,7 @@
         <owl:annotatedTarget>animals</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33213 -->
@@ -749,7 +814,7 @@
         <oboInOwl:id>NCBITaxon:33213</oboInOwl:id>
         <rdfs:label>Bilateria</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33511 -->
@@ -769,7 +834,7 @@
         <owl:annotatedTarget>deuterostomes</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33550 -->
@@ -796,7 +861,7 @@
         <owl:annotatedTarget>Hystricognathi</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33554 -->
@@ -823,7 +888,50 @@
         <owl:annotatedTarget>carnivores</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337687"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15371245</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:337677</oboInOwl:id>
+        <rdfs:label>Cricetidae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1963758"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_clade"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15019624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15371245</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:337687</oboInOwl:id>
+        <rdfs:label>Muroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337677"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15371245</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:337963</oboInOwl:id>
+        <rdfs:label>Neotominae</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_34878 -->
@@ -836,7 +944,7 @@
         <oboInOwl:id>NCBITaxon:34878</oboInOwl:id>
         <rdfs:label>Cervinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_35497 -->
@@ -856,7 +964,7 @@
         <owl:annotatedTarget>Suiformes</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#in_part"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_35500 -->
@@ -869,7 +977,7 @@
         <oboInOwl:id>NCBITaxon:35500</oboInOwl:id>
         <rdfs:label>Pecora</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_35508 -->
@@ -889,7 +997,7 @@
         <owl:annotatedTarget>Equus subg. Asinus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_35510 -->
@@ -916,7 +1024,27 @@
         <owl:annotatedTarget>Equus subg. Equus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bighorn sheep</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:37174</oboInOwl:id>
+        <rdfs:label>Ovis canadensis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37174"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bighorn sheep</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
+    </owl:Axiom>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_379584 -->
@@ -929,7 +1057,7 @@
         <oboInOwl:id>NCBITaxon:379584</oboInOwl:id>
         <rdfs:label>Caniformia</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
@@ -956,7 +1084,7 @@
         <owl:annotatedTarget>mammals</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_436486 -->
@@ -983,7 +1111,7 @@
         <owl:annotatedTarget>dinosaurs</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_436489 -->
@@ -996,7 +1124,7 @@
         <oboInOwl:id>NCBITaxon:436489</oboInOwl:id>
         <rdfs:label>Saurischia</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_436491 -->
@@ -1009,7 +1137,7 @@
         <oboInOwl:id>NCBITaxon:436491</oboInOwl:id>
         <rdfs:label>Theropoda</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_436492 -->
@@ -1022,7 +1150,7 @@
         <oboInOwl:id>NCBITaxon:436492</oboInOwl:id>
         <rdfs:label>Coelurosauria</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_466544 -->
@@ -1035,7 +1163,7 @@
         <oboInOwl:id>NCBITaxon:466544</oboInOwl:id>
         <rdfs:label>Perdicinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_466552 -->
@@ -1048,7 +1176,7 @@
         <oboInOwl:id>NCBITaxon:466552</oboInOwl:id>
         <rdfs:label>Meleagridinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6072 -->
@@ -1061,7 +1189,7 @@
         <oboInOwl:id>NCBITaxon:6072</oboInOwl:id>
         <rdfs:label>Eumetazoa</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7711 -->
@@ -1088,7 +1216,7 @@
         <owl:annotatedTarget>chordates</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7742 -->
@@ -1122,7 +1250,7 @@
         <owl:annotatedTarget>vertebrates</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7776 -->
@@ -1149,7 +1277,7 @@
         <owl:annotatedTarget>jawed vertebrates</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8287 -->
@@ -1162,7 +1290,7 @@
         <oboInOwl:id>NCBITaxon:8287</oboInOwl:id>
         <rdfs:label>Sarcopterygii</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8457 -->
@@ -1182,7 +1310,7 @@
         <owl:annotatedTarget>sauropsids</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8492 -->
@@ -1195,7 +1323,7 @@
         <oboInOwl:id>NCBITaxon:8492</oboInOwl:id>
         <rdfs:label>Archosauria</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8782 -->
@@ -1229,7 +1357,7 @@
         <owl:annotatedTarget>birds</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8783 -->
@@ -1242,7 +1370,7 @@
         <oboInOwl:id>NCBITaxon:8783</oboInOwl:id>
         <rdfs:label>Palaeognathae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8784 -->
@@ -1262,7 +1390,7 @@
         <owl:annotatedTarget>Emu and cassowaries</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8788 -->
@@ -1282,7 +1410,7 @@
         <owl:annotatedTarget>emus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8789 -->
@@ -1295,7 +1423,7 @@
         <oboInOwl:id>NCBITaxon:8789</oboInOwl:id>
         <rdfs:label>Dromaius</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8790 -->
@@ -1330,7 +1458,7 @@
         <owl:annotatedTarget>Dromaius novae-hollandiae</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8792 -->
@@ -1350,7 +1478,7 @@
         <owl:annotatedTarget>rheas</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8793 -->
@@ -1363,7 +1491,7 @@
         <oboInOwl:id>NCBITaxon:8793</oboInOwl:id>
         <rdfs:label>Rheidae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8796 -->
@@ -1376,7 +1504,7 @@
         <oboInOwl:id>NCBITaxon:8796</oboInOwl:id>
         <rdfs:label>Rhea</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8798 -->
@@ -1396,7 +1524,7 @@
         <owl:annotatedTarget>ostriches</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8799 -->
@@ -1409,7 +1537,7 @@
         <oboInOwl:id>NCBITaxon:8799</oboInOwl:id>
         <rdfs:label>Struthionidae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8800 -->
@@ -1422,7 +1550,7 @@
         <oboInOwl:id>NCBITaxon:8800</oboInOwl:id>
         <rdfs:label>Struthio</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8801 -->
@@ -1456,7 +1584,7 @@
         <owl:annotatedTarget>Struthio camelus domesticus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8825 -->
@@ -1469,7 +1597,7 @@
         <oboInOwl:id>NCBITaxon:8825</oboInOwl:id>
         <rdfs:label>Neognathae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8826 -->
@@ -1489,7 +1617,7 @@
         <owl:annotatedTarget>ducks, geese and swans</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8830 -->
@@ -1509,7 +1637,7 @@
         <owl:annotatedTarget>waterfowl</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8835 -->
@@ -1529,7 +1657,7 @@
         <owl:annotatedTarget>ducks</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8839 -->
@@ -1593,7 +1721,7 @@
         <owl:annotatedTarget>Anas platyrhynchos f. domestica</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8842 -->
@@ -1614,7 +1742,7 @@
         <owl:annotatedTarget>geese</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8843 -->
@@ -1655,7 +1783,7 @@
         <owl:annotatedTarget>Anas anser</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8854 -->
@@ -1668,7 +1796,7 @@
         <oboInOwl:id>NCBITaxon:8854</oboInOwl:id>
         <rdfs:label>Cairina</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8855 -->
@@ -1709,7 +1837,7 @@
         <owl:annotatedTarget>Anas moschata</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8929 -->
@@ -1729,7 +1857,7 @@
         <owl:annotatedTarget>pigeons and others</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8930 -->
@@ -1749,7 +1877,7 @@
         <owl:annotatedTarget>pigeons</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8931 -->
@@ -1762,7 +1890,7 @@
         <oboInOwl:id>NCBITaxon:8931</oboInOwl:id>
         <rdfs:label>Columba</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8932 -->
@@ -1785,24 +1913,6 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>rock dove</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>rock pigeon</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>Columba livia domestica</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Columba domestica</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
     </owl:Axiom>
@@ -1818,7 +1928,25 @@
         <owl:annotatedTarget>domestic pigeon</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rock dove</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rock pigeon</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Columba livia domestica</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_89462 -->
@@ -1861,7 +1989,7 @@
         <owl:annotatedTarget>Bubalus arnee bubalis</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_89593 -->
@@ -1881,7 +2009,7 @@
         <owl:annotatedTarget>Craniata</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#scientific_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8976 -->
@@ -1901,7 +2029,7 @@
         <owl:annotatedTarget>landfowls</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8990 -->
@@ -1921,7 +2049,7 @@
         <owl:annotatedTarget>guineafowls</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9005 -->
@@ -1942,7 +2070,7 @@
         <owl:annotatedTarget>turkeys</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9030 -->
@@ -1955,7 +2083,7 @@
         <oboInOwl:id>NCBITaxon:9030</oboInOwl:id>
         <rdfs:label>Gallus</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
@@ -2003,7 +2131,7 @@
         <owl:annotatedTarget>Gallus gallus domesticus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9048 -->
@@ -2023,7 +2151,7 @@
         <owl:annotatedTarget>peafowls</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9072 -->
@@ -2036,7 +2164,7 @@
         <oboInOwl:id>NCBITaxon:9072</oboInOwl:id>
         <rdfs:label>Phasianinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9090 -->
@@ -2049,7 +2177,7 @@
         <oboInOwl:id>NCBITaxon:9090</oboInOwl:id>
         <rdfs:label>Coturnix</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9102 -->
@@ -2062,7 +2190,7 @@
         <oboInOwl:id>NCBITaxon:9102</oboInOwl:id>
         <rdfs:label>Meleagris</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9103 -->
@@ -2096,7 +2224,7 @@
         <owl:annotatedTarget>wild turkey</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_91561 -->
@@ -2130,7 +2258,7 @@
         <owl:annotatedTarget>even-toed ungulates</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9347 -->
@@ -2178,7 +2306,7 @@
         <owl:annotatedTarget>placentals</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9608 -->
@@ -2198,7 +2326,7 @@
         <owl:annotatedTarget>dog, coyote, wolf, fox</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9611 -->
@@ -2211,7 +2339,7 @@
         <oboInOwl:id>NCBITaxon:9611</oboInOwl:id>
         <rdfs:label>Canis</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9612 -->
@@ -2238,7 +2366,7 @@
         <owl:annotatedTarget>grey wolf</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
@@ -2286,7 +2414,7 @@
         <owl:annotatedTarget>Canis familiaris</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9787 -->
@@ -2313,7 +2441,7 @@
         <owl:annotatedTarget>odd-toed ungulates</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9788 -->
@@ -2333,7 +2461,7 @@
         <owl:annotatedTarget>horses</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9789 -->
@@ -2353,7 +2481,7 @@
         <owl:annotatedTarget>Equus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#scientific_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9793 -->
@@ -2409,7 +2537,7 @@
         <owl:annotatedTarget>donkey</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9796 -->
@@ -2457,7 +2585,7 @@
         <owl:annotatedTarget>Equus przewalskii forma caballus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9821 -->
@@ -2485,7 +2613,7 @@
         <owl:annotatedTarget>pigs</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9822 -->
@@ -2498,7 +2626,7 @@
         <oboInOwl:id>NCBITaxon:9822</oboInOwl:id>
         <rdfs:label>Sus</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
@@ -2539,7 +2667,7 @@
         <owl:annotatedTarget>wild boar</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9834 -->
@@ -2552,7 +2680,7 @@
         <oboInOwl:id>NCBITaxon:9834</oboInOwl:id>
         <rdfs:label>Tylopoda</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9835 -->
@@ -2565,7 +2693,7 @@
         <oboInOwl:id>NCBITaxon:9835</oboInOwl:id>
         <rdfs:label>Camelidae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9836 -->
@@ -2578,7 +2706,7 @@
         <oboInOwl:id>NCBITaxon:9836</oboInOwl:id>
         <rdfs:label>Camelus</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9837 -->
@@ -2619,7 +2747,7 @@
         <owl:annotatedTarget>two-humped camel</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9838 -->
@@ -2674,7 +2802,7 @@
         <owl:annotatedTarget>one-humped camel</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9839 -->
@@ -2687,7 +2815,7 @@
         <oboInOwl:id>NCBITaxon:9839</oboInOwl:id>
         <rdfs:label>Lama</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9840 -->
@@ -2714,7 +2842,7 @@
         <owl:annotatedTarget>Lama guanicoe guanaco</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9844 -->
@@ -2749,7 +2877,7 @@
         <owl:annotatedTarget>Lama guanicoe glama</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9845 -->
@@ -2762,7 +2890,7 @@
         <oboInOwl:id>NCBITaxon:9845</oboInOwl:id>
         <rdfs:label>Ruminantia</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9850 -->
@@ -2782,7 +2910,7 @@
         <owl:annotatedTarget>deer</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9895 -->
@@ -2795,7 +2923,7 @@
         <oboInOwl:id>NCBITaxon:9895</oboInOwl:id>
         <rdfs:label>Bovidae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9900 -->
@@ -2808,7 +2936,7 @@
         <oboInOwl:id>NCBITaxon:9900</oboInOwl:id>
         <rdfs:label>Bison</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9901 -->
@@ -2842,7 +2970,7 @@
         <owl:annotatedTarget>Bos (Bison) bison</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9903 -->
@@ -2862,7 +2990,7 @@
         <owl:annotatedTarget>oxen, cattle</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
@@ -2878,6 +3006,8 @@
         <oboInOwl:hasExactSynonym>dairy cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cow</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ox</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxen</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Bos bovis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bos primigenius taurus</oboInOwl:hasRelatedSynonym>
@@ -2922,6 +3052,18 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ox</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>oxen</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Bos bovis</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
@@ -2932,7 +3074,7 @@
         <owl:annotatedTarget>Bos primigenius taurus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9918 -->
@@ -2945,7 +3087,7 @@
         <oboInOwl:id>NCBITaxon:9918</oboInOwl:id>
         <rdfs:label>Bubalus</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9922 -->
@@ -2958,7 +3100,7 @@
         <oboInOwl:id>NCBITaxon:9922</oboInOwl:id>
         <rdfs:label>Capra</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9925 -->
@@ -3000,7 +3142,7 @@
         <owl:annotatedTarget>Capra aegagrus hircus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9935 -->
@@ -3013,7 +3155,7 @@
         <oboInOwl:id>NCBITaxon:9935</oboInOwl:id>
         <rdfs:label>Ovis</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9940 -->
@@ -3076,7 +3218,7 @@
         <owl:annotatedTarget>Ovis ovis</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9963 -->
@@ -3089,7 +3231,7 @@
         <oboInOwl:id>NCBITaxon:9963</oboInOwl:id>
         <rdfs:label>Caprinae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9975 -->
@@ -3109,7 +3251,7 @@
         <owl:annotatedTarget>rabbits &amp; hares</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#blast_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9979 -->
@@ -3129,7 +3271,7 @@
         <owl:annotatedTarget>rabbits and hares</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9984 -->
@@ -3142,7 +3284,7 @@
         <oboInOwl:id>NCBITaxon:9984</oboInOwl:id>
         <rdfs:label>Oryctolagus</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9986 -->
@@ -3199,7 +3341,7 @@
         <owl:annotatedTarget>Lepus cuniculus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9989 -->
@@ -3231,3 +3373,4 @@
 
 
 <!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
