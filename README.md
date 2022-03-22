@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/monarch-initiative/unified_breed_ontology/workflows/CI/badge.svg)
+![Build Status](https://github.com/monarch-initiative/vertebrate-breed-ontology/workflows/CI/badge.svg)
 
 # Vertebrate Breed Ontology
 
