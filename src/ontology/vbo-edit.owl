@@ -20,6 +20,7 @@ Annotation(dcterms:title "Vertebrate Breed Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountry>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#transboundary>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -33,6 +34,10 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#existsincountry> (exists_in_country)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#existsincountry> "exists_in_country")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus> (has_domestication_status)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus> "has_domestication_status")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#transboundary> (<http://purl.obolibrary.org/obo/vbo#transboundary>)
 
