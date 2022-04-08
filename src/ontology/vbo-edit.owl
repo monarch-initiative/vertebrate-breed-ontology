@@ -1,37 +1,59 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/vbo.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
-
-Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl>)
-
-Annotation(dcterms:title "Vertebrate Breed Ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
 Annotation(dcterms:description "None")
+Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:title "Vertebrate Breed Ontology")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountry>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#transboundary>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#existsincountry> (exists_in_country)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#existsincountry> "exists_in_country")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#transboundary> (<http://purl.obolibrary.org/obo/vbo#transboundary>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#transboundary> "transboundary breeds")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#transboundary> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> (subset_property)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> "subset_property")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
+
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/VBO_00000000>
+# Class: <http://purl.obolibrary.org/obo/VBO_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBO_00000000> "root node"@en)
 
