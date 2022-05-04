@@ -9,12 +9,13 @@ build:
   checkout: git clone https://github.com/monarch-initiative/vertebrate-breed-ontology.git
   system: git
   path: "."
-contact:
-  email: 
-  label: 
-  github: 
-description: Vertebrate Breed Ontology is an ontology...
-domain: stuff
+contact: Sabrina Toro
+  email: Sabrina@tislab.org
+  label: Sabrina Toro
+  github: sabrinatoro
+  orcid: 0000-0002-4142-7153
+description: Vertebrate Breed Ontology is an ontology created to serve as a single computable resource for vertebrate breed names.
+domain: organisms
 homepage: https://github.com/monarch-initiative/vertebrate-breed-ontology
 products:
   - id: vbo.owl
@@ -34,8 +35,11 @@ dependencies:
 
 tracker: https://github.com/monarch-initiative/vertebrate-breed-ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
-  label: CC-BY
+  url: https://creativecommons.org/licenses/by/4.0/
+  label: CC BY 4.0
+repository: https://github.com/monarch-initiative/vertebrate-breed-ontology
+preferredPrefix: VBO
+
 activity_status: active
 ---
 
