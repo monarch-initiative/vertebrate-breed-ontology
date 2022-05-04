@@ -15,7 +15,7 @@ Import(<http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
 Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Vertebrate Breed Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
