@@ -1503,6 +1503,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VBO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/vbo#transboundary"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVILEÃ‘A-NEGRA IBÃ‰RICA; Cattle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VBO_0000120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000120">
@@ -10120,6 +10136,22 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000662"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0000663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/vbo#transboundary"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish/swedish Farm Dog</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000663"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:source>
