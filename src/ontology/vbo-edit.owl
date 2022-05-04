@@ -50,9 +50,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#hasdomesticat
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#origindescription> "description of origin")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/vbo#transboundary> (<http://purl.obolibrary.org/obo/vbo#transboundary>)
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#transboundary> (transboundary)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#transboundary> "transboundary breeds")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#transboundary> "transboundary")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#transboundary> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> (subset_property)
