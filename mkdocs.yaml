@@ -1,4 +1,4 @@
-site_name: Unified Breed Ontology
+site_name: Vertebrate Breed Ontology
 theme: readthedocs
 nav:
   - Getting started: index.md
