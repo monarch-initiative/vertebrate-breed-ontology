@@ -2,7 +2,7 @@ site_name: Unified Breed Ontology
 theme: readthedocs
 nav:
   - Getting started: index.md
-  - UBO Developer Docs: ubo_developer_docs.md
+  - VBO Developer Docs: vbo_developer_docs.md
   - Cite: cite.md
   - History: history.md
   - How-to guides:
