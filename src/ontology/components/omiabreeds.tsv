@@ -1,259 +1,259 @@
 vbo id	Sabrina's note: VBO names	OMIA breed_id	xref	OMIA breed_name	source	NCBITaxon_species_id	Xlookup NCBITaxon species name	DADIS Breed	DADIS Country	Other names, to be added	Notes (could be "A rdfs:comment" but unsure whether there is already a comment, so not adding at this point)
-ID			A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	>A oboInOwl:source						
-VBO:0007320	Kedu-Indonesia	862	OMIA:862	Ayam Cemani	OMIA	9031	chicken	Kedu	Indonesia	Ayam Cemani	https://en.wikipedia.org/wiki/Ayam_Cemani
-VBO:0005147	Sidet troenderfe og nordlandsfe-Norway	571	OMIA:571	Blacksided Trondheim	OMIA	9913	cattle	Sidet troenderfe og nordlandsfe	Norway	Blacksided Trondheim	http://afs.okstate.edu/breeds/cattle/stn/index.html/
-VBO:0006672	Dongï¼Œan chicken [Dong，an chicken]-China	860	OMIA:860	Dongxiang	OMIA	9031	chicken	Dongï¼Œan chicken [Dong，an chicken]	China	Dongxiang	
-VBO:0003581	Rouge des prÃ©s [Rouge des prés]-France	1073	OMIA:1073	Rouge-des-Prés	OMIA	9913	cattle	Rouge des prÃ©s [Rouge des prés]	France	Rouge-des-Prés	
-VBO:0001841	Ã‚ne normand [Âne Normand]-France [	1076	OMIA:1076	Normand	OMIA	9793	ass	Ã‚ne normand [Âne Normand]	France		
-VBO:0016189	Alai-Kyrgyzstan	216	OMIA:216	Alai Fat Rumped	OMIA	9940	sheep	Alai	Kyrgyzstan		
-VBO:0016108	Altamurana-Italy	410	OMIA:410	Altamurana	OMIA	9940	sheep	Altamurana	Italy		
-VBO:0015734	Altay Fat-Rumped-China	1128	OMIA:1128	Altay	OMIA	9940	sheep	Altay Fat-Rumped	China		
-VBO:0007148	Ameraucana-United Kingdom of Great Britain and Northern Ireland	591	OMIA:591	White American	OMIA	9031	chicken	Ameraucana	United Kingdom of Great Britain and Northern Ireland		
-VBO:0002614	American Brown Swiss-United Kingdom of Great Britain and Northern Irelandn	1036	OMIA:1036	American Brown Swiss	OMIA	9913	cattle	American Brown Swiss	United Kingdom of Great Britain and Northern Irelandn		
-VBO:0004632	Angler-Germany	475	OMIA:475	Angler	OMIA	9913	cattle	Angler	Germany		
-VBO:0006654	Anyi gray chicken-China	969	OMIA:969	Anyi Tile-Like gray	OMIA	9031	chicken	Anyi gray chicken	China		
-VBO:0005269	ÄŒiernostrakatÃ© [Čiernostrakaté]-Slovakia	611	OMIA:611	Pied Slovak	OMIA	9913	cattle	ÄŒiernostrakatÃ© [Čiernostrakaté]	Slovakia		
-VBO:0002298	Ayrshire-Finland	923	OMIA:923	Finnish Ayrshire	OMIA	9913	cattle	Ayrshire	Finland		
-VBO:0004445	Balgarsko cherveno govedo-Bulgaria	333	OMIA:333	Red Bulgarian	OMIA	9913	cattle	Balgarsko cherveno govedo	Bulgaria		
-VBO:0004447	Balgarsko rodopsko govedo-Bulgaria	593	OMIA:593	Sofia Brown	OMIA	9913	cattle	Balgarsko rodopsko govedo	Bulgaria		
-VBO:0012741	Bama Xiang Zhu-China	1008	OMIA:1008	Bama miniature	OMIA	9823	pig	Bama Xiang Zhu	China		
-VBO:0004855	Banteng (indon )-Indonesia	151	OMIA:151	Banteng (Bali)	OMIA	9913	cattle	Banteng (indon )	Indonesia		
-VBO:0004834	Barroso-Guatemala	291	OMIA:291	Barrosa	OMIA	9913	cattle	Barroso	Guatemala		
-VBO:0006660	Beijing You-China	971	OMIA:971	Beijing Fatty	OMIA	9031	chicken	Beijing You	China		
-VBO:0006660	Beijing You-China	1063	OMIA:1063	Beijing You	OMIA	9031	chicken	Beijing You	China		
-VBO:0004423	Belgisch roodbont-Belgium	702	OMIA:702	Red Pied Flemish	OMIA	9913	cattle	Belgisch roodbont	Belgium		
-VBO:0010413	Berber-Germany	1164	OMIA:1164	Berber	OMIA	9796	horse	Berber	Germany		
-VBO:0004704	Berrenda en Negro-Spain	1114	OMIA:1114	Spanish Berrenda en negro	OMIA	9913	cattle	Berrenda en Negro	Spain		
-VBO:0014105	Beveren-United States of America	604	OMIA:604	Beveren	OMIA	9986	rabbit	Beveren	United States of America		
-VBO:0007792	BohuslÃ¤n - Dals svarthÃ¶na [Bohuslän - Dals svarthöna]-Sweden	864	OMIA:864	Svarthöna (ohuslän-Dals Svarthöna)	OMIA	9031	chicken	BohuslÃ¤n - Dals svarthÃ¶na [Bohuslän - Dals svarthöna]	Sweden		
-VBO:0016308	Borderdale-New Zealand	891	OMIA:891	Borderdale	OMIA	9940	sheep	Borderdale	New Zealand		
-VBO:0015476	Bororo-Chad	225	OMIA:225	Bororo	OMIA	9940	sheep	Bororo	Chad		
-VBO:0010460	Breton-France	796	OMIA:796	Trait Breton	OMIA	9796	horse	Breton	France		
-VBO:0011461	British Spotted Pony, Spotted Pony-United Kingdom of Great Britain and Northern Ireland	1047	OMIA:1047	British Spotted Pony	OMIA	9796	horse	British Spotted Pony, Spotted Pony	United Kingdom of Great Britain and Northern Ireland		
-VBO:0005241	Butana-Sudan	677	OMIA:677	Butana	OMIA	9913	cattle	Butana	Sudan		
-VBO:0012718	CanastrÃ£o [Canastrão]-Brazil	5	OMIA:5	Canastrao	OMIA	9823	pig	CanastrÃ£o [Canastrão]	Brazil		
-VBO:0004467	Canchim-Brazil	508	OMIA:508	Canchim	OMIA	9913	cattle	Canchim	Brazil		
-VBO:0004468	Caracu-Brazil	536	OMIA:536	Caracu	OMIA	9913	cattle	Caracu	Brazil		
-VBO:0005370	Carora-Venezuela (Bolivarian Republic of)	919	OMIA:919	Carora	OMIA	9913	cattle	Carora	Venezuela (Bolivarian Republic of)		
-VBO:0012556	Casco de Mula-Colombia	473	OMIA:473	Casco de Mula	OMIA	9823	pig	Casco de Mula	Colombia		
-VBO:0011409	Cavall MenorquÃ­ [Cavall Menorquí]-Spain	968	OMIA:968	Menorca	OMIA	9796	horse	Cavall MenorquÃ­ [Cavall Menorquí]	Spain		
-VBO:0011580	Cavallo Agricolo Italiano da Tiro Pesante Rapido-Italy	942	OMIA:942	Italian draft horse	OMIA	9796	horse	Cavallo Agricolo Italiano da Tiro Pesante Rapido	Italy		https://bmcvetres.biomedcentral.com/articles/10.1186/s12917-015-0374-0
-VBO:0002807	Ceska Cervinka-Czechia	609	OMIA:609	Red Bohemian	OMIA	9913	cattle	Ceska Cervinka	Czechia		
-VBO:0004127	Cesky strakaty skot-Czechia	556	OMIA:556	Red Pied	OMIA	9913	cattle	Cesky strakaty skot	Czechia		
-VBO:0011249	CH-Warmblut-Switzerland	1016	OMIA:1016	Swiss Warmblood	OMIA	9796	horse	CH-Warmblut	Switzerland		
-VBO:0009586	Changthangi-India	273	OMIA:273	Pashmina	OMIA	9925	goat	Changthangi	India		
-VBO:0016028	Chokla-India	623	OMIA:623	Chokla	OMIA	9940	sheep	Chokla	India		
-VBO:0005270	Cikasto govedo-Slovenia	1112	OMIA:1112	Slovenian Cika	OMIA	9913	cattle	Cikasto govedo	Slovenia		
-VBO:0013055	Cinta Senese-Italy	1120	OMIA:1120	Cinta Senese	OMIA	9823	pig	Cinta Senese	Italy		
-VBO:0011828	Colorado Ranger-United States of America	655	OMIA:655	Colorado Ranger	OMIA	9796	horse	Colorado Ranger	United States of America		
-VBO:0014616	Commune des Alpes-France	662	OMIA:662	Communes des Alpes	OMIA	9940	sheep	Commune des Alpes	France		
-VBO:0009480	criolla colombiana-Colombia	532	OMIA:532	Colombian	OMIA	9913	cattle	criolla colombiana	Colombia		
-VBO:0015696	Crioula-Brazil	369	OMIA:369	Crioula	OMIA	9940	sheep	Crioula	Brazil		
-VBO:0015696	Crioula-Brazil	368	OMIA:368	Crioula Lanada	OMIA	9940	sheep	Crioula	Brazil		
-VBO:0009816	Dagestanskaya-Russian Federation	638	OMIA:638	Dagestan White	OMIA	9925	goat	Dagestanskaya	Russian Federation		
-VBO:0004877	Dagri-India	362	OMIA:362	Malvi	OMIA	9913	cattle	Dagri	India		
-VBO:0012749	Dahe-China	789	OMIA:789	Dahe	OMIA	9823	pig	Dahe	China		
-VBO:0004878	Dangi-India	365	OMIA:365	Dangi	OMIA	9913	cattle	Dangi	India		
-VBO:0016122	Delle Langhe-Italy	183	OMIA:183	Langhe	OMIA	9940	sheep	Delle Langhe	Italy		
-VBO:0009774	Dera Din Panah-Pakistan	1134	OMIA:1134	Dera Din Panah	OMIA	9925	goat	Dera Din Panah	Pakistan		
-VBO:0013037	Deshi-India	587	OMIA:587	Desi	OMIA	9823	pig	Deshi	India		
-VBO:0003152	Deutsche Holstein Schwarzbunt-Germany	1033	OMIA:1033	German Holstein	OMIA	9913	cattle	Deutsche Holstein Schwarzbunt	Germany		
-VBO:0012400	Deutsches Edelschwein - Large White-Germany	562	OMIA:562	Deutsches Edelschwein	OMIA	9823	pig	Deutsches Edelschwein - Large White	Germany		
-VBO:0004634	Deutsches Schwarzbuntes Niederungsrind-Germany	88	OMIA:88	Black Pied	OMIA	9913	cattle	Deutsches Schwarzbuntes Niederungsrind	Germany		
-VBO:0004634	Deutsches Schwarzbuntes Niederungsrind-Germany	317	OMIA:317	Black Pied German	OMIA	9913	cattle	Deutsches Schwarzbuntes Niederungsrind	Germany		
-VBO:0003880	Doppelnutzung Rotbunt-Germany	289	OMIA:289	Red and White Westphalian	OMIA	9913	cattle	Doppelnutzung Rotbunt	Germany		
-VBO:0014559	Drents Heideschaap-Netherlands	372	OMIA:372	Drenthe	OMIA	9940	sheep	Drents Heideschaap	Netherlands		
-VBO:0015690	Dubska-Bosnia and Herzegovina	719	OMIA:719	Pramenka	OMIA	9940	sheep	Dubska	Bosnia and Herzegovina		
-VBO:0012372	Edelschwein-Austria	467	OMIA:467	Edelschwein	OMIA	9823	pig	Edelschwein	Austria		
-VBO:0015619	Elliotdale-Australia	482	OMIA:482	Elliottdale	OMIA	9940	sheep	Elliotdale	Australia		
-VBO:0004403	Ennstaler Bergscheck-Austria	142	OMIA:142	Spotted Mountain	OMIA	9913	cattle	Ennstaler Bergscheck	Austria		
-VBO:0013099	Estonian bacon-Republic of Moldova	390	OMIA:390	Estonian Bacon	OMIA	9823	pig	Estonian bacon	Republic of Moldova		
-VBO:0004498	EvolÃ¨ner [Evolèner]-Switzerland	1116	OMIA:1116	Evolèner	OMIA	9913	cattle	EvolÃ¨ner [Evolèner]	Switzerland		
-VBO:0005274	FjÃ¤llnÃ¤ra boskap [Fjällnära boskap]-Sweden	447	OMIA:447	Swedish Mountain	OMIA	9913	cattle	FjÃ¤llnÃ¤ra boskap [Fjällnära boskap]	Sweden		
-VBO:0004129	Fleckvieh Doppelnutzung-Germany	608	OMIA:608	German Simmental	OMIA	9913	cattle	Fleckvieh Doppelnutzung	Germany		
-VBO:0002354	Fleckvieh-Simmental-Germany	850	OMIA:850	German Fleckvieh	OMIA	9913	cattle	Fleckvieh-Simmental	Germany		
-VBO:0004499	Fribourgeois-Switzerland	300	OMIA:300	Fribourg	OMIA	9913	cattle	Fribourgeois	Switzerland		
-VBO:0004499	Fribourgeois-Switzerland	601	OMIA:601	Fribourg Black Spotted	OMIA	9913	cattle	Fribourgeois	Switzerland		
-VBO:0005141	Fries Roodbont-Netherlands	597	OMIA:597	Red Friesian	OMIA	9913	cattle	Fries Roodbont	Netherlands		
-VBO:0016036	Gaddi-India	509	OMIA:509	Gaddi	OMIA	9940	sheep	Gaddi	India		
-VBO:0007053	Gallina Castellana Negra-Spain	355	OMIA:355	Black Castilian	OMIA	9031	chicken	Gallina Castellana Negra	Spain		
-VBO:0006532	Gallina Mapuche-Argentina	895	OMIA:895	Mapuche	OMIA	9031	chicken	Gallina Mapuche	Argentina		
-VBO:0016295	Gammelnorsk spaelsau-Norway	991	OMIA:991	Norwegian White	OMIA	9940	sheep	Gammelnorsk spaelsau	Norway		
-VBO:0016295	Gammelnorsk spaelsau-Norway	616	OMIA:616	Spael	OMIA	9940	sheep	Gammelnorsk spaelsau	Norway		
-VBO:0009987	Gang-China	1140	OMIA:1140	Gang	OMIA	8843	goose	Gang	China		
-VBO:0004827	Ghana Shorthorn-Ghana	684	OMIA:684	Gold Coast Shorthorn	OMIA	9913	cattle	Ghana Shorthorn	Ghana		
-VBO:0004885	Ghumusari-India	524	OMIA:524	Ganjam	OMIA	9913	cattle	Ghumusari	India		
-VBO:0009647	Girgentana-Italy	1146	OMIA:1146	Girgentana	OMIA	9925	goat	Girgentana	Italy		
-VBO:0002964	Gloucester-United Kingdom of Great Britain and Northern Ireland	1113	OMIA:1113	British Gloucester	OMIA	9913	cattle	Gloucester	United Kingdom of Great Britain and Northern Ireland		
-VBO:0015622	Gromark-Australia	566	OMIA:566	Gromark	OMIA	9940	sheep	Gromark	Australia		
-VBO:0007907	H'mong-Viet Nam	863	OMIA:863	Black H'Mong	OMIA	9031	chicken	H'mong	Viet Nam		
-VBO:0016483	Hejazi-Saudi Arabia	352	OMIA:352	Hejazi	OMIA	9940	sheep	Hejazi	Saudi Arabia		
-VBO:0016517	HelsingefÃ¥r [Helsingefår]-Sweden	1107	OMIA:1107	Helsinge	OMIA	9940	sheep	HelsingefÃ¥r [Helsingefår]	Sweden		
-VBO:0003105	Highland cattle-Sweden	445	OMIA:445	Swedish Highland	OMIA	9913	cattle	Highland cattle	Sweden		
-VBO:0003122	Holstein-Friesian-Austria	218	OMIA:218	Schwarzbunt	OMIA	9913	cattle	Holstein-Friesian	Austria		
-VBO:0003180	Holstein-Friesian-India	756	OMIA:756	Indian Holstein	OMIA	9913	cattle	Holstein-Friesian	India		
-VBO:0003139	Holstein-Friesian-Switzerland	208	OMIA:208	Black Pied Swiss	OMIA	9913	cattle	Holstein-Friesian	Switzerland		https://www.krankykids.com/cows/mydailycow_2019/2019_January/20190106.html
-VBO:0003139	Holstein-Friesian-Switzerland	705	OMIA:705	Black Spotted Swiss	OMIA	9913	cattle	Holstein-Friesian	Switzerland		https://www.krankykids.com/cows/mydailycow_2019/2019_January/20190106.html
-VBO:0003139	Holstein-Friesian-Switzerland	1034	OMIA:1034	Swiss Holstein	OMIA	9913	cattle	Holstein-Friesian	Switzerland		
-VBO:0003179	Holstein-friz-Hungary	203	OMIA:203	Pied Hungarian	OMIA	9913	cattle	Holstein-friz	Hungary		
-VBO:0003151	Holstynsky-Czechia	651	OMIA:651	Pied	OMIA	9913	cattle	Holstynsky	Czechia		
-VBO:0012786	Huazhong Two-End Black - Shaziling-China	928	OMIA:928	Shaziling	OMIA	9823	pig	Huazhong Two-End Black - Shaziling	China		
-VBO:0006695	Huiyang Bearded-China	1054	OMIA:1054	Huiyang Bearded	OMIA	9031	chicken	Huiyang Bearded	China		
-VBO:0015623	Hyfer-Australia	358	OMIA:358	Hyfer	OMIA	9940	sheep	Hyfer	Australia		
-VBO:0003317	Indubrazil-Honduras	489	OMIA:489	Indubrazil	OMIA	9913	cattle	Indubrazil	Honduras		
-VBO:0014736	INRA 401-France	967	OMIA:967	Romane	OMIA	9940	sheep	INRA 401	France		
-VBO:0007680	Italiana neagra-Romania	548	OMIA:548	Black Leghorn	OMIA	9031	chicken	Italiana neagra	Romania		
-VBO:0004987	Japanese Black-Japan	234	OMIA:234	Black Japanese	OMIA	9913	cattle	Japanese Black	Japan		
-VBO:0004987	Japanese Black-Japan	31	OMIA:31	Japanese Black	OMIA	9913	cattle	Japanese Black	Japan		
-VBO:0004988	Japanese Brown-Japan	330	OMIA:330	Japanese Brown	OMIA	9913	cattle	Japanese Brown	Japan		
-VBO:0016509	Jezersko-solÄavska ovca-Slovenia	720	OMIA:720	Solcava	OMIA	9940	sheep	Jezersko-solÄavska ovca	Slovenia		
-VBO:0004892	Kankrej-India	909	OMIA:909	Kankrej	OMIA	9915	bos indicus (Zebu)	Kankrej	India		
-VBO:0016177	Kazakhskaya Tonkorunnaya-Kazakhstan	219	OMIA:219	Kazakh Finewool	OMIA	9940	sheep	Kazakhskaya Tonkorunnaya	Kazakhstan		
-VBO:0005124	Kedah-Kelantan-Malaysia	715	OMIA:715	Kedah Kelantan	OMIA	9913	cattle	Kedah-Kelantan	Malaysia		
-VBO:0005244	Kenana-Sudan	676	OMIA:676	Kenana	OMIA	9913	cattle	Kenana	Sudan		
-VBO:0016053	Kilakarsal-India	704	OMIA:704	Keezhakkaraisal	OMIA	9940	sheep	Kilakarsal	India		
-VBO:0016518	KlÃ¶vsjÃ¶fÃ¥r [Klövsjöfår]-Sweden	1108	OMIA:1108	Klövsjö	OMIA	9940	sheep	KlÃ¶vsjÃ¶fÃ¥r [Klövsjöfår]	Sweden		
-VBO:0004905	Kumauni-India	283	OMIA:283	Kumauni Hill	OMIA	9913	cattle	Kumauni	India		
-VBO:0012562	Laconie P77-France	319	OMIA:319	Laconie	OMIA	9823	pig	Laconie P77	France		
-VBO:0012408	Large White-Finland	840	OMIA:840	Finnish Yorkshire	OMIA	9823	pig	Large White	Finland		
-VBO:0005372	Limonero-Venezuela (Bolivarian Republic of)	1065	OMIA:1065	Limonero	OMIA	9913	cattle	Limonero	Venezuela (Bolivarian Republic of)		
-VBO:0006725	Lushi-China	896	OMIA:896	Lushi	OMIA	9031	chicken	Lushi	China		
-VBO:0015887	MÃ©rinos d'Arles [Mérinos d'Arles]-France	67	OMIA:67	Merino d'Arles	OMIA	9940	sheep	MÃ©rinos d'Arles [Mérinos d'Arles]	France		
-VBO:0016054	Magra-India	285	OMIA:285	Magra	OMIA	9940	sheep	Magra	India		
-VBO:0003310	Magyar SzÃ¼rke [Magyar Szürke]-Hungary	521	OMIA:521	Grey Hungarian	OMIA	9913	cattle	Magyar SzÃ¼rke [Magyar Szürke]	Hungary		https://en.wikipedia.org/wiki/Hungarian_Grey
-VBO:0004144	Magyartarka-Hungary	525	OMIA:525	Hungarian Red Spotted	OMIA	9913	cattle	Magyartarka	Hungary		
-VBO:0004144	Magyartarka-Hungary	403	OMIA:403	Red Spotted Hungarian	OMIA	9913	cattle	Magyartarka	Hungary		
-VBO:0004144	Magyartarka-Hungary	513	OMIA:513	Spotted Hungarian	OMIA	9913	cattle	Magyartarka	Hungary		
-VBO:0004968	Maremmana-Italy	529	OMIA:529	Maremmana	OMIA	9913	cattle	Maremmana	Italy		
-VBO:0016058	Marwari-India	478	OMIA:478	Marwari	OMIA	9940	sheep	Marwari	India		
-VBO:0016132	Massese-Italy	1109	OMIA:1109	Massese	OMIA	9940	sheep	Massese	Italy		
-VBO:0004696	Menufi-Egypt	474	OMIA:474	Baladi	OMIA	9913	cattle	Menufi	Egypt		
-VBO:0012819	Min-China	429	OMIA:429	Minzhu	OMIA	9823	pig	Min	China		http://www.livestockoftheworld.com/Pigs/Breeds.asp?BreedLookupID=1851&SpeciesID=12
-VBO:0001922	Miniature-United States of America	1077	OMIA:1077	Miniature Donkey	OMIA	9793	ass	Miniature	United States of America		
-VBO:0004799	Miniature Zebu-United Kingdom of Great Britain and Northern Ireland	1094	OMIA:1094	Miniature Zebu	OMIA	9913	cattle	Miniature Zebu	United Kingdom of Great Britain and Northern Ireland		
-VBO:0007408	Minohiki-Japan	914	OMIA:914	Minohiki	OMIA	9031	chicken	Minohiki	Japan		
-VBO:0011358	Missouri Fox Trotter-Germany	1089	OMIA:1089	Missouri Foxtrotter	OMIA	9796	horse	Missouri Fox Trotter	Germany		
-VBO:0016813	Mongolian Yak-Mongolia	975	OMIA:975	Mongolian	OMIA	30521	domestic yak	Mongolian Yak	Mongolia		
-VBO:0002637	Montafon-North Macedonia	594	OMIA:594	Montafon	OMIA	9913	cattle	Montafon	North Macedonia		
-VBO:0015497	Mouton vendÃ©en [Mouton vendéen]-France	459	OMIA:459	Mouton Vendeen	OMIA	9940	sheep	Mouton vendÃ©en [Mouton vendéen]	France		
-VBO:0004971	Mucca Pisana-Italy	426	OMIA:426	Pisa	OMIA	9913	cattle	Mucca Pisana	Italy		
-VBO:0006731	Muchuan Silkies Black-China	972	OMIA:972	Muchuan	OMIA	9031	chicken	Muchuan Silkies Black	China		
-VBO:0016061	Muzaffarnagri-India	281	OMIA:281	Muzaffarnagari	OMIA	9940	sheep	Muzaffarnagri	India		
-VBO:0009786	Nachi-Pakistan	1135	OMIA:1135	Nachi	OMIA	9925	goat	Nachi	Pakistan		
-VBO:0016062	Nali-India	624	OMIA:624	Nali	OMIA	9940	sheep	Nali	India		
-VBO:0016618	Namaqua Afrikaner-South Africa	485	OMIA:485	Namaqua	OMIA	9940	sheep	Namaqua Afrikaner	South Africa		
-VBO:0009749	Nederlandse Landgeit-Netherlands	988	OMIA:988	Dutch Landrace	OMIA	9925	goat	Nederlandse Landgeit	Netherlands		
-VBO:0016063	Nellore-India	425	OMIA:425	Nellore	OMIA	9940	sheep	Nellore	India		
-VBO:0005339	Nganda-Uganda	290	OMIA:290	Nganda	OMIA	9913	cattle	Nganda	Uganda		
-VBO:0016064	Nilgiri-India	241	OMIA:241	Nilgiri	OMIA	9940	sheep	Nilgiri	India		
-VBO:0005340	Nkedi-Uganda	737	OMIA:737	Bukedi	OMIA	9913	cattle	Nkedi	Uganda		
-VBO:0009062	Norsk melkegeit-Norway	1126	OMIA:1126	Norwegian Dairy Goat	OMIA	9925	goat	Norsk melkegeit	Norway		
-VBO:0005145	Norsk roedt fe-Norway	404	OMIA:404	Red and White Norwegian	OMIA	9913	cattle	Norsk roedt fe	Norway		
-VBO:0008739	Nubian-United States of America	1	OMIA:1	Nubian	OMIA	9925	goat	Nubian	United States of America		
-VBO:0014088	orjaÅ¡ki lisec [angleški lisec]-Slovenia	918	OMIA:918	Checkered Giant	OMIA	9986	rabbit	orjaÅ¡ki lisec [angleški lisec]	Slovenia		
-VBO:0015839	Ossimi-Egypt	663	OMIA:663	Ausimi	OMIA	9940	sheep	Ossimi	Egypt		
-VBO:0015839	Ossimi-Egypt	664	OMIA:664	Osimi	OMIA	9940	sheep	Ossimi	Egypt		
-VBO:0009787	Pak Angora-Pakistan	1141	OMIA:1141	Pak angora	OMIA	9925	goat	Pak Angora	Pakistan		
-VBO:0016066	Patanwadi-India	530	OMIA:530	Patanwadi	OMIA	9940	sheep	Patanwadi	India		
-VBO:0015035	Pelibuey-Mexico	1121	OMIA:1121	Mexican Pelibuey	OMIA	9940	sheep	Pelibuey	Mexico		
-VBO:0004147	Pezzata Rossa Italiana-Italy	934	OMIA:934	Pezzata Rossa	OMIA	9913	cattle	Pezzata Rossa Italiana	Italy		
-VBO:0004478	Pitangueiras-Brazil	256	OMIA:256	Pitangueiras	OMIA	9913	cattle	Pitangueiras	Brazil		
-VBO:0004751	Pohjoissuomenkarja-Finland	905	OMIA:905	Northern Finncattle	OMIA	9913	cattle	Pohjoissuomenkarja	Finland		
-VBO:0003823	Polska czerwona (RP)-Poland	71	OMIA:71	Red Polish	OMIA	9913	cattle	Polska czerwona (RP)	Poland		
-VBO:0003825	Polska czerwono-biala (ZR)-Poland	526	OMIA:526	Red Pied Lowland	OMIA	9913	cattle	Polska czerwono-biala (ZR)	Poland		
-VBO:0003300	Polska holsztyÅ„sko-fryzyjska czerwono-biaÅ‚a [Polska holsztyńsko-fryzyjska czerwono-biała]-Poland	682	OMIA:682	Black and White Polish Lowland	OMIA	9913	cattle	Polska holsztyÅ„sko-fryzyjska czerwono-biaÅ‚a [Polska holsztyńsko-fryzyjska czerwono-biała]	Poland		
-VBO:0016371	Polska owca gÃ³rska [Polska owca górska]-Poland	411	OMIA:411	Polish Mountain	OMIA	9940	sheep	Polska owca gÃ³rska [Polska owca górska]	Poland		
-VBO:0011370	Pony Of the Americas-Germany	1046	OMIA:1046	Pony of the Americas	OMIA	9796	horse	Pony Of the Americas	Germany		
-VBO:0015888	PrÃ©Alpes du Sud [PréAlpes du Sud]-France	661	OMIA:661	Prealpes	OMIA	9940	sheep	PrÃ©Alpes du Sud [PréAlpes du Sud]	France		
-VBO:0004595	PrÃ©wakwa [Préwakwa]-Cameroon	671	OMIA:671	Wakwa	OMIA	9913	cattle	PrÃ©wakwa [Préwakwa]	Cameroon		
-VBO:0016011	Priangan-Indonesia	6	OMIA:6	Indonesian Thin Tail	OMIA	9940	sheep	Priangan	Indonesia		
-VBO:0003169	Prim'Holstein-France	1117	OMIA:1117	French Holstein	OMIA	9913	cattle	Prim'Holstein	France		
-VBO:0005277	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]-Sweden	448	OMIA:448	Red and white Swedish	OMIA	9913	cattle	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]	Sweden		
-VBO:0005277	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]-Sweden	658	OMIA:658	Red Pied Swedish	OMIA	9913	cattle	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]	Sweden		
-VBO:0015840	Rahmani-Egypt	665	OMIA:665	Rahmani	OMIA	9940	sheep	Rahmani	Egypt		
-VBO:0015863	Rasa Aragonesa-Spain	883	OMIA:883	Rasa Aragonesa	OMIA	9940	sheep	Rasa Aragonesa	Spain		
-VBO:0004926	Rathi-India	551	OMIA:551	Rathi	OMIA	9913	cattle	Rathi	India		
-VBO:0004501	Red Holstein-Switzerland	243	OMIA:243	Red Holstein	OMIA	9913	cattle	Red Holstein	Switzerland		
-VBO:0004377	Red Norwegian-Albania	538	OMIA:538	Red Norwegian	OMIA	9913	cattle	Red Norwegian	Albania		
-VBO:0015810	RhÃ¶nschaf [Rhönschaf]-Germany	727	OMIA:727	Rhoenschaf	OMIA	9940	sheep	RhÃ¶nschaf [Rhönschaf]	Germany		
-VBO:0015810	RhÃ¶nschaf [Rhönschaf]-Germany	631	OMIA:631	Rhon	OMIA	9940	sheep	RhÃ¶nschaf [Rhönschaf]	Germany		
-VBO:0005376	Romosinuano-Venezuela (Bolivarian Republic of)	920	OMIA:920	Romosinuano	OMIA	9913	cattle	Romosinuano	Venezuela (Bolivarian Republic of)		
-VBO:0012835	Rongchang-China	861	OMIA:861	Rongchang	OMIA	9823	pig	Rongchang	China		
-VBO:0016519	RoslagsfÃ¥r [Roslagsfår]-Sweden	890	OMIA:890	Swedish Landrace	OMIA	9940	sheep	RoslagsfÃ¥r [Roslagsfår]	Sweden		
-VBO:0004642	Rotes HÃ¶henvieh [Rotes Höhenvieh]-Germany	857	OMIA:857	Rotes Höhenvieh	OMIA	9913	cattle	Rotes HÃ¶henvieh [Rotes Höhenvieh]	Germany		
-VBO:0002882	Rubia Gallega-Spain	471	OMIA:471	Rubia Gallega	OMIA	9913	cattle	Rubia Gallega	Spain		
-VBO:0011384	SÃ¼ddeutsches Kaltblut [Süddeutsches Kaltblut]-Germany	1015	OMIA:1015	South German Draft	OMIA	9796	horse	SÃ¼ddeutsches Kaltblut [Süddeutsches Kaltblut]	Germany		
-VBO:0015203	Santa Ines-Brazil	1039	OMIA:1039	Brazilian Santa Inês	OMIA	9940	sheep	Santa Ines	Brazil		
-VBO:0016537	Saraja-Turkmenistan	217	OMIA:217	Saraja	OMIA	9940	sheep	Saraja	Turkmenistan		
-VBO:0009659	Sarda-Italy	114	OMIA:114	Sardinian	OMIA	9925	goat	Sarda	Italy		
-VBO:0016221	Sardi-Morocco	81	OMIA:81	Sardi	OMIA	9940	sheep	Sardi	Morocco		
-VBO:0012910	SchwÃ¤bisch HÃ¤llisches Schwein [Schwäbisch-Hällisches Schwein]-Germany	875	OMIA:875	Bavarian Landschwein	OMIA	9823	pig	SchwÃ¤bisch HÃ¤llisches Schwein [Schwäbisch-Hällisches Schwein]	Germany		https://www.google.com/search?q=bavarian+landschwein+pig&client=firefox-b-d&sxsrf=AOaemvKkZ09eVV3nhhfHnP-dB3c--V19qQ%3A1642480506848&ei=ekPmYbuaM4yXseMPhJGSyA8&ved=0ahUKEwi7v6TZvLr1AhWMS2wGHYSIBPkQ4dUDCA0&uact=5&oq=bavarian+landschwein+pig&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgAToHCCMQsAMQJ0oECEEYAUoECEYYAFClBliJDWD5D2gBcAB4AIAB-gKIAckHkgEHMC4yLjEuMZgBAKABAcgBAcABAQ&sclient=gws-wiz
-VBO:0016844	Schwerfurter Fleischrasse-Germany	502	OMIA:502	Schwerfurt	OMIA	9823	pig	Schwerfurter Fleischrasse	Germany		Breeding and economic analysis of the use of the Schwerfurt meat-type breed at the Lenin Agricultural Co-operative at Seifersbach (eurekamag.com); https://eurekamag.com/research/005/284/005284906.php
-VBO:0005952	Sebright Bantams-United Kingdom of Great Britain and Northern Ireland	9	OMIA:9	Sebright Bantam	OMIA	9031	chicken	Sebright Bantams	United Kingdom of Great Britain and Northern Ireland		
-VBO:0005147	Sidet troenderfe og nordlandsfe-Norway	570	OMIA:570	Coloursided Tronder	OMIA	9913	cattle	Sidet troenderfe og nordlandsfe	Norway		https://www.nordgen.org/en/native-breed/coloursided-troender-and-nordland-cattle-stn/
-VBO:0005876	Single Comb White Leghorn-Line 01-Ukraine	543	OMIA:543	Single Comb White Leghorn	OMIA	9031	chicken	Single Comb White Leghorn-Line 01	Ukraine		
-VBO:0009611	Sirohi-India	621	OMIA:621	Sirohi	OMIA	9925	goat	Sirohi	India		
-VBO:0016577	Sokil'ska-Ukraine	331	OMIA:331	Sokolka	OMIA	9940	sheep	Sokil'ska	Ukraine		
-VBO:0015256	Somali Brasileiro-Brazil	226	OMIA:226	Brazilian Somali	OMIA	9940	sheep	Somali Brasileiro	Brazil		
-VBO:0004195	Somba-Benin	557	OMIA:557	Shorthorn West African	OMIA	9913	cattle	Somba	Benin		
-VBO:0004665	Sortbroget Jydsk Malkekvaeg-Denmark	129	OMIA:129	Black Pied Danish	OMIA	9913	cattle	Sortbroget Jydsk Malkekvaeg	Denmark		
-VBO:0016317	South Hampshire-New Zealand	194	OMIA:194	South Hampshire	OMIA	9940	sheep	South Hampshire	New Zealand		
-VBO:0016462	Sur-Russian Federation	385	OMIA:385	Sur	OMIA	9940	sheep	Sur	Russian Federation		
-VBO:0003934	Sura de stepa-Romania	746	OMIA:746	Grey Steppe	OMIA	9913	cattle	Sura de stepa	Romania		
-VBO:0003254	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]-Sweden	250	OMIA:250	Lowland Swedish	OMIA	9913	cattle	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]	Sweden		https://en.wikipedia.org/wiki/Swedish_Friesian
-VBO:0003254	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]-Sweden	287	OMIA:287	Swedish Lowland	OMIA	9913	cattle	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]	Sweden		
-VBO:0015942	Swaledale-United Kingdom of Great Britain and Northern Ireland	433	OMIA:433	Swaledale	OMIA	9940	sheep	Swaledale	United Kingdom of Great Britain and Northern Ireland		
-VBO:0004240	Sykia-Greece	695	OMIA:695	Sykia Chalkidiki	OMIA	9913	cattle	Sykia	Greece		
-VBO:0012845	Taihu - Erhualian-China	984	OMIA:984	Chinese Erhualian	OMIA	9823	pig	Taihu - Erhualian	China		
-VBO:0012847	Taihu - Fengjing-China	428	OMIA:428	Fengjing	OMIA	9823	pig	Taihu - Fengjing	China		
-VBO:0012853	Taiwan Small Red-China	710	OMIA:710	Small Red	OMIA	9823	pig	Taiwan Small Red	China		
-VBO:0015629	Tasmanian Merino-Australia	25	OMIA:25	Tasmanian Merino	OMIA	9940	sheep	Tasmanian Merino	Australia		
-VBO:0005148	Telemarkfe-Norway	405	OMIA:405	Telemark	OMIA	9913	cattle	Telemarkfe	Norway		
-VBO:0005011	Teso-Kenya	420	OMIA:420	Teso	OMIA	9913	cattle	Teso	Kenya		
-VBO:0012856	Tibetan-China	791	OMIA:791	Chinese-Tibetan	OMIA	9823	pig	Tibetan	China		
-VBO:0005410	Tonga-Zambia	233	OMIA:233	Tonga	OMIA	9913	cattle	Tonga	Zambia		
-VBO:0012462	Topigs Z line (Large White)-Netherlands	435	OMIA:435	Great Yorkshire	OMIA	9823	pig	Topigs Z line (Large White)	Netherlands		
-VBO:0011097	Tori hobune-Estonia	1007	OMIA:1007	Old-Tori	OMIA	9796	horse	Tori hobune	Estonia		
-VBO:0011496	Traditional Gypsy Cob-United Kingdom of Great Britain and Northern Ireland	1014	OMIA:1014	Gipsy	OMIA	9796	horse	Traditional Gypsy Cob	United Kingdom of Great Britain and Northern Ireland		
-VBO:0011496	Traditional Gypsy Cob-United Kingdom of Great Britain and Northern Ireland	1122	OMIA:1122	Gypsy	OMIA	9796	horse	Traditional Gypsy Cob	United Kingdom of Great Britain and Northern Ireland		
-VBO:0011598	Trottatore Italiano-Italy	979	OMIA:979	Italian Trotter	OMIA	9796	horse	Trottatore Italiano	Italy		
-VBO:0004409	Tux-Zillertaler-Austria	1111	OMIA:1111	Tux-Zillertaler	OMIA	9913	cattle	Tux-Zillertaler	Austria		
-VBO:0004643	UckermÃ¤rker [Uckermärker]-Germany	1142	OMIA:1142	Uckermärker	OMIA	9913	cattle	UckermÃ¤rker [Uckermärker]	Germany		
-VBO:0007067	Utrerana-Spain	356	OMIA:356	Barred Utreranian	OMIA	9031	chicken	Utrerana	Spain		
-VBO:0016522	VÃ¤rmlandsfÃ¥r [Värmlandsfår]-Sweden	1106	OMIA:1106	Värmland	OMIA	9940	sheep	VÃ¤rmlandsfÃ¥r [Värmlandsfår]	Sweden		
-VBO:0004979	Valdostana Pezzata Rossa-Italy	309	OMIA:309	Red Pied Aosta	OMIA	9913	cattle	Valdostana Pezzata Rossa	Italy		
-VBO:0016156	Valle del Belice-Italy	990	OMIA:990	Valle del Belice	OMIA	9940	sheep	Valle del Belice	Italy		
-VBO:0004645	VorderwÃ¤lder [Vorderwälder]-Germany	204	OMIA:204	Vorderwald	OMIA	9913	cattle	VorderwÃ¤lder [Vorderwälder]	Germany		
-VBO:0015510	WeiÃŸes Alpenschaf [Weißes Alpenschaf]-Switzerland	877	OMIA:877	Swiss Alpine	OMIA	9940	sheep	WeiÃŸes Alpenschaf [Weißes Alpenschaf]	Switzerland		
-VBO:0015823	WeiÃŸkÃ¶pfiges Fleischschaf [Weißköpfiges Fleischschaf]-Germany	628	OMIA:628	German Whiteheaded Mutton	OMIA	9940	sheep	WeiÃŸkÃ¶pfiges Fleischschaf [Weißköpfiges Fleischschaf]	Germany		
-VBO:0015947	Welsh Mountain-United Kingdom of Great Britain and Northern Ireland	193	OMIA:193	Welsh Mountain	OMIA	9940	sheep	Welsh Mountain	United Kingdom of Great Britain and Northern Ireland		
-VBO:0016700	White Holland-United States of America	723	OMIA:723	White Holland	OMIA	9103	turkey	White Holland	United States of America		
-VBO:0004345	White Park-United Kingdom of Great Britain and Northern Ireland	168	OMIA:168	British White Park	OMIA	9913	cattle	White Park	United Kingdom of Great Britain and Northern Ireland		
-VBO:0012864	Wujin - Kele-China	790	OMIA:790	Kele	OMIA	9823	pig	Wujin - Kele	China		
-VBO:0012865	Wujin - Liangshan-China	935	OMIA:935	Liangshan	OMIA	9823	pig	Wujin - Liangshan	China		
-VBO:0004351	Yakutskii Skot-Russian Federation	1137	OMIA:1137	Yakutian	OMIA	9913	cattle	Yakutskii Skot	Russian Federation		
-VBO:0013234	Yucatan Miniature-United States of America	1168	OMIA:1168	Yucatan miniature pig	OMIA	9823	pig	Yucatan Miniature	United States of America		
-VBO:0001829	Zamorano-LeonÃ©s [Zamorano-Leonés]-Spain	913	OMIA:913	Zamorano-Leonés	OMIA	9793	ass	Zamorano-LeonÃ©s [Zamorano-Leonés]	Spain		
-VBO:0004428	Zwartbont ras van de Polders-Belgium	231	OMIA:231	Black Pied Lowland	OMIA	9913	cattle	Zwartbont ras van de Polders	Belgium		
-VBO:0016854	Rocky Mountain-United States of America [Bighorn sheep]	70	OMIA:70	Rocky Mountain	OMIA						
-VBO:0016855	Miniature Highland-United Kingdom of Great Britain and Northern Ireland [Cattle]	941	OMIA:941	Miniature Highland	OMIA						
-VBO:0016856	Chinese Xingyi bantam-China [Chicken]	1002	OMIA:1002	Chinese Xingyi	OMIA						
-VBO:0016857	Connecticut (CT) strain-United States of America [Chicken]	1051	OMIA:1051	Connecticut (CT) strain	OMIA						
-VBO:0016858	Erminette-United States of America [Chicken]	701	OMIA:701	Erminette	OMIA						
-VBO:0016859	Israeli experimental line-Israel [Chicken]	994	OMIA:994	Israeli experimental line	OMIA						
-VBO:0016860	Mie-Jidori-Japan [Chicken]	1124	OMIA:1124	Mie-Jidori	OMIA						
-VBO:0016861	Polymorphic Nucleolar [PNU] strain-United States of America [Chicken]	1057	OMIA:1057	Polymorphic Nucleolar (PNU) strain	OMIA						
-VBO:0016862	S2 line-China [Chicken]	1052	OMIA:1052	S2 line	OMIA						
-VBO:0016863	Storrs Connecticut scaleless low line-United States of America [Chicken]	993	OMIA:993	Storrs, Connecticut (low line)	OMIA						
-VBO:0016864	TETRA strain-United States of America [Chicken]	1061	OMIA:1061	TETRA	OMIA						
-VBO:0016865	UC Davis line-United States of America [Chicken]	992	OMIA:992	UC Davis lines	OMIA						
-VBO:0016866	Wisconsin hypoalpha mutant (WHAM)-United States of America [Chicken]	1050	OMIA:1050	Wisconsin hypoalpha mutant (WHAM)	OMIA						
-VBO:0016867	Yimeng Blue-China [Chicken]	1167	OMIA:1167	Yimeng	OMIA						
-VBO:0016868	Datong-China [Domestic yak]	901	OMIA:901	Datong	OMIA						
-VBO:0016869	Camarillo White Horse-United States of America [Horse]	1010	OMIA:1010	Camarillo White Horse	OMIA						
-VBO:0016870	Japanese Draft-Japan [Horse]	1011	OMIA:1011	Japanese Draft	OMIA						
-VBO:0016871	Kentucky Mountain Saddle-United States of America [Horse]	854	OMIA:854	Kentucky Mountain Saddle	OMIA						
-VBO:0016872	Alaska-United States of America [North American deer mouse]	996	OMIA:996	Alaska	OMIA						
-VBO:0016873	Essex-United Kingdom of Great Britain and Northern Ireland [Pig]	450	OMIA:450	Essex	OMIA						
-VBO:0016874	Minnesota-United States of America [Pig]	334	OMIA:334	Minnesota	OMIA						
-VBO:0016875	Cabugi-Brazil [Sheep]	912	OMIA:912	Cabugi	OMIA						
+ID			A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym SPLIT=|	>AI oboInOwl:source						
+VBO:0007320	Kedu-Indonesia	862	OMIA:862	Ayam Cemani	https://omia.org	9031	chicken	Kedu	Indonesia	Ayam Cemani	https://en.wikipedia.org/wiki/Ayam_Cemani
+VBO:0005147	Sidet troenderfe og nordlandsfe-Norway	571	OMIA:571	Blacksided Trondheim	https://omia.org	9913	cattle	Sidet troenderfe og nordlandsfe	Norway	Blacksided Trondheim	http://afs.okstate.edu/breeds/cattle/stn/index.html/
+VBO:0006672	Dongï¼Œan chicken [Dong，an chicken]-China	860	OMIA:860	Dongxiang	https://omia.org	9031	chicken	Dongï¼Œan chicken [Dong，an chicken]	China	Dongxiang	
+VBO:0003581	Rouge des prÃ©s [Rouge des prés]-France	1073	OMIA:1073	Rouge-des-Prés	https://omia.org	9913	cattle	Rouge des prÃ©s [Rouge des prés]	France	Rouge-des-Prés	
+VBO:0001841	Ã‚ne normand [Âne Normand]-France [	1076	OMIA:1076	Normand	https://omia.org	9793	ass	Ã‚ne normand [Âne Normand]	France		
+VBO:0016189	Alai-Kyrgyzstan	216	OMIA:216	Alai Fat Rumped	https://omia.org	9940	sheep	Alai	Kyrgyzstan		
+VBO:0016108	Altamurana-Italy	410	OMIA:410	Altamurana	https://omia.org	9940	sheep	Altamurana	Italy		
+VBO:0015734	Altay Fat-Rumped-China	1128	OMIA:1128	Altay	https://omia.org	9940	sheep	Altay Fat-Rumped	China		
+VBO:0007148	Ameraucana-United Kingdom of Great Britain and Northern Ireland	591	OMIA:591	White American	https://omia.org	9031	chicken	Ameraucana	United Kingdom of Great Britain and Northern Ireland		
+VBO:0002614	American Brown Swiss-United Kingdom of Great Britain and Northern Irelandn	1036	OMIA:1036	American Brown Swiss	https://omia.org	9913	cattle	American Brown Swiss	United Kingdom of Great Britain and Northern Irelandn		
+VBO:0004632	Angler-Germany	475	OMIA:475	Angler	https://omia.org	9913	cattle	Angler	Germany		
+VBO:0006654	Anyi gray chicken-China	969	OMIA:969	Anyi Tile-Like gray	https://omia.org	9031	chicken	Anyi gray chicken	China		
+VBO:0005269	ÄŒiernostrakatÃ© [Čiernostrakaté]-Slovakia	611	OMIA:611	Pied Slovak	https://omia.org	9913	cattle	ÄŒiernostrakatÃ© [Čiernostrakaté]	Slovakia		
+VBO:0002298	Ayrshire-Finland	923	OMIA:923	Finnish Ayrshire	https://omia.org	9913	cattle	Ayrshire	Finland		
+VBO:0004445	Balgarsko cherveno govedo-Bulgaria	333	OMIA:333	Red Bulgarian	https://omia.org	9913	cattle	Balgarsko cherveno govedo	Bulgaria		
+VBO:0004447	Balgarsko rodopsko govedo-Bulgaria	593	OMIA:593	Sofia Brown	https://omia.org	9913	cattle	Balgarsko rodopsko govedo	Bulgaria		
+VBO:0012741	Bama Xiang Zhu-China	1008	OMIA:1008	Bama miniature	https://omia.org	9823	pig	Bama Xiang Zhu	China		
+VBO:0004855	Banteng (indon )-Indonesia	151	OMIA:151	Banteng (Bali)	https://omia.org	9913	cattle	Banteng (indon )	Indonesia		
+VBO:0004834	Barroso-Guatemala	291	OMIA:291	Barrosa	https://omia.org	9913	cattle	Barroso	Guatemala		
+VBO:0006660	Beijing You-China	971	OMIA:971	Beijing Fatty	https://omia.org	9031	chicken	Beijing You	China		
+VBO:0006660	Beijing You-China	1063	OMIA:1063	Beijing You	https://omia.org	9031	chicken	Beijing You	China		
+VBO:0004423	Belgisch roodbont-Belgium	702	OMIA:702	Red Pied Flemish	https://omia.org	9913	cattle	Belgisch roodbont	Belgium		
+VBO:0010413	Berber-Germany	1164	OMIA:1164	Berber	https://omia.org	9796	horse	Berber	Germany		
+VBO:0004704	Berrenda en Negro-Spain	1114	OMIA:1114	Spanish Berrenda en negro	https://omia.org	9913	cattle	Berrenda en Negro	Spain		
+VBO:0014105	Beveren-United States of America	604	OMIA:604	Beveren	https://omia.org	9986	rabbit	Beveren	United States of America		
+VBO:0007792	BohuslÃ¤n - Dals svarthÃ¶na [Bohuslän - Dals svarthöna]-Sweden	864	OMIA:864	Svarthöna (ohuslän-Dals Svarthöna)	https://omia.org	9031	chicken	BohuslÃ¤n - Dals svarthÃ¶na [Bohuslän - Dals svarthöna]	Sweden		
+VBO:0016308	Borderdale-New Zealand	891	OMIA:891	Borderdale	https://omia.org	9940	sheep	Borderdale	New Zealand		
+VBO:0015476	Bororo-Chad	225	OMIA:225	Bororo	https://omia.org	9940	sheep	Bororo	Chad		
+VBO:0010460	Breton-France	796	OMIA:796	Trait Breton	https://omia.org	9796	horse	Breton	France		
+VBO:0011461	British Spotted Pony, Spotted Pony-United Kingdom of Great Britain and Northern Ireland	1047	OMIA:1047	British Spotted Pony	https://omia.org	9796	horse	British Spotted Pony, Spotted Pony	United Kingdom of Great Britain and Northern Ireland		
+VBO:0005241	Butana-Sudan	677	OMIA:677	Butana	https://omia.org	9913	cattle	Butana	Sudan		
+VBO:0012718	CanastrÃ£o [Canastrão]-Brazil	5	OMIA:5	Canastrao	https://omia.org	9823	pig	CanastrÃ£o [Canastrão]	Brazil		
+VBO:0004467	Canchim-Brazil	508	OMIA:508	Canchim	https://omia.org	9913	cattle	Canchim	Brazil		
+VBO:0004468	Caracu-Brazil	536	OMIA:536	Caracu	https://omia.org	9913	cattle	Caracu	Brazil		
+VBO:0005370	Carora-Venezuela (Bolivarian Republic of)	919	OMIA:919	Carora	https://omia.org	9913	cattle	Carora	Venezuela (Bolivarian Republic of)		
+VBO:0012556	Casco de Mula-Colombia	473	OMIA:473	Casco de Mula	https://omia.org	9823	pig	Casco de Mula	Colombia		
+VBO:0011409	Cavall MenorquÃ­ [Cavall Menorquí]-Spain	968	OMIA:968	Menorca	https://omia.org	9796	horse	Cavall MenorquÃ­ [Cavall Menorquí]	Spain		
+VBO:0011580	Cavallo Agricolo Italiano da Tiro Pesante Rapido-Italy	942	OMIA:942	Italian draft horse	https://omia.org	9796	horse	Cavallo Agricolo Italiano da Tiro Pesante Rapido	Italy		https://bmcvetres.biomedcentral.com/articles/10.1186/s12917-015-0374-0
+VBO:0002807	Ceska Cervinka-Czechia	609	OMIA:609	Red Bohemian	https://omia.org	9913	cattle	Ceska Cervinka	Czechia		
+VBO:0004127	Cesky strakaty skot-Czechia	556	OMIA:556	Red Pied	https://omia.org	9913	cattle	Cesky strakaty skot	Czechia		
+VBO:0011249	CH-Warmblut-Switzerland	1016	OMIA:1016	Swiss Warmblood	https://omia.org	9796	horse	CH-Warmblut	Switzerland		
+VBO:0009586	Changthangi-India	273	OMIA:273	Pashmina	https://omia.org	9925	goat	Changthangi	India		
+VBO:0016028	Chokla-India	623	OMIA:623	Chokla	https://omia.org	9940	sheep	Chokla	India		
+VBO:0005270	Cikasto govedo-Slovenia	1112	OMIA:1112	Slovenian Cika	https://omia.org	9913	cattle	Cikasto govedo	Slovenia		
+VBO:0013055	Cinta Senese-Italy	1120	OMIA:1120	Cinta Senese	https://omia.org	9823	pig	Cinta Senese	Italy		
+VBO:0011828	Colorado Ranger-United States of America	655	OMIA:655	Colorado Ranger	https://omia.org	9796	horse	Colorado Ranger	United States of America		
+VBO:0014616	Commune des Alpes-France	662	OMIA:662	Communes des Alpes	https://omia.org	9940	sheep	Commune des Alpes	France		
+VBO:0009480	criolla colombiana-Colombia	532	OMIA:532	Colombian	https://omia.org	9913	cattle	criolla colombiana	Colombia		
+VBO:0015696	Crioula-Brazil	369	OMIA:369	Crioula	https://omia.org	9940	sheep	Crioula	Brazil		
+VBO:0015696	Crioula-Brazil	368	OMIA:368	Crioula Lanada	https://omia.org	9940	sheep	Crioula	Brazil		
+VBO:0009816	Dagestanskaya-Russian Federation	638	OMIA:638	Dagestan White	https://omia.org	9925	goat	Dagestanskaya	Russian Federation		
+VBO:0004877	Dagri-India	362	OMIA:362	Malvi	https://omia.org	9913	cattle	Dagri	India		
+VBO:0012749	Dahe-China	789	OMIA:789	Dahe	https://omia.org	9823	pig	Dahe	China		
+VBO:0004878	Dangi-India	365	OMIA:365	Dangi	https://omia.org	9913	cattle	Dangi	India		
+VBO:0016122	Delle Langhe-Italy	183	OMIA:183	Langhe	https://omia.org	9940	sheep	Delle Langhe	Italy		
+VBO:0009774	Dera Din Panah-Pakistan	1134	OMIA:1134	Dera Din Panah	https://omia.org	9925	goat	Dera Din Panah	Pakistan		
+VBO:0013037	Deshi-India	587	OMIA:587	Desi	https://omia.org	9823	pig	Deshi	India		
+VBO:0003152	Deutsche Holstein Schwarzbunt-Germany	1033	OMIA:1033	German Holstein	https://omia.org	9913	cattle	Deutsche Holstein Schwarzbunt	Germany		
+VBO:0012400	Deutsches Edelschwein - Large White-Germany	562	OMIA:562	Deutsches Edelschwein	https://omia.org	9823	pig	Deutsches Edelschwein - Large White	Germany		
+VBO:0004634	Deutsches Schwarzbuntes Niederungsrind-Germany	88	OMIA:88	Black Pied	https://omia.org	9913	cattle	Deutsches Schwarzbuntes Niederungsrind	Germany		
+VBO:0004634	Deutsches Schwarzbuntes Niederungsrind-Germany	317	OMIA:317	Black Pied German	https://omia.org	9913	cattle	Deutsches Schwarzbuntes Niederungsrind	Germany		
+VBO:0003880	Doppelnutzung Rotbunt-Germany	289	OMIA:289	Red and White Westphalian	https://omia.org	9913	cattle	Doppelnutzung Rotbunt	Germany		
+VBO:0014559	Drents Heideschaap-Netherlands	372	OMIA:372	Drenthe	https://omia.org	9940	sheep	Drents Heideschaap	Netherlands		
+VBO:0015690	Dubska-Bosnia and Herzegovina	719	OMIA:719	Pramenka	https://omia.org	9940	sheep	Dubska	Bosnia and Herzegovina		
+VBO:0012372	Edelschwein-Austria	467	OMIA:467	Edelschwein	https://omia.org	9823	pig	Edelschwein	Austria		
+VBO:0015619	Elliotdale-Australia	482	OMIA:482	Elliottdale	https://omia.org	9940	sheep	Elliotdale	Australia		
+VBO:0004403	Ennstaler Bergscheck-Austria	142	OMIA:142	Spotted Mountain	https://omia.org	9913	cattle	Ennstaler Bergscheck	Austria		
+VBO:0013099	Estonian bacon-Republic of Moldova	390	OMIA:390	Estonian Bacon	https://omia.org	9823	pig	Estonian bacon	Republic of Moldova		
+VBO:0004498	EvolÃ¨ner [Evolèner]-Switzerland	1116	OMIA:1116	Evolèner	https://omia.org	9913	cattle	EvolÃ¨ner [Evolèner]	Switzerland		
+VBO:0005274	FjÃ¤llnÃ¤ra boskap [Fjällnära boskap]-Sweden	447	OMIA:447	Swedish Mountain	https://omia.org	9913	cattle	FjÃ¤llnÃ¤ra boskap [Fjällnära boskap]	Sweden		
+VBO:0004129	Fleckvieh Doppelnutzung-Germany	608	OMIA:608	German Simmental	https://omia.org	9913	cattle	Fleckvieh Doppelnutzung	Germany		
+VBO:0002354	Fleckvieh-Simmental-Germany	850	OMIA:850	German Fleckvieh	https://omia.org	9913	cattle	Fleckvieh-Simmental	Germany		
+VBO:0004499	Fribourgeois-Switzerland	300	OMIA:300	Fribourg	https://omia.org	9913	cattle	Fribourgeois	Switzerland		
+VBO:0004499	Fribourgeois-Switzerland	601	OMIA:601	Fribourg Black Spotted	https://omia.org	9913	cattle	Fribourgeois	Switzerland		
+VBO:0005141	Fries Roodbont-Netherlands	597	OMIA:597	Red Friesian	https://omia.org	9913	cattle	Fries Roodbont	Netherlands		
+VBO:0016036	Gaddi-India	509	OMIA:509	Gaddi	https://omia.org	9940	sheep	Gaddi	India		
+VBO:0007053	Gallina Castellana Negra-Spain	355	OMIA:355	Black Castilian	https://omia.org	9031	chicken	Gallina Castellana Negra	Spain		
+VBO:0006532	Gallina Mapuche-Argentina	895	OMIA:895	Mapuche	https://omia.org	9031	chicken	Gallina Mapuche	Argentina		
+VBO:0016295	Gammelnorsk spaelsau-Norway	991	OMIA:991	Norwegian White	https://omia.org	9940	sheep	Gammelnorsk spaelsau	Norway		
+VBO:0016295	Gammelnorsk spaelsau-Norway	616	OMIA:616	Spael	https://omia.org	9940	sheep	Gammelnorsk spaelsau	Norway		
+VBO:0009987	Gang-China	1140	OMIA:1140	Gang	https://omia.org	8843	goose	Gang	China		
+VBO:0004827	Ghana Shorthorn-Ghana	684	OMIA:684	Gold Coast Shorthorn	https://omia.org	9913	cattle	Ghana Shorthorn	Ghana		
+VBO:0004885	Ghumusari-India	524	OMIA:524	Ganjam	https://omia.org	9913	cattle	Ghumusari	India		
+VBO:0009647	Girgentana-Italy	1146	OMIA:1146	Girgentana	https://omia.org	9925	goat	Girgentana	Italy		
+VBO:0002964	Gloucester-United Kingdom of Great Britain and Northern Ireland	1113	OMIA:1113	British Gloucester	https://omia.org	9913	cattle	Gloucester	United Kingdom of Great Britain and Northern Ireland		
+VBO:0015622	Gromark-Australia	566	OMIA:566	Gromark	https://omia.org	9940	sheep	Gromark	Australia		
+VBO:0007907	H'mong-Viet Nam	863	OMIA:863	Black H'Mong	https://omia.org	9031	chicken	H'mong	Viet Nam		
+VBO:0016483	Hejazi-Saudi Arabia	352	OMIA:352	Hejazi	https://omia.org	9940	sheep	Hejazi	Saudi Arabia		
+VBO:0016517	HelsingefÃ¥r [Helsingefår]-Sweden	1107	OMIA:1107	Helsinge	https://omia.org	9940	sheep	HelsingefÃ¥r [Helsingefår]	Sweden		
+VBO:0003105	Highland cattle-Sweden	445	OMIA:445	Swedish Highland	https://omia.org	9913	cattle	Highland cattle	Sweden		
+VBO:0003122	Holstein-Friesian-Austria	218	OMIA:218	Schwarzbunt	https://omia.org	9913	cattle	Holstein-Friesian	Austria		
+VBO:0003180	Holstein-Friesian-India	756	OMIA:756	Indian Holstein	https://omia.org	9913	cattle	Holstein-Friesian	India		
+VBO:0003139	Holstein-Friesian-Switzerland	208	OMIA:208	Black Pied Swiss	https://omia.org	9913	cattle	Holstein-Friesian	Switzerland		https://www.krankykids.com/cows/mydailycow_2019/2019_January/20190106.html
+VBO:0003139	Holstein-Friesian-Switzerland	705	OMIA:705	Black Spotted Swiss	https://omia.org	9913	cattle	Holstein-Friesian	Switzerland		https://www.krankykids.com/cows/mydailycow_2019/2019_January/20190106.html
+VBO:0003139	Holstein-Friesian-Switzerland	1034	OMIA:1034	Swiss Holstein	https://omia.org	9913	cattle	Holstein-Friesian	Switzerland		
+VBO:0003179	Holstein-friz-Hungary	203	OMIA:203	Pied Hungarian	https://omia.org	9913	cattle	Holstein-friz	Hungary		
+VBO:0003151	Holstynsky-Czechia	651	OMIA:651	Pied	https://omia.org	9913	cattle	Holstynsky	Czechia		
+VBO:0012786	Huazhong Two-End Black - Shaziling-China	928	OMIA:928	Shaziling	https://omia.org	9823	pig	Huazhong Two-End Black - Shaziling	China		
+VBO:0006695	Huiyang Bearded-China	1054	OMIA:1054	Huiyang Bearded	https://omia.org	9031	chicken	Huiyang Bearded	China		
+VBO:0015623	Hyfer-Australia	358	OMIA:358	Hyfer	https://omia.org	9940	sheep	Hyfer	Australia		
+VBO:0003317	Indubrazil-Honduras	489	OMIA:489	Indubrazil	https://omia.org	9913	cattle	Indubrazil	Honduras		
+VBO:0014736	INRA 401-France	967	OMIA:967	Romane	https://omia.org	9940	sheep	INRA 401	France		
+VBO:0007680	Italiana neagra-Romania	548	OMIA:548	Black Leghorn	https://omia.org	9031	chicken	Italiana neagra	Romania		
+VBO:0004987	Japanese Black-Japan	234	OMIA:234	Black Japanese	https://omia.org	9913	cattle	Japanese Black	Japan		
+VBO:0004987	Japanese Black-Japan	31	OMIA:31	Japanese Black	https://omia.org	9913	cattle	Japanese Black	Japan		
+VBO:0004988	Japanese Brown-Japan	330	OMIA:330	Japanese Brown	https://omia.org	9913	cattle	Japanese Brown	Japan		
+VBO:0016509	Jezersko-solÄavska ovca-Slovenia	720	OMIA:720	Solcava	https://omia.org	9940	sheep	Jezersko-solÄavska ovca	Slovenia		
+VBO:0004892	Kankrej-India	909	OMIA:909	Kankrej	https://omia.org	9915	bos indicus (Zebu)	Kankrej	India		
+VBO:0016177	Kazakhskaya Tonkorunnaya-Kazakhstan	219	OMIA:219	Kazakh Finewool	https://omia.org	9940	sheep	Kazakhskaya Tonkorunnaya	Kazakhstan		
+VBO:0005124	Kedah-Kelantan-Malaysia	715	OMIA:715	Kedah Kelantan	https://omia.org	9913	cattle	Kedah-Kelantan	Malaysia		
+VBO:0005244	Kenana-Sudan	676	OMIA:676	Kenana	https://omia.org	9913	cattle	Kenana	Sudan		
+VBO:0016053	Kilakarsal-India	704	OMIA:704	Keezhakkaraisal	https://omia.org	9940	sheep	Kilakarsal	India		
+VBO:0016518	KlÃ¶vsjÃ¶fÃ¥r [Klövsjöfår]-Sweden	1108	OMIA:1108	Klövsjö	https://omia.org	9940	sheep	KlÃ¶vsjÃ¶fÃ¥r [Klövsjöfår]	Sweden		
+VBO:0004905	Kumauni-India	283	OMIA:283	Kumauni Hill	https://omia.org	9913	cattle	Kumauni	India		
+VBO:0012562	Laconie P77-France	319	OMIA:319	Laconie	https://omia.org	9823	pig	Laconie P77	France		
+VBO:0012408	Large White-Finland	840	OMIA:840	Finnish Yorkshire	https://omia.org	9823	pig	Large White	Finland		
+VBO:0005372	Limonero-Venezuela (Bolivarian Republic of)	1065	OMIA:1065	Limonero	https://omia.org	9913	cattle	Limonero	Venezuela (Bolivarian Republic of)		
+VBO:0006725	Lushi-China	896	OMIA:896	Lushi	https://omia.org	9031	chicken	Lushi	China		
+VBO:0015887	MÃ©rinos d'Arles [Mérinos d'Arles]-France	67	OMIA:67	Merino d'Arles	https://omia.org	9940	sheep	MÃ©rinos d'Arles [Mérinos d'Arles]	France		
+VBO:0016054	Magra-India	285	OMIA:285	Magra	https://omia.org	9940	sheep	Magra	India		
+VBO:0003310	Magyar SzÃ¼rke [Magyar Szürke]-Hungary	521	OMIA:521	Grey Hungarian	https://omia.org	9913	cattle	Magyar SzÃ¼rke [Magyar Szürke]	Hungary		https://en.wikipedia.org/wiki/Hungarian_Grey
+VBO:0004144	Magyartarka-Hungary	525	OMIA:525	Hungarian Red Spotted	https://omia.org	9913	cattle	Magyartarka	Hungary		
+VBO:0004144	Magyartarka-Hungary	403	OMIA:403	Red Spotted Hungarian	https://omia.org	9913	cattle	Magyartarka	Hungary		
+VBO:0004144	Magyartarka-Hungary	513	OMIA:513	Spotted Hungarian	https://omia.org	9913	cattle	Magyartarka	Hungary		
+VBO:0004968	Maremmana-Italy	529	OMIA:529	Maremmana	https://omia.org	9913	cattle	Maremmana	Italy		
+VBO:0016058	Marwari-India	478	OMIA:478	Marwari	https://omia.org	9940	sheep	Marwari	India		
+VBO:0016132	Massese-Italy	1109	OMIA:1109	Massese	https://omia.org	9940	sheep	Massese	Italy		
+VBO:0004696	Menufi-Egypt	474	OMIA:474	Baladi	https://omia.org	9913	cattle	Menufi	Egypt		
+VBO:0012819	Min-China	429	OMIA:429	Minzhu	https://omia.org	9823	pig	Min	China		http://www.livestockoftheworld.com/Pigs/Breeds.asp?BreedLookupID=1851&SpeciesID=12
+VBO:0001922	Miniature-United States of America	1077	OMIA:1077	Miniature Donkey	https://omia.org	9793	ass	Miniature	United States of America		
+VBO:0004799	Miniature Zebu-United Kingdom of Great Britain and Northern Ireland	1094	OMIA:1094	Miniature Zebu	https://omia.org	9913	cattle	Miniature Zebu	United Kingdom of Great Britain and Northern Ireland		
+VBO:0007408	Minohiki-Japan	914	OMIA:914	Minohiki	https://omia.org	9031	chicken	Minohiki	Japan		
+VBO:0011358	Missouri Fox Trotter-Germany	1089	OMIA:1089	Missouri Foxtrotter	https://omia.org	9796	horse	Missouri Fox Trotter	Germany		
+VBO:0016813	Mongolian Yak-Mongolia	975	OMIA:975	Mongolian	https://omia.org	30521	domestic yak	Mongolian Yak	Mongolia		
+VBO:0002637	Montafon-North Macedonia	594	OMIA:594	Montafon	https://omia.org	9913	cattle	Montafon	North Macedonia		
+VBO:0015497	Mouton vendÃ©en [Mouton vendéen]-France	459	OMIA:459	Mouton Vendeen	https://omia.org	9940	sheep	Mouton vendÃ©en [Mouton vendéen]	France		
+VBO:0004971	Mucca Pisana-Italy	426	OMIA:426	Pisa	https://omia.org	9913	cattle	Mucca Pisana	Italy		
+VBO:0006731	Muchuan Silkies Black-China	972	OMIA:972	Muchuan	https://omia.org	9031	chicken	Muchuan Silkies Black	China		
+VBO:0016061	Muzaffarnagri-India	281	OMIA:281	Muzaffarnagari	https://omia.org	9940	sheep	Muzaffarnagri	India		
+VBO:0009786	Nachi-Pakistan	1135	OMIA:1135	Nachi	https://omia.org	9925	goat	Nachi	Pakistan		
+VBO:0016062	Nali-India	624	OMIA:624	Nali	https://omia.org	9940	sheep	Nali	India		
+VBO:0016618	Namaqua Afrikaner-South Africa	485	OMIA:485	Namaqua	https://omia.org	9940	sheep	Namaqua Afrikaner	South Africa		
+VBO:0009749	Nederlandse Landgeit-Netherlands	988	OMIA:988	Dutch Landrace	https://omia.org	9925	goat	Nederlandse Landgeit	Netherlands		
+VBO:0016063	Nellore-India	425	OMIA:425	Nellore	https://omia.org	9940	sheep	Nellore	India		
+VBO:0005339	Nganda-Uganda	290	OMIA:290	Nganda	https://omia.org	9913	cattle	Nganda	Uganda		
+VBO:0016064	Nilgiri-India	241	OMIA:241	Nilgiri	https://omia.org	9940	sheep	Nilgiri	India		
+VBO:0005340	Nkedi-Uganda	737	OMIA:737	Bukedi	https://omia.org	9913	cattle	Nkedi	Uganda		
+VBO:0009062	Norsk melkegeit-Norway	1126	OMIA:1126	Norwegian Dairy Goat	https://omia.org	9925	goat	Norsk melkegeit	Norway		
+VBO:0005145	Norsk roedt fe-Norway	404	OMIA:404	Red and White Norwegian	https://omia.org	9913	cattle	Norsk roedt fe	Norway		
+VBO:0008739	Nubian-United States of America	1	OMIA:1	Nubian	https://omia.org	9925	goat	Nubian	United States of America		
+VBO:0014088	orjaÅ¡ki lisec [angleški lisec]-Slovenia	918	OMIA:918	Checkered Giant	https://omia.org	9986	rabbit	orjaÅ¡ki lisec [angleški lisec]	Slovenia		
+VBO:0015839	Ossimi-Egypt	663	OMIA:663	Ausimi	https://omia.org	9940	sheep	Ossimi	Egypt		
+VBO:0015839	Ossimi-Egypt	664	OMIA:664	Osimi	https://omia.org	9940	sheep	Ossimi	Egypt		
+VBO:0009787	Pak Angora-Pakistan	1141	OMIA:1141	Pak angora	https://omia.org	9925	goat	Pak Angora	Pakistan		
+VBO:0016066	Patanwadi-India	530	OMIA:530	Patanwadi	https://omia.org	9940	sheep	Patanwadi	India		
+VBO:0015035	Pelibuey-Mexico	1121	OMIA:1121	Mexican Pelibuey	https://omia.org	9940	sheep	Pelibuey	Mexico		
+VBO:0004147	Pezzata Rossa Italiana-Italy	934	OMIA:934	Pezzata Rossa	https://omia.org	9913	cattle	Pezzata Rossa Italiana	Italy		
+VBO:0004478	Pitangueiras-Brazil	256	OMIA:256	Pitangueiras	https://omia.org	9913	cattle	Pitangueiras	Brazil		
+VBO:0004751	Pohjoissuomenkarja-Finland	905	OMIA:905	Northern Finncattle	https://omia.org	9913	cattle	Pohjoissuomenkarja	Finland		
+VBO:0003823	Polska czerwona (RP)-Poland	71	OMIA:71	Red Polish	https://omia.org	9913	cattle	Polska czerwona (RP)	Poland		
+VBO:0003825	Polska czerwono-biala (ZR)-Poland	526	OMIA:526	Red Pied Lowland	https://omia.org	9913	cattle	Polska czerwono-biala (ZR)	Poland		
+VBO:0003300	Polska holsztyÅ„sko-fryzyjska czerwono-biaÅ‚a [Polska holsztyńsko-fryzyjska czerwono-biała]-Poland	682	OMIA:682	Black and White Polish Lowland	https://omia.org	9913	cattle	Polska holsztyÅ„sko-fryzyjska czerwono-biaÅ‚a [Polska holsztyńsko-fryzyjska czerwono-biała]	Poland		
+VBO:0016371	Polska owca gÃ³rska [Polska owca górska]-Poland	411	OMIA:411	Polish Mountain	https://omia.org	9940	sheep	Polska owca gÃ³rska [Polska owca górska]	Poland		
+VBO:0011370	Pony Of the Americas-Germany	1046	OMIA:1046	Pony of the Americas	https://omia.org	9796	horse	Pony Of the Americas	Germany		
+VBO:0015888	PrÃ©Alpes du Sud [PréAlpes du Sud]-France	661	OMIA:661	Prealpes	https://omia.org	9940	sheep	PrÃ©Alpes du Sud [PréAlpes du Sud]	France		
+VBO:0004595	PrÃ©wakwa [Préwakwa]-Cameroon	671	OMIA:671	Wakwa	https://omia.org	9913	cattle	PrÃ©wakwa [Préwakwa]	Cameroon		
+VBO:0016011	Priangan-Indonesia	6	OMIA:6	Indonesian Thin Tail	https://omia.org	9940	sheep	Priangan	Indonesia		
+VBO:0003169	Prim'Holstein-France	1117	OMIA:1117	French Holstein	https://omia.org	9913	cattle	Prim'Holstein	France		
+VBO:0005277	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]-Sweden	448	OMIA:448	Red and white Swedish	https://omia.org	9913	cattle	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]	Sweden		
+VBO:0005277	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]-Sweden	658	OMIA:658	Red Pied Swedish	https://omia.org	9913	cattle	RÃ¶dbrokig Svensk Boskap [Rödbrokig Svensk Boskap]	Sweden		
+VBO:0015840	Rahmani-Egypt	665	OMIA:665	Rahmani	https://omia.org	9940	sheep	Rahmani	Egypt		
+VBO:0015863	Rasa Aragonesa-Spain	883	OMIA:883	Rasa Aragonesa	https://omia.org	9940	sheep	Rasa Aragonesa	Spain		
+VBO:0004926	Rathi-India	551	OMIA:551	Rathi	https://omia.org	9913	cattle	Rathi	India		
+VBO:0004501	Red Holstein-Switzerland	243	OMIA:243	Red Holstein	https://omia.org	9913	cattle	Red Holstein	Switzerland		
+VBO:0004377	Red Norwegian-Albania	538	OMIA:538	Red Norwegian	https://omia.org	9913	cattle	Red Norwegian	Albania		
+VBO:0015810	RhÃ¶nschaf [Rhönschaf]-Germany	727	OMIA:727	Rhoenschaf	https://omia.org	9940	sheep	RhÃ¶nschaf [Rhönschaf]	Germany		
+VBO:0015810	RhÃ¶nschaf [Rhönschaf]-Germany	631	OMIA:631	Rhon	https://omia.org	9940	sheep	RhÃ¶nschaf [Rhönschaf]	Germany		
+VBO:0005376	Romosinuano-Venezuela (Bolivarian Republic of)	920	OMIA:920	Romosinuano	https://omia.org	9913	cattle	Romosinuano	Venezuela (Bolivarian Republic of)		
+VBO:0012835	Rongchang-China	861	OMIA:861	Rongchang	https://omia.org	9823	pig	Rongchang	China		
+VBO:0016519	RoslagsfÃ¥r [Roslagsfår]-Sweden	890	OMIA:890	Swedish Landrace	https://omia.org	9940	sheep	RoslagsfÃ¥r [Roslagsfår]	Sweden		
+VBO:0004642	Rotes HÃ¶henvieh [Rotes Höhenvieh]-Germany	857	OMIA:857	Rotes Höhenvieh	https://omia.org	9913	cattle	Rotes HÃ¶henvieh [Rotes Höhenvieh]	Germany		
+VBO:0002882	Rubia Gallega-Spain	471	OMIA:471	Rubia Gallega	https://omia.org	9913	cattle	Rubia Gallega	Spain		
+VBO:0011384	SÃ¼ddeutsches Kaltblut [Süddeutsches Kaltblut]-Germany	1015	OMIA:1015	South German Draft	https://omia.org	9796	horse	SÃ¼ddeutsches Kaltblut [Süddeutsches Kaltblut]	Germany		
+VBO:0015203	Santa Ines-Brazil	1039	OMIA:1039	Brazilian Santa Inês	https://omia.org	9940	sheep	Santa Ines	Brazil		
+VBO:0016537	Saraja-Turkmenistan	217	OMIA:217	Saraja	https://omia.org	9940	sheep	Saraja	Turkmenistan		
+VBO:0009659	Sarda-Italy	114	OMIA:114	Sardinian	https://omia.org	9925	goat	Sarda	Italy		
+VBO:0016221	Sardi-Morocco	81	OMIA:81	Sardi	https://omia.org	9940	sheep	Sardi	Morocco		
+VBO:0012910	SchwÃ¤bisch HÃ¤llisches Schwein [Schwäbisch-Hällisches Schwein]-Germany	875	OMIA:875	Bavarian Landschwein	https://omia.org	9823	pig	SchwÃ¤bisch HÃ¤llisches Schwein [Schwäbisch-Hällisches Schwein]	Germany		https://www.google.com/search?q=bavarian+landschwein+pig&client=firefox-b-d&sxsrf=AOaemvKkZ09eVV3nhhfHnP-dB3c--V19qQ%3A1642480506848&ei=ekPmYbuaM4yXseMPhJGSyA8&ved=0ahUKEwi7v6TZvLr1AhWMS2wGHYSIBPkQ4dUDCA0&uact=5&oq=bavarian+landschwein+pig&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgAToHCCMQsAMQJ0oECEEYAUoECEYYAFClBliJDWD5D2gBcAB4AIAB-gKIAckHkgEHMC4yLjEuMZgBAKABAcgBAcABAQ&sclient=gws-wiz
+VBO:0016844	Schwerfurter Fleischrasse-Germany	502	OMIA:502	Schwerfurt	https://omia.org	9823	pig	Schwerfurter Fleischrasse	Germany		Breeding and economic analysis of the use of the Schwerfurt meat-type breed at the Lenin Agricultural Co-operative at Seifersbach (eurekamag.com); https://eurekamag.com/research/005/284/005284906.php
+VBO:0005952	Sebright Bantams-United Kingdom of Great Britain and Northern Ireland	9	OMIA:9	Sebright Bantam	https://omia.org	9031	chicken	Sebright Bantams	United Kingdom of Great Britain and Northern Ireland		
+VBO:0005147	Sidet troenderfe og nordlandsfe-Norway	570	OMIA:570	Coloursided Tronder	https://omia.org	9913	cattle	Sidet troenderfe og nordlandsfe	Norway		https://www.nordgen.org/en/native-breed/coloursided-troender-and-nordland-cattle-stn/
+VBO:0005876	Single Comb White Leghorn-Line 01-Ukraine	543	OMIA:543	Single Comb White Leghorn	https://omia.org	9031	chicken	Single Comb White Leghorn-Line 01	Ukraine		
+VBO:0009611	Sirohi-India	621	OMIA:621	Sirohi	https://omia.org	9925	goat	Sirohi	India		
+VBO:0016577	Sokil'ska-Ukraine	331	OMIA:331	Sokolka	https://omia.org	9940	sheep	Sokil'ska	Ukraine		
+VBO:0015256	Somali Brasileiro-Brazil	226	OMIA:226	Brazilian Somali	https://omia.org	9940	sheep	Somali Brasileiro	Brazil		
+VBO:0004195	Somba-Benin	557	OMIA:557	Shorthorn West African	https://omia.org	9913	cattle	Somba	Benin		
+VBO:0004665	Sortbroget Jydsk Malkekvaeg-Denmark	129	OMIA:129	Black Pied Danish	https://omia.org	9913	cattle	Sortbroget Jydsk Malkekvaeg	Denmark		
+VBO:0016317	South Hampshire-New Zealand	194	OMIA:194	South Hampshire	https://omia.org	9940	sheep	South Hampshire	New Zealand		
+VBO:0016462	Sur-Russian Federation	385	OMIA:385	Sur	https://omia.org	9940	sheep	Sur	Russian Federation		
+VBO:0003934	Sura de stepa-Romania	746	OMIA:746	Grey Steppe	https://omia.org	9913	cattle	Sura de stepa	Romania		
+VBO:0003254	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]-Sweden	250	OMIA:250	Lowland Swedish	https://omia.org	9913	cattle	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]	Sweden		https://en.wikipedia.org/wiki/Swedish_Friesian
+VBO:0003254	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]-Sweden	287	OMIA:287	Swedish Lowland	https://omia.org	9913	cattle	Svensk lÃ¥glandsboskap (holstein friesian) [Svensk Låglandsboskap]	Sweden		
+VBO:0015942	Swaledale-United Kingdom of Great Britain and Northern Ireland	433	OMIA:433	Swaledale	https://omia.org	9940	sheep	Swaledale	United Kingdom of Great Britain and Northern Ireland		
+VBO:0004240	Sykia-Greece	695	OMIA:695	Sykia Chalkidiki	https://omia.org	9913	cattle	Sykia	Greece		
+VBO:0012845	Taihu - Erhualian-China	984	OMIA:984	Chinese Erhualian	https://omia.org	9823	pig	Taihu - Erhualian	China		
+VBO:0012847	Taihu - Fengjing-China	428	OMIA:428	Fengjing	https://omia.org	9823	pig	Taihu - Fengjing	China		
+VBO:0012853	Taiwan Small Red-China	710	OMIA:710	Small Red	https://omia.org	9823	pig	Taiwan Small Red	China		
+VBO:0015629	Tasmanian Merino-Australia	25	OMIA:25	Tasmanian Merino	https://omia.org	9940	sheep	Tasmanian Merino	Australia		
+VBO:0005148	Telemarkfe-Norway	405	OMIA:405	Telemark	https://omia.org	9913	cattle	Telemarkfe	Norway		
+VBO:0005011	Teso-Kenya	420	OMIA:420	Teso	https://omia.org	9913	cattle	Teso	Kenya		
+VBO:0012856	Tibetan-China	791	OMIA:791	Chinese-Tibetan	https://omia.org	9823	pig	Tibetan	China		
+VBO:0005410	Tonga-Zambia	233	OMIA:233	Tonga	https://omia.org	9913	cattle	Tonga	Zambia		
+VBO:0012462	Topigs Z line (Large White)-Netherlands	435	OMIA:435	Great Yorkshire	https://omia.org	9823	pig	Topigs Z line (Large White)	Netherlands		
+VBO:0011097	Tori hobune-Estonia	1007	OMIA:1007	Old-Tori	https://omia.org	9796	horse	Tori hobune	Estonia		
+VBO:0011496	Traditional Gypsy Cob-United Kingdom of Great Britain and Northern Ireland	1014	OMIA:1014	Gipsy	https://omia.org	9796	horse	Traditional Gypsy Cob	United Kingdom of Great Britain and Northern Ireland		
+VBO:0011496	Traditional Gypsy Cob-United Kingdom of Great Britain and Northern Ireland	1122	OMIA:1122	Gypsy	https://omia.org	9796	horse	Traditional Gypsy Cob	United Kingdom of Great Britain and Northern Ireland		
+VBO:0011598	Trottatore Italiano-Italy	979	OMIA:979	Italian Trotter	https://omia.org	9796	horse	Trottatore Italiano	Italy		
+VBO:0004409	Tux-Zillertaler-Austria	1111	OMIA:1111	Tux-Zillertaler	https://omia.org	9913	cattle	Tux-Zillertaler	Austria		
+VBO:0004643	UckermÃ¤rker [Uckermärker]-Germany	1142	OMIA:1142	Uckermärker	https://omia.org	9913	cattle	UckermÃ¤rker [Uckermärker]	Germany		
+VBO:0007067	Utrerana-Spain	356	OMIA:356	Barred Utreranian	https://omia.org	9031	chicken	Utrerana	Spain		
+VBO:0016522	VÃ¤rmlandsfÃ¥r [Värmlandsfår]-Sweden	1106	OMIA:1106	Värmland	https://omia.org	9940	sheep	VÃ¤rmlandsfÃ¥r [Värmlandsfår]	Sweden		
+VBO:0004979	Valdostana Pezzata Rossa-Italy	309	OMIA:309	Red Pied Aosta	https://omia.org	9913	cattle	Valdostana Pezzata Rossa	Italy		
+VBO:0016156	Valle del Belice-Italy	990	OMIA:990	Valle del Belice	https://omia.org	9940	sheep	Valle del Belice	Italy		
+VBO:0004645	VorderwÃ¤lder [Vorderwälder]-Germany	204	OMIA:204	Vorderwald	https://omia.org	9913	cattle	VorderwÃ¤lder [Vorderwälder]	Germany		
+VBO:0015510	WeiÃŸes Alpenschaf [Weißes Alpenschaf]-Switzerland	877	OMIA:877	Swiss Alpine	https://omia.org	9940	sheep	WeiÃŸes Alpenschaf [Weißes Alpenschaf]	Switzerland		
+VBO:0015823	WeiÃŸkÃ¶pfiges Fleischschaf [Weißköpfiges Fleischschaf]-Germany	628	OMIA:628	German Whiteheaded Mutton	https://omia.org	9940	sheep	WeiÃŸkÃ¶pfiges Fleischschaf [Weißköpfiges Fleischschaf]	Germany		
+VBO:0015947	Welsh Mountain-United Kingdom of Great Britain and Northern Ireland	193	OMIA:193	Welsh Mountain	https://omia.org	9940	sheep	Welsh Mountain	United Kingdom of Great Britain and Northern Ireland		
+VBO:0016700	White Holland-United States of America	723	OMIA:723	White Holland	https://omia.org	9103	turkey	White Holland	United States of America		
+VBO:0004345	White Park-United Kingdom of Great Britain and Northern Ireland	168	OMIA:168	British White Park	https://omia.org	9913	cattle	White Park	United Kingdom of Great Britain and Northern Ireland		
+VBO:0012864	Wujin - Kele-China	790	OMIA:790	Kele	https://omia.org	9823	pig	Wujin - Kele	China		
+VBO:0012865	Wujin - Liangshan-China	935	OMIA:935	Liangshan	https://omia.org	9823	pig	Wujin - Liangshan	China		
+VBO:0004351	Yakutskii Skot-Russian Federation	1137	OMIA:1137	Yakutian	https://omia.org	9913	cattle	Yakutskii Skot	Russian Federation		
+VBO:0013234	Yucatan Miniature-United States of America	1168	OMIA:1168	Yucatan miniature pig	https://omia.org	9823	pig	Yucatan Miniature	United States of America		
+VBO:0001829	Zamorano-LeonÃ©s [Zamorano-Leonés]-Spain	913	OMIA:913	Zamorano-Leonés	https://omia.org	9793	ass	Zamorano-LeonÃ©s [Zamorano-Leonés]	Spain		
+VBO:0004428	Zwartbont ras van de Polders-Belgium	231	OMIA:231	Black Pied Lowland	https://omia.org	9913	cattle	Zwartbont ras van de Polders	Belgium		
+VBO:0016854	Rocky Mountain-United States of America [Bighorn sheep]	70	OMIA:70	Rocky Mountain	https://omia.org						
+VBO:0016855	Miniature Highland-United Kingdom of Great Britain and Northern Ireland [Cattle]	941	OMIA:941	Miniature Highland	https://omia.org						
+VBO:0016856	Chinese Xingyi bantam-China [Chicken]	1002	OMIA:1002	Chinese Xingyi	https://omia.org						
+VBO:0016857	Connecticut (CT) strain-United States of America [Chicken]	1051	OMIA:1051	Connecticut (CT) strain	https://omia.org						
+VBO:0016858	Erminette-United States of America [Chicken]	701	OMIA:701	Erminette	https://omia.org						
+VBO:0016859	Israeli experimental line-Israel [Chicken]	994	OMIA:994	Israeli experimental line	https://omia.org						
+VBO:0016860	Mie-Jidori-Japan [Chicken]	1124	OMIA:1124	Mie-Jidori	https://omia.org						
+VBO:0016861	Polymorphic Nucleolar [PNU] strain-United States of America [Chicken]	1057	OMIA:1057	Polymorphic Nucleolar (PNU) strain	https://omia.org						
+VBO:0016862	S2 line-China [Chicken]	1052	OMIA:1052	S2 line	https://omia.org						
+VBO:0016863	Storrs Connecticut scaleless low line-United States of America [Chicken]	993	OMIA:993	Storrs, Connecticut (low line)	https://omia.org						
+VBO:0016864	TETRA strain-United States of America [Chicken]	1061	OMIA:1061	TETRA	https://omia.org						
+VBO:0016865	UC Davis line-United States of America [Chicken]	992	OMIA:992	UC Davis lines	https://omia.org						
+VBO:0016866	Wisconsin hypoalpha mutant (WHAM)-United States of America [Chicken]	1050	OMIA:1050	Wisconsin hypoalpha mutant (WHAM)	https://omia.org						
+VBO:0016867	Yimeng Blue-China [Chicken]	1167	OMIA:1167	Yimeng	https://omia.org						
+VBO:0016868	Datong-China [Domestic yak]	901	OMIA:901	Datong	https://omia.org						
+VBO:0016869	Camarillo White Horse-United States of America [Horse]	1010	OMIA:1010	Camarillo White Horse	https://omia.org						
+VBO:0016870	Japanese Draft-Japan [Horse]	1011	OMIA:1011	Japanese Draft	https://omia.org						
+VBO:0016871	Kentucky Mountain Saddle-United States of America [Horse]	854	OMIA:854	Kentucky Mountain Saddle	https://omia.org						
+VBO:0016872	Alaska-United States of America [North American deer mouse]	996	OMIA:996	Alaska	https://omia.org						
+VBO:0016873	Essex-United Kingdom of Great Britain and Northern Ireland [Pig]	450	OMIA:450	Essex	https://omia.org						
+VBO:0016874	Minnesota-United States of America [Pig]	334	OMIA:334	Minnesota	https://omia.org						
+VBO:0016875	Cabugi-Brazil [Sheep]	912	OMIA:912	Cabugi	https://omia.org						
