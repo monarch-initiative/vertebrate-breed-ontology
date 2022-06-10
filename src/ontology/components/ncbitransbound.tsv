@@ -1,5 +1,5 @@
 	VBO:ID (start after the species ID)	label (includes species name because the same name might be shared between species)	new label	updated transboundary name (correct spelling)	species =parent term	parent ID	source for parents	in subset transboundary				
-	ID		LABEL			SC %	>A oboInOwl:source	AI oboInOwl:inSubset				
+	ID		LABEL			SC %	>AI oboInOwl:source	AI oboInOwl:inSubset				
 	VBO:0000012	Dromedary Bactrian Camel	Dromedary Bactrian Camel									
 Alpaca!%!Alpaca	VBO:0000038	Alpaca (Alpaca)	Alpaca; Alpaca	Alpaca	Alpaca	NCBITaxon:30538	https://www.fao.org/dad-is	http://purl.obolibrary.org/obo/vbo#transboundary				
 Huacaya!%!Alpaca	VBO:0000039	Huacaya (Alpaca)	Huacaya; Alpaca	Huacaya	Alpaca	NCBITaxon:30538	https://www.fao.org/dad-is	http://purl.obolibrary.org/obo/vbo#transboundary				
