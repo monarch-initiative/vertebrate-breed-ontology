@@ -16,6 +16,7 @@ import_group:
   products:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+    - id: ro
 components:
   products:
     - filename: ncbitransbound.owl
