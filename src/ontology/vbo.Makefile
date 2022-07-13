@@ -21,9 +21,42 @@ sync_google_sheets:
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
-	$(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: https://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
 
 
 report-query-%:
 	$(ROBOT) query --use-graphs true -i $(SRC) -f tsv --query $(SPARQLDIR)/reports/$*.sparql reports/report-$*.tsv
+
+$(IMPORTDIR)/wikidata_terms_combined.txt: $(SRC) $(IMPORTDIR)/wikidata_terms.txt
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --use-graphs true --query $(SPARQLDIR)/wikidata_terms.sparql $(TMPDIR)/wikidata_terms_combined.txt && \
+	cat $(IMPORTDIR)/wikidata_terms.txt $(TMPDIR)/wikidata_terms_combined.txt > $@; fi
+
+mirror-wikidata:
+	echo "skipped"
+
+mirror/wikidata.owl:
+	echo "skipped"
+
+$(TMPDIR)/wikidata_labels.ttl: $(IMPORTDIR)/wikidata_terms_combined.txt
+	if [ $(IMP) = true ]; then cat $< | grep wikidata | runoak -i wikidata: search -O rdf --output $@ -; fi
+
+#$(IMPORTDIR)/wikidata_import.ttl: $(TMPDIR)/wikidata_labels.txt
+#	if [ $(IMP) = true ]; then echo "@prefix : <http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl#> ." > $@ && \
+#	echo "@prefix owl: <http://www.w3.org/2002/07/owl#> ." >> $@ && \
+#	echo "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ." >> $@ && \
+#	echo "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> ." >> $@ && \
+#	echo "@prefix wikidata: <http://www.wikidata.org/entity/> ." >> $@ && \
+#	echo "@base <http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl> ." >> $@ && \
+#	echo "" >> $@ && \
+#	echo "<http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl> rdf:type owl:Ontology ." >> $@ && \
+#	echo "" >> $@ && \
+#	cat $< | sed "s/ ! / rdfs:label \"/g" | sed "s/$$/\" ./g" >> $@; fi
+
+$(IMPORTDIR)/wikidata_import.owl: $(TMPDIR)/wikidata_labels.ttl
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PHONY: wikidata
+wikidata: $(IMPORTDIR)/wikidata_import.owl

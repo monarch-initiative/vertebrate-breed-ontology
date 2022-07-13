@@ -16,6 +16,9 @@ import_group:
   products:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+    - id: ro
+    - id: wikidata
+      module_type: custom
 components:
   products:
     - filename: ncbitransbound.owl
@@ -27,3 +30,11 @@ allow_equivalents: asserted-only
 documentation:
   documentation_system: mkdocs
 robot_java_args: '-Xmx8G'
+robot_report:
+  use_base_iris: True
+  release_reports: False
+  fail_on : ERROR
+  use_labels : False
+  report_on :
+    - edit
+    - vbo-base.owl
