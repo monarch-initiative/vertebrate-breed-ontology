@@ -10,12 +10,13 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Vertebrate Breed Ontology")
@@ -24,6 +25,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountry>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountryiso>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#local_breed>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#most_common_name>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#national_breed_population>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#origindescription>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#transboundary>))
 Declaration(AnnotationProperty(dcterms:description))
@@ -48,13 +52,29 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#existsincount
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus> "has_domestication_status")
 
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#local_breed> (local breed)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#local_breed> "refers to a breed reported in single country, as defined in DAD-IS (https://www.fao.org/dad-is)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#local_breed> "local breed")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#local_breed> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#most_common_name> (most common name)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#most_common_name> "most common name")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#national_breed_population> (national breed population)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#national_breed_population> "refers to the instance of the transboundary breed in a particular country, as defined in DAD-IS (https://www.fao.org/dad-is)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#national_breed_population> "national breed population")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#national_breed_population> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#origindescription> (description of origin)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#origindescription> "description of origin")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#transboundary> (transboundary)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#transboundary> "transboundary breeds")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#transboundary> "refers to a breed reported in several different countries, as defined in DAD-IS (https://www.fao.org/dad-is)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#transboundary> "transboundary")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#transboundary> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
