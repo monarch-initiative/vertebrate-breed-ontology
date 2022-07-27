@@ -22,7 +22,6 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Vertebrate Breed Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#breed_type>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountry>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountryiso>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus>))
@@ -39,10 +38,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 ############################
 #   Annotation Properties
 ############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/vbo#breed_type> (<http://purl.obolibrary.org/obo/vbo#breed_type>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#breed_type> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#existsincountry> (exists_in_country)
 
@@ -61,7 +56,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#hasdomesticat
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#local_breed> "refers to a breed reported in single country, as defined in DAD-IS (https://www.fao.org/dad-is)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#local_breed> "local breed")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#local_breed> <http://purl.obolibrary.org/obo/vbo#breed_type>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#local_breed> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#most_common_name> (most common name)
 
@@ -71,7 +66,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#most_common_n
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#national_breed_population> "refers to the instance of the transboundary breed in a particular country, as defined in DAD-IS (https://www.fao.org/dad-is)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#national_breed_population> "national breed population")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#national_breed_population> <http://purl.obolibrary.org/obo/vbo#breed_type>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#national_breed_population> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#origindescription> (description of origin)
 
@@ -81,7 +76,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#origindescrip
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#transboundary> "refers to a breed reported in several different countries, as defined in DAD-IS (https://www.fao.org/dad-is)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#transboundary> "transboundary")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#transboundary> <http://purl.obolibrary.org/obo/vbo#breed_type>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#transboundary> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> (subset_property)
 
