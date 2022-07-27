@@ -19,6 +19,8 @@ import_group:
     - id: ro
     - id: wikidata
       module_type: custom
+    - id: omo
+      module_type: mirror
 components:
   products:
     - filename: ncbitransbound.owl
