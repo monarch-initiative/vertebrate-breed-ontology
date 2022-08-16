@@ -22,13 +22,19 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Vertebrate Breed Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#breed_code>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#breed_recognition_status>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#breed_recognition_status_type>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountry>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountryiso>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#fully_recognized>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#local_breed>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#most_common_name>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#national_breed_population>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#not_recognized>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#origindescription>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#partially_recognized>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#transboundary>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -39,6 +45,18 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 #   Annotation Properties
 ############################
 
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#breed_code> (breed code)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#breed_code> "breed code")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#breed_recognition_status> (breed recognition status)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#breed_recognition_status> "breed recognition status")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#breed_recognition_status_type> (breed_recognition_status_type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#breed_recognition_status_type> "breed_recognition_status_type")
+
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#existsincountry> (exists_in_country)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#existsincountry> "exists_in_country")
@@ -47,6 +65,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#existsincount
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#existsincountryiso> "This annotation property refers to the country in which the breed exist, by using the UN ISO standard three-letter country codes. The numeric codes are available from https://www.iso.org/iso-3166-country-codes.html")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#existsincountryiso> "exists_in_country_ISOcode")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#fully_recognized> (fully recognized)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#fully_recognized> "Recognized breed or championship breed.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#fully_recognized> "fully recognized")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#fully_recognized> <http://purl.obolibrary.org/obo/vbo#breed_recognition_status_type>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus> (has_domestication_status)
 
@@ -68,9 +92,21 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#national_br
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#national_breed_population> "national breed population")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#national_breed_population> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#not_recognized> (not recognized)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#not_recognized> "Listed by the breed organization as not recognized or non-championship breeds.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#not_recognized> "not recognized")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#not_recognized> <http://purl.obolibrary.org/obo/vbo#breed_recognition_status_type>)
+
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#origindescription> (description of origin)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#origindescription> "description of origin")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#partially_recognized> (partially recognized)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/vbo#partially_recognized> "In the process of becoming a full recognized breed or a breed with restricted status. This includes miscellaneous, preliminary and provisional recognition and advanced and preliminiary new breeds.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#partially_recognized> "partially recognized")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/vbo#partially_recognized> <http://purl.obolibrary.org/obo/vbo#breed_recognition_status_type>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#transboundary> (transboundary)
 
