@@ -7,6 +7,7 @@ NCBITRANSBOUND_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t
 NCBIBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=1721343081&single=true&output=tsv"
 OMIATRANSBOUND_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=633566774&single=true&output=tsv"
 OMIABREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=1354068566&single=true&output=tsv"
+CATBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSw3inKWof-rHfvj9xmXhR-rbWKksacR6jmMTGKugorZG6KhHhEchLq9B3pGecuioyxan5LmC_45dVu/pub?gid=0&single=true&output=tsv"
 
 .PHONY: sync_ncbitransbound
 .PHONY: sync_ncbibreeds
@@ -18,6 +19,7 @@ sync_google_sheets:
 	wget $(NCBIBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/ncbibreeds.tsv
 	wget $(OMIATRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/omiatransbound.tsv
 	wget $(OMIABREEDS_TEMPLATE) -O $(COMPONENTSDIR)/omiabreeds.tsv
+	wget $(CATBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/catbreeds.tsv
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)

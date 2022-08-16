@@ -36,3 +36,4 @@ These are the components in VBO
 | ncbibreeds.owl | None |
 | omiatransbound.owl | None |
 | omiabreeds.owl | None |
+| catbreeds.owl | None |

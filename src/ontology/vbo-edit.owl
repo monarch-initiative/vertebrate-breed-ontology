@@ -9,6 +9,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
+Import(<http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl>)
