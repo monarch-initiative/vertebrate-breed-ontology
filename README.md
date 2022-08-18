@@ -39,7 +39,7 @@ Editors of this ontology should use the edit version, [src/ontology/vbo-edit.owl
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/monarch-initiative/unified_breed_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/monarch-initiative/vertebrate-breed-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
