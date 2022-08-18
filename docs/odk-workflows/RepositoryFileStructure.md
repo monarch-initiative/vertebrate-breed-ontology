@@ -37,3 +37,4 @@ These are the components in VBO
 | omiatransbound.owl | None |
 | omiabreeds.owl | None |
 | catbreeds.owl | None |
+| breedstatus.owl | None |

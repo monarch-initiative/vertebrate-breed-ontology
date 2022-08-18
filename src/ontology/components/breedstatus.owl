@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breed status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acknowledgment, by an international breed organization, of a group of animal as a breed.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognition status</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acknowledgment, by an international breed organization, of a group of animal as a breed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. </obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fully recognized</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international organization. This status is given to breeds which are preliminarily or provisionally recognized.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially recognized</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international organization. This status is given to breeds which are preliminarily or provisionally recognized.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed that is reported by an international organization but not recognized. </obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not recognized</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed that is reported by an international organization but not recognized. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestication status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wild</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extinction status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not at risk of extinction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">at risk of extinction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extinct</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

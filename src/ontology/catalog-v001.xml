@@ -16,6 +16,8 @@
   <uri name="http://purl.obolibrary.org/obo/vbo/components/omiatransbound.owl" uri="components/omiatransbound.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl" uri="components/omiabreeds.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl" uri="components/catbreeds.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl" uri="components/breedstatus.owl"/>
+
 
 </group>
 </catalog>
