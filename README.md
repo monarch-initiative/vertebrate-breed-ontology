@@ -36,11 +36,11 @@ Editors of this ontology should use the edit version, [src/ontology/vbo-edit.owl
 
 ## Contribute
 
-We welcome contributions to VBO via reporting GitHub issues ([here](https://github.com/monarch-initiative/vertebrate-breed-ontology/issues)) or making Pull Requests to this repository. 
+We welcome contributions to VBO via reporting GitHub issues ([here](https://github.com/monarch-initiative/vertebrate-breed-ontology/issues)) or making pull requests to this repository. 
 
 For a guide on how to create issues on GitHub, please see our tutorial on [managing and tracking GitHub issues](https://oboacademy.github.io/obook/tutorial/github-issues/). 
 
-A guide on contributing to ontologies is available [here](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/).
+A guide on contributing to ontologies (including making pull requests) is available [here](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/).
 
 ## License
 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
