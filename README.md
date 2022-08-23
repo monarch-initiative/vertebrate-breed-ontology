@@ -30,6 +30,14 @@ http://purl.obolibrary.org/obo/vbo.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
+### Contribute
+
+We welcome contributions to VBO via reporting GitHub issues ([here](https://github.com/monarch-initiative/vertebrate-breed-ontology/issues)) or making Pull Requests to this repository. 
+
+For a guide on how to create issues on GitHub, please see our tutorial on [managing and tracking GitHub issues](https://oboacademy.github.io/obook/tutorial/github-issues/). 
+
+A guide on contributing to ontologies is available [here](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/).
+
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/vbo-edit.owl](src/ontology/vbo-edit.owl)
