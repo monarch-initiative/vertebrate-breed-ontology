@@ -9,6 +9,8 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
+Import(<http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/omiabreeds.owl>)
@@ -22,6 +24,8 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Vertebrate Breed Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/VBO_00000000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#breed_code>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#breed_recognition_status>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountry>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#existsincountryiso>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/vbo#hasdomesticationstatus>))
@@ -38,6 +42,14 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#breed_code> (breed code)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#breed_code> "breed code")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/vbo#breed_recognition_status> (breed recognition status)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/vbo#breed_recognition_status> "breed recognition status")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/vbo#existsincountry> (exists_in_country)
 
