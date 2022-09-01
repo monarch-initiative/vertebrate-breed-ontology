@@ -58,13 +58,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recognition, by an international breed organization, of a group of animal as a breed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed status refering to the level of recognition of a group of animal as a breed by an international breed organization.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognition status</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recognition, by an international breed organization, of a group of animal as a breed.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed status refering to the level of recognition of a group of animal as a breed by an international breed organization.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -76,7 +76,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. </obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fully recognized</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fully recognized breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -93,7 +93,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international organization. This status is given to breeds which are preliminarily or provisionally recognized.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially recognized</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially recognized breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300003"/>
@@ -110,7 +110,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed recognition status referring to a breed that is reported by an international organization but not recognized. </obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not recognized</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not recognized breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
@@ -126,8 +126,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed status refering to the level of domestication of a group of animals.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestication status</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed status refering to the level of domestication of a group of animals.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -135,8 +142,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feral</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestication status given to a group of animals that has been domesticated and has adapted to existence in the wild state but remains distinct from other wild individuals of the same species.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feral breed</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestication status given to a group of animals that has been domesticated and has adapted to existence in the wild state but remains distinct from other wild individuals of the same species.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -144,8 +160,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestication status given to a group of animals that has been domesticated, that is have been selectively bred and genetically adapted over generations to live alongside humans.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic breed</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestication status given to a group of animals that has been domesticated, that is have been selectively bred and genetically adapted over generations to live alongside humans.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -153,8 +178,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300005"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wild</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestication status given to a group of animals that has not been domesticated and exists as free-living, self-sustaining and unmanaged population.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wild breed</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestication status given to a group of animals that has not been domesticated and exists as free-living, self-sustaining and unmanaged population.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -162,8 +196,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed status refering to the risk of extinction of a breed. A breed risk of extinction depends on the breeding population including population size (ie the number of living animals belonging to a breed), number of breeding females and males, and population trends (ie decreasing, stable, or increasing population), the reproductive capacity of the breed (ie the time required to produce a new generation of breeding animals, and the number of offspring produced in a limited amount of time), and the existence of active conservation programs.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk of extinction is determined using matrix based on the breeding population and reproductive capacity of the breed (https://www.fao.org/dad-is). It should be noted that the extinction risk criteria might differ between the international breed organizations. </rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extinction status</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breed status refering to the risk of extinction of a breed. A breed risk of extinction depends on the breeding population including population size (ie the number of living animals belonging to a breed), number of breeding females and males, and population trends (ie decreasing, stable, or increasing population), the reproductive capacity of the breed (ie the time required to produce a new generation of breeding animals, and the number of offspring produced in a limited amount of time), and the existence of active conservation programs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -171,8 +214,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals in which the number of breeding males and/or females is sufficient to maintain the existence of the breed. </obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not at risk of extinction</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals in which the number of breeding males and/or females is sufficient to maintain the existence of the breed. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -180,8 +231,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals in which the breeding population (ie number of breeding males and/or females, and/or the number of living animals belonging to a breed) is reduced to a level that is threatening the existence of the breed. </obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">at risk of extinction</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals in which the breeding population (ie number of breeding males and/or females, and/or the number of living animals belonging to a breed) is reduced to a level that is threatening the existence of the breed. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -189,11 +247,124 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals in which no breeding males and/or females remains, and for which any cryoconserved genetic material that may be available is insufficient for breed reconstitution.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extinct</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals in which no breeding males and/or females remains, and for which any cryoconserved genetic material that may be available is insufficient for breed reconstitution.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300009"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that has no living male or female animals remaining, but for which there is sufficient cryopreserved genetic material to allow for reconstitution of the breed.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryoconserved only</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that has no living male or female animals remaining, but for which there is sufficient cryopreserved genetic material to allow for reconstitution of the breed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is less than or equal to 100 (300 for species with low reproductive capacity); or the overall population size is less than or equal to 80 (240) and the population trend is increasing and the proportion of females being bred to males of the same breed is greater than 80 percent (i.e. cross-breeding is equal to or less than 20 percent); or the overall population size is less than or equal to 120 (360) and the population trend is stable or decreasing; or the total number of breeding males is less than or equal to five (i.e. ∆F is 3 percent or greater).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The criteria for this extinction status are defined by the United Nations’ Food and Agriculture Organization (https://www.fao.org/dad-is). Other international breed organizations might have other criteria for this status.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">critical risk of extinction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is less than or equal to 100 (300 for species with low reproductive capacity); or the overall population size is less than or equal to 80 (240) and the population trend is increasing and the proportion of females being bred to males of the same breed is greater than 80 percent (i.e. cross-breeding is equal to or less than 20 percent); or the overall population size is less than or equal to 120 (360) and the population trend is stable or decreasing; or the total number of breeding males is less than or equal to five (i.e. ∆F is 3 percent or greater).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that fulfil the critical risk of extinction status, and for which active conservation programs (including cryoconservation) are in place, or which is maintained by commercial companies or research institutions</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">critical-maintained</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that fulfil the critical risk of extinction status, and for which active conservation programs (including cryoconservation) are in place, or which is maintained by commercial companies or research institutions</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is greater than 100 (300 for species with low reproductive capacity) and less than or equal to 1,000 (3,000); or the overall population size is greater than 80 (240) and less than 800 (2,400) and increasing in size and the percentage of females being bred to males of the same breed is above 80 percent; or the overall population size is greater than 120 (360) and less than or equal to 1,200 (3,600) and the trend is stable or decreasing; or the total number of breeding males is less than or equal to 20 and greater than five (i.e. ∆F is between 1 and 3 percent).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The criteria for this extinction status are defined by the United Nations’ Food and Agriculture Organization (https://www.fao.org/dad-is). Other international breed organizations might have other criteria for this status.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endangered</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is greater than 100 (300 for species with low reproductive capacity) and less than or equal to 1,000 (3,000); or the overall population size is greater than 80 (240) and less than 800 (2,400) and increasing in size and the percentage of females being bred to males of the same breed is above 80 percent; or the overall population size is greater than 120 (360) and less than or equal to 1,200 (3,600) and the trend is stable or decreasing; or the total number of breeding males is less than or equal to 20 and greater than five (i.e. ∆F is between 1 and 3 percent).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300016"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that fulfil the endangered extinction status, and for which active conservation programs (including cryoconservation) are in place, or which is maintained by commercial companies or research institutions</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endangered-maintained</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that fulfil the endangered extinction status, and for which active conservation programs (including cryoconservation) are in place, or which is maintained by commercial companies or research institutions</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is between 1,000 and 2,000 (3,000 and 6,000 for species with low reproductive capacity); or the overall population size is greater than 800 (2,400) and less than or equal to 1,600 (4,800) and increasing and the percentage of females being bred to males of the same breed is greater than 80 percent; or the overall population size is greater than 1,200 (3,600) and less than or equal to 2,400 (7,200) but stable or decreasing; or the total number of breeding males is between 20 and 35 (i.e. the ∆F is between 0.5 and 1 percent).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The criteria for this extinction status are defined by the United Nations’ Food and Agriculture Organization (https://www.fao.org/dad-is). Other international breed organizations might have other criteria for this status.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vulnerable</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is between 1,000 and 2,000 (3,000 and 6,000 for species with low reproductive capacity); or the overall population size is greater than 800 (2,400) and less than or equal to 1,600 (4,800) and increasing and the percentage of females being bred to males of the same breed is greater than 80 percent; or the overall population size is greater than 1,200 (3,600) and less than or equal to 2,400 (7,200) but stable or decreasing; or the total number of breeding males is between 20 and 35 (i.e. the ∆F is between 0.5 and 1 percent).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
+    </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 
