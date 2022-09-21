@@ -10368,7 +10368,7 @@
         <vbo:breed_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOK</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300003"/>
-        <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_03000034"/>
+        <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
@@ -10409,7 +10409,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100228"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_03000034"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <oboInOwl:source rdf:resource="https://wcf.de/en/wcf-ems-code/"/>
     </owl:Axiom>
     <owl:Axiom>
