@@ -42,6 +42,9 @@ mirror-wikidata:
 mirror/wikidata.owl:
 	echo "skipped"
 
+dependencies:
+	pip install -U pip && pip install -U oaklib
+
 $(TMPDIR)/wikidata_labels.ttl: $(IMPORTDIR)/wikidata_terms_combined.txt
 	if [ $(IMP) = true ]; then cat $< | grep wikidata | runoak -i wikidata: search -O rdf --output $@ -; fi
 
