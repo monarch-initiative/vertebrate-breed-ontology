@@ -20,7 +20,7 @@ These are the current imports in VBO
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
 | wikidata | http://purl.obolibrary.org/obo/wikidata.owl | custom |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |
-| cob | http://purl.obolibrary.org/obo/cob.owl | mirror |
+| cob | http://purl.obolibrary.org/obo/cob.owl | None |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
