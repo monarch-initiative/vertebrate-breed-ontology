@@ -97,7 +97,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ncbitaxon ro wikidata omo
+IMPORTS =  ncbitaxon ro wikidata omo cob
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -284,6 +284,13 @@ $(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl $(IMPORTDIR)/omo_terms_combine
 		query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
+## Module for ontology: cob
+
+$(IMPORTDIR)/cob_import.owl: $(MIRRORDIR)/cob.owl $(IMPORTDIR)/cob_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
+		query --update ../sparql/preprocess-module.ru --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -376,6 +383,15 @@ mirror-wikidata: | $(TMPDIR)
 mirror-omo: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/omo.owl --create-dirs -o $(MIRRORDIR)/omo.owl --retry 4 --max-time 200 &&\
 		$(ROBOT) convert -i $(MIRRORDIR)/omo.owl -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## ONTOLOGY: cob
+.PHONY: mirror-cob
+.PRECIOUS: $(MIRRORDIR)/cob.owl
+mirror-cob: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/cob.owl --create-dirs -o $(MIRRORDIR)/cob.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/cob.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
