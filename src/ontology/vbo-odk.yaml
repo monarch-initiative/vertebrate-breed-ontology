@@ -21,6 +21,7 @@ import_group:
       module_type: custom
     - id: omo
       module_type: mirror
+    - id: cob
 components:
   products:
     - filename: ncbitransbound.owl

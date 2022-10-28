@@ -8,8 +8,7 @@
   <uri name="http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl" uri="imports/omo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl" uri="imports/wikidata_import.owl"/>
-
-
+  <uri name="http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl" uri="imports/cob_import.owl"/>
 
   <uri name="http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl" uri="components/ncbitransbound.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl" uri="components/ncbibreeds.owl"/>
