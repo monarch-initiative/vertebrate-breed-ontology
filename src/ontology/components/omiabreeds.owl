@@ -3791,6 +3791,22 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabugi</owl:annotatedTarget>
         <oboInOwl:source rdf:resource="https://omia.org"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016876">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIA:1260</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016877">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIA:1261</oboInOwl:hasDbXref>
+    </owl:Class>
 </rdf:RDF>
 
 

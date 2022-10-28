@@ -6687,8 +6687,9 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source rdf:resource="https://cfa.org/breeds/|https://wcf.de/en/wcf-ems-code/"/>
+        <terms:source rdf:resource="https://cfa.org/breeds/"/>
         <terms:source rdf:resource="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"/>
+        <terms:source rdf:resource="https://wcf.de/en/wcf-ems-code/"/>
         <terms:source rdf:resource="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/"/>
         <terms:source rdf:resource="https://www.rareexoticfelineregistry.com/breed-recognition/"/>
         <terms:source rdf:resource="https://www.tica.org/breeds/browse-all-breeds"/>
