@@ -1,4 +1,40 @@
 Level	Rule Name	Subject	Property	Value
+WARN	annotation_whitespace	obo:VBO_0000392	oboInOwl:hasExactSynonym	Swedish Red and White 
+WARN	annotation_whitespace	obo:VBO_0002085	oboInOwl:hasExactSynonym	Jawari 
+WARN	annotation_whitespace	obo:VBO_0002640	oboInOwl:hasExactSynonym	Smedja rasa 
+WARN	annotation_whitespace	obo:VBO_0003614	oboInOwl:hasExactSynonym	Dual Puporse Shorthorns 
+WARN	annotation_whitespace	obo:VBO_0004678	oboInOwl:hasExactSynonym	El Guelmia 
+WARN	annotation_whitespace	obo:VBO_0004678	oboInOwl:hasExactSynonym	Ezzarga 
+WARN	annotation_whitespace	obo:VBO_0004725	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu 
+WARN	annotation_whitespace	obo:VBO_0004908	oboInOwl:hasExactSynonym	Varshagandhi 
+WARN	annotation_whitespace	obo:VBO_0005158	oboInOwl:hasExactSynonym	North of Oman 
+WARN	annotation_whitespace	obo:VBO_0006758	oboInOwl:hasExactSynonym	Tianchang Yellow 
+WARN	annotation_whitespace	obo:VBO_0008150	oboInOwl:hasExactSynonym	 MAGHREBIA
+WARN	annotation_whitespace	obo:VBO_0010364	oboInOwl:hasExactSynonym	Al-Arabi 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Calabrese 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero abruzzese 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero calabrese 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero dei Monti Dauni meridionali 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero dei Monti Lepini 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero lucano 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero pugliese 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Nero reatino 
+WARN	annotation_whitespace	obo:VBO_0013053	oboInOwl:hasExactSynonym	Pugliese 
+WARN	annotation_whitespace	obo:VBO_0013055	oboInOwl:hasExactSynonym	Cinta 
+WARN	annotation_whitespace	obo:VBO_0013055	oboInOwl:hasExactSynonym	Cinto 
+WARN	annotation_whitespace	obo:VBO_0013055	oboInOwl:hasExactSynonym	Cinto toscano 
+WARN	annotation_whitespace	obo:VBO_0013055	oboInOwl:hasExactSynonym	Cinturello umbro 
+WARN	annotation_whitespace	obo:VBO_0013059	oboInOwl:hasExactSynonym	Bolognese 
+WARN	annotation_whitespace	obo:VBO_0013059	oboInOwl:hasExactSynonym	Mora 
+WARN	annotation_whitespace	obo:VBO_0013202	oboInOwl:hasExactSynonym	Slovenian Landrace 
+WARN	annotation_whitespace	obo:VBO_0015869	oboInOwl:hasExactSynonym	Adal 
+WARN	annotation_whitespace	obo:VBO_0015877	oboInOwl:hasExactSynonym	Agew 
+WARN	annotation_whitespace	obo:VBO_0015877	oboInOwl:hasExactSynonym	Dangilla 
+WARN	annotation_whitespace	obo:VBO_0016608	oboInOwl:hasExactSynonym	Yemeni White 
+WARN	annotation_whitespace	obo:VBO_0300002	IAO:0000115	Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. 
+WARN	annotation_whitespace	obo:VBO_0300004	IAO:0000115	Breed recognition status referring to a breed that is reported by an international organization but not recognized. 
+WARN	annotation_whitespace	obo:VBO_0300010	IAO:0000115	Extinction status given to a group of animals in which the number of breeding males and/or females is sufficient to maintain the existence of the breed. 
+WARN	annotation_whitespace	obo:VBO_0300011	IAO:0000115	Extinction status given to a group of animals in which the breeding population (ie number of breeding males and/or females, and/or the number of living animals belonging to a breed) is reduced to a level that is threatening the existence of the breed. 
 WARN	duplicate_exact_synonym	obo:VBO_0000892	oboInOwl:hasExactSynonym	Žemaitukai
 WARN	duplicate_exact_synonym	obo:VBO_0010244	oboInOwl:hasExactSynonym	Žemaitukai
 WARN	duplicate_exact_synonym	obo:VBO_0001291	oboInOwl:hasExactSynonym	Żelaźnieńska
@@ -4035,8 +4071,6 @@ WARN	duplicate_exact_synonym	obo:VBO_0014997	oboInOwl:hasExactSynonym	North Rona
 WARN	duplicate_exact_synonym	obo:VBO_0001532	oboInOwl:hasExactSynonym	North Ossetian Semi-Fine Wool
 WARN	duplicate_exact_synonym	obo:VBO_0014995	oboInOwl:hasExactSynonym	North Ossetian Semi-Fine Wool
 WARN	duplicate_exact_synonym	obo:VBO_0014996	oboInOwl:hasExactSynonym	North Ossetian Semi-Fine Wool
-WARN	duplicate_exact_synonym	obo:VBO_0005158	oboInOwl:hasExactSynonym	North of Oman
-WARN	duplicate_exact_synonym	obo:VBO_0016319	oboInOwl:hasExactSynonym	North of Oman
 WARN	duplicate_exact_synonym	obo:VBO_0000582	oboInOwl:hasExactSynonym	North Holland Blue
 WARN	duplicate_exact_synonym	obo:VBO_0006193	oboInOwl:hasExactSynonym	North Holland Blue
 WARN	duplicate_exact_synonym	obo:VBO_0006194	oboInOwl:hasExactSynonym	North Holland Blue
@@ -8384,7 +8418,6 @@ WARN	duplicate_exact_synonym	obo:VBO_0005730	oboInOwl:hasExactSynonym	Euribrid H
 WARN	duplicate_exact_synonym	obo:VBO_0005732	oboInOwl:hasExactSynonym	Euribrid Hisex
 WARN	duplicate_exact_synonym	obo:VBO_0005734	oboInOwl:hasExactSynonym	Euribrid Hisex
 WARN	duplicate_exact_synonym	obo:VBO_0004723	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu
-WARN	duplicate_exact_synonym	obo:VBO_0004725	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu
 WARN	duplicate_exact_synonym	obo:VBO_0004728	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu
 WARN	duplicate_exact_synonym	obo:VBO_0004734	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu
 WARN	duplicate_exact_synonym	obo:VBO_0004736	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu
@@ -12287,7 +12320,6 @@ WARN	duplicate_exact_synonym	obo:VBO_0008629	oboInOwl:hasExactSynonym	Adal
 WARN	duplicate_exact_synonym	obo:VBO_0009498	oboInOwl:hasExactSynonym	Adal
 WARN	duplicate_exact_synonym	obo:VBO_0014116	oboInOwl:hasExactSynonym	Adal
 WARN	duplicate_exact_synonym	obo:VBO_0014117	oboInOwl:hasExactSynonym	Adal
-WARN	duplicate_exact_synonym	obo:VBO_0015869	oboInOwl:hasExactSynonym	Adal
 WARN	duplicate_exact_synonym	obo:VBO_0010245	oboInOwl:hasExactSynonym	Adaevskaya
 WARN	duplicate_exact_synonym	obo:VBO_0010246	oboInOwl:hasExactSynonym	Adaevskaya
 WARN	duplicate_exact_synonym	obo:VBO_0010247	oboInOwl:hasExactSynonym	Adaevskaya
@@ -29183,6 +29215,8 @@ WARN	missing_definition	obo:VBO_0016872	IAO:0000115
 WARN	missing_definition	obo:VBO_0016873	IAO:0000115	
 WARN	missing_definition	obo:VBO_0016874	IAO:0000115	
 WARN	missing_definition	obo:VBO_0016875	IAO:0000115	
+WARN	missing_definition	obo:VBO_0016876	IAO:0000115	
+WARN	missing_definition	obo:VBO_0016877	IAO:0000115	
 WARN	missing_definition	obo:VBO_0100000	IAO:0000115	
 WARN	missing_definition	obo:VBO_0100001	IAO:0000115	
 WARN	missing_definition	obo:VBO_0100002	IAO:0000115	
