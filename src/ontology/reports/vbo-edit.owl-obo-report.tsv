@@ -3930,6 +3930,8 @@ WARN	duplicate_exact_synonym	obo:VBO_0006211	oboInOwl:hasExactSynonym	Orloff
 WARN	duplicate_exact_synonym	obo:VBO_0006919	oboInOwl:hasExactSynonym	Orloff
 WARN	duplicate_exact_synonym	obo:VBO_0000328	oboInOwl:hasExactSynonym	Original Swiss Brown
 WARN	duplicate_exact_synonym	obo:VBO_0003764	oboInOwl:hasExactSynonym	Original Swiss Brown
+WARN	duplicate_exact_synonym	obo:VBO_0003762	oboInOwl:hasExactSynonym	Original Braunvieh
+WARN	duplicate_exact_synonym	obo:VBO_0003764	oboInOwl:hasExactSynonym	Original Braunvieh
 WARN	duplicate_exact_synonym	obo:VBO_0015118	oboInOwl:hasExactSynonym	Oriental Mouflon
 WARN	duplicate_exact_synonym	obo:VBO_0015119	oboInOwl:hasExactSynonym	Oriental Mouflon
 WARN	duplicate_exact_synonym	obo:VBO_0015120	oboInOwl:hasExactSynonym	Oriental Mouflon
@@ -6101,6 +6103,8 @@ WARN	duplicate_exact_synonym	obo:VBO_0001453	oboInOwl:hasExactSynonym	Kıvırcı
 WARN	duplicate_exact_synonym	obo:VBO_0014751	oboInOwl:hasExactSynonym	Kıvırcık
 WARN	duplicate_exact_synonym	obo:VBO_0001006	oboInOwl:hasExactSynonym	Kisber Halfbred
 WARN	duplicate_exact_synonym	obo:VBO_0010743	oboInOwl:hasExactSynonym	Kisber Halfbred
+WARN	duplicate_exact_synonym	obo:VBO_0011273	oboInOwl:hasExactSynonym	Kirin
+WARN	duplicate_exact_synonym	obo:VBO_0016879	oboInOwl:hasExactSynonym	Kirin
 WARN	duplicate_exact_synonym	obo:VBO_0001872	oboInOwl:hasExactSynonym	Kirgizskaya
 WARN	duplicate_exact_synonym	obo:VBO_0009679	oboInOwl:hasExactSynonym	Kirgizskaya
 WARN	duplicate_exact_synonym	obo:VBO_0011613	oboInOwl:hasExactSynonym	Kirgizskaya
@@ -29217,6 +29221,10 @@ WARN	missing_definition	obo:VBO_0016874	IAO:0000115
 WARN	missing_definition	obo:VBO_0016875	IAO:0000115	
 WARN	missing_definition	obo:VBO_0016876	IAO:0000115	
 WARN	missing_definition	obo:VBO_0016877	IAO:0000115	
+WARN	missing_definition	obo:VBO_0016878	IAO:0000115	
+WARN	missing_definition	obo:VBO_0016879	IAO:0000115	
+WARN	missing_definition	obo:VBO_0016880	IAO:0000115	
+WARN	missing_definition	obo:VBO_0016881	IAO:0000115	
 WARN	missing_definition	obo:VBO_0100000	IAO:0000115	
 WARN	missing_definition	obo:VBO_0100001	IAO:0000115	
 WARN	missing_definition	obo:VBO_0100002	IAO:0000115	
@@ -29486,5 +29494,4 @@ WARN	missing_definition	obo:vbo#most_common_name	IAO:0000115
 WARN	missing_definition	obo:vbo#origindescription	IAO:0000115	
 WARN	missing_synonymtype_declaration	obo:vbo#most_common_name	rdfs:subPropertyOf	
 INFO	missing_superclass	obo:VBO_00000000	rdfs:subClassOf	
-INFO	missing_superclass	obo:VBO_0000012	rdfs:subClassOf	
 INFO	missing_superclass	obo:VBO_0300000	rdfs:subClassOf	
