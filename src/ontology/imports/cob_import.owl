@@ -10,9 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vbo/releases/2022-10-28/imports/cob_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cob/releases/2022-05-02/cob.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-28</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vbo/releases/2022-11-29/imports/cob_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/cob/releases/2022-11-02/cob.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -61,23 +61,23 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0001010 -->
+    <!-- http://purl.obolibrary.org/obo/CARO_0010004 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0010004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label xml:lang="en">cellular organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome.</obo:IAO_0000115>
         <rdfs:comment>&quot;Maximal functionally integrated unit&quot; is intended to express unity, which Barry considers synonymous with BFO &apos;object&apos;.</rdfs:comment>
         <rdfs:comment>Includes virus - we will later have a class for cellular organisms.</rdfs:comment>
         <rdfs:label xml:lang="en">organism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0010004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0010004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001010"/>
-        <rdfs:label xml:lang="en">cellular organism</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
