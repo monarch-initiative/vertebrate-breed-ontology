@@ -2,6 +2,11 @@ site_name: Vertebrate Breed Ontology
 theme: readthedocs
 nav:
   - Getting started: index.md
+  - VBO general information:
+      - General Information: general/general.md
+      - References for Livestock Breeds: general/references-livestock.md
+      - References for Cat Breeds: general/references-cat.md      
+      - References for Dog Breeds: general/references-dog.md       
   - VBO Developer Docs: vbo_developer_docs.md
   - Cite: cite.md
   - History: history.md
