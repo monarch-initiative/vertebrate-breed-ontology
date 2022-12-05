@@ -7,12 +7,12 @@ VBO serves as a single, computable resource for vertebrate breed names. It is us
 
 VBO is restricted to non-human vertebrate animal species. It covers breeds and breed populations for livestock, companion animals, and laboratory animals.
 
-##What is a breed in VBO?  
+## What is a breed in VBO?  
 Maybe definitions of 'breed' exist in the literature and in different communities. In VBO, a 'breed' is defined as : a group of animals that share specific characteristics (such as traits, behavior,...) that distinguish it from other organisms of the same species, and/or which cultural or geographical separation has led to the general acceptance of its separate identity.
 
 Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature (see table below).
 
-##References organizations
+## References organizations
 The following table includes breed organizations, communities, and experts which reported, characterized, defined, and/or determined the breeds included in VBO
 
 |Breeds| Sources| Sources links
