@@ -2,11 +2,14 @@ site_name: Vertebrate Breed Ontology
 theme: readthedocs
 nav:
   - Getting started: index.md
-  - VBO general information: general/general.md
+  - VBO general information:
+      - VBO general information: general/general.md
       - References for Livestock Breeds: general/references-livestock.md
-      - References for Cat Breeds: general/references-cat.md      
-      - References for Dog Breeds: general/references-dog.md       
-  - VBO Developer Docs: vbo_developer_docs.md
+      - References for Cat Breeds: general/references-cat.md
+      - References for Dog Breeds: general/references-dog.md
+  - VBO Developer Docs:
+      - Components: VBO editor documents/components.md
+      - Release process: VBO editor documents/release.md
   - Cite: cite.md
   - History: history.md
   - How-to guides:
@@ -19,6 +22,6 @@ nav:
           - Imports management: odk-workflows/UpdateImports.md
           - Managing the documentation: odk-workflows/ManageDocumentation.md
           - Continuous Integration: odk-workflows/ContinuousIntegration.md
-          - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md 
+          - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md
       - Contributing: contributing.md
 
