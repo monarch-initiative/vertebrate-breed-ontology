@@ -1,4 +1,8 @@
-# VBO Developer Docs
+# Ontology components
+
+An ontology can include information external to the actual ontology, such as "imports" and "components" (more details [here](https://obofoundry.org/COB/odk-workflows/RepositoryFileStructure/#Components)). **Imports** represent subsets of external ontologies that are re-used in the ontology (e.g. COB, RO, OMO are ontologies imported into VBO). **Components** are part of the ontology but are managed/maintained outside of the ontology; for example, a component is a part of the ontology managed in ROBOT templates.
+
+VBO was created such that it is managed in ROBOT templates, ie the source of truth for VBO terms (id, labels, synonyms,etc) is ROBOT templates maintained in google sheets. The ontology editing is done in these ROBOT templates; the ontology is then updated by a process refreshing the components.
 
 ## How to refresh components
 
@@ -20,7 +24,9 @@ sh run.sh make components/breeds.owl
 
 This will refresh the breeds component based on the current ROBOT template stored in components/breeds.tsv.
 
-Note: The component will not update unless the content of the google sheet or the vbo-edit file has changed. To "force" the update, add `-B` at the end of the command. For example: 
+To update ALL the components, use the command: `sh run.sh make recreate-components`
+
+Note: The component will not update unless the content of the google sheet or the vbo-edit file has changed. To "force" the update, add `-B` at the end of the command. For example:
 `sh run.sh make components/breeds.owl -B`
 
 ## Adding entirely new components:
