@@ -39,3 +39,4 @@ These are the components in VBO
 | omiabreeds.owl | None |
 | catbreeds.owl | None |
 | breedstatus.owl | None |
+| obsolete.owl | None |
