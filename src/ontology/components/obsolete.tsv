@@ -1,0 +1,3 @@
+VBO:ID	label 	obsoleted label	Type	obsolete	replacement term	comment	GH issue	obsolescence reason
+ID		LABEL	TYPE	AT owl:deprecated^^xsd:boolean	AI IAO:0100001	A rdfs:comment	AT IAO:0000233^^xsd:anyURI	A IAO:0000231
+VBO:0000990	Iceland Pony (Horse)	obsolete Iceland Pony (Horse)	owl:Class	true	VBO:0000991		https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/75	terms merged
