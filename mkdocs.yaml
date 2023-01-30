@@ -10,6 +10,7 @@ nav:
   - VBO Developer Docs:
       - Components: VBO-editor-documents/components.md
       - Release process: VBO-editor-documents/release.md
+      - Merging/obsoleting classes: VBO-editor-documents/merge_obsolete.md      
   - Cite: cite.md
   - History: history.md
   - How-to guides:
