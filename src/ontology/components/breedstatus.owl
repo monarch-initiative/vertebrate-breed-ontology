@@ -46,24 +46,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0200902 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0200902">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of dogs derived from more than one breed of the same species. </obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed Breed (dog)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0200902"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of dogs derived from more than one breed of the same species. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://venomcoding.org/venom-codes/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0300000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300000">
@@ -379,23 +361,6 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extinction status given to a group of animals that are at risk of extinction and for which the total number of breeding females is between 1,000 and 2,000 (3,000 and 6,000 for species with low reproductive capacity); or the overall population size is greater than 800 (2,400) and less than or equal to 1,600 (4,800) and increasing and the percentage of females being bred to males of the same breed is greater than 80 percent; or the overall population size is greater than 1,200 (3,600) and less than or equal to 2,400 (7,200) but stable or decreasing; or the total number of breeding males is between 20 and 35 (i.e. the ∆F is between 0.5 and 1 percent).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fao.org/dad-is</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0300019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of animals of the same species derived from more than one breed of the same species. A breed is defined as a group of animals that share specific characteristics that distinguish it from other organisms of the same species, and/or which cultural or geographical separation has led to the general acceptance of its separate identity.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed Breed</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of animals of the same species derived from more than one breed of the same species. A breed is defined as a group of animals that share specific characteristics that distinguish it from other organisms of the same species, and/or which cultural or geographical separation has led to the general acceptance of its separate identity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
