@@ -2655,36 +2655,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0000663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000663">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIA:1154</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish-Swedish farmdog</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000663"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish-Swedish farmdog</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0000668 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000668">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIA:792</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Danish Pointing Dog</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000668"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Danish Pointing Dog</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0000713 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000713">

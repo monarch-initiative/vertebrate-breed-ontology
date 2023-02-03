@@ -40,3 +40,4 @@ These are the components in VBO
 | catbreeds.owl | None |
 | breedstatus.owl | None |
 | obsolete.owl | None |
+| dogbreeds.owl | None |
