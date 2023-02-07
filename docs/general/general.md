@@ -33,7 +33,7 @@ The following table includes breed organizations, communities, and experts which
 |Dog Breeds|Fédération Cynologique Internationale (FCI)|https://www.fci.be/en/
 |Dog Breeds|iDog|https://ngdc.cncb.ac.cn/idog/
 |Dog Breeds|The Kennel Club (KC)|https://www.thekennelclub.org.uk/
-|Dog Breeds|Svenska Kennelklubbe (SKK)|https://www.skk.se/en/
+|Dog Breeds|Svenska Kennelklubbe (SKK)|*upcoming*|
 |Dog Breeds|United Kennel Club (UKC)|https://www.ukcdogs.com/
 |Dog Breeds|Wikipedia|https://en.wikipedia.org/wiki/List_of_dog_breeds
 |Lab Animal Breeds|*upcoming*|
