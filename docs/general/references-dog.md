@@ -27,6 +27,19 @@ The CKC recognizes 187 breeds, which are sorted into seven groups: Herding Dogs,
 The data in VBO coming from this source is currently not regularly updated.  
 
 
+##  Domestic Animal Diversity Information (DAD-IS)
+**Home page:**  https://www.fao.org/dad-is
+
+**Description:**  
+DAD-IS is a list compiled and maintained by the Food and Agriculture Organization of the United Nations (FAO). This list contains information on more than 15,000 national breed populations representing more than 8,800 breeds across 38 species. It is assembled, contributed to, and updated by country-nominated National Coordinators from 182 countries.
+
+**Data breeds notes:**  
+DAD-IS represents 2 types of breeds: “local breeds” (breeds reported in a single country), and “transboundary breeds” (breeds reported in several different countries). The instance of “transboundary breeds” that are reported in specific countries are called in DAD-IS “national breed populations.” In addition to the breeds' most common name and country of existence, DAD-IS reports on the domestication status, the extinction status of breeds, and the description of origin of the breeds. https://www.fao.org/dad-is
+
+**Data synchronization:**  
+The data in VBO coming from this source is currently not regularly updated.  
+
+
 ##  Fédération Cynologique Internationale (FCI)
 **Home page:**  https://www.fci.be/en/
 
@@ -39,7 +52,7 @@ The FCI recognises 356 breeds in 10 groups: Group 1 - Sheepdogs and Cattledogs (
 **Data synchronization:**  
 The data in VBO coming from this source is currently not regularly updated.  
 
-##  iDog
+##  iDog - National Genomics Data Center
 **Home page:**  https://ngdc.cncb.ac.cn/idog/
 
 **Description:**  
@@ -75,7 +88,7 @@ Svenska Kennelklubben, the Swedish kennel club, is Sweden's largest organisation
 There are 10 breed groups corresponding to the FCI breed groups. https://www.skk.se/en/Dog-health/BSI--Breed-Specific-Instructions/
 
 **Data synchronization:**  
-The data in VBO coming from this source is currently not regularly updated.  
+This source is not yet available in VBO.
 
 
 ## United Kennel Club (UKC)
@@ -91,6 +104,19 @@ Each breed was developed for a specific purpose or function. The UKC standards c
 The data in VBO coming from this source is currently not regularly updated.  
 
 
+## Veterinary Nomenclature (VeNom)
+**Home page:**  https://venomcoding.org/
+
+**Description:**  
+The canine breed codes currently consist of breeds that are recognised by kennel clubs across the world. Where possible all synonyms of the same breed have been linked in the codes to each other, and are independent of their colour coding unless it is specific to that breed. Similar breeds have been grouped together using standard categories (e.g. Retrievers or Spaniels). The list is very inclusive to ensure all types of dog breeds are covered, and first generation pedigree crosses (such as Labradoodle or Puggle) are also included to assist with data capture. Non-standard cross breed dogs are recorded as synonyms of ‘Crossbreed’. https://venomcoding.org/venom-codes/
+
+**Data breeds notes:**  
+Note that not all dogs listed are recognized breeds by an official breed registry that can certify the dog is a purebred.
+
+**Data synchronization:**  
+The data in VBO coming from this source is currently not regularly updated.  
+
+
 ## Wikipedia
 **Home page:**  https://en.wikipedia.org/wiki/List_of_dog_breeds
 
@@ -98,7 +124,7 @@ The data in VBO coming from this source is currently not regularly updated.
 This list of dog breeds includes both extant and extinct dog breeds, varieties, landraces, and dog types. A research article on dog genomics published in Science/AAAS defines modern dog breeds as "a recent invention defined by conformation to a physical ideal and purity of lineage.”
 
 **Data breeds notes:**  
-Note that not all dogs listed below are recognized breeds by an official breed registry that can certify the dog is a purebred.
+Note that not all dogs listed are recognized breeds by an official breed registry that can certify the dog is a purebred.
 
 **Data synchronization:**  
 The data in VBO coming from this source is currently not regularly updated.  
