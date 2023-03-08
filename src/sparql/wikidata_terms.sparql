@@ -3,6 +3,6 @@ WHERE {
   { ?s1 ?p1 ?term . }
   UNION
   { ?term ?p2 ?o2 . }
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "https://www.wikidata.org/")))
-  BIND(replace(str(?term),"https://www.wikidata.org/entity/","wikidata:") as ?curie)
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://www.wikidata.org/")))
+  BIND(replace(str(?term),"http://www.wikidata.org/entity/","wikidata:") as ?curie)
 }
