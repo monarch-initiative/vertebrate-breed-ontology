@@ -11687,7 +11687,6 @@ WARN	duplicate_exact_synonym	VBO:0200642	oboInOwl:hasExactSynonym	Belgium Griffo
 WARN	duplicate_exact_synonym	VBO:0000917	oboInOwl:hasExactSynonym	Belgian Warmblood
 WARN	duplicate_exact_synonym	VBO:0010438	oboInOwl:hasExactSynonym	Belgian Warmblood
 WARN	duplicate_exact_synonym	VBO:0010439	oboInOwl:hasExactSynonym	Belgian Warmblood
-WARN	duplicate_exact_synonym	VBO:0200137	oboInOwl:hasExactSynonym	Belgian Shepherd
 WARN	duplicate_exact_synonym	VBO:0200144	oboInOwl:hasExactSynonym	Belgian Shepherd
 WARN	duplicate_exact_synonym	VBO:0200145	oboInOwl:hasExactSynonym	Belgian Shepherd
 WARN	duplicate_exact_synonym	VBO:0200143	oboInOwl:hasExactSynonym	Belgian Sheepdog
@@ -30590,7 +30589,6 @@ WARN	missing_definition	VBO:0200337	IAO:0000115
 WARN	missing_definition	VBO:0200338	IAO:0000115	
 WARN	missing_definition	VBO:0200339	IAO:0000115	
 WARN	missing_definition	VBO:0200340	IAO:0000115	
-WARN	missing_definition	VBO:0200341	IAO:0000115	
 WARN	missing_definition	VBO:0200342	IAO:0000115	
 WARN	missing_definition	VBO:0200343	IAO:0000115	
 WARN	missing_definition	VBO:0200344	IAO:0000115	
