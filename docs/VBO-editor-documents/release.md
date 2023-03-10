@@ -19,26 +19,26 @@ Notes:
 `sh run.sh make refresh-imports`  
 This will refresh ALL the imports.
 
-1. Update components (see details [here](https://monarch-initiative.github.io/vertebrate-breed-ontology/components))
+2. Update components (see details [here](https://monarch-initiative.github.io/vertebrate-breed-ontology/components))  
   ```
-  sh run.sh make sync_google_sheets  
+  sh run.sh make sync_google_sheets   
   sh run.sh make recreate-components
   ```
-1. Create a PR, wait for the QC checks to pass, and merge to Master.
+3. Create a PR, wait for the QC checks to pass, and merge to Master.
 
 
 ## Run the release
-**Before starting the release**
+**Before starting the release**  
   - Make sure that all the pull requests are merged into the master branch.
   - Make sure you have the latest ODK installed by running `docker pull obolibrary/odkfull`
   - Create a new branch (e.g. `release-YYYY-MM-DD`)
 
-**Running the release**
-  1. Run: `sh run.sh make prepare_release IMP=false -B`
+**Running the release**  
+  1. Run: `sh run.sh make prepare_release IMP=false -B`  
     Note: `IMP=false` means that we are running the release without updated the imports (we updated them in the previous step)
   1. Review the release: check that changes made in the ontology can be found in the new vbo.owl  
-  1. If changes are as expected, create a PR
-  1. Once the QC checks have successfully passed, merge to Master
+  2. If changes are as expected, create a PR.  
+  3. Once the QC checks have successfully passed, merge to Master
 
 ## Create a GitHub release
 1. Go to [https://github.com/monarch-initiative/vertebrate-breed-ontology/releases](https://github.com/monarch-initiative/vertebrate-breed-ontology/releases)
