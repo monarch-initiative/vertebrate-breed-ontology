@@ -21,7 +21,7 @@ This will refresh ALL the imports.
 
 2. Update components (see details [here](https://monarch-initiative.github.io/vertebrate-breed-ontology/components))  
   ```
-  sh run.sh make sync_google_sheets   
+  sh run.sh make sync_google_sheets 
   sh run.sh make recreate-components
   ```
 3. Create a PR, wait for the QC checks to pass, and merge to Master.
