@@ -26,8 +26,6 @@ components:
   products:
     - filename: ncbitransbound.owl
     - filename: ncbibreeds.owl
-    - filename: omiatransbound.owl
-    - filename: omiabreeds.owl
     - filename: catbreeds.owl
     - filename: breedstatus.owl
     - filename: obsolete.owl
