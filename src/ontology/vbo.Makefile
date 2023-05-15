@@ -5,8 +5,6 @@
 
 NCBITRANSBOUND_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=896730834&single=true&output=tsv"
 NCBIBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=1721343081&single=true&output=tsv"
-OMIATRANSBOUND_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=633566774&single=true&output=tsv"
-OMIABREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=1354068566&single=true&output=tsv"
 CATBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSw3inKWof-rHfvj9xmXhR-rbWKksacR6jmMTGKugorZG6KhHhEchLq9B3pGecuioyxan5LmC_45dVu/pub?gid=0&single=true&output=tsv"
 BREEDSTATUS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk1AOht1rOoyXExlZu9KzCOtfIOoTGBxkVmJ6dvE9wuQ1Q7LfwMA93vF0yRPpG7GMq03mKFdV74YnG/pub?gid=1650821837&single=true&output=tsv"
 OBSOLETE_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcnm9OWzGG4zAm_ib852_N7GsmNvVFPqTm9ca3e6ScNOXfN9W4zUTGB-NfqEjs2Sn9g7g9-fDEsxU4/pub?gid=0&single=true&output=tsv"
@@ -20,8 +18,6 @@ DOGBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSa89pS7ih0D
 sync_google_sheets:
 	wget $(NCBITRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/ncbitransbound.tsv
 	wget $(NCBIBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/ncbibreeds.tsv
-	wget $(OMIATRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/omiatransbound.tsv
-	wget $(OMIABREEDS_TEMPLATE) -O $(COMPONENTSDIR)/omiabreeds.tsv
 	wget $(CATBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/catbreeds.tsv
 	wget $(BREEDSTATUS_TEMPLATE) -O $(COMPONENTSDIR)/breedstatus.tsv
 	wget $(OBSOLETE_TEMPLATE) -O $(COMPONENTSDIR)/obsolete.tsv

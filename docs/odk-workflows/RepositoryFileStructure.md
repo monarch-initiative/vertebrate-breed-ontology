@@ -35,8 +35,6 @@ These are the components in VBO
 | -------- | --- |
 | ncbitransbound.owl | None |
 | ncbibreeds.owl | None |
-| omiatransbound.owl | None |
-| omiabreeds.owl | None |
 | catbreeds.owl | None |
 | breedstatus.owl | None |
 | obsolete.owl | None |

@@ -50,7 +50,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/ncbitransbound.owl $(COMPONENTSDIR)/ncbibreeds.owl $(COMPONENTSDIR)/omiatransbound.owl $(COMPONENTSDIR)/omiabreeds.owl $(COMPONENTSDIR)/catbreeds.owl $(COMPONENTSDIR)/breedstatus.owl $(COMPONENTSDIR)/obsolete.owl $(COMPONENTSDIR)/dogbreeds.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/ncbitransbound.owl $(COMPONENTSDIR)/ncbibreeds.owl $(COMPONENTSDIR)/catbreeds.owl $(COMPONENTSDIR)/breedstatus.owl $(COMPONENTSDIR)/obsolete.owl $(COMPONENTSDIR)/dogbreeds.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -377,8 +377,6 @@ no-mirror-recreate-%:
 $(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
 	touch $@
 .PRECIOUS: $(COMPONENTSDIR)/%
-
-
 
 
 
