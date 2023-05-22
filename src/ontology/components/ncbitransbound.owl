@@ -50315,35 +50315,18 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016881 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016881">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>PMID:24376820</terms:source>
-        <terms:source>https://breeds.okstate.edu/sheep/dorper-sheep.html</terms:source>
         <oboInOwl:hasDbXref>OMIA:1021</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIA:977</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Lionhead Dwarf</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>White Dorper</oboInOwl:hasExactSynonym>
         <rdfs:label>Lionhead Dwarf (Rabbit)</rdfs:label>
-        <rdfs:label>White Dorper (Sheep)</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016881"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016881"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
         <oboInOwl:source>PMID:24376820</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016881"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:977</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016881"/>
@@ -50358,8 +50341,32 @@
         <owl:annotatedTarget>Lionhead Dwarf</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016882">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+        <terms:source>https://breeds.okstate.edu/sheep/dorper-sheep.html</terms:source>
+        <oboInOwl:hasDbXref>OMIA:977</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>White Dorper</oboInOwl:hasExactSynonym>
+        <rdfs:label>White Dorper (Sheep)</rdfs:label>
+    </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016881"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016882"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016882"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>OMIA:977</owl:annotatedTarget>
+        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016882"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>White Dorper</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
