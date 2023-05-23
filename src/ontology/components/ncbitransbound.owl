@@ -2629,10 +2629,10 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</terms:source>
         <oboInOwl:hasDbXref>OMIA:249</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>#REF!</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AVILEÃ‘A-NEGRA IBÃ‰RICA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Avilena</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/vbo#transboundary"/>
-        <rdfs:label>#REF!</rdfs:label>
+        <rdfs:label>AVILEÃ‘A-NEGRA IBÃ‰RICA (Cattle)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000119"/>
@@ -2643,7 +2643,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000119"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>#REF!</owl:annotatedTarget>
+        <owl:annotatedTarget>AVILEÃ‘A-NEGRA IBÃ‰RICA</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
     </owl:Axiom>
@@ -25502,7 +25502,7 @@
         <oboInOwl:hasExactSynonym>American Miniatur Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Miniature Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/vbo#transboundary"/>
-        <rdfs:label>American Miniatur Horse (Horse)</rdfs:label>
+        <rdfs:label>American Miniature Horse (Horse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000896"/>
@@ -25514,13 +25514,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000896"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>American Miniatur Horse</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
+        <oboInOwl:source>https://www.fao.org/dad-is</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000896"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>American Miniature Horse</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
     
@@ -25612,7 +25612,7 @@
         <oboInOwl:hasExactSynonym>American Trotter</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Standardbred</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/vbo#transboundary"/>
-        <rdfs:label>American Trotter (Horse)</rdfs:label>
+        <rdfs:label>Standardbred (Horse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000899"/>
@@ -25630,14 +25630,19 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000899"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>American Trotter</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
+        <oboInOwl:source>https://www.fao.org/dad-is</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000899"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Standardbred</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fanguide.ustrotting.com/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.bhrc.org.uk/racing/the-sport/about-harness-racing/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hrnz.co.nz/industry-information/getting-started/about-standardbreds/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.irishharnessracing.com/elementor-history-of-the-sport</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.standardbredcanada.ca/content/new-racing-history-standardbred.html</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -40286,9 +40291,7 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</terms:source>
         <oboInOwl:hasDbXref>OMIA:1251</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIA:977</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Dorper</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>White Dorper</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/vbo#transboundary"/>
         <rdfs:label>Dorper (Sheep)</rdfs:label>
     </owl:Class>
@@ -40302,13 +40305,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001397"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>OMIA:1251</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="http://orcid.org/0000-0002-9178-3965"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001397"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:977</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="http://orcid.org/0000-0002-9178-3965"/>
+        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001397"/>
@@ -40316,12 +40313,6 @@
         <owl:annotatedTarget>Dorper</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001397"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>White Dorper</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -50106,6 +50097,7 @@
         <oboInOwl:hasDbXref>OMIA:1023</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIA:1078</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIA:963</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Miniatur Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature Shetland</oboInOwl:hasExactSynonym>
@@ -50121,6 +50113,12 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Miniatur Horse</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Miniature</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
@@ -50130,12 +50128,6 @@
         <owl:annotatedTarget>Miniature Horse</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Miniature Horse</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
@@ -50349,6 +50341,37 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Lionhead Dwarf</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016882">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+        <terms:source>https://breeds.okstate.edu/sheep/dorper-sheep.html</terms:source>
+        <oboInOwl:hasDbXref>OMIA:977</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>White Dorper</oboInOwl:hasExactSynonym>
+        <rdfs:label>White Dorper (Sheep)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016882"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016882"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>OMIA:977</owl:annotatedTarget>
+        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016882"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>White Dorper</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/sheep/dorper-sheep.html</oboInOwl:source>
     </owl:Axiom>
 </rdf:RDF>
 
