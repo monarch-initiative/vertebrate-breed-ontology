@@ -50097,6 +50097,7 @@
         <oboInOwl:hasDbXref>OMIA:1023</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIA:1078</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIA:963</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Miniatur Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature Shetland</oboInOwl:hasExactSynonym>
@@ -50112,6 +50113,12 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Miniatur Horse</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Miniature</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
@@ -50121,12 +50128,6 @@
         <owl:annotatedTarget>Miniature Horse</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Miniature Horse</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016848"/>
