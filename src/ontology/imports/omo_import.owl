@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2023-03-09/imports/omo_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2023-02-19/omo.owl>)
-Annotation(owl:versionInfo "2023-03-09")
+<http://purl.obolibrary.org/obo/vbo/releases/2023-06-01/imports/omo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2023-05-15/omo.owl>)
+Annotation(owl:versionInfo "2023-06-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
@@ -94,6 +94,12 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0010000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0001001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0002000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003001>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003002>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003003>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003004>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003005>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/coverage>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
@@ -109,13 +115,17 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/subject>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/type>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymType>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+Declaration(Datatype(xsd:date))
 ############################
 #   Annotation Properties
 ############################
@@ -488,6 +498,64 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/OMO_0002000> <https://orcid.org/0000-0002-7356-1779>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/OMO_0002000> <https://orcid.org/0000-0002-8688-6599>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0002000> "defined by construct")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003000> (abbreviation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003000> "CHEBI:26523 (reactive oxygen species) has an exact synonym (ROS), which is of type OMO:0003000 (abbreviation)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003000> "A synonym type for describing abbreviations or initalisms")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003000> <https://github.com/information-artifact-ontology/ontology-metadata/issues/122>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003000> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003000> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003000> "abbreviation")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003000> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003001> (ambiguous synonym)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003001> "A synonym type for describing ambiguous synonyms")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003001> <https://github.com/information-artifact-ontology/ontology-metadata/issues/122>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003001> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003001> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003001> "ambiguous synonym")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003001> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003002> (dubious synonym)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003002> "A synonym type for describing dubious synonyms")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003002> <https://github.com/information-artifact-ontology/ontology-metadata/issues/122>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003002> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003002> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003002> "dubious synonym")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003002> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003003> (layperson synonym)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003003> "EFO:0006346 (severe cutaneous adverse reaction) has an exact synonym (scar), which is of the type OMO:0003003 (layperson synonym)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003003> "A synonym type for describing layperson or colloquial synonyms")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003003> <https://github.com/information-artifact-ontology/ontology-metadata/issues/122>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003003> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003003> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003003> "layperson synonym")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003003> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003004> (plural form)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003004> "CHEBI:23367 (molecular entity) has an exact synonym (molecular entities), which is of the type OMO:0003004 (plural form)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003004> "A synonym type for describing pluralization synonyms")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003004> <https://github.com/information-artifact-ontology/ontology-metadata/issues/122>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003004> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003004> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003004> "plural form")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003004> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003005> (UK spelling synonym)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003005> "CHEBI:16189 (sulfate) has an exact synonym (sulphate), which is of the type OMO:0003005 (UK spelling synonym)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003005> "A synonym type for describing UK spelling variants")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003005> <https://github.com/information-artifact-ontology/ontology-metadata/issues/122>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003005> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003005> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003005> "UK spelling synonym")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003005> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> (has broad synonym)
 

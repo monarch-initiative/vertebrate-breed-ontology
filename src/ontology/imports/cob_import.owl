@@ -7,13 +7,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2023-03-09/imports/cob_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cob/releases/2022-11-02/cob.owl>)
-Annotation(owl:versionInfo "2023-03-09")
+<http://purl.obolibrary.org/obo/vbo/releases/2023-06-01/imports/cob_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cob/releases/2023-05-12/cob.owl>)
+Annotation(owl:versionInfo "2023-06-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0001010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0010004>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
@@ -37,18 +37,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "def
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
 
+# Class: <http://purl.obolibrary.org/obo/CARO_0001010> (organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CARO_0001010> "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CARO_0001010> "\"Maximal functionally integrated unit\" is intended to express unity, which Barry considers synonymous with BFO 'object'.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CARO_0001010> "Includes virus - we will later have a class for cellular organisms.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CARO_0001010> "organism"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CARO_0001010> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
 # Class: <http://purl.obolibrary.org/obo/CARO_0010004> (cellular organism)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CARO_0010004> "cellular organism"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/CARO_0010004> <http://purl.obolibrary.org/obo/OBI_0100026>)
-
-# Class: <http://purl.obolibrary.org/obo/OBI_0100026> (organism)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0100026> "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome.")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBI_0100026> "\"Maximal functionally integrated unit\" is intended to express unity, which Barry considers synonymous with BFO 'object'.")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBI_0100026> "Includes virus - we will later have a class for cellular organisms.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0100026> "organism"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/CARO_0010004> <http://purl.obolibrary.org/obo/CARO_0001010>)
 
 
 )
