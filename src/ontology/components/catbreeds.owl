@@ -48,12 +48,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -109,7 +103,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_aby.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:195</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Abyssinian</oboInOwl:hasExactSynonym>
         <rdfs:label>Abyssinian (Cat)</rdfs:label>
     </owl:Class>
@@ -232,7 +225,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_abl.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:893</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>American Bobtail</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Bobtail Longhair</oboInOwl:hasExactSynonym>
         <rdfs:label>American Bobtail (Cat)</rdfs:label>
@@ -853,7 +845,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_ams.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1207</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>American Shorthair</oboInOwl:hasExactSynonym>
         <rdfs:label>American Shorthair (Cat)</rdfs:label>
     </owl:Class>
@@ -890,12 +881,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1207</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
@@ -1328,12 +1313,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100028"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100028"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Asian</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
@@ -1373,6 +1352,12 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/04/SOP.final_.February2022.pdf</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -1876,7 +1861,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_ben.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:28</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Bengal</oboInOwl:hasExactSynonym>
         <rdfs:label>Bengal (Cat)</rdfs:label>
     </owl:Class>
@@ -2000,7 +1984,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_bir.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:927</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Birman</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sacred Cat of Burma</oboInOwl:hasExactSynonym>
         <rdfs:label>Birman (Cat)</rdfs:label>
@@ -2146,7 +2129,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_bom.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1247</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Bombay</oboInOwl:hasExactSynonym>
         <rdfs:label>Bombay (Cat)</rdfs:label>
     </owl:Class>
@@ -2178,12 +2160,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100045"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1247</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100045"/>
@@ -2488,8 +2464,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_brsh.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:460</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIA:722</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>British Shorthair</oboInOwl:hasExactSynonym>
         <rdfs:label>British Shorthair (Cat)</rdfs:label>
     </owl:Class>
@@ -2560,7 +2534,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_bur.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:201</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Burmese</oboInOwl:hasExactSynonym>
         <rdfs:label>Burmese (Cat)</rdfs:label>
     </owl:Class>
@@ -2711,7 +2684,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_bml.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:761</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Burmilla</oboInOwl:hasExactSynonym>
         <rdfs:label>Burmilla (Cat)</rdfs:label>
     </owl:Class>
@@ -3145,7 +3117,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_cha.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1208</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Chartreux</oboInOwl:hasExactSynonym>
         <rdfs:label>Chartreux (Cat)</rdfs:label>
     </owl:Class>
@@ -3184,12 +3155,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300003"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/01/Preliminary-Recognition.pdf</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100067"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1208</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100067"/>
@@ -3591,7 +3556,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_crx.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:822</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Cornish Rex</oboInOwl:hasExactSynonym>
         <rdfs:label>Cornish Rex (Cat)</rdfs:label>
     </owl:Class>
@@ -3934,7 +3898,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_drx.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:320</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Devon Rex</oboInOwl:hasExactSynonym>
         <rdfs:label>Devon Rex (Cat)</rdfs:label>
     </owl:Class>
@@ -3996,7 +3959,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_prf_stn.php</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_dsp.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:888</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Don Sphynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Donskoy</oboInOwl:hasExactSynonym>
         <rdfs:label>Don Sphynx (Cat)</rdfs:label>
@@ -4052,7 +4014,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_dsk.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1231</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Don Sphynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Donskoy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Russian Hairless</oboInOwl:hasExactSynonym>
@@ -4071,12 +4032,6 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100086"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1231</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100086"/>
@@ -4489,7 +4444,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_exo.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1240</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Exotic Shorthair</oboInOwl:hasExactSynonym>
         <rdfs:label>Exotic Shorthair (Cat)</rdfs:label>
     </owl:Class>
@@ -4520,12 +4474,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/04/SOP.final_.February2022.pdf</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100096"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1240</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100096"/>
@@ -4627,7 +4575,6 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1243</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Exotic Fold</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Foldex</oboInOwl:hasExactSynonym>
         <rdfs:label>Foldex (Cat)</rdfs:label>
@@ -4643,12 +4590,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100099"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1243</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100099"/>
@@ -4939,7 +4880,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_grx.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:852</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>German Rex</oboInOwl:hasExactSynonym>
         <rdfs:label>German Rex (Cat)</rdfs:label>
     </owl:Class>
@@ -5162,7 +5102,6 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1244</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Highland Fold</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Scottish Fold Longhair</oboInOwl:hasExactSynonym>
         <rdfs:label>Highland Fold (Cat)</rdfs:label>
@@ -5185,12 +5124,6 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100112"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1244</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100112"/>
@@ -5376,7 +5309,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:22</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Colourpoint Persian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Himalayan</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Himalayan Persian</oboInOwl:hasExactSynonym>
@@ -5779,7 +5711,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_jbt.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1245</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Japanese Bobtail</oboInOwl:hasExactSynonym>
         <rdfs:label>Japanese Bobtail (Cat)</rdfs:label>
     </owl:Class>
@@ -5804,12 +5735,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100128"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1245</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100128"/>
@@ -6423,7 +6348,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_kor.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:865</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Korat</oboInOwl:hasExactSynonym>
         <rdfs:label>Korat (Cat)</rdfs:label>
     </owl:Class>
@@ -6529,7 +6453,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1103</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Curilsk Bobtail</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Kuril Bobtail</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Kuril Islands Bobtail</oboInOwl:hasExactSynonym>
@@ -6933,7 +6856,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1159</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Lykoi</oboInOwl:hasExactSynonym>
         <rdfs:label>Lykoi (Cat)</rdfs:label>
     </owl:Class>
@@ -7017,7 +6939,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_mco.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:778</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Maine Coon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Maine Coon Cat</oboInOwl:hasExactSynonym>
         <rdfs:label>Maine Coon (Cat)</rdfs:label>
@@ -7150,7 +7071,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_mnx.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:181</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Manx</oboInOwl:hasExactSynonym>
         <rdfs:label>Manx (Cat)</rdfs:label>
     </owl:Class>
@@ -7656,7 +7576,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_mus.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1160</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Munchkin</oboInOwl:hasExactSynonym>
         <rdfs:label>Munchkin (Cat)</rdfs:label>
     </owl:Class>
@@ -8103,7 +8022,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_nfo.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:982</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Norwegian Forest</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Norwegian Forest Cat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Skogkatt</oboInOwl:hasExactSynonym>
@@ -8427,7 +8345,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1181</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Oriental Shorthair</oboInOwl:hasExactSynonym>
         <rdfs:label>Oriental Shorthair (Cat)</rdfs:label>
     </owl:Class>
@@ -8455,12 +8372,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/04/SOP.final_.February2022.pdf</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100184"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1181</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100184"/>
@@ -8606,7 +8517,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_per.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:377</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Persian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Persian (modern)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Persian (traditional)</oboInOwl:hasExactSynonym>
@@ -8789,7 +8699,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:894</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Pixie-bob</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pixiebob</oboInOwl:hasExactSynonym>
         <rdfs:label>Pixiebob (Cat)</rdfs:label>
@@ -9034,7 +8943,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_rag.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:788</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Ragdoll</oboInOwl:hasExactSynonym>
         <rdfs:label>Ragdoll (Cat)</rdfs:label>
     </owl:Class>
@@ -9202,7 +9110,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_rub.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1256</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Russian Blue</oboInOwl:hasExactSynonym>
         <rdfs:label>Russian Blue (Cat)</rdfs:label>
     </owl:Class>
@@ -9234,12 +9141,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1256</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
@@ -9547,7 +9448,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:37</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Scottish Fold</oboInOwl:hasExactSynonym>
         <rdfs:label>Scottish Fold (Cat)</rdfs:label>
     </owl:Class>
@@ -9793,7 +9693,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:871</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Selkirk Rex</oboInOwl:hasExactSynonym>
         <rdfs:label>Selkirk Rex (Cat)</rdfs:label>
     </owl:Class>
@@ -10056,7 +9955,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:161</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Siamese</oboInOwl:hasExactSynonym>
         <rdfs:label>Siamese (Cat)</rdfs:label>
     </owl:Class>
@@ -10164,7 +10062,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1182</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Siberian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Siberian Cat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Simberian Forest Cat</oboInOwl:hasExactSynonym>
@@ -10195,12 +10092,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/04/SOP.final_.February2022.pdf</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100223"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1182</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100223"/>
@@ -10250,7 +10141,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1180</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Singapura</oboInOwl:hasExactSynonym>
         <rdfs:label>Singapura (Cat)</rdfs:label>
     </owl:Class>
@@ -10284,12 +10174,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/04/SOP.final_.February2022.pdf</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100224"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1180</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100224"/>
@@ -10539,7 +10423,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:983</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Somali</oboInOwl:hasExactSynonym>
         <rdfs:label>Somali (Cat)</rdfs:label>
     </owl:Class>
@@ -10609,7 +10492,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:824</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Canadian Sphynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sphynx</oboInOwl:hasExactSynonym>
         <rdfs:label>Sphynx (Cat)</rdfs:label>
@@ -11040,7 +10922,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:693</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Tonkinese</oboInOwl:hasExactSynonym>
         <rdfs:label>Tonkinese (Cat)</rdfs:label>
     </owl:Class>
@@ -11259,7 +11140,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_toy.php</terms:source>
-        <oboInOwl:hasDbXref>OMIA:943</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Toyger</oboInOwl:hasExactSynonym>
         <rdfs:label>Toyger (Cat)</rdfs:label>
     </owl:Class>
@@ -11514,7 +11394,6 @@
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1210</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Turkish Van</oboInOwl:hasExactSynonym>
         <rdfs:label>Turkish Van (Cat)</rdfs:label>
     </owl:Class>
@@ -11548,12 +11427,6 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/wp-content/uploads/2022/04/SOP.final_.February2022.pdf</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100250"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OMIA:1210</owl:annotatedTarget>
-        <oboInOwl:source rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100250"/>
@@ -11644,7 +11517,6 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
-        <oboInOwl:hasDbXref>OMIA:1155</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Ural Rex</oboInOwl:hasExactSynonym>
         <rdfs:label>Ural Rex (Cat)</rdfs:label>
     </owl:Class>
