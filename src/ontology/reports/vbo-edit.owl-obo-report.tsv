@@ -1,5 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-WARN	annotation_whitespace	VBO:0000392	oboInOwl:hasExactSynonym	Swedish Red and White 
 WARN	annotation_whitespace	VBO:0002085	oboInOwl:hasExactSynonym	Jawari 
 WARN	annotation_whitespace	VBO:0002640	oboInOwl:hasExactSynonym	Smedja rasa 
 WARN	annotation_whitespace	VBO:0003614	oboInOwl:hasExactSynonym	Dual Puporse Shorthorns 
@@ -464,9 +463,9 @@ WARN	duplicate_exact_synonym	VBO:0001683	oboInOwl:hasExactSynonym	White Face Dar
 WARN	duplicate_exact_synonym	VBO:0015539	oboInOwl:hasExactSynonym	White Face Dartmoor
 WARN	duplicate_exact_synonym	VBO:0000880	oboInOwl:hasExactSynonym	White Emden
 WARN	duplicate_exact_synonym	VBO:0009967	oboInOwl:hasExactSynonym	White Emden
-WARN	duplicate_exact_synonym	VBO:0001397	oboInOwl:hasExactSynonym	White Dorper
 WARN	duplicate_exact_synonym	VBO:0014518	oboInOwl:hasExactSynonym	White Dorper
 WARN	duplicate_exact_synonym	VBO:0016626	oboInOwl:hasExactSynonym	White Dorper
+WARN	duplicate_exact_synonym	VBO:0016882	oboInOwl:hasExactSynonym	White Dorper
 WARN	duplicate_exact_synonym	VBO:0000645	oboInOwl:hasExactSynonym	White Cornish
 WARN	duplicate_exact_synonym	VBO:0005967	oboInOwl:hasExactSynonym	White Cornish
 WARN	duplicate_exact_synonym	VBO:0006501	oboInOwl:hasExactSynonym	White Cornish
@@ -13157,7 +13156,6 @@ WARN	duplicate_exact_synonym	VBO:0002204	oboInOwl:hasExactSynonym	Aberdeen Angus
 WARN	duplicate_exact_synonym	VBO:0000676	oboInOwl:hasExactSynonym	Abacot Ranger
 WARN	duplicate_exact_synonym	VBO:0008203	oboInOwl:hasExactSynonym	Abacot Ranger
 WARN	duplicate_exact_synonym	VBO:0008204	oboInOwl:hasExactSynonym	Abacot Ranger
-WARN	duplicate_label_synonym	VBO:0000119	oboInOwl:hasExactSynonym	AVILEÃ‘A-NEGRA IBÃ‰RICA (Cattle)
 WARN	duplicate_label_synonym	obo:vbo#local_breed	oboInOwl:hasExactSynonym	local breed
 WARN	missing_definition	VBO:0000012	IAO:0000115	
 WARN	missing_definition	VBO:0000038	IAO:0000115	
@@ -29989,6 +29987,7 @@ WARN	missing_definition	VBO:0016878	IAO:0000115
 WARN	missing_definition	VBO:0016879	IAO:0000115	
 WARN	missing_definition	VBO:0016880	IAO:0000115	
 WARN	missing_definition	VBO:0016881	IAO:0000115	
+WARN	missing_definition	VBO:0016882	IAO:0000115	
 WARN	missing_definition	VBO:0100000	IAO:0000115	
 WARN	missing_definition	VBO:0100001	IAO:0000115	
 WARN	missing_definition	VBO:0100002	IAO:0000115	
