@@ -1,5 +1,6 @@
 
 ![Build Status](https://github.com/monarch-initiative/vertebrate-breed-ontology/workflows/CI/badge.svg)
+[![DOI](https://zenodo.org/badge/437063372.svg)](https://zenodo.org/badge/latestdoi/437063372)
 
 # Vertebrate Breed Ontology
 
