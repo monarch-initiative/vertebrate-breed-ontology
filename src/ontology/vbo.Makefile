@@ -12,8 +12,7 @@ DOGBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSa89pS7ih0D
 
 .PHONY: sync_ncbitransbound
 .PHONY: sync_ncbibreeds
-.PHONY: sync_omiatransbound
-.PHONY: sync_omiabreeds
+
 
 sync_google_sheets:
 	wget $(NCBITRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/ncbitransbound.tsv
@@ -25,7 +24,7 @@ sync_google_sheets:
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
-	if [ $(IMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
 
 
