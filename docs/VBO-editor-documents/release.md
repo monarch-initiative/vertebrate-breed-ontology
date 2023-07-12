@@ -45,7 +45,7 @@ This will refresh ALL the imports.
 1. Click "Draft new release"
 1. Click "Choose a tag".
     - Format for tag version should be : vYYYY-MM-DD (ie date prefixed with a v)
-    - The tag version must be the date on which the ontology was built.
+    - The tag version must be the date on which the ontology was built. (!!!!!!! the date on which the ontology was built _might not be_ the same as the date on your local calendar; eg the ontology could be built on European time, which might be a day after US pacific time day. Check the ontology files to make sure you use the correct date) 
 1. Write the release title: for VBO, we use the same name as the tag: for example v2023-01-01
 1. Write a description *(conventions for VBO are TBD)*
 1. Click "Publish release"
