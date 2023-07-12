@@ -38,7 +38,6 @@ When merging a term (=obsolete_term) into another term (=merged_into_term)
       1. **‘has obsolescence reason’**:  _(required)_
       1. **‘term tracker item’**’:  _(required)_, add the link to the GitHub issue where the obsoletion/merge was discussed, should be type ‘xsd:anyURI’
       1. Plus all the other annotations from the obsolete_term including their original source. This includes
-         
                     1. Synonyms
                     1. Sources
                     1. Contributors
