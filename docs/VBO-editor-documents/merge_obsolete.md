@@ -19,13 +19,13 @@ When merging a term (=obsolete_term) into another term (=merged_into_term)
 1. Add the obsolete_term information (copied to the original ROBOT template) to the “merged_into_term” (on the ROBOT template):
    1. The original obsolete_term label should be added as an exact synonym, with the original obsolete_term VBO id as a source
    1. Every other annotation and SubClassOf should be added to the “merged_into_term”, with their original source(s); review to ensure that there is no duplicate (when annotations are duplicate, add all sources under a single annotation). This includes:
-       1. synonyms
-       1. sources
-       1. contributors
-       1. xref
-       1. Comment (note that only one comment is allowed per term, therefore comments might be merged
-       1. SubClassOf
-          
+      1. synonyms
+      1. sources
+      1. contributors
+      1. xref
+      1. Comment (note that only one comment is allowed per term, therefore comments might be merged
+      1. SubClassOf
+
 1. Remove the ‘obsolete_term’ from the original ROBOT template
 1. Update components
 
