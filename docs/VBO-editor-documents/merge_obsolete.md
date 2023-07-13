@@ -44,5 +44,6 @@ When merging a term (=obsolete_term) into another term (=merged_into_term)
             3. Contributors
             4. …
             5. **Do NOT** include SubClassOf
+               
 1. Remove the ‘obsolete_term’ from the original ROBOT template
 1. Update components
