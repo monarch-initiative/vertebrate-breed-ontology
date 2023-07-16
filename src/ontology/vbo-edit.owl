@@ -11,13 +11,13 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/vbo.owl>
 Import(<http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/dogbreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/obsolete.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/components/dogbreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/NCBITaxon_7742>)
@@ -99,5 +99,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#Sub
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
+
+
 
 )
