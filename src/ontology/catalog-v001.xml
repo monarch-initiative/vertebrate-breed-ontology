@@ -10,11 +10,11 @@
   <uri name="http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl" uri="imports/wikidata_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl" uri="imports/cob_import.owl"/>
 
-  <uri name="http://purl.obolibrary.org/obo/vbo/components/ncbitransbound.owl" uri="components/ncbitransbound.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/vbo/components/ncbibreeds.owl" uri="components/ncbibreeds.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/dadistransbound.owl" uri="components/dadistransbound.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/dadisbreedcountry.owl" uri="components/dadisbreedcountry.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/livestockbreeds.owl" uri="components/livestockbreeds.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl" uri="components/catbreeds.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl" uri="components/breedstatus.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/vbo/components/obsolete.owl" uri="components/obsolete.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/dogbreeds.owl" uri="components/dogbreeds.owl"/>
 
 

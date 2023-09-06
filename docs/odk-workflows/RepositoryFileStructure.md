@@ -33,9 +33,9 @@ These are the components in VBO
 
 | Filename | URL |
 | -------- | --- |
-| ncbitransbound.owl | None |
-| ncbibreeds.owl | None |
+| dadistransbound.owl | None |
+| dadisbreedcountry.owl | None |
+| livestockbreeds.owl | None |
 | catbreeds.owl | None |
-| breedstatus.owl | None |
-| obsolete.owl | None |
 | dogbreeds.owl | None |
+| breedstatus.owl | None |
