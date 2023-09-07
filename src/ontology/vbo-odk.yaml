@@ -24,12 +24,12 @@ import_group:
     - id: cob
 components:
   products:
-    - filename: ncbitransbound.owl
-    - filename: ncbibreeds.owl
+    - filename: dadistransbound.owl
+    - filename: dadisbreedcountry.owl
+    - filename: livestockbreeds.owl
     - filename: catbreeds.owl
-    - filename: breedstatus.owl
-    - filename: obsolete.owl
     - filename: dogbreeds.owl
+    - filename: breedstatus.owl
 robot_java_args: '-Xmx16G'
 allow_equivalents: asserted-only
 documentation:

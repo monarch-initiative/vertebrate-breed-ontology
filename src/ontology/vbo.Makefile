@@ -3,24 +3,24 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-NCBITRANSBOUND_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=896730834&single=true&output=tsv"
-NCBIBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUoJ2t9244HHviSsC-Q6q59dxVBUMi85NUkWQFkIz87mUZ9wVqWyJ9foNJWl_Pkr3lFj57NJzpodBc/pub?gid=1721343081&single=true&output=tsv"
-CATBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSw3inKWof-rHfvj9xmXhR-rbWKksacR6jmMTGKugorZG6KhHhEchLq9B3pGecuioyxan5LmC_45dVu/pub?gid=0&single=true&output=tsv"
+DADISTRANSBOUND_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfv8VmGblrTMx1inxHAmPeCmkXCl7D4TxlyOWnAsinQ87YpCmVXGmi19uo42Kkliqhec4mfYl_AQUK/pub?gid=1655315858&single=true&output=tsv"
+DADISBREEDCOUNTRY_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfv8VmGblrTMx1inxHAmPeCmkXCl7D4TxlyOWnAsinQ87YpCmVXGmi19uo42Kkliqhec4mfYl_AQUK/pub?gid=730920235&single=true&output=tsv"
+LIVESTOCKBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZscW_RQjFZEFMrzZBeutPSQeeUYqRfBx8C9Lyn7xCjeTDGOBXwvMscreBcuphlVtaQ9VfPR-N4Lmi/pub?gid=1074314048&single=true&output=tsv"
+CATBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgt4XnMZ8dW1QMSGruZQtBTn304EkiULF1yS7cl-Otm2d2q9OsVcEfVcN3aLQXPO4-Djem8jMHh9N-/pub?gid=1655315858&single=true&output=tsv"
+DOGBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSuwLXikgq08frK7d8yFSdWTS8P1erx5bS_QiLdHhfKV4ulJlRrqkVaVhC7b3O6Z8ixrvJgoCBy8YLq/pub?gid=1655315858&single=true&output=tsv"
 BREEDSTATUS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk1AOht1rOoyXExlZu9KzCOtfIOoTGBxkVmJ6dvE9wuQ1Q7LfwMA93vF0yRPpG7GMq03mKFdV74YnG/pub?gid=1650821837&single=true&output=tsv"
-OBSOLETE_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcnm9OWzGG4zAm_ib852_N7GsmNvVFPqTm9ca3e6ScNOXfN9W4zUTGB-NfqEjs2Sn9g7g9-fDEsxU4/pub?gid=0&single=true&output=tsv"
-DOGBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSa89pS7ih0D9zxVUfEDRlmrpluqt6eli_OBkIEfDdX0yCdigdInIPsSUguv2hQNiKBYpMOoVeLeVnp/pub?gid=0&single=true&output=tsv"
 
-.PHONY: sync_ncbitransbound
-.PHONY: sync_ncbibreeds
+.PHONY: sync_dadistransbound
+.PHONY: sync_dadisbreedcountry
 
 
 sync_google_sheets:
-	wget $(NCBITRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/ncbitransbound.tsv
-	wget $(NCBIBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/ncbibreeds.tsv
+	wget $(DADISTRANSBOUND_TEMPLATE) -O $(COMPONENTSDIR)/dadistransbound.tsv
+	wget $(DADISBREEDCOUNTRY_TEMPLATE) -O $(COMPONENTSDIR)/dadisbreedcountry.tsv
+	wget $(LIVESTOCKBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/livestockbreeds.tsv
 	wget $(CATBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/catbreeds.tsv
-	wget $(BREEDSTATUS_TEMPLATE) -O $(COMPONENTSDIR)/breedstatus.tsv
-	wget $(OBSOLETE_TEMPLATE) -O $(COMPONENTSDIR)/obsolete.tsv
 	wget $(DOGBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/dogbreeds.tsv
+	wget $(BREEDSTATUS_TEMPLATE) -O $(COMPONENTSDIR)/breedstatus.tsv
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
