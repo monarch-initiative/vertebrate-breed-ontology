@@ -280,7 +280,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <obo:IAO_0000115>Gaited breed of horse that originated in America and are the state horse of Alabama. They are known for their singlefoot gait.</obo:IAO_0000115>
         <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rackinghorse.org/|https://encyclopediaofalabama.org/article/horses-in-alabama/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://encyclopediaofalabama.org/article/horses-in-alabama/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rackinghorse.org/</terms:source>
         <oboInOwl:hasExactSynonym>Racking Horse</oboInOwl:hasExactSynonym>
         <rdfs:label>Racking Horse (Horse)</rdfs:label>
     </owl:Class>
@@ -315,7 +316,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <obo:IAO_0000115>Naturally gaited horse breed characterized by spotted color patterns such as tobiano and overo.</obo:IAO_0000115>
         <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nssha.com/|https://www.sshbea.org/|https://imh.org/exhibits/past/breeds-of-the-world/north-america/spotted-saddle-horse/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://imh.org/exhibits/past/breeds-of-the-world/north-america/spotted-saddle-horse/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nssha.com/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sshbea.org/</terms:source>
         <oboInOwl:hasExactSynonym>Spotted Saddle Horse</oboInOwl:hasExactSynonym>
         <rdfs:label>Spotted Saddle Horse (Horse)</rdfs:label>
     </owl:Class>
