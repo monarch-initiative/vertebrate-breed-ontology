@@ -36896,7 +36896,8 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0001339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001339">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0016885"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/114</obo:IAO_0000233>
         <terms:contributor>https://orcid.org/0000-0002-4142-7153</terms:contributor>
         <terms:contributor>https://orcid.org/0000-0002-5520-6597</terms:contributor>
         <terms:contributor>https://orcid.org/0000-0002-9178-3965</terms:contributor>
@@ -36907,8 +36908,10 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001339"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0016885"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://hooggekraal.co.za/persian-sheep-from-south-africa-for-export/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://southafrica.co.za/breeds-sheep-meat-south-africa.html</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.australianpersiansheepassociation.com/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001339"/>
@@ -48119,6 +48122,12 @@
         <owl:annotatedTarget>White Carneau</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://omia.org</oboInOwl:source>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0016885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016885"/>
 </rdf:RDF>
 
 
