@@ -1,14 +1,10 @@
 Level	Rule Name	Subject	Property	Value
-WARN	annotation_whitespace	VBO:0002085	oboInOwl:hasExactSynonym	Jawari 
-WARN	annotation_whitespace	VBO:0002640	oboInOwl:hasExactSynonym	Smedja rasa 
-WARN	annotation_whitespace	VBO:0003614	oboInOwl:hasExactSynonym	Dual Puporse Shorthorns 
 WARN	annotation_whitespace	VBO:0004678	oboInOwl:hasExactSynonym	El Guelmia 
 WARN	annotation_whitespace	VBO:0004678	oboInOwl:hasExactSynonym	Ezzarga 
 WARN	annotation_whitespace	VBO:0004725	oboInOwl:hasExactSynonym	Ethiopian Highland Zebu 
 WARN	annotation_whitespace	VBO:0004908	oboInOwl:hasExactSynonym	Varshagandhi 
 WARN	annotation_whitespace	VBO:0005158	oboInOwl:hasExactSynonym	North of Oman 
 WARN	annotation_whitespace	VBO:0006758	oboInOwl:hasExactSynonym	Tianchang Yellow 
-WARN	annotation_whitespace	VBO:0008150	oboInOwl:hasExactSynonym	 MAGHREBIA
 WARN	annotation_whitespace	VBO:0010364	oboInOwl:hasExactSynonym	Al-Arabi 
 WARN	annotation_whitespace	VBO:0013053	oboInOwl:hasExactSynonym	Calabrese 
 WARN	annotation_whitespace	VBO:0013053	oboInOwl:hasExactSynonym	Nero abruzzese 
@@ -54,7 +50,6 @@ WARN	annotation_whitespace	VBO:0200779	oboInOwl:hasExactSynonym	Sheepdog - Komon
 WARN	annotation_whitespace	VBO:0200796	oboInOwl:hasExactSynonym	Lhasa-Chon 
 WARN	annotation_whitespace	VBO:0200797	oboInOwl:hasExactSynonym	Sharpador 
 WARN	annotation_whitespace	VBO:0200801	oboInOwl:hasExactSynonym	Vizslador 
-WARN	annotation_whitespace	VBO:0200814	oboInOwl:hasExactSynonym	Finnish Reindeer Herder 
 WARN	annotation_whitespace	VBO:0200814	oboInOwl:hasExactSynonym	Lapponian Herder 
 WARN	annotation_whitespace	VBO:0200825	oboInOwl:hasExactSynonym	Lhasadoodle 
 WARN	annotation_whitespace	VBO:0200826	oboInOwl:hasExactSynonym	Lhasalier Spaniel 
@@ -90,7 +85,6 @@ WARN	annotation_whitespace	VBO:0201099	oboInOwl:hasExactSynonym	Buggle
 WARN	annotation_whitespace	VBO:0201100	oboInOwl:hasExactSynonym	Pekeapug 
 WARN	annotation_whitespace	VBO:0201101	oboInOwl:hasExactSynonym	Pugland Terrier 
 WARN	annotation_whitespace	VBO:0201111	oboInOwl:hasExactSynonym	Pyreneespoo 
-WARN	annotation_whitespace	VBO:0201158	oboInOwl:hasExactSynonym	Saarloos Wolfdog 
 WARN	annotation_whitespace	VBO:0201193	oboInOwl:hasExactSynonym	Scottish Shoodle 
 WARN	annotation_whitespace	VBO:0201214	oboInOwl:hasExactSynonym	Sharpoodle 
 WARN	annotation_whitespace	VBO:0201218	oboInOwl:hasExactSynonym	Jug-Shih Tzu cross 
@@ -799,8 +793,6 @@ WARN	duplicate_exact_synonym	VBO:0001672	oboInOwl:hasExactSynonym	Vlaams Kuddesc
 WARN	duplicate_exact_synonym	VBO:0015500	oboInOwl:hasExactSynonym	Vlaams Kuddeschaap
 WARN	duplicate_exact_synonym	VBO:0014954	oboInOwl:hasExactSynonym	Virtemberg
 WARN	duplicate_exact_synonym	VBO:0014955	oboInOwl:hasExactSynonym	Virtemberg
-WARN	duplicate_exact_synonym	VBO:0201004	oboInOwl:hasExactSynonym	Viringo
-WARN	duplicate_exact_synonym	VBO:0201008	oboInOwl:hasExactSynonym	Viringo
 WARN	duplicate_exact_synonym	VBO:0015295	oboInOwl:hasExactSynonym	Virgin Island White
 WARN	duplicate_exact_synonym	VBO:0015296	oboInOwl:hasExactSynonym	Virgin Island White
 WARN	duplicate_exact_synonym	VBO:0015297	oboInOwl:hasExactSynonym	Virgin Island White
@@ -1059,8 +1051,6 @@ WARN	duplicate_exact_synonym	VBO:0010844	oboInOwl:hasExactSynonym	Trait du Nord
 WARN	duplicate_exact_synonym	VBO:0011387	oboInOwl:hasExactSynonym	Trait du Nord
 WARN	duplicate_exact_synonym	VBO:0004189	oboInOwl:hasExactSynonym	Trahbum
 WARN	duplicate_exact_synonym	VBO:0004190	oboInOwl:hasExactSynonym	Trahbum
-WARN	duplicate_exact_synonym	VBO:0200498	oboInOwl:hasExactSynonym	Toy Spaniel
-WARN	duplicate_exact_synonym	VBO:0201365	oboInOwl:hasExactSynonym	Toy Spaniel
 WARN	duplicate_exact_synonym	VBO:0000409	oboInOwl:hasExactSynonym	Toupouri
 WARN	duplicate_exact_synonym	VBO:0004276	oboInOwl:hasExactSynonym	Toupouri
 WARN	duplicate_exact_synonym	VBO:0004277	oboInOwl:hasExactSynonym	Toupouri
@@ -1807,8 +1797,6 @@ WARN	duplicate_exact_synonym	VBO:0200534	oboInOwl:hasExactSynonym	Spaniel - Brit
 WARN	duplicate_exact_synonym	VBO:0200535	oboInOwl:hasExactSynonym	Spaniel - Brittany, French
 WARN	duplicate_exact_synonym	VBO:0200031	oboInOwl:hasExactSynonym	Spaniel - Brittany, American
 WARN	duplicate_exact_synonym	VBO:0200032	oboInOwl:hasExactSynonym	Spaniel - Brittany, American
-WARN	duplicate_exact_synonym	VBO:0200238	oboInOwl:hasExactSynonym	Spaniel - Brittany unspecified
-WARN	duplicate_exact_synonym	VBO:0200239	oboInOwl:hasExactSynonym	Spaniel - Brittany unspecified
 WARN	duplicate_exact_synonym	VBO:0200238	oboInOwl:hasExactSynonym	Spaniel - Brittany
 WARN	duplicate_exact_synonym	VBO:0200239	oboInOwl:hasExactSynonym	Spaniel - Brittany
 WARN	duplicate_exact_synonym	VBO:0001616	oboInOwl:hasExactSynonym	Soviet Mutton-Wool
@@ -2233,8 +2221,6 @@ WARN	duplicate_exact_synonym	VBO:0013529	oboInOwl:hasExactSynonym	Shinshilla
 WARN	duplicate_exact_synonym	VBO:0010928	oboInOwl:hasExactSynonym	Shilo
 WARN	duplicate_exact_synonym	VBO:0010934	oboInOwl:hasExactSynonym	Shilo
 WARN	duplicate_exact_synonym	VBO:0010951	oboInOwl:hasExactSynonym	Shilo
-WARN	duplicate_exact_synonym	VBO:0201219	oboInOwl:hasExactSynonym	Shiba
-WARN	duplicate_exact_synonym	VBO:0201220	oboInOwl:hasExactSynonym	Shiba
 WARN	duplicate_exact_synonym	VBO:0001066	oboInOwl:hasExactSynonym	Shetland Pony
 WARN	duplicate_exact_synonym	VBO:0010979	oboInOwl:hasExactSynonym	Shetland Pony
 WARN	duplicate_exact_synonym	VBO:0010980	oboInOwl:hasExactSynonym	Shetland pony
@@ -2358,8 +2344,6 @@ WARN	duplicate_exact_synonym	VBO:0001599	oboInOwl:hasExactSynonym	Serrai
 WARN	duplicate_exact_synonym	VBO:0015221	oboInOwl:hasExactSynonym	Serrai
 WARN	duplicate_exact_synonym	VBO:0201205	oboInOwl:hasExactSynonym	Serbischer Laufhund
 WARN	duplicate_exact_synonym	VBO:0201207	oboInOwl:hasExactSynonym	Serbischer Laufhund
-WARN	duplicate_exact_synonym	VBO:0201205	oboInOwl:hasExactSynonym	Serbische Bracke
-WARN	duplicate_exact_synonym	VBO:0201207	oboInOwl:hasExactSynonym	Serbische Bracke
 WARN	duplicate_exact_synonym	VBO:0008498	oboInOwl:hasExactSynonym	Serati
 WARN	duplicate_exact_synonym	VBO:0008618	oboInOwl:hasExactSynonym	Serati
 WARN	duplicate_exact_synonym	VBO:0011912	oboInOwl:hasExactSynonym	Serati
@@ -3161,8 +3145,8 @@ WARN	duplicate_exact_synonym	VBO:0001576	oboInOwl:hasExactSynonym	Red Sheep
 WARN	duplicate_exact_synonym	VBO:0015118	oboInOwl:hasExactSynonym	Red Sheep
 WARN	duplicate_exact_synonym	VBO:0015119	oboInOwl:hasExactSynonym	Red Sheep
 WARN	duplicate_exact_synonym	VBO:0015120	oboInOwl:hasExactSynonym	Red Sheep
+WARN	duplicate_exact_synonym	VBO:0200701	oboInOwl:hasExactSynonym	Red Setter
 WARN	duplicate_exact_synonym	VBO:0200702	oboInOwl:hasExactSynonym	Red Setter
-WARN	duplicate_exact_synonym	VBO:0201131	oboInOwl:hasExactSynonym	Red Setter
 WARN	duplicate_exact_synonym	VBO:0005023	oboInOwl:hasExactSynonym	Red Polled cross
 WARN	duplicate_exact_synonym	VBO:0005037	oboInOwl:hasExactSynonym	Red Polled cross
 WARN	duplicate_exact_synonym	VBO:0000355	oboInOwl:hasExactSynonym	Red Poll
@@ -3852,8 +3836,6 @@ WARN	duplicate_exact_synonym	VBO:0005945	oboInOwl:hasExactSynonym	Peterson
 WARN	duplicate_exact_synonym	VBO:0005947	oboInOwl:hasExactSynonym	Peterson
 WARN	duplicate_exact_synonym	VBO:0001042	oboInOwl:hasExactSynonym	Peruvian Paso
 WARN	duplicate_exact_synonym	VBO:0010512	oboInOwl:hasExactSynonym	Peruvian Paso
-WARN	duplicate_exact_synonym	VBO:0201004	oboInOwl:hasExactSynonym	Peruvian Inca Orchid
-WARN	duplicate_exact_synonym	VBO:0201008	oboInOwl:hasExactSynonym	Peruvian Inca Orchid
 WARN	duplicate_exact_synonym	VBO:0010510	oboInOwl:hasExactSynonym	Peruano de paso
 WARN	duplicate_exact_synonym	VBO:0010512	oboInOwl:hasExactSynonym	Peruano de Paso
 WARN	duplicate_exact_synonym	VBO:0010513	oboInOwl:hasExactSynonym	Peruano de paso
@@ -3888,6 +3870,7 @@ WARN	duplicate_exact_synonym	VBO:0001858	oboInOwl:hasExactSynonym	Persian
 WARN	duplicate_exact_synonym	VBO:0014266	oboInOwl:hasExactSynonym	Persian
 WARN	duplicate_exact_synonym	VBO:0014271	oboInOwl:hasExactSynonym	Persian
 WARN	duplicate_exact_synonym	VBO:0014282	oboInOwl:hasExactSynonym	Persian
+WARN	duplicate_exact_synonym	VBO:0016885	oboInOwl:hasExactSynonym	Persian
 WARN	duplicate_exact_synonym	VBO:0100188	oboInOwl:hasExactSynonym	Persian
 WARN	duplicate_exact_synonym	VBO:0014269	oboInOwl:hasExactSynonym	Persa Cabeza Negra
 WARN	duplicate_exact_synonym	VBO:0014280	oboInOwl:hasExactSynonym	Persa Cabeza Negra
@@ -5046,7 +5029,7 @@ WARN	duplicate_exact_synonym	VBO:0001515	oboInOwl:hasExactSynonym	Montadale
 WARN	duplicate_exact_synonym	VBO:0014962	oboInOwl:hasExactSynonym	Montadale
 WARN	duplicate_exact_synonym	VBO:0014963	oboInOwl:hasExactSynonym	Montadale
 WARN	duplicate_exact_synonym	VBO:0200393	oboInOwl:hasExactSynonym	Mongrel
-WARN	duplicate_exact_synonym	VBO:0200905	oboInOwl:hasExactSynonym	Mongrel
+WARN	duplicate_exact_synonym	VBO:0200902	oboInOwl:hasExactSynonym	Mongrel
 WARN	duplicate_exact_synonym	VBO:0014958	oboInOwl:hasExactSynonym	Mongolian Fat-Tailed
 WARN	duplicate_exact_synonym	VBO:0014959	oboInOwl:hasExactSynonym	Mongolian Fat-Tailed
 WARN	duplicate_exact_synonym	VBO:0000804	oboInOwl:hasExactSynonym	Mongolian Cashmere Goat
@@ -5300,10 +5283,8 @@ WARN	duplicate_exact_synonym	VBO:0014905	oboInOwl:hasExactSynonym	Maure
 WARN	duplicate_exact_synonym	VBO:0014906	oboInOwl:hasExactSynonym	Maure
 WARN	duplicate_exact_synonym	VBO:0008021	oboInOwl:hasExactSynonym	Mastín Español
 WARN	duplicate_exact_synonym	VBO:0201278	oboInOwl:hasExactSynonym	Mastín Español
-WARN	duplicate_exact_synonym	VBO:0200869	oboInOwl:hasExactSynonym	Mastin Espanol
 WARN	duplicate_exact_synonym	VBO:0201272	oboInOwl:hasExactSynonym	Mastin Espanol
-WARN	duplicate_exact_synonym	VBO:0000670	oboInOwl:hasExactSynonym	Mastin del Pirineo
-WARN	duplicate_exact_synonym	VBO:0200868	oboInOwl:hasExactSynonym	Mastin del Pirineo
+WARN	duplicate_exact_synonym	VBO:0201278	oboInOwl:hasExactSynonym	Mastin Espanol
 WARN	duplicate_exact_synonym	VBO:0200450	oboInOwl:hasExactSynonym	Mastiff - French
 WARN	duplicate_exact_synonym	VBO:0200543	oboInOwl:hasExactSynonym	Mastiff - French
 WARN	duplicate_exact_synonym	VBO:0200253	oboInOwl:hasExactSynonym	Mastiff - Bull
@@ -6437,7 +6418,7 @@ WARN	duplicate_exact_synonym	VBO:0200744	oboInOwl:hasExactSynonym	Korea Jindo Do
 WARN	duplicate_exact_synonym	VBO:0200783	oboInOwl:hasExactSynonym	Korea Jindo Dog
 WARN	duplicate_exact_synonym	VBO:0000666	oboInOwl:hasExactSynonym	Kooikerhondje
 WARN	duplicate_exact_synonym	VBO:0007990	oboInOwl:hasExactSynonym	Kooikerhondje
-WARN	duplicate_exact_synonym	VBO:0200781	oboInOwl:hasExactSynonym	Kooikerhondje
+WARN	duplicate_exact_synonym	VBO:0200932	oboInOwl:hasExactSynonym	Kooikerhondje
 WARN	duplicate_exact_synonym	VBO:0010729	oboInOwl:hasExactSynonym	Konik
 WARN	duplicate_exact_synonym	VBO:0010900	oboInOwl:hasExactSynonym	Konik
 WARN	duplicate_exact_synonym	VBO:0010901	oboInOwl:hasExactSynonym	Konik
@@ -6628,7 +6609,6 @@ WARN	duplicate_exact_synonym	VBO:0005221	oboInOwl:hasExactSynonym	Kemerovo
 WARN	duplicate_exact_synonym	VBO:0012243	oboInOwl:hasExactSynonym	Kemerovo
 WARN	duplicate_exact_synonym	VBO:0007998	oboInOwl:hasExactSynonym	Kelpie
 WARN	duplicate_exact_synonym	VBO:0200090	oboInOwl:hasExactSynonym	Kelpie
-WARN	duplicate_exact_synonym	VBO:0200760	oboInOwl:hasExactSynonym	Kelpie
 WARN	duplicate_exact_synonym	VBO:0010393	oboInOwl:hasExactSynonym	Keheilan
 WARN	duplicate_exact_synonym	VBO:0011753	oboInOwl:hasExactSynonym	Keheilan
 WARN	duplicate_exact_synonym	VBO:0014807	oboInOwl:hasExactSynonym	Kazakhskaya Kurdyuchnaya
@@ -7253,8 +7233,6 @@ WARN	duplicate_exact_synonym	VBO:0006051	oboInOwl:hasExactSynonym	Indian Game
 WARN	duplicate_exact_synonym	VBO:0006052	oboInOwl:hasExactSynonym	Indian Game
 WARN	duplicate_exact_synonym	VBO:0006053	oboInOwl:hasExactSynonym	Indian Game
 WARN	duplicate_exact_synonym	VBO:0007169	oboInOwl:hasExactSynonym	Indian Game
-WARN	duplicate_exact_synonym	VBO:0201004	oboInOwl:hasExactSynonym	Inca Hairless Dog
-WARN	duplicate_exact_synonym	VBO:0201008	oboInOwl:hasExactSynonym	Inca Hairless Dog
 WARN	duplicate_exact_synonym	VBO:0001446	oboInOwl:hasExactSynonym	Improved Valachian
 WARN	duplicate_exact_synonym	VBO:0014735	oboInOwl:hasExactSynonym	Improved Valachian
 WARN	duplicate_exact_synonym	VBO:0004279	oboInOwl:hasExactSynonym	Improved Criollo
@@ -8008,8 +7986,6 @@ WARN	duplicate_exact_synonym	VBO:0002948	oboInOwl:hasExactSynonym	Gyr
 WARN	duplicate_exact_synonym	VBO:0002949	oboInOwl:hasExactSynonym	Gyr
 WARN	duplicate_exact_synonym	VBO:0002951	oboInOwl:hasExactSynonym	Gyr
 WARN	duplicate_exact_synonym	VBO:0002953	oboInOwl:hasExactSynonym	Gyr
-WARN	duplicate_exact_synonym	VBO:0011496	oboInOwl:hasExactSynonym	Gypsy
-WARN	duplicate_exact_synonym	VBO:0012693	oboInOwl:hasExactSynonym	Gypsy
 WARN	duplicate_exact_synonym	VBO:0000228	oboInOwl:hasExactSynonym	Guzerá
 WARN	duplicate_exact_synonym	VBO:0003001	oboInOwl:hasExactSynonym	Guzerá
 WARN	duplicate_exact_synonym	VBO:0003002	oboInOwl:hasExactSynonym	Guzerá
@@ -8246,6 +8222,8 @@ WARN	duplicate_exact_synonym	VBO:0015370	oboInOwl:hasExactSynonym	Gotland
 WARN	duplicate_exact_synonym	VBO:0015371	oboInOwl:hasExactSynonym	Gotland
 WARN	duplicate_exact_synonym	VBO:0000665	oboInOwl:hasExactSynonym	Gos Rater Valencià
 WARN	duplicate_exact_synonym	VBO:0201381	oboInOwl:hasExactSynonym	Gos Rater Valencià
+WARN	duplicate_exact_synonym	VBO:0008020	oboInOwl:hasExactSynonym	Gos d'Atura
+WARN	duplicate_exact_synonym	VBO:0200299	oboInOwl:hasExactSynonym	Gos d'Atura
 WARN	duplicate_exact_synonym	VBO:0009817	oboInOwl:hasExactSynonym	Gorki
 WARN	duplicate_exact_synonym	VBO:0016415	oboInOwl:hasExactSynonym	Gorki
 WARN	duplicate_exact_synonym	VBO:0000220	oboInOwl:hasExactSynonym	Gorbatov Red
@@ -8976,8 +8954,6 @@ WARN	duplicate_exact_synonym	VBO:0010919	oboInOwl:hasExactSynonym	Española
 WARN	duplicate_exact_synonym	VBO:0010921	oboInOwl:hasExactSynonym	Española
 WARN	duplicate_exact_synonym	VBO:0010915	oboInOwl:hasExactSynonym	Español
 WARN	duplicate_exact_synonym	VBO:0010918	oboInOwl:hasExactSynonym	Español
-WARN	duplicate_exact_synonym	VBO:0200046	oboInOwl:hasExactSynonym	Eskimo Spitz
-WARN	duplicate_exact_synonym	VBO:0200507	oboInOwl:hasExactSynonym	Eskimo Spitz
 WARN	duplicate_exact_synonym	VBO:0000233	oboInOwl:hasExactSynonym	Eringer
 WARN	duplicate_exact_synonym	VBO:0003083	oboInOwl:hasExactSynonym	Eringer
 WARN	duplicate_exact_synonym	VBO:0004237	oboInOwl:hasExactSynonym	Eringer
@@ -9427,6 +9403,7 @@ WARN	duplicate_exact_synonym	VBO:0008944	oboInOwl:hasExactSynonym	Djallonke
 WARN	duplicate_exact_synonym	VBO:0009311	oboInOwl:hasExactSynonym	Djallonke
 WARN	duplicate_exact_synonym	VBO:0009314	oboInOwl:hasExactSynonym	Djallonke
 WARN	duplicate_exact_synonym	VBO:0009315	oboInOwl:hasExactSynonym	Djallonke
+WARN	duplicate_exact_synonym	VBO:0009316	oboInOwl:hasExactSynonym	Djallonke
 WARN	duplicate_exact_synonym	VBO:0009319	oboInOwl:hasExactSynonym	Djallonke
 WARN	duplicate_exact_synonym	VBO:0009322	oboInOwl:hasExactSynonym	Djallonke
 WARN	duplicate_exact_synonym	VBO:0009323	oboInOwl:hasExactSynonym	Djallonke
@@ -9523,7 +9500,6 @@ WARN	duplicate_exact_synonym	VBO:0200438	oboInOwl:hasExactSynonym	Deutsch Stiche
 WARN	duplicate_exact_synonym	VBO:0200575	oboInOwl:hasExactSynonym	Deutsch Stichelhaar
 WARN	duplicate_exact_synonym	VBO:0100083	oboInOwl:hasExactSynonym	Deutsch Langhaar
 WARN	duplicate_exact_synonym	VBO:0200437	oboInOwl:hasExactSynonym	Deutsch Langhaar
-WARN	duplicate_exact_synonym	VBO:0200570	oboInOwl:hasExactSynonym	Deutsch Langhaar
 WARN	duplicate_exact_synonym	VBO:0001849	oboInOwl:hasExactSynonym	Desi
 WARN	duplicate_exact_synonym	VBO:0001852	oboInOwl:hasExactSynonym	Desi
 WARN	duplicate_exact_synonym	VBO:0002083	oboInOwl:hasExactSynonym	Desi
@@ -9705,8 +9681,6 @@ WARN	duplicate_exact_synonym	VBO:0014476	oboInOwl:hasExactSynonym	D'man
 WARN	duplicate_exact_synonym	VBO:0014477	oboInOwl:hasExactSynonym	D'man
 WARN	duplicate_exact_synonym	VBO:0200285	oboInOwl:hasExactSynonym	Cão de Castro Laboreiro
 WARN	duplicate_exact_synonym	VBO:0201066	oboInOwl:hasExactSynonym	Cão de Castro Laboreiro
-WARN	duplicate_exact_synonym	VBO:0200284	oboInOwl:hasExactSynonym	Cão da Serra de Aires
-WARN	duplicate_exact_synonym	VBO:0201071	oboInOwl:hasExactSynonym	Cão da Serra de Aires
 WARN	duplicate_exact_synonym	VBO:0000862	oboInOwl:hasExactSynonym	Czech White
 WARN	duplicate_exact_synonym	VBO:0009695	oboInOwl:hasExactSynonym	Czech White
 WARN	duplicate_exact_synonym	VBO:0000183	oboInOwl:hasExactSynonym	Czech Red
@@ -9986,8 +9960,6 @@ WARN	duplicate_exact_synonym	VBO:0005972	oboInOwl:hasExactSynonym	Cornish
 WARN	duplicate_exact_synonym	VBO:0001381	oboInOwl:hasExactSynonym	Cormo
 WARN	duplicate_exact_synonym	VBO:0014426	oboInOwl:hasExactSynonym	Cormo
 WARN	duplicate_exact_synonym	VBO:0014428	oboInOwl:hasExactSynonym	Cormo
-WARN	duplicate_exact_synonym	VBO:0200386	oboInOwl:hasExactSynonym	Corgi
-WARN	duplicate_exact_synonym	VBO:0200995	oboInOwl:hasExactSynonym	Corgi
 WARN	duplicate_exact_synonym	VBO:0010928	oboInOwl:hasExactSynonym	Copper Bottom
 WARN	duplicate_exact_synonym	VBO:0010934	oboInOwl:hasExactSynonym	Copper Bottom
 WARN	duplicate_exact_synonym	VBO:0010951	oboInOwl:hasExactSynonym	Copper Bottom
@@ -10652,8 +10624,6 @@ WARN	duplicate_exact_synonym	VBO:0013493	oboInOwl:hasExactSynonym	California
 WARN	duplicate_exact_synonym	VBO:0013499	oboInOwl:hasExactSynonym	California
 WARN	duplicate_exact_synonym	VBO:0013505	oboInOwl:hasExactSynonym	California
 WARN	duplicate_exact_synonym	VBO:0013506	oboInOwl:hasExactSynonym	California
-WARN	duplicate_exact_synonym	VBO:0201004	oboInOwl:hasExactSynonym	Calato
-WARN	duplicate_exact_synonym	VBO:0201008	oboInOwl:hasExactSynonym	Calato
 WARN	duplicate_exact_synonym	VBO:0011888	oboInOwl:hasExactSynonym	Cairina moschata
 WARN	duplicate_exact_synonym	VBO:0011904	oboInOwl:hasExactSynonym	Cairina moschata
 WARN	duplicate_exact_synonym	VBO:0001223	oboInOwl:hasExactSynonym	Cailles
@@ -11087,8 +11057,6 @@ WARN	duplicate_exact_synonym	VBO:0002495	oboInOwl:hasExactSynonym	Braford
 WARN	duplicate_exact_synonym	VBO:0002496	oboInOwl:hasExactSynonym	Braford
 WARN	duplicate_exact_synonym	VBO:0000462	oboInOwl:hasExactSynonym	Braekel
 WARN	duplicate_exact_synonym	VBO:0005521	oboInOwl:hasExactSynonym	Braekel
-WARN	duplicate_exact_synonym	VBO:0200640	oboInOwl:hasExactSynonym	Brabançon Griffon
-WARN	duplicate_exact_synonym	VBO:0200642	oboInOwl:hasExactSynonym	Brabançon Griffon
 WARN	duplicate_exact_synonym	VBO:0006848	oboInOwl:hasExactSynonym	Brabanter
 WARN	duplicate_exact_synonym	VBO:0011321	oboInOwl:hasExactSynonym	Brabanter
 WARN	duplicate_exact_synonym	VBO:0014324	oboInOwl:hasExactSynonym	Bozakhskaya
@@ -11458,8 +11426,6 @@ WARN	duplicate_exact_synonym	VBO:0012018	oboInOwl:hasExactSynonym	Black Slavonia
 WARN	duplicate_exact_synonym	VBO:0001233	oboInOwl:hasExactSynonym	Black Satin
 WARN	duplicate_exact_synonym	VBO:0013439	oboInOwl:hasExactSynonym	Black Satin
 WARN	duplicate_exact_synonym	VBO:0013440	oboInOwl:hasExactSynonym	Black Satin
-WARN	duplicate_exact_synonym	VBO:0004634	oboInOwl:hasExactSynonym	Black Pied
-WARN	duplicate_exact_synonym	VBO:0005232	oboInOwl:hasExactSynonym	Black Pied
 WARN	duplicate_exact_synonym	VBO:0200173	oboInOwl:hasExactSynonym	Black Norwegian Elkhound
 WARN	duplicate_exact_synonym	VBO:0200956	oboInOwl:hasExactSynonym	Black Norwegian Elkhound
 WARN	duplicate_exact_synonym	VBO:0001334	oboInOwl:hasExactSynonym	Black Maure
@@ -12254,7 +12220,7 @@ WARN	duplicate_exact_synonym	VBO:0007153	oboInOwl:hasExactSynonym	Australorp
 WARN	duplicate_exact_synonym	VBO:0005466	oboInOwl:hasExactSynonym	Australop
 WARN	duplicate_exact_synonym	VBO:0005476	oboInOwl:hasExactSynonym	Australop
 WARN	duplicate_exact_synonym	VBO:0007998	oboInOwl:hasExactSynonym	Australian Working Kelpie
-WARN	duplicate_exact_synonym	VBO:0200099	oboInOwl:hasExactSynonym	Australian Working Kelpie
+WARN	duplicate_exact_synonym	VBO:0201434	oboInOwl:hasExactSynonym	Australian Working Kelpie
 WARN	duplicate_exact_synonym	VBO:0200096	oboInOwl:hasExactSynonym	Australian Silky Terrier
 WARN	duplicate_exact_synonym	VBO:0201237	oboInOwl:hasExactSynonym	Australian Silky Terrier
 WARN	duplicate_exact_synonym	VBO:0000118	oboInOwl:hasExactSynonym	Australian Milking Zebu
@@ -12890,8 +12856,6 @@ WARN	duplicate_exact_synonym	VBO:0005213	oboInOwl:hasExactSynonym	Altai
 WARN	duplicate_exact_synonym	VBO:0010259	oboInOwl:hasExactSynonym	Altai
 WARN	duplicate_exact_synonym	VBO:0016397	oboInOwl:hasExactSynonym	Altai
 WARN	duplicate_exact_synonym	VBO:0016464	oboInOwl:hasExactSynonym	Altai
-WARN	duplicate_exact_synonym	VBO:0200026	oboInOwl:hasExactSynonym	Alsatian
-WARN	duplicate_exact_synonym	VBO:0200577	oboInOwl:hasExactSynonym	Alsatian
 WARN	duplicate_exact_synonym	VBO:0008954	oboInOwl:hasExactSynonym	Alpino Francés
 WARN	duplicate_exact_synonym	VBO:0008960	oboInOwl:hasExactSynonym	Alpino Francés
 WARN	duplicate_exact_synonym	VBO:0015635	oboInOwl:hasExactSynonym	Alpines Steinschaf
@@ -13780,7 +13744,6 @@ WARN	missing_definition	VBO:0000663	IAO:0000115
 WARN	missing_definition	VBO:0000664	IAO:0000115	
 WARN	missing_definition	VBO:0000665	IAO:0000115	
 WARN	missing_definition	VBO:0000666	IAO:0000115	
-WARN	missing_definition	VBO:0000667	IAO:0000115	
 WARN	missing_definition	VBO:0000668	IAO:0000115	
 WARN	missing_definition	VBO:0000669	IAO:0000115	
 WARN	missing_definition	VBO:0000670	IAO:0000115	
@@ -30266,14 +30229,12 @@ WARN	missing_definition	VBO:0200015	IAO:0000115
 WARN	missing_definition	VBO:0200016	IAO:0000115	
 WARN	missing_definition	VBO:0200017	IAO:0000115	
 WARN	missing_definition	VBO:0200018	IAO:0000115	
-WARN	missing_definition	VBO:0200019	IAO:0000115	
 WARN	missing_definition	VBO:0200020	IAO:0000115	
 WARN	missing_definition	VBO:0200021	IAO:0000115	
 WARN	missing_definition	VBO:0200022	IAO:0000115	
 WARN	missing_definition	VBO:0200023	IAO:0000115	
 WARN	missing_definition	VBO:0200024	IAO:0000115	
 WARN	missing_definition	VBO:0200025	IAO:0000115	
-WARN	missing_definition	VBO:0200026	IAO:0000115	
 WARN	missing_definition	VBO:0200027	IAO:0000115	
 WARN	missing_definition	VBO:0200028	IAO:0000115	
 WARN	missing_definition	VBO:0200029	IAO:0000115	
@@ -30295,7 +30256,6 @@ WARN	missing_definition	VBO:0200044	IAO:0000115
 WARN	missing_definition	VBO:0200045	IAO:0000115	
 WARN	missing_definition	VBO:0200046	IAO:0000115	
 WARN	missing_definition	VBO:0200047	IAO:0000115	
-WARN	missing_definition	VBO:0200048	IAO:0000115	
 WARN	missing_definition	VBO:0200049	IAO:0000115	
 WARN	missing_definition	VBO:0200050	IAO:0000115	
 WARN	missing_definition	VBO:0200051	IAO:0000115	
@@ -30346,7 +30306,6 @@ WARN	missing_definition	VBO:0200095	IAO:0000115
 WARN	missing_definition	VBO:0200096	IAO:0000115	
 WARN	missing_definition	VBO:0200097	IAO:0000115	
 WARN	missing_definition	VBO:0200098	IAO:0000115	
-WARN	missing_definition	VBO:0200099	IAO:0000115	
 WARN	missing_definition	VBO:0200100	IAO:0000115	
 WARN	missing_definition	VBO:0200101	IAO:0000115	
 WARN	missing_definition	VBO:0200102	IAO:0000115	
@@ -30539,7 +30498,6 @@ WARN	missing_definition	VBO:0200288	IAO:0000115
 WARN	missing_definition	VBO:0200289	IAO:0000115	
 WARN	missing_definition	VBO:0200290	IAO:0000115	
 WARN	missing_definition	VBO:0200291	IAO:0000115	
-WARN	missing_definition	VBO:0200292	IAO:0000115	
 WARN	missing_definition	VBO:0200293	IAO:0000115	
 WARN	missing_definition	VBO:0200294	IAO:0000115	
 WARN	missing_definition	VBO:0200295	IAO:0000115	
@@ -30589,7 +30547,6 @@ WARN	missing_definition	VBO:0200338	IAO:0000115
 WARN	missing_definition	VBO:0200339	IAO:0000115	
 WARN	missing_definition	VBO:0200340	IAO:0000115	
 WARN	missing_definition	VBO:0200342	IAO:0000115	
-WARN	missing_definition	VBO:0200343	IAO:0000115	
 WARN	missing_definition	VBO:0200344	IAO:0000115	
 WARN	missing_definition	VBO:0200345	IAO:0000115	
 WARN	missing_definition	VBO:0200346	IAO:0000115	
@@ -30632,7 +30589,6 @@ WARN	missing_definition	VBO:0200382	IAO:0000115
 WARN	missing_definition	VBO:0200383	IAO:0000115	
 WARN	missing_definition	VBO:0200384	IAO:0000115	
 WARN	missing_definition	VBO:0200385	IAO:0000115	
-WARN	missing_definition	VBO:0200386	IAO:0000115	
 WARN	missing_definition	VBO:0200387	IAO:0000115	
 WARN	missing_definition	VBO:0200388	IAO:0000115	
 WARN	missing_definition	VBO:0200389	IAO:0000115	
@@ -30704,7 +30660,6 @@ WARN	missing_definition	VBO:0200454	IAO:0000115
 WARN	missing_definition	VBO:0200455	IAO:0000115	
 WARN	missing_definition	VBO:0200456	IAO:0000115	
 WARN	missing_definition	VBO:0200457	IAO:0000115	
-WARN	missing_definition	VBO:0200458	IAO:0000115	
 WARN	missing_definition	VBO:0200459	IAO:0000115	
 WARN	missing_definition	VBO:0200460	IAO:0000115	
 WARN	missing_definition	VBO:0200461	IAO:0000115	
@@ -30753,7 +30708,6 @@ WARN	missing_definition	VBO:0200503	IAO:0000115
 WARN	missing_definition	VBO:0200504	IAO:0000115	
 WARN	missing_definition	VBO:0200505	IAO:0000115	
 WARN	missing_definition	VBO:0200506	IAO:0000115	
-WARN	missing_definition	VBO:0200507	IAO:0000115	
 WARN	missing_definition	VBO:0200508	IAO:0000115	
 WARN	missing_definition	VBO:0200509	IAO:0000115	
 WARN	missing_definition	VBO:0200510	IAO:0000115	
@@ -30858,7 +30812,6 @@ WARN	missing_definition	VBO:0200610	IAO:0000115
 WARN	missing_definition	VBO:0200611	IAO:0000115	
 WARN	missing_definition	VBO:0200612	IAO:0000115	
 WARN	missing_definition	VBO:0200613	IAO:0000115	
-WARN	missing_definition	VBO:0200614	IAO:0000115	
 WARN	missing_definition	VBO:0200615	IAO:0000115	
 WARN	missing_definition	VBO:0200616	IAO:0000115	
 WARN	missing_definition	VBO:0200617	IAO:0000115	
@@ -30996,7 +30949,6 @@ WARN	missing_definition	VBO:0200748	IAO:0000115
 WARN	missing_definition	VBO:0200749	IAO:0000115	
 WARN	missing_definition	VBO:0200750	IAO:0000115	
 WARN	missing_definition	VBO:0200751	IAO:0000115	
-WARN	missing_definition	VBO:0200752	IAO:0000115	
 WARN	missing_definition	VBO:0200753	IAO:0000115	
 WARN	missing_definition	VBO:0200754	IAO:0000115	
 WARN	missing_definition	VBO:0200755	IAO:0000115	
@@ -31004,7 +30956,6 @@ WARN	missing_definition	VBO:0200756	IAO:0000115
 WARN	missing_definition	VBO:0200757	IAO:0000115	
 WARN	missing_definition	VBO:0200758	IAO:0000115	
 WARN	missing_definition	VBO:0200759	IAO:0000115	
-WARN	missing_definition	VBO:0200760	IAO:0000115	
 WARN	missing_definition	VBO:0200761	IAO:0000115	
 WARN	missing_definition	VBO:0200762	IAO:0000115	
 WARN	missing_definition	VBO:0200763	IAO:0000115	
@@ -31025,7 +30976,6 @@ WARN	missing_definition	VBO:0200777	IAO:0000115
 WARN	missing_definition	VBO:0200778	IAO:0000115	
 WARN	missing_definition	VBO:0200779	IAO:0000115	
 WARN	missing_definition	VBO:0200780	IAO:0000115	
-WARN	missing_definition	VBO:0200781	IAO:0000115	
 WARN	missing_definition	VBO:0200782	IAO:0000115	
 WARN	missing_definition	VBO:0200783	IAO:0000115	
 WARN	missing_definition	VBO:0200784	IAO:0000115	
@@ -31096,8 +31046,6 @@ WARN	missing_definition	VBO:0200848	IAO:0000115
 WARN	missing_definition	VBO:0200849	IAO:0000115	
 WARN	missing_definition	VBO:0200850	IAO:0000115	
 WARN	missing_definition	VBO:0200851	IAO:0000115	
-WARN	missing_definition	VBO:0200852	IAO:0000115	
-WARN	missing_definition	VBO:0200853	IAO:0000115	
 WARN	missing_definition	VBO:0200854	IAO:0000115	
 WARN	missing_definition	VBO:0200855	IAO:0000115	
 WARN	missing_definition	VBO:0200856	IAO:0000115	
@@ -31112,8 +31060,6 @@ WARN	missing_definition	VBO:0200864	IAO:0000115
 WARN	missing_definition	VBO:0200865	IAO:0000115	
 WARN	missing_definition	VBO:0200866	IAO:0000115	
 WARN	missing_definition	VBO:0200867	IAO:0000115	
-WARN	missing_definition	VBO:0200868	IAO:0000115	
-WARN	missing_definition	VBO:0200869	IAO:0000115	
 WARN	missing_definition	VBO:0200870	IAO:0000115	
 WARN	missing_definition	VBO:0200871	IAO:0000115	
 WARN	missing_definition	VBO:0200872	IAO:0000115	
@@ -31148,7 +31094,6 @@ WARN	missing_definition	VBO:0200900	IAO:0000115
 WARN	missing_definition	VBO:0200901	IAO:0000115	
 WARN	missing_definition	VBO:0200903	IAO:0000115	
 WARN	missing_definition	VBO:0200904	IAO:0000115	
-WARN	missing_definition	VBO:0200905	IAO:0000115	
 WARN	missing_definition	VBO:0200906	IAO:0000115	
 WARN	missing_definition	VBO:0200907	IAO:0000115	
 WARN	missing_definition	VBO:0200908	IAO:0000115	
@@ -31179,7 +31124,6 @@ WARN	missing_definition	VBO:0200932	IAO:0000115
 WARN	missing_definition	VBO:0200933	IAO:0000115	
 WARN	missing_definition	VBO:0200934	IAO:0000115	
 WARN	missing_definition	VBO:0200935	IAO:0000115	
-WARN	missing_definition	VBO:0200936	IAO:0000115	
 WARN	missing_definition	VBO:0200937	IAO:0000115	
 WARN	missing_definition	VBO:0200938	IAO:0000115	
 WARN	missing_definition	VBO:0200939	IAO:0000115	
@@ -31248,7 +31192,6 @@ WARN	missing_definition	VBO:0201004	IAO:0000115
 WARN	missing_definition	VBO:0201005	IAO:0000115	
 WARN	missing_definition	VBO:0201006	IAO:0000115	
 WARN	missing_definition	VBO:0201007	IAO:0000115	
-WARN	missing_definition	VBO:0201008	IAO:0000115	
 WARN	missing_definition	VBO:0201009	IAO:0000115	
 WARN	missing_definition	VBO:0201010	IAO:0000115	
 WARN	missing_definition	VBO:0201011	IAO:0000115	
@@ -31262,7 +31205,6 @@ WARN	missing_definition	VBO:0201018	IAO:0000115
 WARN	missing_definition	VBO:0201019	IAO:0000115	
 WARN	missing_definition	VBO:0201020	IAO:0000115	
 WARN	missing_definition	VBO:0201021	IAO:0000115	
-WARN	missing_definition	VBO:0201022	IAO:0000115	
 WARN	missing_definition	VBO:0201023	IAO:0000115	
 WARN	missing_definition	VBO:0201024	IAO:0000115	
 WARN	missing_definition	VBO:0201025	IAO:0000115	
@@ -31294,7 +31236,6 @@ WARN	missing_definition	VBO:0201050	IAO:0000115
 WARN	missing_definition	VBO:0201051	IAO:0000115	
 WARN	missing_definition	VBO:0201052	IAO:0000115	
 WARN	missing_definition	VBO:0201053	IAO:0000115	
-WARN	missing_definition	VBO:0201054	IAO:0000115	
 WARN	missing_definition	VBO:0201055	IAO:0000115	
 WARN	missing_definition	VBO:0201056	IAO:0000115	
 WARN	missing_definition	VBO:0201057	IAO:0000115	
@@ -31370,7 +31311,6 @@ WARN	missing_definition	VBO:0201127	IAO:0000115
 WARN	missing_definition	VBO:0201128	IAO:0000115	
 WARN	missing_definition	VBO:0201129	IAO:0000115	
 WARN	missing_definition	VBO:0201130	IAO:0000115	
-WARN	missing_definition	VBO:0201131	IAO:0000115	
 WARN	missing_definition	VBO:0201132	IAO:0000115	
 WARN	missing_definition	VBO:0201133	IAO:0000115	
 WARN	missing_definition	VBO:0201134	IAO:0000115	
@@ -31396,7 +31336,6 @@ WARN	missing_definition	VBO:0201153	IAO:0000115
 WARN	missing_definition	VBO:0201154	IAO:0000115	
 WARN	missing_definition	VBO:0201155	IAO:0000115	
 WARN	missing_definition	VBO:0201156	IAO:0000115	
-WARN	missing_definition	VBO:0201157	IAO:0000115	
 WARN	missing_definition	VBO:0201158	IAO:0000115	
 WARN	missing_definition	VBO:0201159	IAO:0000115	
 WARN	missing_definition	VBO:0201160	IAO:0000115	
@@ -31451,13 +31390,11 @@ WARN	missing_definition	VBO:0201208	IAO:0000115
 WARN	missing_definition	VBO:0201209	IAO:0000115	
 WARN	missing_definition	VBO:0201210	IAO:0000115	
 WARN	missing_definition	VBO:0201211	IAO:0000115	
-WARN	missing_definition	VBO:0201213	IAO:0000115	
 WARN	missing_definition	VBO:0201214	IAO:0000115	
 WARN	missing_definition	VBO:0201215	IAO:0000115	
 WARN	missing_definition	VBO:0201216	IAO:0000115	
 WARN	missing_definition	VBO:0201217	IAO:0000115	
 WARN	missing_definition	VBO:0201218	IAO:0000115	
-WARN	missing_definition	VBO:0201219	IAO:0000115	
 WARN	missing_definition	VBO:0201220	IAO:0000115	
 WARN	missing_definition	VBO:0201221	IAO:0000115	
 WARN	missing_definition	VBO:0201222	IAO:0000115	
@@ -31468,7 +31405,6 @@ WARN	missing_definition	VBO:0201226	IAO:0000115
 WARN	missing_definition	VBO:0201227	IAO:0000115	
 WARN	missing_definition	VBO:0201228	IAO:0000115	
 WARN	missing_definition	VBO:0201229	IAO:0000115	
-WARN	missing_definition	VBO:0201230	IAO:0000115	
 WARN	missing_definition	VBO:0201231	IAO:0000115	
 WARN	missing_definition	VBO:0201232	IAO:0000115	
 WARN	missing_definition	VBO:0201233	IAO:0000115	
@@ -31551,7 +31487,6 @@ WARN	missing_definition	VBO:0201310	IAO:0000115
 WARN	missing_definition	VBO:0201311	IAO:0000115	
 WARN	missing_definition	VBO:0201312	IAO:0000115	
 WARN	missing_definition	VBO:0201313	IAO:0000115	
-WARN	missing_definition	VBO:0201314	IAO:0000115	
 WARN	missing_definition	VBO:0201315	IAO:0000115	
 WARN	missing_definition	VBO:0201316	IAO:0000115	
 WARN	missing_definition	VBO:0201317	IAO:0000115	
@@ -31563,7 +31498,6 @@ WARN	missing_definition	VBO:0201322	IAO:0000115
 WARN	missing_definition	VBO:0201323	IAO:0000115	
 WARN	missing_definition	VBO:0201324	IAO:0000115	
 WARN	missing_definition	VBO:0201325	IAO:0000115	
-WARN	missing_definition	VBO:0201326	IAO:0000115	
 WARN	missing_definition	VBO:0201327	IAO:0000115	
 WARN	missing_definition	VBO:0201328	IAO:0000115	
 WARN	missing_definition	VBO:0201329	IAO:0000115	
@@ -31582,7 +31516,6 @@ WARN	missing_definition	VBO:0201341	IAO:0000115
 WARN	missing_definition	VBO:0201342	IAO:0000115	
 WARN	missing_definition	VBO:0201343	IAO:0000115	
 WARN	missing_definition	VBO:0201344	IAO:0000115	
-WARN	missing_definition	VBO:0201345	IAO:0000115	
 WARN	missing_definition	VBO:0201346	IAO:0000115	
 WARN	missing_definition	VBO:0201347	IAO:0000115	
 WARN	missing_definition	VBO:0201348	IAO:0000115	
@@ -31599,11 +31532,8 @@ WARN	missing_definition	VBO:0201358	IAO:0000115
 WARN	missing_definition	VBO:0201359	IAO:0000115	
 WARN	missing_definition	VBO:0201360	IAO:0000115	
 WARN	missing_definition	VBO:0201361	IAO:0000115	
-WARN	missing_definition	VBO:0201362	IAO:0000115	
 WARN	missing_definition	VBO:0201363	IAO:0000115	
 WARN	missing_definition	VBO:0201364	IAO:0000115	
-WARN	missing_definition	VBO:0201365	IAO:0000115	
-WARN	missing_definition	VBO:0201366	IAO:0000115	
 WARN	missing_definition	VBO:0201367	IAO:0000115	
 WARN	missing_definition	VBO:0201368	IAO:0000115	
 WARN	missing_definition	VBO:0201369	IAO:0000115	
@@ -31629,14 +31559,11 @@ WARN	missing_definition	VBO:0201388	IAO:0000115
 WARN	missing_definition	VBO:0201389	IAO:0000115	
 WARN	missing_definition	VBO:0201390	IAO:0000115	
 WARN	missing_definition	VBO:0201391	IAO:0000115	
-WARN	missing_definition	VBO:0201392	IAO:0000115	
-WARN	missing_definition	VBO:0201393	IAO:0000115	
 WARN	missing_definition	VBO:0201394	IAO:0000115	
 WARN	missing_definition	VBO:0201395	IAO:0000115	
 WARN	missing_definition	VBO:0201396	IAO:0000115	
 WARN	missing_definition	VBO:0201397	IAO:0000115	
 WARN	missing_definition	VBO:0201398	IAO:0000115	
-WARN	missing_definition	VBO:0201399	IAO:0000115	
 WARN	missing_definition	VBO:0201400	IAO:0000115	
 WARN	missing_definition	VBO:0201401	IAO:0000115	
 WARN	missing_definition	VBO:0201402	IAO:0000115	
@@ -31650,7 +31577,6 @@ WARN	missing_definition	VBO:0201409	IAO:0000115
 WARN	missing_definition	VBO:0201410	IAO:0000115	
 WARN	missing_definition	VBO:0201411	IAO:0000115	
 WARN	missing_definition	VBO:0201412	IAO:0000115	
-WARN	missing_definition	VBO:0201413	IAO:0000115	
 WARN	missing_definition	VBO:0201414	IAO:0000115	
 WARN	missing_definition	VBO:0201415	IAO:0000115	
 WARN	missing_definition	VBO:0201416	IAO:0000115	
