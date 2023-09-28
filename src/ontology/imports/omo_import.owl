@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2023-06-01/imports/omo_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2023-05-15/omo.owl>)
-Annotation(owl:versionInfo "2023-06-01")
+<http://purl.obolibrary.org/obo/vbo/releases/2023-09-28/imports/omo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2023-08-23/omo.owl>)
+Annotation(owl:versionInfo "2023-09-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
@@ -58,6 +58,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000421>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/OMO_0001000>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/OMO_0001002>))
 Declaration(AnnotationProperty(<http://protege.stanford.edu/plugins/owl/protege#defaultLanguage>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
@@ -100,6 +101,10 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003002>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003003>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003004>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003005>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003006>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003007>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003008>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003009>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/coverage>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
@@ -557,6 +562,44 @@ AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003005> "UK spelling synonym")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003005> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
 
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003006> (misspelling)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003006> "A synonym type for common misspellings")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003006> <https://github.com/information-artifact-ontology/ontology-metadata/issues/132>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003006> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003006> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003006> "misspelling")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003006> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003007> (misnomer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003007> "A synonym type for misnomers, i.e., a synonym that is not technically correct but is commonly used anyway")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003007> <https://github.com/information-artifact-ontology/ontology-metadata/issues/133>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003007> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003007> "2023-03-03"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003007> "misnomer")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003007> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003008> (previous name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003008> "MAPT, the gene that encodes the Tau protein, has a previous name DDPAC. Note: in this case, the name type is more specifically the gene symbol.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003008> "A synonym type for names that have been used as primary labels in the past.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003008> <https://github.com/information-artifact-ontology/ontology-metadata/issues/139>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003008> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003008> "2023-07-25"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003008> "previous name")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003008> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003009> (legal name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003009> "The legal name for Harvard University (https://ror.org/03vek6s52) is President and Fellows of Harvard College")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003009> "A synonym type for the legal entity name")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003009> <https://github.com/information-artifact-ontology/ontology-metadata/issues/141>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003009> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003009> "2023-07-27"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003009> "legal name")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003009> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> (has broad synonym)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "An alternative label for a class or property which has a more general meaning than the preferred name/primary label.")
@@ -988,6 +1031,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OMO_0001000> "https://orcid.org/0000-0001-5208-3432")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0001000> "out of scope")
 ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000225> <http://purl.obolibrary.org/obo/OMO_0001000>)
+
+# Individual: <http://purl.obolibrary.org/obo/OMO_0001002> (domain entity does not exist)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0001002> "The term was added to the ontology on the assumption it was a valid domain entity, but it turns out the entity does not exist in reality."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OMO_0001002> "This obsolesence reason should be used conservatively. For example: Obsoleting class that describes a breed of cow based on a record in an existing database, that was later retracted as faulty (breed does not exist). Do not use this term to obsolete a historic concept (that was once valid, but not anymore). "@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OMO_0001002> <http://orcid.org/0000-0002-4142-7153>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0001002> "https://github.com/information-artifact-ontology/ontology-metadata/issues/136")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/OMO_0001002> "https://orcid.org/0000-0002-4142-7153")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0001002> "domain entity does not exist")
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000225> <http://purl.obolibrary.org/obo/OMO_0001002>)
 
 
 DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)
