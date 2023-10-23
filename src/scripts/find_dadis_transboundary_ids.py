@@ -1,11 +1,14 @@
 import argparse
 import csv
+import logging
 from typing import TextIO
 
 import pandas as pd
 
 from dadis_client import DadisClient
 
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 def full_matching_workflow(
     input_filename: str, output_filename: str, dadis_api_key: str
@@ -21,7 +24,7 @@ def full_matching_workflow(
     vbo_data = read_vbo_data(input_filename)
     matched_breeds = match_vbo_breeds(vbo_data=vbo_data, client=client)
 
-    print(f"Writing output file to {output_filename}:")
+    logger.info(f"Writing output file to {output_filename}:")
     output_file = create_output_tsv(
         input_filename=input_filename,
         output_filename=output_filename,
@@ -29,13 +32,14 @@ def full_matching_workflow(
     )
     matched_breeds.to_csv(output_file, sep="\t", index=False, header=False)
     output_file.close()
-    print("Output written.")
+    logger.info("Output written.")
     return matched_breeds
 
 
 def read_vbo_data(filename: str) -> pd.DataFrame:
     df = pd.read_table(filename, skiprows=[1]).convert_dtypes()
-    print("Dropping duplicate entry for: VBO:0000991 - Icelandic Horse/Iceland Pony")
+    # TODO: remove this - just a manual fix until VBO is updated
+    logger.warning("Dropping duplicate entry for: VBO:0000991 - Icelandic Horse/Iceland Pony")
     dup_entry = (df["VBO id"] == "VBO:0000991") & (df["term label"].isna())
     return df.loc[~dup_entry, :]
 
@@ -133,10 +137,11 @@ def get_extra_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFra
     counts = extra_matches["VBO id"].value_counts()
     duplicates = counts.loc[counts >= 2].index.tolist()
     multiple_matches = extra_matches.loc[extra_matches["VBO id"].isin(duplicates), :]
-    print(
-        "The following entries matched against multiple DADIS entries - will not be updated"
+    n_multiple = multiple_matches["VBO id"].nunique()
+    logger.warning(
+        f"{n_multiple} VBO entries matched against multiple DADIS entries - will not be updated. Use --log=DEBUG to see them."
     )
-    print(multiple_matches["VBO id"])
+    logger.debug(multiple_matches["VBO id"])
     extra_matches = extra_matches.loc[~extra_matches["VBO id"].isin(duplicates), :]
     return extra_matches
 
@@ -148,9 +153,9 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
 
     Return a modified copy of vbo_data, with the 'dadis_transboundary_id' added
     """
-    print("Matching to canonical DADIS names")
+    logger.info("Matching to canonical DADIS names")
     simple_matches = get_simple_matches(vbo_data, client)
-    print("Matching to other DADIS names")
+    logger.info("Matching to other DADIS names")
     extra_matches = get_extra_matches(vbo_data, client)
     all_matches = simple_matches.merge(
         extra_matches[["VBO id", "dadis_transboundary_id", "dadis_species_id"]],
@@ -168,7 +173,7 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
 
     n_total = all_matches.shape[0]
     n_matched = all_matches["dadis_transboundary_id"].notna().sum()
-    print(f"{n_matched} / {n_total} VBO entries matched with DADIS")
+    logger.info(f"{n_matched} / {n_total} VBO entries matched with DADIS")
 
     return vbo_data.merge(
         all_matches[["VBO id", "dadis_transboundary_id"]],
@@ -204,6 +209,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Find DADIS entries matching VBO breeds"
     )
+    parser.add_argument("--log", help="Logging level", default="INFO")
     parser.add_argument(
         "--input_filename", help="Spreadsheet (TSV) with VBO transboundary breeds"
     )
@@ -214,6 +220,7 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    logger.setLevel(args.log.upper())
     full_matching_workflow(
         input_filename=args.input_filename,
         output_filename=args.output_filename,
