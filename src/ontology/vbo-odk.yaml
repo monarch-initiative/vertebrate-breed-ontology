@@ -43,3 +43,16 @@ robot_report:
   report_on :
     - edit
     - vbo-base.owl
+custom_makefile_header: |
+  ### Workflow
+  #
+  # Tasks to edit and release OMRSE.
+  #
+  # #### Edit
+  #
+  # 1. [Prepare release](prepare_release)
+  # 2. [Prepare release (fast)](prepare_release_fast)
+  # 3. [Refresh imports](all_imports)
+  # 4. [Update repo to latest ODK](update_repo)
+  # 5. [Run QC](test)
+create_obo_metadata: FALSE
