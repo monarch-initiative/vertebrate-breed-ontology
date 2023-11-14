@@ -36,6 +36,11 @@ The following table includes breed organizations, communities, and experts which
 |Dog Breeds|Svenska Kennelklubbe (SKK)|*upcoming*|
 |Dog Breeds|United Kennel Club (UKC)|https://www.ukcdogs.com/
 |Dog Breeds|Wikipedia|https://en.wikipedia.org/wiki/List_of_dog_breeds
+|Rabbit Breeds|Domestic Animal Diversity Information (DAD-IS)|https://www.fao.org/dad-is/en/
+|Rabbit Breeds|The British Rabbit Council (BRC)|https://thebritishrabbitcouncil.org/
+|Rabbit Breeds|American Rabbit Breeders Association (ARBA)|https://arba.net/
+|Rabbit Breeds|Zentralverband Deutscher Rasse-Kanninchenzüchter (ZDRK)|http://www.zdrk.de/
+
 |Lab Animal Breeds|*upcoming*|
 
 
