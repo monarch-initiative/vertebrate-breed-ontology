@@ -64,12 +64,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1549675 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1549675"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_27592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27592"/>
@@ -253,6 +247,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9844"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9901"/>
     
 
 
@@ -547,21 +547,21 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400034"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400035"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400036"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8841"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8855"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
-        <obo:IAO_0000115>Vertebrate breeds covering Domestic duck, Domestic duck x Muscovy duck, and Muscovy duck breeds. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
+        <obo:IAO_0000115>Vertebrate breeds of the taxa Anas platyrhynchos, Anas platyrhynchos x Cairina moschata and Cairina moschata. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Duck breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -569,7 +569,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Vertebrate breeds covering Domestic duck, Domestic duck x Muscovy duck, and Muscovy duck breeds. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
+        <owl:annotatedTarget>Vertebrate breeds of the taxa Anas platyrhynchos, Anas platyrhynchos x Cairina moschata and Cairina moschata. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
@@ -621,7 +621,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Gallus gallus. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>LBO:0000002</oboInOwl:hasDbXref>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
@@ -630,7 +630,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400010"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -656,7 +656,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Anser anser. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Goose breed</rdfs:label>
@@ -664,7 +664,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400011"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -690,7 +690,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <obo:IAO_0000115>Vertebrate breed of guinea fowl of the taxon Numididae. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Guinea fowl breed</rdfs:label>
@@ -698,7 +698,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400012"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -792,7 +792,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Columba livia. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Pigeon breed</rdfs:label>
@@ -800,7 +800,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400015"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -826,7 +826,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Coturnix. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Quail breed</rdfs:label>
@@ -834,7 +834,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400016"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -860,7 +860,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Meleagris gallopavo. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Turkey breed</rdfs:label>
@@ -868,7 +868,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400017"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
@@ -972,7 +972,8 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400019"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400020"/>
@@ -1333,29 +1334,29 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1549675"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9901"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400000"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
-        <obo:IAO_0000115>Vertebrate breed of domesticated birds of the taxon Galloanserae covering chicken, duck, goose, guinea fowl, pigeon, quail and turkey breeds kept by humans for the purpose of harvesting eggs, meat, or feathers or as pets. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400019"/>
+        <obo:IAO_0000115>Vertebrate breed of the taxon Bison bison. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
-        <rdfs:label>Poultry breed</rdfs:label>
+        <rdfs:label>American bison breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400006"/>
-        <oboInOwl:source>https://en.wikipedia.org/wiki/Poultry</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400019"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400031"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Vertebrate breed of domesticated birds of the taxon Galloanserae covering chicken, duck, goose, guinea fowl, pigeon, quail and turkey breeds kept by humans for the purpose of harvesting eggs, meat, or feathers or as pets. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
-        <oboInOwl:source>https://en.wikipedia.org/wiki/Poultry</oboInOwl:source>
+        <owl:annotatedTarget>Vertebrate breed of the taxon Bison bison. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
@@ -1432,108 +1433,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Vertebrate breed of the taxon Equidae. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0400034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0400034">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400000"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
-        <obo:IAO_0000115>Vertebrate breed of the taxon Anas platyrhynchos. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
-        <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
-        <rdfs:label>Domestic duck breed</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400034"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400034"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Vertebrate breed of the taxon Anas platyrhynchos. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0400035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0400035">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8841"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400000"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
-        <obo:IAO_0000115>Vertebrate breed of the taxon Anas platyrhynchos x Cairina moschata. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
-        <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
-        <rdfs:label>Domestic duck x Muscovy duck breed</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400035"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400035"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Vertebrate breed of the taxon Anas platyrhynchos x Cairina moschata. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0400036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0400036">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8855"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400000"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
-        <obo:IAO_0000115>Vertebrate breed of the taxon Cairina moschata. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
-        <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
-        <rdfs:label>Muscovy duck breed</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400036"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400008"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fao.org/dad-is</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400036"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Vertebrate breed of the taxon Cairina moschata. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
