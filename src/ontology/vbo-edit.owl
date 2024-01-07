@@ -13,15 +13,16 @@ Import(<http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/dadisbreedcountry.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/dadistransbound.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/components/livestockbreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/components/dogbreeds.owl>)
-Import(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/highlevelclass.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/components/livestockbreeds.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl>)
-Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/NCBITaxon_7742>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/VBO_0300000>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/VBO_0400000>)
 Annotation(dcterms:description "Vertebrate Breed Ontology is an ontology created to serve as a single computable resource for vertebrate breed names.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Vertebrate Breed Ontology")
@@ -99,5 +100,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#Sub
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
+
+
 
 )

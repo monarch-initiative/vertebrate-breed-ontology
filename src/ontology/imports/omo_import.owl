@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2023-09-28/imports/omo_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2023-08-23/omo.owl>)
-Annotation(owl:versionInfo "2023-09-28")
+<http://purl.obolibrary.org/obo/vbo/releases/2024-01-04/imports/omo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2023-11-02/omo.owl>)
+Annotation(owl:versionInfo "2024-01-04")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
@@ -105,6 +105,9 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003006>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003007>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003008>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003009>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003010>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003011>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003012>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/coverage>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
@@ -123,7 +126,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/type>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymType>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
@@ -193,7 +196,7 @@ We don't have definitions of 'meaning' or 'expression' or 'property'. For 'refer
 
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "@en)
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000115> "PERSON:Daniel Schober"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000115> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
@@ -512,7 +515,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003000> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003000> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003000> "abbreviation")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003000> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003000> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003001> (ambiguous synonym)
 
@@ -521,7 +524,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003001> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003001> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003001> "ambiguous synonym")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003001> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003001> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003002> (dubious synonym)
 
@@ -530,7 +533,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003002> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003002> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003002> "dubious synonym")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003002> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003002> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003003> (layperson synonym)
 
@@ -540,7 +543,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003003> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003003> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003003> "layperson synonym")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003003> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003003> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003004> (plural form)
 
@@ -550,7 +553,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003004> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003004> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003004> "plural form")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003004> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003004> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003005> (UK spelling synonym)
 
@@ -560,7 +563,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003005> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003005> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003005> "UK spelling synonym")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003005> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003005> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003006> (misspelling)
 
@@ -569,7 +572,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003006> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003006> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003006> "misspelling")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003006> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003006> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003007> (misnomer)
 
@@ -578,7 +581,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003007> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003007> "2023-03-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003007> "misnomer")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003007> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003007> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003008> (previous name)
 
@@ -588,7 +591,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003008> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003008> "2023-07-25"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003008> "previous name")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003008> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003008> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003009> (legal name)
 
@@ -598,7 +601,38 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003009> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003009> "2023-07-27"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003009> "legal name")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003009> <http://www.geneontology.org/formats/oboInOwl#SynonymType>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003009> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003010> (International Nonproprietary Name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003010> "CHEBI:46195 has been assigned the english International Nonproproprietary Name (INN) \"paracetamol\". In some cases such as this one, the INN might be the same as the ontology's primary label")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003010> "The International Nonproprietary Name (INN) is a standardize name for a pharmaceutical drug or active ingredient issued by the World Health Organization (WHO) meant to address the issues with country- or language-specific brand names. These are issued in several languages, including English, Latin, French, Russian, Spanish, Arabic, and Chinese.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003010> <https://github.com/information-artifact-ontology/ontology-metadata/issues/149>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003010> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003010> "2023-09-30"^^xsd:date)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OMO_0003010> "INN")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003010> "International Nonproprietary Name")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003010> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003011> (latin term)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003011> "nasopharynx (UBERON:0001728) has the latin name \"pars nasalis pharyngis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003011> "A synonym type for describing Latin term synonyms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003011> <https://github.com/information-artifact-ontology/ontology-metadata/issues/146>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003011> <https://orcid.org/0000-0002-1773-2692>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003011> "2023-10-12"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003011> "latin term")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003011> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003012> (acronym)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OMO_0003012> "NASA is an word acronym for the US National Aeronautics and Space Administration because the acronym is pronounced. FBI is an initialism (also known as alphabetism) for the US Federal Bureau of Investigation since the letters are pronounced one at a time. JPEG is an acronym for Joint Photographic Experts Group but does not count as a word acronym nor an initialism since it is mixed how it is pronounced.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMO_0003012> "A synonym type for describing abbreviations that are a part of the full name's words, such as initialisms or alphabetisms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/OMO_0003012> <https://github.com/information-artifact-ontology/ontology-metadata/issues/135>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OMO_0003012> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <http://purl.obolibrary.org/obo/OMO_0003012> "2023-11-01"^^xsd:date)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003012> "acronym")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003012> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> (has broad synonym)
 
