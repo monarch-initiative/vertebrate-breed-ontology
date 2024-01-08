@@ -38,17 +38,14 @@ def full_matching_workflow(
 
 def read_vbo_data(filename: str) -> pd.DataFrame:
     df = pd.read_table(filename, skiprows=[1]).convert_dtypes()
-    # TODO: remove this - just a manual fix until VBO is updated
-    logger.warning("Dropping duplicate entry for: VBO:0000991 - Icelandic Horse/Iceland Pony")
-    dup_entry = (df["VBO id"] == "VBO:0000991") & (df["term label"].isna())
-    return df.loc[~dup_entry, :]
+    return df
 
 
 def get_dadis_species(client: DadisClient) -> pd.DataFrame:
     resp = client.get_all_species()
     all_species = []
     for s in resp.response:
-        species = {"dadis_species_id": s.id, "species_name": s.name["en"]}
+        species = {"dadis_species_id": s.id, "dadis_species_name": s.name["en"]}
         all_species.append(species)
     return pd.DataFrame.from_records(all_species)
 
@@ -102,16 +99,17 @@ def get_simple_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFr
     canonical names. Return a dataframe containing the matches
     """
     dadis_canonical = get_canonical_dadis_transboundary(client=client)
+    # Ignore any VBO entries marked as duplicate while matching
+    match_data = vbo_data.query("to_be_ignored != 'duplicate'")[["vbo_id", "term_label", "dadis_name", "dadis_species_name"]]
     simple_matches = (
-        vbo_data[["VBO id", "term label", "DADIS_name", "DADIS_species_name"]]
-        .merge(
+        match_data.merge(
             dadis_canonical,
             how="left",
-            left_on=["DADIS_name", "DADIS_species_name"],
-            right_on=["dadis_breed_name", "species_name"],
+            left_on=["dadis_name", "dadis_species_name"],
+            right_on=["dadis_breed_name", "dadis_species_name"],
             sort=False,
         )
-        .drop(columns=["dadis_breed_name", "species_name"])
+        .drop(columns=["dadis_breed_name", "dadis_species_name"])
         .convert_dtypes()
     )
     return simple_matches
@@ -119,30 +117,28 @@ def get_simple_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFr
 
 def get_extra_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFrame:
     dadis_all = get_all_dadis_transboundary(client=client)
+    match_data = vbo_data.query("to_be_ignored != 'duplicate'")[["vbo_id", "term_label", "dadis_name", "dadis_species_name"]]
     extra_matches = (
-        vbo_data[["VBO id", "term label", "DADIS_name", "DADIS_species_name"]]
-        .merge(
+        match_data.merge(
             dadis_all,
             how="left",
-            left_on=["DADIS_name", "DADIS_species_name"],
-            right_on=["dadis_breed_name", "species_name"],
+            left_on=["dadis_name", "dadis_species_name"],
+            right_on=["dadis_breed_name", "dadis_species_name"],
             indicator=True,
             # Need to ensure we use sort=False so order stays consistent with original
             sort=False,
         )
-        .drop(columns=["dadis_breed_name", "species_name"])
+        .drop(columns=["dadis_breed_name", "dadis_species_name"])
         .convert_dtypes()
-        .drop_duplicates(subset=["VBO id", "dadis_transboundary_id"])
+        .drop_duplicates(subset=["vbo_id", "dadis_transboundary_id"])
     )
-    counts = extra_matches["VBO id"].value_counts()
-    duplicates = counts.loc[counts >= 2].index.tolist()
-    multiple_matches = extra_matches.loc[extra_matches["VBO id"].isin(duplicates), :]
-    n_multiple = multiple_matches["VBO id"].nunique()
-    logger.warning(
-        f"{n_multiple} VBO entries matched against multiple DADIS entries - will not be updated. Use --log=DEBUG to see them."
-    )
-    logger.debug(multiple_matches["VBO id"])
-    extra_matches = extra_matches.loc[~extra_matches["VBO id"].isin(duplicates), :]
+    counts = extra_matches["vbo_id"].value_counts()
+    duplicates = counts.loc[counts >=2 ].index.tolist()
+    multiple_matches = extra_matches.loc[extra_matches["vbo_id"].isin(duplicates), :]
+    n_multiple = multiple_matches["vbo_id"].nunique()
+    logger.info(f"{n_multiple} VBO entries matched against multiple DADIS entries - will not be updated.  Use --log=DEBUG to see them.")
+    logger.debug(multiple_matches["vbo_id"])
+    extra_matches = extra_matches.loc[~ extra_matches["vbo_id"].isin(duplicates), :]
     return extra_matches
 
 
@@ -158,9 +154,9 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
     logger.info("Matching to other DADIS names")
     extra_matches = get_extra_matches(vbo_data, client)
     all_matches = simple_matches.merge(
-        extra_matches[["VBO id", "dadis_transboundary_id", "dadis_species_id"]],
+        extra_matches[["vbo_id", "dadis_transboundary_id", "dadis_species_id"]],
         how="left",
-        on="VBO id",
+        on="vbo_id",
         suffixes=(None, "_extra"),
         sort=False,
     ).convert_dtypes()
@@ -176,8 +172,8 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
     logger.info(f"{n_matched} / {n_total} VBO entries matched with DADIS")
 
     return vbo_data.merge(
-        all_matches[["VBO id", "dadis_transboundary_id"]],
-        on="VBO id",
+        all_matches[["vbo_id", "dadis_transboundary_id"]],
+        on="vbo_id",
         how="left",
         sort=False,
     )
