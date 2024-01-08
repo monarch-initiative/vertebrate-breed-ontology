@@ -25,11 +25,13 @@ def full_matching_workflow(
     matched_breeds = match_vbo_breeds(vbo_data=vbo_data, client=client)
 
     logger.info(f"Writing output file to {output_filename}:")
+    # Create a TSV file object with the two rows of headers from the input file
     output_file = create_output_tsv(
         input_filename=input_filename,
         output_filename=output_filename,
         extra_cols=["dadis_transboundary_id"],
     )
+    # Write the actual data below the headers
     matched_breeds.to_csv(output_file, sep="\t", index=False, header=False)
     output_file.close()
     logger.info("Output written.")
