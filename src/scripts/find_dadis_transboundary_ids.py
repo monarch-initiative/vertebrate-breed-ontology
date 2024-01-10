@@ -8,7 +8,8 @@ import pandas as pd
 from dadis_client import DadisClient
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
 
 def full_matching_workflow(
     input_filename: str, output_filename: str, dadis_api_key: str
@@ -102,7 +103,9 @@ def get_simple_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFr
     """
     dadis_canonical = get_canonical_dadis_transboundary(client=client)
     # Ignore any VBO entries marked as duplicate while matching
-    match_data = vbo_data.query("to_be_ignored != 'duplicate'")[["vbo_id", "term_label", "dadis_name", "dadis_species_name"]]
+    match_data = vbo_data.query("to_be_ignored != 'duplicate'")[
+        ["vbo_id", "term_label", "dadis_name", "dadis_species_name"]
+    ]
     simple_matches = (
         match_data.merge(
             dadis_canonical,
@@ -119,7 +122,9 @@ def get_simple_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFr
 
 def get_extra_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFrame:
     dadis_all = get_all_dadis_transboundary(client=client)
-    match_data = vbo_data.query("to_be_ignored != 'duplicate'")[["vbo_id", "term_label", "dadis_name", "dadis_species_name"]]
+    match_data = vbo_data.query("to_be_ignored != 'duplicate'")[
+        ["vbo_id", "term_label", "dadis_name", "dadis_species_name"]
+    ]
     extra_matches = (
         match_data.merge(
             dadis_all,
@@ -135,12 +140,14 @@ def get_extra_matches(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFra
         .drop_duplicates(subset=["vbo_id", "dadis_transboundary_id"])
     )
     counts = extra_matches["vbo_id"].value_counts()
-    duplicates = counts.loc[counts >=2 ].index.tolist()
+    duplicates = counts.loc[counts >= 2].index.tolist()
     multiple_matches = extra_matches.loc[extra_matches["vbo_id"].isin(duplicates), :]
     n_multiple = multiple_matches["vbo_id"].nunique()
-    logger.info(f"{n_multiple} VBO entries matched against multiple DADIS entries - will not be updated.  Use --log=DEBUG to see them.")
+    logger.info(
+        f"{n_multiple} VBO entries matched against multiple DADIS entries - will not be updated.  Use --log=DEBUG to see them."
+    )
     logger.debug(multiple_matches["vbo_id"])
-    extra_matches = extra_matches.loc[~ extra_matches["vbo_id"].isin(duplicates), :]
+    extra_matches = extra_matches.loc[~extra_matches["vbo_id"].isin(duplicates), :]
     return extra_matches
 
 

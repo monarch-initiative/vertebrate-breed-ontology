@@ -8,13 +8,12 @@ import pandas as pd
 from dadis_client import DadisClient
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
 def full_local_match_workflow(
-    input_filename: str,
-    output_filename: str,
-    dadis_api_key: str) -> pd.DataFrame:
+    input_filename: str, output_filename: str, dadis_api_key: str
+) -> pd.DataFrame:
     """
     Perform the full matching workflow:
 
@@ -30,13 +29,13 @@ def full_local_match_workflow(
 
     logger.info(f"Writing output file to {output_filename}:")
     output_file = create_output_tsv(
-        input_filename=input_filename, 
-        output_filename=output_filename, 
+        input_filename=input_filename,
+        output_filename=output_filename,
         extra_cols=[
             "dadis_breed_id",
             "dadis_transboundary_id",
             "dadis_update_date",
-        ]
+        ],
     )
     matched_breeds.to_csv(output_file, sep="\t", index=False, header=False)
     output_file.close()
@@ -45,8 +44,12 @@ def full_local_match_workflow(
 
 
 def read_vbo_data(filename: str) -> pd.DataFrame:
-    vbo_breeds = pd.read_table(filename, sep="\t", skiprows=[1], low_memory=False).convert_dtypes()
-    logger.warning("Fixing swapped column names: dadis_species_name, dadis_country. Remove this code when input data is fixed")
+    vbo_breeds = pd.read_table(
+        filename, sep="\t", skiprows=[1], low_memory=False
+    ).convert_dtypes()
+    logger.warning(
+        "Fixing swapped column names: dadis_species_name, dadis_country. Remove this code when input data is fixed"
+    )
     country = vbo_breeds["dadis_species_name"].copy()
     species = vbo_breeds["dadis_country"].copy()
     vbo_breeds["dadis_country"] = country
@@ -66,18 +69,18 @@ def get_dadis_species(client: DadisClient) -> pd.DataFrame:
 def get_dadis_all_breeds(client: DadisClient) -> pd.DataFrame:
     resp = client.get_all_breeds()
     df = (
-        pd.DataFrame.from_records([
-            breed.model_dump() for breed in resp.response
-        ])
+        pd.DataFrame.from_records([breed.model_dump() for breed in resp.response])
         .convert_dtypes()
-        .rename(columns={
-            "id": "dadis_breed_id",
-            "name": "dadis_breed_name",
-            "iso3": "dadis_iso3_code",
-            "speciesId": "dadis_species_id",
-            "transboundaryId": "dadis_transboundary_id",
-            "updatedAt": "dadis_update_date"
-        })
+        .rename(
+            columns={
+                "id": "dadis_breed_id",
+                "name": "dadis_breed_name",
+                "iso3": "dadis_iso3_code",
+                "speciesId": "dadis_species_id",
+                "transboundaryId": "dadis_transboundary_id",
+                "updatedAt": "dadis_update_date",
+            }
+        )
     )
     df["dadis_update_date"] = df["dadis_update_date"].map(
         lambda d: pd.to_datetime(d, unit="ms")
@@ -86,6 +89,7 @@ def get_dadis_all_breeds(client: DadisClient) -> pd.DataFrame:
     species_df = get_dadis_species(client)
     df = df.merge(species_df, how="left", on="dadis_species_id")
     return df
+
 
 def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFrame:
     """
@@ -99,7 +103,7 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
         left_on=["dadis_name", "dadis_species_name", "dadis_iso3_code"],
         right_on=["dadis_breed_name", "dadis_species_name", "dadis_iso3_code"],
         sort=False,
-        indicator=True
+        indicator=True,
     )
     n_matched = merged["_merge"].eq("both").sum()
     n_total = len(merged["_merge"])
@@ -108,7 +112,9 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
     return merged
 
 
-def create_output_tsv(input_filename: str, output_filename: str, extra_cols: list[str] = None) -> TextIO:
+def create_output_tsv(
+    input_filename: str, output_filename: str, extra_cols: list[str] = None
+) -> TextIO:
     """
     Copy the 2 header lines from the input file to the output file. Return
     a file object for the output file, so pandas can write the rest of the file
@@ -123,7 +129,7 @@ def create_output_tsv(input_filename: str, output_filename: str, extra_cols: lis
                 if index == 0:
                     header += extra_cols
                 if index == 1:
-                    header += ['' for i in range(len(extra_cols))]
+                    header += ["" for i in range(len(extra_cols))]
             csv_out.writerow(header)
     return file_out
 
