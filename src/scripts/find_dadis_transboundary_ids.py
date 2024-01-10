@@ -8,7 +8,7 @@ import pandas as pd
 from dadis_client import DadisClient
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format='%(message)s')
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 def full_matching_workflow(
     input_filename: str, output_filename: str, dadis_api_key: str
