@@ -68,3 +68,10 @@ $(IMPORTDIR)/wikidata_import.owl: $(TMPDIR)/wikidata_labels.ttl
 
 .PHONY: wikidata
 wikidata: $(IMPORTDIR)/wikidata_import.owl
+
+$(COMPONENTSDIR)/dadisbreedcountry.tsv:
+	#pip install -U pip && pip install -U oaklib
+	python ../scripts/dadisbreedcountry-sync.py $@
+
+.PHONY: dadisbreedcountry
+dadis-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
