@@ -47,13 +47,6 @@ def read_vbo_data(filename: str) -> pd.DataFrame:
     vbo_breeds = pd.read_table(
         filename, sep="\t", skiprows=[1], low_memory=False
     ).convert_dtypes()
-    logger.warning(
-        "Fixing swapped column names: dadis_species_name, dadis_country. Remove this code when input data is fixed"
-    )
-    country = vbo_breeds["dadis_species_name"].copy()
-    species = vbo_breeds["dadis_country"].copy()
-    vbo_breeds["dadis_country"] = country
-    vbo_breeds["dadis_species_name"] = species
     return vbo_breeds
 
 
