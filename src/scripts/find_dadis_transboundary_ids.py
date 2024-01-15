@@ -1,6 +1,7 @@
 import argparse
 import csv
 import logging
+import os
 from typing import TextIO
 
 import pandas as pd
@@ -222,9 +223,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--dadis_api_key",
         help="API key for DADIS API (private: should be stored in Github Secrets)",
+        default=os.getenv("DADIS_API_KEY")
     )
-
     args = parser.parse_args()
+
+    if args.dadis_api_key is None:
+        raise ValueError("DADIS API key not set. Set the DADIS_API_KEY environment variable or use the --dadis_api_key argument")
+
     logger.setLevel(args.log.upper())
     full_matching_workflow(
         input_filename=args.input_filename,

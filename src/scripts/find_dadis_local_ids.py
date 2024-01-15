@@ -142,10 +142,11 @@ if __name__ == "__main__":
         help="API key for DADIS API (private: should be stored in Github Secrets)",
         default=os.getenv("DADIS_API_KEY")
     )
+    args = parser.parse_args()
+
     if args.dadis_api_key is None:
         raise ValueError("DADIS API key not set. Set the DADIS_API_KEY environment variable or use the --dadis_api_key argument")
 
-    args = parser.parse_args()
     logger.setLevel(args.log.upper())
     full_local_match_workflow(
         input_filename=args.input_filename,
