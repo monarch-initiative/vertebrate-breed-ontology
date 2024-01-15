@@ -11,8 +11,8 @@ DOGBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSuwLXikgq08
 BREEDSTATUS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk1AOht1rOoyXExlZu9KzCOtfIOoTGBxkVmJ6dvE9wuQ1Q7LfwMA93vF0yRPpG7GMq03mKFdV74YnG/pub?gid=1650821837&single=true&output=tsv"
 HIGHLEVELCLASS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpjOwuI9e1Imkdp40nPTw5cNKFjdpV9fHSHDIfcdXfod41sSogjFhWfas8Cjdpfa4lEVR0GyYxFDrE/pub?gid=2041564448&single=true&output=tsv"
 
-.PHONY: sync_dadistransbound
-.PHONY: sync_dadisbreedcountry
+.PHONY: dadis-transboundary-sync
+.PHONY: dadis-local-sync
 
 
 sync_google_sheets:
@@ -68,3 +68,18 @@ $(IMPORTDIR)/wikidata_import.owl: $(TMPDIR)/wikidata_labels.ttl
 
 .PHONY: wikidata
 wikidata: $(IMPORTDIR)/wikidata_import.owl
+
+$(COMPONENTSDIR)/dadisbreedcountry.tsv:
+	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
+	python ../scripts/find_dadis_local_ids.py --input_filename ./components/dadisbreedcountry.tsv --output_filename ./components/dadisbreedcountry.tsv
+
+$(COMPONENTSDIR)/dadistransbound.tsv:
+	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
+	python ../scripts/find_dadis_transboundary_ids.py --input_filename ./components/dadistransbound.tsv --output_filename ./components/dadistransbound.tsv
+
+
+.PHONY: dadisbreedcountry
+dadis-local-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
+
+.PHONY: dadistransbound
+dadis-transboundary-sync: $(COMPONENTSDIR)/dadistransbound.owl
