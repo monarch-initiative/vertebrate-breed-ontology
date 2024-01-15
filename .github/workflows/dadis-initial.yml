@@ -16,9 +16,12 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
-        
+      - name: Match VBO transboundary entries
+        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true IMP=false MIR=false dadis-transboundary-sync
+        env:
+          DADIS_API_KEY: ${{ secrets.DADIS_API_KEY }}
       - name: Match VBO breed-country entries
-        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true IMP=false MIR=false dadis-sync
+        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true IMP=false MIR=false dadis-local-sync
         env:
           DADIS_API_KEY: ${{ secrets.DADIS_API_KEY }}
       - name: Commit changes
