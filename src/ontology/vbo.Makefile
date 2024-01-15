@@ -73,5 +73,13 @@ $(COMPONENTSDIR)/dadisbreedcountry.tsv:
 	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
 	python ../scripts/find_dadis_local_ids.py --input_filename ./components/dadisbreedcountry.tsv --output_filename ./components/dadisbreedcountry.tsv
 
+$(COMPONENTSDIR)/dadistransbound.tsv:
+	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
+	python ../scripts/find_dadis_transboundary_ids.py --input_filename ./components/dadistransbound.tsv --output_filename ./components/dadistransbound.tsv
+
+
 .PHONY: dadisbreedcountry
 dadis-local-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
+
+.PHONY: dadistransbound
+dadis-transboundary-sync: $(COMPONENTSDIR)/dadistransbound.owl
