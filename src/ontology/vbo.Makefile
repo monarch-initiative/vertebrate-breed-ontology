@@ -71,7 +71,7 @@ wikidata: $(IMPORTDIR)/wikidata_import.owl
 
 $(COMPONENTSDIR)/dadisbreedcountry.tsv:
 	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
-	python ../scripts/dadisbreedcountry-sync.py $@
+	python ../scripts/find_dadis_local_ids.py --input_filename ./components/dadisbreedcountry.tsv --output_filename ./components/dadisbreedcountry.tsv
 
 .PHONY: dadisbreedcountry
-dadis-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
+dadis-local-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
