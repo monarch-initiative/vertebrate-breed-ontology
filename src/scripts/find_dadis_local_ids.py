@@ -2,7 +2,7 @@ import argparse
 import csv
 import logging
 import os
-from typing import TextIO
+from typing import Optional, TextIO
 
 import pandas as pd
 
@@ -13,7 +13,8 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
 def full_local_match_workflow(
-    input_filename: str, output_filename: str, dadis_api_key: str
+    input_filename: str, output_filename: str, dadis_api_key: str,
+    dadis_match_filename: Optional[str] = None
 ) -> pd.DataFrame:
     """
     Perform the full matching workflow:
@@ -41,6 +42,12 @@ def full_local_match_workflow(
     matched_breeds.to_csv(output_file, sep="\t", index=False, header=False)
     output_file.close()
     logger.info("Output written.")
+
+    if dadis_match_filename is not None:
+        logger.info("Finding unmatched DADIS entries")
+        dadis_unmatched = find_unmatched_dadis(vbo_output=matched_breeds, client=client)
+        logger.info(f"Writing unmatched DADIS entries to {dadis_match_filename}")
+        dadis_unmatched.to_csv(dadis_match_filename, sep="\t", index=False, header=True)
     return matched_breeds
 
 
@@ -106,6 +113,21 @@ def match_vbo_breeds(vbo_data: pd.DataFrame, client: DadisClient) -> pd.DataFram
     return merged
 
 
+def find_unmatched_dadis(vbo_output: pd.DataFrame, client: DadisClient) -> pd.DataFrame:
+    """
+    Merge all DADIS breeds with the already matched VBO data, to see how many DADIS entries
+    match in the other direction
+    """
+    dadis_all = get_dadis_all_breeds(client)
+    dadis_unmatched = (
+        dadis_all
+        .merge(vbo_output[["dadis_breed_id", "vbo_id"]], on="dadis_breed_id", how="left", indicator=True)
+        .loc[lambda x: x._merge == "left_only"]
+        .drop(columns=["_merge"])
+    )
+    return dadis_unmatched
+
+
 def create_output_tsv(
     input_filename: str, output_filename: str, extra_cols: list[str] = None
 ) -> TextIO:
@@ -142,6 +164,10 @@ if __name__ == "__main__":
         help="API key for DADIS API (private: should be stored in Github Secrets)",
         default=os.getenv("DADIS_API_KEY")
     )
+    parser.add_argument(
+        "--dadis_match_filename", help="Optional filename to write unmatched DADIS entries to",
+        default=None
+    )
     args = parser.parse_args()
 
     if args.dadis_api_key is None:
@@ -152,4 +178,5 @@ if __name__ == "__main__":
         input_filename=args.input_filename,
         output_filename=args.output_filename,
         dadis_api_key=args.dadis_api_key,
+        dadis_match_filename=args.dadis_match_filename
     )
