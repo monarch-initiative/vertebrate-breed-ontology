@@ -1,4 +1,4 @@
-name: Update breeds from DADIS
+name: Initial matching of VBO to DADIS
 on:
   workflow_dispatch:
   #schedule:
@@ -17,7 +17,7 @@ jobs:
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
         
-      - name: Refreshing DADIS related files
+      - name: Match VBO breed-country entries
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true IMP=false MIR=false dadis-sync
         env:
           DADIS_API_KEY: ${{ secrets.DADIS_API_KEY }}
