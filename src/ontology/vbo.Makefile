@@ -69,14 +69,23 @@ $(IMPORTDIR)/wikidata_import.owl: $(TMPDIR)/wikidata_labels.ttl
 .PHONY: wikidata
 wikidata: $(IMPORTDIR)/wikidata_import.owl
 
+ifeq ($(DADIS_API_KEY),)
 $(COMPONENTSDIR)/dadisbreedcountry.tsv:
-	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
+	@echo "WARNING: DADIS_API_KEY not set, skipping dadisbreedcountry.tsv"
+
+$(COMPONENTSDIR)/dadistransbound.tsv:
+	@echo "WARNING: DADIS_API_KEY not set, skipping dadistransbound.tsv"
+
+else
+$(COMPONENTSDIR)/dadisbreedcountry.tsv:
+	pip install pydantic>=2.5.3 pandas>=2.1.4
 	python ../scripts/find_dadis_local_ids.py --input_filename ./components/dadisbreedcountry.tsv --output_filename ./components/dadisbreedcountry.tsv
 
 $(COMPONENTSDIR)/dadistransbound.tsv:
-	pip install -U pip && pip install pydantic==2.5.3 pandas==2.1.4
+	pip install pydantic>=2.5.3 pandas>=2.1.4
 	python ../scripts/find_dadis_transboundary_ids.py --input_filename ./components/dadistransbound.tsv --output_filename ./components/dadistransbound.tsv
 
+endif
 
 .PHONY: dadisbreedcountry
 dadis-local-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
