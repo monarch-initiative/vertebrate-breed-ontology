@@ -2,6 +2,8 @@ import argparse
 import csv
 import logging
 import os
+import shutil
+from tempfile import NamedTemporaryFile
 from typing import Optional, TextIO
 
 import pandas as pd
@@ -29,19 +31,25 @@ def full_local_match_workflow(
     logger.info(f"Matching to DADIS data")
     matched_breeds = match_vbo_breeds(vbo_data=vbo_data, client=client)
 
-    logger.info(f"Writing output file to {output_filename}:")
-    output_file = create_output_tsv(
-        input_filename=input_filename,
-        output_filename=output_filename,
-        extra_cols=[
-            "dadis_breed_id",
-            "dadis_transboundary_id",
-            "dadis_update_date",
-        ],
-    )
-    matched_breeds.to_csv(output_file, sep="\t", index=False, header=False)
-    output_file.close()
-    logger.info("Output written.")
+    # We need to create a temporary file for the output, in case we're writing
+    #   to the same filename as the input: we don't want
+    #   to overwrite/clear the input file until we can read the header from it
+    logger.info(f"Creating temporary output TSV:")
+    with NamedTemporaryFile(mode="w", delete=False) as temp_out:
+        write_tsv_header(
+            input_filename=input_filename,
+            output_file=temp_out,
+            extra_cols=[
+                "dadis_breed_id",
+                "dadis_transboundary_id",
+                "dadis_update_date",
+            ],
+        )
+        matched_breeds.to_csv(temp_out, sep="\t", index=False, header=False)
+        temp_out.close()
+        logger.info("Output written to temp file.")
+        shutil.copy2(src=temp_out.name, dst=output_filename)
+        logger.info(f"Copied to {output_filename}")
 
     if dadis_match_filename is not None:
         logger.info("Finding unmatched DADIS entries")
@@ -128,15 +136,13 @@ def find_unmatched_dadis(vbo_output: pd.DataFrame, client: DadisClient) -> pd.Da
     return dadis_unmatched
 
 
-def create_output_tsv(
-    input_filename: str, output_filename: str, extra_cols: list[str] = None
-) -> TextIO:
+def write_tsv_header(
+    input_filename: str, output_file: TextIO, extra_cols: list[str] = None
+):
     """
-    Copy the 2 header lines from the input file to the output file. Return
-    a file object for the output file, so pandas can write the rest of the file
+    Copy the two header lines from the input file to output_file, adding the columns in extra_cols
     """
-    file_out = open(output_filename, "w")
-    csv_out = csv.writer(file_out, dialect="excel-tab")
+    csv_out = csv.writer(output_file, dialect="excel-tab")
     with open(input_filename) as file_in:
         csv_in = csv.reader(file_in, dialect="excel-tab")
         for index, line in enumerate(range(2)):
@@ -147,7 +153,6 @@ def create_output_tsv(
                 if index == 1:
                     header += ["" for i in range(len(extra_cols))]
             csv_out.writerow(header)
-    return file_out
 
 
 if __name__ == "__main__":
