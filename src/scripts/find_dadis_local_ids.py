@@ -45,6 +45,7 @@ def full_local_match_workflow(
                 "dadis_update_date",
             ],
         )
+        matched_breeds = clean_output(matched_breeds)
         matched_breeds.to_csv(temp_out, sep="\t", index=False, header=False)
         temp_out.close()
         logger.info("Output written to temp file.")
@@ -61,8 +62,17 @@ def full_local_match_workflow(
 
 def read_vbo_data(filename: str) -> pd.DataFrame:
     vbo_breeds = pd.read_table(
-        filename, sep="\t", skiprows=[1], low_memory=False
-    ).convert_dtypes()
+        filename,
+        sep="\t",
+        skiprows=[1],
+        dtype={"obsolete": str, "description_of_origin": str},
+        na_values=[],
+        low_memory=False
+    ).convert_dtypes(
+        infer_objects=False,
+        convert_string=False,
+        convert_boolean=False
+    )
     return vbo_breeds
 
 
@@ -153,6 +163,18 @@ def write_tsv_header(
                 if index == 1:
                     header += ["" for i in range(len(extra_cols))]
             csv_out.writerow(header)
+
+
+def clean_output(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Clean the dataframe before writing
+
+    * Convert any None values to empty strings
+    """
+    string_columns = df.select_dtypes(include="object").columns
+    for column in string_columns:
+        df[column] = df[column].fillna("")
+    return df
 
 
 if __name__ == "__main__":

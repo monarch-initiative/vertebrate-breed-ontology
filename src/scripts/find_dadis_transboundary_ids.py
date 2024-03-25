@@ -38,6 +38,7 @@ def full_matching_workflow(
             output_file=temp_out,
             extra_cols=["dadis_transboundary_id"],
         )
+        matched_breeds = clean_output(matched_breeds)
         # Write the actual data below the headers
         matched_breeds.to_csv(temp_out, sep="\t", index=False, header=False)
         temp_out.close()
@@ -48,7 +49,16 @@ def full_matching_workflow(
 
 
 def read_vbo_data(filename: str) -> pd.DataFrame:
-    df = pd.read_table(filename, skiprows=[1]).convert_dtypes()
+    df = pd.read_table(
+        filename,
+        skiprows=[1],
+        na_values=[],
+        dtype={"obsolete": str},
+    ).convert_dtypes(
+        infer_objects=False,
+        convert_string=False,
+        convert_boolean=False
+    )
     return df
 
 
@@ -213,6 +223,18 @@ def write_tsv_header(
                 if index == 1:
                     header += ["" for i in range(len(extra_cols))]
             csv_out.writerow(header)
+
+
+def clean_output(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Clean the dataframe before writing
+
+    * Convert any None values to empty strings
+    """
+    string_columns = df.select_dtypes(include="object").columns
+    for column in string_columns:
+        df[column] = df[column].fillna("")
+    return df
 
 
 if __name__ == "__main__":
