@@ -21,7 +21,7 @@ class Breed(BaseModel):
     name: str
     iso3: str
     speciesId: int
-    transboundaryId: str | None
+    transboundaryId: str | None = None
     # updatedAt uses empty str for null values
     updatedAt: int | None
 
