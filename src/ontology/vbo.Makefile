@@ -79,11 +79,11 @@ dadis-transboundary-sync:
 
 else
 dadis-local-sync:
-	pip install pydantic>=2.5.3 pandas>=2.1.4
+	pip install "pydantic>=2.5.3" "pandas>=2.1.4"
 	python ../scripts/find_dadis_local_ids.py --input_filename ./components/dadisbreedcountry.tsv --output_filename ./components/dadisbreedcountry.tsv
 
 dadis-transboundary-sync:
-	pip install pydantic>=2.5.3 pandas>=2.1.4
+	pip install "pydantic>=2.5.3" "pandas>=2.1.4"
 	python ../scripts/find_dadis_transboundary_ids.py --input_filename ./components/dadistransbound.tsv --output_filename ./components/dadistransbound.tsv
 
 endif
