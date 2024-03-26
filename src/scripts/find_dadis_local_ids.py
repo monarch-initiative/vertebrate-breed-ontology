@@ -67,6 +67,7 @@ def read_vbo_data(filename: str) -> pd.DataFrame:
         skiprows=[1],
         dtype={"obsolete": str, "description_of_origin": str},
         na_values=[],
+        keep_default_na=False,
         low_memory=False
     ).convert_dtypes(
         infer_objects=False,
