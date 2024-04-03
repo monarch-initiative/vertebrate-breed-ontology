@@ -29,10 +29,40 @@ sync_google_sheets:
 	wget $(HIGHLEVELCLASS_TEMPLATE) -O $(COMPONENTSDIR)/highlevelclass.tsv
 	wget $(LBO_TEMPLATE) -O $(COMPONENTSDIR)/lbo.tsv
 
+# NOTE TO EDITOR: FROM ODK 1.5. onwards, we need to add a goal for each component here:
 
-$(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
+$(COMPONENTSDIR)/dadistransbound.owl: $(COMPONENTSDIR)/dadistransbound.tsv $(SRC)
 	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/dadisbreedcountry.owl: $(COMPONENTSDIR)/dadisbreedcountry.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/livestockbreeds.owl: $(COMPONENTSDIR)/livestockbreeds.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/catbreeds.owl: $(COMPONENTSDIR)/catbreeds.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/dogbreeds.owl: $(COMPONENTSDIR)/dogbreeds.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/breedstatus.owl: $(COMPONENTSDIR)/breedstatus.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/highlevelclass.owl: $(COMPONENTSDIR)/highlevelclass.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/lbo.owl: $(COMPONENTSDIR)/lbo.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
 
 ################################
 ##### Reports ##################
