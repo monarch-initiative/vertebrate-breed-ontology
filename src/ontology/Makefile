@@ -448,6 +448,7 @@ $(COMPONENTSDIR)/%.owl: | $(COMPONENTSDIR)
 
 
 
+
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
