@@ -10,7 +10,7 @@ CATBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgt4XnMZ8dW
 DOGBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vSuwLXikgq08frK7d8yFSdWTS8P1erx5bS_QiLdHhfKV4ulJlRrqkVaVhC7b3O6Z8ixrvJgoCBy8YLq/pub?gid=1655315858&single=true&output=tsv"
 BREEDSTATUS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk1AOht1rOoyXExlZu9KzCOtfIOoTGBxkVmJ6dvE9wuQ1Q7LfwMA93vF0yRPpG7GMq03mKFdV74YnG/pub?gid=1650821837&single=true&output=tsv"
 HIGHLEVELCLASS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpjOwuI9e1Imkdp40nPTw5cNKFjdpV9fHSHDIfcdXfod41sSogjFhWfas8Cjdpfa4lEVR0GyYxFDrE/pub?gid=2041564448&single=true&output=tsv"
-
+LBO_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTiIZWsHBBfApE4jIXNp8O-c6gf1MJ-g79sLC6o6hxUDKb9ISvZjtwmv_jv6oMhQ0b0w4SYAlQ7WqmY/pub?gid=559994719&single=true&output=tsv"
 
 
 sync_google_sheets:
@@ -21,6 +21,7 @@ sync_google_sheets:
 	wget $(DOGBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/dogbreeds.tsv
 	wget $(BREEDSTATUS_TEMPLATE) -O $(COMPONENTSDIR)/breedstatus.tsv
 	wget $(HIGHLEVELCLASS_TEMPLATE) -O $(COMPONENTSDIR)/highlevelclass.tsv
+	wget $(LBO_TEMPLATE) -O $(COMPONENTSDIR)/lbo.tsv
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
