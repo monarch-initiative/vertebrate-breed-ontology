@@ -93,3 +93,12 @@ dadis-local-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
 
 .PHONY: dadistransbound
 dadis-transboundary-sync: $(COMPONENTSDIR)/dadistransbound.owl
+
+###########################################
+##### Release preprocessing ###############
+###########################################
+
+$(EDIT_PREPROCESSED): $(SRC)
+	$(ROBOT) merge --input $< --output $@.merged.owl
+	owltools --use-catalog $@.merged.owl --merge-axiom-annotations -o -f owl $@.normalised.owl
+	$(ROBOT) convert --input $@.normalised.owl --format ofn --output $@
