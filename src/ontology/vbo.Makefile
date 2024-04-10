@@ -134,5 +134,6 @@ dadis-transboundary-sync: $(COMPONENTSDIR)/dadistransbound.owl
 ###########################################
 
 $(EDIT_PREPROCESSED): $(SRC)
-	owltools --use-catalog  $(SRC) --merge-axiom-annotations -o -f owl $@.normalised.owl
+	$(ROBOT) merge --input $< --output $@.merged.owl
+	owltools --use-catalog $@.merged.owl --merge-axiom-annotations -o -f owl $@.normalised.owl
 	$(ROBOT) convert --input $@.normalised.owl --format ofn --output $@
