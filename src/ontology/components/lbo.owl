@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vbo/components/lbo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vbo/components/lbo.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vbo="http://purl.obolibrary.org/obo/vbo#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vbo/components/lbo.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/vbo#origindescription -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000216">
+        <vbo:origindescription>Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)</vbo:origindescription>
+        <oboInOwl:hasDbXref>LBO:0001094</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Girolando</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001094</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0001094</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Girolando</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001094</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000257">
+        <vbo:origindescription>Hardy beef breed from Russia and Kazakhstan.</vbo:origindescription>
+        <oboInOwl:hasDbXref>LBO:0001078</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Kazakh Whiteheaded</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000257"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>Hardy beef breed from Russia and Kazakhstan.</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001078</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000257"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0001078</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000257"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Kazakh Whiteheaded</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001078</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000361">
+        <vbo:origindescription>Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.</vbo:origindescription>
+        <oboInOwl:hasDbXref>LBO:0001116</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Bruna de Maramures</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Romanian Brown</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000361"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Romanian Brown</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001116</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000361"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001116</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000361"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0001116</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000361"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Bruna de Maramures</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001116</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0000639">
+        <oboInOwl:hasDbXref>LBO:0000320</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Naked Neck</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Transylvanian Naked Neck</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Turken</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000639"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0000320</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000639"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Naked Neck</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0000320</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000639"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Transylvanian Naked Neck</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0000320</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0000639"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Turken</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0000320</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0001304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001304">
+        <vbo:origindescription>Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool</vbo:origindescription>
+        <oboInOwl:hasDbXref>LBO:0001098</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Assaf</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001304"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001098</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0001098</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Assaf</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001098</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0001320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001320">
+        <vbo:origindescription>One of the main sheep breeds in Egypt, well-adapted to the desert environment.</vbo:origindescription>
+        <oboInOwl:hasDbXref>LBO:0001087</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Barki</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001320"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>One of the main sheep breeds in Egypt, well-adapted to the desert environment.</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001087</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001320"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0001087</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001320"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Barki</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001087</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0001669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0001669">
+        <vbo:origindescription>Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.</vbo:origindescription>
+        <oboInOwl:hasDbXref>LBO:0001096</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Black Velay</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Noire du Velay</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001669"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001096</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001669"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>LBO:0001096</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001669"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Black Velay</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001096</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0001669"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Noire du Velay</owl:annotatedTarget>
+        <oboInOwl:source>LBO:0001096</oboInOwl:source>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

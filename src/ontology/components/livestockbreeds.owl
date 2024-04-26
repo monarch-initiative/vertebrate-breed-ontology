@@ -188,7 +188,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016878">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <terms:contributor>http://orcid.org/0000-0002-9178-3965</terms:contributor>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-9178-3965"/>
         <terms:source>PMID:34904261</terms:source>
         <oboInOwl:hasExactSynonym>Xiushui Yellow</oboInOwl:hasExactSynonym>
         <rdfs:label>Xiushui Yellow (Chicken)</rdfs:label>
@@ -221,7 +221,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016879">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <terms:contributor>http://orcid.org/0000-0002-9178-3965</terms:contributor>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-9178-3965"/>
         <terms:source>PMID:30572816</terms:source>
         <oboInOwl:hasExactSynonym>Kirin</oboInOwl:hasExactSynonym>
         <rdfs:label>Kirin (Chicken)</rdfs:label>
@@ -254,7 +254,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016880">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <terms:contributor>http://orcid.org/0000-0002-9178-3965</terms:contributor>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-9178-3965"/>
         <terms:source>PMID:34084911</terms:source>
         <oboInOwl:hasExactSynonym>Sunite</oboInOwl:hasExactSynonym>
         <rdfs:label>Sunite (Sheep)</rdfs:label>
@@ -287,7 +287,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016881">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <terms:contributor>https://orcid.org/0000-0002-9178-3965</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>PMID:24376820</terms:source>
         <oboInOwl:hasExactSynonym>Lionhead Dwarf</oboInOwl:hasExactSynonym>
         <rdfs:label>Lionhead Dwarf (Rabbit)</rdfs:label>
@@ -354,7 +354,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>Gaited breed of horse that originated in America and are the state horse of Alabama. They are known for their singlefoot gait.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://encyclopediaofalabama.org/article/horses-in-alabama/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rackinghorse.org/</terms:source>
         <oboInOwl:hasExactSynonym>Racking Horse</oboInOwl:hasExactSynonym>
@@ -398,7 +398,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>Naturally gaited horse breed characterized by spotted color patterns such as tobiano and overo.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://imh.org/exhibits/past/breeds-of-the-world/north-america/spotted-saddle-horse/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nssha.com/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sshbea.org/</terms:source>
@@ -447,10 +447,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>The Persian sheep is a fat-tailed breed of domestic sheep from Somalia, Africa, bred primarily for meat.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/114</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0002-4142-7153</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5002-8648</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5520-6597</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-9178-3965</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://hooggekraal.co.za/persian-sheep-from-south-africa-for-export/</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://southafrica.co.za/breeds-sheep-meat-south-africa.html</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.australianpersiansheepassociation.com/</terms:source>
@@ -488,9 +488,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/123#event-10864410010</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0002-4142-7153</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5002-8648</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5520-6597</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
         <terms:source>PMID:37893942</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.australianwhites.com.au/breed-standards/</terms:source>
         <oboInOwl:hasExactSynonym>Australian White</oboInOwl:hasExactSynonym>
@@ -520,9 +520,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9793"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/133</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0002-4142-7153</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5002-8648</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5520-6597</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
         <terms:source>PMID:25887951</terms:source>
         <oboInOwl:hasExactSynonym>American Miniature Donkey</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Miniature Donkey</oboInOwl:hasExactSynonym>
@@ -558,7 +558,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of horse founded in Nebraska in the early to mid 20th century. The founder was an all white (&quot;albino&quot;) horse, which all is the predominant phenotypic trait in all members of the breed today. The breed was later used as in circuses, movies, and as pleasure horses.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://web.archive.org/web/20080424055729</terms:source>
         <oboInOwl:hasExactSynonym>American Albino</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Crème and White Horse</oboInOwl:hasExactSynonym>
@@ -607,7 +607,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of draft horse known for their leopard coat color.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.sugarbushharlequindraft.com/</terms:source>
         <oboInOwl:hasExactSynonym>American Sugarbush Harlequin Draft</oboInOwl:hasExactSynonym>
         <rdfs:label>American Sugarbush Harlequin Draft (Horse)</rdfs:label>
@@ -642,7 +642,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of draft horse developed in the mid to late 20th century. Like American Albinos, they are known for their all-white coat color.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://sites.google.com/site/theamericanwhites/history</terms:source>
         <oboInOwl:hasExactSynonym>American White Draft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American White Draft Horse</oboInOwl:hasExactSynonym>
@@ -691,7 +691,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>The Blazer Horse is a small breed of riding horse developed in Wyoming in the mid 20th century.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://blazertimes.wixsite.com/blazer/about</terms:source>
         <oboInOwl:hasExactSynonym>Blazer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Blazer Horse</oboInOwl:hasExactSynonym>
@@ -733,7 +733,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>The Carolina Marsh Tacky is a gaited breed of horse descended from Colonial Spanish horses and is only found in South Carolina.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source>PMID: 22221025</terms:source>
         <oboInOwl:hasExactSynonym>Carolina Marsh Tacky</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Marsh Tacky</oboInOwl:hasExactSynonym>
@@ -775,7 +775,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>A feral breed of ponies found on the island of Assateague, Virginia/Maryland.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nps.gov/asis/learn/nature/horses.htm; https://www.chincoteagueponyassociation.com/breed-information.html</terms:source>
         <oboInOwl:hasExactSynonym>Assateague Horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Chincoteague Pony</oboInOwl:hasExactSynonym>
@@ -824,7 +824,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of riding horse founded in Montana, known for their hardiness and running-walk gait</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thegaitedhorse.com/montana_travler.htm</terms:source>
         <oboInOwl:hasExactSynonym>Montana Traveler</oboInOwl:hasExactSynonym>
         <rdfs:label>Montana Traveler (Horse)</rdfs:label>
@@ -859,7 +859,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>A type of Spanish of riding horse that was brought to the Americas during colonization. These horses were foundational to many North and South American breeds of horses and the modern Spanish breeds. Recent efforts are reviving the breed using Jennet type horses found in modern breeds.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source>ISBN:9781403966216</terms:source>
         <oboInOwl:hasExactSynonym>Jennet</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Spanish Jennet</oboInOwl:hasExactSynonym>
@@ -901,7 +901,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of sport horse horse developed in California in the late 20th century and early 21st century. They are known for their leopard coat color and versatility.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.stonewallsporthorse.org/</terms:source>
         <oboInOwl:hasExactSynonym>Stonewall Sporthorse</oboInOwl:hasExactSynonym>
         <rdfs:label>Stonewall Sporthorse (Horse)</rdfs:label>
@@ -936,7 +936,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of gaited horse known for their spotted coat and smooth gaits</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tigrehorse.org/;</terms:source>
         <oboInOwl:hasExactSynonym>Tiger Horse</oboInOwl:hasExactSynonym>
         <rdfs:label>Tiger Horse (Horse)</rdfs:label>
@@ -971,7 +971,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>An American breed of harness horse developed developed with Standardbreds, Hackney Horses, Welsh Ponies, and Shetland Ponies. They can be found at Trottingbred races in the Midwest of the United States.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/108</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0001-6238-9793</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.itpa.biz/about-us</terms:source>
         <oboInOwl:hasExactSynonym>Trottingbred</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Trottingbred Horse</oboInOwl:hasExactSynonym>
@@ -1012,8 +1012,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/152</obo:IAO_0000233>
-        <terms:contributor>https://orcid.org/0000-0002-5002-8648</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-5520-6597</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
         <terms:source>PMID:1162186</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/G%C3%B6ttingen_minipig</terms:source>
         <oboInOwl:hasExactSynonym>Goettingen miniature pig</oboInOwl:hasExactSynonym>

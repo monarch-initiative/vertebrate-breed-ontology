@@ -1,0 +1,9 @@
+vbo_id	term_label	LBO ID	source_for_xref1	LBO name	LBO ID	LBO synonyms	LBO ID	description_of_origin	source_for_description_of_origin
+ID		A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source	A http://purl.obolibrary.org/obo/vbo#origindescription	>A oboInOwl:source
+VBO:0000216	Girolando (Cattle)	LBO:0001094	https://orcid.org/0000-0002-5002-8648	Girolando	LBO:0001094			Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)	LBO:0001094
+VBO:0000257	Kazakh Whiteheaded (Cattle)	LBO:0001078	https://orcid.org/0000-0002-5002-8648	Kazakh Whiteheaded	LBO:0001078			Hardy beef breed from Russia and Kazakhstan.	LBO:0001078
+VBO:0000361	Romanian Brown (Cattle)	LBO:0001116	https://orcid.org/0000-0002-5002-8648	Romanian Brown	LBO:0001116	Bruna de Maramures	LBO:0001116	Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.	LBO:0001116
+VBO:0001304	Assaf (Sheep)	LBO:0001098	https://orcid.org/0000-0002-5002-8648	Assaf	LBO:0001098			Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool	LBO:0001098
+VBO:0001320	Barki (Sheep)	LBO:0001087	https://orcid.org/0000-0002-5002-8648	Barki	LBO:0001087			One of the main sheep breeds in Egypt, well-adapted to the desert environment.	LBO:0001087
+VBO:0001669	Velay Black (Sheep)	LBO:0001096	https://orcid.org/0000-0002-5002-8648	Noire du Velay	LBO:0001096	Black Velay	LBO:0001096	Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.	LBO:0001096
+VBO:0000639	Transylvanian Naked Neck (Chicken)	LBO:0000320	https://orcid.org/0000-0002-5002-8648	Turken	LBO:0000320	Transylvanian Naked Neck|Naked Neck	LBO:0000320		

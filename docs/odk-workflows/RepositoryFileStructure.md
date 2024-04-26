@@ -40,3 +40,4 @@ These are the components in VBO
 | dogbreeds.owl | None |
 | breedstatus.owl | None |
 | highlevelclass.owl | None |
+| lbo.owl | None |

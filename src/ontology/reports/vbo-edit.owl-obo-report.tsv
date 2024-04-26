@@ -111,6 +111,7 @@ WARN	annotation_whitespace	VBO:0201447	oboInOwl:hasExactSynonym	Yoodle
 WARN	annotation_whitespace	VBO:0201451	oboInOwl:hasExactSynonym	Mountain Dog 
 WARN	annotation_whitespace	VBO:0300002	IAO:0000115	Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. 
 WARN	annotation_whitespace	VBO:0300004	IAO:0000115	Breed recognition status referring to a breed that is reported by an international organization but not recognized. 
+WARN	annotation_whitespace	VBO:0300009	rdfs:comment	Risk of extinction is determined using matrix based on the breeding population and reproductive capacity of the breed (https://www.fao.org/dad-is). It should be noted that the extinction risk criteria might differ between the international breed organizations. 
 WARN	annotation_whitespace	VBO:0300010	IAO:0000115	Extinction status given to a group of animals in which the number of breeding males and/or females is sufficient to maintain the existence of the breed. 
 WARN	annotation_whitespace	VBO:0300011	IAO:0000115	Extinction status given to a group of animals in which the breeding population (ie number of breeding males and/or females, and/or the number of living animals belonging to a breed) is reduced to a level that is threatening the existence of the breed. 
 WARN	annotation_whitespace	VBO:0400000	IAO:0000115	A group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two. 
@@ -2258,6 +2259,7 @@ WARN	duplicate_exact_synonym	VBO:0008140	oboInOwl:hasExactSynonym	Shekhawati
 WARN	duplicate_exact_synonym	VBO:0016028	oboInOwl:hasExactSynonym	Shekhawati
 WARN	duplicate_exact_synonym	VBO:0200680	oboInOwl:hasExactSynonym	Sheepdog - Hungarian
 WARN	duplicate_exact_synonym	VBO:0200779	oboInOwl:hasExactSynonym	Sheepdog - Hungarian
+WARN	duplicate_exact_synonym	VBO:0015668	oboInOwl:hasExactSynonym	sheep
 WARN	duplicate_exact_synonym	VBO:0005942	oboInOwl:hasExactSynonym	Shaver Starcross 579
 WARN	duplicate_exact_synonym	VBO:0005943	oboInOwl:hasExactSynonym	Shaver Starcross 579
 WARN	duplicate_exact_synonym	VBO:0005467	oboInOwl:hasExactSynonym	Shaver starcross 288
@@ -3329,8 +3331,6 @@ WARN	duplicate_exact_synonym	VBO:0002673	oboInOwl:hasExactSynonym	Pyun
 WARN	duplicate_exact_synonym	VBO:0002674	oboInOwl:hasExactSynonym	Pyun
 WARN	duplicate_exact_synonym	VBO:0002675	oboInOwl:hasExactSynonym	Pyun
 WARN	duplicate_exact_synonym	VBO:0002676	oboInOwl:hasExactSynonym	Pyun
-WARN	duplicate_exact_synonym	VBO:0200629	oboInOwl:hasExactSynonym	Pyrenean Mountain Dog
-WARN	duplicate_exact_synonym	VBO:0201113	oboInOwl:hasExactSynonym	Pyrenean Mountain Dog
 WARN	duplicate_exact_synonym	VBO:0000347	oboInOwl:hasExactSynonym	Pyrenean
 WARN	duplicate_exact_synonym	VBO:0000822	oboInOwl:hasExactSynonym	Pyrenean
 WARN	duplicate_exact_synonym	VBO:0009080	oboInOwl:hasExactSynonym	Pyrenean
@@ -4449,6 +4449,8 @@ WARN	duplicate_exact_synonym	VBO:0010828	oboInOwl:hasExactSynonym	Nonius
 WARN	duplicate_exact_synonym	VBO:0010829	oboInOwl:hasExactSynonym	Nonius
 WARN	duplicate_exact_synonym	VBO:0002119	oboInOwl:hasExactSynonym	Nondescript
 WARN	duplicate_exact_synonym	VBO:0005166	oboInOwl:hasExactSynonym	Nondescript
+WARN	duplicate_exact_synonym	VBO:0001669	oboInOwl:hasExactSynonym	Noire du Velay
+WARN	duplicate_exact_synonym	VBO:0015495	oboInOwl:hasExactSynonym	Noire du Velay
 WARN	duplicate_exact_synonym	VBO:0011809	oboInOwl:hasExactSynonym	Nogai
 WARN	duplicate_exact_synonym	VBO:0016425	oboInOwl:hasExactSynonym	Nogai
 WARN	duplicate_exact_synonym	VBO:0000321	oboInOwl:hasExactSynonym	Nkone
@@ -4717,6 +4719,7 @@ WARN	duplicate_exact_synonym	VBO:0005007	oboInOwl:hasExactSynonym	Nandi
 WARN	duplicate_exact_synonym	VBO:0016188	oboInOwl:hasExactSynonym	Nandi
 WARN	duplicate_exact_synonym	VBO:0005393	oboInOwl:hasExactSynonym	Namaqua
 WARN	duplicate_exact_synonym	VBO:0016618	oboInOwl:hasExactSynonym	Namaqua
+WARN	duplicate_exact_synonym	VBO:0000639	oboInOwl:hasExactSynonym	Naked Neck
 WARN	duplicate_exact_synonym	VBO:0006478	oboInOwl:hasExactSynonym	Naked Neck
 WARN	duplicate_exact_synonym	VBO:0006595	oboInOwl:hasExactSynonym	Naked Neck
 WARN	duplicate_exact_synonym	VBO:0006603	oboInOwl:hasExactSynonym	Naked Neck
@@ -8155,8 +8158,6 @@ WARN	duplicate_exact_synonym	VBO:0014895	oboInOwl:hasExactSynonym	Great Tibetan 
 WARN	duplicate_exact_synonym	VBO:0014896	oboInOwl:hasExactSynonym	Great Tibetan Sheep
 WARN	duplicate_exact_synonym	VBO:0014897	oboInOwl:hasExactSynonym	Great Tibetan Sheep
 WARN	duplicate_exact_synonym	VBO:0014898	oboInOwl:hasExactSynonym	Great Tibetan Sheep
-WARN	duplicate_exact_synonym	VBO:0200629	oboInOwl:hasExactSynonym	Great Pyrenees
-WARN	duplicate_exact_synonym	VBO:0201113	oboInOwl:hasExactSynonym	Great Pyrenees
 WARN	duplicate_exact_synonym	VBO:0014895	oboInOwl:hasExactSynonym	Great Pamir Sheep
 WARN	duplicate_exact_synonym	VBO:0014896	oboInOwl:hasExactSynonym	Great Pamir Sheep
 WARN	duplicate_exact_synonym	VBO:0014897	oboInOwl:hasExactSynonym	Great Pamir Sheep
@@ -8399,6 +8400,7 @@ WARN	duplicate_exact_synonym	VBO:0001420	oboInOwl:hasExactSynonym	Galway
 WARN	duplicate_exact_synonym	VBO:0004796	oboInOwl:hasExactSynonym	Galway
 WARN	duplicate_exact_synonym	VBO:0014639	oboInOwl:hasExactSynonym	Galway
 WARN	duplicate_exact_synonym	VBO:0014640	oboInOwl:hasExactSynonym	Galway
+WARN	duplicate_exact_synonym	VBO:0006080	oboInOwl:hasExactSynonym	Gallus domesticus
 WARN	duplicate_exact_synonym	VBO:0000207	oboInOwl:hasExactSynonym	Galloway
 WARN	duplicate_exact_synonym	VBO:0002406	oboInOwl:hasExactSynonym	Galloway
 WARN	duplicate_exact_synonym	VBO:0002883	oboInOwl:hasExactSynonym	Galloway
@@ -9360,6 +9362,7 @@ WARN	duplicate_exact_synonym	VBO:0005984	oboInOwl:hasExactSynonym	Dominique
 WARN	duplicate_exact_synonym	VBO:0005985	oboInOwl:hasExactSynonym	Dominique
 WARN	duplicate_exact_synonym	VBO:0004694	oboInOwl:hasExactSynonym	Domiati
 WARN	duplicate_exact_synonym	VBO:0008446	oboInOwl:hasExactSynonym	Domiati
+WARN	duplicate_exact_synonym	VBO:0010134	oboInOwl:hasExactSynonym	Domestic goose
 WARN	duplicate_exact_synonym	VBO:0012172	oboInOwl:hasExactSynonym	Dome
 WARN	duplicate_exact_synonym	VBO:0012173	oboInOwl:hasExactSynonym	Dome
 WARN	duplicate_exact_synonym	VBO:0015721	oboInOwl:hasExactSynonym	Dome
@@ -11495,6 +11498,7 @@ WARN	duplicate_exact_synonym	VBO:0011710	oboInOwl:hasExactSynonym	Bityugskaya
 WARN	duplicate_exact_synonym	VBO:0016402	oboInOwl:hasExactSynonym	Bityugskaya
 WARN	duplicate_exact_synonym	VBO:0011710	oboInOwl:hasExactSynonym	Bityug
 WARN	duplicate_exact_synonym	VBO:0016402	oboInOwl:hasExactSynonym	Bityug
+WARN	duplicate_exact_synonym	VBO:0004775	oboInOwl:hasExactSynonym	Bison
 WARN	duplicate_exact_synonym	VBO:0001115	oboInOwl:hasExactSynonym	Bisaro
 WARN	duplicate_exact_synonym	VBO:0012016	oboInOwl:hasExactSynonym	Bisaro
 WARN	duplicate_exact_synonym	VBO:0005257	oboInOwl:hasExactSynonym	Bimal
@@ -11949,6 +11953,7 @@ WARN	duplicate_exact_synonym	VBO:0007634	oboInOwl:hasExactSynonym	Bantam
 WARN	duplicate_exact_synonym	VBO:0007760	oboInOwl:hasExactSynonym	Bantam
 WARN	duplicate_exact_synonym	VBO:0007771	oboInOwl:hasExactSynonym	Bantam
 WARN	duplicate_exact_synonym	VBO:0007779	oboInOwl:hasExactSynonym	Bantam
+WARN	duplicate_exact_synonym	VBO:0007779	oboInOwl:hasExactSynonym	bantam
 WARN	duplicate_exact_synonym	VBO:0008570	oboInOwl:hasExactSynonym	Bantam
 WARN	duplicate_exact_synonym	VBO:0016056	oboInOwl:hasExactSynonym	Bannur
 WARN	duplicate_exact_synonym	VBO:0016202	oboInOwl:hasExactSynonym	Bannur
@@ -29939,6 +29944,7 @@ WARN	missing_definition	VBO:0016881	IAO:0000115
 WARN	missing_definition	VBO:0016882	IAO:0000115	
 WARN	missing_definition	VBO:0016886	IAO:0000115	
 WARN	missing_definition	VBO:0016887	IAO:0000115	
+WARN	missing_definition	VBO:0016899	IAO:0000115	
 WARN	missing_definition	VBO:0100000	IAO:0000115	
 WARN	missing_definition	VBO:0100001	IAO:0000115	
 WARN	missing_definition	VBO:0100002	IAO:0000115	
@@ -31281,7 +31287,6 @@ WARN	missing_definition	VBO:0201108	IAO:0000115
 WARN	missing_definition	VBO:0201109	IAO:0000115	
 WARN	missing_definition	VBO:0201110	IAO:0000115	
 WARN	missing_definition	VBO:0201111	IAO:0000115	
-WARN	missing_definition	VBO:0201113	IAO:0000115	
 WARN	missing_definition	VBO:0201114	IAO:0000115	
 WARN	missing_definition	VBO:0201115	IAO:0000115	
 WARN	missing_definition	VBO:0201116	IAO:0000115	
