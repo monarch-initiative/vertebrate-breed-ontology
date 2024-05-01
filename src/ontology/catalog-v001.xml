@@ -18,6 +18,7 @@
   <uri name="http://purl.obolibrary.org/obo/vbo/components/dogbreeds.owl" uri="components/dogbreeds.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/highlevelclass.owl" uri="components/highlevelclass.owl"/>
   <uri name="http://purl.obolibrary.org/obo/vbo/components/lbo.owl" uri="components/lbo.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/vbo/components/relation.owl" uri="components/relation.owl"/>
 
 
 </group>
