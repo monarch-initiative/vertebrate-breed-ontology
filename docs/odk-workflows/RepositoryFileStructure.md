@@ -41,3 +41,4 @@ These are the components in VBO
 | breedstatus.owl | None |
 | highlevelclass.owl | None |
 | lbo.owl | None |
+| relation.owl | None |

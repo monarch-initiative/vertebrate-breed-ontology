@@ -18,7 +18,7 @@
 # 5. [Run QC](test)
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                d9e82c53b032863094c9b3ad16a3a8c601354db4a25bc9d766a02fe10b199584
+CONFIG_HASH=                2d1bccf970957f84360642eb62b12bfdc9dbed11fb744fafcd2ace889101643b
 
 
 # ----------------------------------------
@@ -61,7 +61,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/dadistransbound.owl $(COMPONENTSDIR)/dadisbreedcountry.owl $(COMPONENTSDIR)/livestockbreeds.owl $(COMPONENTSDIR)/catbreeds.owl $(COMPONENTSDIR)/dogbreeds.owl $(COMPONENTSDIR)/breedstatus.owl $(COMPONENTSDIR)/highlevelclass.owl $(COMPONENTSDIR)/lbo.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/dadistransbound.owl $(COMPONENTSDIR)/dadisbreedcountry.owl $(COMPONENTSDIR)/livestockbreeds.owl $(COMPONENTSDIR)/catbreeds.owl $(COMPONENTSDIR)/dogbreeds.owl $(COMPONENTSDIR)/breedstatus.owl $(COMPONENTSDIR)/highlevelclass.owl $(COMPONENTSDIR)/lbo.owl $(COMPONENTSDIR)/relation.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -440,6 +440,7 @@ no-mirror-recreate-%:
 $(COMPONENTSDIR)/%.owl: | $(COMPONENTSDIR)
 	test -f $@ || touch $@
 .PRECIOUS: $(COMPONENTSDIR)/%.owl
+
 
 
 

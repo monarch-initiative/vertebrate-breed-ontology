@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl#"
      xml:base="http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:vbo="http://purl.obolibrary.org/obo/vbo#"
@@ -21,6 +22,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
     
 
 
@@ -69,11 +76,40 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300019 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VBO_0300019"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2576912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2576912"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_61376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_61376"/>
     
 
 
@@ -194,6 +230,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf rdf:nodeID="genid9"/>
+        <rdfs:subClassOf rdf:nodeID="genid11"/>
         <vbo:breed_code>ALP</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -205,6 +243,32 @@
         <oboInOwl:hasExactSynonym>Alpine Lynx</oboInOwl:hasExactSynonym>
         <rdfs:label>Alpine Lynx (Cat)</rdfs:label>
     </owl:Class>
+    <owl:Restriction rdf:nodeID="genid9">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100082"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid11">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+    </owl:Restriction>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid9"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/alpine-lynx/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid11"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/alpine-lynx/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
+        <owl:annotatedTarget>ALP</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
@@ -224,12 +288,6 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
-        <owl:annotatedTarget>ALP</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -1168,6 +1226,19 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>American Wirehair</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cfa.org/breeds/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_amw.php</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100021"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
@@ -1207,19 +1278,6 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100021"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>American Wirehair</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cfa.org/breeds/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_amw.php</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -1242,14 +1300,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100022"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Anatoli</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_ana.php</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100022"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
@@ -1266,6 +1316,14 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100022"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anatoli</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_ana.php</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -1697,6 +1755,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf rdf:nodeID="genid144"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
@@ -1706,12 +1765,22 @@
         <oboInOwl:hasExactSynonym>Tiffanie</oboInOwl:hasExactSynonym>
         <rdfs:label>Asian Semi-longhair (Cat)</rdfs:label>
     </owl:Class>
+    <owl:Restriction rdf:nodeID="genid144">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100031"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100031"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid144"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Asian_Semi-longhair</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100031"/>
@@ -1810,6 +1879,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf rdf:nodeID="genid155"/>
+        <rdfs:subClassOf rdf:nodeID="genid157"/>
         <vbo:breed_code>AMS</vbo:breed_code>
         <vbo:breed_code>AUM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -1829,12 +1900,36 @@
         <oboInOwl:hasExactSynonym>Australian Mist</oboInOwl:hasExactSynonym>
         <rdfs:label>Australian Mist (Cat)</rdfs:label>
     </owl:Class>
+    <owl:Restriction rdf:nodeID="genid155">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid157">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid155"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Australian_Mist</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tica.org/breeds/browse-all-breeds?view=article&amp;id=1816</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/australian-mist/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid157"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Australian_Mist</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tica.org/breeds/browse-all-breeds?view=article&amp;id=1816</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/australian-mist/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
@@ -3723,8 +3818,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0100068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2576912"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf rdf:nodeID="genid322"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/162</obo:IAO_0000233>
         <vbo:breed_code>CHA</vbo:breed_code>
         <vbo:breed_code>CHS</vbo:breed_code>
         <vbo:breed_code>CU</vbo:breed_code>
@@ -3742,12 +3839,22 @@
         <oboInOwl:hasExactSynonym>Chausie</oboInOwl:hasExactSynonym>
         <rdfs:label>Chausie (Cat)</rdfs:label>
     </owl:Class>
+    <owl:Restriction rdf:nodeID="genid322">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_61376"/>
+    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100068"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100068"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid322"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/pdf-en/breed/Chausie_2019_09_22_EN.pdf</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100068"/>
@@ -7010,8 +7117,9 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0100133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_61376"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/162</obo:IAO_0000233>
         <vbo:breed_code>JCT</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -7054,8 +7162,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0100134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2576912"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf rdf:nodeID="genid614"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/162</obo:IAO_0000233>
         <vbo:breed_code>JCL</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -7067,12 +7177,22 @@
         <oboInOwl:hasExactSynonym>Jungle Curl</oboInOwl:hasExactSynonym>
         <rdfs:label>Jungle Curl (Cat)</rdfs:label>
     </owl:Class>
+    <owl:Restriction rdf:nodeID="genid614">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100133"/>
+    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid614"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/jungle-curl/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
@@ -11565,13 +11685,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100217"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100217"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
         <owl:annotatedTarget>SRS</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_prf_stn.php</oboInOwl:source>
@@ -11588,6 +11701,13 @@
         <owl:annotatedTarget>Selkirk Rex Shorthair</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_prf_stn.php</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100217"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -11704,13 +11824,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100220"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Serval</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100220"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
@@ -11726,6 +11839,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100220"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Serval</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
     </owl:Axiom>
     
