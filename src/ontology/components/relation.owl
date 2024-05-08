@@ -64,7 +64,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
         <obo:IAO_0000115>A relation between two distinct material entities (breeds or species), a descendant entity and an ancestor entity, in which the descendant entity is the result of mating, manipulation, or geographical or cultural isolation of the ancestor entity, therefore inheriting some of the ancestor’s genetic material.</obo:IAO_0000115>
-        <obo:IAO_0000116>has_foundation_stock&quot; can be use to relate a breed to one or more other breeds, or to a &quot;species&quot; (ie an NCBITaxon term) as in the cases of &quot;hybrid breeds&quot;. &quot;Hybrid breeds&quot; are created by crossing animals of different species.</obo:IAO_0000116>
+        <obo:IAO_0000116>has_foundation_stock&quot; can be used to relate a breed to one or more other breeds, or to a &quot;species&quot; (ie an NCBITaxon term) as in the cases of &quot;hybrid breeds&quot;. &quot;Hybrid breeds&quot; are created by crossing animals of different species.</obo:IAO_0000116>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-11T14:49:29Z</terms:created>
