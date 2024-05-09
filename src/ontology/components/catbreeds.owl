@@ -113,6 +113,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_61377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_61377"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9685 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
@@ -230,8 +236,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <rdfs:subClassOf rdf:nodeID="genid9"/>
-        <rdfs:subClassOf rdf:nodeID="genid11"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>ALP</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -243,26 +259,6 @@
         <oboInOwl:hasExactSynonym>Alpine Lynx</oboInOwl:hasExactSynonym>
         <rdfs:label>Alpine Lynx (Cat)</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid9">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100082"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid11">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
-    </owl:Restriction>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid9"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/alpine-lynx/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid11"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/alpine-lynx/</oboInOwl:source>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
@@ -1226,19 +1222,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100021"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>American Wirehair</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cfa.org/breeds/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_amw.php</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100021"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
@@ -1278,6 +1261,19 @@
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>American Wirehair</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_ems.php</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cfa.org/breeds/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_amw.php</oboInOwl:source>
+    </owl:Axiom>
     
 
 
@@ -1300,13 +1296,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100022"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100022"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
         <owl:annotatedTarget>ANA</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
@@ -1324,6 +1313,13 @@
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.worldcatcongress.org/wp/cat_breed_comp_ana.php</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100022"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -1755,7 +1751,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <rdfs:subClassOf rdf:nodeID="genid144"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
@@ -1765,22 +1766,12 @@
         <oboInOwl:hasExactSynonym>Tiffanie</oboInOwl:hasExactSynonym>
         <rdfs:label>Asian Semi-longhair (Cat)</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid144">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
-    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100031"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100031"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid144"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Asian_Semi-longhair</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100031"/>
@@ -1879,8 +1870,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <rdfs:subClassOf rdf:nodeID="genid155"/>
-        <rdfs:subClassOf rdf:nodeID="genid157"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>AMS</vbo:breed_code>
         <vbo:breed_code>AUM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -1900,36 +1901,12 @@
         <oboInOwl:hasExactSynonym>Australian Mist</oboInOwl:hasExactSynonym>
         <rdfs:label>Australian Mist (Cat)</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid155">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid157">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
-    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid155"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Australian_Mist</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tica.org/breeds/browse-all-breeds?view=article&amp;id=1816</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/australian-mist/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid157"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Australian_Mist</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tica.org/breeds/browse-all-breeds?view=article&amp;id=1816</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/australian-mist/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100034"/>
@@ -1982,6 +1959,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>AZT</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
@@ -2044,6 +2039,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BA</vbo:breed_code>
         <vbo:breed_code>BAL</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -2121,6 +2122,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BBO</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -2212,6 +2225,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BMB</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -2256,6 +2287,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BEN</vbo:breed_code>
         <vbo:breed_code>BG</vbo:breed_code>
         <vbo:breed_code>BGL</vbo:breed_code>
@@ -2337,6 +2392,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BGL</vbo:breed_code>
         <vbo:breed_code>CAM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -2567,6 +2628,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BO</vbo:breed_code>
         <vbo:breed_code>BOM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -2644,6 +2717,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100189"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BRA</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -2887,6 +2972,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100249"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BL</vbo:breed_code>
         <vbo:breed_code>BLH</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -3039,6 +3142,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BU</vbo:breed_code>
         <vbo:breed_code>BUR</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -3212,6 +3321,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BM</vbo:breed_code>
         <vbo:breed_code>BML</vbo:breed_code>
         <vbo:breed_code>BMS</vbo:breed_code>
@@ -3295,6 +3422,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>BML</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
@@ -3381,6 +3520,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>CSP</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -3820,7 +3977,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2576912"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <rdfs:subClassOf rdf:nodeID="genid322"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/162</obo:IAO_0000233>
         <vbo:breed_code>CHA</vbo:breed_code>
         <vbo:breed_code>CHS</vbo:breed_code>
@@ -3839,22 +4001,12 @@
         <oboInOwl:hasExactSynonym>Chausie</oboInOwl:hasExactSynonym>
         <rdfs:label>Chausie (Cat)</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid322">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_61376"/>
-    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100068"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100068"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid322"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/pdf-en/breed/Chausie_2019_09_22_EN.pdf</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100068"/>
@@ -4022,6 +4174,42 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>CTC</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -4096,6 +4284,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>COS</vbo:breed_code>
         <vbo:breed_code>CSH</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -4438,6 +4644,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>CY</vbo:breed_code>
         <vbo:breed_code>CYM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -4963,6 +5175,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>DWF</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -5095,6 +5325,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>ELF</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -5186,6 +5428,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
@@ -5265,6 +5513,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>EXO</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -5312,6 +5566,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>ES</vbo:breed_code>
         <vbo:breed_code>ESH</vbo:breed_code>
         <vbo:breed_code>EXO</vbo:breed_code>
@@ -5474,6 +5752,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>FEX</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -5896,6 +6186,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>HAV</vbo:breed_code>
         <vbo:breed_code>HB</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -5971,6 +6273,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
@@ -6169,6 +6477,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>HLX</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -6214,6 +6534,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>HDR</vbo:breed_code>
         <vbo:breed_code>HG</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -6354,6 +6692,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>HI</vbo:breed_code>
         <vbo:breed_code>HIM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -6797,6 +7147,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>JAG</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -7015,6 +7377,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>JAV</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -7164,7 +7544,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2576912"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <rdfs:subClassOf rdf:nodeID="genid614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/162</obo:IAO_0000233>
         <vbo:breed_code>JCL</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -7177,22 +7562,12 @@
         <oboInOwl:hasExactSynonym>Jungle Curl</oboInOwl:hasExactSynonym>
         <rdfs:label>Jungle Curl (Cat)</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid614">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100133"/>
-    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid614"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/jungle-curl/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100134"/>
@@ -7309,6 +7684,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_61377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>KAN</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -7563,6 +7944,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>KKL</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -7946,6 +8339,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100215"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>LMK</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -8625,6 +9036,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MKT</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -8716,6 +9145,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MSK</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -8764,6 +9217,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MIS</vbo:breed_code>
         <vbo:breed_code>MNT</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -8821,6 +9286,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MIL</vbo:breed_code>
         <vbo:breed_code>MNL</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -8876,6 +9353,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100215"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MHB</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -8921,6 +9410,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MJS</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -9009,6 +9504,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>MTN</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -9180,6 +9687,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>NAP</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -9231,6 +9762,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>NB</vbo:breed_code>
         <vbo:breed_code>NEB</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -9665,6 +10202,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>OC</vbo:breed_code>
         <vbo:breed_code>OCI</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -9786,6 +10341,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
@@ -9860,6 +10421,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>OL</vbo:breed_code>
         <vbo:breed_code>OLH</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -9944,6 +10529,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>OS</vbo:breed_code>
         <vbo:breed_code>OSH</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -10059,6 +10668,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>OWY</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -10236,6 +10857,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>PBD</vbo:breed_code>
         <vbo:breed_code>PD</vbo:breed_code>
         <vbo:breed_code>PEB</vbo:breed_code>
@@ -10313,6 +10952,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>PHA</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -10377,25 +11028,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
-        <owl:annotatedTarget>PB</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/phocadownload/pb.pdf</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
-        <owl:annotatedTarget>PXB</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
         <owl:annotatedTarget>PXS</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
@@ -10423,6 +11055,25 @@
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
+        <owl:annotatedTarget>PB</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/phocadownload/pb.pdf</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100191"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
+        <owl:annotatedTarget>PXB</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rareexoticfelineregistry.com/breed-recognition/</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -10561,6 +11212,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>RGM</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
@@ -10809,6 +11478,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
@@ -10916,6 +11591,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
@@ -10946,6 +11627,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
@@ -11190,6 +11877,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>SAV</vbo:breed_code>
         <vbo:breed_code>SV</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -11545,6 +12238,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>SR</vbo:breed_code>
         <vbo:breed_code>SRL/SRS</vbo:breed_code>
         <vbo:breed_code>SRX</vbo:breed_code>
@@ -11685,6 +12384,13 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100217"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100217"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
         <owl:annotatedTarget>SRS</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_prf_stn.php</oboInOwl:source>
@@ -11702,13 +12408,6 @@
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://fifeweb.org/wp/breeds/breeds_prf_stn.php</oboInOwl:source>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100217"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -11717,6 +12416,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>SE</vbo:breed_code>
         <vbo:breed_code>SGT</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
@@ -12235,6 +12946,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>SN</vbo:breed_code>
         <vbo:breed_code>SNO</vbo:breed_code>
         <vbo:breed_code>SNS</vbo:breed_code>
@@ -12390,6 +13113,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>SO</vbo:breed_code>
         <vbo:breed_code>SOL/SOS</vbo:breed_code>
         <vbo:breed_code>SOM</vbo:breed_code>
@@ -12551,6 +13280,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>SUF</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300003"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -12714,6 +13467,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>TAI</vbo:breed_code>
         <vbo:breed_code>TH</vbo:breed_code>
         <vbo:breed_code>THA</vbo:breed_code>
@@ -12944,6 +13703,42 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>TIG</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -12988,6 +13783,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>TO</vbo:breed_code>
         <vbo:breed_code>TON</vbo:breed_code>
         <vbo:breed_code>TOS</vbo:breed_code>
@@ -13236,6 +14043,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>TG</vbo:breed_code>
         <vbo:breed_code>TGR</vbo:breed_code>
         <vbo:breed_code>TOY</vbo:breed_code>
@@ -13415,6 +14228,36 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <vbo:breed_code>TUN</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -13658,6 +14501,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
