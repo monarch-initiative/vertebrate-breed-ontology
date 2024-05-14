@@ -1,531 +1,531 @@
-vbo_id	term_label	LBO ID	source_for_xref1	LBO name	LBO ID	LBO synonyms	LBO ID	description_of_origin	source_for_description_of_origin
-ID		A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source	A http://purl.obolibrary.org/obo/vbo#origindescription	>A oboInOwl:source
-VBO:0000071	Egyptian (Buffalo)	LBO:0001050	https://orcid.org/0000-0002-5002-8648	Egyptian	LBO:0001050				
-VBO:0000073	Jafarabadi (Buffalo)	LBO:0001045	https://orcid.org/0000-0002-5002-8648	Jafarabadi	LBO:0001045				
-VBO:0000074	Mediterranean (Buffalo)	LBO:0001043	https://orcid.org/0000-0002-5002-8648	Mediterranean	LBO:0001043				
-VBO:0000076	Murrah (Buffalo)	LBO:0001049	https://orcid.org/0000-0002-5002-8648	Murrah	LBO:0001049				
-VBO:0000078	Nili-Ravi (Buffalo)	LBO:0001053	https://orcid.org/0000-0002-5002-8648	Nili-Ravi	LBO:0001053				
-VBO:0000094	Africander (Cattle)	LBO:0000005	https://orcid.org/0000-0002-5002-8648	Africander cattle	LBO:0000005				
-VBO:0000100	Anatolian Grey (Cattle)	LBO:0000258	https://orcid.org/0000-0002-5002-8648	Turkish Grey Steppe	LBO:0000258				
-VBO:0000101	Andalusian Grey (Cattle)	LBO:0000015	https://orcid.org/0000-0002-5002-8648	Andalusian Grey	LBO:0000015				
-VBO:0000102	Angeln (Cattle)	LBO:0000016	https://orcid.org/0000-0002-5002-8648	Angeln	LBO:0000016				
-VBO:0000104	Angus (Cattle)	LBO:0000017	https://orcid.org/0000-0002-5002-8648	Angus	LBO:0000017				
-VBO:0000105	Ankole (Cattle)	LBO:0000018	https://orcid.org/0000-0002-5002-8648	Ankole	LBO:0000018				
-VBO:0000108	Argentine Criollo (Cattle)	LBO:0000020	https://orcid.org/0000-0002-5002-8648	Argentine Criollo	LBO:0000020				
-VBO:0000111	Asturian Valley (Cattle)	LBO:0000022	https://orcid.org/0000-0002-5002-8648	Asturian Valley	LBO:0000022				
-VBO:0000112	Aubrac (Cattle)	LBO:0000023	https://orcid.org/0000-0002-5002-8648	Aubrac	LBO:0000023				
-VBO:0000113	Aulie-Ata (Cattle)	LBO:0000024	https://orcid.org/0000-0002-5002-8648	Aulie-Ata	LBO:0000024				
-VBO:0000115	Australian Friesian Sahiwal (Cattle)	LBO:0000026	https://orcid.org/0000-0002-5002-8648	Australian Friesian Sahiwal	LBO:0000026				
-VBO:0000117	Australian Lowline (Cattle)	LBO:0000027	https://orcid.org/0000-0002-5002-8648	Australian Lowline	LBO:0000027				
-VBO:0000118	Australian Milking Zebu (Cattle)	LBO:0000028	https://orcid.org/0000-0002-5002-8648	Australian Milking Zebu	LBO:0000028				
-VBO:0000120	Ayrshire (Cattle)	LBO:0000029	https://orcid.org/0000-0002-5002-8648	Ayrshire	LBO:0000029				
-VBO:0000121	Azaouak (Cattle)	LBO:0000030	https://orcid.org/0000-0002-5002-8648	Azaouak	LBO:0000030				
-VBO:0000130	Barka (Cattle)	LBO:0000034	https://orcid.org/0000-0002-5002-8648	Barka	LBO:0000034				
-VBO:0000132	Bazadais (Cattle)	LBO:0000036	https://orcid.org/0000-0002-5002-8648	Bazadais	LBO:0000036				
-VBO:0000133	Bearnais (Cattle)	LBO:0000037	https://orcid.org/0000-0002-5002-8648	Bearnais	LBO:0000037				
-VBO:0000137	Beefalo (Cattle)	LBO:0000038	https://orcid.org/0000-0002-5002-8648	Beefalo	LBO:0000038				
-VBO:0000138	Beefmaster (Cattle)	LBO:0000040	https://orcid.org/0000-0002-5002-8648	Beefmaster	LBO:0000040				
-VBO:0000139	Belgian Blue (Cattle)	LBO:0000042	https://orcid.org/0000-0002-5002-8648	Belgian Blue	LBO:0000042				
-VBO:0000141	Belmont Red (Cattle)	LBO:0000045	https://orcid.org/0000-0002-5002-8648	Belmont Red	LBO:0000045				
-VBO:0000142	Belted Galloway (Cattle)	LBO:0000046	https://orcid.org/0000-0002-5002-8648	Belted Galloway	LBO:0000046				
-VBO:0000143	Bengali (Cattle)	LBO:0000047	https://orcid.org/0000-0002-5002-8648	Bengali	LBO:0000047				
-VBO:0000145	Bhagnari (Cattle)	LBO:0000049	https://orcid.org/0000-0002-5002-8648	Bhagnari	LBO:0000049				
-VBO:0000151	Blonde d'Aquitaine (Cattle)	LBO:0000053	https://orcid.org/0000-0002-5002-8648	Blonde d'Aquitaine	LBO:0000053				
-VBO:0000155	Bonsmara (Cattle)	LBO:0000054	https://orcid.org/0000-0002-5002-8648	Bonsmara	LBO:0000054				
-VBO:0000156	Boran (Cattle)	LBO:0000055	https://orcid.org/0000-0002-5002-8648	Boran	LBO:0000055				
-VBO:0000158	Braford (Cattle)	LBO:0000057	https://orcid.org/0000-0002-5002-8648	Braford	LBO:0000057				
-VBO:0000159	Brahman (Cattle)	LBO:0000058	https://orcid.org/0000-0002-5002-8648	Brahman	LBO:0000058				
-VBO:0000160	brand name Carinthian Blond (Cattle)	LBO:0000069	https://orcid.org/0000-0002-5002-8648	Carinthian Blond	LBO:0000069				
-VBO:0000161	Brangus (Cattle)	LBO:0000060	https://orcid.org/0000-0002-5002-8648	Brangus	LBO:0000060				
-VBO:0000163	British White (Cattle)	LBO:0000062	https://orcid.org/0000-0002-5002-8648	British White	LBO:0000062				
-VBO:0000166	Brown Swiss (Cattle)	LBO:0000063	https://orcid.org/0000-0002-5002-8648	Brown Swiss	LBO:0000063				
-VBO:0000167	Buša (Cattle)	LBO:0000064	https://orcid.org/0000-0002-5002-8648	Busa	LBO:0000064				
-VBO:0000172	Caucasian (Cattle)	LBO:0000070	https://orcid.org/0000-0002-5002-8648	Caucasian	LBO:0000070				
-VBO:0000176	Charbray (Cattle)	LBO:0000072	https://orcid.org/0000-0002-5002-8648	Charbray	LBO:0000072				
-VBO:0000177	Charolais (Cattle)	LBO:0000073	https://orcid.org/0000-0002-5002-8648	Charolais	LBO:0000073				
-VBO:0000178	Chianina (Cattle)	LBO:0000074	https://orcid.org/0000-0002-5002-8648	Chianina	LBO:0000074				
-VBO:0000191	Danish Red (Cattle)	LBO:0000085	https://orcid.org/0000-0002-5002-8648	Danish Red	LBO:0000085				
-VBO:0000192	Devon (Cattle)	LBO:0000087	https://orcid.org/0000-0002-5002-8648	Devon	LBO:0000087				
-VBO:0000193	Dexter (Cattle)	LBO:0000088	https://orcid.org/0000-0002-5002-8648	Dexter	LBO:0000088				
-VBO:0000196	Droughtmaster (Cattle)	LBO:0000091	https://orcid.org/0000-0002-5002-8648	Droughtmaster	LBO:0000091				
-VBO:0000197	Dutch Belted (Cattle)	LBO:0000093	https://orcid.org/0000-0002-5002-8648	Dutch Belted	LBO:0000093				
-VBO:0000198	Dutch Friesian (Cattle)	LBO:0000094	https://orcid.org/0000-0002-5002-8648	Dutch Friesian	LBO:0000094				
-VBO:0000200	Estonian Red (Cattle)	LBO:0000098	https://orcid.org/0000-0002-5002-8648	Estonian Red	LBO:0000098				
-VBO:0000203	Fighting Bull (Cattle)	LBO:0000100	https://orcid.org/0000-0002-5002-8648	Fighting Bull	LBO:0000100				
-VBO:0000206	Galician Blond (Cattle)	LBO:0000105	https://orcid.org/0000-0002-5002-8648	Galician Blond	LBO:0000105				
-VBO:0000207	Galloway (Cattle)	LBO:0000106	https://orcid.org/0000-0002-5002-8648	Galloway	LBO:0000106				
-VBO:0000209	Gascon (Cattle)	LBO:0000108	https://orcid.org/0000-0002-5002-8648	Gascon	LBO:0000108				
-VBO:0000211	Gelbrah (Cattle)	LBO:0000109	https://orcid.org/0000-0002-5002-8648	Gelbray	LBO:0000109				
-VBO:0000212	Gelbvieh (Cattle)	LBO:0000110	https://orcid.org/0000-0002-5002-8648	Gelbvieh	LBO:0000110				
-VBO:0000215	Gir (Cattle)	LBO:0000113	https://orcid.org/0000-0002-5002-8648	Gir	LBO:0000113				
-VBO:0000216	Girolando (Cattle)	LBO:0001094	https://orcid.org/0000-0002-5002-8648	Girolando	LBO:0001094			Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)	LBO:0001094
-VBO:0000217	Glan (Cattle)	LBO:0000114	https://orcid.org/0000-0002-5002-8648	Glan	LBO:0000114				
-VBO:0000219	Gloucester (Cattle)	LBO:0000115	https://orcid.org/0000-0002-5002-8648	Gloucester	LBO:0000115				
-VBO:0000221	Goudali (Cattle)	LBO:0000120	https://orcid.org/0000-0002-5002-8648	Gudali	LBO:0000120				
-VBO:0000224	Greek Shorthorn (Cattle)	LBO:0000117	https://orcid.org/0000-0002-5002-8648	Greek Shorthorn	LBO:0000117				
-VBO:0000225	Groningen White-Headed (Cattle)	LBO:0000119	https://orcid.org/0000-0002-5002-8648	Groningen Whiteheaded	LBO:0000119	Groningen	LBO:0000119		
-VBO:0000227	Guernsey (Cattle)	LBO:0000121	https://orcid.org/0000-0002-5002-8648	Guernsey	LBO:0000121				
-VBO:0000228	Guzerat (Cattle)	LBO:0000122	https://orcid.org/0000-0002-5002-8648	Guzerat	LBO:0000122				
-VBO:0000229	Hanwoo (Cattle)	LBO:0000942	https://orcid.org/0000-0002-5002-8648	Hanwoo	LBO:0000942				
-VBO:0000230	Hariana (Cattle)	LBO:0000124	https://orcid.org/0000-0002-5002-8648	Hariana	LBO:0000124				
-VBO:0000232	Hereford (Cattle)	LBO:0000127	https://orcid.org/0000-0002-5002-8648	Hereford	LBO:0000127				
-VBO:0000233	Herens (Cattle)	LBO:0000128	https://orcid.org/0000-0002-5002-8648	Herens	LBO:0000128				
-VBO:0000234	Highland (Cattle)	LBO:0000129	https://orcid.org/0000-0002-5002-8648	Highland	LBO:0000129				
-VBO:0000235	Hinterwald (Cattle)	LBO:0000130	https://orcid.org/0000-0002-5002-8648	Hinterwald	LBO:0000130				
-VBO:0000239	Holstein Friesian (Cattle)	LBO:0000132	https://orcid.org/0000-0002-5002-8648	Holstein	LBO:0000132				
-VBO:0000241	Hungarian Grey (Cattle)	LBO:0000134	https://orcid.org/0000-0002-5002-8648	Hungarian Grey	LBO:0000134				
-VBO:0000242	Icelandic Cattle (Cattle)	LBO:0000135	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000135				
-VBO:0000243	Illawarra Shorthorn (Cattle)	LBO:0000136	https://orcid.org/0000-0002-5002-8648	Illawarra	LBO:0000136				
-VBO:0000244	Indo-Brasilian (Cattle)	LBO:0000137	https://orcid.org/0000-0002-5002-8648	Indo-Brazilian	LBO:0000137				
-VBO:0000246	Irish Moiled (Cattle)	LBO:0000138	https://orcid.org/0000-0002-5002-8648	Irish Moiled	LBO:0000138				
-VBO:0000247	Istoben (Cattle)	LBO:0000141	https://orcid.org/0000-0002-5002-8648	Istoben	LBO:0000141				
-VBO:0000248	Jamaica Hope (Cattle)	LBO:0000143	https://orcid.org/0000-0002-5002-8648	Jamaica Hope	LBO:0000143				
-VBO:0000250	Jersey (Cattle)	LBO:0000146	https://orcid.org/0000-0002-5002-8648	Jersey	LBO:0000146				
-VBO:0000254	Kangayam (Cattle)	LBO:0000147	https://orcid.org/0000-0002-5002-8648	Kangayam	LBO:0000147				
-VBO:0000255	Katerini (Cattle)	LBO:0000118	https://orcid.org/0000-0002-5002-8648	Greek Steppe	LBO:0000118				
-VBO:0000256	Kazakh (Cattle)	LBO:0000151	https://orcid.org/0000-0002-5002-8648	Kazakh	LBO:0000151				
-VBO:0000257	Kazakh Whiteheaded (Cattle)	LBO:0001078	https://orcid.org/0000-0002-5002-8648	Kazakh Whiteheaded	LBO:0001078			Hardy beef breed from Russia and Kazakhstan.	LBO:0001078
-VBO:0000258	Kerry (Cattle)	LBO:0000153	https://orcid.org/0000-0002-5002-8648	Kerry	LBO:0000153				
-VBO:0000259	Khillari (Cattle)	LBO:0000155	https://orcid.org/0000-0002-5002-8648	Khillari	LBO:0000155				
-VBO:0000260	Kholmogory (Cattle)	LBO:0000156	https://orcid.org/0000-0002-5002-8648	Kholmogory	LBO:0000156				
-VBO:0000263	Kurdi (Cattle)	LBO:0000159	https://orcid.org/0000-0002-5002-8648	Kurdi	LBO:0000159	Kurdi Black	LBO:0000159		
-VBO:0000265	Kuri (Cattle)	LBO:0000160	https://orcid.org/0000-0002-5002-8648	Kuri	LBO:0000160				
-VBO:0000268	Latvian Brown (Cattle)	LBO:0000161	https://orcid.org/0000-0002-5002-8648	Latvian Brown	LBO:0000161				
-VBO:0000274	Limousin (Cattle)	LBO:0000162	https://orcid.org/0000-0002-5002-8648	Limousin	LBO:0000162				
-VBO:0000275	Limpurger (Cattle)	LBO:0000163	https://orcid.org/0000-0002-5002-8648	Limpurger	LBO:0000163				
-VBO:0000276	Lincoln Red (Cattle)	LBO:0000164	https://orcid.org/0000-0002-5002-8648	Lincoln Red	LBO:0000164				
-VBO:0000277	Lithuanian Red (LR) (Cattle)	LBO:0000165	https://orcid.org/0000-0002-5002-8648	Lithuanian Red	LBO:0000165				
-VBO:0000279	Lourdais (Cattle)	LBO:0000167	https://orcid.org/0000-0002-5002-8648	Lourdais	LBO:0000167				
-VBO:0000282	Luing (Cattle)	LBO:0000168	https://orcid.org/0000-0002-5002-8648	Luing	LBO:0000168				
-VBO:0000285	Maas-Rijn-Ijssel (Cattle)	LBO:0000179	https://orcid.org/0000-0002-5002-8648	Meuse-Rhine-Yssel	LBO:0000179				
-VBO:0000286	Maine-Anjou (Cattle)	LBO:0000170	https://orcid.org/0000-0002-5002-8648	Maine Anjou	LBO:0000170	Maine-Anjou	LBO:0000170		
-VBO:0000291	Marchigiana (Cattle)	LBO:0000173	https://orcid.org/0000-0002-5002-8648	Marchigiana	LBO:0000173				
-VBO:0000293	Masai (Cattle)	LBO:0000175	https://orcid.org/0000-0002-5002-8648	Masai	LBO:0000175				
-VBO:0000294	Mashona (Cattle)	LBO:0000176	https://orcid.org/0000-0002-5002-8648	Mashona	LBO:0000176				
-VBO:0000295	Maure (Cattle)	LBO:0000177	https://orcid.org/0000-0002-5002-8648	Maure	LBO:0000177				
-VBO:0000298	Milking Devon (Cattle)	LBO:0000181	https://orcid.org/0000-0002-5002-8648	Milking Devon	LBO:0000181				
-VBO:0000299	Milking Shorthorn (Cattle)	LBO:0000182	https://orcid.org/0000-0002-5002-8648	Milking Shorthorn	LBO:0000182				
-VBO:0000300	Mirandesa (Cattle)	LBO:0000183	https://orcid.org/0000-0002-5002-8648	Mirandesa	LBO:0000183				
-VBO:0000302	Modicana (Cattle)	LBO:0000184	https://orcid.org/0000-0002-5002-8648	Modicana	LBO:0000184				
-VBO:0000304	Mongolian (Cattle)	LBO:0000185	https://orcid.org/0000-0002-5002-8648	Mongolian	LBO:0000185	Chinese Mongolian	LBO:0000185		
-VBO:0000306	Montbéliarde (Cattle)	LBO:0000186	https://orcid.org/0000-0002-5002-8648	Montbeliarde	LBO:0000186				
-VBO:0000307	Morucha (Cattle)	LBO:0000187	https://orcid.org/0000-0002-5002-8648	Morucha	LBO:0000187				
-VBO:0000309	Murboden (Cattle)	LBO:0000188	https://orcid.org/0000-0002-5002-8648	Murboden	LBO:0000188				
-VBO:0000312	Murray Grey (Cattle)	LBO:0000189	https://orcid.org/0000-0002-5002-8648	Murray Grey	LBO:0000189				
-VBO:0000314	Muturu (Cattle)	LBO:0000190	https://orcid.org/0000-0002-5002-8648	Muturu	LBO:0000190				
-VBO:0000315	N'dama (Cattle)	LBO:0000193	https://orcid.org/0000-0002-5002-8648	N'dama	LBO:0000193				
-VBO:0000318	Nelore (Cattle)	LBO:0000194	https://orcid.org/0000-0002-5002-8648	Nelore	LBO:0000194				
-VBO:0000319	Nguni (Cattle)	LBO:0000195	https://orcid.org/0000-0002-5002-8648	Nguni	LBO:0000195				
-VBO:0000322	Normande (Cattle)	LBO:0000197	https://orcid.org/0000-0002-5002-8648	Normande	LBO:0000197				
-VBO:0000323	Norwegian Red (Cattle)	LBO:0000198	https://orcid.org/0000-0002-5002-8648	Norwegian Red	LBO:0000198				
-VBO:0000324	Ongole (Cattle)	LBO:0000199	https://orcid.org/0000-0002-5002-8648	Ongole	LBO:0000199				
-VBO:0000330	Parthenais (Cattle)	LBO:0000203	https://orcid.org/0000-0002-5002-8648	Parthenais	LBO:0000203				
-VBO:0000332	Piedmont (Cattle)	LBO:0000208	https://orcid.org/0000-0002-5002-8648	Piedmontese	LBO:0000208				
-VBO:0000334	Pinzgau (Cattle)	LBO:0000209	https://orcid.org/0000-0002-5002-8648	Pinzgauer	LBO:0000209				
-VBO:0000338	Polish Red (Cattle)	LBO:0000205	https://orcid.org/0000-0002-5002-8648	Polish Red	LBO:0000205				
-VBO:0000341	Polled Hereford (Cattle)	LBO:0000206	https://orcid.org/0000-0002-5002-8648	Polled Hereford	LBO:0000206				
-VBO:0000350	Red Angus (Cattle)	LBO:0000214	https://orcid.org/0000-0002-5002-8648	Red Angus	LBO:0000214				
-VBO:0000351	Red Bororo (Cattle)	LBO:0000216	https://orcid.org/0000-0002-5002-8648	Red Fulani	LBO:0000216				
-VBO:0000352	Red Brangus (Cattle)	LBO:0000215	https://orcid.org/0000-0002-5002-8648	Red Brangus	LBO:0000215				
-VBO:0000355	Red Poll (Cattle)	LBO:0000218	https://orcid.org/0000-0002-5002-8648	Red Poll	LBO:0000218				
-VBO:0000356	Red Sindhi (Cattle)	LBO:0000220	https://orcid.org/0000-0002-5002-8648	Red Sindhi	LBO:0000220				
-VBO:0000357	Red Steppe (Cattle)	LBO:0000221	https://orcid.org/0000-0002-5002-8648	Red Steppe	LBO:0000221				
-VBO:0000358	Retinta (Cattle)	LBO:0000223	https://orcid.org/0000-0002-5002-8648	Retinta	LBO:0000223				
-VBO:0000360	Romagnola (Cattle)	LBO:0000225	https://orcid.org/0000-0002-5002-8648	Romagnola	LBO:0000225				
-VBO:0000361	Romanian Brown (Cattle)	LBO:0001116	https://orcid.org/0000-0002-5002-8648	Romanian Brown	LBO:0001116	Bruna de Maramures	LBO:0001116	Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.	LBO:0001116
-VBO:0000365	Sahiwal (Cattle)	LBO:0000229	https://orcid.org/0000-0002-5002-8648	Sahiwal	LBO:0000229				
-VBO:0000366	Salers (Cattle)	LBO:0000230	https://orcid.org/0000-0002-5002-8648	Salers	LBO:0000230				
-VBO:0000368	Santa Gertrudis (Cattle)	LBO:0000234	https://orcid.org/0000-0002-5002-8648	Santa Gertrudis	LBO:0000234				
-VBO:0000371	Senepol (Cattle)	LBO:0000237	https://orcid.org/0000-0002-5002-8648	Senepol	LBO:0000237				
-VBO:0000374	Shetland (Cattle)	LBO:0000239	https://orcid.org/0000-0002-5002-8648	Shetland	LBO:0000239				
-VBO:0000375	Shorthorn (Cattle)	LBO:0000240	https://orcid.org/0000-0002-5002-8648	Shorthorn	LBO:0000240				
-VBO:0000377	Siboney (Cattle)	LBO:0000241	https://orcid.org/0000-0002-5002-8648	Siboney	LBO:0000241				
-VBO:0000378	Simbrah (Cattle)	LBO:0000242	https://orcid.org/0000-0002-5002-8648	Simbrah	LBO:0000242				
-VBO:0000380	Simmental (Cattle)	LBO:0000243	https://orcid.org/0000-0002-5002-8648	Simmental	LBO:0000243				
-VBO:0000380	Simmental (Cattle)	LBO:0000941	https://orcid.org/0000-0002-9178-3965	Fleckvieh	LBO:0000941				
-VBO:0000381	Siri (Cattle)	LBO:0000244	https://orcid.org/0000-0002-5002-8648	Siri	LBO:0000244				
-VBO:0000385	South Devon (Cattle)	LBO:0000246	https://orcid.org/0000-0002-5002-8648	South Devon	LBO:0000246				
-VBO:0000389	Sussex (Cattle)	LBO:0000247	https://orcid.org/0000-0002-5002-8648	Sussex	LBO:0000247				
-VBO:0000390	Svensk Fjällras (Cattle)	LBO:0000101	https://orcid.org/0000-0002-5002-8648	Fjall	LBO:0000101				
-VBO:0000392	Swedish Red and White (Cattle)	LBO:0000249	https://orcid.org/0000-0002-5002-8648	Swedish Red-and-White	LBO:0000249				
-VBO:0000402	Tarentaise (Cattle)	LBO:0000251	https://orcid.org/0000-0002-5002-8648	Tarentaise	LBO:0000251				
-VBO:0000404	Texas Longhorn (Cattle)	LBO:0000253	https://orcid.org/0000-0002-5002-8648	Texas Longhorn	LBO:0000253				
-VBO:0000405	Thari (Cattle)	LBO:0000255	https://orcid.org/0000-0002-5002-8648	Tharparker	LBO:0000255				
-VBO:0000413	Tswana (Cattle)	LBO:0000256	https://orcid.org/0000-0002-5002-8648	Tswana	LBO:0000256				
-VBO:0000415	Tuli (Cattle)	LBO:0000257	https://orcid.org/0000-0002-5002-8648	Tuli	LBO:0000257				
-VBO:0000416	Tyrolean Grey (Cattle)	LBO:0001103	https://orcid.org/0000-0002-5002-8648	Alpine Gray	LBO:0001103	Grigio alpina	LBO:0001103		
-VBO:0000421	Vosges (Cattle)	LBO:0000266	https://orcid.org/0000-0002-5002-8648	Vosges	LBO:0000266				
-VBO:0000422	Wagyu (Cattle)	LBO:0000267	https://orcid.org/0000-0002-5002-8648	Wagyu	LBO:0000267				
-VBO:0000424	Welsh Black (Cattle)	LBO:0000268	https://orcid.org/0000-0002-5002-8648	Welsh Black	LBO:0000268				
-VBO:0000425	West African Zebu (Cattle)	LBO:0000104	https://orcid.org/0000-0002-5002-8648	Fulani Sudanese	LBO:0000104				
-VBO:0000429	White Park (Cattle)	LBO:0000269	https://orcid.org/0000-0002-5002-8648	White Park	LBO:0000269				
-VBO:0000441	Ancona (Chicken)	LBO:0000273	https://orcid.org/0000-0002-5002-8648	Ancona	LBO:0000273				
-VBO:0000442	Andalusian (Chicken)	LBO:0000274	https://orcid.org/0000-0002-5002-8648	Andalusian	LBO:0000274				
-VBO:0000445	Araucana (Chicken)	LBO:0000277	https://orcid.org/0000-0002-5002-8648	Araucana	LBO:0000277				
-VBO:0000446	Aseel (Chicken)	LBO:0000278	https://orcid.org/0000-0002-5002-8648	Aseel	LBO:0000278				
-VBO:0000448	Australorp (Chicken)	LBO:0000279	https://orcid.org/0000-0002-5002-8648	Australorp	LBO:0000279				
-VBO:0000466	Campine (Chicken)	LBO:0000286	https://orcid.org/0000-0002-5002-8648	Campine	LBO:0000286				
-VBO:0000467	Catalana Del Prat (Chicken)	LBO:0000287	https://orcid.org/0000-0002-5002-8648	Catalana	LBO:0000287	Catalana del Prat Lleonada	LBO:0000287		
-VBO:0000468	Chantecler (Chicken)	LBO:0000288	https://orcid.org/0000-0002-5002-8648	Chantecler	LBO:0000288				
-VBO:0000469	Cochin (Chicken)	LBO:0000289	https://orcid.org/0000-0002-5002-8648	Cochin	LBO:0000289				
-VBO:0000516	Cornish (Chicken)	LBO:0000290	https://orcid.org/0000-0002-5002-8648	Cornish	LBO:0000290				
-VBO:0000522	Dorking (Chicken)	LBO:0000295	https://orcid.org/0000-0002-5002-8648	Dorking	LBO:0000295				
-VBO:0000528	Fayoumi (Chicken)	LBO:0000697	https://orcid.org/0000-0002-5002-8648	Fayoumi	LBO:0000697				
-VBO:0000529	Friesland (Chicken)	LBO:0000298	https://orcid.org/0000-0002-5002-8648	Frieslands	LBO:0000298	Friesland	LBO:0000298		
-VBO:0000530	Frizzle (Chicken)	LBO:0000299	https://orcid.org/0000-0002-5002-8648	Frizzle	LBO:0000299				
-VBO:0000534	Hamburg (Chicken)	LBO:0000303	https://orcid.org/0000-0002-5002-8648	Hamburgs	LBO:0000303	Hamburg	LBO:0000303		
-VBO:0000537	Holland (Chicken)	LBO:0000304	https://orcid.org/0000-0002-5002-8648	Holland	LBO:0000304				
-VBO:0000538	Houdan (Chicken)	LBO:0000305	https://orcid.org/0000-0002-5002-8648	Houdan	LBO:0000305				
-VBO:0000547	Jersey Giant (Chicken)	LBO:0000307	https://orcid.org/0000-0002-5002-8648	Jersey Giant	LBO:0000307				
-VBO:0000548	Jungle Fowl (Chicken)	LBO:0000308	https://orcid.org/0000-0002-5002-8648	Jungle Fowl	LBO:0000308				
-VBO:0000556	Lakenvelder (Chicken)	LBO:0000312	https://orcid.org/0000-0002-5002-8648	Lakenvelder	LBO:0000312				
-VBO:0000558	Langshan (Chicken)	LBO:0000314	https://orcid.org/0000-0002-5002-8648	Langshan	LBO:0000314				
-VBO:0000572	Minorca (Chicken)	LBO:0000318	https://orcid.org/0000-0002-5002-8648	Minorca	LBO:0000318				
-VBO:0000573	Modern Game (Chicken)	LBO:0000319	https://orcid.org/0000-0002-5002-8648	Modern Game	LBO:0000319				
-VBO:0000580	New Hampshire Red (Chicken)	LBO:0000321	https://orcid.org/0000-0002-5002-8648	New Hampshire Red	LBO:0000321				
-VBO:0000582	North Holland Blue (Chicken)	LBO:0000698	https://orcid.org/0000-0002-5002-8648	North Holland Blue	LBO:0000698				
-VBO:0000583	Old English Game (Chicken)	LBO:0000322	https://orcid.org/0000-0002-5002-8648	Old English Game	LBO:0000322				
-VBO:0000588	Orpington (Chicken)	LBO:0000323	https://orcid.org/0000-0002-5002-8648	Orpington	LBO:0000323				
-VBO:0000592	Plymouth Rock (Chicken)	LBO:0000324	https://orcid.org/0000-0002-5002-8648	Plymouth Rock	LBO:0000324				
-VBO:0000596	Polish (Chicken)	LBO:0000325	https://orcid.org/0000-0002-5002-8648	Polish	LBO:0000325				
-VBO:0000599	Rhode Island Red (Chicken)	LBO:0000327	https://orcid.org/0000-0002-5002-8648	Rhode Island Red	LBO:0000327				
-VBO:0000617	Shamo (Chicken)	LBO:0000700	https://orcid.org/0000-0002-5002-8648	Shamo	LBO:0000700				
-VBO:0000628	Sultan (Chicken)	LBO:0000331	https://orcid.org/0000-0002-5002-8648	Sultan	LBO:0000331				
-VBO:0000629	Sumatra (Chicken)	LBO:0000332	https://orcid.org/0000-0002-5002-8648	Sumatra	LBO:0000332				
-VBO:0000630	Sussex (Chicken)	LBO:0000333	https://orcid.org/0000-0002-5002-8648	Sussex	LBO:0000333				
-VBO:0000639	Transylvanian Naked Neck (Chicken)	LBO:0000320	https://orcid.org/0000-0002-5002-8648	Turken	LBO:0000320	Transylvanian Naked Neck|Naked Neck	LBO:0000320		
-VBO:0000646	White Leghorn (Chicken)	LBO:0001061	https://orcid.org/0000-0002-5002-8648	White Leghorn	LBO:0001061				
-VBO:0000647	Wyandotte (Chicken)	LBO:0000336	https://orcid.org/0000-0002-5002-8648	Wyandottes	LBO:0000336	Wyandotte	LBO:0000336		
-VBO:0000717	Alpine (Goat)	LBO:0000955	https://orcid.org/0000-0002-5002-8648	Alpine	LBO:0000955				
-VBO:0000718	Altai Mountain (Goat)	LBO:0000956	https://orcid.org/0000-0002-5002-8648	Altai Mountain	LBO:0000956				
-VBO:0000722	Anglo-Nubian (Goat)	LBO:0000958	https://orcid.org/0000-0002-5002-8648	Anglo-Nubian	LBO:0000958	Nubian	LBO:0000958		
-VBO:0000723	Angora (Goat)	LBO:0000959	https://orcid.org/0000-0002-5002-8648	Angora	LBO:0000959				
-VBO:0000724	Appenzell (Goat)	LBO:0000960	https://orcid.org/0000-0002-5002-8648	Appenzell	LBO:0000960				
-VBO:0000727	Bagot (Goat)	LBO:0000963	https://orcid.org/0000-0002-5002-8648	Bagot	LBO:0000963				
-VBO:0000728	Barbari (Goat)	LBO:0000964	https://orcid.org/0000-0002-5002-8648	Barbari	LBO:0000964				
-VBO:0000729	Beetal (Goat)	LBO:0000965	https://orcid.org/0000-0002-5002-8648	Beetal	LBO:0000965				
-VBO:0000730	Belgian Fawn (Goat)	LBO:0000966	https://orcid.org/0000-0002-5002-8648	Belgian Fawn	LBO:0000966				
-VBO:0000736	Boer (Goat)	LBO:0000969	https://orcid.org/0000-0002-5002-8648	Boer	LBO:0000969				
-VBO:0000739	British Alpine (Goat)	LBO:0000971	https://orcid.org/0000-0002-5002-8648	British Alpine	LBO:0000971				
-VBO:0000745	Cashmere (Goat)	LBO:0001101	https://orcid.org/0000-0002-5002-8648	Cashmere	LBO:0001101				
-VBO:0000749	Corsican (Goat)	LBO:0000975	https://orcid.org/0000-0002-5002-8648	Corsican	LBO:0000975				
-VBO:0000769	Golden Guernsey (Goat)	LBO:0000983	https://orcid.org/0000-0002-5002-8648	Golden Guernsey	LBO:0000983				
-VBO:0000771	Grisons Striped (Goat)	LBO:0000984	https://orcid.org/0000-0002-5002-8648	Grisons Striped	LBO:0000984				
-VBO:0000777	Irish Goat (Goat)	LBO:0000994	https://orcid.org/0000-0002-5002-8648	Irish Goat	LBO:0000994				
-VBO:0000782	Kalahari Red (Goat)	LBO:0001092	https://orcid.org/0000-0002-5002-8648	Kalahari Red	LBO:0001092				
-VBO:0000783	Kamori (Goat)	LBO:0000997	https://orcid.org/0000-0002-5002-8648	Kamori	LBO:0000997				
-VBO:0000787	Kiko (Goat)	LBO:0000998	https://orcid.org/0000-0002-5002-8648	Kiko	LBO:0000998				
-VBO:0000792	Lamancha (Goat)	LBO:0001000	https://orcid.org/0000-0002-5002-8648	LaMancha	LBO:0001000				
-VBO:0000800	Massif Central (Goat)	LBO:0001057	https://orcid.org/0000-0002-5002-8648	Massif Central	LBO:0001057				
-VBO:0000807	Murcia-Granada (Goat)	LBO:0001003	https://orcid.org/0000-0002-5002-8648	Murcia-Granada	LBO:0001003				
-VBO:0000809	Myotonic (Goat)	LBO:0001004	https://orcid.org/0000-0002-5002-8648	Myotonic	LBO:0001004	Tennessee fainting goat|Wooden Leg	LBO:0001004		
-VBO:0000811	Nigerian Dwarf (Goat)	LBO:0001006	https://orcid.org/0000-0002-5002-8648	Nigerian Dwarf	LBO:0001006				
-VBO:0000813	Oberhasli (Goat)	LBO:0001008	https://orcid.org/0000-0002-5002-8648	Oberhasli	LBO:0001008				
-VBO:0000818	Peacock Goat (Goat)	LBO:0001009	https://orcid.org/0000-0002-5002-8648	Peacock Goat	LBO:0001009				
-VBO:0000820	Poitou (Goat)	LBO:0001011	https://orcid.org/0000-0002-5002-8648	Poitou	LBO:0001011				
-VBO:0000822	Pyrenean (Goat)	LBO:0001013	https://orcid.org/0000-0002-5002-8648	Pyrenean	LBO:0001013				
-VBO:0000825	Rove (Goat)	LBO:0001060	https://orcid.org/0000-0002-5002-8648	Rove	LBO:0001060				
-VBO:0000827	Saanen (Goat)	LBO:0001017	https://orcid.org/0000-0002-5002-8648	Saanen	LBO:0001017				
-VBO:0000828	Sahelian (Goat)	LBO:0001018	https://orcid.org/0000-0002-5002-8648	Sahelian	LBO:0001018				
-VBO:0000829	San Clemente (Goat)	LBO:0001019	https://orcid.org/0000-0002-5002-8648	San Clemente	LBO:0001019				
-VBO:0000830	Savanna (Goat)	LBO:0001091	https://orcid.org/0000-0002-5002-8648	Savanna	LBO:0001091				
-VBO:0000836	Somali (Goat)	LBO:0001020	https://orcid.org/0000-0002-5002-8648	Somali	LBO:0001020				
-VBO:0000838	Spanish (Goat)	LBO:0001021	https://orcid.org/0000-0002-5002-8648	Spanish	LBO:0001021				
-VBO:0000846	Toggenburg (Goat)	LBO:0001026	https://orcid.org/0000-0002-5002-8648	Toggenburg	LBO:0001026				
-VBO:0000849	Valais Blackneck (Goat)	LBO:0001027	https://orcid.org/0000-0002-5002-8648	Valais Blackneck	LBO:0001027				
-VBO:0000850	Verata (Goat)	LBO:0001028	https://orcid.org/0000-0002-5002-8648	Verata	LBO:0001028				
-VBO:0000854	West African Dwarf (Goat)	LBO:0001029	https://orcid.org/0000-0002-5002-8648	West African Dwarf	LBO:0001029				
-VBO:0000856	White Shorthaired Goat (Goat)	LBO:0001030	https://orcid.org/0000-0002-5002-8648	White Shorthaired Goat	LBO:0001030				
-VBO:0000894	Akhal-Teke (Horse)	LBO:0000715	https://orcid.org/0000-0002-5002-8648	Akhal Teke	LBO:0000715				
-VBO:0000895	Altai (Horse)	LBO:0000717	https://orcid.org/0000-0002-5002-8648	Altai	LBO:0000717				
-VBO:0000896	American Miniature Horse (Horse)	LBO:0000837	https://orcid.org/0000-0002-5002-8648	Miniature	LBO:0000837				
-VBO:0000897	American Paint (Horse)	LBO:0000861	https://orcid.org/0000-0002-5002-8648	Paint	LBO:0000861				
-VBO:0000899	Standardbred (Horse)	LBO:0000900	https://orcid.org/0000-0002-5002-8648	Standardbred	LBO:0000900				
-VBO:0000900	Andalusian (Horse)	LBO:0000721	https://orcid.org/0000-0002-5002-8648	Andalusian	LBO:0000721				
-VBO:0000902	Anglo-Kabarda (Horse)	LBO:0000723	https://orcid.org/0000-0002-5002-8648	Anglo-Kabarda	LBO:0000723				
-VBO:0000904	Appaloosa (Horse)	LBO:0000724	https://orcid.org/0000-0002-5002-8648	Appaloosa	LBO:0000724				
-VBO:0000905	Arab (Horse)	LBO:0000726	https://orcid.org/0000-0002-5002-8648	Arabian	LBO:0000726				
-VBO:0000907	Ardennes (Horse)	LBO:0000727	https://orcid.org/0000-0002-5002-8648	Ardennes	LBO:0000727				
-VBO:0000908	Argentine Criollo (Horse)	LBO:0000728	https://orcid.org/0000-0002-5002-8648	Argentine Criollo	LBO:0000728				
-VBO:0000910	Azteca (Horse)	LBO:0000732	https://orcid.org/0000-0002-5002-8648	Azteca	LBO:0000732				
-VBO:0000912	Barb (Horse)	LBO:0000737	https://orcid.org/0000-0002-5002-8648	Barb	LBO:0000737				
-VBO:0000913	Bashkir Curly (Horse)	LBO:0000739	https://orcid.org/0000-0002-5002-8648	Bashkir Curly	LBO:0000739				
-VBO:0000917	Belgian Warmblood (Horse)	LBO:0000936	https://orcid.org/0000-0002-5002-8648	Belgian Warmblood	LBO:0000936				
-VBO:0000918	Bhotia Pony (Horse)	LBO:0000743	https://orcid.org/0000-0002-5002-8648	Bhotia Pony	LBO:0000743				
-VBO:0000919	Boer (Horse)	LBO:0000745	https://orcid.org/0000-0002-5002-8648	Boer	LBO:0000745				
-VBO:0000925	Breton (Horse)	LBO:0000746	https://orcid.org/0000-0002-5002-8648	Breton	LBO:0000746				
-VBO:0000927	Budyonny (Horse)	LBO:0000748	https://orcid.org/0000-0002-5002-8648	Budyonny	LBO:0000748				
-VBO:0000928	Camargue (Horse)	LBO:0000750	https://orcid.org/0000-0002-5002-8648	Camargue	LBO:0000750				
-VBO:0000929	Canadian (Horse)	LBO:0000752	https://orcid.org/0000-0002-5002-8648	Canadian	LBO:0000752				
-VBO:0000930	Caspian (Horse)	LBO:0000754	https://orcid.org/0000-0002-5002-8648	Caspian	LBO:0000754				
-VBO:0000933	Cleveland Bay (Horse)	LBO:0000759	https://orcid.org/0000-0002-5002-8648	Cleveland Bay	LBO:0000759				
-VBO:0000934	Clydesdale (Horse)	LBO:0000760	https://orcid.org/0000-0002-5002-8648	Clydesdale	LBO:0000760				
-VBO:0000936	Comtois (Horse)	LBO:0000953	https://orcid.org/0000-0002-5002-8648	Comtois	LBO:0000953				
-VBO:0000937	Connemara Pony (Horse)	LBO:0000762	https://orcid.org/0000-0002-5002-8648	Connemara Pony	LBO:0000762				
-VBO:0000949	Dartmoor Pony (Horse)	LBO:0000767	https://orcid.org/0000-0002-5002-8648	Dartmoor Pony	LBO:0000767				
-VBO:0000951	Dongola (Horse)	LBO:0000771	https://orcid.org/0000-0002-5002-8648	Dongola	LBO:0000771				
-VBO:0000952	Dutch Warmblood (Horse)	LBO:0000774	https://orcid.org/0000-0002-5002-8648	Dutch Warmblood	LBO:0000774				
-VBO:0000955	Estonian Native Horse (Horse)	LBO:0000778	https://orcid.org/0000-0002-5002-8648	Estonian Native	LBO:0000778				
-VBO:0000956	Exmoor Pony (Horse)	LBO:0000779	https://orcid.org/0000-0002-5002-8648	Exmoor Pony	LBO:0000779				
-VBO:0000957	Falabella Pony (Horse)	LBO:0000781	https://orcid.org/0000-0002-5002-8648	Falabella	LBO:0000781				
-VBO:0000958	Fell Pony (Horse)	LBO:0000782	https://orcid.org/0000-0002-5002-8648	Fell Pony	LBO:0000782				
-VBO:0000959	Finnhorse (Horse)	LBO:0000783	https://orcid.org/0000-0002-5002-8648	Finnhorse	LBO:0000783				
-VBO:0000964	Frederiksborg Horse (Horse)	LBO:0000786	https://orcid.org/0000-0002-5002-8648	Frederiksborg	LBO:0000786				
-VBO:0000965	Freiberger (Horse)	LBO:0000946	https://orcid.org/0000-0002-5002-8648	Freiberger	LBO:0000946				
-VBO:0000967	French Saddlebred (Horse)	LBO:0000787	https://orcid.org/0000-0002-5002-8648	French Saddlebred	LBO:0000787				
-VBO:0000968	French Trotter (Horse)	LBO:0000788	https://orcid.org/0000-0002-5002-8648	French Trotter	LBO:0000788				
-VBO:0000969	Friesian (Horse)	LBO:0000789	https://orcid.org/0000-0002-5002-8648	Friesian	LBO:0000789				
-VBO:0000973	Gidran (Horse)	LBO:0000793	https://orcid.org/0000-0002-5002-8648	Gidran	LBO:0000793				
-VBO:0000976	Hackney (Horse)	LBO:0000798	https://orcid.org/0000-0002-5002-8648	Hackney	LBO:0000798				
-VBO:0000978	Haflinger (Horse)	LBO:0000799	https://orcid.org/0000-0002-5002-8648	Haflinger	LBO:0000799				
-VBO:0000979	Hanoverian (Horse)	LBO:0000800	https://orcid.org/0000-0002-5002-8648	Hanoverian	LBO:0000800				
-VBO:0000982	Highland Pony (Horse)	LBO:0000802	https://orcid.org/0000-0002-5002-8648	Highland Pony	LBO:0000802				
-VBO:0000986	Holsteiner (Horse)	LBO:0000804	https://orcid.org/0000-0002-5002-8648	Holsteiner	LBO:0000804				
-VBO:0000991	Icelandic Horse (Horse)	LBO:0000807	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000807				
-VBO:0000991		LBO:0000807	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000807				
-VBO:0000993	Irish Draught (Horse)	LBO:0000809	https://orcid.org/0000-0002-5002-8648	Irish Draught	LBO:0000809				
-VBO:0000999	Kabarda (Horse)	LBO:0000812	https://orcid.org/0000-0002-5002-8648	Kabarda	LBO:0000812				
-VBO:0001001	Karabair (Horse)	LBO:0000813	https://orcid.org/0000-0002-5002-8648	Karabair	LBO:0000813				
-VBO:0001002	Karabakh (Horse)	LBO:0000814	https://orcid.org/0000-0002-5002-8648	Karabakh	LBO:0000814				
-VBO:0001004	Kazakh (Horse)	LBO:0000815	https://orcid.org/0000-0002-5002-8648	Kazakh	LBO:0000815				
-VBO:0001005	Kerry Bog Pony (Horse)	LBO:0000816	https://orcid.org/0000-0002-5002-8648	Kerry Bog Pony	LBO:0000816				
-VBO:0001007	Kladruby (Horse)	LBO:0000821	https://orcid.org/0000-0002-5002-8648	Kladruby	LBO:0000821				
-VBO:0001014	Lipizzan horse (Horse)	LBO:0000827	https://orcid.org/0000-0002-5002-8648	Lipizzan	LBO:0000827	Lipizzaner	LBO:0000827		
-VBO:0001017	Lusitanian (Horse)	LBO:0000830	https://orcid.org/0000-0002-5002-8648	Lusitano	LBO:0000830				
-VBO:0001018	Mangalarga (Horse)	LBO:0000832	https://orcid.org/0000-0002-5002-8648	Mangalarga	LBO:0000832				
-VBO:0001020	Merens Pony (Horse)	LBO:0000835	https://orcid.org/0000-0002-5002-8648	Mérens Pony	LBO:0000835				
-VBO:0001021	Mongolian (Horse)	LBO:0000841	https://orcid.org/0000-0002-5002-8648	Mongolian	LBO:0000841				
-VBO:0001022	Morgan (Horse)	LBO:0000843	https://orcid.org/0000-0002-5002-8648	Morgan	LBO:0000843				
-VBO:0001025	Mustang (Horse)	LBO:0000845	https://orcid.org/0000-0002-5002-8648	Mustang	LBO:0000845				
-VBO:0001026	New Forest Pony (Horse)	LBO:0000848	https://orcid.org/0000-0002-5002-8648	New Forest Pony	LBO:0000848				
-VBO:0001028	Nooitgedacht Pony (Horse)	LBO:0000852	https://orcid.org/0000-0002-5002-8648	Nooitgedacht Pony	LBO:0000852				
-VBO:0001030	Noric (Horse)	LBO:0000853	https://orcid.org/0000-0002-5002-8648	Noric	LBO:0000853				
-VBO:0001034	Oldenburg (Horse)	LBO:0000859	https://orcid.org/0000-0002-5002-8648	Oldenburg	LBO:0000859				
-VBO:0001036	Orlov Trotter (Horse)	LBO:0000860	https://orcid.org/0000-0002-5002-8648	Orlov Trotter	LBO:0000860				
-VBO:0001037	Palomino (Horse)	LBO:0000862	https://orcid.org/0000-0002-5002-8648	Palomino	LBO:0000862				
-VBO:0001040	Paso Fino (Horse)	LBO:0000864	https://orcid.org/0000-0002-5002-8648	Paso Fino	LBO:0000864				
-VBO:0001041	Percheron (Horse)	LBO:0000865	https://orcid.org/0000-0002-5002-8648	Percheron	LBO:0000865				
-VBO:0001042	Peruvian Paso (Horse)	LBO:0000866	https://orcid.org/0000-0002-5002-8648	Peruvian Paso	LBO:0000866				
-VBO:0001047	Polish Konik (Horse)	LBO:0000871	https://orcid.org/0000-0002-5002-8648	Polish Konik	LBO:0000871				
-VBO:0001054	Pottok (Horse)	LBO:0000873	https://orcid.org/0000-0002-5002-8648	Pottok	LBO:0000873				
-VBO:0001057	Quarter Horse (Horse)	LBO:0000878	https://orcid.org/0000-0002-5002-8648	Quarter Horse	LBO:0000878				
-VBO:0001061	Russian Trotter (Horse)	LBO:0000884	https://orcid.org/0000-0002-5002-8648	Russian Trotter	LBO:0000884				
-VBO:0001066	Shetland Pony (Horse)	LBO:0000890	https://orcid.org/0000-0002-5002-8648	Shetland Pony	LBO:0000890				
-VBO:0001067	Shire (Horse)	LBO:0000891	https://orcid.org/0000-0002-5002-8648	Shire	LBO:0000891				
-VBO:0001070	Skyros Pony (Horse)	LBO:0000893	https://orcid.org/0000-0002-5002-8648	Skyros Pony	LBO:0000893				
-VBO:0001074	Soviet Heavy Draft (Horse)	LBO:0000896	https://orcid.org/0000-0002-5002-8648	Soviet Heavy Draft	LBO:0000896				
-VBO:0001075	Suffolk (Horse)	LBO:0000902	https://orcid.org/0000-0002-5002-8648	Suffolk	LBO:0000902				
-VBO:0001077	Swedish Warmblood (Horse)	LBO:0000903	https://orcid.org/0000-0002-5002-8648	Swedish Warmblood	LBO:0000903				
-VBO:0001080	Tarpan (Horse)	LBO:0000905	https://orcid.org/0000-0002-5002-8648	Tarpan	LBO:0000905				
-VBO:0001081	Tennessee Walking Horse (Horse)	LBO:0000907	https://orcid.org/0000-0002-5002-8648	Tennessee Walking Horse	LBO:0000907				
-VBO:0001082	Tersk (Horse)	LBO:0000908	https://orcid.org/0000-0002-5002-8648	Tersk	LBO:0000908				
-VBO:0001083	Thoroughbred (Horse)	LBO:0000910	https://orcid.org/0000-0002-5002-8648	Thoroughbred	LBO:0000910				
-VBO:0001087	Trakehner (Horse)	LBO:0000913	https://orcid.org/0000-0002-5002-8648	Trakehner	LBO:0000913				
-VBO:0001092	West African Barb (Horse)	LBO:0000920	https://orcid.org/0000-0002-5002-8648	West African Barb	LBO:0000920				
-VBO:0001094	Westphalian Warmblood (Horse)	LBO:0001102	https://orcid.org/0000-0002-5002-8648	Westphalian	LBO:0001102	Westfalen	LBO:0001102		
-VBO:0001106	American Landrace (Pig)	LBO:0000337	https://orcid.org/0000-0002-5002-8648	American Landrace	LBO:0000337				
-VBO:0001108	Angeln Saddleback (Pig)	LBO:0000339	https://orcid.org/0000-0002-5002-8648	Angeln Saddleback	LBO:0000339				
-VBO:0001112	Belgian Landrace (Pig)	LBO:0000346	https://orcid.org/0000-0002-5002-8648	Belgian Landrace	LBO:0000346				
-VBO:0001113	Bentheim Black Pied (Pig)	LBO:0000347	https://orcid.org/0000-0002-5002-8648	Bentheim Black Pied	LBO:0000347				
-VBO:0001114	Berkshire (Pig)	LBO:0000348	https://orcid.org/0000-0002-5002-8648	Berkshire	LBO:0000348				
-VBO:0001118	British Landrace (Pig)	LBO:0000350	https://orcid.org/0000-0002-5002-8648	British Landrace	LBO:0000350				
-VBO:0001120	Chester White (Pig)	LBO:0000354	https://orcid.org/0000-0002-5002-8648	Chester White	LBO:0000354				
-VBO:0001124	Danish Landrace (Pig)	LBO:0000356	https://orcid.org/0000-0002-5002-8648	Danish Landrace	LBO:0000356				
-VBO:0001127	Duroc (Pig)	LBO:0000358	https://orcid.org/0000-0002-5002-8648	Duroc	LBO:0000358				
-VBO:0001128	Dutch Landrace (Pig)	LBO:0000359	https://orcid.org/0000-0002-5002-8648	Dutch Landrace	LBO:0000359				
-VBO:0001133	Finnish Landrace (Pig)	LBO:0000361	https://orcid.org/0000-0002-5002-8648	Finnish Landrace	LBO:0000361				
-VBO:0001135	French Landrace (Pig)	LBO:0000362	https://orcid.org/0000-0002-5002-8648	French Landrace	LBO:0000362				
-VBO:0001138	German Landrace (Pig)	LBO:0000363	https://orcid.org/0000-0002-5002-8648	German Landrace	LBO:0000363				
-VBO:0001146	Hampshire (Pig)	LBO:0000366	https://orcid.org/0000-0002-5002-8648	Hampshire	LBO:0000366				
-VBO:0001147	Hereford (Pig)	LBO:0000367	https://orcid.org/0000-0002-5002-8648	Hereford	LBO:0000367				
-VBO:0001159	Kunekune (Pig)	LBO:0000374	https://orcid.org/0000-0002-5002-8648	Kunekune	LBO:0000374				
-VBO:0001160	Lacombe (Pig)	LBO:0000375	https://orcid.org/0000-0002-5002-8648	Lacombe	LBO:0000375				
-VBO:0001161	Landrace (Pig)	LBO:0000692	https://orcid.org/0000-0002-5002-8648	Landrace	LBO:0000692				
-VBO:0001162	Large Black (Pig)	LBO:0000376	https://orcid.org/0000-0002-5002-8648	Large Black	LBO:0000376				
-VBO:0001163	Large White (Pig)	LBO:0000378	https://orcid.org/0000-0002-5002-8648	Large White	LBO:0000378				
-VBO:0001164	Leicoma (Pig)	LBO:0000694	https://orcid.org/0000-0002-5002-8648	Leicoma	LBO:0000694				
-VBO:0001169	Mangalitsa (Pig)	LBO:0000380	https://orcid.org/0000-0002-5002-8648	Mangalitsa	LBO:0000380				
-VBO:0001175	Meishan (Pig)	LBO:0000381	https://orcid.org/0000-0002-5002-8648	Meishan	LBO:0000381				
-VBO:0001176	Middle White (Pig)	LBO:0000382	https://orcid.org/0000-0002-5002-8648	Middle White	LBO:0000382				
-VBO:0001183	Norwegian Landrace (Pig)	LBO:0000391	https://orcid.org/0000-0002-5002-8648	Norwegian Landrace	LBO:0000391				
-VBO:0001189	Pietrain (Pig)	LBO:0000395	https://orcid.org/0000-0002-5002-8648	Pietrain	LBO:0000395				
-VBO:0001190	Poland China (Pig)	LBO:0000396	https://orcid.org/0000-0002-5002-8648	Poland China	LBO:0000396				
-VBO:0001192	Pulawska (Pig)	LBO:0000933	https://orcid.org/0000-0002-5002-8648	Pulawska	LBO:0000933				
-VBO:0001193	Saddleback (Pig)	LBO:0000398	https://orcid.org/0000-0002-5002-8648	Saddleback	LBO:0000398				
-VBO:0001198	Spotted (Pig)	LBO:0000399	https://orcid.org/0000-0002-5002-8648	Spots	LBO:0000399	Spotted	LBO:0000399		
-VBO:0001200	Swedish Landrace (Pig)	LBO:0000401	https://orcid.org/0000-0002-5002-8648	Swedish Landrace	LBO:0000401				
-VBO:0001202	Tamworth (Pig)	LBO:0000402	https://orcid.org/0000-0002-5002-8648	Tamworth	LBO:0000402				
-VBO:0001205	Turopolje (Pig)	LBO:0000405	https://orcid.org/0000-0002-5002-8648	Turopolje	LBO:0000405				
-VBO:0001210	Welsh (Pig)	LBO:0000407	https://orcid.org/0000-0002-5002-8648	Welsh	LBO:0000407				
-VBO:0001212	Yorkshire (Pig)	LBO:0000338	https://orcid.org/0000-0002-5002-8648	Yorkshire	LBO:0000338				
-VBO:0001298	Arabi (Sheep)	LBO:0000422	https://orcid.org/0000-0002-5002-8648	Arabi	LBO:0000422				
-VBO:0001303	Askanian (Sheep)	LBO:0000427	https://orcid.org/0000-0002-5002-8648	Askanian	LBO:0000427				
-VBO:0001304	Assaf (Sheep)	LBO:0001098	https://orcid.org/0000-0002-5002-8648	Assaf	LBO:0001098			Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool	LBO:0001098
-VBO:0001308	Awassi (Sheep)	LBO:0000428	https://orcid.org/0000-0002-5002-8648	Awassi	LBO:0000428				
-VBO:0001313	Baluchi (Sheep)	LBO:0000430	https://orcid.org/0000-0002-5002-8648	Baluchi	LBO:0000430				
-VBO:0001315	Barbado (Sheep)	LBO:0000432	https://orcid.org/0000-0002-5002-8648	Barbado	LBO:0000432				
-VBO:0001320	Barki (Sheep)	LBO:0001087	https://orcid.org/0000-0002-5002-8648	Barki	LBO:0001087			One of the main sheep breeds in Egypt, well-adapted to the desert environment.	LBO:0001087
-VBO:0001322	Belclare (Sheep)	LBO:0000951	https://orcid.org/0000-0002-5002-8648	Belclare	LBO:0000951				
-VBO:0001329	Bentheimer Landschaf (Sheep)	LBO:0000436	https://orcid.org/0000-0002-5002-8648	Bentheimer Landschaf	LBO:0000436				
-VBO:0001331	Bergamasca (Sheep)	LBO:0000437	https://orcid.org/0000-0002-5002-8648	Bergamasca	LBO:0000437				
-VBO:0001332	Berrichon Du Cher (Sheep)	LBO:0000940	https://orcid.org/0000-0002-5002-8648	Berrichon du Cher	LBO:0000940				
-VBO:0001339	Blackhead Persian (Sheep)	LBO:0001069	https://orcid.org/0000-0002-5002-8648	Blackhead Persian	LBO:0001069				
-VBO:0001341	Bleu Du Maine (Sheep)	LBO:0000442	https://orcid.org/0000-0002-5002-8648	Bleu du Maine	LBO:0000442				
-VBO:0001344	Bluefaced Leicester (Sheep)	LBO:0000443	https://orcid.org/0000-0002-5002-8648	Bluefaced Leicester	LBO:0000443				
-VBO:0001346	Booroola Merino (Sheep)	LBO:0000445	https://orcid.org/0000-0002-5002-8648	Booroola Merino	LBO:0000445				
-VBO:0001347	Border Leicester (Sheep)	LBO:0000446	https://orcid.org/0000-0002-5002-8648	Border Leicester	LBO:0000446				
-VBO:0001361	Castlemilk Moorit (Sheep)	LBO:0000458	https://orcid.org/0000-0002-5002-8648	Castlemilk Moorit	LBO:0000458				
-VBO:0001368	Charollais (Sheep)	LBO:0000460	https://orcid.org/0000-0002-5002-8648	Charollais	LBO:0000460				
-VBO:0001369	Cheviot (Sheep)	LBO:0000461	https://orcid.org/0000-0002-5002-8648	Cheviot	LBO:0000461				
-VBO:0001370	Chios (Sheep)	LBO:0000462	https://orcid.org/0000-0002-5002-8648	Chios	LBO:0000462				
-VBO:0001373	Clun Forest (Sheep)	LBO:0000464	https://orcid.org/0000-0002-5002-8648	Clun Forest	LBO:0000464				
-VBO:0001378	Columbia (Sheep)	LBO:0000466	https://orcid.org/0000-0002-5002-8648	Columbia	LBO:0000466				
-VBO:0001379	Comeback (Sheep)	LBO:0000467	https://orcid.org/0000-0002-5002-8648	Comeback	LBO:0000467				
-VBO:0001380	Coopworth (Sheep)	LBO:0000469	https://orcid.org/0000-0002-5002-8648	Coopworth	LBO:0000469				
-VBO:0001381	Cormo (Sheep)	LBO:0000470	https://orcid.org/0000-0002-5002-8648	Cormo	LBO:0000470				
-VBO:0001382	Corriedale (Sheep)	LBO:0000471	https://orcid.org/0000-0002-5002-8648	Corriedale	LBO:0000471				
-VBO:0001385	Cotswold (Sheep)	LBO:0000472	https://orcid.org/0000-0002-5002-8648	Cotswold	LBO:0000472				
-VBO:0001386	Criollo (Sheep)	LBO:0000473	https://orcid.org/0000-0002-5002-8648	Criollo	LBO:0000473				
-VBO:0001388	Daglic (Sheep)	LBO:0000476	https://orcid.org/0000-0002-5002-8648	Daglic	LBO:0000476				
-VBO:0001389	Dala (Sheep)	LBO:0000474	https://orcid.org/0000-0002-5002-8648	Dala	LBO:0000474				
-VBO:0001390	Damara (Sheep)	LBO:0000478	https://orcid.org/0000-0002-5002-8648	Damara	LBO:0000478				
-VBO:0001391	Danish Landrace (Sheep)	LBO:0000479	https://orcid.org/0000-0002-5002-8648	Danish Landrace	LBO:0000479				
-VBO:0001392	Derbyshire Gritstone (Sheep)	LBO:0000485	https://orcid.org/0000-0002-5002-8648	Derbyshire Gritstone	LBO:0000485				
-VBO:0001394	Devon Closewool (Sheep)	LBO:0000486	https://orcid.org/0000-0002-5002-8648	Devon Closewool	LBO:0000486				
-VBO:0001397	Dorper (Sheep)	LBO:0000484	https://orcid.org/0000-0002-5002-8648	Dorper	LBO:0000484				
-VBO:0001398	Dorset Down (Sheep)	LBO:0000489	https://orcid.org/0000-0002-5002-8648	Dorset Down	LBO:0000489				
-VBO:0001401	Drysdale (Sheep)	LBO:0000490	https://orcid.org/0000-0002-5002-8648	Drysdale	LBO:0000490				
-VBO:0001410	Exmoor Horn (Sheep)	LBO:0000492	https://orcid.org/0000-0002-5002-8648	Exmoor Horn	LBO:0000492				
-VBO:0001420	Galway (Sheep)	LBO:0000498	https://orcid.org/0000-0002-5002-8648	Galway	LBO:0000498				
-VBO:0001423	German Blackheaded Mutton (Sheep)	LBO:0000501	https://orcid.org/0000-0002-5002-8648	German Blackheaded Mutton	LBO:0000501				
-VBO:0001424	German Mountain (Sheep)	LBO:0000502	https://orcid.org/0000-0002-5002-8648	German Mountain	LBO:0000502				
-VBO:0001425	German Mutton Merino (Sheep)	LBO:0000503	https://orcid.org/0000-0002-5002-8648	German Mutton Merino	LBO:0000503				
-VBO:0001429	Gute (Sheep)	LBO:0000511	https://orcid.org/0000-0002-5002-8648	Gute	LBO:0000511				
-VBO:0001432	Hebridean (Sheep)	LBO:0000517	https://orcid.org/0000-0002-5002-8648	Hebridean	LBO:0000517				
-VBO:0001435	Herdwick (Sheep)	LBO:0000518	https://orcid.org/0000-0002-5002-8648	Herdwick	LBO:0000518				
-VBO:0001436	Herik (Sheep)	LBO:0000519	https://orcid.org/0000-0002-5002-8648	Herik	LBO:0000519				
-VBO:0001439	Hill Radnor (Sheep)	LBO:0000520	https://orcid.org/0000-0002-5002-8648	Hill Radnor	LBO:0000520				
-VBO:0001442	Icelandic (Sheep)	LBO:0000523	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000523				
-VBO:0001444	Ile-De-France (Sheep)	LBO:0000524	https://orcid.org/0000-0002-5002-8648	Ile-de-France	LBO:0000524				
-VBO:0001450	Jacob (Sheep)	LBO:0000526	https://orcid.org/0000-0002-5002-8648	Jacob	LBO:0000526				
-VBO:0001461	Karakul (Sheep)	LBO:0000531	https://orcid.org/0000-0002-5002-8648	Karakul	LBO:0000531				
-VBO:0001462	Karayaka (Sheep)	LBO:0000532	https://orcid.org/0000-0002-5002-8648	Karayaka	LBO:0000532				
-VBO:0001464	Katahdin (Sheep)	LBO:0000533	https://orcid.org/0000-0002-5002-8648	Katahdin	LBO:0000533				
-VBO:0001468	Kerry Hill (Sheep)	LBO:0000534	https://orcid.org/0000-0002-5002-8648	Kerry Hill	LBO:0000534				
-VBO:0001474	Lacaune (Sheep)	LBO:0001072	https://orcid.org/0000-0002-5002-8648	Lacaune	LBO:0001072				
-VBO:0001479	Landais (Sheep)	LBO:0000537	https://orcid.org/0000-0002-5002-8648	Landais	LBO:0000537				
-VBO:0001482	Latxa (Sheep)	LBO:0000702	https://orcid.org/0000-0002-5002-8648	Latxa	LBO:0000702				
-VBO:0001484	Leicester Longwool (Sheep)	LBO:0000696	https://orcid.org/0000-0002-5002-8648	Leicester Longwool	LBO:0000696				
-VBO:0001491	Lleyn (Sheep)	LBO:0000544	https://orcid.org/0000-0002-5002-8648	Lleyn	LBO:0000544				
-VBO:0001493	Lonk (Sheep)	LBO:0000546	https://orcid.org/0000-0002-5002-8648	Lonk	LBO:0000546				
-VBO:0001499	Manchega (Sheep)	LBO:0000549	https://orcid.org/0000-0002-5002-8648	Manchega	LBO:0000549				
-VBO:0001500	Manx Loaghtan (Sheep)	LBO:0000551	https://orcid.org/0000-0002-5002-8648	Manx Loaghtan	LBO:0000551				
-VBO:0001504	Masai (Sheep)	LBO:0000552	https://orcid.org/0000-0002-5002-8648	Masai	LBO:0000552				
-VBO:0001512	Merinolandschaf (Sheep)	LBO:0000557	https://orcid.org/0000-0002-5002-8648	Merinolandschaf	LBO:0000557				
-VBO:0001515	Montadale (Sheep)	LBO:0000559	https://orcid.org/0000-0002-5002-8648	Montadale	LBO:0000559				
-VBO:0001520	Mouflon (Sheep)	LBO:0000561	https://orcid.org/0000-0002-5002-8648	Mouflon	LBO:0000561				
-VBO:0001524	Navajo-Churro (Sheep)	LBO:0000562	https://orcid.org/0000-0002-5002-8648	Navajo-Churro	LBO:0000562				
-VBO:0001528	Norfolk Horn (Sheep)	LBO:0000564	https://orcid.org/0000-0002-5002-8648	Norfolk Horn	LBO:0000564				
-VBO:0001531	North Country Cheviot (Sheep)	LBO:0000565	https://orcid.org/0000-0002-5002-8648	North Country Cheviot	LBO:0000565				
-VBO:0001533	North Ronaldsay (Sheep)	LBO:0000566	https://orcid.org/0000-0002-5002-8648	North Ronaldsay	LBO:0000566				
-VBO:0001550	Perendale (Sheep)	LBO:0000575	https://orcid.org/0000-0002-5002-8648	Perendale	LBO:0000575				
-VBO:0001558	Poll Merino (Sheep)	LBO:0000578	https://orcid.org/0000-0002-5002-8648	Poll Merino	LBO:0000578				
-VBO:0001559	Polwarth (Sheep)	LBO:0000579	https://orcid.org/0000-0002-5002-8648	Polwarth	LBO:0000579				
-VBO:0001560	Polypay (Sheep)	LBO:0000580	https://orcid.org/0000-0002-5002-8648	Polypay	LBO:0000580				
-VBO:0001561	Pomeranian Coarsewool (Sheep)	LBO:0000581	https://orcid.org/0000-0002-5002-8648	Pomeranian Coarsewool	LBO:0000581				
-VBO:0001564	Portland (Sheep)	LBO:0000582	https://orcid.org/0000-0002-5002-8648	Portland	LBO:0000582				
-VBO:0001567	Priangan (Sheep)	LBO:0000583	https://orcid.org/0000-0002-5002-8648	Priangan	LBO:0000583				
-VBO:0001568	Racka (Sheep)	LBO:0000590	https://orcid.org/0000-0002-5002-8648	Racka	LBO:0000590				
-VBO:0001570	Rambouillet (Sheep)	LBO:0000591	https://orcid.org/0000-0002-5002-8648	Rambouillet	LBO:0000591				
-VBO:0001575	Red Karaman (Sheep)	LBO:0000594	https://orcid.org/0000-0002-5002-8648	Red Karaman	LBO:0000594				
-VBO:0001580	Romanov (Sheep)	LBO:0000597	https://orcid.org/0000-0002-5002-8648	Romanov	LBO:0000597				
-VBO:0001581	Romney (Sheep)	LBO:0000598	https://orcid.org/0000-0002-5002-8648	Romney	LBO:0000598				
-VBO:0001583	Rouge De L'ouest (Sheep)	LBO:0000599	https://orcid.org/0000-0002-5002-8648	Rouge de l'Ouest	LBO:0000599				
-VBO:0001585	Rough Fell (Sheep)	LBO:0000601	https://orcid.org/0000-0002-5002-8648	Rough Fell	LBO:0000601				
-VBO:0001590	Ryeland (Sheep)	LBO:0000604	https://orcid.org/0000-0002-5002-8648	Ryeland	LBO:0000604				
-VBO:0001591	Rygja (Sheep)	LBO:0000605	https://orcid.org/0000-0002-5002-8648	Rygja	LBO:0000605				
-VBO:0001594	Santa Cruz (Sheep)	LBO:0000608	https://orcid.org/0000-0002-5002-8648	Santa Cruz	LBO:0000608				
-VBO:0001598	Scottish Blackface (Sheep)	LBO:0000612	https://orcid.org/0000-0002-5002-8648	Scottish Blackface	LBO:0000612				
-VBO:0001601	Shetland (Sheep)	LBO:0000613	https://orcid.org/0000-0002-5002-8648	Shetland	LBO:0000613				
-VBO:0001603	Shropshire (Sheep)	LBO:0000614	https://orcid.org/0000-0002-5002-8648	Shropshire	LBO:0000614				
-VBO:0001604	Skudde (Sheep)	LBO:0000616	https://orcid.org/0000-0002-5002-8648	Skudde	LBO:0000616				
-VBO:0001605	Soay (Sheep)	LBO:0000617	https://orcid.org/0000-0002-5002-8648	Soay	LBO:0000617				
-VBO:0001607	Somali (Sheep)	LBO:0000618	https://orcid.org/0000-0002-5002-8648	Somali	LBO:0000618				
-VBO:0001609	South African Mutton Merino (Sheep)	LBO:0000621	https://orcid.org/0000-0002-5002-8648	South African Mutton Merino	LBO:0000621				
-VBO:0001613	South Suffolk (Sheep)	LBO:0000623	https://orcid.org/0000-0002-5002-8648	South Suffolk	LBO:0000623				
-VBO:0001614	Southdown (Sheep)	LBO:0000624	https://orcid.org/0000-0002-5002-8648	Southdown	LBO:0000624				
-VBO:0001621	Spiegel (Sheep)	LBO:0000627	https://orcid.org/0000-0002-5002-8648	Spiegel	LBO:0000627				
-VBO:0001622	St. Croix (Sheep)	LBO:0000628	https://orcid.org/0000-0002-5002-8648	St. Croix	LBO:0000628	Virgin Island White	LBO:0000628		
-VBO:0001624	Steigar (Sheep)	LBO:0000629	https://orcid.org/0000-0002-5002-8648	Steigar	LBO:0000629				
-VBO:0001627	Suffolk (Sheep)	LBO:0000632	https://orcid.org/0000-0002-5002-8648	Suffolk	LBO:0000632				
-VBO:0001638	Targhee (Sheep)	LBO:0000638	https://orcid.org/0000-0002-5002-8648	Targhee	LBO:0000638				
-VBO:0001639	Teeswater (Sheep)	LBO:0000639	https://orcid.org/0000-0002-5002-8648	Teeswater	LBO:0000639				
-VBO:0001641	Texel (Sheep)	LBO:0000640	https://orcid.org/0000-0002-5002-8648	Texel	LBO:0000640				
-VBO:0001650	Touabire (Sheep)	LBO:0000643	https://orcid.org/0000-0002-5002-8648	Touabire	LBO:0000643				
-VBO:0001656	Tuj (Sheep)	LBO:0000646	https://orcid.org/0000-0002-5002-8648	Tuj	LBO:0000646				
-VBO:0001660	Uda (Sheep)	LBO:0000649	https://orcid.org/0000-0002-5002-8648	Uda	LBO:0000649				
-VBO:0001665	Valais Blacknose (Sheep)	LBO:0000652	https://orcid.org/0000-0002-5002-8648	Valais Blacknose	LBO:0000652				
-VBO:0001667	Van Rooy (Sheep)	LBO:0000653	https://orcid.org/0000-0002-5002-8648	Van Rooy	LBO:0000653				
-VBO:0001669	Velay Black (Sheep)	LBO:0001096	https://orcid.org/0000-0002-5002-8648	Noire du Velay	LBO:0001096	Black Velay	LBO:0001096	Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.	LBO:0001096
-VBO:0001671	Vendeen (Sheep)	LBO:0000654	https://orcid.org/0000-0002-5002-8648	Vendeen	LBO:0000654				
-VBO:0001679	Welsh Hill Speckled Face (Sheep)	LBO:0000659	https://orcid.org/0000-0002-5002-8648	Welsh Hill Speckled Face	LBO:0000659				
-VBO:0001681	Wensleydale (Sheep)	LBO:0000662	https://orcid.org/0000-0002-5002-8648	Wensleydale	LBO:0000662				
-VBO:0001682	West African Dwarf (Sheep)	LBO:0000663	https://orcid.org/0000-0002-5002-8648	West African Dwarf	LBO:0000663				
-VBO:0001684	White Karaman (Sheep)	LBO:0000665	https://orcid.org/0000-0002-5002-8648	White Karaman	LBO:0000665				
-VBO:0001688	Wiltshire Horn (Sheep)	LBO:0000669	https://orcid.org/0000-0002-5002-8648	Wiltshire Horn	LBO:0000669				
-VBO:0000082	Surti (Buffalo)	LBO:0001048	https://orcid.org/0000-0002-5002-8648	Surati	LBO:0001048				
-VBO:0000166	Brown Swiss (Cattle)	LBO:0000061	https://orcid.org/0000-0002-9178-3965	Braunvieh	LBO:0000061				
-VBO:0000443	Appenzeller Barthuhn (Chicken)	LBO:0000275	https://orcid.org/0000-0002-9178-3965	Appenzell Bearded Hen	LBO:0000275				
-VBO:0000444	Appenzeller Spitzenhauben (Chicken)	LBO:0000276	https://orcid.org/0000-0002-9178-3965	Appenzell Pointed Hood Hen	LBO:0000276				
-VBO:0000453	Barnevelder (Chicken)	LBO:0000283	https://orcid.org/0000-0002-9178-3965	Barnevelders	LBO:0000283				
-VBO:0000463	Brahma (Chicken)	LBO:0000282	https://orcid.org/0000-0002-5002-8648	Brahmas	LBO:0000282				
-VBO:0000618	Sicilian Buttercup (Chicken)	LBO:0000285	https://orcid.org/0000-0002-5002-8648	Buttercup	LBO:0000285				
-VBO:0000517	Crèvecoeur (Chicken)	LBO:0000291	https://orcid.org/0000-0002-5002-8648	Crevecoeur	LBO:0000291				
-VBO:0000521	Dominique (Chicken)	LBO:0000294	https://orcid.org/0000-0002-5002-8648	Dominiques	LBO:0000294				
-VBO:0000527	Faverolle (Chicken)	LBO:0000297	https://orcid.org/0000-0002-5002-8648	Faverolles	LBO:0000297				
-VBO:0000445	Araucana (Chicken)	LBO:0000300	https://orcid.org/0000-0002-5002-8648	Gallus Inauris	LBO:0000300				
-VBO:0000568	Malay Game (Chicken)	LBO:0000316	https://orcid.org/0000-0002-5002-8648	Malay	LBO:0000316				
-VBO:0000617	Shamo (Chicken)	LBO:0000699	https://orcid.org/0000-0002-9178-3965	Oh-Shamo	LBO:0000699				
-VBO:0000519	Derbyshire Redcap (Chicken)	LBO:0000326	https://orcid.org/0000-0002-9178-3965	Red Cap	LBO:0000326				
-VBO:0000619	Silkie (Chicken)	LBO:0000328	https://orcid.org/0000-0002-5002-8648	Silkie Bantam	LBO:0000328				
-VBO:0000626	Spanish (Chicken)	LBO:0000335	https://orcid.org/0000-0002-9178-3965	White-Faced Black Spanish	LBO:0000335				
-VBO:0000725	Australian feral (Goat)	LBO:0000962	https://orcid.org/0000-0002-9178-3965	Australian Goat	LBO:0000962				
-VBO:0000740	Brown Shorthair Goat (Goat)	LBO:0001124	https://orcid.org/0000-0002-9178-3965	Brown Shorthair	LBO:0001124			Czech breed originated from a native breed improved by crossing with German Brown bucks.	LBO:0001124
-VBO:0000743	Canary Islands (Goat)	LBO:0000972	https://orcid.org/0000-0002-9178-3965	Canary Island	LBO:0000972				
-VBO:0000741	Bunte Deutsche Edelziege (Goat)	LBO:0000981	https://orcid.org/0000-0002-9178-3965	Erzgebirg	LBO:0000981				
-VBO:0000901	Anglo-Arab (Horse)	LBO:0000935	https://orcid.org/0000-0002-9178-3965	Anglo-Arabian	LBO:0000935				
-VBO:0000913	Bashkir Curly (Horse)	LBO:0000738	https://orcid.org/0000-0002-9178-3965	Bashkir	LBO:0000738				
-VBO:0016893	Chincoteague Pony (Horse)	LBO:0000758	https://orcid.org/0000-0002-9178-3965	Chincoteague Pony	LBO:0000758				
-VBO:0000967	French Saddlebred (Horse)	LBO:0000888	https://orcid.org/0000-0002-9178-3965|ISBN:9781789241532	Selle Francais	LBO:0000888				
-VBO:0000998	Jutland Horse (Horse)	LBO:0000811	https://orcid.org/0000-0002-9178-3965	Jutland	LBO:0000811				
-VBO:0001008	Knabstrupper (Horse)	LBO:0000822	https://orcid.org/0000-0002-9178-3965	Knabstrup	LBO:0000822				
-VBO:0001054	Pottok (Horse)	LBO:0000875	https://orcid.org/0000-0002-9178-3965	Pyrenean Tarpan	LBO:0000875				
-VBO:0016883	Racking Horse (Horse)	LBO:0000880	https://orcid.org/0000-0002-9178-3965	Racking Horse	LBO:0000880				
-VBO:0016883	Racking Horse (Horse)	LBO:0000892	https://orcid.org/0000-0002-9178-3965	Single-Footing Horse	LBO:0000892				
-VBO:0001086	Tori Horse (Toric) (Horse)	LBO:0000912	https://orcid.org/0000-0002-9178-3965	Tori	LBO:0000912				
-VBO:0001091	Welsh Pony (Horse)	LBO:0000919	https://orcid.org/0000-0002-9178-3965	Welsh Pony and Cob	LBO:0000919				
-VBO:0001117	Black Slavonian pig (Pig)	LBO:0000349	https://orcid.org/0000-0002-9178-3965	Black Slavonian	LBO:0000349				
-VBO:0016899	Göttingen minipig	LBO:0000943	https://orcid.org/0000-0002-9178-3965	Göttingen Minipig	LBO:0000943				
-VBO:0001150	Iberian Swine (Pig)	LBO:0000369	https://orcid.org/0000-0002-9178-3965	Iberian	LBO:0000369				
-VBO:0001157	Korean native (Pig)	LBO:0000710	https://orcid.org/0000-0002-9178-3965	Korean native pig	LBO:0000710				
-VBO:0001402	East African Blackheaded (Sheep)	LBO:0000413	https://orcid.org/0000-0002-9178-3965	African Blackhead	LBO:0000413				
-VBO:0001543	Ouled Jellal (Sheep)	LBO:0000417	https://orcid.org/0000-0002-9178-3965	Algerian Arab	LBO:0000417				
-VBO:0016886	Australian White (Sheep)	LBO:0001107	https://orcid.org/0000-0002-9178-3965	Australian White	LBO:0001107			Australian meat sheep breed derived from selective breeding of White Dorper, Van Rooy, Poll Dorset, and Texel.	LBO:0001107
-VBO:0001335	Black Welsh Mountain (Sheep)	LBO:0000441	https://orcid.org/0000-0002-9178-3965	Black Welsh Mountain Sheep	LBO:0000441				
-VBO:0001340	Blanc Du Massif Central (Sheep)	LBO:0001095	https://orcid.org/0000-0002-9178-3965	Blanche du Massif Central	LBO:0001095			French sheep breed originating from the southern part of the Massif Central. Known for its hardiness and adaptibility to harsh conditions.	LBO:0001095
-VBO:0001427	Greyface Dartmoor (Sheep)	LBO:0000480	https://orcid.org/0000-0002-9178-3965	Dartmoor	LBO:0000480				
-VBO:0001416	Friesian Milk (Sheep)	LBO:0000497	https://orcid.org/0000-0002-9178-3965	Friesian Milk Sheep	LBO:0000497				
-VBO:0001426	Graue Gehörnte Heidschnucke (Sheep)	LBO:0000508	https://orcid.org/0000-0002-9178-3965	Graue Gehoernte Heidschnucke	LBO:0000508				
-VBO:0001518	Morada Nova (Sheep)	LBO:0000560	https://orcid.org/0000-0002-9178-3965	LBO_0000560	LBO:0000560				
-VBO:0001508	Merino (Sheep)	LBO:0001067	https://orcid.org/0000-0002-9178-3965	Merino type	LBO:0001067				
-VBO:0001534	Norwegian Pelt Sheep (Sheep)	LBO:0000567	https://orcid.org/0000-0002-9178-3965	Norwegian Fur	LBO:0000567				
-VBO:0001548	Pelibuey (Sheep)	LBO:0000574	https://orcid.org/0000-0002-9178-3965	Pelibüey	LBO:0000574				
-VBO:0001574	Red Engadine Sheep (Sheep)	LBO:0000593	https://orcid.org/0000-0002-9178-3965	Red Engadine	LBO:0000593				
-VBO:0001522	Mouton du Sahel (Sheep)	LBO:0000606	https://orcid.org/0000-0002-9178-3965	Sahel-type	LBO:0000606				
-VBO:0001628	Sumavska ovce (Sheep)	LBO:0000633	https://orcid.org/0000-0002-9178-3965	Sumavska	LBO:0000633				
-VBO:0001631	Swedish Fur (Sheep)	LBO:0000635	https://orcid.org/0000-0002-9178-3965	Swedish Fur Sheep	LBO:0000635				
-VBO:0001647	Tiroler Bergschaf (Sheep)	LBO:0000648	https://orcid.org/0000-0002-9178-3965	Tyrol Mountain	LBO:0000648				
-VBO:0001309	Badger Face Welsh Mountain (Sheep)	LBO:0000661	https://orcid.org/0000-0002-9178-3965	Welsh Mountain Badger Faced	LBO:0000661				
-VBO:0001683	White Face Dartmoor (Sheep)	LBO:0000667	https://orcid.org/0000-0002-9178-3965	Whiteface Dartmoor	LBO:0000667				
-VBO:0001685	Whitefaced Woodland (Sheep)	LBO:0000668	https://orcid.org/0000-0002-9178-3965	Whiteface Woodland	LBO:0000668				
-VBO:0001691	Zetska zuja (Sheep)	LBO:0000688	https://orcid.org/0000-0002-9178-3965	Zeta Yellow	LBO:0000688				
+vbo_id	term_label	LBO ID	source_for_xref1	LBO name	LBO ID	LBO synonyms	LBO ID	other_synonym_1	source_for_synonym_1	other_synonym_2	source_for_synonym_2	other_synonym_3	source_for_synonym_3	description_of_origin	source_for_description_of_origin
+ID		A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source	A oboInOwl:hasExactSynonym	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source SPLIT=|	A http://purl.obolibrary.org/obo/vbo#origindescription	>A oboInOwl:source
+VBO:0000071	Egyptian (Buffalo)	LBO:0001050	https://orcid.org/0000-0002-5002-8648	Egyptian	LBO:0001050										
+VBO:0000073	Jafarabadi (Buffalo)	LBO:0001045	https://orcid.org/0000-0002-5002-8648	Jafarabadi	LBO:0001045										
+VBO:0000074	Mediterranean (Buffalo)	LBO:0001043	https://orcid.org/0000-0002-5002-8648	Mediterranean	LBO:0001043										
+VBO:0000076	Murrah (Buffalo)	LBO:0001049	https://orcid.org/0000-0002-5002-8648	Murrah	LBO:0001049										
+VBO:0000078	Nili-Ravi (Buffalo)	LBO:0001053	https://orcid.org/0000-0002-5002-8648	Nili-Ravi	LBO:0001053										
+VBO:0000094	Africander (Cattle)	LBO:0000005	https://orcid.org/0000-0002-5002-8648	Africander cattle	LBO:0000005										
+VBO:0000100	Anatolian Grey (Cattle)	LBO:0000258	https://orcid.org/0000-0002-5002-8648	Turkish Grey Steppe	LBO:0000258										
+VBO:0000101	Andalusian Grey (Cattle)	LBO:0000015	https://orcid.org/0000-0002-5002-8648	Andalusian Grey	LBO:0000015										
+VBO:0000102	Angeln (Cattle)	LBO:0000016	https://orcid.org/0000-0002-5002-8648	Angeln	LBO:0000016										
+VBO:0000104	Angus (Cattle)	LBO:0000017	https://orcid.org/0000-0002-5002-8648	Angus	LBO:0000017										
+VBO:0000105	Ankole (Cattle)	LBO:0000018	https://orcid.org/0000-0002-5002-8648	Ankole	LBO:0000018										
+VBO:0000108	Argentine Criollo (Cattle)	LBO:0000020	https://orcid.org/0000-0002-5002-8648	Argentine Criollo	LBO:0000020										
+VBO:0000111	Asturian Valley (Cattle)	LBO:0000022	https://orcid.org/0000-0002-5002-8648	Asturian Valley	LBO:0000022										
+VBO:0000112	Aubrac (Cattle)	LBO:0000023	https://orcid.org/0000-0002-5002-8648	Aubrac	LBO:0000023										
+VBO:0000113	Aulie-Ata (Cattle)	LBO:0000024	https://orcid.org/0000-0002-5002-8648	Aulie-Ata	LBO:0000024										
+VBO:0000115	Australian Friesian Sahiwal (Cattle)	LBO:0000026	https://orcid.org/0000-0002-5002-8648	Australian Friesian Sahiwal	LBO:0000026										
+VBO:0000117	Australian Lowline (Cattle)	LBO:0000027	https://orcid.org/0000-0002-5002-8648	Australian Lowline	LBO:0000027										
+VBO:0000118	Australian Milking Zebu (Cattle)	LBO:0000028	https://orcid.org/0000-0002-5002-8648	Australian Milking Zebu	LBO:0000028										
+VBO:0000120	Ayrshire (Cattle)	LBO:0000029	https://orcid.org/0000-0002-5002-8648	Ayrshire	LBO:0000029										
+VBO:0000121	Azaouak (Cattle)	LBO:0000030	https://orcid.org/0000-0002-5002-8648	Azaouak	LBO:0000030										
+VBO:0000130	Barka (Cattle)	LBO:0000034	https://orcid.org/0000-0002-5002-8648	Barka	LBO:0000034										
+VBO:0000132	Bazadais (Cattle)	LBO:0000036	https://orcid.org/0000-0002-5002-8648	Bazadais	LBO:0000036										
+VBO:0000133	Bearnais (Cattle)	LBO:0000037	https://orcid.org/0000-0002-5002-8648	Bearnais	LBO:0000037										
+VBO:0000137	Beefalo (Cattle)	LBO:0000038	https://orcid.org/0000-0002-5002-8648	Beefalo	LBO:0000038										
+VBO:0000138	Beefmaster (Cattle)	LBO:0000040	https://orcid.org/0000-0002-5002-8648	Beefmaster	LBO:0000040										
+VBO:0000139	Belgian Blue (Cattle)	LBO:0000042	https://orcid.org/0000-0002-5002-8648	Belgian Blue	LBO:0000042										
+VBO:0000141	Belmont Red (Cattle)	LBO:0000045	https://orcid.org/0000-0002-5002-8648	Belmont Red	LBO:0000045										
+VBO:0000142	Belted Galloway (Cattle)	LBO:0000046	https://orcid.org/0000-0002-5002-8648	Belted Galloway	LBO:0000046										
+VBO:0000143	Bengali (Cattle)	LBO:0000047	https://orcid.org/0000-0002-5002-8648	Bengali	LBO:0000047										
+VBO:0000145	Bhagnari (Cattle)	LBO:0000049	https://orcid.org/0000-0002-5002-8648	Bhagnari	LBO:0000049										
+VBO:0000151	Blonde d'Aquitaine (Cattle)	LBO:0000053	https://orcid.org/0000-0002-5002-8648	Blonde d'Aquitaine	LBO:0000053										
+VBO:0000155	Bonsmara (Cattle)	LBO:0000054	https://orcid.org/0000-0002-5002-8648	Bonsmara	LBO:0000054										
+VBO:0000156	Boran (Cattle)	LBO:0000055	https://orcid.org/0000-0002-5002-8648	Boran	LBO:0000055										
+VBO:0000158	Braford (Cattle)	LBO:0000057	https://orcid.org/0000-0002-5002-8648	Braford	LBO:0000057										
+VBO:0000159	Brahman (Cattle)	LBO:0000058	https://orcid.org/0000-0002-5002-8648	Brahman	LBO:0000058										
+VBO:0000160	brand name Carinthian Blond (Cattle)	LBO:0000069	https://orcid.org/0000-0002-5002-8648	Carinthian Blond	LBO:0000069										
+VBO:0000161	Brangus (Cattle)	LBO:0000060	https://orcid.org/0000-0002-5002-8648	Brangus	LBO:0000060										
+VBO:0000163	British White (Cattle)	LBO:0000062	https://orcid.org/0000-0002-5002-8648	British White	LBO:0000062										
+VBO:0000166	Brown Swiss (Cattle)	LBO:0000063	https://orcid.org/0000-0002-5002-8648	Brown Swiss	LBO:0000063										
+VBO:0000167	Buša (Cattle)	LBO:0000064	https://orcid.org/0000-0002-5002-8648	Busa	LBO:0000064										
+VBO:0000172	Caucasian (Cattle)	LBO:0000070	https://orcid.org/0000-0002-5002-8648	Caucasian	LBO:0000070										
+VBO:0000176	Charbray (Cattle)	LBO:0000072	https://orcid.org/0000-0002-5002-8648	Charbray	LBO:0000072										
+VBO:0000177	Charolais (Cattle)	LBO:0000073	https://orcid.org/0000-0002-5002-8648	Charolais	LBO:0000073										
+VBO:0000178	Chianina (Cattle)	LBO:0000074	https://orcid.org/0000-0002-5002-8648	Chianina	LBO:0000074										
+VBO:0000191	Danish Red (Cattle)	LBO:0000085	https://orcid.org/0000-0002-5002-8648	Danish Red	LBO:0000085										
+VBO:0000192	Devon (Cattle)	LBO:0000087	https://orcid.org/0000-0002-5002-8648	Devon	LBO:0000087										
+VBO:0000193	Dexter (Cattle)	LBO:0000088	https://orcid.org/0000-0002-5002-8648	Dexter	LBO:0000088										
+VBO:0000196	Droughtmaster (Cattle)	LBO:0000091	https://orcid.org/0000-0002-5002-8648	Droughtmaster	LBO:0000091										
+VBO:0000197	Dutch Belted (Cattle)	LBO:0000093	https://orcid.org/0000-0002-5002-8648	Dutch Belted	LBO:0000093										
+VBO:0000198	Dutch Friesian (Cattle)	LBO:0000094	https://orcid.org/0000-0002-5002-8648	Dutch Friesian	LBO:0000094										
+VBO:0000200	Estonian Red (Cattle)	LBO:0000098	https://orcid.org/0000-0002-5002-8648	Estonian Red	LBO:0000098										
+VBO:0000203	Fighting Bull (Cattle)	LBO:0000100	https://orcid.org/0000-0002-5002-8648	Fighting Bull	LBO:0000100										
+VBO:0000206	Galician Blond (Cattle)	LBO:0000105	https://orcid.org/0000-0002-5002-8648	Galician Blond	LBO:0000105										
+VBO:0000207	Galloway (Cattle)	LBO:0000106	https://orcid.org/0000-0002-5002-8648	Galloway	LBO:0000106										
+VBO:0000209	Gascon (Cattle)	LBO:0000108	https://orcid.org/0000-0002-5002-8648	Gascon	LBO:0000108										
+VBO:0000211	Gelbrah (Cattle)	LBO:0000109	https://orcid.org/0000-0002-5002-8648	Gelbray	LBO:0000109										
+VBO:0000212	Gelbvieh (Cattle)	LBO:0000110	https://orcid.org/0000-0002-5002-8648	Gelbvieh	LBO:0000110										
+VBO:0000215	Gir (Cattle)	LBO:0000113	https://orcid.org/0000-0002-5002-8648	Gir	LBO:0000113										
+VBO:0000216	Girolando (Cattle)	LBO:0001094	https://orcid.org/0000-0002-5002-8648	Girolando	LBO:0001094									Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)	LBO:0001094
+VBO:0000217	Glan (Cattle)	LBO:0000114	https://orcid.org/0000-0002-5002-8648	Glan	LBO:0000114										
+VBO:0000219	Gloucester (Cattle)	LBO:0000115	https://orcid.org/0000-0002-5002-8648	Gloucester	LBO:0000115										
+VBO:0000221	Goudali (Cattle)	LBO:0000120	https://orcid.org/0000-0002-5002-8648	Gudali	LBO:0000120										
+VBO:0000224	Greek Shorthorn (Cattle)	LBO:0000117	https://orcid.org/0000-0002-5002-8648	Greek Shorthorn	LBO:0000117										
+VBO:0000225	Groningen White-Headed (Cattle)	LBO:0000119	https://orcid.org/0000-0002-5002-8648	Groningen Whiteheaded	LBO:0000119	Groningen	LBO:0000119								
+VBO:0000227	Guernsey (Cattle)	LBO:0000121	https://orcid.org/0000-0002-5002-8648	Guernsey	LBO:0000121										
+VBO:0000228	Guzerat (Cattle)	LBO:0000122	https://orcid.org/0000-0002-5002-8648	Guzerat	LBO:0000122										
+VBO:0000229	Hanwoo (Cattle)	LBO:0000942	https://orcid.org/0000-0002-5002-8648	Hanwoo	LBO:0000942										
+VBO:0000230	Hariana (Cattle)	LBO:0000124	https://orcid.org/0000-0002-5002-8648	Hariana	LBO:0000124										
+VBO:0000232	Hereford (Cattle)	LBO:0000127	https://orcid.org/0000-0002-5002-8648	Hereford	LBO:0000127										
+VBO:0000233	Herens (Cattle)	LBO:0000128	https://orcid.org/0000-0002-5002-8648	Herens	LBO:0000128										
+VBO:0000234	Highland (Cattle)	LBO:0000129	https://orcid.org/0000-0002-5002-8648	Highland	LBO:0000129										
+VBO:0000235	Hinterwald (Cattle)	LBO:0000130	https://orcid.org/0000-0002-5002-8648	Hinterwald	LBO:0000130										
+VBO:0000239	Holstein Friesian (Cattle)	LBO:0000132	https://orcid.org/0000-0002-5002-8648	Holstein	LBO:0000132										
+VBO:0000241	Hungarian Grey (Cattle)	LBO:0000134	https://orcid.org/0000-0002-5002-8648	Hungarian Grey	LBO:0000134										
+VBO:0000242	Icelandic Cattle (Cattle)	LBO:0000135	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000135										
+VBO:0000243	Illawarra Shorthorn (Cattle)	LBO:0000136	https://orcid.org/0000-0002-5002-8648	Illawarra	LBO:0000136										
+VBO:0000244	Indo-Brasilian (Cattle)	LBO:0000137	https://orcid.org/0000-0002-5002-8648	Indo-Brazilian	LBO:0000137										
+VBO:0000246	Irish Moiled (Cattle)	LBO:0000138	https://orcid.org/0000-0002-5002-8648	Irish Moiled	LBO:0000138										
+VBO:0000247	Istoben (Cattle)	LBO:0000141	https://orcid.org/0000-0002-5002-8648	Istoben	LBO:0000141										
+VBO:0000248	Jamaica Hope (Cattle)	LBO:0000143	https://orcid.org/0000-0002-5002-8648	Jamaica Hope	LBO:0000143										
+VBO:0000250	Jersey (Cattle)	LBO:0000146	https://orcid.org/0000-0002-5002-8648	Jersey	LBO:0000146										
+VBO:0000254	Kangayam (Cattle)	LBO:0000147	https://orcid.org/0000-0002-5002-8648	Kangayam	LBO:0000147										
+VBO:0000255	Katerini (Cattle)	LBO:0000118	https://orcid.org/0000-0002-5002-8648	Greek Steppe	LBO:0000118										
+VBO:0000256	Kazakh (Cattle)	LBO:0000151	https://orcid.org/0000-0002-5002-8648	Kazakh	LBO:0000151										
+VBO:0000257	Kazakh Whiteheaded (Cattle)	LBO:0001078	https://orcid.org/0000-0002-5002-8648	Kazakh Whiteheaded	LBO:0001078									Hardy beef breed from Russia and Kazakhstan.	LBO:0001078
+VBO:0000258	Kerry (Cattle)	LBO:0000153	https://orcid.org/0000-0002-5002-8648	Kerry	LBO:0000153										
+VBO:0000259	Khillari (Cattle)	LBO:0000155	https://orcid.org/0000-0002-5002-8648	Khillari	LBO:0000155										
+VBO:0000260	Kholmogory (Cattle)	LBO:0000156	https://orcid.org/0000-0002-5002-8648	Kholmogory	LBO:0000156										
+VBO:0000263	Kurdi (Cattle)	LBO:0000159	https://orcid.org/0000-0002-5002-8648	Kurdi	LBO:0000159	Kurdi Black	LBO:0000159								
+VBO:0000265	Kuri (Cattle)	LBO:0000160	https://orcid.org/0000-0002-5002-8648	Kuri	LBO:0000160										
+VBO:0000268	Latvian Brown (Cattle)	LBO:0000161	https://orcid.org/0000-0002-5002-8648	Latvian Brown	LBO:0000161										
+VBO:0000274	Limousin (Cattle)	LBO:0000162	https://orcid.org/0000-0002-5002-8648	Limousin	LBO:0000162										
+VBO:0000275	Limpurger (Cattle)	LBO:0000163	https://orcid.org/0000-0002-5002-8648	Limpurger	LBO:0000163										
+VBO:0000276	Lincoln Red (Cattle)	LBO:0000164	https://orcid.org/0000-0002-5002-8648	Lincoln Red	LBO:0000164										
+VBO:0000277	Lithuanian Red (LR) (Cattle)	LBO:0000165	https://orcid.org/0000-0002-5002-8648	Lithuanian Red	LBO:0000165										
+VBO:0000279	Lourdais (Cattle)	LBO:0000167	https://orcid.org/0000-0002-5002-8648	Lourdais	LBO:0000167										
+VBO:0000282	Luing (Cattle)	LBO:0000168	https://orcid.org/0000-0002-5002-8648	Luing	LBO:0000168										
+VBO:0000285	Maas-Rijn-Ijssel (Cattle)	LBO:0000179	https://orcid.org/0000-0002-5002-8648	Meuse-Rhine-Yssel	LBO:0000179										
+VBO:0000286	Maine-Anjou (Cattle)	LBO:0000170	https://orcid.org/0000-0002-5002-8648	Maine Anjou	LBO:0000170	Maine-Anjou	LBO:0000170								
+VBO:0000291	Marchigiana (Cattle)	LBO:0000173	https://orcid.org/0000-0002-5002-8648	Marchigiana	LBO:0000173										
+VBO:0000293	Masai (Cattle)	LBO:0000175	https://orcid.org/0000-0002-5002-8648	Masai	LBO:0000175										
+VBO:0000294	Mashona (Cattle)	LBO:0000176	https://orcid.org/0000-0002-5002-8648	Mashona	LBO:0000176										
+VBO:0000295	Maure (Cattle)	LBO:0000177	https://orcid.org/0000-0002-5002-8648	Maure	LBO:0000177										
+VBO:0000298	Milking Devon (Cattle)	LBO:0000181	https://orcid.org/0000-0002-5002-8648	Milking Devon	LBO:0000181										
+VBO:0000299	Milking Shorthorn (Cattle)	LBO:0000182	https://orcid.org/0000-0002-5002-8648	Milking Shorthorn	LBO:0000182										
+VBO:0000300	Mirandesa (Cattle)	LBO:0000183	https://orcid.org/0000-0002-5002-8648	Mirandesa	LBO:0000183										
+VBO:0000302	Modicana (Cattle)	LBO:0000184	https://orcid.org/0000-0002-5002-8648	Modicana	LBO:0000184										
+VBO:0000304	Mongolian (Cattle)	LBO:0000185	https://orcid.org/0000-0002-5002-8648	Mongolian	LBO:0000185	Chinese Mongolian	LBO:0000185								
+VBO:0000306	Montbéliarde (Cattle)	LBO:0000186	https://orcid.org/0000-0002-5002-8648	Montbeliarde	LBO:0000186										
+VBO:0000307	Morucha (Cattle)	LBO:0000187	https://orcid.org/0000-0002-5002-8648	Morucha	LBO:0000187										
+VBO:0000309	Murboden (Cattle)	LBO:0000188	https://orcid.org/0000-0002-5002-8648	Murboden	LBO:0000188										
+VBO:0000312	Murray Grey (Cattle)	LBO:0000189	https://orcid.org/0000-0002-5002-8648	Murray Grey	LBO:0000189										
+VBO:0000314	Muturu (Cattle)	LBO:0000190	https://orcid.org/0000-0002-5002-8648	Muturu	LBO:0000190										
+VBO:0000315	N'dama (Cattle)	LBO:0000193	https://orcid.org/0000-0002-5002-8648	N'dama	LBO:0000193										
+VBO:0000318	Nelore (Cattle)	LBO:0000194	https://orcid.org/0000-0002-5002-8648	Nelore	LBO:0000194										
+VBO:0000319	Nguni (Cattle)	LBO:0000195	https://orcid.org/0000-0002-5002-8648	Nguni	LBO:0000195										
+VBO:0000322	Normande (Cattle)	LBO:0000197	https://orcid.org/0000-0002-5002-8648	Normande	LBO:0000197										
+VBO:0000323	Norwegian Red (Cattle)	LBO:0000198	https://orcid.org/0000-0002-5002-8648	Norwegian Red	LBO:0000198										
+VBO:0000324	Ongole (Cattle)	LBO:0000199	https://orcid.org/0000-0002-5002-8648	Ongole	LBO:0000199										
+VBO:0000330	Parthenais (Cattle)	LBO:0000203	https://orcid.org/0000-0002-5002-8648	Parthenais	LBO:0000203										
+VBO:0000332	Piedmont (Cattle)	LBO:0000208	https://orcid.org/0000-0002-5002-8648	Piedmontese	LBO:0000208										
+VBO:0000334	Pinzgau (Cattle)	LBO:0000209	https://orcid.org/0000-0002-5002-8648	Pinzgauer	LBO:0000209										
+VBO:0000338	Polish Red (Cattle)	LBO:0000205	https://orcid.org/0000-0002-5002-8648	Polish Red	LBO:0000205										
+VBO:0000341	Polled Hereford (Cattle)	LBO:0000206	https://orcid.org/0000-0002-5002-8648	Polled Hereford	LBO:0000206										
+VBO:0000350	Red Angus (Cattle)	LBO:0000214	https://orcid.org/0000-0002-5002-8648	Red Angus	LBO:0000214										
+VBO:0000351	Red Bororo (Cattle)	LBO:0000216	https://orcid.org/0000-0002-5002-8648	Red Fulani	LBO:0000216										
+VBO:0000352	Red Brangus (Cattle)	LBO:0000215	https://orcid.org/0000-0002-5002-8648	Red Brangus	LBO:0000215										
+VBO:0000355	Red Poll (Cattle)	LBO:0000218	https://orcid.org/0000-0002-5002-8648	Red Poll	LBO:0000218										
+VBO:0000356	Red Sindhi (Cattle)	LBO:0000220	https://orcid.org/0000-0002-5002-8648	Red Sindhi	LBO:0000220										
+VBO:0000357	Red Steppe (Cattle)	LBO:0000221	https://orcid.org/0000-0002-5002-8648	Red Steppe	LBO:0000221										
+VBO:0000358	Retinta (Cattle)	LBO:0000223	https://orcid.org/0000-0002-5002-8648	Retinta	LBO:0000223										
+VBO:0000360	Romagnola (Cattle)	LBO:0000225	https://orcid.org/0000-0002-5002-8648	Romagnola	LBO:0000225										
+VBO:0000361	Romanian Brown (Cattle)	LBO:0001116	https://orcid.org/0000-0002-5002-8648	Romanian Brown	LBO:0001116	Bruna de Maramures	LBO:0001116							Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.	LBO:0001116
+VBO:0000365	Sahiwal (Cattle)	LBO:0000229	https://orcid.org/0000-0002-5002-8648	Sahiwal	LBO:0000229										
+VBO:0000366	Salers (Cattle)	LBO:0000230	https://orcid.org/0000-0002-5002-8648	Salers	LBO:0000230										
+VBO:0000368	Santa Gertrudis (Cattle)	LBO:0000234	https://orcid.org/0000-0002-5002-8648	Santa Gertrudis	LBO:0000234										
+VBO:0000371	Senepol (Cattle)	LBO:0000237	https://orcid.org/0000-0002-5002-8648	Senepol	LBO:0000237										
+VBO:0000374	Shetland (Cattle)	LBO:0000239	https://orcid.org/0000-0002-5002-8648	Shetland	LBO:0000239										
+VBO:0000375	Shorthorn (Cattle)	LBO:0000240	https://orcid.org/0000-0002-5002-8648	Shorthorn	LBO:0000240										
+VBO:0000377	Siboney (Cattle)	LBO:0000241	https://orcid.org/0000-0002-5002-8648	Siboney	LBO:0000241										
+VBO:0000378	Simbrah (Cattle)	LBO:0000242	https://orcid.org/0000-0002-5002-8648	Simbrah	LBO:0000242										
+VBO:0000380	Simmental (Cattle)	LBO:0000243	https://orcid.org/0000-0002-5002-8648	Simmental	LBO:0000243										
+VBO:0000380	Simmental (Cattle)	LBO:0000941	https://orcid.org/0000-0002-9178-3965	Fleckvieh	LBO:0000941										
+VBO:0000381	Siri (Cattle)	LBO:0000244	https://orcid.org/0000-0002-5002-8648	Siri	LBO:0000244										
+VBO:0000385	South Devon (Cattle)	LBO:0000246	https://orcid.org/0000-0002-5002-8648	South Devon	LBO:0000246										
+VBO:0000389	Sussex (Cattle)	LBO:0000247	https://orcid.org/0000-0002-5002-8648	Sussex	LBO:0000247										
+VBO:0000390	Svensk Fjällras (Cattle)	LBO:0000101	https://orcid.org/0000-0002-5002-8648	Fjall	LBO:0000101										
+VBO:0000392	Swedish Red and White (Cattle)	LBO:0000249	https://orcid.org/0000-0002-5002-8648	Swedish Red-and-White	LBO:0000249										
+VBO:0000402	Tarentaise (Cattle)	LBO:0000251	https://orcid.org/0000-0002-5002-8648	Tarentaise	LBO:0000251										
+VBO:0000404	Texas Longhorn (Cattle)	LBO:0000253	https://orcid.org/0000-0002-5002-8648	Texas Longhorn	LBO:0000253										
+VBO:0000405	Thari (Cattle)	LBO:0000255	https://orcid.org/0000-0002-5002-8648	Tharparker	LBO:0000255										
+VBO:0000413	Tswana (Cattle)	LBO:0000256	https://orcid.org/0000-0002-5002-8648	Tswana	LBO:0000256										
+VBO:0000415	Tuli (Cattle)	LBO:0000257	https://orcid.org/0000-0002-5002-8648	Tuli	LBO:0000257										
+VBO:0000416	Tyrolean Grey (Cattle)	LBO:0001103	https://orcid.org/0000-0002-5002-8648	Alpine Gray	LBO:0001103	Grigio alpina	LBO:0001103								
+VBO:0000421	Vosges (Cattle)	LBO:0000266	https://orcid.org/0000-0002-5002-8648	Vosges	LBO:0000266										
+VBO:0000422	Wagyu (Cattle)	LBO:0000267	https://orcid.org/0000-0002-5002-8648	Wagyu	LBO:0000267										
+VBO:0000424	Welsh Black (Cattle)	LBO:0000268	https://orcid.org/0000-0002-5002-8648	Welsh Black	LBO:0000268										
+VBO:0000425	West African Zebu (Cattle)	LBO:0000104	https://orcid.org/0000-0002-5002-8648	Fulani Sudanese	LBO:0000104										
+VBO:0000429	White Park (Cattle)	LBO:0000269	https://orcid.org/0000-0002-5002-8648	White Park	LBO:0000269										
+VBO:0000441	Ancona (Chicken)	LBO:0000273	https://orcid.org/0000-0002-5002-8648	Ancona	LBO:0000273										
+VBO:0000442	Andalusian (Chicken)	LBO:0000274	https://orcid.org/0000-0002-5002-8648	Andalusian	LBO:0000274										
+VBO:0000445	Araucana (Chicken)	LBO:0000277	https://orcid.org/0000-0002-5002-8648	Araucana	LBO:0000277										
+VBO:0000446	Aseel (Chicken)	LBO:0000278	https://orcid.org/0000-0002-5002-8648	Aseel	LBO:0000278										
+VBO:0000448	Australorp (Chicken)	LBO:0000279	https://orcid.org/0000-0002-5002-8648	Australorp	LBO:0000279										
+VBO:0000466	Campine (Chicken)	LBO:0000286	https://orcid.org/0000-0002-5002-8648	Campine	LBO:0000286										
+VBO:0000467	Catalana Del Prat (Chicken)	LBO:0000287	https://orcid.org/0000-0002-5002-8648	Catalana	LBO:0000287	Catalana del Prat Lleonada	LBO:0000287								
+VBO:0000468	Chantecler (Chicken)	LBO:0000288	https://orcid.org/0000-0002-5002-8648	Chantecler	LBO:0000288										
+VBO:0000469	Cochin (Chicken)	LBO:0000289	https://orcid.org/0000-0002-5002-8648	Cochin	LBO:0000289										
+VBO:0000516	Cornish (Chicken)	LBO:0000290	https://orcid.org/0000-0002-5002-8648	Cornish	LBO:0000290										
+VBO:0000522	Dorking (Chicken)	LBO:0000295	https://orcid.org/0000-0002-5002-8648	Dorking	LBO:0000295										
+VBO:0000528	Fayoumi (Chicken)	LBO:0000697	https://orcid.org/0000-0002-5002-8648	Fayoumi	LBO:0000697										
+VBO:0000529	Friesland (Chicken)	LBO:0000298	https://orcid.org/0000-0002-5002-8648	Frieslands	LBO:0000298	Friesland	LBO:0000298								
+VBO:0000530	Frizzle (Chicken)	LBO:0000299	https://orcid.org/0000-0002-5002-8648	Frizzle	LBO:0000299										
+VBO:0000534	Hamburg (Chicken)	LBO:0000303	https://orcid.org/0000-0002-5002-8648	Hamburgs	LBO:0000303	Hamburg	LBO:0000303								
+VBO:0000537	Holland (Chicken)	LBO:0000304	https://orcid.org/0000-0002-5002-8648	Holland	LBO:0000304										
+VBO:0000538	Houdan (Chicken)	LBO:0000305	https://orcid.org/0000-0002-5002-8648	Houdan	LBO:0000305										
+VBO:0000547	Jersey Giant (Chicken)	LBO:0000307	https://orcid.org/0000-0002-5002-8648	Jersey Giant	LBO:0000307										
+VBO:0000548	Jungle Fowl (Chicken)	LBO:0000308	https://orcid.org/0000-0002-5002-8648	Jungle Fowl	LBO:0000308										
+VBO:0000556	Lakenvelder (Chicken)	LBO:0000312	https://orcid.org/0000-0002-5002-8648	Lakenvelder	LBO:0000312										
+VBO:0000558	Langshan (Chicken)	LBO:0000314	https://orcid.org/0000-0002-5002-8648	Langshan	LBO:0000314										
+VBO:0000572	Minorca (Chicken)	LBO:0000318	https://orcid.org/0000-0002-5002-8648	Minorca	LBO:0000318										
+VBO:0000573	Modern Game (Chicken)	LBO:0000319	https://orcid.org/0000-0002-5002-8648	Modern Game	LBO:0000319										
+VBO:0000580	New Hampshire Red (Chicken)	LBO:0000321	https://orcid.org/0000-0002-5002-8648	New Hampshire Red	LBO:0000321										
+VBO:0000582	North Holland Blue (Chicken)	LBO:0000698	https://orcid.org/0000-0002-5002-8648	North Holland Blue	LBO:0000698										
+VBO:0000583	Old English Game (Chicken)	LBO:0000322	https://orcid.org/0000-0002-5002-8648	Old English Game	LBO:0000322										
+VBO:0000588	Orpington (Chicken)	LBO:0000323	https://orcid.org/0000-0002-5002-8648	Orpington	LBO:0000323										
+VBO:0000592	Plymouth Rock (Chicken)	LBO:0000324	https://orcid.org/0000-0002-5002-8648	Plymouth Rock	LBO:0000324										
+VBO:0000596	Polish (Chicken)	LBO:0000325	https://orcid.org/0000-0002-5002-8648	Polish	LBO:0000325										
+VBO:0000599	Rhode Island Red (Chicken)	LBO:0000327	https://orcid.org/0000-0002-5002-8648	Rhode Island Red	LBO:0000327										
+VBO:0000617	Shamo (Chicken)	LBO:0000700	https://orcid.org/0000-0002-5002-8648	Shamo	LBO:0000700										
+VBO:0000628	Sultan (Chicken)	LBO:0000331	https://orcid.org/0000-0002-5002-8648	Sultan	LBO:0000331										
+VBO:0000629	Sumatra (Chicken)	LBO:0000332	https://orcid.org/0000-0002-5002-8648	Sumatra	LBO:0000332										
+VBO:0000630	Sussex (Chicken)	LBO:0000333	https://orcid.org/0000-0002-5002-8648	Sussex	LBO:0000333										
+VBO:0000639	Transylvanian Naked Neck (Chicken)	LBO:0000320	https://orcid.org/0000-0002-5002-8648	Turken	LBO:0000320	Transylvanian Naked Neck|Naked Neck	LBO:0000320								
+VBO:0000646	White Leghorn (Chicken)	LBO:0001061	https://orcid.org/0000-0002-5002-8648	White Leghorn	LBO:0001061										
+VBO:0000647	Wyandotte (Chicken)	LBO:0000336	https://orcid.org/0000-0002-5002-8648	Wyandottes	LBO:0000336	Wyandotte	LBO:0000336								
+VBO:0000717	Alpine (Goat)	LBO:0000955	https://orcid.org/0000-0002-5002-8648	Alpine	LBO:0000955										
+VBO:0000718	Altai Mountain (Goat)	LBO:0000956	https://orcid.org/0000-0002-5002-8648	Altai Mountain	LBO:0000956										
+VBO:0000722	Anglo-Nubian (Goat)	LBO:0000958	https://orcid.org/0000-0002-5002-8648	Anglo-Nubian	LBO:0000958	Nubian	LBO:0000958								
+VBO:0000723	Angora (Goat)	LBO:0000959	https://orcid.org/0000-0002-5002-8648	Angora	LBO:0000959										
+VBO:0000724	Appenzell (Goat)	LBO:0000960	https://orcid.org/0000-0002-5002-8648	Appenzell	LBO:0000960										
+VBO:0000727	Bagot (Goat)	LBO:0000963	https://orcid.org/0000-0002-5002-8648	Bagot	LBO:0000963										
+VBO:0000728	Barbari (Goat)	LBO:0000964	https://orcid.org/0000-0002-5002-8648	Barbari	LBO:0000964										
+VBO:0000729	Beetal (Goat)	LBO:0000965	https://orcid.org/0000-0002-5002-8648	Beetal	LBO:0000965										
+VBO:0000730	Belgian Fawn (Goat)	LBO:0000966	https://orcid.org/0000-0002-5002-8648	Belgian Fawn	LBO:0000966										
+VBO:0000736	Boer (Goat)	LBO:0000969	https://orcid.org/0000-0002-5002-8648	Boer	LBO:0000969										
+VBO:0000739	British Alpine (Goat)	LBO:0000971	https://orcid.org/0000-0002-5002-8648	British Alpine	LBO:0000971										
+VBO:0000745	Cashmere (Goat)	LBO:0001101	https://orcid.org/0000-0002-5002-8648	Cashmere	LBO:0001101										
+VBO:0000749	Corsican (Goat)	LBO:0000975	https://orcid.org/0000-0002-5002-8648	Corsican	LBO:0000975										
+VBO:0000769	Golden Guernsey (Goat)	LBO:0000983	https://orcid.org/0000-0002-5002-8648	Golden Guernsey	LBO:0000983										
+VBO:0000771	Grisons Striped (Goat)	LBO:0000984	https://orcid.org/0000-0002-5002-8648	Grisons Striped	LBO:0000984										
+VBO:0000777	Irish Goat (Goat)	LBO:0000994	https://orcid.org/0000-0002-5002-8648	Irish Goat	LBO:0000994										
+VBO:0000782	Kalahari Red (Goat)	LBO:0001092	https://orcid.org/0000-0002-5002-8648	Kalahari Red	LBO:0001092										
+VBO:0000783	Kamori (Goat)	LBO:0000997	https://orcid.org/0000-0002-5002-8648	Kamori	LBO:0000997										
+VBO:0000787	Kiko (Goat)	LBO:0000998	https://orcid.org/0000-0002-5002-8648	Kiko	LBO:0000998										
+VBO:0000790	Kurdi (Goat)	LBO:0001119	https://orcid.org/0000-0002-9178-3965	Markhoz	LBO:0001119			Karadi	ISBN:9781789241532	Kurdish	ISBN:9781789241532	Marghaz	ISBN:9781789241532	Indigenous Iranian breed raised for meat, milk, and fiber (mohair).	LBO:0001119
+VBO:0000792	Lamancha (Goat)	LBO:0001000	https://orcid.org/0000-0002-5002-8648	LaMancha	LBO:0001000										
+VBO:0000800	Massif Central (Goat)	LBO:0001057	https://orcid.org/0000-0002-5002-8648	Massif Central	LBO:0001057										
+VBO:0000807	Murcia-Granada (Goat)	LBO:0001003	https://orcid.org/0000-0002-5002-8648	Murcia-Granada	LBO:0001003										
+VBO:0000809	Myotonic (Goat)	LBO:0001004	https://orcid.org/0000-0002-5002-8648	Myotonic	LBO:0001004	Tennessee fainting goat|Wooden Leg	LBO:0001004								
+VBO:0000811	Nigerian Dwarf (Goat)	LBO:0001006	https://orcid.org/0000-0002-5002-8648	Nigerian Dwarf	LBO:0001006										
+VBO:0000813	Oberhasli (Goat)	LBO:0001008	https://orcid.org/0000-0002-5002-8648	Oberhasli	LBO:0001008										
+VBO:0000818	Peacock Goat (Goat)	LBO:0001009	https://orcid.org/0000-0002-5002-8648	Peacock Goat	LBO:0001009										
+VBO:0000820	Poitou (Goat)	LBO:0001011	https://orcid.org/0000-0002-5002-8648	Poitou	LBO:0001011										
+VBO:0000822	Pyrenean (Goat)	LBO:0001013	https://orcid.org/0000-0002-5002-8648	Pyrenean	LBO:0001013										
+VBO:0000825	Rove (Goat)	LBO:0001060	https://orcid.org/0000-0002-5002-8648	Rove	LBO:0001060										
+VBO:0000827	Saanen (Goat)	LBO:0001017	https://orcid.org/0000-0002-5002-8648	Saanen	LBO:0001017										
+VBO:0000828	Sahelian (Goat)	LBO:0001018	https://orcid.org/0000-0002-5002-8648	Sahelian	LBO:0001018										
+VBO:0000829	San Clemente (Goat)	LBO:0001019	https://orcid.org/0000-0002-5002-8648	San Clemente	LBO:0001019										
+VBO:0000830	Savanna (Goat)	LBO:0001091	https://orcid.org/0000-0002-5002-8648	Savanna	LBO:0001091										
+VBO:0000836	Somali (Goat)	LBO:0001020	https://orcid.org/0000-0002-5002-8648	Somali	LBO:0001020										
+VBO:0000838	Spanish (Goat)	LBO:0001021	https://orcid.org/0000-0002-5002-8648	Spanish	LBO:0001021										
+VBO:0000846	Toggenburg (Goat)	LBO:0001026	https://orcid.org/0000-0002-5002-8648	Toggenburg	LBO:0001026										
+VBO:0000849	Valais Blackneck (Goat)	LBO:0001027	https://orcid.org/0000-0002-5002-8648	Valais Blackneck	LBO:0001027										
+VBO:0000850	Verata (Goat)	LBO:0001028	https://orcid.org/0000-0002-5002-8648	Verata	LBO:0001028										
+VBO:0000854	West African Dwarf (Goat)	LBO:0001029	https://orcid.org/0000-0002-5002-8648	West African Dwarf	LBO:0001029										
+VBO:0000856	White Shorthaired Goat (Goat)	LBO:0001030	https://orcid.org/0000-0002-5002-8648	White Shorthaired Goat	LBO:0001030										
+VBO:0000894	Akhal-Teke (Horse)	LBO:0000715	https://orcid.org/0000-0002-5002-8648	Akhal Teke	LBO:0000715										
+VBO:0000895	Altai (Horse)	LBO:0000717	https://orcid.org/0000-0002-5002-8648	Altai	LBO:0000717										
+VBO:0000896	American Miniature Horse (Horse)	LBO:0000837	https://orcid.org/0000-0002-5002-8648	Miniature	LBO:0000837										
+VBO:0000897	American Paint (Horse)	LBO:0000861	https://orcid.org/0000-0002-5002-8648	Paint	LBO:0000861										
+VBO:0000899	Standardbred (Horse)	LBO:0000900	https://orcid.org/0000-0002-5002-8648	Standardbred	LBO:0000900										
+VBO:0000900	Andalusian (Horse)	LBO:0000721	https://orcid.org/0000-0002-5002-8648	Andalusian	LBO:0000721										
+VBO:0000902	Anglo-Kabarda (Horse)	LBO:0000723	https://orcid.org/0000-0002-5002-8648	Anglo-Kabarda	LBO:0000723										
+VBO:0000904	Appaloosa (Horse)	LBO:0000724	https://orcid.org/0000-0002-5002-8648	Appaloosa	LBO:0000724										
+VBO:0000905	Arab (Horse)	LBO:0000726	https://orcid.org/0000-0002-5002-8648	Arabian	LBO:0000726										
+VBO:0000907	Ardennes (Horse)	LBO:0000727	https://orcid.org/0000-0002-5002-8648	Ardennes	LBO:0000727										
+VBO:0000908	Argentine Criollo (Horse)	LBO:0000728	https://orcid.org/0000-0002-5002-8648	Argentine Criollo	LBO:0000728										
+VBO:0000910	Azteca (Horse)	LBO:0000732	https://orcid.org/0000-0002-5002-8648	Azteca	LBO:0000732										
+VBO:0000912	Barb (Horse)	LBO:0000737	https://orcid.org/0000-0002-5002-8648	Barb	LBO:0000737										
+VBO:0000913	Bashkir Curly (Horse)	LBO:0000739	https://orcid.org/0000-0002-5002-8648	Bashkir Curly	LBO:0000739										
+VBO:0000917	Belgian Warmblood (Horse)	LBO:0000936	https://orcid.org/0000-0002-5002-8648	Belgian Warmblood	LBO:0000936										
+VBO:0000918	Bhotia Pony (Horse)	LBO:0000743	https://orcid.org/0000-0002-5002-8648	Bhotia Pony	LBO:0000743										
+VBO:0000919	Boer (Horse)	LBO:0000745	https://orcid.org/0000-0002-5002-8648	Boer	LBO:0000745										
+VBO:0000925	Breton (Horse)	LBO:0000746	https://orcid.org/0000-0002-5002-8648	Breton	LBO:0000746										
+VBO:0000927	Budyonny (Horse)	LBO:0000748	https://orcid.org/0000-0002-5002-8648	Budyonny	LBO:0000748										
+VBO:0000928	Camargue (Horse)	LBO:0000750	https://orcid.org/0000-0002-5002-8648	Camargue	LBO:0000750										
+VBO:0000929	Canadian (Horse)	LBO:0000752	https://orcid.org/0000-0002-5002-8648	Canadian	LBO:0000752										
+VBO:0000930	Caspian (Horse)	LBO:0000754	https://orcid.org/0000-0002-5002-8648	Caspian	LBO:0000754										
+VBO:0000933	Cleveland Bay (Horse)	LBO:0000759	https://orcid.org/0000-0002-5002-8648	Cleveland Bay	LBO:0000759										
+VBO:0000934	Clydesdale (Horse)	LBO:0000760	https://orcid.org/0000-0002-5002-8648	Clydesdale	LBO:0000760										
+VBO:0000936	Comtois (Horse)	LBO:0000953	https://orcid.org/0000-0002-5002-8648	Comtois	LBO:0000953										
+VBO:0000937	Connemara Pony (Horse)	LBO:0000762	https://orcid.org/0000-0002-5002-8648	Connemara Pony	LBO:0000762										
+VBO:0000949	Dartmoor Pony (Horse)	LBO:0000767	https://orcid.org/0000-0002-5002-8648	Dartmoor Pony	LBO:0000767										
+VBO:0000951	Dongola (Horse)	LBO:0000771	https://orcid.org/0000-0002-5002-8648	Dongola	LBO:0000771										
+VBO:0000952	Dutch Warmblood (Horse)	LBO:0000774	https://orcid.org/0000-0002-5002-8648	Dutch Warmblood	LBO:0000774										
+VBO:0000955	Estonian Native Horse (Horse)	LBO:0000778	https://orcid.org/0000-0002-5002-8648	Estonian Native	LBO:0000778										
+VBO:0000956	Exmoor Pony (Horse)	LBO:0000779	https://orcid.org/0000-0002-5002-8648	Exmoor Pony	LBO:0000779										
+VBO:0000957	Falabella Pony (Horse)	LBO:0000781	https://orcid.org/0000-0002-5002-8648	Falabella	LBO:0000781										
+VBO:0000958	Fell Pony (Horse)	LBO:0000782	https://orcid.org/0000-0002-5002-8648	Fell Pony	LBO:0000782										
+VBO:0000959	Finnhorse (Horse)	LBO:0000783	https://orcid.org/0000-0002-5002-8648	Finnhorse	LBO:0000783										
+VBO:0000964	Frederiksborg Horse (Horse)	LBO:0000786	https://orcid.org/0000-0002-5002-8648	Frederiksborg	LBO:0000786										
+VBO:0000965	Freiberger (Horse)	LBO:0000946	https://orcid.org/0000-0002-5002-8648	Freiberger	LBO:0000946										
+VBO:0000967	French Saddlebred (Horse)	LBO:0000787	https://orcid.org/0000-0002-5002-8648	French Saddlebred	LBO:0000787										
+VBO:0000968	French Trotter (Horse)	LBO:0000788	https://orcid.org/0000-0002-5002-8648	French Trotter	LBO:0000788										
+VBO:0000969	Friesian (Horse)	LBO:0000789	https://orcid.org/0000-0002-5002-8648	Friesian	LBO:0000789										
+VBO:0000973	Gidran (Horse)	LBO:0000793	https://orcid.org/0000-0002-5002-8648	Gidran	LBO:0000793										
+VBO:0000976	Hackney (Horse)	LBO:0000798	https://orcid.org/0000-0002-5002-8648	Hackney	LBO:0000798										
+VBO:0000978	Haflinger (Horse)	LBO:0000799	https://orcid.org/0000-0002-5002-8648	Haflinger	LBO:0000799										
+VBO:0000979	Hanoverian (Horse)	LBO:0000800	https://orcid.org/0000-0002-5002-8648	Hanoverian	LBO:0000800										
+VBO:0000982	Highland Pony (Horse)	LBO:0000802	https://orcid.org/0000-0002-5002-8648	Highland Pony	LBO:0000802										
+VBO:0000986	Holsteiner (Horse)	LBO:0000804	https://orcid.org/0000-0002-5002-8648	Holsteiner	LBO:0000804										
+VBO:0000991	Icelandic Horse (Horse)	LBO:0000807	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000807										
+VBO:0000993	Irish Draught (Horse)	LBO:0000809	https://orcid.org/0000-0002-5002-8648	Irish Draught	LBO:0000809										
+VBO:0000999	Kabarda (Horse)	LBO:0000812	https://orcid.org/0000-0002-5002-8648	Kabarda	LBO:0000812										
+VBO:0001001	Karabair (Horse)	LBO:0000813	https://orcid.org/0000-0002-5002-8648	Karabair	LBO:0000813										
+VBO:0001002	Karabakh (Horse)	LBO:0000814	https://orcid.org/0000-0002-5002-8648	Karabakh	LBO:0000814										
+VBO:0001004	Kazakh (Horse)	LBO:0000815	https://orcid.org/0000-0002-5002-8648	Kazakh	LBO:0000815										
+VBO:0001005	Kerry Bog Pony (Horse)	LBO:0000816	https://orcid.org/0000-0002-5002-8648	Kerry Bog Pony	LBO:0000816										
+VBO:0001007	Kladruby (Horse)	LBO:0000821	https://orcid.org/0000-0002-5002-8648	Kladruby	LBO:0000821										
+VBO:0001014	Lipizzan horse (Horse)	LBO:0000827	https://orcid.org/0000-0002-5002-8648	Lipizzan	LBO:0000827	Lipizzaner	LBO:0000827								
+VBO:0001017	Lusitanian (Horse)	LBO:0000830	https://orcid.org/0000-0002-5002-8648	Lusitano	LBO:0000830										
+VBO:0001018	Mangalarga (Horse)	LBO:0000832	https://orcid.org/0000-0002-5002-8648	Mangalarga	LBO:0000832										
+VBO:0001020	Merens Pony (Horse)	LBO:0000835	https://orcid.org/0000-0002-5002-8648	Mérens Pony	LBO:0000835										
+VBO:0001021	Mongolian (Horse)	LBO:0000841	https://orcid.org/0000-0002-5002-8648	Mongolian	LBO:0000841										
+VBO:0001022	Morgan (Horse)	LBO:0000843	https://orcid.org/0000-0002-5002-8648	Morgan	LBO:0000843										
+VBO:0001025	Mustang (Horse)	LBO:0000845	https://orcid.org/0000-0002-5002-8648	Mustang	LBO:0000845										
+VBO:0001026	New Forest Pony (Horse)	LBO:0000848	https://orcid.org/0000-0002-5002-8648	New Forest Pony	LBO:0000848										
+VBO:0001028	Nooitgedacht Pony (Horse)	LBO:0000852	https://orcid.org/0000-0002-5002-8648	Nooitgedacht Pony	LBO:0000852										
+VBO:0001030	Noric (Horse)	LBO:0000853	https://orcid.org/0000-0002-5002-8648	Noric	LBO:0000853										
+VBO:0001034	Oldenburg (Horse)	LBO:0000859	https://orcid.org/0000-0002-5002-8648	Oldenburg	LBO:0000859										
+VBO:0001036	Orlov Trotter (Horse)	LBO:0000860	https://orcid.org/0000-0002-5002-8648	Orlov Trotter	LBO:0000860										
+VBO:0001037	Palomino (Horse)	LBO:0000862	https://orcid.org/0000-0002-5002-8648	Palomino	LBO:0000862										
+VBO:0001040	Paso Fino (Horse)	LBO:0000864	https://orcid.org/0000-0002-5002-8648	Paso Fino	LBO:0000864										
+VBO:0001041	Percheron (Horse)	LBO:0000865	https://orcid.org/0000-0002-5002-8648	Percheron	LBO:0000865										
+VBO:0001042	Peruvian Paso (Horse)	LBO:0000866	https://orcid.org/0000-0002-5002-8648	Peruvian Paso	LBO:0000866										
+VBO:0001047	Polish Konik (Horse)	LBO:0000871	https://orcid.org/0000-0002-5002-8648	Polish Konik	LBO:0000871										
+VBO:0001054	Pottok (Horse)	LBO:0000873	https://orcid.org/0000-0002-5002-8648	Pottok	LBO:0000873										
+VBO:0001057	Quarter Horse (Horse)	LBO:0000878	https://orcid.org/0000-0002-5002-8648	Quarter Horse	LBO:0000878										
+VBO:0001061	Russian Trotter (Horse)	LBO:0000884	https://orcid.org/0000-0002-5002-8648	Russian Trotter	LBO:0000884										
+VBO:0001066	Shetland Pony (Horse)	LBO:0000890	https://orcid.org/0000-0002-5002-8648	Shetland Pony	LBO:0000890										
+VBO:0001067	Shire (Horse)	LBO:0000891	https://orcid.org/0000-0002-5002-8648	Shire	LBO:0000891										
+VBO:0001070	Skyros Pony (Horse)	LBO:0000893	https://orcid.org/0000-0002-5002-8648	Skyros Pony	LBO:0000893										
+VBO:0001074	Soviet Heavy Draft (Horse)	LBO:0000896	https://orcid.org/0000-0002-5002-8648	Soviet Heavy Draft	LBO:0000896										
+VBO:0001075	Suffolk (Horse)	LBO:0000902	https://orcid.org/0000-0002-5002-8648	Suffolk	LBO:0000902										
+VBO:0001077	Swedish Warmblood (Horse)	LBO:0000903	https://orcid.org/0000-0002-5002-8648	Swedish Warmblood	LBO:0000903										
+VBO:0001080	Tarpan (Horse)	LBO:0000905	https://orcid.org/0000-0002-5002-8648	Tarpan	LBO:0000905										
+VBO:0001081	Tennessee Walking Horse (Horse)	LBO:0000907	https://orcid.org/0000-0002-5002-8648	Tennessee Walking Horse	LBO:0000907										
+VBO:0001082	Tersk (Horse)	LBO:0000908	https://orcid.org/0000-0002-5002-8648	Tersk	LBO:0000908										
+VBO:0001083	Thoroughbred (Horse)	LBO:0000910	https://orcid.org/0000-0002-5002-8648	Thoroughbred	LBO:0000910										
+VBO:0001087	Trakehner (Horse)	LBO:0000913	https://orcid.org/0000-0002-5002-8648	Trakehner	LBO:0000913										
+VBO:0001092	West African Barb (Horse)	LBO:0000920	https://orcid.org/0000-0002-5002-8648	West African Barb	LBO:0000920										
+VBO:0001094	Westphalian Warmblood (Horse)	LBO:0001102	https://orcid.org/0000-0002-5002-8648	Westphalian	LBO:0001102	Westfalen	LBO:0001102								
+VBO:0001106	American Landrace (Pig)	LBO:0000337	https://orcid.org/0000-0002-5002-8648	American Landrace	LBO:0000337										
+VBO:0001108	Angeln Saddleback (Pig)	LBO:0000339	https://orcid.org/0000-0002-5002-8648	Angeln Saddleback	LBO:0000339										
+VBO:0001112	Belgian Landrace (Pig)	LBO:0000346	https://orcid.org/0000-0002-5002-8648	Belgian Landrace	LBO:0000346										
+VBO:0001113	Bentheim Black Pied (Pig)	LBO:0000347	https://orcid.org/0000-0002-5002-8648	Bentheim Black Pied	LBO:0000347										
+VBO:0001114	Berkshire (Pig)	LBO:0000348	https://orcid.org/0000-0002-5002-8648	Berkshire	LBO:0000348										
+VBO:0001118	British Landrace (Pig)	LBO:0000350	https://orcid.org/0000-0002-5002-8648	British Landrace	LBO:0000350										
+VBO:0001120	Chester White (Pig)	LBO:0000354	https://orcid.org/0000-0002-5002-8648	Chester White	LBO:0000354										
+VBO:0001124	Danish Landrace (Pig)	LBO:0000356	https://orcid.org/0000-0002-5002-8648	Danish Landrace	LBO:0000356										
+VBO:0001127	Duroc (Pig)	LBO:0000358	https://orcid.org/0000-0002-5002-8648	Duroc	LBO:0000358										
+VBO:0001128	Dutch Landrace (Pig)	LBO:0000359	https://orcid.org/0000-0002-5002-8648	Dutch Landrace	LBO:0000359										
+VBO:0001133	Finnish Landrace (Pig)	LBO:0000361	https://orcid.org/0000-0002-5002-8648	Finnish Landrace	LBO:0000361										
+VBO:0001135	French Landrace (Pig)	LBO:0000362	https://orcid.org/0000-0002-5002-8648	French Landrace	LBO:0000362										
+VBO:0001138	German Landrace (Pig)	LBO:0000363	https://orcid.org/0000-0002-5002-8648	German Landrace	LBO:0000363										
+VBO:0001146	Hampshire (Pig)	LBO:0000366	https://orcid.org/0000-0002-5002-8648	Hampshire	LBO:0000366										
+VBO:0001147	Hereford (Pig)	LBO:0000367	https://orcid.org/0000-0002-5002-8648	Hereford	LBO:0000367										
+VBO:0001159	Kunekune (Pig)	LBO:0000374	https://orcid.org/0000-0002-5002-8648	Kunekune	LBO:0000374										
+VBO:0001160	Lacombe (Pig)	LBO:0000375	https://orcid.org/0000-0002-5002-8648	Lacombe	LBO:0000375										
+VBO:0001161	Landrace (Pig)	LBO:0000692	https://orcid.org/0000-0002-5002-8648	Landrace	LBO:0000692										
+VBO:0001162	Large Black (Pig)	LBO:0000376	https://orcid.org/0000-0002-5002-8648	Large Black	LBO:0000376										
+VBO:0001163	Large White (Pig)	LBO:0000378	https://orcid.org/0000-0002-5002-8648	Large White	LBO:0000378										
+VBO:0001164	Leicoma (Pig)	LBO:0000694	https://orcid.org/0000-0002-5002-8648	Leicoma	LBO:0000694										
+VBO:0001169	Mangalitsa (Pig)	LBO:0000380	https://orcid.org/0000-0002-5002-8648	Mangalitsa	LBO:0000380										
+VBO:0001175	Meishan (Pig)	LBO:0000381	https://orcid.org/0000-0002-5002-8648	Meishan	LBO:0000381										
+VBO:0001176	Middle White (Pig)	LBO:0000382	https://orcid.org/0000-0002-5002-8648	Middle White	LBO:0000382										
+VBO:0001183	Norwegian Landrace (Pig)	LBO:0000391	https://orcid.org/0000-0002-5002-8648	Norwegian Landrace	LBO:0000391										
+VBO:0001189	Pietrain (Pig)	LBO:0000395	https://orcid.org/0000-0002-5002-8648	Pietrain	LBO:0000395										
+VBO:0001190	Poland China (Pig)	LBO:0000396	https://orcid.org/0000-0002-5002-8648	Poland China	LBO:0000396										
+VBO:0001192	Pulawska (Pig)	LBO:0000933	https://orcid.org/0000-0002-5002-8648	Pulawska	LBO:0000933										
+VBO:0001193	Saddleback (Pig)	LBO:0000398	https://orcid.org/0000-0002-5002-8648	Saddleback	LBO:0000398										
+VBO:0001198	Spotted (Pig)	LBO:0000399	https://orcid.org/0000-0002-5002-8648	Spots	LBO:0000399	Spotted	LBO:0000399								
+VBO:0001200	Swedish Landrace (Pig)	LBO:0000401	https://orcid.org/0000-0002-5002-8648	Swedish Landrace	LBO:0000401										
+VBO:0001202	Tamworth (Pig)	LBO:0000402	https://orcid.org/0000-0002-5002-8648	Tamworth	LBO:0000402										
+VBO:0001205	Turopolje (Pig)	LBO:0000405	https://orcid.org/0000-0002-5002-8648	Turopolje	LBO:0000405										
+VBO:0001210	Welsh (Pig)	LBO:0000407	https://orcid.org/0000-0002-5002-8648	Welsh	LBO:0000407										
+VBO:0001212	Yorkshire (Pig)	LBO:0000338	https://orcid.org/0000-0002-5002-8648	Yorkshire	LBO:0000338										
+VBO:0001298	Arabi (Sheep)	LBO:0000422	https://orcid.org/0000-0002-5002-8648	Arabi	LBO:0000422										
+VBO:0001303	Askanian (Sheep)	LBO:0000427	https://orcid.org/0000-0002-5002-8648	Askanian	LBO:0000427										
+VBO:0001304	Assaf (Sheep)	LBO:0001098	https://orcid.org/0000-0002-5002-8648	Assaf	LBO:0001098									Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool	LBO:0001098
+VBO:0001308	Awassi (Sheep)	LBO:0000428	https://orcid.org/0000-0002-5002-8648	Awassi	LBO:0000428										
+VBO:0001313	Baluchi (Sheep)	LBO:0000430	https://orcid.org/0000-0002-5002-8648	Baluchi	LBO:0000430										
+VBO:0001315	Barbado (Sheep)	LBO:0000432	https://orcid.org/0000-0002-5002-8648	Barbado	LBO:0000432										
+VBO:0001320	Barki (Sheep)	LBO:0001087	https://orcid.org/0000-0002-5002-8648	Barki	LBO:0001087									One of the main sheep breeds in Egypt, well-adapted to the desert environment.	LBO:0001087
+VBO:0001322	Belclare (Sheep)	LBO:0000951	https://orcid.org/0000-0002-5002-8648	Belclare	LBO:0000951										
+VBO:0001329	Bentheimer Landschaf (Sheep)	LBO:0000436	https://orcid.org/0000-0002-5002-8648	Bentheimer Landschaf	LBO:0000436										
+VBO:0001331	Bergamasca (Sheep)	LBO:0000437	https://orcid.org/0000-0002-5002-8648	Bergamasca	LBO:0000437										
+VBO:0001332	Berrichon Du Cher (Sheep)	LBO:0000940	https://orcid.org/0000-0002-5002-8648	Berrichon du Cher	LBO:0000940										
+VBO:0001339	Blackhead Persian (Sheep)	LBO:0001069	https://orcid.org/0000-0002-5002-8648	Blackhead Persian	LBO:0001069										
+VBO:0001341	Bleu Du Maine (Sheep)	LBO:0000442	https://orcid.org/0000-0002-5002-8648	Bleu du Maine	LBO:0000442										
+VBO:0001344	Bluefaced Leicester (Sheep)	LBO:0000443	https://orcid.org/0000-0002-5002-8648	Bluefaced Leicester	LBO:0000443										
+VBO:0001346	Booroola Merino (Sheep)	LBO:0000445	https://orcid.org/0000-0002-5002-8648	Booroola Merino	LBO:0000445										
+VBO:0001347	Border Leicester (Sheep)	LBO:0000446	https://orcid.org/0000-0002-5002-8648	Border Leicester	LBO:0000446										
+VBO:0001361	Castlemilk Moorit (Sheep)	LBO:0000458	https://orcid.org/0000-0002-5002-8648	Castlemilk Moorit	LBO:0000458										
+VBO:0001368	Charollais (Sheep)	LBO:0000460	https://orcid.org/0000-0002-5002-8648	Charollais	LBO:0000460										
+VBO:0001369	Cheviot (Sheep)	LBO:0000461	https://orcid.org/0000-0002-5002-8648	Cheviot	LBO:0000461										
+VBO:0001370	Chios (Sheep)	LBO:0000462	https://orcid.org/0000-0002-5002-8648	Chios	LBO:0000462										
+VBO:0001373	Clun Forest (Sheep)	LBO:0000464	https://orcid.org/0000-0002-5002-8648	Clun Forest	LBO:0000464										
+VBO:0001378	Columbia (Sheep)	LBO:0000466	https://orcid.org/0000-0002-5002-8648	Columbia	LBO:0000466										
+VBO:0001379	Comeback (Sheep)	LBO:0000467	https://orcid.org/0000-0002-5002-8648	Comeback	LBO:0000467										
+VBO:0001380	Coopworth (Sheep)	LBO:0000469	https://orcid.org/0000-0002-5002-8648	Coopworth	LBO:0000469										
+VBO:0001381	Cormo (Sheep)	LBO:0000470	https://orcid.org/0000-0002-5002-8648	Cormo	LBO:0000470										
+VBO:0001382	Corriedale (Sheep)	LBO:0000471	https://orcid.org/0000-0002-5002-8648	Corriedale	LBO:0000471										
+VBO:0001385	Cotswold (Sheep)	LBO:0000472	https://orcid.org/0000-0002-5002-8648	Cotswold	LBO:0000472										
+VBO:0001386	Criollo (Sheep)	LBO:0000473	https://orcid.org/0000-0002-5002-8648	Criollo	LBO:0000473										
+VBO:0001388	Daglic (Sheep)	LBO:0000476	https://orcid.org/0000-0002-5002-8648	Daglic	LBO:0000476										
+VBO:0001389	Dala (Sheep)	LBO:0000474	https://orcid.org/0000-0002-5002-8648	Dala	LBO:0000474										
+VBO:0001390	Damara (Sheep)	LBO:0000478	https://orcid.org/0000-0002-5002-8648	Damara	LBO:0000478										
+VBO:0001391	Danish Landrace (Sheep)	LBO:0000479	https://orcid.org/0000-0002-5002-8648	Danish Landrace	LBO:0000479										
+VBO:0001392	Derbyshire Gritstone (Sheep)	LBO:0000485	https://orcid.org/0000-0002-5002-8648	Derbyshire Gritstone	LBO:0000485										
+VBO:0001394	Devon Closewool (Sheep)	LBO:0000486	https://orcid.org/0000-0002-5002-8648	Devon Closewool	LBO:0000486										
+VBO:0001397	Dorper (Sheep)	LBO:0000484	https://orcid.org/0000-0002-5002-8648	Dorper	LBO:0000484										
+VBO:0001398	Dorset Down (Sheep)	LBO:0000489	https://orcid.org/0000-0002-5002-8648	Dorset Down	LBO:0000489										
+VBO:0001401	Drysdale (Sheep)	LBO:0000490	https://orcid.org/0000-0002-5002-8648	Drysdale	LBO:0000490										
+VBO:0001410	Exmoor Horn (Sheep)	LBO:0000492	https://orcid.org/0000-0002-5002-8648	Exmoor Horn	LBO:0000492										
+VBO:0001420	Galway (Sheep)	LBO:0000498	https://orcid.org/0000-0002-5002-8648	Galway	LBO:0000498										
+VBO:0001423	German Blackheaded Mutton (Sheep)	LBO:0000501	https://orcid.org/0000-0002-5002-8648	German Blackheaded Mutton	LBO:0000501										
+VBO:0001424	German Mountain (Sheep)	LBO:0000502	https://orcid.org/0000-0002-5002-8648	German Mountain	LBO:0000502										
+VBO:0001425	German Mutton Merino (Sheep)	LBO:0000503	https://orcid.org/0000-0002-5002-8648	German Mutton Merino	LBO:0000503										
+VBO:0001429	Gute (Sheep)	LBO:0000511	https://orcid.org/0000-0002-5002-8648	Gute	LBO:0000511										
+VBO:0001432	Hebridean (Sheep)	LBO:0000517	https://orcid.org/0000-0002-5002-8648	Hebridean	LBO:0000517										
+VBO:0001435	Herdwick (Sheep)	LBO:0000518	https://orcid.org/0000-0002-5002-8648	Herdwick	LBO:0000518										
+VBO:0001436	Herik (Sheep)	LBO:0000519	https://orcid.org/0000-0002-5002-8648	Herik	LBO:0000519										
+VBO:0001439	Hill Radnor (Sheep)	LBO:0000520	https://orcid.org/0000-0002-5002-8648	Hill Radnor	LBO:0000520										
+VBO:0001442	Icelandic (Sheep)	LBO:0000523	https://orcid.org/0000-0002-5002-8648	Icelandic	LBO:0000523										
+VBO:0001444	Ile-De-France (Sheep)	LBO:0000524	https://orcid.org/0000-0002-5002-8648	Ile-de-France	LBO:0000524										
+VBO:0001450	Jacob (Sheep)	LBO:0000526	https://orcid.org/0000-0002-5002-8648	Jacob	LBO:0000526										
+VBO:0001461	Karakul (Sheep)	LBO:0000531	https://orcid.org/0000-0002-5002-8648	Karakul	LBO:0000531										
+VBO:0001462	Karayaka (Sheep)	LBO:0000532	https://orcid.org/0000-0002-5002-8648	Karayaka	LBO:0000532										
+VBO:0001464	Katahdin (Sheep)	LBO:0000533	https://orcid.org/0000-0002-5002-8648	Katahdin	LBO:0000533										
+VBO:0001468	Kerry Hill (Sheep)	LBO:0000534	https://orcid.org/0000-0002-5002-8648	Kerry Hill	LBO:0000534										
+VBO:0001474	Lacaune (Sheep)	LBO:0001072	https://orcid.org/0000-0002-5002-8648	Lacaune	LBO:0001072										
+VBO:0001479	Landais (Sheep)	LBO:0000537	https://orcid.org/0000-0002-5002-8648	Landais	LBO:0000537										
+VBO:0001482	Latxa (Sheep)	LBO:0000702	https://orcid.org/0000-0002-5002-8648	Latxa	LBO:0000702										
+VBO:0001484	Leicester Longwool (Sheep)	LBO:0000696	https://orcid.org/0000-0002-5002-8648	Leicester Longwool	LBO:0000696										
+VBO:0001491	Lleyn (Sheep)	LBO:0000544	https://orcid.org/0000-0002-5002-8648	Lleyn	LBO:0000544										
+VBO:0001493	Lonk (Sheep)	LBO:0000546	https://orcid.org/0000-0002-5002-8648	Lonk	LBO:0000546										
+VBO:0001499	Manchega (Sheep)	LBO:0000549	https://orcid.org/0000-0002-5002-8648	Manchega	LBO:0000549										
+VBO:0001500	Manx Loaghtan (Sheep)	LBO:0000551	https://orcid.org/0000-0002-5002-8648	Manx Loaghtan	LBO:0000551										
+VBO:0001504	Masai (Sheep)	LBO:0000552	https://orcid.org/0000-0002-5002-8648	Masai	LBO:0000552										
+VBO:0001512	Merinolandschaf (Sheep)	LBO:0000557	https://orcid.org/0000-0002-5002-8648	Merinolandschaf	LBO:0000557										
+VBO:0001515	Montadale (Sheep)	LBO:0000559	https://orcid.org/0000-0002-5002-8648	Montadale	LBO:0000559										
+VBO:0001520	Mouflon (Sheep)	LBO:0000561	https://orcid.org/0000-0002-5002-8648	Mouflon	LBO:0000561										
+VBO:0001524	Navajo-Churro (Sheep)	LBO:0000562	https://orcid.org/0000-0002-5002-8648	Navajo-Churro	LBO:0000562										
+VBO:0001528	Norfolk Horn (Sheep)	LBO:0000564	https://orcid.org/0000-0002-5002-8648	Norfolk Horn	LBO:0000564										
+VBO:0001531	North Country Cheviot (Sheep)	LBO:0000565	https://orcid.org/0000-0002-5002-8648	North Country Cheviot	LBO:0000565										
+VBO:0001533	North Ronaldsay (Sheep)	LBO:0000566	https://orcid.org/0000-0002-5002-8648	North Ronaldsay	LBO:0000566										
+VBO:0001550	Perendale (Sheep)	LBO:0000575	https://orcid.org/0000-0002-5002-8648	Perendale	LBO:0000575										
+VBO:0001558	Poll Merino (Sheep)	LBO:0000578	https://orcid.org/0000-0002-5002-8648	Poll Merino	LBO:0000578										
+VBO:0001559	Polwarth (Sheep)	LBO:0000579	https://orcid.org/0000-0002-5002-8648	Polwarth	LBO:0000579										
+VBO:0001560	Polypay (Sheep)	LBO:0000580	https://orcid.org/0000-0002-5002-8648	Polypay	LBO:0000580										
+VBO:0001561	Pomeranian Coarsewool (Sheep)	LBO:0000581	https://orcid.org/0000-0002-5002-8648	Pomeranian Coarsewool	LBO:0000581										
+VBO:0001564	Portland (Sheep)	LBO:0000582	https://orcid.org/0000-0002-5002-8648	Portland	LBO:0000582										
+VBO:0001567	Priangan (Sheep)	LBO:0000583	https://orcid.org/0000-0002-5002-8648	Priangan	LBO:0000583										
+VBO:0001568	Racka (Sheep)	LBO:0000590	https://orcid.org/0000-0002-5002-8648	Racka	LBO:0000590										
+VBO:0001570	Rambouillet (Sheep)	LBO:0000591	https://orcid.org/0000-0002-5002-8648	Rambouillet	LBO:0000591										
+VBO:0001575	Red Karaman (Sheep)	LBO:0000594	https://orcid.org/0000-0002-5002-8648	Red Karaman	LBO:0000594										
+VBO:0001580	Romanov (Sheep)	LBO:0000597	https://orcid.org/0000-0002-5002-8648	Romanov	LBO:0000597										
+VBO:0001581	Romney (Sheep)	LBO:0000598	https://orcid.org/0000-0002-5002-8648	Romney	LBO:0000598										
+VBO:0001583	Rouge De L'ouest (Sheep)	LBO:0000599	https://orcid.org/0000-0002-5002-8648	Rouge de l'Ouest	LBO:0000599										
+VBO:0001585	Rough Fell (Sheep)	LBO:0000601	https://orcid.org/0000-0002-5002-8648	Rough Fell	LBO:0000601										
+VBO:0001590	Ryeland (Sheep)	LBO:0000604	https://orcid.org/0000-0002-5002-8648	Ryeland	LBO:0000604										
+VBO:0001591	Rygja (Sheep)	LBO:0000605	https://orcid.org/0000-0002-5002-8648	Rygja	LBO:0000605										
+VBO:0001594	Santa Cruz (Sheep)	LBO:0000608	https://orcid.org/0000-0002-5002-8648	Santa Cruz	LBO:0000608										
+VBO:0001598	Scottish Blackface (Sheep)	LBO:0000612	https://orcid.org/0000-0002-5002-8648	Scottish Blackface	LBO:0000612										
+VBO:0001601	Shetland (Sheep)	LBO:0000613	https://orcid.org/0000-0002-5002-8648	Shetland	LBO:0000613										
+VBO:0001603	Shropshire (Sheep)	LBO:0000614	https://orcid.org/0000-0002-5002-8648	Shropshire	LBO:0000614										
+VBO:0001604	Skudde (Sheep)	LBO:0000616	https://orcid.org/0000-0002-5002-8648	Skudde	LBO:0000616										
+VBO:0001605	Soay (Sheep)	LBO:0000617	https://orcid.org/0000-0002-5002-8648	Soay	LBO:0000617										
+VBO:0001607	Somali (Sheep)	LBO:0000618	https://orcid.org/0000-0002-5002-8648	Somali	LBO:0000618										
+VBO:0001609	South African Mutton Merino (Sheep)	LBO:0000621	https://orcid.org/0000-0002-5002-8648	South African Mutton Merino	LBO:0000621										
+VBO:0001613	South Suffolk (Sheep)	LBO:0000623	https://orcid.org/0000-0002-5002-8648	South Suffolk	LBO:0000623										
+VBO:0001614	Southdown (Sheep)	LBO:0000624	https://orcid.org/0000-0002-5002-8648	Southdown	LBO:0000624										
+VBO:0001621	Spiegel (Sheep)	LBO:0000627	https://orcid.org/0000-0002-5002-8648	Spiegel	LBO:0000627										
+VBO:0001622	St. Croix (Sheep)	LBO:0000628	https://orcid.org/0000-0002-5002-8648	St. Croix	LBO:0000628	Virgin Island White	LBO:0000628								
+VBO:0001624	Steigar (Sheep)	LBO:0000629	https://orcid.org/0000-0002-5002-8648	Steigar	LBO:0000629										
+VBO:0001627	Suffolk (Sheep)	LBO:0000632	https://orcid.org/0000-0002-5002-8648	Suffolk	LBO:0000632										
+VBO:0001638	Targhee (Sheep)	LBO:0000638	https://orcid.org/0000-0002-5002-8648	Targhee	LBO:0000638										
+VBO:0001639	Teeswater (Sheep)	LBO:0000639	https://orcid.org/0000-0002-5002-8648	Teeswater	LBO:0000639										
+VBO:0001641	Texel (Sheep)	LBO:0000640	https://orcid.org/0000-0002-5002-8648	Texel	LBO:0000640										
+VBO:0001650	Touabire (Sheep)	LBO:0000643	https://orcid.org/0000-0002-5002-8648	Touabire	LBO:0000643										
+VBO:0001656	Tuj (Sheep)	LBO:0000646	https://orcid.org/0000-0002-5002-8648	Tuj	LBO:0000646										
+VBO:0001660	Uda (Sheep)	LBO:0000649	https://orcid.org/0000-0002-5002-8648	Uda	LBO:0000649										
+VBO:0001665	Valais Blacknose (Sheep)	LBO:0000652	https://orcid.org/0000-0002-5002-8648	Valais Blacknose	LBO:0000652										
+VBO:0001667	Van Rooy (Sheep)	LBO:0000653	https://orcid.org/0000-0002-5002-8648	Van Rooy	LBO:0000653										
+VBO:0001669	Velay Black (Sheep)	LBO:0001096	https://orcid.org/0000-0002-5002-8648	Noire du Velay	LBO:0001096	Black Velay	LBO:0001096							Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.	LBO:0001096
+VBO:0001671	Vendeen (Sheep)	LBO:0000654	https://orcid.org/0000-0002-5002-8648	Vendeen	LBO:0000654										
+VBO:0001679	Welsh Hill Speckled Face (Sheep)	LBO:0000659	https://orcid.org/0000-0002-5002-8648	Welsh Hill Speckled Face	LBO:0000659										
+VBO:0001681	Wensleydale (Sheep)	LBO:0000662	https://orcid.org/0000-0002-5002-8648	Wensleydale	LBO:0000662										
+VBO:0001682	West African Dwarf (Sheep)	LBO:0000663	https://orcid.org/0000-0002-5002-8648	West African Dwarf	LBO:0000663										
+VBO:0001684	White Karaman (Sheep)	LBO:0000665	https://orcid.org/0000-0002-5002-8648	White Karaman	LBO:0000665										
+VBO:0001688	Wiltshire Horn (Sheep)	LBO:0000669	https://orcid.org/0000-0002-5002-8648	Wiltshire Horn	LBO:0000669										
+VBO:0000082	Surti (Buffalo)	LBO:0001048	https://orcid.org/0000-0002-5002-8648	Surati	LBO:0001048										
+VBO:0000166	Brown Swiss (Cattle)	LBO:0000061	https://orcid.org/0000-0002-9178-3965	Braunvieh	LBO:0000061										
+VBO:0000443	Appenzeller Barthuhn (Chicken)	LBO:0000275	https://orcid.org/0000-0002-9178-3965	Appenzell Bearded Hen	LBO:0000275										
+VBO:0000444	Appenzeller Spitzenhauben (Chicken)	LBO:0000276	https://orcid.org/0000-0002-9178-3965	Appenzell Pointed Hood Hen	LBO:0000276										
+VBO:0000453	Barnevelder (Chicken)	LBO:0000283	https://orcid.org/0000-0002-9178-3965	Barnevelders	LBO:0000283										
+VBO:0000463	Brahma (Chicken)	LBO:0000282	https://orcid.org/0000-0002-5002-8648	Brahmas	LBO:0000282										
+VBO:0000618	Sicilian Buttercup (Chicken)	LBO:0000285	https://orcid.org/0000-0002-5002-8648	Buttercup	LBO:0000285										
+VBO:0000517	Crèvecoeur (Chicken)	LBO:0000291	https://orcid.org/0000-0002-5002-8648	Crevecoeur	LBO:0000291										
+VBO:0000521	Dominique (Chicken)	LBO:0000294	https://orcid.org/0000-0002-5002-8648	Dominiques	LBO:0000294										
+VBO:0000527	Faverolle (Chicken)	LBO:0000297	https://orcid.org/0000-0002-5002-8648	Faverolles	LBO:0000297										
+VBO:0000445	Araucana (Chicken)	LBO:0000300	https://orcid.org/0000-0002-5002-8648	Gallus Inauris	LBO:0000300										
+VBO:0000568	Malay Game (Chicken)	LBO:0000316	https://orcid.org/0000-0002-5002-8648	Malay	LBO:0000316										
+VBO:0000617	Shamo (Chicken)	LBO:0000699	https://orcid.org/0000-0002-9178-3965	Oh-Shamo	LBO:0000699										
+VBO:0000519	Derbyshire Redcap (Chicken)	LBO:0000326	https://orcid.org/0000-0002-9178-3965	Red Cap	LBO:0000326										
+VBO:0000619	Silkie (Chicken)	LBO:0000328	https://orcid.org/0000-0002-5002-8648	Silkie Bantam	LBO:0000328										
+VBO:0000626	Spanish (Chicken)	LBO:0000335	https://orcid.org/0000-0002-9178-3965	White-Faced Black Spanish	LBO:0000335										
+VBO:0000725	Australian feral (Goat)	LBO:0000962	https://orcid.org/0000-0002-9178-3965	Australian Goat	LBO:0000962										
+VBO:0000740	Brown Shorthair Goat (Goat)	LBO:0001124	https://orcid.org/0000-0002-9178-3965	Brown Shorthair	LBO:0001124									Czech breed originated from a native breed improved by crossing with German Brown bucks.	LBO:0001124
+VBO:0000743	Canary Islands (Goat)	LBO:0000972	https://orcid.org/0000-0002-9178-3965	Canary Island	LBO:0000972										
+VBO:0000741	Bunte Deutsche Edelziege (Goat)	LBO:0000981	https://orcid.org/0000-0002-9178-3965	Erzgebirg	LBO:0000981										
+VBO:0000901	Anglo-Arab (Horse)	LBO:0000935	https://orcid.org/0000-0002-9178-3965	Anglo-Arabian	LBO:0000935										
+VBO:0000913	Bashkir Curly (Horse)	LBO:0000738	https://orcid.org/0000-0002-9178-3965	Bashkir	LBO:0000738										
+VBO:0016893	Chincoteague Pony (Horse)	LBO:0000758	https://orcid.org/0000-0002-9178-3965	Chincoteague Pony	LBO:0000758										
+VBO:0000967	French Saddlebred (Horse)	LBO:0000888	https://orcid.org/0000-0002-9178-3965|ISBN:9781789241532	Selle Francais	LBO:0000888										
+VBO:0000998	Jutland Horse (Horse)	LBO:0000811	https://orcid.org/0000-0002-9178-3965	Jutland	LBO:0000811										
+VBO:0001008	Knabstrupper (Horse)	LBO:0000822	https://orcid.org/0000-0002-9178-3965	Knabstrup	LBO:0000822										
+VBO:0001054	Pottok (Horse)	LBO:0000875	https://orcid.org/0000-0002-9178-3965	Pyrenean Tarpan	LBO:0000875										
+VBO:0016883	Racking Horse (Horse)	LBO:0000880	https://orcid.org/0000-0002-9178-3965	Racking Horse	LBO:0000880										
+VBO:0016883	Racking Horse (Horse)	LBO:0000892	https://orcid.org/0000-0002-9178-3965	Single-Footing Horse	LBO:0000892										
+VBO:0001086	Tori Horse (Toric) (Horse)	LBO:0000912	https://orcid.org/0000-0002-9178-3965	Tori	LBO:0000912										
+VBO:0001091	Welsh Pony (Horse)	LBO:0000919	https://orcid.org/0000-0002-9178-3965	Welsh Pony and Cob	LBO:0000919										
+VBO:0001117	Black Slavonian pig (Pig)	LBO:0000349	https://orcid.org/0000-0002-9178-3965	Black Slavonian	LBO:0000349										
+VBO:0016899	Göttingen minipig	LBO:0000943	https://orcid.org/0000-0002-9178-3965	Göttingen Minipig	LBO:0000943										
+VBO:0001150	Iberian Swine (Pig)	LBO:0000369	https://orcid.org/0000-0002-9178-3965	Iberian	LBO:0000369										
+VBO:0001157	Korean native (Pig)	LBO:0000710	https://orcid.org/0000-0002-9178-3965	Korean native pig	LBO:0000710										
+VBO:0001402	East African Blackheaded (Sheep)	LBO:0000413	https://orcid.org/0000-0002-9178-3965	African Blackhead	LBO:0000413										
+VBO:0001543	Ouled Jellal (Sheep)	LBO:0000417	https://orcid.org/0000-0002-9178-3965	Algerian Arab	LBO:0000417										
+VBO:0016886	Australian White (Sheep)	LBO:0001107	https://orcid.org/0000-0002-9178-3965	Australian White	LBO:0001107									Australian meat sheep breed derived from selective breeding of White Dorper, Van Rooy, Poll Dorset, and Texel.	LBO:0001107
+VBO:0001335	Black Welsh Mountain (Sheep)	LBO:0000441	https://orcid.org/0000-0002-9178-3965	Black Welsh Mountain Sheep	LBO:0000441										
+VBO:0001340	Blanc Du Massif Central (Sheep)	LBO:0001095	https://orcid.org/0000-0002-9178-3965	Blanche du Massif Central	LBO:0001095									French sheep breed originating from the southern part of the Massif Central. Known for its hardiness and adaptibility to harsh conditions.	LBO:0001095
+VBO:0001427	Greyface Dartmoor (Sheep)	LBO:0000480	https://orcid.org/0000-0002-9178-3965	Dartmoor	LBO:0000480										
+VBO:0001416	Friesian Milk (Sheep)	LBO:0000497	https://orcid.org/0000-0002-9178-3965	Friesian Milk Sheep	LBO:0000497										
+VBO:0001426	Graue Gehörnte Heidschnucke (Sheep)	LBO:0000508	https://orcid.org/0000-0002-9178-3965	Graue Gehoernte Heidschnucke	LBO:0000508										
+VBO:0001518	Morada Nova (Sheep)	LBO:0000560	https://orcid.org/0000-0002-9178-3965	LBO_0000560	LBO:0000560										
+VBO:0001508	Merino (Sheep)	LBO:0001067	https://orcid.org/0000-0002-9178-3965	Merino type	LBO:0001067										
+VBO:0001534	Norwegian Pelt Sheep (Sheep)	LBO:0000567	https://orcid.org/0000-0002-9178-3965	Norwegian Fur	LBO:0000567										
+VBO:0001548	Pelibuey (Sheep)	LBO:0000574	https://orcid.org/0000-0002-9178-3965	Pelibüey	LBO:0000574										
+VBO:0001574	Red Engadine Sheep (Sheep)	LBO:0000593	https://orcid.org/0000-0002-9178-3965	Red Engadine	LBO:0000593										
+VBO:0001522	Mouton du Sahel (Sheep)	LBO:0000606	https://orcid.org/0000-0002-9178-3965	Sahel-type	LBO:0000606										
+VBO:0001628	Sumavska ovce (Sheep)	LBO:0000633	https://orcid.org/0000-0002-9178-3965	Sumavska	LBO:0000633										
+VBO:0001631	Swedish Fur (Sheep)	LBO:0000635	https://orcid.org/0000-0002-9178-3965	Swedish Fur Sheep	LBO:0000635										
+VBO:0001647	Tiroler Bergschaf (Sheep)	LBO:0000648	https://orcid.org/0000-0002-9178-3965	Tyrol Mountain	LBO:0000648										
+VBO:0001309	Badger Face Welsh Mountain (Sheep)	LBO:0000661	https://orcid.org/0000-0002-9178-3965	Welsh Mountain Badger Faced	LBO:0000661										
+VBO:0001683	White Face Dartmoor (Sheep)	LBO:0000667	https://orcid.org/0000-0002-9178-3965	Whiteface Dartmoor	LBO:0000667										
+VBO:0001685	Whitefaced Woodland (Sheep)	LBO:0000668	https://orcid.org/0000-0002-9178-3965	Whiteface Woodland	LBO:0000668										
+VBO:0001691	Zetska zuja (Sheep)	LBO:0000688	https://orcid.org/0000-0002-9178-3965	Zeta Yellow	LBO:0000688										
