@@ -11340,39 +11340,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000355</terms:source>
-        <oboInOwl:hasExactSynonym>Czech Improved White</oboInOwl:hasExactSynonym>
-        <rdfs:label>Czech Improved White (Pig)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017211"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-        <oboInOwl:source>LBO:0000355</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017211"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-9178-3965</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017211"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Czech Improved White</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>LBO:0000355</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VBO_0017212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017212">
@@ -17583,12 +17550,13 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
-        <vbo:origindescription>Old local type, inc. Bohuskulla, Ringamåla, Väne / [= peasant or village cow] / nearly extinct.</vbo:origindescription>
+        <vbo:origindescription>Old local type, inc. Bohuskulla, Ringamåla, Väne; peasant or village cow; nearly extinct.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000008|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>Allmogekor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bohuskulla</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532|ISBN:9781845934668</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ringamåla</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Väne</oboInOwl:hasExactSynonym>
         <rdfs:label>Allmogekor (Cattle)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -17606,7 +17574,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017400"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
-        <owl:annotatedTarget>Old local type, inc. Bohuskulla, Ringamåla, Väne / [= peasant or village cow] / nearly extinct.</owl:annotatedTarget>
+        <owl:annotatedTarget>Old local type, inc. Bohuskulla, Ringamåla, Väne; peasant or village cow; nearly extinct.</owl:annotatedTarget>
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -17622,16 +17590,21 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017400"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Bohuskulla</owl:annotatedTarget>
-        <oboInOwl:source>Ringamåla</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781845934668</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781845934668</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017400"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>ISBN:9781789241532|ISBN:9781845934668</owl:annotatedTarget>
+        <owl:annotatedTarget>Ringamåla</owl:annotatedTarget>
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Väne</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781845934668</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017400"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Väne</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -17642,7 +17615,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
-        <vbo:origindescription>Orig. 1948–1974 by Art Jones, Cactus Road, Portales; Brahman (1/2), Charolais (1/4), bison (1/8), Hereford (1/16), Shorthorn (1/16) / BS [Breed Society] 1971.</vbo:origindescription>
+        <vbo:origindescription>Orig. 1948–1974 by Art Jones, Cactus Road, Portales; Brahman (1/2), Charolais (1/4), bison (1/8), Hereford (1/16), Shorthorn (1/16), Breed Society 1971.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000009|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>American</oboInOwl:hasExactSynonym>
@@ -17663,7 +17636,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017401"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
-        <owl:annotatedTarget>Orig. 1948–1974 by Art Jones, Cactus Road, Portales; Brahman (1/2), Charolais (1/4), bison (1/8), Hereford (1/16), Shorthorn (1/16) / BS [Breed Society] 1971.</owl:annotatedTarget>
+        <owl:annotatedTarget>Orig. 1948–1974 by Art Jones, Cactus Road, Portales; Brahman (1/2), Charolais (1/4), bison (1/8), Hereford (1/16), Shorthorn (1/16), Breed Society 1971.</owl:annotatedTarget>
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -17965,8 +17938,9 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000112|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>German Red Pied</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Red Pied Lowland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Red-and-White Lowland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Rotbuntes Niederungsvieh</oboInOwl:hasExactSynonym>
         <rdfs:label>German Red Pied (Cattle)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -17993,16 +17967,20 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017410"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>ISBN:9781789241532</owl:annotatedTarget>
+        <owl:annotatedTarget>Red Pied Lowland</owl:annotatedTarget>
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Rotbuntes Niederungsvieh</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017410"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Red Pied Lowland</owl:annotatedTarget>
-        <oboInOwl:source>Red-and-White Lowland</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <owl:annotatedTarget>Red-and-White Lowland</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017410"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Rotbuntes Niederungsvieh</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18349,12 +18327,6 @@
         <oboInOwl:source>LBO:0000310</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://avibase.bsc-eoc.org/species.jsp?avibaseid=444C1F4D2DA022D9</oboInOwl:source>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017420"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Gray Jungle Fowl</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">LBO:0000310</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -18389,12 +18361,6 @@
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source>LBO:0000309</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://avibase.bsc-eoc.org/species.jsp?lang=EN&amp;avibaseid=BEA427FB0DC089BD</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017421"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Green Jungle Fowl</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">LBO:0000309</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18504,7 +18470,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017424"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Adany</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18613,7 +18579,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017427"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Heilongjiang Dairy</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18627,9 +18593,9 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001058</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/pei-goat/</terms:source>
+        <oboInOwl:hasExactSynonym>Chèvre Péï</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Péi</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Péï</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/pei-goat/</oboInOwl:hasExactSynonym>
         <rdfs:label>Péi (Goat)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -18647,6 +18613,12 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017428"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Chèvre Péï</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/pei-goat/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017428"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Péi</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source>LBO:0001058</oboInOwl:source>
@@ -18656,7 +18628,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017428"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Péï</owl:annotatedTarget>
-        <oboInOwl:source>Chèvre Péï</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/pei-goat/</oboInOwl:source>
     </owl:Axiom>
     
@@ -18774,8 +18745,8 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001022|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>Chué</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SRD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sem Raça Definida</oboInOwl:hasExactSynonym>
         <rdfs:label>SRD (Goat)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -18794,8 +18765,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017432"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Chué</owl:annotatedTarget>
-        <oboInOwl:source>Sem Raça Definida</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017432"/>
@@ -18805,6 +18775,12 @@
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
         <oboInOwl:source>ISBN:9781845934668</oboInOwl:source>
         <oboInOwl:source>LBO:0001022</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017432"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sem Raça Definida</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18888,8 +18864,8 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000719|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>American Albino</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>American Creme and American White</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Creme and White</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
         <rdfs:label>American Creme and White (Horse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -18908,8 +18884,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017435"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>American Albino</owl:annotatedTarget>
-        <oboInOwl:source>American Creme and American White</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017435"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>American Creme and American White</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017435"/>
@@ -18923,9 +18904,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017435"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>ISBN:9781789241532</owl:annotatedTarget>
-        <oboInOwl:source>https://breeds.okstate.edu/horses/american-creme-and-white-horses.html</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">American Creme and White</oboInOwl:source>
+        <owl:annotatedTarget>American Creme and White</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/horses/american-creme-and-white-horses.html</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18961,12 +18941,6 @@
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
         <oboInOwl:source>ISBN:9781845934668</oboInOwl:source>
         <oboInOwl:source>LBO:0000725</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017436"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Araappaloosa</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">LBO:0000725</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19078,7 +19052,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017439"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Shackleford</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19092,8 +19066,8 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000753|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>Carthusian</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zamorano</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zapata</oboInOwl:hasExactSynonym>
         <rdfs:label>Carthusian (Horse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -19121,8 +19095,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017440"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Zamorano</owl:annotatedTarget>
-        <oboInOwl:source>Zapata</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017440"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Zapata</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19164,7 +19143,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017441"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Delibozskaya</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19206,7 +19185,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017442"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Istochno-b”lgarska</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19464,8 +19443,8 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000868|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>Georgalidiko</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pinia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ravani</oboInOwl:hasExactSynonym>
         <rdfs:label>Pinia (Horse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -19484,15 +19463,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017450"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Georgalidiko</owl:annotatedTarget>
-        <oboInOwl:source>Pinia</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017450"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>ISBN:9781789241532</owl:annotatedTarget>
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Ravani</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017450"/>
@@ -19502,6 +19473,18 @@
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
         <oboInOwl:source>ISBN:9781845934668</oboInOwl:source>
         <oboInOwl:source>LBO:0000868</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017450"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Pinia</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017450"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Ravani</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19690,9 +19673,10 @@
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000357|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <oboInOwl:hasExactSynonym>Dermanska chernosharena</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dermantsi Black Spotted</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dermantsi Pied</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Schwarzbuntes Dermanzi</oboInOwl:hasExactSynonym>
         <rdfs:label>Dermantsi Pied (Pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -19710,9 +19694,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017456"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Dermanska chernosharena</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017456"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Dermantsi Black Spotted</owl:annotatedTarget>
-        <oboInOwl:source>Dermanska chernosharena</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017456"/>
@@ -19726,9 +19715,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017456"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>ISBN:9781789241532</owl:annotatedTarget>
+        <owl:annotatedTarget>Schwarzbuntes Dermanzi</owl:annotatedTarget>
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Schwarzbuntes Dermanzi</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -19769,7 +19757,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017457"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Laiwu</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -20041,7 +20029,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017465"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CVM</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017465"/>
@@ -20190,12 +20178,6 @@
         <oboInOwl:source>PMID:12074311</oboInOwl:source>
         <oboInOwl:source>https://breeds.okstate.edu/sheep/medium-wool-merino-sheep.html</oboInOwl:source>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017469"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Medium-Wool Merino</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">LBO:0000554</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -20341,7 +20323,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017473"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Çeșme</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -20411,12 +20393,6 @@
         <oboInOwl:source>LBO:0000631</oboInOwl:source>
         <oboInOwl:source>PMID:754686</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/sheep/strong-wool-merino-sheep.html</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017475"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Strong Wool Merino</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">LBO:0000631</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -20534,9 +20510,9 @@
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000684|ISBN:9781789241532|ISBN:9781845934668</terms:source>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Walcherse Melkschaap</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zeeland Milk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zeeuwse Melkschaap</oboInOwl:hasExactSynonym>
         <rdfs:label>Zeeland Milk (Sheep)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -20555,8 +20531,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017479"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Walcherse Melkschaap</owl:annotatedTarget>
-        <oboInOwl:source>Zeeuwse Melkschaap</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017479"/>
@@ -20566,6 +20541,12 @@
         <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
         <oboInOwl:source>ISBN:9781845934668</oboInOwl:source>
         <oboInOwl:source>LBO:0000684</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017479"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Zeeuwse Melkschaap</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -20633,7 +20614,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017481"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Zlatoucha</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017481"/>
@@ -20656,7 +20637,7 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000690|ISBN:9781789241532|ISBN:9781845934668</terms:source>
         <oboInOwl:hasExactSynonym>Berber à laine Zoulai</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ISBN:9781789241532</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mouton de montagne à laine Zoulai</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zoulay</oboInOwl:hasExactSynonym>
         <rdfs:label>Zoulay (Sheep)</rdfs:label>
     </owl:Class>
@@ -20676,8 +20657,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017482"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Berber à laine Zoulai</owl:annotatedTarget>
-        <oboInOwl:source>Mouton de montagne à laine Zoulai</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">ISBN:9781789241532</oboInOwl:source>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017482"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mouton de montagne à laine Zoulai</owl:annotatedTarget>
+        <oboInOwl:source>ISBN:9781789241532</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017482"/>
