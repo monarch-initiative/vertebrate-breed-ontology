@@ -1,4 +1,3 @@
-# VBO Users and Use Cases
+# VBO Contributors
 
 _Documentation coming up_
-

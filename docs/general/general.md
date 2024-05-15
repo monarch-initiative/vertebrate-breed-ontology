@@ -12,7 +12,7 @@ Maybe definitions of 'breed' exist in the literature and in different communitie
 
 Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature (see table below).
 
-## References organizations
+## Breed information sources
 The following table includes breed organizations, communities, and experts which reported, characterized, defined, and/or determined the breeds included in VBO
 
 |Breeds| Sources| Sources links

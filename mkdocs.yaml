@@ -4,15 +4,23 @@ nav:
   - Getting started: index.md
   - VBO general information:
       - VBO general information: general/general.md
-      - References for Livestock Breeds: general/references-livestock.md
-      - References for Cat Breeds: general/references-cat.md
-      - References for Dog Breeds: general/references-dog.md
+      - VBO MIRO information: general/MIRO.md
+      - VBO Contributors: general/contributors.md
+      - VBO Users and Use cases: general/users.md
+      - Sources for Livestock Breeds: general/sources-livestock.md
+      - Sources for Cat Breeds: general/sources-cat.md
+      - Sources for Dog Breeds: general/sources-dog.md
+  - Ontology Modeling:
+      - VBO Classification: ontologymodeling/classification.md
+      - VBO term Metadata: ontologymodeling/metadata.md
+      - Label and Naming Conventions: ontologymodeling/term-labels-naming-conventions.md  
+      - Axioms in VBO: ontologymodeling/axioms.md  
+      - Database Cross-References: ontologymodeling/xref.md  
+      - Term merge and obsolete: ontologymodeling/merge-obsolete.md        
   - VBO Developer Docs:
       - Components: VBO-editor-documents/components.md
       - Release process: VBO-editor-documents/release.md
-      - Merging/obsoleting classes: VBO-editor-documents/merge_obsolete.md      
-  - Cite: cite.md
-  - History: history.md
+      - Merging/obsoleting classes: VBO-editor-documents/merge_obsolete_editor.md      
   - How-to guides:
       - Standard ODK workflows:
           - Overview: odk-workflows/index.md
@@ -24,5 +32,8 @@ nav:
           - Managing the documentation: odk-workflows/ManageDocumentation.md
           - Continuous Integration: odk-workflows/ContinuousIntegration.md
           - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md
-      - Contributing: contributing.md
-
+      - Contribute: contributing.md
+      - Use VBO for data annotation: howto/howtouse.md
+  - Cite: cite.md
+  - FAQ: FAQ.md
+  - History: history.md
