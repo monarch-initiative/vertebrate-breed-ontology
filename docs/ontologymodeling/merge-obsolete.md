@@ -1,3 +1,3 @@
-# When to merge and/ore obsolete VBO terms
+# When to merge and/or obsolete VBO terms
 
 _Documentation upcoming_
