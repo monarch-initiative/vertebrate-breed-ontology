@@ -1,5 +1,5 @@
 vbo_id	term_label	LBO ID	source_for_xref1	LBO name	LBO ID	LBO synonyms	LBO ID	description_of_origin	source_for_description_of_origin
-ID		A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source	A http://purl.obolibrary.org/obo/vbo#origindescription	>A oboInOwl:source
+ID		A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source SPLIT=|	A http://purl.obolibrary.org/obo/vbo#origindescription	>A oboInOwl:source
 VBO:0000071	Egyptian (Buffalo)	LBO:0001050	https://orcid.org/0000-0002-5002-8648	Egyptian	LBO:0001050				
 VBO:0000073	Jafarabadi (Buffalo)	LBO:0001045	https://orcid.org/0000-0002-5002-8648	Jafarabadi	LBO:0001045				
 VBO:0000074	Mediterranean (Buffalo)	LBO:0001043	https://orcid.org/0000-0002-5002-8648	Mediterranean	LBO:0001043				

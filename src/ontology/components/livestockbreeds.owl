@@ -17552,7 +17552,9 @@
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <vbo:origindescription>Old local type, inc. Bohuskulla, Ringamåla, Väne; peasant or village cow; nearly extinct.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000008|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000008</terms:source>
         <oboInOwl:hasExactSynonym>Allmogekor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bohuskulla</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Ringamåla</oboInOwl:hasExactSynonym>
@@ -17617,7 +17619,9 @@
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <vbo:origindescription>Orig. 1948–1974 by Art Jones, Cactus Road, Portales; Brahman (1/2), Charolais (1/4), bison (1/8), Hereford (1/16), Shorthorn (1/16), Breed Society 1971.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000009|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000009</terms:source>
         <oboInOwl:hasExactSynonym>American</oboInOwl:hasExactSynonym>
         <rdfs:label>American (Cattle)</rdfs:label>
     </owl:Class>
@@ -17658,7 +17662,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000011|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000011</terms:source>
         <oboInOwl:hasExactSynonym>Amerifax</oboInOwl:hasExactSynonym>
         <rdfs:label>Amerifax (Cattle)</rdfs:label>
     </owl:Class>
@@ -17693,7 +17699,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000043|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000043</terms:source>
         <oboInOwl:hasExactSynonym>Belgian Red</oboInOwl:hasExactSynonym>
         <rdfs:label>Belgian Red (Cattle)</rdfs:label>
     </owl:Class>
@@ -17728,7 +17736,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000048|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000048</terms:source>
         <oboInOwl:hasExactSynonym>Berrendas</oboInOwl:hasExactSynonym>
         <rdfs:label>Berrendas (Cattle)</rdfs:label>
     </owl:Class>
@@ -17762,7 +17771,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000059|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000059</terms:source>
         <oboInOwl:hasExactSynonym>Brahmousin</oboInOwl:hasExactSynonym>
         <rdfs:label>Brahmousin (Cattle)</rdfs:label>
     </owl:Class>
@@ -17867,7 +17878,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000081|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000081</terms:source>
         <oboInOwl:hasExactSynonym>Damascus</oboInOwl:hasExactSynonym>
         <rdfs:label>Damascus (Cattle)</rdfs:label>
     </owl:Class>
@@ -17902,7 +17915,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000102|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000102</terms:source>
         <oboInOwl:hasExactSynonym>Finnish</oboInOwl:hasExactSynonym>
         <rdfs:label>Finnish (Cattle)</rdfs:label>
     </owl:Class>
@@ -17936,7 +17950,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000112|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000112</terms:source>
         <oboInOwl:hasExactSynonym>German Red Pied</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Red Pied Lowland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Red-and-White Lowland</oboInOwl:hasExactSynonym>
@@ -17992,7 +18008,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000212|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000212</terms:source>
         <oboInOwl:hasExactSynonym>Rath</oboInOwl:hasExactSynonym>
         <rdfs:label>Rath (Cattle)</rdfs:label>
     </owl:Class>
@@ -18026,7 +18043,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000228|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000228</terms:source>
         <oboInOwl:hasExactSynonym>RX3</oboInOwl:hasExactSynonym>
         <rdfs:label>RX3 (Cattle)</rdfs:label>
     </owl:Class>
@@ -18061,7 +18080,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000231|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000231</terms:source>
         <oboInOwl:hasExactSynonym>Salorn</oboInOwl:hasExactSynonym>
         <rdfs:label>Salorn (Cattle)</rdfs:label>
     </owl:Class>
@@ -18096,7 +18117,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000254|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000254</terms:source>
         <oboInOwl:hasExactSynonym>Texon</oboInOwl:hasExactSynonym>
         <rdfs:label>Texon (Cattle)</rdfs:label>
     </owl:Class>
@@ -18130,7 +18152,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000949|PMID:22494672</terms:source>
+        <terms:source>LBO:0000949</terms:source>
+        <terms:source>PMID:22494672</terms:source>
         <oboInOwl:hasExactSynonym>Tropical Composite</oboInOwl:hasExactSynonym>
         <rdfs:label>Tropical Composite (Cattle)</rdfs:label>
     </owl:Class>
@@ -18164,7 +18187,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001099|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0001099</terms:source>
         <oboInOwl:hasExactSynonym>Vrindavani</oboInOwl:hasExactSynonym>
         <rdfs:label>Vrindavani (Cattle)</rdfs:label>
     </owl:Class>
@@ -18199,7 +18224,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001097|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0001097</terms:source>
         <oboInOwl:hasExactSynonym>Zebu</oboInOwl:hasExactSynonym>
         <rdfs:label>Zebu (Cattle)</rdfs:label>
     </owl:Class>
@@ -18442,7 +18469,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001122|LBO:0001122</terms:source>
+        <terms:source>LBO:0001122</terms:source>
         <oboInOwl:hasExactSynonym>Adani</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Adany</oboInOwl:hasExactSynonym>
         <rdfs:label>Adani (Goat)</rdfs:label>
@@ -18550,7 +18577,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000985|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000985</terms:source>
         <oboInOwl:hasExactSynonym>Hailun</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Heilongjiang Dairy</oboInOwl:hasExactSynonym>
         <rdfs:label>Hailun (Goat)</rdfs:label>
@@ -18640,7 +18668,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001010|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0001010</terms:source>
         <oboInOwl:hasExactSynonym>Philippine</oboInOwl:hasExactSynonym>
         <rdfs:label>Philippine (Goat)</rdfs:label>
     </owl:Class>
@@ -18675,7 +18705,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001014|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0001014</terms:source>
         <oboInOwl:hasExactSynonym>Qinshan</oboInOwl:hasExactSynonym>
         <rdfs:label>Qinshan (Goat)</rdfs:label>
     </owl:Class>
@@ -18709,7 +18740,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001106|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0001106</terms:source>
         <oboInOwl:hasExactSynonym>Sable</oboInOwl:hasExactSynonym>
         <rdfs:label>Sable (Goat)</rdfs:label>
     </owl:Class>
@@ -18743,7 +18775,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001022|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0001022</terms:source>
         <oboInOwl:hasExactSynonym>Chué</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SRD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sem Raça Definida</oboInOwl:hasExactSynonym>
@@ -18792,7 +18826,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001032|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0001032</terms:source>
         <oboInOwl:hasExactSynonym>Xuhai</oboInOwl:hasExactSynonym>
         <rdfs:label>Xuhai (Goat)</rdfs:label>
     </owl:Class>
@@ -18827,7 +18863,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000716|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000716</terms:source>
         <oboInOwl:hasExactSynonym>Albanian</oboInOwl:hasExactSynonym>
         <rdfs:label>Albanian (Horse)</rdfs:label>
     </owl:Class>
@@ -18862,7 +18900,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000719|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000719</terms:source>
         <oboInOwl:hasExactSynonym>American Albino</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Creme and American White</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>American Creme and White</oboInOwl:hasExactSynonym>
@@ -18917,7 +18957,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000725|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000725</terms:source>
         <oboInOwl:hasExactSynonym>Araappaloosa</oboInOwl:hasExactSynonym>
         <rdfs:label>Araappaloosa (Horse)</rdfs:label>
     </owl:Class>
@@ -18952,7 +18994,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000733|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000733</terms:source>
         <oboInOwl:hasExactSynonym>Balearic</oboInOwl:hasExactSynonym>
         <rdfs:label>Balearic (Horse)</rdfs:label>
     </owl:Class>
@@ -18987,7 +19031,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000736|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000736</terms:source>
         <oboInOwl:hasExactSynonym>Ban-ei</oboInOwl:hasExactSynonym>
         <rdfs:label>Ban-ei (Horse)</rdfs:label>
     </owl:Class>
@@ -19022,7 +19068,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000735|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000735</terms:source>
         <oboInOwl:hasExactSynonym>Banker</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Shackleford</oboInOwl:hasExactSynonym>
         <rdfs:label>Banker (Horse)</rdfs:label>
@@ -19064,7 +19112,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000753|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000753</terms:source>
         <oboInOwl:hasExactSynonym>Carthusian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zamorano</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zapata</oboInOwl:hasExactSynonym>
@@ -19113,7 +19163,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000768|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000768</terms:source>
         <oboInOwl:hasExactSynonym>Deliboz</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Delibozskaya</oboInOwl:hasExactSynonym>
         <rdfs:label>Deliboz (Horse)</rdfs:label>
@@ -19155,7 +19207,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000775|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000775</terms:source>
         <oboInOwl:hasExactSynonym>East Bulgarian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Istochno-b”lgarska</oboInOwl:hasExactSynonym>
         <rdfs:label>East Bulgarian (Horse)</rdfs:label>
@@ -19197,7 +19251,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000791|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000791</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/horses/galician-pony.html</terms:source>
         <oboInOwl:hasExactSynonym>Galician Pony</oboInOwl:hasExactSynonym>
         <rdfs:label>Galician Pony (Horse)</rdfs:label>
@@ -19234,7 +19290,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000794|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000794</terms:source>
         <oboInOwl:hasExactSynonym>Golden American Saddlebred</oboInOwl:hasExactSynonym>
         <rdfs:label>Golden American Saddlebred (Horse)</rdfs:label>
     </owl:Class>
@@ -19268,7 +19325,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000797|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000797</terms:source>
         <oboInOwl:hasExactSynonym>Guangxi</oboInOwl:hasExactSynonym>
         <rdfs:label>Guangxi (Horse)</rdfs:label>
     </owl:Class>
@@ -19336,7 +19395,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000842|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000842</terms:source>
         <oboInOwl:hasExactSynonym>Morab</oboInOwl:hasExactSynonym>
         <rdfs:label>Morab (Horse)</rdfs:label>
     </owl:Class>
@@ -19371,7 +19432,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000844|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000844</terms:source>
         <oboInOwl:hasExactSynonym>Moyle</oboInOwl:hasExactSynonym>
         <rdfs:label>Moyle (Horse)</rdfs:label>
     </owl:Class>
@@ -19406,7 +19469,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000847|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000847</terms:source>
         <oboInOwl:hasExactSynonym>National Show Horse</oboInOwl:hasExactSynonym>
         <rdfs:label>National Show Horse (Horse)</rdfs:label>
     </owl:Class>
@@ -19441,7 +19506,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000868|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000868</terms:source>
         <oboInOwl:hasExactSynonym>Georgalidiko</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pinia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Ravani</oboInOwl:hasExactSynonym>
@@ -19531,7 +19598,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000899|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000899</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.spanish-norman.com/breedprofile.htm</terms:source>
         <oboInOwl:hasExactSynonym>Spanish Norman</oboInOwl:hasExactSynonym>
         <rdfs:label>Spanish Norman (Horse)</rdfs:label>
@@ -19568,7 +19637,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000909|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000909</terms:source>
         <oboInOwl:hasExactSynonym>Thessalian</oboInOwl:hasExactSynonym>
         <rdfs:label>Thessalian (Horse)</rdfs:label>
     </owl:Class>
@@ -19603,7 +19674,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000926|ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>LBO:0000926</terms:source>
         <oboInOwl:hasExactSynonym>Yili</oboInOwl:hasExactSynonym>
         <rdfs:label>Yili (Horse)</rdfs:label>
     </owl:Class>
@@ -19637,7 +19709,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000340|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000340</terms:source>
         <oboInOwl:hasExactSynonym>Arapawa Island</oboInOwl:hasExactSynonym>
         <rdfs:label>Arapawa Island (Pig)</rdfs:label>
     </owl:Class>
@@ -19672,7 +19746,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000357|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000357</terms:source>
         <oboInOwl:hasExactSynonym>Dermanska chernosharena</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dermantsi Black Spotted</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dermantsi Pied</oboInOwl:hasExactSynonym>
@@ -19728,7 +19804,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000950|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000950</terms:source>
         <oboInOwl:hasExactSynonym>Laiwu</oboInOwl:hasExactSynonym>
         <rdfs:label>Laiwu (Pig)</rdfs:label>
     </owl:Class>
@@ -19837,7 +19915,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001109|PMID:28921416</terms:source>
+        <terms:source>LBO:0001109</terms:source>
+        <terms:source>PMID:28921416</terms:source>
         <oboInOwl:hasExactSynonym>Suhuai</oboInOwl:hasExactSynonym>
         <rdfs:label>Suhuai (Pig)</rdfs:label>
     </owl:Class>
@@ -19871,7 +19950,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001082|PMID:35872387</terms:source>
+        <terms:source>LBO:0001082</terms:source>
+        <terms:source>PMID:35872387</terms:source>
         <oboInOwl:hasExactSynonym>Sujiang</oboInOwl:hasExactSynonym>
         <rdfs:label>Sujiang (Pig)</rdfs:label>
     </owl:Class>
@@ -19905,7 +19985,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001081|PMID:31475745</terms:source>
+        <terms:source>LBO:0001081</terms:source>
+        <terms:source>PMID:31475745</terms:source>
         <oboInOwl:hasExactSynonym>Sushan</oboInOwl:hasExactSynonym>
         <rdfs:label>Sushan (Pig)</rdfs:label>
     </owl:Class>
@@ -19939,7 +20020,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001077|PMID:8838012</terms:source>
+        <terms:source>LBO:0001077</terms:source>
+        <terms:source>PMID:8838012</terms:source>
         <oboInOwl:hasExactSynonym>White Composite</oboInOwl:hasExactSynonym>
         <rdfs:label>White Composite (Pig)</rdfs:label>
     </owl:Class>
@@ -20008,7 +20090,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000456|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000456</terms:source>
         <oboInOwl:hasExactSynonym>CVM</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>California Variegated Mutant</oboInOwl:hasExactSynonym>
         <rdfs:label>California Variegated Mutant (Sheep)</rdfs:label>
@@ -20050,7 +20134,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001068|PMID:9078477!https://breeds.okstate.edu/sheep/breeds-of-hair-sheep.html</terms:source>
+        <terms:source>LBO:0001068</terms:source>
+        <terms:source>PMID:9078477!https://breeds.okstate.edu/sheep/breeds-of-hair-sheep.html</terms:source>
         <oboInOwl:hasExactSynonym>Hair sheep breed</oboInOwl:hasExactSynonym>
         <rdfs:label>Hair sheep breed (Sheep)</rdfs:label>
     </owl:Class>
@@ -20084,7 +20169,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0001108|PMID:27051197</terms:source>
+        <terms:source>LBO:0001108</terms:source>
+        <terms:source>PMID:27051197</terms:source>
         <oboInOwl:hasExactSynonym>Harnali</oboInOwl:hasExactSynonym>
         <rdfs:label>Harnali (Sheep)</rdfs:label>
     </owl:Class>
@@ -20118,7 +20204,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000535|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000535</terms:source>
         <oboInOwl:hasExactSynonym>Kivircik</oboInOwl:hasExactSynonym>
         <rdfs:label>Kivircik (Sheep)</rdfs:label>
     </owl:Class>
@@ -20153,7 +20241,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000554|PMID:12074311|https://breeds.okstate.edu/sheep/medium-wool-merino-sheep.html</terms:source>
+        <terms:source>LBO:0000554</terms:source>
+        <terms:source>PMID:12074311</terms:source>
+        <terms:source>https://breeds.okstate.edu/sheep/medium-wool-merino-sheep.html</terms:source>
         <oboInOwl:hasExactSynonym>Medium-Wool Merino</oboInOwl:hasExactSynonym>
         <rdfs:label>Medium-Wool Merino (Sheep)</rdfs:label>
     </owl:Class>
@@ -20188,7 +20278,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000573|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000573</terms:source>
         <oboInOwl:hasExactSynonym>Pagliarola</oboInOwl:hasExactSynonym>
         <rdfs:label>Pagliarola (Sheep)</rdfs:label>
     </owl:Class>
@@ -20223,7 +20315,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000588|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000588</terms:source>
         <oboInOwl:hasExactSynonym>Quanglin Large-Tail</oboInOwl:hasExactSynonym>
         <rdfs:label>Quanglin Large-Tail (Sheep)</rdfs:label>
     </owl:Class>
@@ -20293,7 +20387,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000607|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000607</terms:source>
         <oboInOwl:hasExactSynonym>Sakiz</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Çeșme</oboInOwl:hasExactSynonym>
         <rdfs:label>Sakiz (Sheep)</rdfs:label>
@@ -20368,7 +20464,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000631|PMID:754686</terms:source>
+        <terms:source>LBO:0000631</terms:source>
+        <terms:source>PMID:754686</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/sheep/strong-wool-merino-sheep.html</terms:source>
         <oboInOwl:hasExactSynonym>Strong Wool Merino</oboInOwl:hasExactSynonym>
         <rdfs:label>Strong Wool Merino (Sheep)</rdfs:label>
@@ -20404,7 +20501,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000676|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000676</terms:source>
         <oboInOwl:hasExactSynonym>Yiecheng</oboInOwl:hasExactSynonym>
         <rdfs:label>Yiecheng (Sheep)</rdfs:label>
     </owl:Class>
@@ -20439,7 +20538,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000677|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000677</terms:source>
         <oboInOwl:hasExactSynonym>Yoroo</oboInOwl:hasExactSynonym>
         <rdfs:label>Yoroo (Sheep)</rdfs:label>
     </owl:Class>
@@ -20474,7 +20575,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000681|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000681</terms:source>
         <oboInOwl:hasExactSynonym>Zaian</oboInOwl:hasExactSynonym>
         <rdfs:label>Zaian (Sheep)</rdfs:label>
     </owl:Class>
@@ -20509,7 +20612,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000684|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000684</terms:source>
         <oboInOwl:hasExactSynonym>Walcherse Melkschaap</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zeeland Milk</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zeeuwse Melkschaap</oboInOwl:hasExactSynonym>
@@ -20558,7 +20663,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000687|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000687</terms:source>
         <oboInOwl:hasExactSynonym>Zemmour</oboInOwl:hasExactSynonym>
         <rdfs:label>Zemmour (Sheep)</rdfs:label>
     </owl:Class>
@@ -20593,7 +20700,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000689|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000689</terms:source>
         <oboInOwl:hasExactSynonym>Zlatoucha</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zlatusha</oboInOwl:hasExactSynonym>
         <rdfs:label>Zlatusha (Sheep)</rdfs:label>
@@ -20635,7 +20744,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source>LBO:0000690|ISBN:9781789241532|ISBN:9781845934668</terms:source>
+        <terms:source>ISBN:9781789241532</terms:source>
+        <terms:source>ISBN:9781845934668</terms:source>
+        <terms:source>LBO:0000690</terms:source>
         <oboInOwl:hasExactSynonym>Berber à laine Zoulai</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Mouton de montagne à laine Zoulai</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Zoulay</oboInOwl:hasExactSynonym>
