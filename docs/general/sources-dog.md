@@ -1,4 +1,4 @@
-# References for Dog Breeds
+# Sources for Dog Breeds
 
 
 ## American Kennel Club (AKC)  
