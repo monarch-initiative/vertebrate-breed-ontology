@@ -8410,6 +8410,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0017483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/170</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000945</terms:source>
         <oboInOwl:hasExactSynonym>German Warmblood</oboInOwl:hasExactSynonym>
@@ -8615,6 +8616,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0017483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/170</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000806</terms:source>
         <oboInOwl:hasExactSynonym>Hungarian Warmblood</oboInOwl:hasExactSynonym>
@@ -10437,6 +10439,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0017483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/170</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000932</terms:source>
         <oboInOwl:hasExactSynonym>Swiss Warmblood</oboInOwl:hasExactSynonym>
