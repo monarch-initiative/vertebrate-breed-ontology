@@ -1,5 +1,37 @@
 vbo_id	term_label	LBO ID	source_for_xref1	LBO name	LBO ID	LBO synonyms	LBO ID	description_of_origin	source_for_description_of_origin
 ID		A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|	A oboInOwl:hasExactSynonym	>A oboInOwl:source	A oboInOwl:hasExactSynonym SPLIT=|	>A oboInOwl:source SPLIT=|	A http://purl.obolibrary.org/obo/vbo#origindescription	>A oboInOwl:source
+VBO:0017037	Polverara (Chicken)	LBO:0001089	https://orcid.org/0000-0002-9178-3965	Polverara	LBO:0001089	S'ciata|Schiatta	LBO:0001089	Ancient Italian dual-purpose crested chicken breed; has two recognized colors, black and white.	LBO:0001089
+VBO:0016886	Australian White (Sheep)	LBO:0001107	https://orcid.org/0000-0002-9178-3965	Australian White	LBO:0001107			Australian meat sheep breed derived from selective breeding of White Dorper, Van Rooy, Poll Dorset, and Texel.	LBO:0001107
+VBO:0000216	Girolando (Cattle)	LBO:0001094	https://orcid.org/0000-0002-5002-8648	Girolando	LBO:0001094			Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)	LBO:0001094
+VBO:0017355	Romane (Sheep)	LBO:0001090	https://orcid.org/0000-0002-9178-3965	Romane	LBO:0001090			Breed resulting from successive crosses between 1/2 Romanov and 1/2 Berrichon du Cher animals (formerly INRA 401).	LBO:0001090
+VBO:0017460	Suhuai (Pig)	LBO:0001109	https://orcid.org/0000-0002-9178-3965	Suhuai	LBO:0001109			Chinese breed comprised of 25% Chinese Huai and 75% Large White	LBO:0001109
+VBO:0017038	Qingyuan Partridge (Chicken)	LBO:0001114	https://orcid.org/0000-0002-9178-3965	Qingyuan Partridge	LBO:0001114			Chinese indigenous breed from Qingyuan County, Guangdong Province.	LBO:0001114
+VBO:0017239	Saba (Pig)	LBO:0001113	https://orcid.org/0000-0002-9178-3965	Saba	LBO:0001113			Chinese indigenous breed known for high prolificacy, superior meat quality, and adaptation to harsh environments.	LBO:0001113
+VBO:0017416	Vrindavani (Cattle)	LBO:0001099	https://orcid.org/0000-0002-9178-3965	Vrindavani	LBO:0001099			Composite Indian breed with 50-75% Bos taurus ancestry (Holstein-Friesian, Brown Swiss, Jersey) and 25-50% Bos indicus (Hariana)	LBO:0001099
+VBO:0000740	Brown Shorthair Goat (Goat)	LBO:0001124	https://orcid.org/0000-0002-9178-3965	Brown Shorthair	LBO:0001124			Czech breed originated from a native breed improved by crossing with German Brown bucks.	LBO:0001124
+VBO:0016915	Australian Red (Cattle)	LBO:0001093	https://orcid.org/0000-0002-9178-3965	Australian Red	LBO:0001093	Aussie Red	LBO:0001093	Dairy breed combining an extensive infusion of Scandinavian Red genetics with other Australian Red breeds such as Ayrshire, Dairy or Milking Shorthorn, Illawarra, or Red and White Holstein.	LBO:0001093
+VBO:0016951	German Black Pied (Cattle)	LBO:0001079	https://orcid.org/0000-0002-9178-3965	German Black Pied	LBO:0001079	Deutsches Schwarzbuntes Niederungsrind	LBO:0001079	Dairy breed that originated in the North Sea coast regions of northern Germany and the Netherlands.	LBO:0001079
+VBO:0017080	Sirohi (Goat)	LBO:0001120	https://orcid.org/0000-0002-9178-3965	Sirohi	LBO:0001120			Dual-purpose (milk and meat) breed indigenous to India.	LBO:0001120
+VBO:0017044	Assam Hill (Goat)	LBO:0001123	https://orcid.org/0000-0002-9178-3965	Assam Hill	LBO:0001123			Dual-purpose, medium-sized goat breed from India.	LBO:0001123
+VBO:0017049	Central Highland (Goat)	LBO:0001118	https://orcid.org/0000-0002-9178-3965	Central Highland	LBO:0001118			Ethiopian goat breed related to Western Highland and Keffa.	LBO:0001118
+VBO:0017035	Ogye (Chicken)	LBO:0001121	https://orcid.org/0000-0002-9178-3965	Ogye	LBO:0001121			Extremely rare, dual-purpose breed that originated in South Korea.	LBO:0001121
+VBO:0017467	Harnali (Sheep)	LBO:0001108	https://orcid.org/0000-0002-9178-3965	Harnali	LBO:0001108			Fast-growing meat and wool breed developed in India by crossing Nali, Merino and Corriedale with inheritance of 37.5% Nali and 62.5% exotic inheritance.	LBO:0001108
+VBO:0001340	Blanc Du Massif Central (Sheep)	LBO:0001095	https://orcid.org/0000-0002-9178-3965	Blanche du Massif Central	LBO:0001095			French sheep breed originating from the southern part of the Massif Central. Known for its hardiness and adaptibility to harsh conditions.	LBO:0001095
+VBO:0000257	Kazakh Whiteheaded (Cattle)	LBO:0001078	https://orcid.org/0000-0002-5002-8648	Kazakh Whiteheaded	LBO:0001078			Hardy beef breed from Russia and Kazakhstan.	LBO:0001078
+VBO:0001669	Velay Black (Sheep)	LBO:0001096	https://orcid.org/0000-0002-5002-8648	Noire du Velay	LBO:0001096	Black Velay	LBO:0001096	Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.	LBO:0001096
+VBO:0017417	Zebu (Cattle)	LBO:0001097	https://orcid.org/0000-0002-9178-3965	Zebu	LBO:0001097			Heat tolerant, hardy breed used for milk, meat and draft; usually red or gray in color with horns, loose skin, large ears, and a hump above their shoulders. NOTE: "Zebu" can also be used as a general term for breeds such as Brahman, Gir, Guzera, and Nelore.	LBO:0001097
+VBO:0016948	Frieswal (Cattle)	LBO:0001104	https://orcid.org/0000-0002-9178-3965	Frieswal	LBO:0001104			Holstein x Sahiwal crossbred	LBO:0001104
+VBO:0017077	Raini Cashmere (Goat)	LBO:0001117	https://orcid.org/0000-0002-9178-3965	Raini Cashmere	LBO:0001117	Raeini Cashmere	LBO:0001117	Indigenous goat breed from Iran that produces high-quality cashmere.	LBO:0001117
+VBO:0000790	Kurdi (Goat)	LBO:0001119	https://orcid.org/0000-0002-9178-3965	Markhoz	LBO:0001119			Indigenous Iranian breed raised for meat, milk, and fiber (mohair).	LBO:0001119
+VBO:0017424	Adani (Goat)	LBO:0001122	https://orcid.org/0000-0002-9178-3965	Adani	LBO:0001122			Iranian dual-purpose native breed, resilient to harsh environments.	LBO:0001122
+VBO:0001304	Assaf (Sheep)	LBO:0001098	https://orcid.org/0000-0002-5002-8648	Assaf	LBO:0001098			Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool	LBO:0001098
+VBO:0017034	Nagoya (Chicken)	LBO:0001088	https://orcid.org/0000-0002-9178-3965	Nagoya	LBO:0001088			Japanese dual-purpose breed; excellent layers of light brown eggs	LBO:0001088
+VBO:0017336	Muzaffarnagari (Sheep)	LBO:0001085	https://orcid.org/0000-0002-9178-3965	Muzaffarnagari	LBO:0001085			Largest and heaviest sheep breed in India; well-adapted to heat and humidity.	LBO:0001085
+VBO:0000361	Romanian Brown (Cattle)	LBO:0001116	https://orcid.org/0000-0002-5002-8648	Romanian Brown	LBO:0001116	Bruna de Maramures	LBO:0001116	Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.	LBO:0001116
+VBO:0017173	Scandinavian Coldblood Trotter (Horse)	LBO:0001076	https://orcid.org/0000-0002-9178-3965	Scandinavian Coldblood Trotter	LBO:0001076			May belong to ether of two closely related and interconnected breeds: Norsk Kalkblodstraver (Norwegian Coldblood Trotter) or Svensk Kallblodstravare (Swedish Coldblood Trotter)	LBO:0001076
+VBO:0017332	Mecheri (Sheep)	LBO:0001115	https://orcid.org/0000-0002-9178-3965	Mecheri	LBO:0001115			Medium-sized, light brown sheep breed native to India; body is covered with very short hair which is not shorn; skin highly prized for leather.	LBO:0001115
+VBO:0017328	Malpura (Sheep)	LBO:0001086	https://orcid.org/0000-0002-9178-3965	Malpura	LBO:0001086			Native Indian breed with good wool and milk production.	LBO:0001086
+VBO:0001320	Barki (Sheep)	LBO:0001087	https://orcid.org/0000-0002-5002-8648	Barki	LBO:0001087			One of the main sheep breeds in Egypt, well-adapted to the desert environment.	LBO:0001087
 VBO:0000071	Egyptian (Buffalo)	LBO:0001050	https://orcid.org/0000-0002-5002-8648	Egyptian	LBO:0001050				
 VBO:0000073	Jafarabadi (Buffalo)	LBO:0001045	https://orcid.org/0000-0002-5002-8648	Jafarabadi	LBO:0001045				
 VBO:0000074	Mediterranean (Buffalo)	LBO:0001043	https://orcid.org/0000-0002-5002-8648	Mediterranean	LBO:0001043				
@@ -58,7 +90,6 @@ VBO:0000209	Gascon (Cattle)	LBO:0000108	https://orcid.org/0000-0002-5002-8648	Ga
 VBO:0000211	Gelbrah (Cattle)	LBO:0000109	https://orcid.org/0000-0002-5002-8648	Gelbray	LBO:0000109				
 VBO:0000212	Gelbvieh (Cattle)	LBO:0000110	https://orcid.org/0000-0002-5002-8648	Gelbvieh	LBO:0000110				
 VBO:0000215	Gir (Cattle)	LBO:0000113	https://orcid.org/0000-0002-5002-8648	Gir	LBO:0000113				
-VBO:0000216	Girolando (Cattle)	LBO:0001094	https://orcid.org/0000-0002-5002-8648	Girolando	LBO:0001094			Brazilian dairy breed created by crossing Gir and Holstein (3/8 Gir, 5/8 Holstein)	LBO:0001094
 VBO:0000217	Glan (Cattle)	LBO:0000114	https://orcid.org/0000-0002-5002-8648	Glan	LBO:0000114				
 VBO:0000219	Gloucester (Cattle)	LBO:0000115	https://orcid.org/0000-0002-5002-8648	Gloucester	LBO:0000115				
 VBO:0000221	Goudali (Cattle)	LBO:0000120	https://orcid.org/0000-0002-5002-8648	Gudali	LBO:0000120				
@@ -84,7 +115,6 @@ VBO:0000250	Jersey (Cattle)	LBO:0000146	https://orcid.org/0000-0002-5002-8648	Je
 VBO:0000254	Kangayam (Cattle)	LBO:0000147	https://orcid.org/0000-0002-5002-8648	Kangayam	LBO:0000147				
 VBO:0000255	Katerini (Cattle)	LBO:0000118	https://orcid.org/0000-0002-5002-8648	Greek Steppe	LBO:0000118				
 VBO:0000256	Kazakh (Cattle)	LBO:0000151	https://orcid.org/0000-0002-5002-8648	Kazakh	LBO:0000151				
-VBO:0000257	Kazakh Whiteheaded (Cattle)	LBO:0001078	https://orcid.org/0000-0002-5002-8648	Kazakh Whiteheaded	LBO:0001078			Hardy beef breed from Russia and Kazakhstan.	LBO:0001078
 VBO:0000258	Kerry (Cattle)	LBO:0000153	https://orcid.org/0000-0002-5002-8648	Kerry	LBO:0000153				
 VBO:0000259	Khillari (Cattle)	LBO:0000155	https://orcid.org/0000-0002-5002-8648	Khillari	LBO:0000155				
 VBO:0000260	Kholmogory (Cattle)	LBO:0000156	https://orcid.org/0000-0002-5002-8648	Kholmogory	LBO:0000156				
@@ -132,7 +162,6 @@ VBO:0000356	Red Sindhi (Cattle)	LBO:0000220	https://orcid.org/0000-0002-5002-864
 VBO:0000357	Red Steppe (Cattle)	LBO:0000221	https://orcid.org/0000-0002-5002-8648	Red Steppe	LBO:0000221				
 VBO:0000358	Retinta (Cattle)	LBO:0000223	https://orcid.org/0000-0002-5002-8648	Retinta	LBO:0000223				
 VBO:0000360	Romagnola (Cattle)	LBO:0000225	https://orcid.org/0000-0002-5002-8648	Romagnola	LBO:0000225				
-VBO:0000361	Romanian Brown (Cattle)	LBO:0001116	https://orcid.org/0000-0002-5002-8648	Romanian Brown	LBO:0001116	Bruna de Maramures	LBO:0001116	Local Romanian milk breed, the result of crossbreeding between Braunvieh and local Mocanita and Grey cattle.	LBO:0001116
 VBO:0000365	Sahiwal (Cattle)	LBO:0000229	https://orcid.org/0000-0002-5002-8648	Sahiwal	LBO:0000229				
 VBO:0000366	Salers (Cattle)	LBO:0000230	https://orcid.org/0000-0002-5002-8648	Salers	LBO:0000230				
 VBO:0000368	Santa Gertrudis (Cattle)	LBO:0000234	https://orcid.org/0000-0002-5002-8648	Santa Gertrudis	LBO:0000234				
@@ -215,7 +244,6 @@ VBO:0000777	Irish Goat (Goat)	LBO:0000994	https://orcid.org/0000-0002-5002-8648	
 VBO:0000782	Kalahari Red (Goat)	LBO:0001092	https://orcid.org/0000-0002-5002-8648	Kalahari Red	LBO:0001092				
 VBO:0000783	Kamori (Goat)	LBO:0000997	https://orcid.org/0000-0002-5002-8648	Kamori	LBO:0000997				
 VBO:0000787	Kiko (Goat)	LBO:0000998	https://orcid.org/0000-0002-5002-8648	Kiko	LBO:0000998				
-VBO:0000790	Kurdi (Goat)	LBO:0001119	https://orcid.org/0000-0002-9178-3965	Markhoz	LBO:0001119			Indigenous Iranian breed raised for meat, milk, and fiber (mohair).	LBO:0001119
 VBO:0000792	Lamancha (Goat)	LBO:0001000	https://orcid.org/0000-0002-5002-8648	LaMancha	LBO:0001000				
 VBO:0000800	Massif Central (Goat)	LBO:0001057	https://orcid.org/0000-0002-5002-8648	Massif Central	LBO:0001057				
 VBO:0000807	Murcia-Granada (Goat)	LBO:0001003	https://orcid.org/0000-0002-5002-8648	Murcia-Granada	LBO:0001003				
@@ -360,11 +388,9 @@ VBO:0001210	Welsh (Pig)	LBO:0000407	https://orcid.org/0000-0002-5002-8648	Welsh	
 VBO:0001212	Yorkshire (Pig)	LBO:0000338	https://orcid.org/0000-0002-5002-8648	Yorkshire	LBO:0000338				
 VBO:0001298	Arabi (Sheep)	LBO:0000422	https://orcid.org/0000-0002-5002-8648	Arabi	LBO:0000422				
 VBO:0001303	Askanian (Sheep)	LBO:0000427	https://orcid.org/0000-0002-5002-8648	Askanian	LBO:0000427				
-VBO:0001304	Assaf (Sheep)	LBO:0001098	https://orcid.org/0000-0002-5002-8648	Assaf	LBO:0001098			Israeli sheep breed that is a product of crossbreeding Awassi and East Friesian; dual purpose milk and meat breed with white wool	LBO:0001098
 VBO:0001308	Awassi (Sheep)	LBO:0000428	https://orcid.org/0000-0002-5002-8648	Awassi	LBO:0000428				
 VBO:0001313	Baluchi (Sheep)	LBO:0000430	https://orcid.org/0000-0002-5002-8648	Baluchi	LBO:0000430				
 VBO:0001315	Barbado (Sheep)	LBO:0000432	https://orcid.org/0000-0002-5002-8648	Barbado	LBO:0000432				
-VBO:0001320	Barki (Sheep)	LBO:0001087	https://orcid.org/0000-0002-5002-8648	Barki	LBO:0001087			One of the main sheep breeds in Egypt, well-adapted to the desert environment.	LBO:0001087
 VBO:0001322	Belclare (Sheep)	LBO:0000951	https://orcid.org/0000-0002-5002-8648	Belclare	LBO:0000951				
 VBO:0001329	Bentheimer Landschaf (Sheep)	LBO:0000436	https://orcid.org/0000-0002-5002-8648	Bentheimer Landschaf	LBO:0000436				
 VBO:0001331	Bergamasca (Sheep)	LBO:0000437	https://orcid.org/0000-0002-5002-8648	Bergamasca	LBO:0000437				
@@ -466,7 +492,6 @@ VBO:0001656	Tuj (Sheep)	LBO:0000646	https://orcid.org/0000-0002-5002-8648	Tuj	LB
 VBO:0001660	Uda (Sheep)	LBO:0000649	https://orcid.org/0000-0002-5002-8648	Uda	LBO:0000649				
 VBO:0001665	Valais Blacknose (Sheep)	LBO:0000652	https://orcid.org/0000-0002-5002-8648	Valais Blacknose	LBO:0000652				
 VBO:0001667	Van Rooy (Sheep)	LBO:0000653	https://orcid.org/0000-0002-5002-8648	Van Rooy	LBO:0000653				
-VBO:0001669	Velay Black (Sheep)	LBO:0001096	https://orcid.org/0000-0002-5002-8648	Noire du Velay	LBO:0001096	Black Velay	LBO:0001096	Hardy French breed characterized by brownish-black wool, prolificacy, and good milk production.	LBO:0001096
 VBO:0001671	Vendeen (Sheep)	LBO:0000654	https://orcid.org/0000-0002-5002-8648	Vendeen	LBO:0000654				
 VBO:0001679	Welsh Hill Speckled Face (Sheep)	LBO:0000659	https://orcid.org/0000-0002-5002-8648	Welsh Hill Speckled Face	LBO:0000659				
 VBO:0001681	Wensleydale (Sheep)	LBO:0000662	https://orcid.org/0000-0002-5002-8648	Wensleydale	LBO:0000662				
@@ -490,7 +515,6 @@ VBO:0000519	Derbyshire Redcap (Chicken)	LBO:0000326	https://orcid.org/0000-0002-
 VBO:0000619	Silkie (Chicken)	LBO:0000328	https://orcid.org/0000-0002-5002-8648	Silkie Bantam	LBO:0000328				
 VBO:0000626	Spanish (Chicken)	LBO:0000335	https://orcid.org/0000-0002-9178-3965	White-Faced Black Spanish	LBO:0000335				
 VBO:0000725	Australian feral (Goat)	LBO:0000962	https://orcid.org/0000-0002-9178-3965	Australian Goat	LBO:0000962				
-VBO:0000740	Brown Shorthair Goat (Goat)	LBO:0001124	https://orcid.org/0000-0002-9178-3965	Brown Shorthair	LBO:0001124			Czech breed originated from a native breed improved by crossing with German Brown bucks.	LBO:0001124
 VBO:0000743	Canary Islands (Goat)	LBO:0000972	https://orcid.org/0000-0002-9178-3965	Canary Island	LBO:0000972				
 VBO:0000741	Bunte Deutsche Edelziege (Goat)	LBO:0000981	https://orcid.org/0000-0002-9178-3965	Erzgebirg	LBO:0000981				
 VBO:0000901	Anglo-Arab (Horse)	LBO:0000935	https://orcid.org/0000-0002-9178-3965	Anglo-Arabian	LBO:0000935				
@@ -510,9 +534,7 @@ VBO:0001150	Iberian Swine (Pig)	LBO:0000369	https://orcid.org/0000-0002-9178-396
 VBO:0001157	Korean native (Pig)	LBO:0000710	https://orcid.org/0000-0002-9178-3965	Korean native pig	LBO:0000710				
 VBO:0001402	East African Blackheaded (Sheep)	LBO:0000413	https://orcid.org/0000-0002-9178-3965	African Blackhead	LBO:0000413				
 VBO:0001543	Ouled Jellal (Sheep)	LBO:0000417	https://orcid.org/0000-0002-9178-3965	Algerian Arab	LBO:0000417				
-VBO:0016886	Australian White (Sheep)	LBO:0001107	https://orcid.org/0000-0002-9178-3965	Australian White	LBO:0001107			Australian meat sheep breed derived from selective breeding of White Dorper, Van Rooy, Poll Dorset, and Texel.	LBO:0001107
 VBO:0001335	Black Welsh Mountain (Sheep)	LBO:0000441	https://orcid.org/0000-0002-9178-3965	Black Welsh Mountain Sheep	LBO:0000441				
-VBO:0001340	Blanc Du Massif Central (Sheep)	LBO:0001095	https://orcid.org/0000-0002-9178-3965	Blanche du Massif Central	LBO:0001095			French sheep breed originating from the southern part of the Massif Central. Known for its hardiness and adaptibility to harsh conditions.	LBO:0001095
 VBO:0001427	Greyface Dartmoor (Sheep)	LBO:0000480	https://orcid.org/0000-0002-9178-3965	Dartmoor	LBO:0000480				
 VBO:0001416	Friesian Milk (Sheep)	LBO:0000497	https://orcid.org/0000-0002-9178-3965	Friesian Milk Sheep	LBO:0000497				
 VBO:0001426	Graue Gehörnte Heidschnucke (Sheep)	LBO:0000508	https://orcid.org/0000-0002-9178-3965	Graue Gehoernte Heidschnucke	LBO:0000508				
@@ -544,7 +566,6 @@ VBO:0016911	Andalusian Black (Cattle)	LBO:0000014	https://orcid.org/0000-0002-91
 VBO:0016912	Ankole-Watusi (Cattle)	LBO:0000019	https://orcid.org/0000-0002-9178-3965	Ankole-Watusi	LBO:0000019				
 VBO:0016913	Asturian Mountain (Cattle)	LBO:0000021	https://orcid.org/0000-0002-9178-3965	Asturian Mountain	LBO:0000021				
 VBO:0016914	Australian Braford (Cattle)	LBO:0000025	https://orcid.org/0000-0002-9178-3965	Australian Braford	LBO:0000025				
-VBO:0016915	Australian Red (Cattle)	LBO:0001093	https://orcid.org/0000-0002-9178-3965	Australian Red	LBO:0001093	Aussie Red	LBO:0001093	Dairy breed combining an extensive infusion of Scandinavian Red genetics with other Australian Red breeds such as Ayrshire, Dairy or Milking Shorthorn, Illawarra, or Red and White Holstein.	LBO:0001093
 VBO:0016916	Bachaur (Cattle)	LBO:0000031	https://orcid.org/0000-0002-9178-3965	Bachaur	LBO:0000031				
 VBO:0016917	Baladi (Cattle)	LBO:0000032	https://orcid.org/0000-0002-9178-3965	Baladi	LBO:0000032				
 VBO:0016918	Baltana Romaneasca (Cattle)	LBO:0000033	https://orcid.org/0000-0002-9178-3965	Baltana Romaneasca	LBO:0000033	Romanian Spotted|Baltata Romaneasca	LBO:0000033		
@@ -577,10 +598,8 @@ VBO:0016944	Enderby Island (Cattle)	LBO:0000096	https://orcid.org/0000-0002-9178
 VBO:0016945	English Longhorn (Cattle)	LBO:0000097	https://orcid.org/0000-0002-9178-3965	English Longhorn	LBO:0000097				
 VBO:0016946	Evolène (Cattle)	LBO:0000099	https://orcid.org/0000-0002-9178-3965	Evolène	LBO:0000099	Evolene	LBO:0000099		
 VBO:0016947	Florida Cracker/Pineywoods (Cattle)	LBO:0000103	https://orcid.org/0000-0002-9178-3965	Florida Cracker/Pineywoods	LBO:0000103				
-VBO:0016948	Frieswal (Cattle)	LBO:0001104	https://orcid.org/0000-0002-9178-3965	Frieswal	LBO:0001104			Holstein x Sahiwal crossbred	LBO:0001104
 VBO:0016949	German Angus (Cattle)	LBO:0000111	https://orcid.org/0000-0002-9178-3965	German Angus	LBO:0000111	German Angus Moiled	LBO:0000111		
 VBO:0016950	Gaolao (Cattle)	LBO:0000107	https://orcid.org/0000-0002-9178-3965	Gaolao	LBO:0000107				
-VBO:0016951	German Black Pied (Cattle)	LBO:0001079	https://orcid.org/0000-0002-9178-3965	German Black Pied	LBO:0001079	Deutsches Schwarzbuntes Niederungsrind	LBO:0001079	Dairy breed that originated in the North Sea coast regions of northern Germany and the Netherlands.	LBO:0001079
 VBO:0016952	Gobra (Cattle)	LBO:0000116	https://orcid.org/0000-0002-9178-3965	Gobra	LBO:0000116				
 VBO:0016953	Hallikar (Cattle)	LBO:0000123	https://orcid.org/0000-0002-9178-3965	Hallikar	LBO:0000123				
 VBO:0016954	Harton (Cattle)	LBO:0000125	https://orcid.org/0000-0002-9178-3965	Harton	LBO:0000125				
@@ -663,22 +682,16 @@ VBO:0017030	La Fleche (Chicken)	LBO:0000311	https://orcid.org/0000-0002-9178-396
 VBO:0017031	Leghorn (Chicken)	LBO:0000315	https://orcid.org/0000-0002-9178-3965	Leghorn	LBO:0000315				
 VBO:0017032	Lingkun (Chicken)	LBO:0001111	https://orcid.org/0000-0002-9178-3965	Lingkun	LBO:0001111	LingKun	LBO:0001111		
 VBO:0017033	Matrouh (Chicken)	LBO:0000317	https://orcid.org/0000-0002-9178-3965	Matrouh	LBO:0000317				
-VBO:0017034	Nagoya (Chicken)	LBO:0001088	https://orcid.org/0000-0002-9178-3965	Nagoya	LBO:0001088			Japanese dual-purpose breed; excellent layers of light brown eggs	LBO:0001088
-VBO:0017035	Ogye (Chicken)	LBO:0001121	https://orcid.org/0000-0002-9178-3965	Ogye	LBO:0001121			Extremely rare, dual-purpose breed that originated in South Korea.	LBO:0001121
 VBO:0017036	Penedesenca (Chicken)	LBO:0001071	https://orcid.org/0000-0002-9178-3965	Penedesenca	LBO:0001071	Penedesenca Negra	LBO:0001071		
-VBO:0017037	Polverara (Chicken)	LBO:0001089	https://orcid.org/0000-0002-9178-3965	Polverara	LBO:0001089	S'ciata|Schiatta	LBO:0001089	Ancient Italian dual-purpose crested chicken breed; has two recognized colors, black and white.	LBO:0001089
-VBO:0017038	Qingyuan Partridge (Chicken)	LBO:0001114	https://orcid.org/0000-0002-9178-3965	Qingyuan Partridge	LBO:0001114			Chinese indigenous breed from Qingyuan County, Guangdong Province.	LBO:0001114
 VBO:0017039	Red Jungle Fowl (Chicken)	LBO:0000701	https://orcid.org/0000-0002-9178-3965	Red Jungle Fowl	LBO:0000701				
 VBO:0017040	Silver Montazah (Chicken)	LBO:0000329	https://orcid.org/0000-0002-9178-3965	Silver Montazah	LBO:0000329				
 VBO:0017041	Styrian (Chicken)	LBO:0000330	https://orcid.org/0000-0002-9178-3965	Styrian	LBO:0000330				
 VBO:0017042	Swiss Hen (Chicken)	LBO:0000334	https://orcid.org/0000-0002-9178-3965	Swiss Hen	LBO:0000334				
 VBO:0017043	Arapawa Island (Goat)	LBO:0000961	https://orcid.org/0000-0002-9178-3965	Arapawa Island	LBO:0000961				
-VBO:0017044	Assam Hill (Goat)	LBO:0001123	https://orcid.org/0000-0002-9178-3965	Assam Hill	LBO:0001123			Dual-purpose, medium-sized goat breed from India.	LBO:0001123
 VBO:0017045	Benadir (Goat)	LBO:0000967	https://orcid.org/0000-0002-9178-3965	Benadir	LBO:0000967				
 VBO:0017046	Bhuj (Goat)	LBO:0000968	https://orcid.org/0000-0002-9178-3965	Bhuj	LBO:0000968				
 VBO:0017047	Booted Goat (Goat)	LBO:0000970	https://orcid.org/0000-0002-9178-3965	Booted Goat	LBO:0000970				
 VBO:0017048	Canindé (Goat)	LBO:0000973	https://orcid.org/0000-0002-9178-3965	Canindé	LBO:0000973				
-VBO:0017049	Central Highland (Goat)	LBO:0001118	https://orcid.org/0000-0002-9178-3965	Central Highland	LBO:0001118			Ethiopian goat breed related to Western Highland and Keffa.	LBO:0001118
 VBO:0017050	Chapar (Goat)	LBO:0000974	https://orcid.org/0000-0002-9178-3965	Chapar	LBO:0000974				
 VBO:0017051	Chèvre des Fossés (Goat)	LBO:0001054	https://orcid.org/0000-0002-9178-3965	Chèvre des Fossés	LBO:0001054				
 VBO:0017052	Créole (Goat)	LBO:0001055	https://orcid.org/0000-0002-9178-3965	Créole	LBO:0001055				
@@ -706,10 +719,8 @@ VBO:0017073	Nachi (Goat)	LBO:0001005	https://orcid.org/0000-0002-9178-3965	Nachi
 VBO:0017074	Norwegian (Goat)	LBO:0001007	https://orcid.org/0000-0002-9178-3965	Norwegian	LBO:0001007				
 VBO:0017075	Provençale (Goat)	LBO:0001059	https://orcid.org/0000-0002-9178-3965	Provençale	LBO:0001059				
 VBO:0017076	Pygmy (Goat)	LBO:0001012	https://orcid.org/0000-0002-9178-3965	Pygmy	LBO:0001012				
-VBO:0017077	Raini Cashmere (Goat)	LBO:0001117	https://orcid.org/0000-0002-9178-3965	Raini Cashmere	LBO:0001117	Raeini Cashmere	LBO:0001117	Indigenous goat breed from Iran that produces high-quality cashmere.	LBO:0001117
 VBO:0017078	Repartida (Goat)	LBO:0001015	https://orcid.org/0000-0002-9178-3965	Repartida	LBO:0001015				
 VBO:0017079	Russian White (Goat)	LBO:0001016	https://orcid.org/0000-0002-9178-3965	Russian White	LBO:0001016				
-VBO:0017080	Sirohi (Goat)	LBO:0001120	https://orcid.org/0000-0002-9178-3965	Sirohi	LBO:0001120			Dual-purpose (milk and meat) breed indigenous to India.	LBO:0001120
 VBO:0017081	Swedish Landrace (Goat)	LBO:0001023	https://orcid.org/0000-0002-9178-3965	Swedish Landrace	LBO:0001023				
 VBO:0017082	Thuringian (Goat)	LBO:0001025	https://orcid.org/0000-0002-9178-3965	Thuringian	LBO:0001025				
 VBO:0017083	Uzbek Black (Goat)	LBO:0001024	https://orcid.org/0000-0002-9178-3965	Uzbek Black	LBO:0001024				
@@ -802,7 +813,6 @@ VBO:0017169	Russian Don (Horse)	LBO:0000882	https://orcid.org/0000-0002-9178-396
 VBO:0017170	Russian Heavy Draft (Horse)	LBO:0000883	https://orcid.org/0000-0002-9178-3965	Russian Heavy Draft	LBO:0000883				
 VBO:0017171	Saddlebred (Horse)	LBO:0000885	https://orcid.org/0000-0002-9178-3965	Saddlebred	LBO:0000885				
 VBO:0017172	Sanhe (Horse)	LBO:0000886	https://orcid.org/0000-0002-9178-3965	Sanhe	LBO:0000886				
-VBO:0017173	Scandinavian Coldblood Trotter (Horse)	LBO:0001076	https://orcid.org/0000-0002-9178-3965	Scandinavian Coldblood Trotter	LBO:0001076			May belong to ether of two closely related and interconnected breeds: Norsk Kalkblodstraver (Norwegian Coldblood Trotter) or Svensk Kallblodstravare (Swedish Coldblood Trotter)	LBO:0001076
 VBO:0017174	Schleswiger Heavy Draft (Horse)	LBO:0000887	https://orcid.org/0000-0002-9178-3965	Schleswiger Heavy Draft	LBO:0000887				
 VBO:0017175	Schwarzwälder Fuchs (Horse)	LBO:0000944	https://orcid.org/0000-0002-9178-3965	Schwarzwälder Fuchs	LBO:0000944				
 VBO:0017176	Shagya (Horse)	LBO:0000889	https://orcid.org/0000-0002-9178-3965	Shagya	LBO:0000889				
@@ -867,7 +877,6 @@ VBO:0017235	Oxford Sandy and Black (Pig)	LBO:0000393	https://orcid.org/0000-0002
 VBO:0017236	Philippine Native (Pig)	LBO:0000394	https://orcid.org/0000-0002-9178-3965	Philippine Native	LBO:0000394				
 VBO:0017237	Qingping (Pig)	LBO:0001110	https://orcid.org/0000-0002-9178-3965	Qingping	LBO:0001110				
 VBO:0017238	Red Wattle (Pig)	LBO:0000397	https://orcid.org/0000-0002-9178-3965	Red Wattle	LBO:0000397				
-VBO:0017239	Saba (Pig)	LBO:0001113	https://orcid.org/0000-0002-9178-3965	Saba	LBO:0001113			Chinese indigenous breed known for high prolificacy, superior meat quality, and adaptation to harsh environments.	LBO:0001113
 VBO:0017240	Sutai (Pig)	LBO:0000707	https://orcid.org/0000-0002-9178-3965	Sutai	LBO:0000707				
 VBO:0017241	Swabian-Hall (Pig)	LBO:0000400	https://orcid.org/0000-0002-9178-3965	Swabian-Hall	LBO:0000400	Schwäbisch-Hällisches Schwein|Swabian Hall Swine	LBO:0000400		
 VBO:0017242	Thuoc Nhieu (Pig)	LBO:0000403	https://orcid.org/0000-0002-9178-3965	Thuoc Nhieu	LBO:0000403				
@@ -956,15 +965,12 @@ VBO:0017324	Lincoln (Sheep)	LBO:0000542	https://orcid.org/0000-0002-9178-3965	Li
 VBO:0017325	Llanwenog (Sheep)	LBO:0000543	https://orcid.org/0000-0002-9178-3965	Llanwenog	LBO:0000543				
 VBO:0017326	Lohi (Sheep)	LBO:0000545	https://orcid.org/0000-0002-9178-3965	Lohi	LBO:0000545				
 VBO:0017327	Luzein (Sheep)	LBO:0000547	https://orcid.org/0000-0002-9178-3965	Luzein	LBO:0000547				
-VBO:0017328	Malpura (Sheep)	LBO:0001086	https://orcid.org/0000-0002-9178-3965	Malpura	LBO:0001086			Native Indian breed with good wool and milk production.	LBO:0001086
 VBO:0017329	Maltese (Sheep)	LBO:0000548	https://orcid.org/0000-0002-9178-3965	Maltese	LBO:0000548				
 VBO:0017330	Manech (Sheep)	LBO:0000550	https://orcid.org/0000-0002-9178-3965	Manech	LBO:0000550				
 VBO:0017331	Massese (Sheep)	LBO:0000553	https://orcid.org/0000-0002-9178-3965	Massese	LBO:0000553				
-VBO:0017332	Mecheri (Sheep)	LBO:0001115	https://orcid.org/0000-0002-9178-3965	Mecheri	LBO:0001115			Medium-sized, light brown sheep breed native to India; body is covered with very short hair which is not shorn; skin highly prized for leather.	LBO:0001115
 VBO:0017333	Mehraban (Sheep)	LBO:0000555	https://orcid.org/0000-0002-9178-3965	Mehraban	LBO:0000555				
 VBO:0017334	Merinizzata Italiana (Sheep)	LBO:0000556	https://orcid.org/0000-0002-9178-3965	Merinizzata Italiana	LBO:0000556				
 VBO:0017335	Moghani (Sheep)	LBO:0000558	https://orcid.org/0000-0002-9178-3965	Moghani	LBO:0000558				
-VBO:0017336	Muzaffarnagari (Sheep)	LBO:0001085	https://orcid.org/0000-0002-9178-3965	Muzaffarnagari	LBO:0001085			Largest and heaviest sheep breed in India; well-adapted to heat and humidity.	LBO:0001085
 VBO:0017337	Nellore (Sheep)	LBO:0000563	https://orcid.org/0000-0002-9178-3965	Nellore	LBO:0000563				
 VBO:0017338	Old Norwegian (Sheep)	LBO:0000568	https://orcid.org/0000-0002-9178-3965	Old Norwegian	LBO:0000568				
 VBO:0017339	Orkney (Sheep)	LBO:0000569	https://orcid.org/0000-0002-9178-3965	Orkney	LBO:0000569				
@@ -983,7 +989,6 @@ VBO:0017351	Rahmani (Sheep)	LBO:0001105	https://orcid.org/0000-0002-9178-3965	Ra
 VBO:0017352	Rasa Aragonesa (Sheep)	LBO:0000592	https://orcid.org/0000-0002-9178-3965	Rasa Aragonesa	LBO:0000592				
 VBO:0017353	Rhoenschaf (Sheep)	LBO:0000595	https://orcid.org/0000-0002-9178-3965	Rhoenschaf	LBO:0000595				
 VBO:0017354	Rideau Arcott (Sheep)	LBO:0000596	https://orcid.org/0000-0002-9178-3965	Rideau Arcott	LBO:0000596				
-VBO:0017355	Romane (Sheep)	LBO:0001090	https://orcid.org/0000-0002-9178-3965	Romane	LBO:0001090			Breed resulting from successive crosses between 1/2 Romanov and 1/2 Berrichon du Cher animals (formerly INRA 401).	LBO:0001090
 VBO:0017356	Rouge de Roussillon (Sheep)	LBO:0000600	https://orcid.org/0000-0002-9178-3965	Rouge de Roussillon	LBO:0000600				
 VBO:0017357	Rya (Sheep)	LBO:0000603	https://orcid.org/0000-0002-9178-3965	Rya	LBO:0000603				
 VBO:0017358	Santa Inês (Sheep)	LBO:0000609	https://orcid.org/0000-0002-9178-3965	Santa Inês	LBO:0000609				
@@ -1044,15 +1049,12 @@ VBO:0017412	RX3 (Cattle)	LBO:0000228	https://orcid.org/0000-0002-9178-3965	RX3	L
 VBO:0017413	Salorn (Cattle)	LBO:0000231	https://orcid.org/0000-0002-9178-3965	Salorn	LBO:0000231				
 VBO:0017414	Texon (Cattle)	LBO:0000254	https://orcid.org/0000-0002-9178-3965	Texon	LBO:0000254				
 VBO:0017415	Tropical Composite (Cattle)	LBO:0000949	https://orcid.org/0000-0002-9178-3965	Tropical Composite	LBO:0000949				
-VBO:0017416	Vrindavani (Cattle)	LBO:0001099	https://orcid.org/0000-0002-9178-3965	Vrindavani	LBO:0001099			Composite Indian breed with 50-75% Bos taurus ancestry (Holstein-Friesian, Brown Swiss, Jersey) and 25-50% Bos indicus (Hariana)	LBO:0001099
-VBO:0017417	Zebu (Cattle)	LBO:0001097	https://orcid.org/0000-0002-9178-3965	Zebu	LBO:0001097			Heat tolerant, hardy breed used for milk, meat and draft; usually red or gray in color with horns, loose skin, large ears, and a hump above their shoulders. NOTE: "Zebu" can also be used as a general term for breeds such as Brahman, Gir, Guzera, and Nelore.	LBO:0001097
 VBO:0017418	Baheij (Chicken)	LBO:0000281	https://orcid.org/0000-0002-9178-3965	Baheij	LBO:0000281				
 VBO:0017419	Chicken crossbreed (Chicken)	LBO:0001037	https://orcid.org/0000-0002-9178-3965	Chicken crossbreed	LBO:0001037				
 VBO:0017420	Gray Jungle Fowl (Chicken)	LBO:0000310	https://orcid.org/0000-0002-9178-3965	Gray Jungle Fowl	LBO:0000310				
 VBO:0017421	Green Jungle Fowl (Chicken)	LBO:0000309	https://orcid.org/0000-0002-9178-3965	Green Jungle Fowl	LBO:0000309	Forked-Tail Jungle Fowl	LBO:0000309		
 VBO:0017422	Jing Hong (Chicken)	LBO:0001083	https://orcid.org/0000-0002-9178-3965	Jing Hong	LBO:0001083				
 VBO:0017423	Lamona (Chicken)	LBO:0000313	https://orcid.org/0000-0002-9178-3965	Lamona	LBO:0000313				
-VBO:0017424	Adani (Goat)	LBO:0001122	https://orcid.org/0000-0002-9178-3965	Adani	LBO:0001122			Iranian dual-purpose native breed, resilient to harsh environments.	LBO:0001122
 VBO:0017425	American Cashmere (Goat)	LBO:0000957	https://orcid.org/0000-0002-9178-3965	American Cashmere	LBO:0000957				
 VBO:0017426	Goat crossbreed (Goat)	LBO:0001038	https://orcid.org/0000-0002-9178-3965	Goat crossbreed	LBO:0001038				
 VBO:0017427	Hailun (Goat)	LBO:0000985	https://orcid.org/0000-0002-9178-3965	Hailun	LBO:0000985				
@@ -1088,14 +1090,12 @@ VBO:0017456	Dermantsi Pied (Pig)	LBO:0000357	https://orcid.org/0000-0002-9178-39
 VBO:0017457	Laiwu (Pig)	LBO:0000950	https://orcid.org/0000-0002-9178-3965	Laiwu	LBO:0000950	Laiwu black pig	LBO:0000950		
 VBO:0017458	Pig crossbreed (Pig)	LBO:0001040	https://orcid.org/0000-0002-9178-3965	Pig crossbreed	LBO:0001040				
 VBO:0017459	Songliao Black (Pig)	LBO:0000706	https://orcid.org/0000-0002-9178-3965	Songliao Black	LBO:0000706				
-VBO:0017460	Suhuai (Pig)	LBO:0001109	https://orcid.org/0000-0002-9178-3965	Suhuai	LBO:0001109			Chinese breed comprised of 25% Chinese Huai and 75% Large White	LBO:0001109
 VBO:0017461	Sujiang (Pig)	LBO:0001082	https://orcid.org/0000-0002-9178-3965	Sujiang	LBO:0001082				
 VBO:0017462	Sushan (Pig)	LBO:0001081	https://orcid.org/0000-0002-9178-3965	Sushan	LBO:0001081				
 VBO:0017463	White Composite (Pig)	LBO:0001077	https://orcid.org/0000-0002-9178-3965	White Composite	LBO:0001077				
 VBO:0017464	Wild Boar (Pig)	LBO:0000695	https://orcid.org/0000-0002-9178-3965	Wild Boar	LBO:0000695				
 VBO:0017465	California Variegated Mutant (Sheep)	LBO:0000456	https://orcid.org/0000-0002-9178-3965	California Variegated Mutant	LBO:0000456				
 VBO:0017466	Hair sheep breed (Sheep)	LBO:0001068	https://orcid.org/0000-0002-9178-3965	Hair sheep breed	LBO:0001068				
-VBO:0017467	Harnali (Sheep)	LBO:0001108	https://orcid.org/0000-0002-9178-3965	Harnali	LBO:0001108			Fast-growing meat and wool breed developed in India by crossing Nali, Merino and Corriedale with inheritance of 37.5% Nali and 62.5% exotic inheritance.	LBO:0001108
 VBO:0017468	Kivircik (Sheep)	LBO:0000535	https://orcid.org/0000-0002-9178-3965	Kivircik	LBO:0000535				
 VBO:0017469	Medium-Wool Merino (Sheep)	LBO:0000554	https://orcid.org/0000-0002-9178-3965	Medium-Wool Merino	LBO:0000554				
 VBO:0017470	Pagliarola (Sheep)	LBO:0000573	https://orcid.org/0000-0002-9178-3965	Pagliarola	LBO:0000573				
