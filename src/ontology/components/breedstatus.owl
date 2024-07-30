@@ -58,13 +58,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300000"/>
-        <obo:IAO_0000115>Breed status refering to the level of recognition of a group of animal as a breed by an international breed organization.</obo:IAO_0000115>
+        <obo:IAO_0000115>Breed status refering to the level of recognition of a group of animal as a breed by an international breed registration body.</obo:IAO_0000115>
         <rdfs:label>recognition status</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Breed status refering to the level of recognition of a group of animal as a breed by an international breed organization.</owl:annotatedTarget>
+        <owl:annotatedTarget>Breed status refering to the level of recognition of a group of animal as a breed by an international breed registration body.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -75,13 +75,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
-        <obo:IAO_0000115>Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. </obo:IAO_0000115>
+        <obo:IAO_0000115>Breed recognition status referring to a breed recognized by an international breed registration body. This status also refers to breeds that are eligible to compete in championship classes. </obo:IAO_0000115>
         <rdfs:label>fully recognized breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Breed recognition status referring to a breed recognized by an international organization. This status also refers to breeds that are eligible to compete in championship classes. </owl:annotatedTarget>
+        <owl:annotatedTarget>Breed recognition status referring to a breed recognized by an international breed registration body. This status also refers to breeds that are eligible to compete in championship classes. </owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -92,13 +92,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
-        <obo:IAO_0000115>Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international organization. This status is given to breeds which are preliminarily or provisionally recognized.</obo:IAO_0000115>
+        <obo:IAO_0000115>Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international breed registration body. This status is given to breeds which are preliminarily or provisionally recognized.</obo:IAO_0000115>
         <rdfs:label>partially recognized breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international organization. This status is given to breeds which are preliminarily or provisionally recognized.</owl:annotatedTarget>
+        <owl:annotatedTarget>Breed recognition status referring to a breed that is in the process of becoming fully recognized by an international breed registration body. This status is given to breeds which are preliminarily or provisionally recognized.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -109,13 +109,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0300004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0300001"/>
-        <obo:IAO_0000115>Breed recognition status referring to a breed that is reported by an international organization but not recognized. </obo:IAO_0000115>
+        <obo:IAO_0000115>Breed recognition status referring to a breed that is reported by an international breed registration body but not recognized. </obo:IAO_0000115>
         <rdfs:label>not recognized breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Breed recognition status referring to a breed that is reported by an international organization but not recognized. </owl:annotatedTarget>
+        <owl:annotatedTarget>Breed recognition status referring to a breed that is reported by an international breed registration body but not recognized. </owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -366,5 +366,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
