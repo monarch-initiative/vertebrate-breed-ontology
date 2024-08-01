@@ -18,7 +18,7 @@ VBO terms have rich metadata, all associated with provenance.
 | Description of origin     | http://purl.obolibrary.org/obo/vbo#origindescription         | Free text note that may include the geographical origin and foundation stock of a breed.                                                                                       | optional                                                                          |
 | Comment                   | rdfs:comment                                                 | Information on specific terms and term usage.                                                                                                                                  | optional                                                                          |
 | In subset - transboundary | http://www.geneontology.org/formats/oboInOwl#inSubset        | Indicate that the term is reported as a “transboundary breed” in DAD-IS                                                                                                        | optional DAD-IS only                                                              |
-| term tracker | http://purl.obolibrary.org/obo/IAO_0000233        | Link to relevant GitHub issue(s) that include discussion and decision on the VBO term.                                                                                                         | optional                                                               |
+| Term tracker | http://purl.obolibrary.org/obo/IAO_0000233        | Link to relevant GitHub issue(s) that include discussion and decision on the VBO term.                                                                                                         | optional                                                               |
 
 ## VBO ID
 
@@ -126,7 +126,7 @@ We recorded the breed domestication status in VBO as an annotation, using the an
 | VBO:0300007 | domestic breed | Domestication status given to a group of animals that has been domesticated, that is have been selectively bred and genetically adapted over generations to live alongside humans.               |
 | VBO:0300008 | wild breed     | Domestication status given to a group of animals that has not been domesticated and exists as free-living, self-sustaining and unmanaged population.                                             |
 
-As with all metadata, the source of information is recorded. Currently, the domestication status information solely comes from DAD-IS
+As with all metadata, the source of information is recorded. Currently, the domestication status information solely comes from DAD-IS.
 
 Examples:
 
@@ -157,7 +157,7 @@ Example:
 <img src="Screenshot 2024-07-31 at 4.04.05 PM.png" width="500">
 
 
-## in subset - transboundary
+## In subset - transboundary
 
 Users requested a way to identify VBO terms corresponding to DAD-IS transboundary breeds (read more about transboundary breeds and DAD-IS HERE). To support users of the DAD-IS data, we added a subset annotation to these VBO terms. 
 The annotation uses the “in subset” (http://www.geneontology.org/formats/oboInOwl#inSubset) annotation property, with the “transboundary” annotation. 
@@ -166,7 +166,7 @@ Example:
 
 <img src="Screenshot 2024-07-31 at 4.12.45 PM.png" width="300">
 
-## term tracker
+## Term tracker
 
 All ontology updates are tracked in our [GitHub repository](https://github.com/monarch-initiative/vertebrate-breed-ontology). When an update or edit on a VBO term is made in the context of a GitHub issue, a link to GitHub issue is added the VBO term. 
-These links are useful to keep track of editing history (e.g. what changes were made) and for transparency (i.e. one can go back to a GitHub issue to gain context on the discussions and decisions that lead to the changes in the VBO term)
+These links are useful to keep track of editing history (e.g. what changes were made) and for transparency (i.e. one can go back to a GitHub issue to gain context on the discussions and decisions that lead to the changes in the VBO term).
