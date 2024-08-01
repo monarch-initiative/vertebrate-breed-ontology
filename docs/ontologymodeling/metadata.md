@@ -37,7 +37,7 @@ Term labels are unique and follow the format:
 - **'Most common name (Species)’**
 in which Species is the English name (e.g. 'Chihuahua (Dog)' (VBO:0200338)). 
 - **'Most common name, Country; (Species)'**
-in which country and species are the English names. (e.g., ‘Jersey Giant, Canada; Chicken’ (VBO:0006068)). This format is used for breeds defined by their country of existence as reported by FAO National Coordinators in DAD-IS.
+in which Country and Species are the English names. (e.g., ‘Jersey Giant, Canada; Chicken’ (VBO:0006068)). This format is used for breeds defined by their country of existence as reported by FAO National Coordinators in DAD-IS.
 
 See more explanation in the [term labels and naming conventions](ontologymodeling/term-labels-naming-conventions.md) section.
 
