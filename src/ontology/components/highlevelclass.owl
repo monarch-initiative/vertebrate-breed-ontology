@@ -70,12 +70,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186623 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186623"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_27592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27592"/>
@@ -85,6 +79,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30538 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30538"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
     
 
 
@@ -1638,15 +1638,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186623"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VBO_0400000"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000115>Vertebrate breed of the taxon Actinopteri comprised of all extant ray-finned fish minus the bichirs. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vertebrate breed of the taxon Teleostei. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
-        <rdfs:label>Actinopteri breed</rdfs:label>
+        <rdfs:label>Fish breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400041"/>
@@ -1658,10 +1658,10 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Vertebrate breed of the taxon Actinopteri comprised of all extant ray-finned fish minus the bichirs. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
+        <owl:annotatedTarget>Vertebrate breed of the taxon Teleostei. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Actinopteri</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Teleost</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -1845,7 +1845,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Xenopus. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
-        <rdfs:label>Clawed frog breed</rdfs:label>
+        <rdfs:label>Frog breed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400047"/>

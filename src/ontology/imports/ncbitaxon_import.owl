@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2024-08-06/imports/ncbitaxon_import.owl>
+<http://purl.obolibrary.org/obo/vbo/releases/2024-08-08/imports/ncbitaxon_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2024-07-31/subsets/taxslim.owl>)
-Annotation(owl:versionInfo "2024-08-06")
+Annotation(owl:versionInfo "2024-08-08")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10026>))
@@ -235,11 +235,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_kingdom>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_order>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_phylum>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_species>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_subclass>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_subfamily>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_subgenus>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_suborder>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_subphylum>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_subspecies>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superclass>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superfamily>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superorder>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>))
@@ -2766,12 +2769,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_species> "species")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subclass> (subclass)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "NCBITaxon:subclass")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "subclass")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subclass> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> (subfamily)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "NCBITaxon:subfamily")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "subfamily")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subfamily> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> (subgenus)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "NCBITaxon:subgenus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "subgenus")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subgenus> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_suborder> (suborder)
 
@@ -2800,6 +2817,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "NCBITaxon:superclass")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "superclass")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_superclass> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> (superfamily)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "NCBITaxon:superfamily")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "superfamily")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_superfamily> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> (superkingdom)
 

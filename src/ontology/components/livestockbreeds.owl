@@ -90,45 +90,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10036 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10141 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59729 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8839 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59729"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7955 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8855 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7957 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8364 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8364"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8855"/>
     
 
 
@@ -20949,1163 +20925,807 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017485 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017512 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017485">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59729"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.zebrafinch.com/NewZebra/chestnutflankwhite.html</terms:source>
-        <oboInOwl:hasExactSynonym>CFW</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Continental Chestnut Flanked White</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Marked White</oboInOwl:hasExactSynonym>
-        <rdfs:label>Continental Chestnut Flanked White (Zebra finch)</rdfs:label>
+        <terms:source>PMID:20390359</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.chinadaily.com.cn/a/201604/08/WS5a2b770da310eefe3e9a05d0.html</terms:source>
+        <oboInOwl:hasExactSynonym>Debao pony</oboInOwl:hasExactSynonym>
+        <rdfs:label>Debao pony (Horse)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017485"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017512"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59729"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017485"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017512"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017485"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017512"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>CFW</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.zebrafinch.com/NewZebra/chestnutflankwhite.html</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017485"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Continental Chestnut Flanked White</owl:annotatedTarget>
+        <owl:annotatedTarget>Debao pony</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.zebrafinch.com/NewZebra/chestnutflankwhite.html</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017485"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Marked White</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.zebrafinch.com/NewZebra/chestnutflankwhite.html</oboInOwl:source>
+        <oboInOwl:source>PMID:20390359</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.chinadaily.com.cn/a/201604/08/WS5a2b770da310eefe3e9a05d0.html</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017486 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017513 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017486">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:994204</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pancreapedia.org/sites/default/files/pour_hamster.2012.pdf</terms:source>
-        <oboInOwl:hasExactSynonym>EC</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Eppley colony</oboInOwl:hasExactSynonym>
-        <rdfs:label>Eppley colony (Golden hamster)</rdfs:label>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.iga-goatworld.com/blog/china-successful-cultivation-of-jianzhou-big-ear-goat</terms:source>
+        <oboInOwl:hasExactSynonym>Jianzhou big-eared</oboInOwl:hasExactSynonym>
+        <rdfs:label>Jianzhou big-eared (Goat)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017486"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017513"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017486"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017513"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017486"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017513"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>EC</owl:annotatedTarget>
-        <oboInOwl:source>PMID:994204</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pancreapedia.org/sites/default/files/pour_hamster.2012.pdf</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017486"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Eppley colony</owl:annotatedTarget>
+        <owl:annotatedTarget>Jianzhou big-eared</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:994204</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pancreapedia.org/sites/default/files/pour_hamster.2012.pdf</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.iga-goatworld.com/blog/china-successful-cultivation-of-jianzhou-big-ear-goat</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017487 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017514 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017487">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:6658511</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1023/B:BEGE.0000023651.99481.d5</terms:source>
-        <oboInOwl:hasExactSynonym>Inbred GN</oboInOwl:hasExactSynonym>
-        <rdfs:label>Inbred GN (Golden hamster)</rdfs:label>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/pii/S0921448809002351</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zfc.jp/en/animal/11107022301401506</terms:source>
+        <oboInOwl:hasExactSynonym>Shiba</oboInOwl:hasExactSynonym>
+        <rdfs:label>Shiba (Goat)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017487"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017514"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017487"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017514"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017487"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017514"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Inbred GN</owl:annotatedTarget>
+        <owl:annotatedTarget>Shiba</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:6658511</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1023/B:BEGE.0000023651.99481.d5</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/pii/S0921448809002351</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zfc.jp/en/animal/11107022301401506</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017488 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017515 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017488">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:7441100</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://netvet.wustl.edu/species/hamsters/hamstbio.txt</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.criver.com/products-services/find-model/lvg-golden-syrian-hamster?region=3611</terms:source>
-        <oboInOwl:hasExactSynonym>LAK/LVG</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Lak:LVG</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Lak:LVG(SYR)</oboInOwl:hasExactSynonym>
-        <rdfs:label>Lak:LVG(SYR) (Golden hamster)</rdfs:label>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/pii/S0022030219310823</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/pii/S0022030288797982</terms:source>
+        <oboInOwl:hasExactSynonym>Xinong Saanen</oboInOwl:hasExactSynonym>
+        <rdfs:label>Xinong Saanen (Goat)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017488"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017515"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017488"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017515"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017488"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017515"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>LAK/LVG</owl:annotatedTarget>
-        <oboInOwl:source>PMID:7441100</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://netvet.wustl.edu/species/hamsters/hamstbio.txt</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.criver.com/products-services/find-model/lvg-golden-syrian-hamster?region=3611</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017488"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Lak:LVG</owl:annotatedTarget>
-        <oboInOwl:source>PMID:7441100</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://netvet.wustl.edu/species/hamsters/hamstbio.txt</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.criver.com/products-services/find-model/lvg-golden-syrian-hamster?region=3611</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017488"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Lak:LVG(SYR)</owl:annotatedTarget>
+        <owl:annotatedTarget>Xinong Saanen</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:7441100</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://netvet.wustl.edu/species/hamsters/hamstbio.txt</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.criver.com/products-services/find-model/lvg-golden-syrian-hamster?region=3611</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/pii/S0022030219310823</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/pii/S0022030288797982</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017489 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017516 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://netvet.wustl.edu/species/hamsters/hamstbio.txt</terms:source>
-        <oboInOwl:hasExactSynonym>LSH/SsLAK</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>LSH/SsLak</oboInOwl:hasExactSynonym>
-        <rdfs:label>LSH/SsLak (Golden hamster)</rdfs:label>
+        <terms:source>PMID:18075197</terms:source>
+        <terms:source>PMID:23749549</terms:source>
+        <oboInOwl:hasExactSynonym>CLAWN miniature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CMP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clawn miniature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clawn miniature pig</oboInOwl:hasExactSynonym>
+        <rdfs:label>Clawn miniature (Pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017489"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017516"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017489"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017516"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017489"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017516"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>LSH/SsLAK</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://netvet.wustl.edu/species/hamsters/hamstbio.txt</oboInOwl:source>
+        <owl:annotatedTarget>CLAWN miniature</owl:annotatedTarget>
+        <oboInOwl:source>PMID:18075197</oboInOwl:source>
+        <oboInOwl:source>PMID:23749549</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017489"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017516"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>LSH/SsLak</owl:annotatedTarget>
+        <owl:annotatedTarget>CMP</owl:annotatedTarget>
+        <oboInOwl:source>PMID:18075197</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017516"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clawn miniature</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://netvet.wustl.edu/species/hamsters/hamstbio.txt</oboInOwl:source>
+        <oboInOwl:source>PMID:18075197</oboInOwl:source>
+        <oboInOwl:source>PMID:23749549</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017516"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clawn miniature pig</owl:annotatedTarget>
+        <oboInOwl:source>PMID:18075197</oboInOwl:source>
+        <oboInOwl:source>PMID:23749549</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017490 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017517 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017490">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8364"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:26222540</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mbl.edu/research/resources-research-facilities/national-xenopus-resource/wild-type-frog-stocks</terms:source>
-        <oboInOwl:hasExactSynonym>Nigerian St.549</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Xtr.NigerianSt549</oboInOwl:hasExactSynonym>
-        <rdfs:label>Nigerian St.549 (Western clawed frog)</rdfs:label>
+        <terms:source>PMID:20103985</terms:source>
+        <oboInOwl:hasExactSynonym>PWG Micro-pig</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PWG Micropig</oboInOwl:hasExactSynonym>
+        <rdfs:label>PWG Micropig (Pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017490"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017517"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8364"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017490"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017517"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017490"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017517"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Nigerian St.549</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:26222540</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mbl.edu/research/resources-research-facilities/national-xenopus-resource/wild-type-frog-stocks</oboInOwl:source>
+        <owl:annotatedTarget>PWG Micro-pig</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017490"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017517"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Xtr.NigerianSt549</owl:annotatedTarget>
-        <oboInOwl:source>PMID:26222540</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mbl.edu/research/resources-research-facilities/national-xenopus-resource/wild-type-frog-stocks</oboInOwl:source>
+        <owl:annotatedTarget>PWG Micropig</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:20103985</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017491 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017518 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017491">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <vbo:origindescription>Derived from Minnesota miniature pig.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/abs/pii/0145305X9500029S</terms:source>
-        <oboInOwl:hasExactSynonym>Arlee 12</oboInOwl:hasExactSynonym>
-        <rdfs:label>Arlee 12 (Rainbow trout)</rdfs:label>
+        <terms:source>PMID:20438511</terms:source>
+        <oboInOwl:hasExactSynonym>SNU miniature pig</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Seoul National University miniature pig</oboInOwl:hasExactSynonym>
+        <rdfs:label>Seoul National University miniature pig (Pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017491"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017518"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017491"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017518"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017491"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Arlee 12</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/abs/pii/0145305X9500029S</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017492 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</terms:source>
-        <oboInOwl:hasExactSynonym>Hot Creek 71</oboInOwl:hasExactSynonym>
-        <rdfs:label>Hot Creek 71 (Rainbow trout)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017492"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017492"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017492"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Hot Creek 71</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017493 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017493">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:17085058</terms:source>
-        <oboInOwl:hasExactSynonym>INRA Sy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>INRA-Sy</oboInOwl:hasExactSynonym>
-        <rdfs:label>INRA Sy (Rainbow trout)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017493"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017493"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017493"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>INRA Sy</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:17085058</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017493"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>INRA-Sy</owl:annotatedTarget>
-        <oboInOwl:source>PMID:17085058</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017494 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017494">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/abs/pii/S0145305X98000391</terms:source>
-        <oboInOwl:hasExactSynonym>OSU 142</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>OSU-142</oboInOwl:hasExactSynonym>
-        <rdfs:label>OSU 142 (Rainbow trout)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017494"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8022"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017494"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017494"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>OSU 142</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/abs/pii/S0145305X98000391</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017494"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>OSU-142</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1577/1548-8667%281998%29010%3C0075%3ADOLTCL%3E2.0.CO%3B2</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sciencedirect.com/science/article/abs/pii/S0145305X98000391</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017495 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017495">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>ZDB-GENO-960809-7</terms:source>
-        <oboInOwl:hasExactSynonym>AB</oboInOwl:hasExactSynonym>
-        <rdfs:label>AB (Zebrafish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017495"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017495"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017495"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>AB</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>ZDB-GENO-960809-7</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017496 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017496">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://shop.glofish.com/collections/glofish-danio</terms:source>
-        <oboInOwl:hasExactSynonym>GloFish</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>GloFish Danio</oboInOwl:hasExactSynonym>
-        <rdfs:label>GloFish (Zebrafish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017496"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017496"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017496"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>GloFish</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://shop.glofish.com/collections/glofish-danio</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017496"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>GloFish Danio</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://shop.glofish.com/collections/glofish-danio</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017497 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>ZDB-GENO-990308-9</terms:source>
-        <oboInOwl:hasExactSynonym>SJD</oboInOwl:hasExactSynonym>
-        <rdfs:label>SJD (Zebrafish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017497"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017497"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017497"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>SJD</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>ZDB-GENO-990308-9</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017498 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017498">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Comet_(goldfish)</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thesprucepets.com/comet-goldfish-species-profile-5088723</terms:source>
-        <oboInOwl:hasExactSynonym>Comet</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Comet-tailed</oboInOwl:hasExactSynonym>
-        <rdfs:label>Comet (Goldfish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017498"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017498"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017498"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Comet</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Comet_(goldfish)</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thesprucepets.com/comet-goldfish-species-profile-5088723</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017498"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Comet-tailed</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Comet_(goldfish)</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thesprucepets.com/comet-goldfish-species-profile-5088723</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017499 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fantail_(goldfish)</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thesprucepets.com/fantail-goldfish-fish-5322821</terms:source>
-        <oboInOwl:hasExactSynonym>Fantail</oboInOwl:hasExactSynonym>
-        <rdfs:label>Fantail (Goldfish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017499"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017499"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017499"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Fantail</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fantail_(goldfish)</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.thesprucepets.com/fantail-goldfish-fish-5322821</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017500 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Ryukin</terms:source>
-        <oboInOwl:hasExactSynonym>Ryukin</oboInOwl:hasExactSynonym>
-        <rdfs:label>Ryukin (Goldfish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017500"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017500"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017500"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Ryukin</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Ryukin</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017501 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017501">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Wakin_goldfish</terms:source>
-        <oboInOwl:hasExactSynonym>Wakin</oboInOwl:hasExactSynonym>
-        <rdfs:label>Wakin (Goldfish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017501"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017501"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017501"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Wakin</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Wakin_goldfish</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017502 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017502">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:9431801</terms:source>
-        <oboInOwl:hasExactSynonym>Albino strain i3</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>i3</oboInOwl:hasExactSynonym>
-        <rdfs:label>Albino strain i3 (Japanese rice fish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017502"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017502"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017502"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Albino strain i3</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:9431801</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017502"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>i3</owl:annotatedTarget>
-        <oboInOwl:source>PMID:9431801</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017503 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017503">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:16341864</terms:source>
-        <terms:source>PMID:27759163</terms:source>
-        <oboInOwl:hasExactSynonym>CAB</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Cab</oboInOwl:hasExactSynonym>
-        <rdfs:label>CAB (Japanese rice fish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017503"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017503"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017503"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>CAB</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:16341864</oboInOwl:source>
-        <oboInOwl:source>PMID:27759163</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017503"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Cab</owl:annotatedTarget>
-        <oboInOwl:source>PMID:16341864</oboInOwl:source>
-        <oboInOwl:source>PMID:27759163</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017504 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:16341864</terms:source>
-        <oboInOwl:hasExactSynonym>HB32</oboInOwl:hasExactSynonym>
-        <rdfs:label>HB32 (Japanese rice fish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017504"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017504"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017504"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>HB32</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:16341864</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VBO_0017505 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
-        <vbo:origindescription>Derived from HB32.</vbo:origindescription>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1007/BF00571259</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</terms:source>
-        <oboInOwl:hasExactSynonym>HB32C</oboInOwl:hasExactSynonym>
-        <rdfs:label>HB32C (Japanese rice fish)</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017505"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017505"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017505"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017518"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
-        <owl:annotatedTarget>Derived from HB32.</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1007/BF00571259</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
+        <owl:annotatedTarget>Derived from Minnesota miniature pig.</owl:annotatedTarget>
+        <oboInOwl:source>PMID:20438511</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017505"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017518"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>HB32C</owl:annotatedTarget>
+        <owl:annotatedTarget>SNU miniature pig</owl:annotatedTarget>
+        <oboInOwl:source>PMID:20438511</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017518"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Seoul National University miniature pig</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1007/BF00571259</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
+        <oboInOwl:source>PMID:20438511</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017506 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017519 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017506">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <vbo:origindescription>A composite swine population was developed by crossing mixed Landrace-Yorkshire sows with one of 24 founding boars – 12 Landrace and 12 Duroc. The second generation was produced by mating Landrace-sired animals to Duroc-sired animals. Subsequent generations were created by choosing one male and ten females produced by each founding boar then randomly mating them while avoiding full-sib and half-sib pairings</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:24408034</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</terms:source>
-        <oboInOwl:hasExactSynonym>Hd-rR</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>HdrR</oboInOwl:hasExactSynonym>
-        <rdfs:label>HdrR (Japanese rice fish)</rdfs:label>
+        <terms:source>PMID:26172260</terms:source>
+        <oboInOwl:hasExactSynonym>USMARC mixed breed</oboInOwl:hasExactSynonym>
+        <rdfs:label>USMARC mixed breed (Pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017506"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017519"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017506"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017519"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017506"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Hd-rR</owl:annotatedTarget>
-        <oboInOwl:source>PMID:24408034</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017519"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>A composite swine population was developed by crossing mixed Landrace-Yorkshire sows with one of 24 founding boars – 12 Landrace and 12 Duroc. The second generation was produced by mating Landrace-sired animals to Duroc-sired animals. Subsequent generations were created by choosing one male and ten females produced by each founding boar then randomly mating them while avoiding full-sib and half-sib pairings</owl:annotatedTarget>
+        <oboInOwl:source>PMID:26172260</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017506"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017519"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>HdrR</owl:annotatedTarget>
+        <owl:annotatedTarget>USMARC mixed breed</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:24408034</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
+        <oboInOwl:source>PMID:26172260</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017507 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017520 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017507">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:16341864</terms:source>
-        <terms:source>PMID:24408034</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/ena/browser/view/BAAE00000000</terms:source>
-        <oboInOwl:hasExactSynonym>HNI</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Houiken Niigata-I</oboInOwl:hasExactSynonym>
-        <rdfs:label>HNI (Japanese rice fish)</rdfs:label>
+        <terms:source>PMID:35345667</terms:source>
+        <oboInOwl:hasExactSynonym>Yunnan semi-fine wool sheep</oboInOwl:hasExactSynonym>
+        <rdfs:label>Yunnan semi-fine wool sheep (Sheep)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017507"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017520"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017507"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017520"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017507"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017520"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>HNI</owl:annotatedTarget>
+        <owl:annotatedTarget>Yunnan semi-fine wool sheep</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:16341864</oboInOwl:source>
-        <oboInOwl:source>PMID:24408034</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/ena/browser/view/BAAE00000000</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017507"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Houiken Niigata-I</owl:annotatedTarget>
-        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+        <oboInOwl:source>PMID:35345667</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017508 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017521 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1007/BF00571259</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</terms:source>
-        <oboInOwl:hasExactSynonym>HO4C</oboInOwl:hasExactSynonym>
-        <rdfs:label>HO4C (Japanese rice fish)</rdfs:label>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.criver.com/products-services/find-model/hartley-guinea-pig?region=3616</terms:source>
+        <oboInOwl:hasExactSynonym>Albino English</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dunkin-Hartley</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hartley</oboInOwl:hasExactSynonym>
+        <rdfs:label>Hartley (Guinea pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017508"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017521"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017508"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017521"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017508"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017521"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>HO4C</owl:annotatedTarget>
+        <owl:annotatedTarget>Albino English</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017521"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Dunkin-Hartley</owl:annotatedTarget>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017521"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hartley</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/article/10.1007/BF00571259</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.criver.com/products-services/find-model/hartley-guinea-pig?region=3616</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017509 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017522 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017509">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:24408034</terms:source>
-        <oboInOwl:hasExactSynonym>Kaga</oboInOwl:hasExactSynonym>
-        <rdfs:label>Kaga (Japanese rice fish)</rdfs:label>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</terms:source>
+        <oboInOwl:hasExactSynonym>2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Strain 2</oboInOwl:hasExactSynonym>
+        <rdfs:label>Strain 2 (Guinea pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017509"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017522"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017509"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017522"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017509"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017522"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Kaga</owl:annotatedTarget>
+        <owl:annotatedTarget>2</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017522"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Strain 2</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:24408034</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017510 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017523 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017510">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:11226275</terms:source>
-        <terms:source>PMID:26054930</terms:source>
-        <oboInOwl:hasExactSynonym>Himedaka</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>OR</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Orange commercial variety</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Orange-red</oboInOwl:hasExactSynonym>
-        <rdfs:label>Orange-red (Japanese rice fish)</rdfs:label>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</terms:source>
+        <oboInOwl:hasExactSynonym>13</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>13N</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Strain 13</oboInOwl:hasExactSynonym>
+        <rdfs:label>Strain 13 (Guinea pig)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017510"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017523"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017510"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017523"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017510"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017523"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Himedaka</owl:annotatedTarget>
-        <oboInOwl:source>PMID:11226275</oboInOwl:source>
-        <oboInOwl:source>PMID:26054930</oboInOwl:source>
+        <owl:annotatedTarget>13</owl:annotatedTarget>
+        <oboInOwl:source>PMID:36899751</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017510"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017523"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>OR</owl:annotatedTarget>
-        <oboInOwl:source>PMID:11226275</oboInOwl:source>
-        <oboInOwl:source>PMID:26054930</oboInOwl:source>
+        <owl:annotatedTarget>13N</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">PMID:36899751</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017510"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017523"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Orange commercial variety</owl:annotatedTarget>
-        <oboInOwl:source>PMID:26054930</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017510"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Orange-red</owl:annotatedTarget>
+        <owl:annotatedTarget>Strain 13</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:11226275</oboInOwl:source>
-        <oboInOwl:source>PMID:26054930</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_16</oboInOwl:source>
     </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VBO_0017511 -->
+    <!-- http://purl.obolibrary.org/obo/VBO_0017524 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017511">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
-        <terms:source>PMID:24945156</terms:source>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</terms:source>
-        <oboInOwl:hasExactSynonym>SOK</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sokcho</oboInOwl:hasExactSynonym>
-        <rdfs:label>SOK (Japanese rice fish)</rdfs:label>
+        <terms:source>PMID:24913959</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://grimaudfreres.com/wp-content/uploads/2020/11/120720-FICHE_PEKIN_EXPORT-EN.pdf</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.raising-ducks.com/pekin-duck/</terms:source>
+        <oboInOwl:hasExactSynonym>GL-30</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GL30</oboInOwl:hasExactSynonym>
+        <rdfs:label>GL30 (Duck)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017511"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017524"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017511"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017524"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017511"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017524"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>SOK</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source>PMID:24945156</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nagoya.repo.nii.ac.jp/record/11937/files/KJ00005673903.pdf</oboInOwl:source>
+        <owl:annotatedTarget>GL-30</owl:annotatedTarget>
+        <oboInOwl:source>PMID:24913959</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017511"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017524"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Sokcho</owl:annotatedTarget>
-        <oboInOwl:source>PMID:24945156</oboInOwl:source>
+        <owl:annotatedTarget>GL30</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:24913959</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://grimaudfreres.com/wp-content/uploads/2020/11/120720-FICHE_PEKIN_EXPORT-EN.pdf</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.raising-ducks.com/pekin-duck/</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8855"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:18359507</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.sandtpoultry.co.uk/pdf/BARBARY%20DUCK%20SHEET.pdf</terms:source>
+        <oboInOwl:hasExactSynonym>ST4 compact</oboInOwl:hasExactSynonym>
+        <rdfs:label>ST4 compact (Duck)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017525"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8855"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017525"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017525"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ST4 compact</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:18359507</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.sandtpoultry.co.uk/pdf/BARBARY%20DUCK%20SHEET.pdf</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:1649230</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_17</terms:source>
+        <oboInOwl:hasExactSynonym>B/J</oboInOwl:hasExactSynonym>
+        <rdfs:label>B/J (Rabbit)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017526"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017526"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017526"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>B/J</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:1649230</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://link.springer.com/chapter/10.1007/978-1-349-03816-9_17</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017527">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://sciencellonline.com/products-services/primary-cells/animal/rabbit/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.inotivco.com/model/hsdhra-db-spf</terms:source>
+        <oboInOwl:hasExactSynonym>Dutch Belted</oboInOwl:hasExactSynonym>
+        <rdfs:label>Dutch Belted (Rabbit)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017527"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017527"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017527"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Dutch Belted</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://sciencellonline.com/products-services/primary-cells/animal/rabbit/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.inotivco.com/model/hsdhra-db-spf</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:28677530</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hycole.com/en/</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.researchgate.net/publication/323552928_Production_performance_of_HyCole_New_Zealand_White_Rabbits_and_its_reciprocal</terms:source>
+        <oboInOwl:hasExactSynonym>Hycole hybrid</oboInOwl:hasExactSynonym>
+        <rdfs:label>Hycole hybrid (Rabbit)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017528"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017528"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017528"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hycole hybrid</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:28677530</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hycole.com/en/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.researchgate.net/publication/323552928_Production_performance_of_HyCole_New_Zealand_White_Rabbits_and_its_reciprocal</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.zootierliste.de/en/?klasse=6&amp;ordnung=601&amp;familie=60101&amp;art=50906477</terms:source>
+        <oboInOwl:hasExactSynonym>White Rex</oboInOwl:hasExactSynonym>
+        <rdfs:label>White Rex (Rabbit)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017529"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017529"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017529"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>White Rex</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.zootierliste.de/en/?klasse=6&amp;ordnung=601&amp;familie=60101&amp;art=50906477</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:31673064</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.taiwanplus.com/news/taiwan-news/animals/231027023/new-variety-of-silky-black-chicken-bred-in-taiwan</terms:source>
+        <oboInOwl:hasExactSynonym>Taiwan black silkie</oboInOwl:hasExactSynonym>
+        <rdfs:label>Taiwan black silkie (Chicken)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017530"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017530"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017530"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Taiwan black silkie</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:31673064</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.taiwanplus.com/news/taiwan-news/animals/231027023/new-variety-of-silky-black-chicken-bred-in-taiwan</oboInOwl:source>
     </owl:Axiom>
     
 

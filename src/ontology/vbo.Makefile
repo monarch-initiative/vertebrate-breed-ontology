@@ -16,6 +16,7 @@ BREEDSTATUS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk1AOht1r
 HIGHLEVELCLASS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpjOwuI9e1Imkdp40nPTw5cNKFjdpV9fHSHDIfcdXfod41sSogjFhWfas8Cjdpfa4lEVR0GyYxFDrE/pub?gid=2041564448&single=true&output=tsv"
 LBO_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTiIZWsHBBfApE4jIXNp8O-c6gf1MJ-g79sLC6o6hxUDKb9ISvZjtwmv_jv6oMhQ0b0w4SYAlQ7WqmY/pub?gid=559994719&single=true&output=tsv"
 RELATION_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vTeekaFEi3bBh6PGvMr8-_cDSUBUiGyNOfTxTjzYQDaL5PfZeGBkX527U8du2kvY7YmphwT6Dddplp5/pub?gid=0&single=true&output=tsv"
+OTHERBREEDS_TEMPLATE="https://docs.google.com/spreadsheets/d/e/2PACX-1vQMQdvuC20xEeeXp9Ea8v1VqPEmOwHC0ucVvjgzZxwbQzODBjn0-UeNb9Zo98vUNHo9ltAPKWxG2hmQ/pub?gid=1074314048&single=true&output=tsv"
 
 dependencies:
 	pip install -U pip && pip install -U oaklib
@@ -30,6 +31,7 @@ sync_google_sheets:
 	wget $(HIGHLEVELCLASS_TEMPLATE) -O $(COMPONENTSDIR)/highlevelclass.tsv
 	wget $(LBO_TEMPLATE) -O $(COMPONENTSDIR)/lbo.tsv
 	wget $(RELATION_TEMPLATE) -O $(COMPONENTSDIR)/relation.tsv
+	wget $(OTHERBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/otherbreeds.tsv
 
 # NOTE TO EDITOR: FROM ODK 1.5. onwards, we need to add a goal for each component here:
 
@@ -66,6 +68,10 @@ $(COMPONENTSDIR)/lbo.owl: $(COMPONENTSDIR)/lbo.tsv $(SRC)
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
 
 $(COMPONENTSDIR)/relation.owl: $(COMPONENTSDIR)/relation.tsv $(SRC)
+	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
+
+$(COMPONENTSDIR)/otherbreeds.owl: $(COMPONENTSDIR)/otherbreeds.tsv $(SRC)
 	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
 
