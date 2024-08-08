@@ -39,3 +39,14 @@ http://purl.obolibrary.org/obo/NCBITaxon_37174
 http://purl.obolibrary.org/obo/NCBITaxon_9685
 http://purl.obolibrary.org/obo/NCBITaxon_61376
 http://purl.obolibrary.org/obo/NCBITaxon_2576912
+http://purl.obolibrary.org/obo/NCBITaxon_59729
+http://purl.obolibrary.org/obo/NCBITaxon_10036
+http://purl.obolibrary.org/obo/NCBITaxon_186623
+http://purl.obolibrary.org/obo/NCBITaxon_8022
+http://purl.obolibrary.org/obo/NCBITaxon_7955
+http://purl.obolibrary.org/obo/NCBITaxon_7962
+http://purl.obolibrary.org/obo/NCBITaxon_7957
+http://purl.obolibrary.org/obo/NCBITaxon_8090
+http://purl.obolibrary.org/obo/NCBITaxon_8353
+http://purl.obolibrary.org/obo/NCBITaxon_8364
+http://purl.obolibrary.org/obo/NCBITaxon_32443
