@@ -1645,6 +1645,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Teleostei. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Teleost fish breed</oboInOwl:hasExactSynonym>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Fish breed</rdfs:label>
     </owl:Class>
@@ -1661,6 +1662,12 @@
         <owl:annotatedTarget>Vertebrate breed of the taxon Teleostei. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Teleost</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400041"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Teleost fish breed</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Teleost</oboInOwl:source>
     </owl:Axiom>
     
@@ -1844,6 +1851,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>Vertebrate breed of the taxon Xenopus. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Clawed frog breed</oboInOwl:hasExactSynonym>
         <rdfs:comment>Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature. https://monarch-initiative.github.io/vertebrate-breed-ontology/general/general/</rdfs:comment>
         <rdfs:label>Frog breed</rdfs:label>
     </owl:Class>
@@ -1860,6 +1868,12 @@
         <owl:annotatedTarget>Vertebrate breed of the taxon Xenopus. A vertebrate breed is a group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two.</owl:annotatedTarget>
         <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0400047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clawed frog breed</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Xenopus</oboInOwl:source>
     </owl:Axiom>
 </rdf:RDF>
 
