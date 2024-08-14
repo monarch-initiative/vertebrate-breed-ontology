@@ -110,6 +110,19 @@ $(IMPORTDIR)/wikidata_import.owl: $(TMPDIR)/wikidata_labels.ttl
 .PHONY: wikidata
 wikidata: $(IMPORTDIR)/wikidata_import.owl
 
+# The below fix basically deals with a longstanding issue that the OBO format converter does not handle the 
+# ObjectInverseOf axiom. This is a workaround until the issue is fixed in the OBO format converter
+# https://github.com/OBOFoundry/COB/issues/229
+
+.PHONY: mirror-cob
+.PRECIOUS: $(MIRRORDIR)/cob.owl
+mirror-cob: | $(TMPDIR)
+	curl -L $(OBOBASE)/cob.owl --create-dirs -o $(TMPDIR)/cob-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/cob-download.owl -f ofn -o $(TMPDIR)/$@.owl && \
+	sed -i '/ObjectInverseOf/d' $(TMPDIR)/$@.owl
+
+
+
 ################################
 ##### DADIS sync ###############
 ################################
