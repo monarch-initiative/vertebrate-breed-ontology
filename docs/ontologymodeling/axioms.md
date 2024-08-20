@@ -1,7 +1,7 @@
 # Axioms in VBO
 
 Logical axioms are relational information about classes that are primarily aimed at machines. They relate terms within the same ontology and across ontologies. They provide context, allow reasoners to assist in and verify classification, and support complex computational queries. 
-Read more information about logical axiomatization [here](https://oboacademy.github.io/obook/explanation/logical-axiomatization/)
+Read more information about logical axiomatization [here](https://oboacademy.github.io/obook/explanation/logical-axiomatization/).
 
 
 ## “has foundation stock” axioms
@@ -29,7 +29,7 @@ Targets allowed includes:
         - example: ‘Kanaani (Cat)’ VBO:0100137 has_foundation_stock ‘African Wildcat’ NCBITaxon:61377
 
 **Notes**:
-- a term can have multiple “has foundation stock” SubClassOf 
+- A term can have multiple “has foundation stock” SubClassOf 
    - example: 'Himalayan (Cat)' (VBO:0100117) was created from a cross of individuals from 'Siamese (Cat)' (VBO:0100221) and 'Persian (Cat)' (VBO:0100188) 
 - A lot of the information about “foundation stock” is provided in breed descriptions and histories issued by the breed sources. These sources are recorded as “source” annotation of the SubClassOf axiom. 
 - Currently, a lot of “foundation stock” information is available in the “description of origin” annotation, and not yet as “SubClassOf” annotation. Ongoing work extract this information from the free text note to create these “SubClassOf” annotations.
@@ -48,5 +48,5 @@ Most breeds in DAD-IS [link to DAD-IS source] represent breed populations that e
 
 **Notes**: 
 - This SubClassOf should **only** be used for breeds reported from DAD-IS, i.e. representing a breed defined as existing in a country. This concept will rarely exists outside of DAD-IS.
-**Example**: ‘Jersey Giant, Canada; Chicken’ (VBO:0006068)
+   - example: ‘Jersey Giant, Canada; Chicken’ (VBO:0006068)
 
