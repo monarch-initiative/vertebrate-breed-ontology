@@ -22,12 +22,11 @@ It should be noted that this relation is currently created in VBO. We plan on su
 **Target**: VBO term or NCBITaxon term
 Targets allowed includes: 
 - VBO term representing a breed
-   - example: XXXXXXX
+   - example: ‘Cymric (Cat)’ VBO:0100080 has_foundation_stock ‘Manx (Cat)’ VBO:0100156
 - NCBITaxon representing species
-   - Breed created by crossing with “wild” animals of the same species: 
-        - example: XXXXXXX
+   - Breed created by crossing with “wild” animals of the same species. 
    - Breed created by crossing with a group of animal from another species (where no actual breed of this another species is recorded): 
-        - example: XXXXXXX
+        - example: ‘Kanaani (Cat)’ VBO:0100137 has_foundation_stock ‘African Wildcat’ NCBITaxon:61377
 
 **Notes**:
 - a term can have multiple “has foundation stock” SubClassOf 
