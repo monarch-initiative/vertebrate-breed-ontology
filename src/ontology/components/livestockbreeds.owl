@@ -108,6 +108,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_89462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89462"/>
@@ -21726,6 +21732,157 @@
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source>PMID:31673064</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.taiwanplus.com/news/taiwan-news/animals/231027023/new-variety-of-silky-black-chicken-bred-in-taiwan</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/198</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:38612286</terms:source>
+        <oboInOwl:hasExactSynonym>Taihu Dianzi</oboInOwl:hasExactSynonym>
+        <rdfs:label>Taihu Dianzi (Pigeon)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017531"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017531"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017531"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Taihu Dianzi</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:38612286</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/198</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:38612286</terms:source>
+        <oboInOwl:hasExactSynonym>Tarim</oboInOwl:hasExactSynonym>
+        <rdfs:label>Tarim (Pigeon)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017532"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8932"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017532"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017532"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tarim</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:38612286</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017533">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/199</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source>PMID:39187978</terms:source>
+        <oboInOwl:hasExactSynonym>Bamaxiaogu</oboInOwl:hasExactSynonym>
+        <rdfs:label>Bamaxiaogu (Chicken)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017533"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017533"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017533"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Bamaxiaogu</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:39187978</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017534">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/188</obo:IAO_0000233>
+        <vbo:origindescription>The rangeland goat is a composite breed of goat which has become naturalised throughout Australia’s rangelands and in other areas which offer natural protection against predators. These goats have effectively adjusted to the environment to the extent that they no longer bear any strong resemblance to the original breeds of domesticated goats introduced with European settlement.</vbo:origindescription>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2826-6444"/>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.goatindustrycouncil.com.au/goats-in-australia/rangeland-goats/</terms:source>
+        <oboInOwl:hasExactSynonym>Rangeland</oboInOwl:hasExactSynonym>
+        <rdfs:label>Rangeland (Goat)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017534"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017534"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-2826-6444</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017534"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>The rangeland goat is a composite breed of goat which has become naturalised throughout Australia’s rangelands and in other areas which offer natural protection against predators. These goats have effectively adjusted to the environment to the extent that they no longer bear any strong resemblance to the original breeds of domesticated goats introduced with European settlement.</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.goatindustrycouncil.com.au/goats-in-australia/rangeland-goats/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017534"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Rangeland</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.goatindustrycouncil.com.au/goats-in-australia/rangeland-goats/</oboInOwl:source>
     </owl:Axiom>
     
 
