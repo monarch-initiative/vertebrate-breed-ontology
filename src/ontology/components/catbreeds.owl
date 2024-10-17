@@ -10600,6 +10600,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tica.org/breeds/browse-all-breeds</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -10607,7 +10608,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100172"/>
