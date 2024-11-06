@@ -21,6 +21,11 @@ WARN	annotation_whitespace	VBO:0015877	oboInOwl:hasExactSynonym	Agew
 WARN	annotation_whitespace	VBO:0015877	oboInOwl:hasExactSynonym	Dangilla 
 WARN	annotation_whitespace	VBO:0016608	oboInOwl:hasExactSynonym	Yemeni White 
 WARN	annotation_whitespace	VBO:0017483	obo:vbo#origindescription	Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport. 
+WARN	annotation_whitespace	VBO:0100118	IAO:0000115	A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of long fur. 
+WARN	annotation_whitespace	VBO:0100119	IAO:0000115	A groups of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of short fur. 
+WARN	annotation_whitespace	VBO:0100235	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/195^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0100262	IAO:0000115	A group of cats derived from more than one breed of the same species. 
+WARN	annotation_whitespace	VBO:0100265	IAO:0000115	A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of semi-long fur. 
 WARN	annotation_whitespace	VBO:0200002	oboInOwl:hasExactSynonym	African Hairless Dog 
 WARN	annotation_whitespace	VBO:0200069	oboInOwl:hasExactSynonym	Levrier Marocain 
 WARN	annotation_whitespace	VBO:0200156	oboInOwl:hasExactSynonym	Berger Savoyard 
@@ -4682,6 +4687,7 @@ WARN	duplicate_exact_synonym	VBO:0004969	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0007396	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011603	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0017149	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0100262	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000301	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003619	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003621	oboInOwl:hasExactSynonym	
@@ -28654,6 +28660,10 @@ WARN	missing_definition	VBO:0017527	IAO:0000115
 WARN	missing_definition	VBO:0017528	IAO:0000115	
 WARN	missing_definition	VBO:0017529	IAO:0000115	
 WARN	missing_definition	VBO:0017530	IAO:0000115	
+WARN	missing_definition	VBO:0017531	IAO:0000115	
+WARN	missing_definition	VBO:0017532	IAO:0000115	
+WARN	missing_definition	VBO:0017533	IAO:0000115	
+WARN	missing_definition	VBO:0017534	IAO:0000115	
 WARN	missing_definition	VBO:0100000	IAO:0000115	
 WARN	missing_definition	VBO:0100001	IAO:0000115	
 WARN	missing_definition	VBO:0100002	IAO:0000115	
@@ -28729,7 +28739,6 @@ WARN	missing_definition	VBO:0100071	IAO:0000115
 WARN	missing_definition	VBO:0100072	IAO:0000115	
 WARN	missing_definition	VBO:0100073	IAO:0000115	
 WARN	missing_definition	VBO:0100074	IAO:0000115	
-WARN	missing_definition	VBO:0100075	IAO:0000115	
 WARN	missing_definition	VBO:0100076	IAO:0000115	
 WARN	missing_definition	VBO:0100077	IAO:0000115	
 WARN	missing_definition	VBO:0100078	IAO:0000115	
@@ -28772,12 +28781,6 @@ WARN	missing_definition	VBO:0100114	IAO:0000115
 WARN	missing_definition	VBO:0100115	IAO:0000115	
 WARN	missing_definition	VBO:0100116	IAO:0000115	
 WARN	missing_definition	VBO:0100117	IAO:0000115	
-WARN	missing_definition	VBO:0100118	IAO:0000115	
-WARN	missing_definition	VBO:0100119	IAO:0000115	
-WARN	missing_definition	VBO:0100120	IAO:0000115	
-WARN	missing_definition	VBO:0100121	IAO:0000115	
-WARN	missing_definition	VBO:0100122	IAO:0000115	
-WARN	missing_definition	VBO:0100123	IAO:0000115	
 WARN	missing_definition	VBO:0100124	IAO:0000115	
 WARN	missing_definition	VBO:0100125	IAO:0000115	
 WARN	missing_definition	VBO:0100126	IAO:0000115	
@@ -28829,9 +28832,6 @@ WARN	missing_definition	VBO:0100171	IAO:0000115
 WARN	missing_definition	VBO:0100172	IAO:0000115	
 WARN	missing_definition	VBO:0100173	IAO:0000115	
 WARN	missing_definition	VBO:0100174	IAO:0000115	
-WARN	missing_definition	VBO:0100175	IAO:0000115	
-WARN	missing_definition	VBO:0100176	IAO:0000115	
-WARN	missing_definition	VBO:0100177	IAO:0000115	
 WARN	missing_definition	VBO:0100178	IAO:0000115	
 WARN	missing_definition	VBO:0100179	IAO:0000115	
 WARN	missing_definition	VBO:0100180	IAO:0000115	
@@ -28916,6 +28916,7 @@ WARN	missing_definition	VBO:0100258	IAO:0000115
 WARN	missing_definition	VBO:0100259	IAO:0000115	
 WARN	missing_definition	VBO:0100260	IAO:0000115	
 WARN	missing_definition	VBO:0100261	IAO:0000115	
+WARN	missing_definition	VBO:0100263	IAO:0000115	
 WARN	missing_definition	VBO:0200000	IAO:0000115	
 WARN	missing_definition	VBO:0200001	IAO:0000115	
 WARN	missing_definition	VBO:0200002	IAO:0000115	
