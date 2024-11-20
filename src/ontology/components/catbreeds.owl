@@ -16107,7 +16107,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000115>A group of cats derived from more than one breed of the same species. </obo:IAO_0000115>
+        <obo:IAO_0000115>A cat derived from more than one breed of the same species. </obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/65</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -16133,7 +16133,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100262"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A group of cats derived from more than one breed of the same species. </owl:annotatedTarget>
+        <owl:annotatedTarget>A cat derived from more than one breed of the same species. </owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aspcapetinsurance.com/resources/mixed-breed-cat/</oboInOwl:hasDbXref>
