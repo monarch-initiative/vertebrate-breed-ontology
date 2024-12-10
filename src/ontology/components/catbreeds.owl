@@ -7255,7 +7255,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0100262"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000115>A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of long fur. </obo:IAO_0000115>
+        <obo:IAO_0000115>A cat of mixed ancestry that has not been intentionally bred and possess a coat of long fur. </obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200</obo:IAO_0000233>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/65</obo:IAO_0000233>
         <vbo:breed_code>DLH</vbo:breed_code>
@@ -7290,7 +7290,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100118"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of long fur. </owl:annotatedTarget>
+        <owl:annotatedTarget>A cat of mixed ancestry that has not been intentionally bred and possess a coat of long fur. </owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Moggy</oboInOwl:hasDbXref>
@@ -7355,7 +7355,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0100262"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000115>A groups of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of short fur. </obo:IAO_0000115>
+        <obo:IAO_0000115>A cat of mixed ancestry that has not been intentionally bred and possess a coat of short fur. </obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200</obo:IAO_0000233>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/65</obo:IAO_0000233>
         <vbo:breed_code>DSH</vbo:breed_code>
@@ -7390,7 +7390,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100119"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A groups of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of short fur. </owl:annotatedTarget>
+        <owl:annotatedTarget>A cat of mixed ancestry that has not been intentionally bred and possess a coat of short fur. </owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Moggy</oboInOwl:hasDbXref>
@@ -16107,7 +16107,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000115>A cat whose ancestry includes a combination of different breeds.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cat breed that has not been given a recognition status by an official breed registration body.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/181</obo:IAO_0000233>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/65</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -16121,6 +16121,7 @@
         <oboInOwl:hasRelatedSynonym>Companion Cat</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Household Pet</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Household Pet Kitten</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>A mixed breed cat may or may not have known ancestry, may or may not be intentionally bred, and may through time develop into a purebred if the breed is given a recognition status by an official breed registration body.</rdfs:comment>
         <rdfs:label>Mixed Breed (Cat)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -16133,7 +16134,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100262"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cat whose ancestry includes a combination of different breeds.</owl:annotatedTarget>
+        <owl:annotatedTarget>A cat breed that has not been given a recognition status by an official breed registration body.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-7356-1779</oboInOwl:hasDbXref>
@@ -16241,7 +16242,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0100262"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <obo:IAO_0000115>A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of semi-long fur. </obo:IAO_0000115>
+        <obo:IAO_0000115>A cat of mixed ancestry that has not been intentionally bred and possess a coat of semi-long fur. </obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/65</obo:IAO_0000233>
         <vbo:breed_code>DMH</vbo:breed_code>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
@@ -16268,7 +16269,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100265"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of semi-long fur. </owl:annotatedTarget>
+        <owl:annotatedTarget>A cat of mixed ancestry that has not been intentionally bred and possess a coat of semi-long fur. </owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-4142-7153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-5002-8648</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Moggy</oboInOwl:hasDbXref>
