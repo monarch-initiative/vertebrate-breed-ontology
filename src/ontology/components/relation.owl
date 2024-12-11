@@ -35,6 +35,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
     <!-- http://purl.org/dc/terms/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
@@ -65,11 +71,26 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
         <obo:IAO_0000115>A relation between two distinct material entities (breeds or species), a descendant entity and an ancestor entity, in which the descendant entity is the result of mating, manipulation, or geographical or cultural isolation of the ancestor entity, therefore inheriting some of the ancestor’s genetic material.</obo:IAO_0000115>
         <obo:IAO_0000116>has foundation stock can be used to relate a breed to one or more other breeds, or to a &quot;species&quot; (ie an NCBITaxon term) as in the cases of &quot;hybrid breeds&quot;. &quot;Hybrid breeds&quot; are created by crossing animals of different species.</obo:IAO_0000116>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/209</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-11T14:49:29Z</terms:created>
         <rdfs:comment>A &quot;foundation stock&quot; refers to animals that are the progenitors, or foundation, of a breed or of a given bloodline within such. Many modern breeds can be traced to specific, named foundation animals, but a group of animals may be referred to collectively as foundation bloodstock when one distinct population (including both landrace breeds or a group of animals linked to a deliberate and specific selective breeding program) provides part of the underlying genetic base for a new distinct population. (https://en.wikipedia.org/wiki/Foundation_stock.) Example of usage: &apos;Cymric (cat)&apos; (VBO:0100080) has foundation stock &apos;Manx (cat)&apos; (VBO:0100156).</rdfs:comment>
         <rdfs:label xml:lang="en">has foundation stock</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0300020 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VBO_0300020">
+        <obo:IAO_0000115>A relation between a breed and the geographic location where the breed was reported to exist by country-nominated FAO National Coordinators.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/209</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-05T18:13:40Z</terms:created>
+        <rdfs:comment>Officially nominated FAO National Coordinators report breeds existing in their country (these breeds are reported in the DAD-IS breed list). &apos;breed reported in geographic location&apos; refers to the region where the breed was reported. For example: VBO:0007427 represents the &apos;Alatau&apos; breed reported to be found in Kyrgyzstan by the FAO coordinators.</rdfs:comment>
+        <rdfs:label xml:lang="en">breed reported in geographic location</rdfs:label>
     </owl:ObjectProperty>
     
 
