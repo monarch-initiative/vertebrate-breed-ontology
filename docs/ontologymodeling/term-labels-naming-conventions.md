@@ -7,7 +7,7 @@ To create unique VBO term labels, we concatenated the breed’s most common name
 
 The “Most common name” represents the breed name that is most often used to refer to the breed, as determined by the information found in the sources (_LINK to be added_). This ‘most common name’ is also recorded as an “exact synonym” [_LINK to be added_]. All breed names, including the one that are shared between breeds, are available as synonyms in VBO. For example, an exact synonym of Tibetan (Goat) VBO:0000845 is Tibetan. 
 
-Including the ‘Species’ in the term label could be controversial. Breeds have a is_a relationship to a species, and therefore repeating the species name (ie ontological parentage) in the label is a break with standard ontology practices.  While we recognize that this solution is not ideal, we were unable to ensure term label uniqueness without including the species name in the term label. As exemplified above, breeds from different species can share the same name, and some breeds can share identical name with other types of entities such as countries. 
+Including the ‘Species’ in the term label could be controversial. Breeds have a is_a relationship to a species, and therefore repeating the species name (i.e., ontological parentage) in the label is a break with standard ontology practices.  While we recognize that this solution is not ideal, we were unable to ensure term label uniqueness without including the species name in the term label. As exemplified above, breeds from different species can share the same name, and some breeds can share identical name with other types of entities such as countries. 
 
 
 **The case of DAD-IS “national breed population” and “local breeds”.** 
@@ -20,5 +20,5 @@ As a consequence, it is very common to find breeds in DAD-IS with the same commo
 The naming convention reported above, based on “most common name” and “species” is therefore not sufficient to ensure term label uniqueness for DAD-IS “national breed population” and “local breed”. The country where the breed has been reported by the National Coordinators had to be included to the VBO term label, following the format: 
 `**'Most common name’, Country (Species)'**`, in which country and species are the English names (e.g ‘Jersey Giant, Canada (Chicken)’ VBO:0006068).
 
-We recognize that adding the Ccuntry of existence in the term name, in addition to the species, is not ideal and is unusual to ontology practices, but this concatenation of attributes was the only viable solution to ensure term uniqueness. 
+We recognize that adding the country of existence in the term name, in addition to the species, is not ideal and is unusual to ontology practices, but this concatenation of attributes was the only viable solution to ensure term uniqueness. 
  
