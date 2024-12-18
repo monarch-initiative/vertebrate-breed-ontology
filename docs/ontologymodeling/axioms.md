@@ -15,8 +15,7 @@ Breeds are often created by crossing other breeds whose traits and/or pedigrees 
 
 **Relation**: has foundation stock
 
-- ‘has foundation stock’ (VBO:0300019). 
-It should be noted that this relation is currently created in VBO. We plan on submitting it to the Relation Ontology (RO). If in scope, new relations are created in RO, the RO term will replace the current VBO relation.
+- ‘has foundation stock’ (VBO:0300019).
 - Definition: “a relation between two distinct material entities (breeds or species), a descendant entity and an ancestor entity, in which the descendant entity is the result of mating, manipulation, or geographical or cultural isolation of the ancestor entity, therefore inheriting some of the ancestor’s genetic material.” 
 
 **Target**: VBO term or NCBITaxon term
@@ -25,7 +24,7 @@ Targets allowed includes:
    - example: ‘Cymric (Cat)’ VBO:0100080 has foundation stock ‘Manx (Cat)’ VBO:0100156
 - NCBITaxon representing species
    - Breed created by crossing with “wild” animals of the same species. 
-   - Breed created by crossing with a group of animals from another species (where no actual breed of this another species is recorded): 
+   - Breed created by crossing with animals from another species (where no actual breed of this another species is recorded): 
         - example: ‘Kanaani (Cat)’ VBO:0100137 has foundation stock ‘African Wildcat’ NCBITaxon:61377
 
 **Notes**:
@@ -45,7 +44,6 @@ Most breeds in [DAD-IS] (https://www.fao.org/dad-is/en/) represent breed populat
 **Relation**: breed reported in geographic location
 
 - ‘breed reported in geographic location’ (VBO:0300020). 
-It should be noted that this relation is currently created in VBO. We plan on submitting it to the Relation Ontology (RO). If in scope, new relations are created in RO, the RO term will replace the current VBO relation.
 - Definition: “a relation between a breed and the geographic location where the breed was reported to exist by country-nominated FAO National Coordinators.” 
 
 **Target**: Country (Wikidata ID for country)

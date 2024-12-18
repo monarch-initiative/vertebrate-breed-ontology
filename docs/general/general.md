@@ -12,6 +12,8 @@ Many definitions of 'breed' exist in the literature and in different communities
 
 Breeds included in VBO have been characterized, defined, and determined by international breed organizations, communities, experts, and/or have been reported in the literature (see table below).
 
+VBO terms can be used in the same way that NCBITaxon are used.
+
 ## Breed information sources
 The following table includes breed organizations, communities, and experts which reported, characterized, defined, and/or determined the breeds included in VBO
 
