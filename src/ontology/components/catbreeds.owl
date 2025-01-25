@@ -9664,45 +9664,18 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0100159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000231>terms merged</obo:IAO_0000231>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200</obo:IAO_0000233>
-        <vbo:breed_code>MBT non</vbo:breed_code>
-        <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/203</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</terms:source>
-        <oboInOwl:hasExactSynonym>Me-kong Bobtail</oboInOwl:hasExactSynonym>
-        <rdfs:label>Me-kong Bobtail (Cat)</rdfs:label>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
+        <rdfs:comment>Me-kong Bobtail (Cat) and Mekong Bobtail (Cat) were merged because they represent the same concept.</rdfs:comment>
+        <rdfs:label>obsolete Me-kong Bobtail (Cat)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100159"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
-        <oboInOwl:source>https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
-        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100159"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
-        <owl:annotatedTarget>MBT non</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100159"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100159"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Me-kong Bobtail</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -9711,9 +9684,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <rdfs:subClassOf rdf:nodeID="genid902"/>
+        <rdfs:subClassOf rdf:nodeID="genid904"/>
         <rdfs:subClassOf rdf:nodeID="genid906"/>
-        <rdfs:subClassOf rdf:nodeID="genid908"/>
-        <rdfs:subClassOf rdf:nodeID="genid910"/>
         <vbo:breed_code>MKT</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
@@ -9724,15 +9697,15 @@
         <oboInOwl:hasExactSynonym>Meerkat</oboInOwl:hasExactSynonym>
         <rdfs:label>Meerkat (Cat)</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid906">
+    <owl:Restriction rdf:nodeID="genid902">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100113"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid908">
+    <owl:Restriction rdf:nodeID="genid904">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100127"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid910">
+    <owl:Restriction rdf:nodeID="genid906">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VBO_0300019"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VBO_0100169"/>
     </owl:Restriction>
@@ -9746,19 +9719,19 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100160"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid902"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/meerkat/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100160"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid904"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/meerkat/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100160"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:nodeID="genid906"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/meerkat/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100160"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid908"/>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/meerkat/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100160"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid910"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.rareexoticfelineregistry.com/meerkat/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -9788,8 +9761,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0100161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/203</obo:IAO_0000233>
         <vbo:breed_code>MBT</vbo:breed_code>
+        <vbo:breed_code>MBT non</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
+        <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
@@ -9797,6 +9773,8 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</terms:source>
+        <oboInOwl:hasExactSynonym>Me-kong Bobtail</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Me-kong Bobtail (Cat)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Mekong Bobtail</oboInOwl:hasExactSynonym>
         <rdfs:label>Mekong Bobtail (Cat)</rdfs:label>
     </owl:Class>
@@ -9815,9 +9793,33 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_code"/>
+        <owl:annotatedTarget>MBT non</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wcf.de/en/wcf-ems-code/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#breed_recognition_status"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Me-kong Bobtail</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fifeweb.org/cats/ems-system/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Me-kong Bobtail (Cat)</owl:annotatedTarget>
+        <oboInOwl:source>VBO:0100159</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
