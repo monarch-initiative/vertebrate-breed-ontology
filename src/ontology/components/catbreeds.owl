@@ -43,6 +43,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/vbo#breed_code -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/vbo#breed_code"/>
@@ -9667,11 +9673,7 @@
         <obo:IAO_0000231>terms merged</obo:IAO_0000231>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/200</obo:IAO_0000233>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/203</obo:IAO_0000233>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
-        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VBO_0100161"/>
         <rdfs:comment>Me-kong Bobtail (Cat) and Mekong Bobtail (Cat) were merged because they represent the same concept.</rdfs:comment>
         <rdfs:label>obsolete Me-kong Bobtail (Cat)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9766,6 +9768,7 @@
         <vbo:breed_code>MBT non</vbo:breed_code>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300002"/>
         <vbo:breed_recognition_status rdf:resource="http://purl.obolibrary.org/obo/VBO_0300004"/>
+        <terms:contributor rdf:resource="https://fifeweb.org/cats/ems-system/"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
