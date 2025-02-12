@@ -1,5 +1,13 @@
 Level	Rule Name	Subject	Property	Value
 WARN	annotation_whitespace	VBO:0010364	oboInOwl:hasExactSynonym	Al-Arabi 
+WARN	annotation_whitespace	VBO:0011117	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011118	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011131	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011501	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011502	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011503	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011504	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
+WARN	annotation_whitespace	VBO:0011505	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107^^http://www.w3.org/2001/XMLSchema#anyURI
 WARN	annotation_whitespace	VBO:0013053	oboInOwl:hasExactSynonym	Calabrese 
 WARN	annotation_whitespace	VBO:0013053	oboInOwl:hasExactSynonym	Nero abruzzese 
 WARN	annotation_whitespace	VBO:0013053	oboInOwl:hasExactSynonym	Nero calabrese 
@@ -21,11 +29,10 @@ WARN	annotation_whitespace	VBO:0015877	oboInOwl:hasExactSynonym	Agew
 WARN	annotation_whitespace	VBO:0015877	oboInOwl:hasExactSynonym	Dangilla 
 WARN	annotation_whitespace	VBO:0016608	oboInOwl:hasExactSynonym	Yemeni White 
 WARN	annotation_whitespace	VBO:0017483	obo:vbo#origindescription	Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport. 
-WARN	annotation_whitespace	VBO:0100118	IAO:0000115	A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of long fur. 
-WARN	annotation_whitespace	VBO:0100119	IAO:0000115	A groups of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of short fur. 
+WARN	annotation_whitespace	VBO:0100118	IAO:0000115	A cat of mixed ancestry that has not been intentionally bred and possess a coat of long fur. 
+WARN	annotation_whitespace	VBO:0100119	IAO:0000115	A cat of mixed ancestry that has not been intentionally bred and possess a coat of short fur. 
 WARN	annotation_whitespace	VBO:0100235	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/195^^http://www.w3.org/2001/XMLSchema#anyURI
-WARN	annotation_whitespace	VBO:0100262	IAO:0000115	A group of cats derived from more than one breed of the same species. 
-WARN	annotation_whitespace	VBO:0100265	IAO:0000115	A group of cats of mixed ancestry and not belonging to any particular recognized cat breed possessing a coat of semi-long fur. 
+WARN	annotation_whitespace	VBO:0100265	IAO:0000115	A cat of mixed ancestry that has not been intentionally bred and possess a coat of semi-long fur. 
 WARN	annotation_whitespace	VBO:0200002	oboInOwl:hasExactSynonym	African Hairless Dog 
 WARN	annotation_whitespace	VBO:0200069	oboInOwl:hasExactSynonym	Levrier Marocain 
 WARN	annotation_whitespace	VBO:0200156	oboInOwl:hasExactSynonym	Berger Savoyard 
@@ -117,7 +124,6 @@ WARN	annotation_whitespace	VBO:0300004	IAO:0000115	Breed recognition status refe
 WARN	annotation_whitespace	VBO:0300009	rdfs:comment	Risk of extinction is determined using matrix based on the breeding population and reproductive capacity of the breed (https://www.fao.org/dad-is). It should be noted that the extinction risk criteria might differ between the international breed organizations. 
 WARN	annotation_whitespace	VBO:0300010	IAO:0000115	Extinction status given to a group of animals in which the number of breeding males and/or females is sufficient to maintain the existence of the breed. 
 WARN	annotation_whitespace	VBO:0300011	IAO:0000115	Extinction status given to a group of animals in which the breeding population (ie number of breeding males and/or females, and/or the number of living animals belonging to a breed) is reduced to a level that is threatening the existence of the breed. 
-WARN	annotation_whitespace	VBO:0400000	IAO:0000115	A group of vertebrate animals that share specific characteristics (such as traits, behavior, genetics) that distinguish it from other organisms of the same species, and/or for which cultural or geographical separation has led to the general acceptance of its separate identity. Breeds are formed through genetic isolation and either natural adaptation to the environment or selective breeding, or a combination of the two. 
 WARN	duplicate_exact_synonym	VBO:0000892	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0010244	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001291	oboInOwl:hasExactSynonym	
@@ -641,6 +647,10 @@ WARN	duplicate_exact_synonym	VBO:0006498	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0007499	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0201411	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0201412	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0011505	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0017547	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0011504	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0017546	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001091	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011118	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011119	oboInOwl:hasExactSynonym	
@@ -648,12 +658,12 @@ WARN	duplicate_exact_synonym	VBO:0011125	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0011128	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011129	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011132	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0011504	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001680	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0015513	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011126	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011502	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011503	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0017554	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011117	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004821	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0015947	oboInOwl:hasExactSynonym	
@@ -668,6 +678,8 @@ WARN	duplicate_exact_synonym	VBO:0008342	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0200995	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0201406	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0201405	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0011501	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0017548	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000424	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004319	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004320	oboInOwl:hasExactSynonym	
@@ -921,7 +933,6 @@ WARN	duplicate_exact_synonym	VBO:0001660	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0015469	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0015471	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0015474	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0000407	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000416	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004274	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004457	oboInOwl:hasExactSynonym	
@@ -1163,7 +1174,6 @@ WARN	duplicate_exact_synonym	VBO:0016781	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0001648	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0015433	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0015434	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0000408	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004275	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004297	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001647	oboInOwl:hasExactSynonym	
@@ -6487,6 +6497,7 @@ WARN	duplicate_exact_synonym	VBO:0014735	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0005372	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001445	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0014734	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0000167	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000243	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003312	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001444	oboInOwl:hasExactSynonym	
@@ -6739,7 +6750,6 @@ WARN	duplicate_exact_synonym	VBO:0003294	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0000237	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003126	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003205	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0000985	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003116	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003117	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003119	oboInOwl:hasExactSynonym	
@@ -8642,6 +8652,8 @@ WARN	duplicate_exact_synonym	VBO:0014459	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0001384	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0014455	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0014456	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0004606	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0016934	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000939	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000938	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0010507	oboInOwl:hasExactSynonym	
@@ -9063,6 +9075,8 @@ WARN	duplicate_exact_synonym	VBO:0200319	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0200321	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0006854	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0007320	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0017535	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0100261	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011825	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0017103	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000685	oboInOwl:hasExactSynonym	
@@ -9249,7 +9263,6 @@ WARN	duplicate_exact_synonym	VBO:0001929	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0002131	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0011216	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0017101	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0000167	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002677	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004843	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001238	oboInOwl:hasExactSynonym	
@@ -9262,7 +9275,6 @@ WARN	duplicate_exact_synonym	VBO:0016686	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0000170	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002679	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002680	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0000169	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002671	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002678	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004454	oboInOwl:hasExactSynonym	
@@ -11335,7 +11347,6 @@ WARN	missing_definition	VBO:0000165	IAO:0000115
 WARN	missing_definition	VBO:0000166	IAO:0000115	
 WARN	missing_definition	VBO:0000167	IAO:0000115	
 WARN	missing_definition	VBO:0000168	IAO:0000115	
-WARN	missing_definition	VBO:0000169	IAO:0000115	
 WARN	missing_definition	VBO:0000170	IAO:0000115	
 WARN	missing_definition	VBO:0000171	IAO:0000115	
 WARN	missing_definition	VBO:0000172	IAO:0000115	
@@ -11571,8 +11582,6 @@ WARN	missing_definition	VBO:0000403	IAO:0000115
 WARN	missing_definition	VBO:0000404	IAO:0000115	
 WARN	missing_definition	VBO:0000405	IAO:0000115	
 WARN	missing_definition	VBO:0000406	IAO:0000115	
-WARN	missing_definition	VBO:0000407	IAO:0000115	
-WARN	missing_definition	VBO:0000408	IAO:0000115	
 WARN	missing_definition	VBO:0000409	IAO:0000115	
 WARN	missing_definition	VBO:0000410	IAO:0000115	
 WARN	missing_definition	VBO:0000411	IAO:0000115	
@@ -12004,7 +12013,6 @@ WARN	missing_definition	VBO:0000840	IAO:0000115
 WARN	missing_definition	VBO:0000841	IAO:0000115	
 WARN	missing_definition	VBO:0000842	IAO:0000115	
 WARN	missing_definition	VBO:0000843	IAO:0000115	
-WARN	missing_definition	VBO:0000844	IAO:0000115	
 WARN	missing_definition	VBO:0000845	IAO:0000115	
 WARN	missing_definition	VBO:0000846	IAO:0000115	
 WARN	missing_definition	VBO:0000847	IAO:0000115	
@@ -12142,7 +12150,6 @@ WARN	missing_definition	VBO:0000981	IAO:0000115
 WARN	missing_definition	VBO:0000982	IAO:0000115	
 WARN	missing_definition	VBO:0000983	IAO:0000115	
 WARN	missing_definition	VBO:0000984	IAO:0000115	
-WARN	missing_definition	VBO:0000985	IAO:0000115	
 WARN	missing_definition	VBO:0000986	IAO:0000115	
 WARN	missing_definition	VBO:0000987	IAO:0000115	
 WARN	missing_definition	VBO:0000988	IAO:0000115	
@@ -12228,7 +12235,6 @@ WARN	missing_definition	VBO:0001068	IAO:0000115
 WARN	missing_definition	VBO:0001069	IAO:0000115	
 WARN	missing_definition	VBO:0001070	IAO:0000115	
 WARN	missing_definition	VBO:0001071	IAO:0000115	
-WARN	missing_definition	VBO:0001072	IAO:0000115	
 WARN	missing_definition	VBO:0001073	IAO:0000115	
 WARN	missing_definition	VBO:0001074	IAO:0000115	
 WARN	missing_definition	VBO:0001075	IAO:0000115	
@@ -21569,7 +21575,6 @@ WARN	missing_definition	VBO:0010419	IAO:0000115
 WARN	missing_definition	VBO:0010420	IAO:0000115	
 WARN	missing_definition	VBO:0010421	IAO:0000115	
 WARN	missing_definition	VBO:0010422	IAO:0000115	
-WARN	missing_definition	VBO:0010423	IAO:0000115	
 WARN	missing_definition	VBO:0010424	IAO:0000115	
 WARN	missing_definition	VBO:0010425	IAO:0000115	
 WARN	missing_definition	VBO:0010426	IAO:0000115	
@@ -28664,6 +28669,24 @@ WARN	missing_definition	VBO:0017531	IAO:0000115
 WARN	missing_definition	VBO:0017532	IAO:0000115	
 WARN	missing_definition	VBO:0017533	IAO:0000115	
 WARN	missing_definition	VBO:0017534	IAO:0000115	
+WARN	missing_definition	VBO:0017535	IAO:0000115	
+WARN	missing_definition	VBO:0017536	IAO:0000115	
+WARN	missing_definition	VBO:0017537	IAO:0000115	
+WARN	missing_definition	VBO:0017538	IAO:0000115	
+WARN	missing_definition	VBO:0017539	IAO:0000115	
+WARN	missing_definition	VBO:0017540	IAO:0000115	
+WARN	missing_definition	VBO:0017541	IAO:0000115	
+WARN	missing_definition	VBO:0017542	IAO:0000115	
+WARN	missing_definition	VBO:0017543	IAO:0000115	
+WARN	missing_definition	VBO:0017544	IAO:0000115	
+WARN	missing_definition	VBO:0017545	IAO:0000115	
+WARN	missing_definition	VBO:0017546	IAO:0000115	
+WARN	missing_definition	VBO:0017547	IAO:0000115	
+WARN	missing_definition	VBO:0017548	IAO:0000115	
+WARN	missing_definition	VBO:0017549	IAO:0000115	
+WARN	missing_definition	VBO:0017550	IAO:0000115	
+WARN	missing_definition	VBO:0017553	IAO:0000115	
+WARN	missing_definition	VBO:0017554	IAO:0000115	
 WARN	missing_definition	VBO:0100000	IAO:0000115	
 WARN	missing_definition	VBO:0100001	IAO:0000115	
 WARN	missing_definition	VBO:0100002	IAO:0000115	
@@ -28816,7 +28839,6 @@ WARN	missing_definition	VBO:0100155	IAO:0000115
 WARN	missing_definition	VBO:0100156	IAO:0000115	
 WARN	missing_definition	VBO:0100157	IAO:0000115	
 WARN	missing_definition	VBO:0100158	IAO:0000115	
-WARN	missing_definition	VBO:0100159	IAO:0000115	
 WARN	missing_definition	VBO:0100160	IAO:0000115	
 WARN	missing_definition	VBO:0100161	IAO:0000115	
 WARN	missing_definition	VBO:0100162	IAO:0000115	
