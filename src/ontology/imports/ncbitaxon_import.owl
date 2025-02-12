@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2024-11-06/imports/ncbitaxon_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2024-07-31/subsets/taxslim.owl>)
-Annotation(owl:versionInfo "2024-11-06")
+<http://purl.obolibrary.org/obo/vbo/releases/2025-02-12/imports/ncbitaxon_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2024-11-25/subsets/taxslim.owl>)
+Annotation(owl:versionInfo "2025-02-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10026>))
@@ -60,6 +60,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30521>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30538>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30539>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30727>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3073799>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3073808>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3073809>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3078114>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))
@@ -729,15 +733,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2576912> "Felis chaus x Felis catus")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2576912> <http://purl.obolibrary.org/obo/NCBITaxon_9682>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2607030> (Caprimulgimorphae)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2607030> (Strisores)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "nightbirds")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "ncbi_taxonomy")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "Strisores")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "Caprimulgimorphae")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "NCBITaxon:2607030")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "Caprimulgimorphae")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2607030> <http://purl.obolibrary.org/obo/NCBITaxon_8825>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2607030> "Strisores")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2607030> <http://purl.obolibrary.org/obo/NCBITaxon_3078114>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_2607033> (Apodinae)
 
@@ -865,6 +870,44 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_30727> "NCBITaxon:30727")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_30727> "Cyprinoidei")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_30727> <http://purl.obolibrary.org/obo/NCBITaxon_7952>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3073799> (Columbimorphae)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_3073799> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3073799> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3073799> "pigeons, sandgrouse & allies")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_3073799> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_3073799> "NCBITaxon:3073799")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3073799> "Columbimorphae")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3073799> <http://purl.obolibrary.org/obo/NCBITaxon_3078114>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3073808> (Telluraves)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_3073808> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3073808> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3073808> "core landbirds")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_3073808> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_3073808> "NCBITaxon:3073808")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3073808> "Telluraves")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3073808> <http://purl.obolibrary.org/obo/NCBITaxon_3078114>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3073809> (Australaves)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_3073809> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3073809> "GC_ID:1")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_3073809> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_3073809> "NCBITaxon:3073809")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3073809> "Australaves")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3073809> <http://purl.obolibrary.org/obo/NCBITaxon_3073808>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3078114> (Neoaves)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_3078114> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3078114> "GC_ID:1")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_3078114> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_3078114> "NCBITaxon:3078114")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3078114> "Neoaves")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3078114> <http://purl.obolibrary.org/obo/NCBITaxon_8825>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_314145> (Laurasiatheria)
 
@@ -1710,7 +1753,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8783> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_8784> <http://purl.obolibrary.org/obo/NCBITaxon_order>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_8784> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8784> "Emu and cassowaries")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8784> "emus & cassowaries")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_8784> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_8784> "NCBITaxon:8784")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_8784> "Casuariiformes")
@@ -1861,7 +1904,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8825> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_8826> <http://purl.obolibrary.org/obo/NCBITaxon_order>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_8826> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8826> "ducks, geese and swans")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8826> "ducks, geese & swans")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_8826> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_8826> "NCBITaxon:8826")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_8826> "Anseriformes")
@@ -1929,7 +1972,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8842> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_8843> (Anser anser)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_8843> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_8843> "NCBITaxon:8848")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_8843> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8843> "Anser anser domesticus")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8843> "Domestic goose")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8843> "graylag goose")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8843> "greylag goose")
@@ -1951,12 +1996,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8854> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_8855> (Cairina moschata)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_8855> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "NCBITaxon:1240228")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "NCBITaxon:3235162")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Muscovy Duck (domestic type)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Muscovy duck")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "muscovy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "musky duck")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Anas moschata")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Cairina moschata domestica")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Cairina moschata domesticus")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Cairina moschata var. domestica")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_8855> "NCBITaxon:8855")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_8855> "Cairina moschata")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8855> <http://purl.obolibrary.org/obo/NCBITaxon_8854>)
@@ -1990,7 +2041,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_8929> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_8929> "NCBITaxon:8929")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_8929> "Columbiformes")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8929> <http://purl.obolibrary.org/obo/NCBITaxon_8825>)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_8929> <http://purl.obolibrary.org/obo/NCBITaxon_3073799>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_8930> (Columbidae)
 
@@ -2165,7 +2216,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9126> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9126> "NCBITaxon:9126")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9126> "Passeriformes")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9126> <http://purl.obolibrary.org/obo/NCBITaxon_8825>)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9126> <http://purl.obolibrary.org/obo/NCBITaxon_3073809>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_91561> (Artiodactyla)
 
@@ -2557,7 +2608,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9901> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9903> <http://purl.obolibrary.org/obo/NCBITaxon_genus>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9903> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9903> "oxen, cattle")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9903> "cattle")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9903> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9903> "NCBITaxon:9903")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9903> "Bos")
@@ -2569,10 +2620,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "NCBITaxon:272461")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "GC_ID:1")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "bovine")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "cattle")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "cow")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "dairy cow")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "domestic cattle")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "domestic cattle")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "domestic cow")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "ox")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "ncbi_taxonomy")
