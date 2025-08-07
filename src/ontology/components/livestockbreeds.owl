@@ -22058,7 +22058,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0001091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107</obo:IAO_0000233>
-        <terms:contributor rdf:resource="http://www.w3.org/2002/07/owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wpcssa.com/wp-content/uploads/2015/10/WPCSA.CONSTITUTION-2015.pdf</terms:source>
@@ -22099,7 +22098,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>A Welsh Pony with one registered Half-Welsh parent.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107</obo:IAO_0000233>
-        <terms:contributor rdf:resource="http://www.w3.org/2002/07/owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:source></terms:source>
@@ -22158,7 +22156,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000115>A Welsh Pony with one purebred Welsh registered parent.</obo:IAO_0000115>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/107</obo:IAO_0000233>
-        <terms:contributor rdf:resource="http://www.w3.org/2002/07/owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wpcsa.org/start/half-welshpart-bred/</terms:source>
@@ -22240,6 +22237,63 @@
         <owl:annotatedTarget>Welsh Mountain Pony (Section A)</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wpcs.uk.com/join-the-society/history-of-the-society/#:~:text=It%20contains%20four%20Sections%3A%20The,height%20limit%20(Section%20D).</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VBO_0017555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/221</obo:IAO_0000233>
+        <vbo:origindescription>Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.  </vbo:origindescription>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
+        <terms:source>PMID:40021102</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Feli%C5%84ski</terms:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pzhk.pl/en/breeding/breeding-statistics/</terms:source>
+        <oboInOwl:hasExactSynonym>Felin Pony</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Feliński Pony</oboInOwl:hasExactSynonym>
+        <rdfs:label>Felin Pony (Horse)</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017555"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+        <oboInOwl:source></oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-6238-9793</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017555"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
+        <oboInOwl:source></oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0001-6238-9793</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017555"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
+        <owl:annotatedTarget>Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.  </owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pzhk.pl/en/breeding/breeding-statistics/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017555"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Felin Pony</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/vbo#most_common_name"/>
+        <oboInOwl:source>PMID:40021102</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Feli%C5%84ski</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pzhk.pl/en/breeding/breeding-statistics/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017555"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Feliński Pony</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Feli%C5%84ski</oboInOwl:source>
     </owl:Axiom>
     
 
