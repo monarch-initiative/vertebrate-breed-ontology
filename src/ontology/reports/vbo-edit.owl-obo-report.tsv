@@ -29,96 +29,11 @@ WARN	annotation_whitespace	VBO:0015877	oboInOwl:hasExactSynonym	Agew
 WARN	annotation_whitespace	VBO:0015877	oboInOwl:hasExactSynonym	Dangilla 
 WARN	annotation_whitespace	VBO:0016608	oboInOwl:hasExactSynonym	Yemeni White 
 WARN	annotation_whitespace	VBO:0017483	obo:vbo#origindescription	Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport. 
+WARN	annotation_whitespace	VBO:0017555	obo:vbo#origindescription	Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.  
 WARN	annotation_whitespace	VBO:0100118	IAO:0000115	A cat of mixed ancestry that has not been intentionally bred and possess a coat of long fur. 
 WARN	annotation_whitespace	VBO:0100119	IAO:0000115	A cat of mixed ancestry that has not been intentionally bred and possess a coat of short fur. 
 WARN	annotation_whitespace	VBO:0100235	IAO:0000233	https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/195^^http://www.w3.org/2001/XMLSchema#anyURI
 WARN	annotation_whitespace	VBO:0100265	IAO:0000115	A cat of mixed ancestry that has not been intentionally bred and possess a coat of semi-long fur. 
-WARN	annotation_whitespace	VBO:0200002	oboInOwl:hasExactSynonym	African Hairless Dog 
-WARN	annotation_whitespace	VBO:0200069	oboInOwl:hasExactSynonym	Levrier Marocain 
-WARN	annotation_whitespace	VBO:0200156	oboInOwl:hasExactSynonym	Berger Savoyard 
-WARN	annotation_whitespace	VBO:0200197	oboInOwl:hasExactSynonym	Wolfhound - Siberian 
-WARN	annotation_whitespace	VBO:0200299	oboInOwl:hasExactSynonym	Shepherd - Catalonian 
-WARN	annotation_whitespace	VBO:0200301	oboInOwl:hasExactSynonym	Mountain Dog - Russian 
-WARN	annotation_whitespace	VBO:0200373	oboInOwl:hasExactSynonym	Cocker Spaniel, A.S.C.O.B 
-WARN	annotation_whitespace	VBO:0200387	oboInOwl:hasExactSynonym	Porgi 
-WARN	annotation_whitespace	VBO:0200428	oboInOwl:hasExactSynonym	Spalmatian 
-WARN	annotation_whitespace	VBO:0200451	oboInOwl:hasExactSynonym	Dorkie Terrier 
-WARN	annotation_whitespace	VBO:0200482	oboInOwl:hasExactSynonym	English Bull Terrier, Coloured 
-WARN	annotation_whitespace	VBO:0200523	oboInOwl:hasExactSynonym	Suomenlapinkoira 
-WARN	annotation_whitespace	VBO:0200576	oboInOwl:hasExactSynonym	Schafpudel 
-WARN	annotation_whitespace	VBO:0200611	oboInOwl:hasExactSynonym	Groodle 
-WARN	annotation_whitespace	VBO:0200634	oboInOwl:hasExactSynonym	Shepherd Dog - Greek 
-WARN	annotation_whitespace	VBO:0200726	oboInOwl:hasExactSynonym	Jackhuahua 
-WARN	annotation_whitespace	VBO:0200730	oboInOwl:hasExactSynonym	Jackashit 
-WARN	annotation_whitespace	VBO:0200731	oboInOwl:hasExactSynonym	Jackweenie 
-WARN	annotation_whitespace	VBO:0200746	oboInOwl:hasExactSynonym	PugRussell 
-WARN	annotation_whitespace	VBO:0200749	oboInOwl:hasExactSynonym	Karabash 
-WARN	annotation_whitespace	VBO:0200779	oboInOwl:hasExactSynonym	Sheepdog - Komondor 
-WARN	annotation_whitespace	VBO:0200796	oboInOwl:hasExactSynonym	Lhasa-Chon 
-WARN	annotation_whitespace	VBO:0200797	oboInOwl:hasExactSynonym	Sharpador 
-WARN	annotation_whitespace	VBO:0200801	oboInOwl:hasExactSynonym	Vizslador 
-WARN	annotation_whitespace	VBO:0200814	oboInOwl:hasExactSynonym	Lapponian Herder 
-WARN	annotation_whitespace	VBO:0200825	oboInOwl:hasExactSynonym	Lhasadoodle 
-WARN	annotation_whitespace	VBO:0200826	oboInOwl:hasExactSynonym	Lhasalier Spaniel 
-WARN	annotation_whitespace	VBO:0200846	oboInOwl:hasExactSynonym	Rater Mallorqui 
-WARN	annotation_whitespace	VBO:0200850	oboInOwl:hasExactSynonym	Bardino Majorero 
-WARN	annotation_whitespace	VBO:0200851	oboInOwl:hasExactSynonym	Shihtese 
-WARN	annotation_whitespace	VBO:0200857	oboInOwl:hasExactSynonym	Maltese Miniature 
-WARN	annotation_whitespace	VBO:0200858	oboInOwl:hasExactSynonym	Malt Russell 
-WARN	annotation_whitespace	VBO:0200860	oboInOwl:hasExactSynonym	Maloodle 
-WARN	annotation_whitespace	VBO:0200861	oboInOwl:hasExactSynonym	Pomanees 
-WARN	annotation_whitespace	VBO:0200864	oboInOwl:hasExactSynonym	Andalusian Podenco Maneto 
-WARN	annotation_whitespace	VBO:0200865	oboInOwl:hasExactSynonym	Sheepdog – Italian 
-WARN	annotation_whitespace	VBO:0200880	oboInOwl:hasExactSynonym	North American Shepherd 
-WARN	annotation_whitespace	VBO:0200890	oboInOwl:hasExactSynonym	Goldendoodle - Toy 
-WARN	annotation_whitespace	VBO:0200890	oboInOwl:hasExactSynonym	Mini Groodle 
-WARN	annotation_whitespace	VBO:0200893	oboInOwl:hasExactSynonym	Min Pin 
-WARN	annotation_whitespace	VBO:0200907	oboInOwl:hasExactSynonym	Yorktese 
-WARN	annotation_whitespace	VBO:0200930	oboInOwl:hasExactSynonym	Napolitino 
-WARN	annotation_whitespace	VBO:0200935	oboInOwl:hasExactSynonym	New Zealand Eye Dog 
-WARN	annotation_whitespace	VBO:0200992	oboInOwl:hasExactSynonym	Patterdoodle 
-WARN	annotation_whitespace	VBO:0201014	oboInOwl:hasExactSynonym	Petite Groodle 
-WARN	annotation_whitespace	VBO:0201030	oboInOwl:hasExactSynonym	Pointweiler 
-WARN	annotation_whitespace	VBO:0201039	oboInOwl:hasExactSynonym	Poopom 
-WARN	annotation_whitespace	VBO:0201040	oboInOwl:hasExactSynonym	Pugeranian 
-WARN	annotation_whitespace	VBO:0201041	oboInOwl:hasExactSynonym	Pomahuahua 
-WARN	annotation_whitespace	VBO:0201042	oboInOwl:hasExactSynonym	Beagle-Pom 
-WARN	annotation_whitespace	VBO:0201044	oboInOwl:hasExactSynonym	Chowpom 
-WARN	annotation_whitespace	VBO:0201090	oboInOwl:hasExactSynonym	Pugador 
-WARN	annotation_whitespace	VBO:0201091	oboInOwl:hasExactSynonym	Pugzu 
-WARN	annotation_whitespace	VBO:0201096	oboInOwl:hasExactSynonym	Cavapug 
-WARN	annotation_whitespace	VBO:0201098	oboInOwl:hasExactSynonym	Pugpoo 
-WARN	annotation_whitespace	VBO:0201099	oboInOwl:hasExactSynonym	Buggle 
-WARN	annotation_whitespace	VBO:0201100	oboInOwl:hasExactSynonym	Pekeapug 
-WARN	annotation_whitespace	VBO:0201101	oboInOwl:hasExactSynonym	Pugland Terrier 
-WARN	annotation_whitespace	VBO:0201111	oboInOwl:hasExactSynonym	Pyreneespoo 
-WARN	annotation_whitespace	VBO:0201193	oboInOwl:hasExactSynonym	Scottish Shoodle 
-WARN	annotation_whitespace	VBO:0201214	oboInOwl:hasExactSynonym	Sharpoodle 
-WARN	annotation_whitespace	VBO:0201218	oboInOwl:hasExactSynonym	Jug-Shih Tzu cross 
-WARN	annotation_whitespace	VBO:0201221	oboInOwl:hasExactSynonym	Chi-Tzu 
-WARN	annotation_whitespace	VBO:0201224	oboInOwl:hasExactSynonym	Shih-Doodle 
-WARN	annotation_whitespace	VBO:0201227	oboInOwl:hasExactSynonym	Shih-tze 
-WARN	annotation_whitespace	VBO:0201228	oboInOwl:hasExactSynonym	Shi-Pom 
-WARN	annotation_whitespace	VBO:0201229	oboInOwl:hasExactSynonym	German Shepherd Border Collie mix 
-WARN	annotation_whitespace	VBO:0201232	oboInOwl:hasExactSynonym	German Shepherd-Pug mix 
-WARN	annotation_whitespace	VBO:0201237	oboInOwl:hasExactSynonym	Terrier - Australian Silky 
-WARN	annotation_whitespace	VBO:0201259	oboInOwl:hasExactSynonym	Shnorkie 
-WARN	annotation_whitespace	VBO:0201283	oboInOwl:hasExactSynonym	Spaniel-Corgi mix 
-WARN	annotation_whitespace	VBO:0201285	oboInOwl:hasExactSynonym	Springerdor 
-WARN	annotation_whitespace	VBO:0201286	oboInOwl:hasExactSynonym	Springer Spaniel-Basset mix 
-WARN	annotation_whitespace	VBO:0201288	oboInOwl:hasExactSynonym	Springapoo 
-WARN	annotation_whitespace	VBO:0201289	oboInOwl:hasExactSynonym	Sprocket 
-WARN	annotation_whitespace	VBO:0201310	oboInOwl:hasExactSynonym	Swedish Briard 
-WARN	annotation_whitespace	VBO:0201335	oboInOwl:hasExactSynonym	Tam 
-WARN	annotation_whitespace	VBO:0201398	oboInOwl:hasExactSynonym	West Highland Schnauzer 
-WARN	annotation_whitespace	VBO:0201400	oboInOwl:hasExactSynonym	Westichon 
-WARN	annotation_whitespace	VBO:0201404	oboInOwl:hasExactSynonym	Weimarpoo 
-WARN	annotation_whitespace	VBO:0201417	oboInOwl:hasExactSynonym	Wee-Poo 
-WARN	annotation_whitespace	VBO:0201432	oboInOwl:hasExactSynonym	Welshdoodle Terrier 
-WARN	annotation_whitespace	VBO:0201445	oboInOwl:hasExactSynonym	Porkie 
-WARN	annotation_whitespace	VBO:0201446	oboInOwl:hasExactSynonym	YorkieJack 
-WARN	annotation_whitespace	VBO:0201447	oboInOwl:hasExactSynonym	Yoodle 
-WARN	annotation_whitespace	VBO:0201451	oboInOwl:hasExactSynonym	Mountain Dog 
 WARN	annotation_whitespace	VBO:0300002	IAO:0000115	Breed recognition status referring to a breed recognized by an international breed registration body. This status also refers to breeds that are eligible to compete in championship classes. 
 WARN	annotation_whitespace	VBO:0300004	IAO:0000115	Breed recognition status referring to a breed that is reported by an international breed registration body but not recognized. 
 WARN	annotation_whitespace	VBO:0300009	rdfs:comment	Risk of extinction is determined using matrix based on the breeding population and reproductive capacity of the breed (https://www.fao.org/dad-is). It should be noted that the extinction risk criteria might differ between the international breed organizations. 
@@ -1318,6 +1233,8 @@ WARN	duplicate_exact_synonym	VBO:0001082	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0011037	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0200231	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0201344	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0200096	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0201237	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003623	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004721	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002020	oboInOwl:hasExactSynonym	
@@ -2089,7 +2006,6 @@ WARN	duplicate_exact_synonym	VBO:0013770	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0013771	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0013772	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000619	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0201237	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0006397	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0006398	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0006399	oboInOwl:hasExactSynonym	
@@ -6052,6 +5968,8 @@ WARN	duplicate_exact_synonym	VBO:0010739	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0016423	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0016555	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0017319	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0016391	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VBO:0200749	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001002	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0001456	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0014641	oboInOwl:hasExactSynonym	
@@ -6071,7 +5989,6 @@ WARN	duplicate_exact_synonym	VBO:0016036	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0000254	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003440	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0003441	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0200749	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0200750	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0014753	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004359	oboInOwl:hasExactSynonym	
@@ -10506,7 +10423,6 @@ WARN	duplicate_exact_synonym	VBO:0005476	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0201434	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0004387	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0016886	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0200096	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000118	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002281	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0002282	oboInOwl:hasExactSynonym	
@@ -10708,7 +10624,6 @@ WARN	duplicate_exact_synonym	VBO:0010394	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	VBO:0010398	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0010400	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0014252	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VBO:0000906	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0010401	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0000671	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VBO:0008096	oboInOwl:hasExactSynonym	
@@ -12072,7 +11987,6 @@ WARN	missing_definition	VBO:0000902	IAO:0000115
 WARN	missing_definition	VBO:0000903	IAO:0000115	
 WARN	missing_definition	VBO:0000904	IAO:0000115	
 WARN	missing_definition	VBO:0000905	IAO:0000115	
-WARN	missing_definition	VBO:0000906	IAO:0000115	
 WARN	missing_definition	VBO:0000907	IAO:0000115	
 WARN	missing_definition	VBO:0000908	IAO:0000115	
 WARN	missing_definition	VBO:0000909	IAO:0000115	
@@ -28687,6 +28601,7 @@ WARN	missing_definition	VBO:0017549	IAO:0000115
 WARN	missing_definition	VBO:0017550	IAO:0000115	
 WARN	missing_definition	VBO:0017553	IAO:0000115	
 WARN	missing_definition	VBO:0017554	IAO:0000115	
+WARN	missing_definition	VBO:0017555	IAO:0000115	
 WARN	missing_definition	VBO:0100000	IAO:0000115	
 WARN	missing_definition	VBO:0100001	IAO:0000115	
 WARN	missing_definition	VBO:0100002	IAO:0000115	
@@ -30348,6 +30263,14 @@ WARN	missing_definition	VBO:0201453	IAO:0000115
 WARN	missing_definition	VBO:0201454	IAO:0000115	
 WARN	missing_definition	VBO:0201455	IAO:0000115	
 WARN	missing_definition	VBO:0201456	IAO:0000115	
+WARN	missing_definition	VBO:0201457	IAO:0000115	
+WARN	missing_definition	VBO:0201458	IAO:0000115	
+WARN	missing_definition	VBO:0201459	IAO:0000115	
+WARN	missing_definition	VBO:0201460	IAO:0000115	
+WARN	missing_definition	VBO:0201461	IAO:0000115	
+WARN	missing_definition	VBO:0201462	IAO:0000115	
+WARN	missing_definition	VBO:0201463	IAO:0000115	
+WARN	missing_definition	VBO:0201464	IAO:0000115	
 WARN	missing_definition	VBO:0300000	IAO:0000115	
 WARN	missing_definition	obo:vbo#breed_code	IAO:0000115	
 WARN	missing_definition	obo:vbo#breed_recognition_status	IAO:0000115	
