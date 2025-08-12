@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2025-02-12/imports/ncbitaxon_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2024-11-25/subsets/taxslim.owl>)
-Annotation(owl:versionInfo "2025-02-12")
+<http://purl.obolibrary.org/obo/vbo/releases/2025-08-12/imports/ncbitaxon_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2025-03-13/subsets/taxslim.owl>)
+Annotation(owl:versionInfo "2025-08-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10026>))
@@ -633,7 +633,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "GC_ID:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "Galloanseri")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "ducks, geese, chickens, fowl, quail, currasows and allies")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "NCBITaxon:1549675")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "Galloanserae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1549675> <http://purl.obolibrary.org/obo/NCBITaxon_8825>)

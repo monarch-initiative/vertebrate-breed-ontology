@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2025-02-12/imports/cob_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cob/releases/2025-01-23/cob.owl>)
-Annotation(owl:versionInfo "2025-02-12")
+<http://purl.obolibrary.org/obo/vbo/releases/2025-08-12/imports/cob_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/cob/releases/2025-06-30/cob.owl>)
+Annotation(owl:versionInfo "2025-08-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
@@ -76,11 +76,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "def
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000116> (editor note)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000116> "editor note")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000116> "editor note"@en)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0100001> (term replaced by)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "term replaced by")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "term replaced by"@en)
 
 
 ############################
@@ -89,75 +89,75 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "ter
 
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000050> "a core relation that holds between a part and its whole")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000050> "a core relation that holds between a part and its whole"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000051> "a core relation that holds between a whole and its part")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000051> "a core relation that holds between a whole and its part"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (is about)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is about")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is about"@en)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (characteristic of)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000052> "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000052> "characteristic of")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000052> "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000052> "characteristic of"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "Inverse of characteristic_of")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "Inverse of characteristic_of"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000056> "participates in")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000056> "participates in"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (has participant)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000057> "a relation between a process and a continuant, in which the continuant is somehow involved in the process")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000057> "has participant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000057> "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000057> "has participant"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000058> (is concretized as)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000058> "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000058> "is concretized as")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000058> "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000058> "is concretized as"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000059> (concretizes)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000059> "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000059> "concretizes")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000059> "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000059> "concretizes"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0001015> (location of)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001015> "a relation between two independent continuants, the location and the target, in which the target is entirely within the location")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001015> "location of")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001015> "a relation between two independent continuants, the location and the target, in which the target is entirely within the location"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001015> "location of"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001025> "a relation between two independent continuants, the target and the location, in which the target is entirely within the location")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located in")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001025> "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located in"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002215> (capable of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002215> "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002215> "capable of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002215> "capable of"@en)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002233> (has input)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002233> "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002233> "has input")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002233> "has input"@en)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002333> (enabled by)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002333> "inverse of enables")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002333> "enabled by")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002333> "enabled by"@en)
 
 
 ############################
@@ -166,7 +166,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002333> "enab
 
 # Data Property: <http://purl.obolibrary.org/obo/COB_0000801> (has number of atomic nuclei)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000801> "has number of atomic nuclei")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000801> "has number of atomic nuclei"@en)
 DataPropertyDomain(<http://purl.obolibrary.org/obo/COB_0000801> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 
@@ -177,36 +177,36 @@ DataPropertyDomain(<http://purl.obolibrary.org/obo/COB_0000801> <http://purl.obo
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process"@en)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000016> "disposition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000016> "disposition"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000017> (realizable entity)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/COB_0000502>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000023> (role)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000023> "role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000023> "role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000034> (function)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000034> "function")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000034> "function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000040> "Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000040> "Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity"@en)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_24636> (proton)
 
@@ -217,8 +217,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24636> <http://purl.obolibrary.
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33252> (atomic nucleus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33252> "A nucleus is the positively charged central portion of an atom, excluding the orbital electrons.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33252> "Some people may be uncomfortable calling every proton an atomic nucleus")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33252> "This is equivalent to CHEBI:33252")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33252> "Some people may be uncomfortable calling every proton an atomic nucleus"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33252> "This is equivalent to CHEBI:33252"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33252> "atomic nucleus")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33252> <http://purl.obolibrary.org/obo/CHEBI_36342>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_24636>))
@@ -233,41 +233,41 @@ DisjointClasses(<http://purl.obolibrary.org/obo/CHEBI_36342> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/CL_0000000> (cell)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000000> "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CL_0000000> "CL and GO definitions of cell differ based on inclusive or exclusive of cell wall, etc.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CL_0000000> "We struggled with this definition. We are worried about circularity. We also considered requiring the capability of metabolism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CL_0000000> "CL and GO definitions of cell differ based on inclusive or exclusive of cell wall, etc."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CL_0000000> "We struggled with this definition. We are worried about circularity. We also considered requiring the capability of metabolism."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000000> "cell")
 SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0000465>)
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000011> (atom)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000011> "A material entity consisting of exactly one atomic nucleus and the electron(s) orbiting it.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000011> "This atom is closely related to ChEBI's atom, but not exactly equivalent to.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000011> "atom")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000011> "A material entity consisting of exactly one atomic nucleus and the electron(s) orbiting it."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000011> "This atom is closely related to ChEBI's atom, but not exactly equivalent to."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000011> "atom"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000011> <http://purl.obolibrary.org/obo/BFO_0000040>)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_33252>))
 DisjointClasses(<http://purl.obolibrary.org/obo/COB_0000011> <http://purl.obolibrary.org/obo/COB_0000013>)
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000013> (molecule)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000013> "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000013> "This molecular entity is different than ChEBI's 'molecular entity'.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000013> "We would like to have cardinality restrictions on the logic, but there are some technical limitations.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000013> "molecule")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000013> "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000013> "This molecular entity is different than ChEBI's 'molecular entity'."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000013> "We would like to have cardinality restrictions on the logic, but there are some technical limitations."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000013> "molecule"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000013> <http://purl.obolibrary.org/obo/BFO_0000040>)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/COB_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000021> (gross anatomical part)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000021> "A part of a multicellular organism that is a collection of cell components that are not all contained in one cell.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000021> "gross anatomical part")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000021> "A part of a multicellular organism that is a collection of cell components that are not all contained in one cell."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000021> "gross anatomical part"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000021> <http://purl.obolibrary.org/obo/UBERON_0000465>)
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000022> (organism)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000022> "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000022> "'Maximal functionally integrated unit' is intended to express unity, which Barry considers synonymous with BFO 'object'.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000022> "Includes virus - we will later have a class for cellular organisms.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000022> "organism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000022> "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000022> "'Maximal functionally integrated unit' is intended to express unity, which Barry considers synonymous with BFO 'object'."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000022> "Includes virus - we will later have a class for cellular organisms."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000022> "organism"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/UBERON_0000465>)
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000073> (obsolete gene product)
@@ -277,8 +277,8 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/COB_0000073> 
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000080> (complex of molecules)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000080> "A complex of two or more molecular entities that are not covalently bound.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000080> "complex of molecules")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000080> "A complex of two or more molecules that are not covalently bound."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000080> "complex of molecules"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000080> <http://purl.obolibrary.org/obo/BFO_0000040>)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/COB_0000013>))
 
@@ -289,13 +289,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/COB_0000122> 
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000502> (characteristic)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000502> "characteristic")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000502> "characteristic"@en)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003674> (gene product or complex activity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0003674> "This is the same as GO molecular function")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "gene product or complex activity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0003674> "This is the same as GO molecular function"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "gene product or complex activity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
@@ -308,14 +308,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological process")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0003674>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0032991> (protein-containing complex)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032991> "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0032991> "This is not covalently bonded, which conflicts with changes to the parent definition.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0032991> "This is not covalently bonded, which conflicts with changes to the parent definition."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032991> "protein-containing complex")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032991> <http://purl.obolibrary.org/obo/COB_0000080>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032991> <http://purl.obolibrary.org/obo/GO_0005575>)
@@ -330,8 +330,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0044423> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/GO_0110165> (cellular anatomical entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0110165> "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0110165> "Components are larger than individual macromolecular entities. It is tricky to define distinction between 'cell component' and 'macromolecular entity', e.g. ribosome. We would like to exclude most protein complexes.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0110165> "Overlaps with some cellular components from GO")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0110165> "Components are larger than individual macromolecular entities. It is tricky to define distinction between 'cell component' and 'macromolecular entity', e.g. ribosome. We would like to exclude most protein complexes."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0110165> "Overlaps with some cellular components from GO"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0110165> "cellular anatomical entity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/GO_0005575>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/UBERON_0000465>)
@@ -339,15 +339,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> ObjectSomeValuesFrom(<htt
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data item)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "A generically dependent continuant that is about some thing.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000030> "Pier: 'data, information or knowledge'. OR 'representation'")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "A generically dependent continuant that is about some thing."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000030> "Pier: 'data, information or knowledge'. OR 'representation'"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_131567> (cellular organism)
 
