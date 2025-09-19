@@ -21024,7 +21024,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/170</obo:IAO_0000233>
-        <vbo:origindescription>Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport. </vbo:origindescription>
+        <vbo:origindescription>Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:source>PMID:37592264</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Warmblood</terms:source>
@@ -21046,7 +21046,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017483"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
-        <owl:annotatedTarget>Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport. </owl:annotatedTarget>
+        <owl:annotatedTarget>Warmbloods are a group of middle-weight horse types and breeds primarily originating in Europe and registered with organizations that are characterized by open studbook policy, studbook selection, and the aim of breeding for equestrian sport.</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Warmblood</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -22420,7 +22420,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/221</obo:IAO_0000233>
-        <vbo:origindescription>Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.  </vbo:origindescription>
+        <vbo:origindescription>Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-6238-9793"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5002-8648"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
@@ -22450,7 +22450,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017555"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/vbo#origindescription"/>
-        <owl:annotatedTarget>Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.  </owl:annotatedTarget>
+        <owl:annotatedTarget>Polish bred sport ponies that descend from Arab horses, Polish koniks, Malopolska horses and Welsh ponies.</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pzhk.pl/en/breeding/breeding-statistics/</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
