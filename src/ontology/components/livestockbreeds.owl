@@ -96,6 +96,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2510329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2510329"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_30522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
@@ -144,9 +156,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9915"/>
     
 
 
@@ -1275,9 +1299,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016905 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016905">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000006</terms:source>
         <oboInOwl:hasExactSynonym>Alberes cattle</oboInOwl:hasExactSynonym>
@@ -1286,7 +1311,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016905"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000006</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1308,9 +1333,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016906">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000007</terms:source>
         <oboInOwl:hasExactSynonym>Alentejana cattle</oboInOwl:hasExactSynonym>
@@ -1319,7 +1345,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016906"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000007</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1341,9 +1367,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016907">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000937</terms:source>
         <oboInOwl:hasExactSynonym>American Braford</oboInOwl:hasExactSynonym>
@@ -1352,7 +1379,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016907"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000937</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1374,9 +1401,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016908 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016908">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000010</terms:source>
         <oboInOwl:hasExactSynonym>American White Park</oboInOwl:hasExactSynonym>
@@ -1385,7 +1413,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016908"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000010</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1407,9 +1435,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016909 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016909">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000012</terms:source>
         <oboInOwl:hasExactSynonym>Amrit Mahal</oboInOwl:hasExactSynonym>
@@ -1418,7 +1447,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016909"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000012</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1440,9 +1469,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016910">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000013</terms:source>
         <oboInOwl:hasExactSynonym>Anatolian Black</oboInOwl:hasExactSynonym>
@@ -1451,7 +1481,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016910"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000013</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1473,9 +1503,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016911 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016911">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000014</terms:source>
         <oboInOwl:hasExactSynonym>Andalusian Black</oboInOwl:hasExactSynonym>
@@ -1484,7 +1515,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016911"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000014</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1506,9 +1537,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016912 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016912">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000019</terms:source>
         <oboInOwl:hasExactSynonym>Ankole-Watusi</oboInOwl:hasExactSynonym>
@@ -1517,7 +1549,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016912"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000019</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1539,9 +1571,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016913 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016913">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000021</terms:source>
         <oboInOwl:hasExactSynonym>Asturian Mountain</oboInOwl:hasExactSynonym>
@@ -1550,7 +1583,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016913"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000021</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1572,9 +1605,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016914">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000025</terms:source>
         <oboInOwl:hasExactSynonym>Australian Braford</oboInOwl:hasExactSynonym>
@@ -1583,7 +1617,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016914"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000025</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1605,9 +1639,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016915 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016915">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001093</terms:source>
         <oboInOwl:hasExactSynonym>Australian Red</oboInOwl:hasExactSynonym>
@@ -1616,7 +1651,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016915"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0001093</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1638,9 +1673,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016916 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016916">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000031</terms:source>
         <oboInOwl:hasExactSynonym>Bachaur</oboInOwl:hasExactSynonym>
@@ -1649,7 +1685,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016916"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000031</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1671,9 +1707,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016917">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000032</terms:source>
         <oboInOwl:hasExactSynonym>Baladi</oboInOwl:hasExactSynonym>
@@ -1682,7 +1719,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016917"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1704,9 +1741,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016918 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016918">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000033</terms:source>
         <oboInOwl:hasExactSynonym>Baltana Romaneasca</oboInOwl:hasExactSynonym>
@@ -1715,7 +1753,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016918"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000033</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1737,9 +1775,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016919 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016919">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000035</terms:source>
         <oboInOwl:hasExactSynonym>Barzona</oboInOwl:hasExactSynonym>
@@ -1748,7 +1787,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016919"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000035</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1770,9 +1809,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016920 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016920">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000039</terms:source>
         <oboInOwl:hasExactSynonym>Beefmaker</oboInOwl:hasExactSynonym>
@@ -1781,7 +1821,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016920"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000039</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1803,9 +1843,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016921 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016921">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000041</terms:source>
         <oboInOwl:hasExactSynonym>Belarus Red</oboInOwl:hasExactSynonym>
@@ -1814,7 +1855,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016921"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000041</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1836,9 +1877,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016922">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000044</terms:source>
         <oboInOwl:hasExactSynonym>Belmont Adaptaur</oboInOwl:hasExactSynonym>
@@ -1847,7 +1889,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016922"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000044</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1869,9 +1911,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016923 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016923">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000050</terms:source>
         <oboInOwl:hasExactSynonym>Blacksided Trondheim and Norland</oboInOwl:hasExactSynonym>
@@ -1880,7 +1923,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016923"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000050</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1902,9 +1945,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016924 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016924">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000052</terms:source>
         <oboInOwl:hasExactSynonym>Blanco Orejinegro</oboInOwl:hasExactSynonym>
@@ -1913,7 +1957,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016924"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000052</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1935,9 +1979,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016925 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016925">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000056</terms:source>
         <oboInOwl:hasExactSynonym>Bordelais</oboInOwl:hasExactSynonym>
@@ -1946,7 +1991,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016925"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000056</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -1968,9 +2013,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016926">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000065</terms:source>
         <oboInOwl:hasExactSynonym>Cachena</oboInOwl:hasExactSynonym>
@@ -1979,7 +2025,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016926"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000065</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2001,9 +2047,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016927 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016927">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000066</terms:source>
         <oboInOwl:hasExactSynonym>Canadienne</oboInOwl:hasExactSynonym>
@@ -2012,7 +2059,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016927"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000066</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2034,9 +2081,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016928 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016928">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000067</terms:source>
         <oboInOwl:hasExactSynonym>Canary Island</oboInOwl:hasExactSynonym>
@@ -2045,7 +2093,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016928"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000067</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2067,9 +2115,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016929 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016929">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000068</terms:source>
         <oboInOwl:hasExactSynonym>Canchim</oboInOwl:hasExactSynonym>
@@ -2078,7 +2127,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016929"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000068</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2100,9 +2149,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016930">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000075</terms:source>
         <oboInOwl:hasExactSynonym>Chinampo</oboInOwl:hasExactSynonym>
@@ -2111,7 +2161,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016930"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000075</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2133,9 +2183,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016931 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016931">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000076</terms:source>
         <oboInOwl:hasExactSynonym>Chinese Black-and-White</oboInOwl:hasExactSynonym>
@@ -2144,7 +2195,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016931"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000076</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2166,9 +2217,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016932">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000077</terms:source>
         <oboInOwl:hasExactSynonym>Cholistani</oboInOwl:hasExactSynonym>
@@ -2177,7 +2229,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016932"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000077</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2199,9 +2251,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016933">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000078</terms:source>
         <oboInOwl:hasExactSynonym>Corriente</oboInOwl:hasExactSynonym>
@@ -2210,7 +2263,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016933"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000078</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2232,10 +2285,11 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016934">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/205</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000079</terms:source>
         <terms:source>https://orcid.org/0000-0002-5520-6597</terms:source>
@@ -2245,7 +2299,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016934"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000079</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2268,9 +2322,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016935 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016935">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000080</terms:source>
         <oboInOwl:hasExactSynonym>Dajal</oboInOwl:hasExactSynonym>
@@ -2279,7 +2334,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016935"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000080</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2301,9 +2356,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016936 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016936">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000082</terms:source>
         <oboInOwl:hasExactSynonym>Damietta</oboInOwl:hasExactSynonym>
@@ -2312,7 +2368,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016936"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000082</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2334,9 +2390,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016937">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000083</terms:source>
         <oboInOwl:hasExactSynonym>Dangi</oboInOwl:hasExactSynonym>
@@ -2345,7 +2402,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016937"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000083</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2367,9 +2424,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016938 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016938">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000084</terms:source>
         <oboInOwl:hasExactSynonym>Danish Jersey</oboInOwl:hasExactSynonym>
@@ -2378,7 +2436,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016938"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000084</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2400,9 +2458,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016939">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000086</terms:source>
         <oboInOwl:hasExactSynonym>Deoni</oboInOwl:hasExactSynonym>
@@ -2411,7 +2470,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016939"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000086</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2433,9 +2492,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016940">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000089</terms:source>
         <oboInOwl:hasExactSynonym>Dhanni</oboInOwl:hasExactSynonym>
@@ -2444,7 +2504,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016940"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000089</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2466,9 +2526,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016941 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016941">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000090</terms:source>
         <oboInOwl:hasExactSynonym>Dølafe</oboInOwl:hasExactSynonym>
@@ -2477,7 +2538,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016941"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000090</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2499,9 +2560,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016942 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016942">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000092</terms:source>
         <oboInOwl:hasExactSynonym>Dulong</oboInOwl:hasExactSynonym>
@@ -2510,7 +2572,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016942"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000092</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2532,9 +2594,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016943 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016943">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000095</terms:source>
         <oboInOwl:hasExactSynonym>East Anatolian Red</oboInOwl:hasExactSynonym>
@@ -2543,7 +2606,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016943"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000095</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2565,9 +2628,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016944">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000096</terms:source>
         <oboInOwl:hasExactSynonym>Enderby Island</oboInOwl:hasExactSynonym>
@@ -2576,7 +2640,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016944"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000096</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2598,9 +2662,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016945">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000097</terms:source>
         <oboInOwl:hasExactSynonym>English Longhorn</oboInOwl:hasExactSynonym>
@@ -2609,7 +2674,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016945"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000097</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2631,9 +2696,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016946 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016946">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000099</terms:source>
         <oboInOwl:hasExactSynonym>Evolène</oboInOwl:hasExactSynonym>
@@ -2642,7 +2708,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016946"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000099</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2664,9 +2730,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016947 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016947">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000103</terms:source>
         <oboInOwl:hasExactSynonym>Florida Cracker/Pineywoods</oboInOwl:hasExactSynonym>
@@ -2675,7 +2742,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016947"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000103</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2697,9 +2764,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016948 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016948">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001104</terms:source>
         <oboInOwl:hasExactSynonym>Frieswal</oboInOwl:hasExactSynonym>
@@ -2708,7 +2776,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016948"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0001104</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2730,9 +2798,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016949 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016949">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000111</terms:source>
         <oboInOwl:hasExactSynonym>German Angus</oboInOwl:hasExactSynonym>
@@ -2741,7 +2810,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016949"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000111</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2763,9 +2832,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016950 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016950">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000107</terms:source>
         <oboInOwl:hasExactSynonym>Gaolao</oboInOwl:hasExactSynonym>
@@ -2774,7 +2844,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016950"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000107</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2796,9 +2866,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016951 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016951">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001079</terms:source>
         <oboInOwl:hasExactSynonym>German Black Pied</oboInOwl:hasExactSynonym>
@@ -2807,7 +2878,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016951"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0001079</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2829,9 +2900,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016952 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016952">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000116</terms:source>
         <oboInOwl:hasExactSynonym>Gobra</oboInOwl:hasExactSynonym>
@@ -2840,7 +2912,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016952"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000116</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2862,9 +2934,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000123</terms:source>
         <oboInOwl:hasExactSynonym>Hallikar</oboInOwl:hasExactSynonym>
@@ -2873,7 +2946,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016953"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000123</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2895,9 +2968,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016954 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016954">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000125</terms:source>
         <oboInOwl:hasExactSynonym>Harton</oboInOwl:hasExactSynonym>
@@ -2906,7 +2980,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016954"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000125</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2928,9 +3002,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016955">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000126</terms:source>
         <oboInOwl:hasExactSynonym>Hays Converter</oboInOwl:hasExactSynonym>
@@ -2939,7 +3014,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016955"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000126</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2961,9 +3036,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016956 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016956">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000131</terms:source>
         <oboInOwl:hasExactSynonym>Holando-Argentino</oboInOwl:hasExactSynonym>
@@ -2972,7 +3048,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016956"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000131</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -2994,9 +3070,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016957 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016957">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000133</terms:source>
         <oboInOwl:hasExactSynonym>Horro</oboInOwl:hasExactSynonym>
@@ -3005,7 +3082,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016957"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000133</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3027,9 +3104,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016958 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016958">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000139</terms:source>
         <oboInOwl:hasExactSynonym>Israeli Holstein</oboInOwl:hasExactSynonym>
@@ -3038,7 +3116,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016958"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000139</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3060,9 +3138,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016959 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016959">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000140</terms:source>
         <oboInOwl:hasExactSynonym>Israeli Red</oboInOwl:hasExactSynonym>
@@ -3071,7 +3150,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016959"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000140</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3093,9 +3172,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016960 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016960">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000142</terms:source>
         <oboInOwl:hasExactSynonym>Jamaica Black</oboInOwl:hasExactSynonym>
@@ -3104,7 +3184,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016960"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000142</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3126,9 +3206,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016961 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016961">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000144</terms:source>
         <oboInOwl:hasExactSynonym>Jamaica Red</oboInOwl:hasExactSynonym>
@@ -3137,7 +3218,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016961"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000144</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3159,9 +3240,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016962 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016962">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000145</terms:source>
         <oboInOwl:hasExactSynonym>Jaulan</oboInOwl:hasExactSynonym>
@@ -3170,7 +3252,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016962"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000145</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3192,9 +3274,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016963 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016963">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000712</terms:source>
         <oboInOwl:hasExactSynonym>Jiaxian Red</oboInOwl:hasExactSynonym>
@@ -3203,7 +3286,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016963"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000712</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3225,9 +3308,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016964 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016964">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000148</terms:source>
         <oboInOwl:hasExactSynonym>Kankrej</oboInOwl:hasExactSynonym>
@@ -3236,7 +3320,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016964"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000148</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3258,9 +3342,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016965 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016965">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000149</terms:source>
         <oboInOwl:hasExactSynonym>Karan Fries</oboInOwl:hasExactSynonym>
@@ -3269,7 +3354,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016965"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000149</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3291,9 +3376,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016966 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016966">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000150</terms:source>
         <oboInOwl:hasExactSynonym>Karan Swiss</oboInOwl:hasExactSynonym>
@@ -3302,7 +3388,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016966"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000150</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3324,9 +3410,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016967 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016967">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000152</terms:source>
         <oboInOwl:hasExactSynonym>Kenwariya</oboInOwl:hasExactSynonym>
@@ -3335,7 +3422,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016967"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000152</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3357,9 +3444,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016968 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016968">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000154</terms:source>
         <oboInOwl:hasExactSynonym>Kherigarh</oboInOwl:hasExactSynonym>
@@ -3368,7 +3456,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016968"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000154</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3390,9 +3478,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016969 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016969">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000157</terms:source>
         <oboInOwl:hasExactSynonym>Kilis</oboInOwl:hasExactSynonym>
@@ -3401,7 +3490,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016969"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000157</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3423,9 +3512,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016970">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000158</terms:source>
         <oboInOwl:hasExactSynonym>Krishna Valley</oboInOwl:hasExactSynonym>
@@ -3434,7 +3524,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016970"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000158</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3456,9 +3546,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016971 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016971">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000166</terms:source>
         <oboInOwl:hasExactSynonym>Lohani</oboInOwl:hasExactSynonym>
@@ -3467,7 +3558,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016971"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000166</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3489,9 +3580,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016972 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016972">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000711</terms:source>
         <oboInOwl:hasExactSynonym>Luxi</oboInOwl:hasExactSynonym>
@@ -3500,7 +3592,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016972"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000711</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3522,9 +3614,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016973 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016973">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000169</terms:source>
         <oboInOwl:hasExactSynonym>Madagascar Zebu</oboInOwl:hasExactSynonym>
@@ -3533,7 +3626,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016973"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000169</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3555,9 +3648,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016974 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016974">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000171</terms:source>
         <oboInOwl:hasExactSynonym>Malvi</oboInOwl:hasExactSynonym>
@@ -3566,7 +3660,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016974"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000171</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3588,9 +3682,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016975 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016975">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000172</terms:source>
         <oboInOwl:hasExactSynonym>Mandalong</oboInOwl:hasExactSynonym>
@@ -3599,7 +3694,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016975"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000172</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3621,9 +3716,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016976 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016976">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000174</terms:source>
         <oboInOwl:hasExactSynonym>Maremmana</oboInOwl:hasExactSynonym>
@@ -3632,7 +3728,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016976"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000174</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3654,9 +3750,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016977 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016977">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000178</terms:source>
         <oboInOwl:hasExactSynonym>Mazandarani</oboInOwl:hasExactSynonym>
@@ -3665,7 +3762,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016977"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000178</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3687,9 +3784,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016978 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016978">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000180</terms:source>
         <oboInOwl:hasExactSynonym>Mewati</oboInOwl:hasExactSynonym>
@@ -3698,7 +3796,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016978"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000180</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3720,9 +3818,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016979 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016979">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000191</terms:source>
         <oboInOwl:hasExactSynonym>Nagori</oboInOwl:hasExactSynonym>
@@ -3731,7 +3830,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016979"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000191</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3753,9 +3852,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016980 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016980">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000192</terms:source>
         <oboInOwl:hasExactSynonym>Nanyang</oboInOwl:hasExactSynonym>
@@ -3764,7 +3864,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016980"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000192</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3786,9 +3886,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016981 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016981">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000196</terms:source>
         <oboInOwl:hasExactSynonym>Nimari</oboInOwl:hasExactSynonym>
@@ -3797,7 +3898,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016981"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000196</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3819,9 +3920,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016982 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016982">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000200</terms:source>
         <oboInOwl:hasExactSynonym>Orma Boran</oboInOwl:hasExactSynonym>
@@ -3830,7 +3932,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016982"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000200</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3852,9 +3954,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016983 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016983">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000201</terms:source>
         <oboInOwl:hasExactSynonym>Oropa</oboInOwl:hasExactSynonym>
@@ -3863,7 +3966,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016983"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000201</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3885,9 +3988,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016984 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016984">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000202</terms:source>
         <oboInOwl:hasExactSynonym>Ovambo</oboInOwl:hasExactSynonym>
@@ -3896,7 +4000,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016984"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000202</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3918,9 +4022,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016985">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000204</terms:source>
         <oboInOwl:hasExactSynonym>Philippine Native</oboInOwl:hasExactSynonym>
@@ -3929,7 +4034,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016985"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000204</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3951,9 +4056,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016986 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016986">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000207</terms:source>
         <oboInOwl:hasExactSynonym>Ponwar</oboInOwl:hasExactSynonym>
@@ -3962,7 +4068,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016986"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000207</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -3984,9 +4090,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016987 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016987">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000210</terms:source>
         <oboInOwl:hasExactSynonym>Qinchuan</oboInOwl:hasExactSynonym>
@@ -3995,7 +4102,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016987"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000210</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4017,9 +4124,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016988">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000213</terms:source>
         <oboInOwl:hasExactSynonym>Rathi</oboInOwl:hasExactSynonym>
@@ -4028,7 +4136,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016988"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000213</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4050,9 +4158,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016989 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016989">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000211</terms:source>
         <oboInOwl:hasExactSynonym>Rätien Gray</oboInOwl:hasExactSynonym>
@@ -4061,7 +4170,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016989"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000211</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4083,9 +4192,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016990">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000217</terms:source>
         <oboInOwl:hasExactSynonym>Red Pied Friesian</oboInOwl:hasExactSynonym>
@@ -4094,7 +4204,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016990"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000217</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4116,9 +4226,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016991 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016991">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000219</terms:source>
         <oboInOwl:hasExactSynonym>Red Polled Ostland</oboInOwl:hasExactSynonym>
@@ -4127,7 +4238,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016991"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000219</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4149,9 +4260,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016992 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016992">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000222</terms:source>
         <oboInOwl:hasExactSynonym>Reggiana</oboInOwl:hasExactSynonym>
@@ -4160,7 +4272,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016992"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000222</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4182,9 +4294,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016993 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016993">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001080</terms:source>
         <oboInOwl:hasExactSynonym>Rendena</oboInOwl:hasExactSynonym>
@@ -4193,7 +4306,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016993"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0001080</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4215,9 +4328,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016994 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016994">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000224</terms:source>
         <oboInOwl:hasExactSynonym>Rojhan</oboInOwl:hasExactSynonym>
@@ -4226,7 +4340,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016994"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000224</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4248,9 +4362,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016995">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000226</terms:source>
         <oboInOwl:hasExactSynonym>Romosinuano</oboInOwl:hasExactSynonym>
@@ -4259,7 +4374,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016995"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000226</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4281,9 +4396,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016996 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016996">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000227</terms:source>
         <oboInOwl:hasExactSynonym>Russian Black Pied</oboInOwl:hasExactSynonym>
@@ -4292,7 +4408,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016996"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000227</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4314,9 +4430,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016997 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016997">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000235</terms:source>
         <oboInOwl:hasExactSynonym>San Martinero</oboInOwl:hasExactSynonym>
@@ -4325,7 +4442,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016997"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000235</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4347,9 +4464,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016998 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016998">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000232</terms:source>
         <oboInOwl:hasExactSynonym>Sanhe</oboInOwl:hasExactSynonym>
@@ -4358,7 +4476,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016998"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000232</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4380,9 +4498,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0016999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0016999">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000233</terms:source>
         <oboInOwl:hasExactSynonym>Santa Cruz</oboInOwl:hasExactSynonym>
@@ -4391,7 +4510,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0016999"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000233</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4413,9 +4532,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000236</terms:source>
         <oboInOwl:hasExactSynonym>Sarabi</oboInOwl:hasExactSynonym>
@@ -4424,7 +4544,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017000"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000236</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4446,9 +4566,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000238</terms:source>
         <oboInOwl:hasExactSynonym>Sharabi</oboInOwl:hasExactSynonym>
@@ -4457,7 +4578,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017001"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000238</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4479,9 +4600,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000248</terms:source>
         <oboInOwl:hasExactSynonym>Swedish Friesian</oboInOwl:hasExactSynonym>
@@ -4490,7 +4612,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017002"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000248</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4512,9 +4634,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000250</terms:source>
         <oboInOwl:hasExactSynonym>Swedish Red Polled</oboInOwl:hasExactSynonym>
@@ -4523,7 +4646,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017003"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000250</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4545,9 +4668,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000252</terms:source>
         <oboInOwl:hasExactSynonym>Telemark</oboInOwl:hasExactSynonym>
@@ -4556,7 +4680,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017004"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000252</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4578,9 +4702,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000259</terms:source>
         <oboInOwl:hasExactSynonym>Ukrainian Beef</oboInOwl:hasExactSynonym>
@@ -4589,7 +4714,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017005"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000259</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4611,9 +4736,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000260</terms:source>
         <oboInOwl:hasExactSynonym>Ukrainian Grey</oboInOwl:hasExactSynonym>
@@ -4622,7 +4748,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017006"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000260</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4644,9 +4770,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000261</terms:source>
         <oboInOwl:hasExactSynonym>Ukrainian Whitehead</oboInOwl:hasExactSynonym>
@@ -4655,7 +4782,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017007"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000261</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4677,9 +4804,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000262</terms:source>
         <oboInOwl:hasExactSynonym>Umblachery</oboInOwl:hasExactSynonym>
@@ -4688,7 +4816,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017008"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000262</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4710,9 +4838,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000263</terms:source>
         <oboInOwl:hasExactSynonym>Ural Black Pied</oboInOwl:hasExactSynonym>
@@ -4721,7 +4850,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017009"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000263</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4743,9 +4872,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000934</terms:source>
         <oboInOwl:hasExactSynonym>Valdostana Red Pied</oboInOwl:hasExactSynonym>
@@ -4754,7 +4884,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017010"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000934</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4776,9 +4906,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000264</terms:source>
         <oboInOwl:hasExactSynonym>Vestland Fjord</oboInOwl:hasExactSynonym>
@@ -4787,7 +4918,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017011"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000264</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4809,9 +4940,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000265</terms:source>
         <oboInOwl:hasExactSynonym>Vestland Red Polled</oboInOwl:hasExactSynonym>
@@ -4820,7 +4952,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017012"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000265</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4842,9 +4974,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001063</terms:source>
         <oboInOwl:hasExactSynonym>Vorderwald</oboInOwl:hasExactSynonym>
@@ -4853,7 +4986,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017013"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0001063</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4908,9 +5041,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000051</terms:source>
         <oboInOwl:hasExactSynonym>White Caceres</oboInOwl:hasExactSynonym>
@@ -4919,7 +5053,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017015"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000051</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4941,9 +5075,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000270</terms:source>
         <oboInOwl:hasExactSynonym>Xinjiang Brown</oboInOwl:hasExactSynonym>
@@ -4952,7 +5087,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017016"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000270</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -4974,9 +5109,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000271</terms:source>
         <oboInOwl:hasExactSynonym>Yanbian</oboInOwl:hasExactSynonym>
@@ -4985,7 +5121,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017017"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oboInOwl:source>LBO:0000271</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -17607,6 +17743,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <vbo:origindescription>Old local type, inc. Bohuskulla, Ringamåla, Väne; peasant or village cow; nearly extinct.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
@@ -17623,6 +17760,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000008</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017400"/>
@@ -17671,9 +17809,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017401 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017401">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2510329"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <vbo:origindescription>Orig. 1948–1974 by Art Jones, Cactus Road, Portales; Brahman (1/2), Charolais (1/4), bison (1/8), Hereford (1/16), Shorthorn (1/16), Breed Society 1971.</vbo:origindescription>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
@@ -17685,8 +17824,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017401"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0000009</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2510329"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/cattle/american-breed-cattle.html</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017401"/>
@@ -17718,6 +17858,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -17730,6 +17871,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000011</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017402"/>
@@ -17755,6 +17897,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -17767,6 +17910,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000043</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017403"/>
@@ -17792,6 +17936,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>LBO:0000048</terms:source>
@@ -17803,6 +17948,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000048</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017404"/>
@@ -17824,9 +17970,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017405">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -17837,8 +17984,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017405"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0000059</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/cattle/brahmousin-cattle.html</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017405"/>
@@ -17864,6 +18012,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0001036</terms:source>
         <oboInOwl:hasExactSynonym>Cattle crossbreed</oboInOwl:hasExactSynonym>
@@ -17874,6 +18023,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0001036</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017406"/>
@@ -17897,6 +18047,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000071</terms:source>
         <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/cattle/channi-cattle.html</terms:source>
@@ -17909,6 +18060,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000071</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017407"/>
@@ -17931,9 +18083,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017408">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -17944,8 +18097,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017408"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0000081</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.krankykids.com/cows/mydailycow/D/Damascus.html#:~:text=(local/other%20name),%E2%80%A2%20a%20large%20dewlap</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017408"/>
@@ -17971,6 +18125,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>LBO:0000102</terms:source>
@@ -17982,6 +18137,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000102</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017409"/>
@@ -18006,6 +18162,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -18021,6 +18178,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000112</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017410"/>
@@ -18061,9 +18219,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9915"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>LBO:0000212</terms:source>
@@ -18073,8 +18232,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017411"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0000212</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9915"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/cattle/rath-cattle.html</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017411"/>
@@ -18099,6 +18259,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -18111,6 +18272,8 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000228</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://breeds.okstate.edu/cattle/rx3-cattle.html</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017412"/>
@@ -18136,6 +18299,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -18148,6 +18312,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000231</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017413"/>
@@ -18173,6 +18338,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>LBO:0000254</terms:source>
@@ -18184,6 +18350,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <oboInOwl:source>LBO:0000254</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017414"/>
@@ -18205,9 +18372,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017415 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017415">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>LBO:0000949</terms:source>
         <terms:source>PMID:22494672</terms:source>
@@ -18217,8 +18385,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017415"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0000949</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
+        <oboInOwl:source>PMID: 32180796</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017415"/>
@@ -18240,9 +18409,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017416">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -18253,8 +18423,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017416"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0001099</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30522"/>
+        <oboInOwl:source>PMID:33391343</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017416"/>
@@ -18277,9 +18448,10 @@
     <!-- http://purl.obolibrary.org/obo/VBO_0017417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VBO_0017417">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9915"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VBO_0400000"/>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/128</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/233</obo:IAO_0000233>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
         <terms:source>ISBN:9781789241532</terms:source>
         <terms:source>ISBN:9781845934668</terms:source>
@@ -18290,8 +18462,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017417"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <oboInOwl:source>LBO:0001097</oboInOwl:source>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9915"/>
+        <oboInOwl:source>https://orcid.org/0000-0002-5002-8648</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Zebu</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VBO_0017417"/>

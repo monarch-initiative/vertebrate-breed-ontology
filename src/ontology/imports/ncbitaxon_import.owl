@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2025-08-12/imports/ncbitaxon_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2025-03-13/subsets/taxslim.owl>)
-Annotation(owl:versionInfo "2025-08-12")
+<http://purl.obolibrary.org/obo/vbo/releases/2025-09-19/imports/ncbitaxon_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2025-09-11/subsets/taxslim.owl>)
+Annotation(owl:versionInfo "2025-09-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10026>))
@@ -30,6 +30,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_123369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1329799>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1338369>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_135829>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1437010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1489341>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1489388>))
@@ -46,6 +47,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_186634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1963758>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2068716>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2068722>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2510329>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2576912>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2607030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2607033>))
@@ -55,8 +57,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2743711>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_27592>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_28781>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_297284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30319>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30520>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30522>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30538>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30539>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_30727>))
@@ -73,6 +78,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32523>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32524>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32525>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32561>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33213>))
@@ -103,6 +109,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46478>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_466544>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_466552>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4751>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_47757>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_504568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_59728>))
@@ -218,7 +225,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9895>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9900>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9901>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9903>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9904>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9913>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9915>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9918>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9922>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9925>))
@@ -428,6 +438,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternative
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_10042> "GC_ID:1")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_10042> "North American deer mouse")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_10042> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_10042> "Hesperomys maniculatus")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_10042> "NCBITaxon:10042")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_10042> "Peromyscus maniculatus")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_10042> <http://purl.obolibrary.org/obo/NCBITaxon_10040>)
@@ -538,6 +549,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_123369> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_131567> (cellular organisms)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://purl.obolibrary.org/obo/NCBITaxon_cellular_root>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_131567> "GC_ID:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_131567> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_131567> "biota")
@@ -566,6 +578,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_1338369> "NCBITaxon:1338369")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1338369> "Dipnotetrapodomorpha")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1338369> <http://purl.obolibrary.org/obo/NCBITaxon_8287>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_135829> (Bos sauveli)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_135829> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_135829> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_135829> "kouprey")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_135829> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_135829> "NCBITaxon:135829")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_135829> "Bos sauveli")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_135829> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_1437010> (Boreoeutheria)
 
@@ -631,6 +653,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1489913> <http://purl.oboli
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> <http://purl.obolibrary.org/obo/NCBITaxon_superorder>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "ducks, geese, chickens, fowl, quail, currasows and allies")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "Galloanseri")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_1549675> "NCBITaxon:1549675")
@@ -723,6 +746,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2068722> "Anserinae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2068722> <http://purl.obolibrary.org/obo/NCBITaxon_8830>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2510329> (Bovinae intergeneric hybrids)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_2510329> "GC_ID:1")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_2510329> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_2510329> "NCBITaxon:2510329")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2510329> "Bovinae intergeneric hybrids")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2510329> <http://purl.obolibrary.org/obo/NCBITaxon_27592>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_2576912> (Felis chaus x Felis catus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_2576912> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
@@ -781,12 +812,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2743711> <http://purl.oboli
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_2759> (Eukaryota)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://purl.obolibrary.org/obo/NCBITaxon_domain>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "GC_ID:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "PMID:23020233")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "PMID:30257078")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "eucaryotes")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "eukaryotes")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "eukaryotes")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "Eucarya")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2759> "Eucaryotae")
@@ -815,6 +845,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_28781> "Adrianichthyoidei")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_28781> <http://purl.obolibrary.org/obo/NCBITaxon_76071>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_297284> (Bos taurus x Bison bison)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_297284> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_297284> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_297284> "Bison bison x Bos taurus")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_297284> "beefalo")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_297284> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_297284> "NCBITaxon:297284")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_297284> "Bos taurus x Bison bison")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_297284> <http://purl.obolibrary.org/obo/NCBITaxon_2510329>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_30319> (Pipoidea)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_30319> <http://purl.obolibrary.org/obo/NCBITaxon_superfamily>)
@@ -823,6 +864,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_30319> "NCBITaxon:30319")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_30319> "Pipoidea")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_30319> <http://purl.obolibrary.org/obo/NCBITaxon_8342>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_30520> (Bos frontalis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_30520> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_30520> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30520> "gayal")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30520> "mithun")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_30520> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30520> "Bos gaurus frontalis")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_30520> "NCBITaxon:30520")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_30520> "Bos frontalis")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_30520> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_30521> (Bos grunniens)
 
@@ -836,6 +889,22 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_30521> "NCBITaxon:30521")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_30521> "Bos grunniens")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_30521> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_30522> (Bos indicus x Bos taurus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_30522> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "NCBITaxon:1935979")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "NCBITaxon:30523")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "hybrid cattle")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "hybrid cow")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "Bos primigenius indicus x Bos primigenius taurus")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "Bos taurus indicus x Bos taurus taurus")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "Bos taurus x Bos indicus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_30522> "NCBITaxon:30522")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_30522> "Bos indicus x Bos taurus")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_30522> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_30538> (Vicugna pacos)
 
@@ -1006,6 +1075,23 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_32561> "Sauria")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_32561> <http://purl.obolibrary.org/obo/NCBITaxon_8457>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33090> (Viridiplantae)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "GC_ID:1")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "PMID:16248873")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "PMID:30257078")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Chlorophyta/Embryophyta group")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "chlorophyte/embryophyte group")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "green plants")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Chlorobionta")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Chloroplastida")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "green plants")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "NCBITaxon:33090")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Viridiplantae")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_33154> (Opisthokonta)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_33154> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
@@ -1021,7 +1107,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33154> <http://purl.obolibr
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_33208> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "metazoans")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "animals")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "metazoans")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "multicellular animals")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "Animalia")
@@ -1105,8 +1192,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_337963> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_338152> (Felinae)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_338152> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_338152> "NCBITaxon:338151")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_338152> "GC_ID:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_338152> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_338152> "Acinonychinae")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_338152> "NCBITaxon:338152")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_338152> "Felinae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_338152> <http://purl.obolibrary.org/obo/NCBITaxon_9681>)
@@ -1228,7 +1317,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_41705> <http://purl.obolibr
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_436486> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_436486> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_436486> "dinosaur")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_436486> "dinosaurs")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_436486> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_436486> "NCBITaxon:436486")
@@ -1300,6 +1388,19 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_466552> "NCBITaxon:466552")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_466552> "Meleagridinae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_466552> <http://purl.obolibrary.org/obo/NCBITaxon_9005>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_4751> (Fungi)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_4751> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "GC_ID:1")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "PMID:11062127")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "PMID:12684019")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "Mycota")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "fungi")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_4751> "NCBITaxon:4751")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_4751> "Fungi")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_4751> <http://purl.obolibrary.org/obo/NCBITaxon_33154>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_47757> (Adrianichthyidae)
 
@@ -1640,7 +1741,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "GC_ID:1")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "anurans")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "frogs")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "frogs and toads")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "frogs & toads")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "Salientia")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_8342> "frogs & toads")
@@ -2266,8 +2367,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9611> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9612> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "gray wolf")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "grey wolf")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "gray wolf")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "wolf")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9612> "NCBITaxon:9612")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9612> "Canis lupus")
@@ -2395,9 +2496,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "African ass")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "African wild ass")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "Somali wild ass")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "ass")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "ass")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "domestic ass")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "donkey")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "donkey")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9793> "NCBITaxon:9793")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9793> "Equus asinus")
@@ -2613,6 +2714,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9903> "Bos")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9903> <http://purl.obolibrary.org/obo/NCBITaxon_27592>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9904> (Bos gaurus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9904> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9904> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9904> "gaur")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9904> "seladang")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9904> "ncbi_taxonomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9904> "NCBITaxon:9904")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9904> "Bos gaurus")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9904> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9906> (Bos javanicus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9906> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "NCBITaxon:100232")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "banteng")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "wild banteng")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "Bos banteng")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "Bos sondaicus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9906> "NCBITaxon:9906")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9906> "Bos javanicus")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9906> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_9913> (Bos taurus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9913> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
@@ -2630,6 +2756,20 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9913> "NCBITaxon:9913")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9913> "Bos taurus")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9913> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9915> (Bos indicus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9915> <http://purl.obolibrary.org/obo/NCBITaxon_species>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "GC_ID:1")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "Indicine cattle")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "zebu")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "zebu cattle")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "ncbi_taxonomy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "Bos primigenius indicus")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "Bos taurus indicus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9915> "NCBITaxon:9915")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9915> "Bos indicus")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9915> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_9918> (Bubalus)
 
@@ -2748,7 +2888,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9986> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_9989> <http://purl.obolibrary.org/obo/NCBITaxon_order>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "GC_ID:1")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "rodent")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "rodent")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "rodents")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "rodents")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_9989> "NCBITaxon:9989")
