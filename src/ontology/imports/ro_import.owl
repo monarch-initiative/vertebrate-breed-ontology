@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2025-08-12/imports/ro_import.owl>
+<http://purl.obolibrary.org/obo/vbo/releases/2025-09-19/imports/ro_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2025-06-24/ro.owl>)
-Annotation(owl:versionInfo "2025-08-12")
+Annotation(owl:versionInfo "2025-09-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -200,10 +200,12 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000125>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000423>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000428>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/RO_0001901>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-6677-8489>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-7476-6306>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-3837-8864>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-4142-7153>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-4366-3088>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-6601-2165>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-7073-9172>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-8688-6599>))
@@ -500,6 +502,39 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0002000> "def
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001900> "An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/RO_0002175> (present in taxon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002175> "S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/RO_0002175> <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/RO_0002175> <http://www.ncbi.nlm.nih.gov/pubmed/22293552>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OMO_0002000> <http://purl.obolibrary.org/obo/RO_0002175> "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
+PREFIX present_in_taxon: <http://purl.obolibrary.org/obo/RO_0002175>
+CONSTRUCT {
+  in_taxon: a owl:ObjectProperty .
+  ?witness rdfs:label ?label .
+  ?witness rdfs:subClassOf ?x .
+  ?witness rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ] .
+}
+WHERE {
+  ?x present_in_taxon: ?taxon .
+  BIND(IRI(CONCAT(
+    \"http://purl.obolibrary.org/obo/RO_0002175#\",
+    MD5(STR(?x)),
+    \"-\",
+    MD5(STR(?taxon))
+  )) as ?witness)
+  BIND(CONCAT(STR(?x), \" in taxon \", STR(?taxon)) AS ?label)
+}")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002175> "The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002175> "present in taxon"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0002175> <https://github.com/obophenotype/uberon/wiki/Taxon-constraints>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/RO_0002259> (defined by inverse)
 
@@ -2721,6 +2756,11 @@ all instantiation predicates and predicates that use this relation.
 This interpretation is *not* the same as an at-all-times relation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001901> "axiom holds for all times"@en)
 
+# Individual: <https://orcid.org/0000-0001-6677-8489> (Aleix Puig-Barbé)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q123250332>) <http://purl.org/dc/terms/description> <https://orcid.org/0000-0001-6677-8489> "Researcher ORCID=0000-0001-6677-8489")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q123250332>) rdfs:label <https://orcid.org/0000-0001-6677-8489> "Aleix Puig-Barbé")
+
 # Individual: <https://orcid.org/0000-0001-7476-6306> (David P Hill)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q87814353>) <http://purl.org/dc/terms/description> <https://orcid.org/0000-0001-7476-6306> "researcher")
@@ -2740,6 +2780,11 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wik
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q108416351>) <http://purl.org/dc/terms/description> <https://orcid.org/0000-0002-4142-7153> "researcher")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q108416351>) rdfs:label <https://orcid.org/0000-0002-4142-7153> "Sabrina Toro")
+
+# Individual: <https://orcid.org/0000-0002-4366-3088> (Pier Luigi Buttigieg)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q41566750>) <http://purl.org/dc/terms/description> <https://orcid.org/0000-0002-4366-3088> "researcher")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/source> <http://www.wikidata.org/entity/Q41566750>) rdfs:label <https://orcid.org/0000-0002-4366-3088> "Pier Luigi Buttigieg")
 
 # Individual: <https://orcid.org/0000-0002-6601-2165> (Christopher J. Mungall)
 
