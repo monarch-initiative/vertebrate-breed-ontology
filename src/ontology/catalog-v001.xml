@@ -6,16 +6,7 @@
     <uri name="http://purl.obolibrary.org/obo/vbo/imports/wikidata_import.owl" uri="imports/wikidata_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/vbo/imports/omo_import.owl" uri="imports/omo_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/vbo/imports/cob_import.owl" uri="imports/cob_import.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/dadistransbound.owl" uri="components/dadistransbound.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/dadisbreedcountry.owl" uri="components/dadisbreedcountry.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/livestockbreeds.owl" uri="components/livestockbreeds.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/catbreeds.owl" uri="components/catbreeds.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/dogbreeds.owl" uri="components/dogbreeds.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/breedstatus.owl" uri="components/breedstatus.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/highlevelclass.owl" uri="components/highlevelclass.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/lbo.owl" uri="components/lbo.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/relation.owl" uri="components/relation.owl" />
-    <uri name="http://purl.obolibrary.org/obo/vbo/components/otherbreeds.owl" uri="components/otherbreeds.owl" />
+    <uri name="http://purl.obolibrary.org/obo/vbo/components/axioms.owl" uri="components/axioms.owl" />
   </group>
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
     <uri name="http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo" />
