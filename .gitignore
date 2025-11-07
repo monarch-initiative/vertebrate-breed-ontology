@@ -1,3 +1,6 @@
+# ODK-managed rules, do not modify
+# If you need to add your own ignore rules, you may do so below
+# the "End ODK-managed rules" marker at the end of this file.
 .DS_Store
 semantic.cache
 bin/
@@ -6,13 +9,33 @@ bin/
 *.tmp.obo
 *.tmp.owl
 *.tmp.json
+*-relation-graph.tsv.gz
+.template.db
+
+.github/token.txt
+
+/vbo.owl
+/vbo.obo
+/vbo.json
+/vbo.db
+/vbo-base.*
+/vbo-basic.*
+/vbo-full.*
+/vbo-simple.*
+/vbo-simple-non-classified.*
+/mappings/
+/patterns/
+/reports/
+/subsets/
 
 src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
+!src/ontology/reports/release-diff.md
 src/ontology/vbo.owl
 src/ontology/vbo.obo
 src/ontology/vbo.json
+src/ontology/vbo.db
 src/ontology/vbo-base.*
 src/ontology/vbo-basic.*
 src/ontology/vbo-full.*
@@ -26,10 +49,15 @@ src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
 src/ontology/merged-vbo-edit.owl
+src/ontology/vbo-edit.properties
 
 src/ontology/target/
 src/ontology/tmp/*
+!src/ontology/tmp/.gitkeep
 !src/ontology/tmp/README.md
+
+src/ontology/run.sh.conf
+src/ontology/run.sh.env
 
 src/ontology/imports/*_terms_combined.txt
 
@@ -37,4 +65,12 @@ src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
+
+# End of ODK-managed rules
+
+
+
+
+
+
 *.pyc
