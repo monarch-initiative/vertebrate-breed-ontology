@@ -8,6 +8,7 @@ release_artefacts:
   - full
   - simple
 primary_release: full
+edit_format: obo
 export_formats:
   - owl
   - obo
@@ -24,21 +25,11 @@ import_group:
     - id: cob
 components:
   products:
-    - filename: dadistransbound.owl
-    - filename: dadisbreedcountry.owl
-    - filename: livestockbreeds.owl
-    - filename: catbreeds.owl
-    - filename: dogbreeds.owl
-    - filename: breedstatus.owl
-    - filename: highlevelclass.owl
-    - filename: lbo.owl  
-    - filename: relation.owl
-    - filename: otherbreeds.owl
+    - filename: axioms.owl
 robot_java_args: '-Xmx16G'
 allow_equivalents: asserted-only
 documentation:
   documentation_system: mkdocs
-robot_java_args: '-Xmx8G'
 robot_report:
   use_base_iris: True
   release_reports: False

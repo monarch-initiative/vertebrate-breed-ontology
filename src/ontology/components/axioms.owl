@@ -1,0 +1,20 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8839>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8841>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8855>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VBO_0400000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VBO_0400008>))
+
+# This axiom is needed for correctly classifying duck breeds under the "duck breed" class
+# In the future we might consider replacing that by a direct assertion rather than inference
+EquivalentClasses(<http://purl.obolibrary.org/obo/VBO_0400008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/VBO_0400000> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_8839> <http://purl.obolibrary.org/obo/NCBITaxon_8841> <http://purl.obolibrary.org/obo/NCBITaxon_8855>)))
+
+)

@@ -18,7 +18,7 @@
 # 5. [Run QC](test)
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                f908deda2051faa7b93669cd38b2393ec8e6f9b7b25761ef1ecb817e463e8b7a
+CONFIG_HASH=                aba0381255224449654d718ab3ada8eb59ffe3530191d32493b06dd4cace3f2f
 
 
 # ----------------------------------------
@@ -30,7 +30,7 @@ OBOBASE=                    http://purl.obolibrary.org/obo
 URIBASE=                    http://purl.obolibrary.org/obo
 ONT=                        vbo
 ONTBASE=                    http://purl.obolibrary.org/obo/vbo
-EDIT_FORMAT=                owl
+EDIT_FORMAT=                obo
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 MAKE_FAST=                  $(MAKE) IMP=false PAT=false COMP=false MIR=false
 CATALOG=                    catalog-v001.xml
@@ -65,7 +65,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/dadistransbound.owl $(COMPONENTSDIR)/dadisbreedcountry.owl $(COMPONENTSDIR)/livestockbreeds.owl $(COMPONENTSDIR)/catbreeds.owl $(COMPONENTSDIR)/dogbreeds.owl $(COMPONENTSDIR)/breedstatus.owl $(COMPONENTSDIR)/highlevelclass.owl $(COMPONENTSDIR)/lbo.owl $(COMPONENTSDIR)/relation.owl $(COMPONENTSDIR)/otherbreeds.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/axioms.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -477,30 +477,12 @@ all_components: $(OTHER_SRC)
 
 .PHONY: recreate-components
 recreate-components:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-dadistransbound.owl \
-		--assume-new=$(TMPDIR)/stamp-component-dadisbreedcountry.owl \
-		--assume-new=$(TMPDIR)/stamp-component-livestockbreeds.owl \
-		--assume-new=$(TMPDIR)/stamp-component-catbreeds.owl \
-		--assume-new=$(TMPDIR)/stamp-component-dogbreeds.owl \
-		--assume-new=$(TMPDIR)/stamp-component-breedstatus.owl \
-		--assume-new=$(TMPDIR)/stamp-component-highlevelclass.owl \
-		--assume-new=$(TMPDIR)/stamp-component-lbo.owl \
-		--assume-new=$(TMPDIR)/stamp-component-relation.owl \
-		--assume-new=$(TMPDIR)/stamp-component-otherbreeds.owl \
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-axioms.owl \
 		COMP=true IMP=false MIR=true PAT=true all_components
 
 .PHONY: no-mirror-recreate-components
 no-mirror-recreate-components:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-dadistransbound.owl \
-		--assume-new=$(TMPDIR)/stamp-component-dadisbreedcountry.owl \
-		--assume-new=$(TMPDIR)/stamp-component-livestockbreeds.owl \
-		--assume-new=$(TMPDIR)/stamp-component-catbreeds.owl \
-		--assume-new=$(TMPDIR)/stamp-component-dogbreeds.owl \
-		--assume-new=$(TMPDIR)/stamp-component-breedstatus.owl \
-		--assume-new=$(TMPDIR)/stamp-component-highlevelclass.owl \
-		--assume-new=$(TMPDIR)/stamp-component-lbo.owl \
-		--assume-new=$(TMPDIR)/stamp-component-relation.owl \
-		--assume-new=$(TMPDIR)/stamp-component-otherbreeds.owl \
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-axioms.owl \
 		COMP=true IMP=false MIR=false PAT=true all_components
 
 .PHONY: recreate-%
@@ -736,11 +718,15 @@ validate-all-tsv: $(ALL_TSV_FILES)
 $(EXTENDED_PREFIX_MAP): /tools/obo.epm.json
 	cp $< $@
 
-
+.PHONY: normalize_obo_src
+normalize_obo_src: $(SRC) | all_robot_plugins
+	$(ROBOT) repair -i $< --merge-axiom-annotations true \
+		 convert -o $(TMPDIR)/NORM.tmp.obo && \
+	mv $(TMPDIR)/NORM.tmp.obo $(SRC)
 
 .PHONY: normalize_src
 normalize_src: $(SRC)
-	$(ROBOT) convert -i $< -f ofn -o $(TMPDIR)/normalise && mv $(TMPDIR)/normalise $<
+	$(ROBOT) convert -i $< -f obo --check false -o $(TMPDIR)/normalise && mv $(TMPDIR)/normalise $<
 
 .PHONY: validate_idranges
 validate_idranges:
@@ -804,6 +790,7 @@ Imports management:
 Editor utilities:
 * validate_idranges:	Make sure your ID ranges file is formatted correctly
 * normalize_src:	Load and save your vbo-edit file after you to make sure its serialised correctly
+* normalize_obo_src:	Load and save your vbo-edit.obo file after you to merge duplicate annotation assertions
 * explain_unsat:	If you have unsatisfiable classes, this command will create a markdown file (tmp/explain_unsat.md) which will explain all your unsatisfiable classes
 * validate-all-tsv:	Check all your tsv files for possible problems in syntax. Use ALL_TSV_FILES variable to list files
 * validate-tsv:		Check a tsv file for syntactic problems with tsvalid. Use TSV variable to pass filepath, e.g. make TSV=../my.tsv validate-tsv.

@@ -32,13 +32,4 @@ These are the components in VBO
 
 | Filename | URL |
 | -------- | --- |
-| dadistransbound.owl | None |
-| dadisbreedcountry.owl | None |
-| livestockbreeds.owl | None |
-| catbreeds.owl | None |
-| dogbreeds.owl | None |
-| breedstatus.owl | None |
-| highlevelclass.owl | None |
-| lbo.owl | None |
-| relation.owl | None |
-| otherbreeds.owl | None |
+| axioms.owl | None |
