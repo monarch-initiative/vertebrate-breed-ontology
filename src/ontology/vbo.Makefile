@@ -33,48 +33,6 @@ sync_google_sheets:
 	wget $(RELATION_TEMPLATE) -O $(COMPONENTSDIR)/relation.tsv
 	wget $(OTHERBREEDS_TEMPLATE) -O $(COMPONENTSDIR)/otherbreeds.tsv
 
-# NOTE TO EDITOR: FROM ODK 1.5. onwards, we need to add a goal for each component here:
-
-$(COMPONENTSDIR)/dadistransbound.owl: $(COMPONENTSDIR)/dadistransbound.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/dadisbreedcountry.owl: $(COMPONENTSDIR)/dadisbreedcountry.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/livestockbreeds.owl: $(COMPONENTSDIR)/livestockbreeds.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/catbreeds.owl: $(COMPONENTSDIR)/catbreeds.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/dogbreeds.owl: $(COMPONENTSDIR)/dogbreeds.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/breedstatus.owl: $(COMPONENTSDIR)/breedstatus.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/highlevelclass.owl: $(COMPONENTSDIR)/highlevelclass.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/lbo.owl: $(COMPONENTSDIR)/lbo.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/relation.owl: $(COMPONENTSDIR)/relation.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
-$(COMPONENTSDIR)/otherbreeds.owl: $(COMPONENTSDIR)/otherbreeds.tsv $(SRC)
-	if [ $(COMP) = true ]; then $(ROBOT) merge -i $(SRC) template --template $< --prefix "VBO: http://purl.obolibrary.org/obo/VBO_" --prefix "wikidata: http://www.wikidata.org/entity/" --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@; fi
-
 
 ################################
 ##### Reports ##################
@@ -121,6 +79,20 @@ mirror-cob: | $(TMPDIR)
 	$(ROBOT) convert -i $(TMPDIR)/cob-download.owl -f ofn -o $(TMPDIR)/$@.owl && \
 	sed -i '/ObjectInverseOf/d' $(TMPDIR)/$@.owl
 
+################################
+##### Merge templates ##########
+################################
+
+MERGE_TEMPLATE=tmp/merge_template.tsv
+#TEMPLATE_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1vTV6ITR7RJMt5jswUHBmEEcfbNAeZWpj4VkDbMY3Bvh_fcmfXEw1CFvbgzOUPDxsj6oT5vsFQRg8FuM/pub?gid=346126899&single=true&output=tsv
+TEMPLATE_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1vTsgIbFYWkhMT0EgaBNbyT6fJiNKqVjdqcZxXQLwJ3CpXpSzB24BITZGDNSMyg_3bneIvE3F2l_iHWH/pub?gid=1886610709&single=true&output=tsv
+
+tmp/merge_template.tsv:
+	wget "$(TEMPLATE_URL)" -O $@
+
+merge_template: $(MERGE_TEMPLATE)
+	$(ROBOT) template --prefix "CHR: http://purl.obolibrary.org/obo/CHR_" --prefix "HGNC: http://identifiers.org/hgnc/" --prefix "sssom: https://w3id.org/sssom/" --merge-before --input $(SRC) \
+ --template $(MERGE_TEMPLATE) convert -f obo -o $(SRC)
 
 
 ################################
@@ -147,12 +119,6 @@ dadis-transboundary-sync:
 	python ../scripts/find_dadis_transboundary_ids.py --input_filename ./components/dadistransbound.tsv --output_filename ./components/dadistransbound.tsv
 
 endif
-
-.PHONY: dadisbreedcountry
-dadis-local-sync: $(COMPONENTSDIR)/dadisbreedcountry.owl
-
-.PHONY: dadistransbound
-dadis-transboundary-sync: $(COMPONENTSDIR)/dadistransbound.owl
 
 ###########################################
 ##### Release preprocessing ###############
