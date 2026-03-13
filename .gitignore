@@ -74,3 +74,7 @@ src/patterns/all_pattern_terms.txt
 
 
 *.pyc
+README.md
+CLAUDE.local.md
+CLAUDE.md
+issue_template.md
