@@ -74,3 +74,5 @@ src/patterns/all_pattern_terms.txt
 
 
 *.pyc
+CLAUDE.local.md
+.claude/
