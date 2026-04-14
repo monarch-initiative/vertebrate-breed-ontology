@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vbo/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/vbo/releases/2025-11-07/imports/ncbitaxon_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2025-09-11/subsets/taxslim.owl>)
-Annotation(owl:versionInfo "2025-11-07")
+<http://purl.obolibrary.org/obo/vbo/releases/2026-04-14/imports/ncbitaxon_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/releases/2025-12-03/subsets/taxslim.owl>)
+Annotation(owl:versionInfo "2026-04-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10026>))
@@ -259,7 +259,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superclass>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superfamily>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_superorder>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000231>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003003>))
@@ -279,15 +278,21 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(owl:deprecated))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0100001> (term replaced by)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "term replaced by")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003003> (layperson synonym)
 
@@ -355,6 +360,10 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
@@ -680,6 +689,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_186623> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_186625> (Clupeocephala)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_186625> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_186625> "GC_ID:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_186625> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_186625> "NCBITaxon:186625")
@@ -1533,7 +1543,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_7898> "ncbi_taxonomy")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_7898> "Actinopterygi")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_7898> "Osteichthyes")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_7898> "bony fishes")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_7898> "ray-finned fishes")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_7898> "NCBITaxon:7898")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_7898> "Actinopterygii")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_7898> <http://purl.obolibrary.org/obo/NCBITaxon_117571>)
@@ -2896,145 +2906,157 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9989> "Rodentia")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9989> <http://purl.obolibrary.org/obo/NCBITaxon_314147>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_class> (class)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_class> (obsolete class)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_class> "TAXRANK:0000002")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_class> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_class> "NCBITaxon:class")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_class> "class")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_class> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_class> "obsolete class")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_class> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_family> (family)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_family> (obsolete family)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_family> "TAXRANK:0000004")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_family> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_family> "NCBITaxon:family")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_family> "family")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_family> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_family> "obsolete family")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_family> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_genus> (genus)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_genus> (obsolete genus)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_genus> "TAXRANK:0000005")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_genus> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_genus> "NCBITaxon:genus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_genus> "genus")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_genus> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_genus> "obsolete genus")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_genus> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> (infraclass)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> (obsolete infraclass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> "TAXRANK:0000019")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> "NCBITaxon:infraclass")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> "infraclass")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_infraclass> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> "obsolete infraclass")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_infraclass> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> (infraorder)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> (obsolete infraorder)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> "TAXRANK:0000013")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> "NCBITaxon:infraorder")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> "infraorder")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_infraorder> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> "obsolete infraorder")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_infraorder> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> (kingdom)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> (obsolete kingdom)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> "TAXRANK:0000017")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> "NCBITaxon:kingdom")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> "kingdom")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_kingdom> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> "obsolete kingdom")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_order> (order)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_order> (obsolete order)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_order> "TAXRANK:0000003")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_order> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_order> "NCBITaxon:order")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_order> "order")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_order> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_order> "obsolete order")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_order> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_phylum> (phylum)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_phylum> (obsolete phylum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_phylum> "TAXRANK:0000001")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_phylum> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_phylum> "NCBITaxon:phylum")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_phylum> "phylum")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_phylum> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_phylum> "obsolete phylum")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_phylum> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_species> (species)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_species> (obsolete species)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_species> "TAXRANK:0000006")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_species> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_species> "NCBITaxon:species")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_species> "species")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_species> "obsolete species")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_species> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subclass> (subclass)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subclass> (obsolete subclass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "TAXRANK:0000007")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "NCBITaxon:subclass")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "subclass")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subclass> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "obsolete subclass")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_subclass> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> (subfamily)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> (obsolete subfamily)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "TAXRANK:0000024")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "NCBITaxon:subfamily")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "subfamily")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subfamily> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "obsolete subfamily")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> (subgenus)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> (obsolete subgenus)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "TAXRANK:0000009")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "NCBITaxon:subgenus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "subgenus")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subgenus> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "obsolete subgenus")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_subgenus> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_suborder> (suborder)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_suborder> (obsolete suborder)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_suborder> "TAXRANK:0000014")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_suborder> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_suborder> "NCBITaxon:suborder")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_suborder> "suborder")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_suborder> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_suborder> "obsolete suborder")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_suborder> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> (subphylum)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> (obsolete subphylum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> "TAXRANK:0000008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> "NCBITaxon:subphylum")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> "subphylum")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subphylum> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> "obsolete subphylum")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> (subspecies)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> (obsolete subspecies)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> "TAXRANK:0000023")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> "NCBITaxon:subspecies")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> "subspecies")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_subspecies> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> "obsolete subspecies")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superclass> (superclass)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superclass> (obsolete superclass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "TAXRANK:0000015")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "NCBITaxon:superclass")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "superclass")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_superclass> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "obsolete superclass")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_superclass> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> (superfamily)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> (obsolete superfamily)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "TAXRANK:0000018")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "NCBITaxon:superfamily")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "superfamily")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_superfamily> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "obsolete superfamily")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_superfamily> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> (superkingdom)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> (obsolete superkingdom)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> "TAXRANK:0000022")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> "NCBITaxon:superkingdom")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> "superkingdom")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> "obsolete superkingdom")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superorder> (superorder)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_superorder> (obsolete superorder)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/NCBITaxon_superorder> "TAXRANK:0000020")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_superorder> "ncbi_taxonomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon_superorder> "NCBITaxon:superorder")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superorder> "superorder")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_superorder> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> (taxonomic rank)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> "ncbi_taxonomy")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> "NCBITaxon:taxonomic_rank")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> "This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and the rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> "taxonomic rank")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_superorder> "obsolete superorder")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/NCBITaxon_superorder> "true"^^xsd:boolean)
 
 
 )
