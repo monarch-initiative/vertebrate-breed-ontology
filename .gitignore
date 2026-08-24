@@ -76,3 +76,6 @@ src/patterns/all_pattern_terms.txt
 *.pyc
 CLAUDE.local.md
 .claude/
+
+# Local issue-specific working folders (not tracked)
+specific_issue/
