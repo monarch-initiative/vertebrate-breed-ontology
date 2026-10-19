@@ -85,3 +85,10 @@ This runs ROBOT report validation without refreshing imports/mirrors for speed.
 - Main branch: `master`
 - Feature branches: `issue-{number}` pattern
 - Release tags: `vYYYY-MM-DD`
+
+## Project Skills
+
+Shared Claude Code skills live in `.claude/skills/` (tracked in git; the rest of `.claude/` stays local):
+- `merge-terms` — merge two VBO terms (obsolete one with `replaced_by`, move all content, rewire references). Helper: `.claude/skills/merge-terms/scripts/vbo_merge.py`
+- `automated-foundation-stock` — extract foundation stock relations from kennel club registries
+- `ingest-external-xrefs.md` — ingest external breed cross-references
