@@ -277152,6 +277152,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0200185
 name: Boerboel (Dog)
 synonym: "Boerboel" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Boerboel", source="https://www.ukcdogs.com/south-african-boerboel", source="https://www.akc.org/dog-breeds/boerboel/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41", source="http://omia.org"}
+synonym: "Boerboel Mastiff" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "South African Boerboel" EXACT [] {source="https://www.ukcdogs.com/south-african-boerboel"}
 synonym: "South African Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41"}
 xref: iDog:41 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41"}
