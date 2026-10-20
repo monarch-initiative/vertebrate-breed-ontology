@@ -267938,6 +267938,7 @@ synonym: "American Bobtail" EXACT most_common_name [] {source="https://www.raree
 synonym: "American Bobtail Longhair" EXACT [] {source="https://www.worldcatcongress.org/wp/cat_breed_comp_abl.php"}
 xref: VeNom:18082 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ABT" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.tica.org/phocadownload/abt.pdf"}
 property_value: breed_recognition_status VBO:0300002 {source="https://cfa.org/breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.tica.org/breeds/browse-all-breeds"}
@@ -267962,6 +267963,7 @@ synonym: "American Bobtail Longhair" EXACT most_common_name [] {source="https://
 synonym: "American Bobtail, Long-Haired" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:15239 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ABL" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
 property_value: breed_code "ABL non" xsd:string {source="https://fifeweb.org/cats/ems-system/"}
@@ -267986,6 +267988,7 @@ synonym: "American Bobtail Shorthair" EXACT most_common_name [] {source="https:/
 synonym: "American Bobtail, Short-Haired" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:15240 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "ABS" xsd:string {source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/phocadownload/abt.pdf"}
 property_value: breed_code "ABS non" xsd:string {source="https://fifeweb.org/cats/ems-system/"}
@@ -270303,6 +270306,7 @@ synonym: "Japanese Bobtail" EXACT most_common_name [] {source="https://venomcodi
 synonym: "Japanese Bobtail" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_jbt.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 xref: VeNom:15286 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "JB" xsd:string {source="https://www.tica.org/phocadownload/jb.pdf"}
 property_value: breed_code "JBT" xsd:string {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -270327,6 +270331,7 @@ id: VBO:0100129
 name: Japanese Bobtail Longhair (Cat)
 synonym: "Japanese Bobtail Longhair" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_jbl.php", source="https://www.tica.org/breeds/browse-all-breeds"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "JBL" xsd:string {source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/phocadownload/jb.pdf"}
 property_value: breed_code "JBL non" xsd:string {source="https://fifeweb.org/cats/ems-system/"}
@@ -270348,6 +270353,7 @@ id: VBO:0100130
 name: Japanese Bobtail Shorthair (Cat)
 synonym: "Japanese Bobtail Shorthair" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_jbs.php"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "JBS" xsd:string {source="https://fifeweb.org/cats/breeds/"}
 property_value: breed_recognition_status VBO:0300002 {source="https://fifeweb.org/cats/breeds/"}
@@ -270479,6 +270485,7 @@ id: VBO:0100138
 name: Karelian Bobtail (Cat)
 synonym: "Karelian Bobtail" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KAS" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
 property_value: breed_recognition_status VBO:0300002 {source="https://wcf.de/en/wcf-ems-code/"}
@@ -270494,6 +270501,7 @@ id: VBO:0100139
 name: Karelian Bobtail Longhair (Cat)
 synonym: "Karelian Bobtail Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KAL" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
 property_value: breed_recognition_status VBO:0300002 {source="https://wcf.de/en/wcf-ems-code/"}
@@ -270598,6 +270606,7 @@ id: VBO:0100144
 name: Korean Bobtail (Cat)
 synonym: "Korean Bobtail" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
@@ -270630,6 +270639,7 @@ synonym: "Kuril Islands Bobtail|Kurilean Bobtail" EXACT [] {source="https://en.w
 synonym: "Kurilean Bobtail" EXACT [] {source="https://en.wikipedia.org/wiki/Kurilian_Bobtail"}
 synonym: "Kurilian Bobtail" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KB" xsd:string {source="https://www.tica.org/phocadownload/kb.pdf"}
 property_value: breed_code "KBS" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -270652,6 +270662,7 @@ synonym: "Kurilean Bobtail, Long-Haired" EXACT [] {source="https://venomcoding.o
 synonym: "Kurilian Bobtail Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_kbl.php", source="https://fifeweb.org/cats/breeds/", source="https://www.tica.org/breeds/browse-all-breeds"}
 xref: VeNom:15290 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KBL" xsd:string {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/phocadownload/kb.pdf"}
 property_value: breed_recognition_status VBO:0300002 {source="https://fifeweb.org/cats/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.tica.org/breeds/browse-all-breeds"}
@@ -270676,6 +270687,7 @@ synonym: "Kurilean Bobtail, Short-Haired" EXACT [] {source="https://venomcoding.
 synonym: "Kurilian Bobtail Shorthair" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_kbs.php"}
 xref: VeNom:15291 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "KBS" xsd:string {source="https://fifeweb.org/cats/breeds/"}
 property_value: breed_recognition_status VBO:0300002 {source="https://fifeweb.org/cats/breeds/"}
@@ -270954,6 +270966,7 @@ synonym: "Me-kong Bobtail" EXACT [] {source="https://fifeweb.org/cats/ems-system
 synonym: "Me-kong Bobtail (Cat)" EXACT [] {source="VBO:0100159"}
 synonym: "Mekong Bobtail" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "MBT" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
 property_value: breed_code "MBT non" xsd:string {source="https://fifeweb.org/cats/ems-system/"}
@@ -272431,6 +272444,7 @@ id: VBO:0100233
 name: Tennessee Bobtail (Cat)
 synonym: "Tennessee Bobtail" EXACT most_common_name [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100347 {source="https://orcid.org/0000-0002-4142-7153"} ! Bobtail (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "TNB" xsd:string {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
 property_value: breed_recognition_status VBO:0300002 {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
@@ -273464,6 +273478,16 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
 
 [Term]
+id: VBO:0100347
+name: Bobtail (Cat)
+synonym: "Bobtail" EXACT most_common_name [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
+is_a: NCBITaxon:9685 {source="https://orcid.org/0000-0002-4142-7153"} ! Felis catus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://adoptanimaux.com/en/adoption/data/us/breed-types" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+
+[Term]
 id: VBO:0200000
 name: Aberdeen Terrier (Dog)
 synonym: "Aberdeen Terrier" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
@@ -274341,6 +274365,7 @@ xref: iDog:302 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action
 xref: iDog:7 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=7"}
 xref: VeNom:14280 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201496 {source="https://orcid.org/0000-0002-4142-7153"} ! Eskimo Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/american-eskimo-dog/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -278870,6 +278895,7 @@ xref: FCI:211 {source="https://www.fci.be/en/nomenclature/CANADIAN-ESKIMO-DOG-21
 xref: iDog:287 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=287"}
 xref: VeNom:14282 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201496 {source="https://orcid.org/0000-0002-4142-7153"} ! Eskimo Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/CANADIAN-ESKIMO-DOG-211.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -301321,6 +301347,16 @@ property_value: dcterms:source "https://orcid.org/0000-0002-1628-7726" xsd:strin
 property_value: dcterms:source "https://orcid.org/0000-0002-5520-6597" xsd:string
 property_value: dcterms:source "https://orcid.org/0000-0002-9178-3965" xsd:string
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/211" xsd:anyURI
+
+[Term]
+id: VBO:0201496
+name: Eskimo Dog (Dog)
+synonym: "Eskimo Dog" EXACT most_common_name [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
+is_a: NCBITaxon:9615 {source="https://orcid.org/0000-0002-4142-7153"} ! Canis lupus familiaris
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://adoptanimaux.com/en/adoption/data/us/breed-types" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0300000
