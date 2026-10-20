@@ -271375,6 +271375,7 @@ id: VBO:0100181
 name: Oriental (Cat)
 synonym: "Oriental" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Oriental" EXACT most_common_name [] {source="https://cfa.org/breeds/"}
+synonym: "Oriental Tabby" NARROW [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: VeNom:18100 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -272372,6 +272373,7 @@ name: Sphynx (Cat)
 synonym: "Canadian Sphynx" EXACT [] {source="https://en.wikipedia.org/wiki/Sphynx_cat"}
 synonym: "Sphynx" EXACT most_common_name [] {source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
 synonym: "Sphynx" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Sphynx (hairless cat)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: VeNom:15333 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -273434,6 +273436,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0100343
 name: Polydactyl cat ( Hemingway cat ) (Cat)
 synonym: "Polydactyl cat ( Hemingway cat )" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Extra-Toes Cat (Hemingway Polydactyl)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: VeNom:22662 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 {source="https://orcid.org/0000-0002-5002-8648"} ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -276306,6 +276309,7 @@ id: VBO:0200144
 name: Belgian Shepherd Dog (Dog)
 synonym: "Belgian Shepherd" EXACT [] {source="http://omia.org", source="https://en.wikipedia.org/wiki/Belgian_Shepherd"}
 synonym: "Belgian Shepherd Dog" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/BELGIAN-SHEPHERD-DOG-15.html", source="https://www.ukcdogs.com/belgian-shepherd-dog", source="https://venomcoding.org/venom-codes/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Herding-Dogs/Belgian-Shepherd-Dog", source="http://omia.org", source="https://en.wikipedia.org/wiki/Belgian_Shepherd"}
+synonym: "Belgian Shepherd Dog Sheepdog" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Chien De Berger Belge" EXACT [] {source="https://www.fci.be/en/nomenclature/BELGIAN-SHEPHERD-DOG-15.html"}
 synonym: "Shepherd Dog - Belgian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Shepherd Dog - Belgian unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -276387,6 +276391,7 @@ name: Belgian Shepherd Dog, Malinois (Dog)
 synonym: "(Chien de Berger Belge)" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=29"}
 synonym: "Belgian Malinois" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=29", source="https://www.akc.org/dog-breeds/belgian-malinois/"}
 synonym: "Belgian Shepherd Dog, Malinois" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=29", source="https://www.fci.be/en/nomenclature/BELGIAN-SHEPHERD-DOG-15.html", source="https://www.akc.org/dog-breeds/belgian-malinois/", source="https://venomcoding.org/venom-codes/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/belgian-shepherd-dog-malinois/"}
+synonym: "Belgian Shepherd Malinois" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Malinois" EXACT [] {source="http://omia.org"}
 synonym: "Malinois (Dog)" EXACT [] {source="VBO:0200853"}
 synonym: "Mechelaar" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=29"}
@@ -276418,6 +276423,7 @@ id: VBO:0200148
 name: Belgian Shepherd Dog, Tervueren (Dog)
 synonym: "Belgian Shepherd Dog, Tervueren" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/BELGIAN-SHEPHERD-DOG-15.html", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/belgian-shepherd-dog-tervueren/", source="https://www.akc.org/dog-breeds/belgian-tervuren/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=31", source="https://venomcoding.org/venom-codes/"}
 synonym: "Belgian Shepherd Dog, Tervuren" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Belgian Shepherd Tervuren" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Belgian Tervuren" EXACT [] {source="https://www.akc.org/dog-breeds/belgian-tervuren/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=31"}
 synonym: "Chien de Berger Belge" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=31"}
 synonym: "Shepherd Dog - Belgian, Tervuren" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -276745,6 +276751,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0200165
 name: Biewer Terrier (Dog)
 synonym: "Biewer Terrier" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/biewer-terrier/", source="https://venomcoding.org/venom-codes/", source="https://www.ukcdogs.com/biewer-terrier", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=36"}
+synonym: "Biewer" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Terrier - Biewer" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Terrier - Biewer (Yorksire a la Pom)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Yorksire a la Pom" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -280140,6 +280147,7 @@ id: VBO:0200346
 name: Chinese Crested, Hairless (Dog)
 synonym: "Chinese Crested Dog, Hairless" EXACT [] {source="https://www.fci.be/en/nomenclature/CHINESE-CRESTED-DOG-288.html"}
 synonym: "Chinese Crested, Hairless" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/CHINESE-CRESTED-DOG-288.html", source="https://venomcoding.org/venom-codes/"}
+synonym: "Chinese Crested-Hairless" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: FCI:288 {source="https://www.fci.be/en/nomenclature/CHINESE-CRESTED-DOG-288.html"}
 xref: VeNom:13849 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0200345 ! Chinese Crested (Dog)
@@ -284540,6 +284548,7 @@ synonym: "German, White Shepherd Dog" EXACT [] {source="https://venomcoding.org/
 synonym: "GSD, White" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Shepherd Dog - German (Alsatian) (GSD), White" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Shepherd Dog - German, White" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "White German Shepherd" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: VeNom:14798 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0200577 ! German Shepherd Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -287083,6 +287092,7 @@ name: Italian Cane Corso (Dog)
 synonym: "Cane Corso" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Cane-Corso-Listed", source="https://www.akc.org/dog-breeds/cane-corso/", source="https://en.wikipedia.org/wiki/Cane_Corso"}
 synonym: "Cane Corso Italiano" EXACT [] {source="https://www.ukcdogs.com/cane-corso-italiano", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html"}
 synonym: "Italian Cane Corso" EXACT most_common_name [] {source="https://www.ukcdogs.com/cane-corso-italiano", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Cane-Corso-Listed", source="https://www.akc.org/dog-breeds/cane-corso/", source="http://omia.org", source="https://en.wikipedia.org/wiki/Cane_Corso"}
+synonym: "Cane Corso Mastiff" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Italian Corso" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
 synonym: "Italian Corso Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
 synonym: "Italian Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
@@ -288431,6 +288441,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200783
 name: Korean Jindo (Dog)
+synonym: "Jindo (Korean)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Korea Jindo Dog" EXACT [] {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html"}
 synonym: "Korean Jindo" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html", source="https://venomcoding.org/venom-codes/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/korean-jindo-imp/"}
 xref: FCI:334 {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html"}
@@ -288721,12 +288732,15 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200800
 name: Labrador Retriever (Dog)
+synonym: "Black Labrador Retriever" NARROW [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
+synonym: "Chocolate Labrador Retriever" NARROW [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Lab" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=147"}
 synonym: "Labrador" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=147", source="http://omia.org"}
 synonym: "Labrador Retriever" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/labrador-retriever/", source="https://www.ukcdogs.com/labrador-retriever", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Labrador", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=147", source="https://venomcoding.org/venom-codes/", source="https://en.wikipedia.org/wiki/Labrador_Retriever", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/retriever-labrador/", source="https://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122.html", source="http://omia.org"}
 synonym: "Retriever - Labrador" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Retriever - Labrador (Labrador Retriever)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Retriever, Labrador" EXACT [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/retriever-labrador/"}
+synonym: "Yellow Labrador Retriever" NARROW [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: FCI:122 {source="https://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122.html"}
 xref: iDog:147 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=147"}
 xref: VeNom:14631 {source="https://venomcoding.org/venom-codes/"}
@@ -290054,6 +290068,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200872
 name: McNab Shepherd (Dog)
+synonym: "McNab" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "McNab dog" EXACT [] {source="https://en.wikipedia.org/wiki/McNab_dog"}
 synonym: "McNab Shepherd" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="http://omia.org", source="https://en.wikipedia.org/wiki/McNab_dog"}
 synonym: "McNab Shepherd Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -291030,6 +291045,7 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/MUDI-238.html
 id: VBO:0200928
 name: Munsterlander Pointer (Dog)
 synonym: "Munsterlander Pointer" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Munsterlander" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Pointer - Munsterlander" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Pointer - Munsterlander (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Pointer - Munsterlander unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -291222,6 +291238,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0200938
 name: Newfoundland (Dog)
 synonym: "Newfoundland" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/NEWFOUNDLAND-50.html", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Newfoundland", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/working/newfoundland/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=166", source="https://en.wikipedia.org/wiki/Newfoundland_(dog)", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/newfoundland/", source="https://www.ukcdogs.com/newfoundland", source="http://omia.org"}
+synonym: "Newfoundland Dog" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: FCI:50 {source="https://www.fci.be/en/nomenclature/NEWFOUNDLAND-50.html"}
 xref: iDog:166 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=166"}
 xref: VeNom:14476 {source="https://venomcoding.org/venom-codes/"}
@@ -291711,6 +291728,7 @@ synonym: "Duck Toller" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getB
 synonym: "Little Red Duck Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=173"}
 synonym: "Little River Duck Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=173", source="https://venomcoding.org/venom-codes/"}
 synonym: "Nova Scotia Duck Tolling Retriever" EXACT most_common_name [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/retriever-nova-scotia-duck-tolling/", source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=173", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Nova-Scotia-Duck-Tolling", source="https://venomcoding.org/venom-codes/", source="https://www.ukcdogs.com/nova-scotia-duck-tolling-retriever", source="https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever/", source="http://omia.org", source="https://en.wikipedia.org/wiki/Nova_Scotia_Duck_Tolling_Retriever"}
+synonym: "Nova Scotia Duck-Tolling Retriever" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Retriever - Nova Scotia Duck Tolling" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Retriever - Nova Scotia Duck Tolling (Little River Duck Dog) (Yarmouth Toller)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Retriever, Nova Scotia Duck Tolling" EXACT [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/retriever-nova-scotia-duck-tolling/"}
@@ -291786,6 +291804,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0200969
 name: Old English Sheepdog (Dog)
 synonym: "Old English Sheepdog" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/old-english-sheepdog/", source="https://www.ukcdogs.com/old-english-sheepdog", source="https://www.fci.be/en/nomenclature/OLD-ENGLISH-SHEEPDOG-16.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=174", source="https://venomcoding.org/venom-codes/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Herding-Dogs/Old-English-Sheepdog", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/old-english-sheepdog/", source="http://omia.org", source="https://en.wikipedia.org/wiki/Old_English_Sheepdog"}
+synonym: "English Sheepdog" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Sheepdog - Old English" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: FCI:16 {source="https://www.fci.be/en/nomenclature/OLD-ENGLISH-SHEEPDOG-16.html"}
 xref: iDog:174 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=174"}
@@ -293312,6 +293331,7 @@ id: VBO:0201048
 name: Poodle (Dog)
 synonym: "Caniche" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=188", source="https://www.fci.be/en/nomenclature/POODLE-172.html"}
 synonym: "Poodle" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Poodle", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=188", source="https://www.fci.be/en/nomenclature/POODLE-172.html", source="https://venomcoding.org/venom-codes/", source="https://www.ukcdogs.com/poodle", source="http://omia.org"}
+synonym: "Poodle (unknown type)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Poodle (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Poodle unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Pudelhund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=188"}
@@ -293368,6 +293388,7 @@ id: VBO:0201051
 name: Poodle, Miniature (Dog)
 synonym: "Miniature Poodle" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=270", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Poodle-Miniature"}
 synonym: "Poodle, Miniature" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=270", source="https://www.akc.org/dog-breeds/poodle-miniature/", source="https://venomcoding.org/venom-codes/", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Poodle-Miniature", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/poodle-miniature/"}
+synonym: "Poodle (Miniature)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: iDog:270 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=270"}
 xref: VeNom:14593 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0201048 ! Poodle (Dog)
@@ -293455,6 +293476,7 @@ id: VBO:0201056
 name: Poodle, Standard (Dog)
 synonym: "Caniche Pudelhund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=271"}
 synonym: "Poodle, Standard" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=271", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/poodle-standard/", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/poodle-standard/", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Poodle-Standard", source="https://www.ukcdogs.com/standard-poodle"}
+synonym: "Poodle (Standard)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Standard Poodle" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=271", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Poodle-Standard", source="https://www.ukcdogs.com/standard-poodle"}
 xref: iDog:271 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=271"}
 xref: VeNom:14594 {source="https://venomcoding.org/venom-codes/"}
@@ -293524,6 +293546,7 @@ property_value: dcterms:source "https://www.ukcdogs.com/multi-colored-standard-p
 id: VBO:0201060
 name: Poodle, Teacup (Dog)
 synonym: "Poodle, Teacup" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Poodle (T-Cup)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 xref: VeNom:22578 {source="https://venomcoding.org/venom-codes/"}
 is_a: VBO:0201048 ! Poodle (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -293538,6 +293561,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0201061
 name: Poodle, Toy (Dog)
 synonym: "Poodle, Toy" EXACT most_common_name [] {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Toy-Dogs/Poodle-Toy", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=272", source="https://www.akc.org/dog-breeds/poodle-toy/", source="https://www.fci.be/en/nomenclature/POODLE-172.html", source="https://venomcoding.org/venom-codes/", source="http://omia.org", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/poodle-toy/"}
+synonym: "Poodle (Toy)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Toy Poodle" EXACT [] {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Toy-Dogs/Poodle-Toy", source="http://omia.org"}
 xref: FCI:172 {source="https://www.fci.be/en/nomenclature/POODLE-172.html"}
 xref: iDog:272 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=272"}
@@ -293658,6 +293682,7 @@ id: VBO:0201067
 name: Portuguese Podengo (Dog)
 synonym: "Podengo Portugues" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=190"}
 synonym: "Portuguese Podengo" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Portuguese_Podengo", source="https://www.akc.org/dog-breeds/portuguese-podengo/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/portuguese-podengo/", source="https://www.ukcdogs.com/portuguese-podengo", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=190"}
+synonym: "Podengo Portugueso" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Portuguese Warren Hound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=190"}
 xref: iDog:190 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=190"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
@@ -296415,6 +296440,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0201215
 name: Sheepdog (Dog)
 synonym: "Sheepdog" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Sheep Dog" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Sheepdog (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Sheepdog unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:14683 {source="https://venomcoding.org/venom-codes/"}
@@ -300449,6 +300475,7 @@ synonym: "Griffon A Poil Dur Korthals" EXACT [] {source="https://www.fci.be/en/n
 synonym: "Griffon d'arret a poil dur Korthals" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=258"}
 synonym: "Korthals Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=258"}
 synonym: "Wire Haired Pointing Griffon" EXACT [] {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Griffon-Wire-Haired-Pointing"}
+synonym: "Wire-haired Pointing Griffon" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Wire-Haired Pointing Griffon Korthals" EXACT [] {source="https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html"}
 synonym: "Wirehaired Griffon" EXACT [] {source="http://omia.org"}
 synonym: "Wirehaired Pointing Griffon" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Wirehaired_Pointing_Griffon", source="https://www.ukcdogs.com/wire-haired-pointing-griffon", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Griffon-Wire-Haired-Pointing", source="https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html", source="https://venomcoding.org/venom-codes/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=258", source="http://omia.org", source="https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/"}
@@ -300625,6 +300652,7 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Xiasi_Dog" xsd:any
 [Term]
 id: VBO:0201436
 name: Xoloitzcuintli (Dog)
+synonym: "Mexican Hairless" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Mexican Hairless (Tepeizeuintli) (Xoloitzcuintle) (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Mexican Hairless Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=261"}
 synonym: "Mexican Hairless Tepeizeuintli Xoloitzcuintle" EXACT [] {source="https://venomcoding.org/venom-codes/"}
