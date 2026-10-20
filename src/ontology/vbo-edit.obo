@@ -268949,7 +268949,7 @@ property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 id: VBO:0100055
 name: Burmese Longhair (Cat)
 synonym: "Burmese Longhair" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/"}
-synonym: "Tiffany" EXACT [] {source="https://wcf.de/en/wcf-ems-code/"}
+synonym: "Tiffany" RELATED [] {source="https://wcf.de/en/wcf-ems-code/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_code "TIF" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
@@ -272530,7 +272530,7 @@ id: VBO:0100239
 name: Tiffanie (Cat)
 synonym: "Tiffanie" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Tiffanie" EXACT most_common_name [] {source="https://fifeweb.org/cats/ems-system/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_tif.php"}
-synonym: "Tiffany" EXACT [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
+synonym: "Tiffany" RELATED [] {source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
 xref: VeNom:22665 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -273547,7 +273547,7 @@ name: Afghan Hound (Dog)
 synonym: "Afghan Hound" EXACT most_common_name [] {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Afghan-Hound", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2", source="https://www.ukcdogs.com/afghan-hound", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/afghan-hound/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/afghan-hound/", source="http://omia.org", source="https://www.fci.be/en/nomenclature/AFGHAN-HOUND-228.html", source="https://en.wikipedia.org/wiki/Afghan_Hound"}
 synonym: "Balochi, Ogar Afgan" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2"}
 synonym: "Barakzai Hound, Eastern" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2"}
-synonym: "Greyhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2"}
+synonym: "Greyhound" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2"}
 synonym: "Greyhound/Persian" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2"}
 synonym: "Hound - Afghan" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Kochyano Spay, Sage" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=2"}
@@ -274361,7 +274361,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0200047
 name: American Foxhound (Dog)
 synonym: "American Foxhound" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/AMERICAN-FOXHOUND-303.html", source="https://www.ukcdogs.com/american-foxhound", source="https://www.akc.org/dog-breeds/american-foxhound/", source="https://venomcoding.org/venom-codes/", source="http://omia.org", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=8", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Foxhound-American", source="https://en.wikipedia.org/wiki/American_Foxhound"}
-synonym: "Foxhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=8"}
+synonym: "Foxhound" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=8"}
 synonym: "Foxhound - American" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: FCI:303 {source="https://www.fci.be/en/nomenclature/AMERICAN-FOXHOUND-303.html"}
 xref: iDog:8 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=8"}
@@ -278188,8 +278188,8 @@ synonym: "Brittany (unspecified)( Spaniel - Brittany (unspecified) )" EXACT [] {
 synonym: "Brittany Spaniel" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
 synonym: "Brittany unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Brittany Wiegref" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
-synonym: "Epagneul Breton" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
-synonym: "French Brittany" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
+synonym: "Epagneul Breton" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
+synonym: "French Brittany" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
 synonym: "Spaniel - Brittany" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: iDog:54 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
 xref: VeNom:22569 {source="https://venomcoding.org/venom-codes/"}
@@ -280687,7 +280687,7 @@ property_value: dcterms:source "https://www.ukcdogs.com/collie" xsd:anyURI
 [Term]
 id: VBO:0200376
 name: Collie Rough (Dog)
-synonym: "Collie" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=299"}
+synonym: "Collie" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=299"}
 synonym: "Collie Rough" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Rough_Collie", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=299", source="https://www.fci.be/en/nomenclature/COLLIE-ROUGH-156.html", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Herding-Dogs/Collie-Rough", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/collie-rough/", source="http://omia.org"}
 synonym: "English collie" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=299"}
 synonym: "lassie dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=299"}
@@ -282759,7 +282759,7 @@ property_value: dcterms:source "https://www.ukcdogs.com/enlgish-coonhound" xsd:a
 id: VBO:0200490
 name: English Foxhound (Dog)
 synonym: "English Foxhound" EXACT most_common_name [] {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Foxhound-English", source="https://www.akc.org/dog-breeds/english-foxhound/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=95", source="https://venomcoding.org/venom-codes/", source="https://www.fci.be/en/nomenclature/ENGLISH-FOXHOUND-159.html", source="https://en.wikipedia.org/wiki/English_Foxhound", source="https://www.ukcdogs.com/english-foxhound"}
-synonym: "Foxhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=95"}
+synonym: "Foxhound" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=95"}
 synonym: "Foxhound - English" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: FCI:159 {source="https://www.fci.be/en/nomenclature/ENGLISH-FOXHOUND-159.html"}
 xref: iDog:95 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=95"}
@@ -285691,10 +285691,10 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0200640
 name: Griffon Belge (Dog)
 synonym: "Belgium Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
-synonym: "Brabançon Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
-synonym: "Brussels Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
+synonym: "Brabançon Griffon" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
+synonym: "Brussels Griffon" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
 synonym: "Griffon Belge" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/GRIFFON-BELGE-81.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
-synonym: "Petit Brabançon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
+synonym: "Petit Brabançon" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
 xref: FCI:81 {source="https://www.fci.be/en/nomenclature/GRIFFON-BELGE-81.html"}
 xref: iDog:456 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=456"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
@@ -285731,14 +285731,14 @@ property_value: dcterms:source "https://www.ukcdogs.com/griffon-bleu-de-gascogne
 [Term]
 id: VBO:0200642
 name: Griffon Bruxellois (Dog)
-synonym: "Belgium Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
+synonym: "Belgium Griffon" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
 synonym: "Bruss" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
-synonym: "Brussels Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
+synonym: "Brussels Griffon" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
 synonym: "Griff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
 synonym: "Griffon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
-synonym: "Griffon Belge" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
+synonym: "Griffon Belge" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
 synonym: "Griffon Bruxellois" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/GRIFFON-BRUXELLOIS-80.html", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/toy/griffon-bruxellois/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
-synonym: "Petit Brabançon" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
+synonym: "Petit Brabançon" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
 xref: FCI:80 {source="https://www.fci.be/en/nomenclature/GRIFFON-BRUXELLOIS-80.html"}
 xref: iDog:457 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=457"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
@@ -291903,7 +291903,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200976
 name: Olde English Bulldogge (Dog)
-synonym: "Bulldog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=396"}
+synonym: "Bulldog" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=396"}
 synonym: "Bulldogge - Olde English" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "English Bulldog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=396"}
 synonym: "OEB" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=396"}
@@ -292105,7 +292105,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 [Term]
 id: VBO:0200987
 name: Parson Russell Terrier (Dog)
-synonym: "Jack Russell Terrier" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=177"}
+synonym: "Jack Russell Terrier" RELATED [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=177"}
 synonym: "Parson" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=177"}
 synonym: "Parson Jack Russell Terrier" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=177"}
 synonym: "Parson Russell Terrier" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Parson_Russell_Terrier", source="https://www.akc.org/dog-breeds/parson-russell-terrier/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/terrier/parson-russell-terrier/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=177", source="https://venomcoding.org/venom-codes/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Terriers/Parson-Russell-Terrier", source="https://www.fci.be/en/nomenclature/PARSON-RUSSELL-TERRIER-339.html", source="https://www.ukcdogs.com/parson-russell-terrier", source="http://omia.org"}
@@ -296770,7 +296770,7 @@ id: VBO:0201233
 name: Siberian Husky (Dog)
 synonym: "Chukcha" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=220"}
 synonym: "Chuksha" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=220"}
-synonym: "Husky" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=220"}
+synonym: "Husky" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=220"}
 synonym: "Husky - Siberian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Sibe" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=220"}
 synonym: "Siberian Husky" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/siberian-husky/", source="https://www.ukcdogs.com/siberian-husky", source="https://www.fci.be/en/nomenclature/SIBERIAN-HUSKY-270.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=220", source="https://venomcoding.org/venom-codes/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Siberian-Husky", source="https://en.wikipedia.org/wiki/Siberian_Husky", source="http://omia.org", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/working/siberian-husky/"}
@@ -300944,7 +300944,7 @@ synonym: "Charplaninatz" EXACT [] {source="https://venomcoding.org/venom-codes/"
 synonym: "Illyrian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Illyrian Shepherd dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=479"}
 synonym: "Jugoslovenski Ovcarski Pas-Sarplaninac" EXACT [] {source="https://www.fci.be/en/nomenclature/YUGOSLAVIAN-SHEPHERD-DOG-SHARPLANINA-41.html"}
-synonym: "Mountain Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Mountain Dog" RELATED [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Planinac" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=479"}
 synonym: "Shar Planinetz" EXACT [] {source="http://omia.org"}
 synonym: "Shar Planinetz (Dog)" EXACT [] {source="VBO:0201213"}
