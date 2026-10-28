@@ -291739,7 +291739,6 @@ synonym: "Yarmouth Toller" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/
 xref: FCI:312 {source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html"}
 xref: iDog:173 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=173"}
 xref: VeNom:14632 {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:15126 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html"}
@@ -291758,6 +291757,7 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/NOVA-SCOTIA-D
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/retriever-nova-scotia-duck-tolling/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/nova-scotia-duck-tolling-retriever" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200965
@@ -292289,7 +292289,6 @@ synonym: "Welsh Corgi - Pembroke" EXACT [] {source="https://venomcoding.org/veno
 synonym: "Welsh Corgi, Pembroke" EXACT [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/welsh-corgi-pembroke/"}
 xref: FCI:39 {source="https://www.fci.be/en/nomenclature/WELSH-CORGI-PEMBROKE-39.html"}
 xref: iDog:179 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=179"}
-xref: VeNom:14632 {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:15126 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0201406 ! Welsh Corgi (Dog)
@@ -292314,6 +292313,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/253" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200996
