@@ -269928,38 +269928,29 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 
 [Term]
 id: VBO:0100108
-name: Havana (Cat)
-synonym: "Havana" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_hav.php", source="https://www.tica.org/breeds/browse-all-breeds"}
-synonym: "Havana Brown" EXACT [] {source="https://wcf.de/pdf-en/breed/Havana_2019-09-29_EN.pdf"}
-synonym: "Suffolk" EXACT [] {source="https://wcf.de/pdf-en/breed/Havana_2019-09-29_EN.pdf"}
-is_a: NCBITaxon:9685 ! Felis catus
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-relationship: VBO:0300019 VBO:0100200 {source="https://tica.org/breeds/browse-all-breeds?view=article&id=2124"} ! has foundation stock Russian Blue (Cat)
-relationship: VBO:0300019 VBO:0100221 {source="https://tica.org/breeds/browse-all-breeds?view=article&id=2124"} ! has foundation stock Siamese (Cat)
-property_value: breed_code "HAV" xsd:string {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
-property_value: breed_code "HB" xsd:string {source="https://www.tica.org/phocadownload/hb.pdf"}
-property_value: breed_recognition_status VBO:0300002 {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.tica.org/breeds/browse-all-breeds"}
-property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
-property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
-property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
-property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_hav.php" xsd:anyURI
+name: obsolete Havana (Cat)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0100109
 
 [Term]
 id: VBO:0100109
 name: Havana Brown (Cat)
-synonym: "Havana" EXACT [] {source="https://en.wikipedia.org/wiki/Havana_Brown"}
-synonym: "Havana Brown" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Havana" EXACT [] {source="https://en.wikipedia.org/wiki/Havana_Brown", source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_hav.php", source="https://www.tica.org/breeds/browse-all-breeds"}
+synonym: "Havana (Cat)" EXACT [] {source="VBO:0100108"}
+synonym: "Havana Brown" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="https://wcf.de/pdf-en/breed/Havana_2019-09-29_EN.pdf"}
 synonym: "Havana Brown" EXACT most_common_name [] {source="https://cfa.org/breeds/", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_hbrn.php"}
+synonym: "Suffolk" EXACT [] {source="https://wcf.de/pdf-en/breed/Havana_2019-09-29_EN.pdf"}
 xref: VeNom:15283 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-relationship: VBO:0300019 VBO:0100221 {source="https://cfa.org/havana-brown/", source="https://en.wikipedia.org/wiki/Havana_Brown"} ! has foundation stock Siamese (Cat)
-property_value: breed_recognition_status VBO:0300002 {source="https://cfa.org/breeds/"}
+relationship: VBO:0300019 VBO:0100200 {source="https://tica.org/breeds/browse-all-breeds?view=article&id=2124"} ! has foundation stock Russian Blue (Cat)
+relationship: VBO:0300019 VBO:0100221 {source="https://cfa.org/havana-brown/", source="https://en.wikipedia.org/wiki/Havana_Brown", source="https://tica.org/breeds/browse-all-breeds?view=article&id=2124"} ! has foundation stock Siamese (Cat)
+property_value: breed_code "HAV" xsd:string {source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/"}
+property_value: breed_code "HB" xsd:string {source="https://www.tica.org/phocadownload/hb.pdf"}
+property_value: breed_recognition_status VBO:0300002 {source="https://cfa.org/breeds/", source="https://wcf.de/en/wcf-ems-code/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://www.tica.org/breeds/browse-all-breeds"}
+property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
@@ -269967,8 +269958,13 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://cfa.org/breeds/" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
+property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-recognition/" xsd:anyURI
+property_value: dcterms:source "https://www.tica.org/breeds/browse-all-breeds" xsd:anyURI
+property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_hav.php" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_hbrn.php" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0100110
@@ -272399,7 +272395,6 @@ name: Suffolk (Cat)
 synonym: "Suffolk" EXACT most_common_name [] {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-relationship: VBO:0300019 VBO:0100108 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/suffolk/"} ! has foundation stock Havana (Cat)
 relationship: VBO:0300019 VBO:0100109 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/suffolk/"} ! has foundation stock Havana Brown (Cat)
 relationship: VBO:0300019 VBO:0100181 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/suffolk/"} ! has foundation stock Oriental (Cat)
 relationship: VBO:0300019 VBO:0100221 {source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/suffolk/"} ! has foundation stock Siamese (Cat)
@@ -289116,7 +289111,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 [Term]
 id: VBO:0200820
 name: Leopard Cur (Dog)
-synonym: "Catahoula Leopard Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Catahoula Leopard Dog" RELATED [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Cur - Leopard" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Cur - Leopard (Catahoula Leopard Dog)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Leopard Cur" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
@@ -289944,7 +289939,7 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Marquesan_Dog" xsd
 [Term]
 id: VBO:0200867
 name: Mastiff (Dog)
-synonym: "English Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=157"}
+synonym: "English Mastiff" NARROW [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=157"}
 synonym: "Mastiff" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/mastiff/", source="https://www.ukcdogs.com/mastiff", source="https://www.fci.be/en/nomenclature/MASTIFF-264.html", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/working/mastiff/", source="https://venomcoding.org/venom-codes/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=157", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Mastiff"}
 synonym: "Mastiff (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Mastiff unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -292892,7 +292887,7 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Podenco_Valenciano
 [Term]
 id: VBO:0201029
 name: Pointer (Dog)
-synonym: "English Pointer" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185"}
+synonym: "English Pointer" NARROW [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185"}
 synonym: "Pointer" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/pointer/", source="https://en.wikipedia.org/wiki/Pointer_(dog_breed)", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/pointer/", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pointer"}
 synonym: "Pointer (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Pointer unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -295920,7 +295915,7 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/SCHNAUZER-182
 id: VBO:0201189
 name: Schnauzer, Standard (Dog)
 synonym: "Mittelschnauzer" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=235"}
-synonym: "Schnauzer" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=235"}
+synonym: "Schnauzer" BROAD [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=235"}
 synonym: "Schnauzer, Standard" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Standard_Schnauzer", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Schnauzer-Standard", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=235", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/standard-schnauzer/", source="https://www.ukcdogs.com/standard-schnauzer", source="http://omia.org"}
 synonym: "Standard Schnauzer" EXACT [] {source="https://en.wikipedia.org/wiki/Standard_Schnauzer", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Schnauzer-Standard", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=235", source="https://www.akc.org/dog-breeds/standard-schnauzer/", source="https://www.ukcdogs.com/standard-schnauzer", source="http://omia.org"}
 synonym: "Wirehair Pinscher (obsolete)" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=235"}
