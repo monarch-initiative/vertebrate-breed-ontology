@@ -269090,19 +269090,11 @@ property_value: dcterms:source "https://www.rareexoticfelineregistry.com/breed-r
 
 [Term]
 id: VBO:0100063
-name: Celtic (Cat)
-synonym: "Celtic" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/"}
-synonym: "European Shorthair" EXACT [] {source="https://wcf.de/en/wcf-ems-code/", source="https://wcf.de/pdf-en/breed/KKH_en_2010-01-01.pdf"}
-is_a: NCBITaxon:9685 ! Felis catus
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_code "KKH" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
-property_value: breed_recognition_status VBO:0300002 {source="https://wcf.de/en/wcf-ems-code/"}
-property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
+name: obsolete Celtic (Cat)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0100094
 
 [Term]
 id: VBO:0100064
@@ -269681,12 +269673,16 @@ property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_co
 [Term]
 id: VBO:0100094
 name: European Shorthair (Cat)
+synonym: "Celtic" EXACT [] {source="https://wcf.de/en/wcf-ems-code/"}
+synonym: "Celtic (Cat)" EXACT [] {source="VBO:0100063"}
 synonym: "European" EXACT [] {source="https://en.wikipedia.org/wiki/European_Shorthair"}
 synonym: "European Short Hair" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "European Shorthair" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_eush.php"}
+synonym: "European Shorthair" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.worldcatcongress.org/wp/cat_breed_comp_eush.php", source="https://wcf.de/en/wcf-ems-code/", source="https://wcf.de/pdf-en/breed/KKH_en_2010-01-01.pdf"}
 xref: VeNom:15278 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+property_value: breed_code "KKH" xsd:string {source="https://wcf.de/en/wcf-ems-code/"}
+property_value: breed_recognition_status VBO:0300002 {source="https://wcf.de/en/wcf-ems-code/"}
 property_value: dcterms:contributor https://orcid.org/0000-0002-1628-7726
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
@@ -269694,8 +269690,10 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://wcf.de/en/wcf-ems-code/" xsd:anyURI
 property_value: dcterms:source "https://www.worldcatcongress.org/wp/cat_breed_comp_eush.php" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0100095
@@ -274290,28 +274288,22 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 
 [Term]
 id: VBO:0200044
-name: American Dingo (Dog)
-synonym: "American Dingo" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "American Dingo (Carolina Dog) (American Indian Dog)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "American Indian Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Carolina Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:13646 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+name: obsolete American Dingo (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200294
 
 [Term]
 id: VBO:0200045
 name: American English Coonhound (Dog)
 synonym: "American English Coonhound" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/American_English_Coonhound", source="https://www.akc.org/dog-breeds/american-english-coonhound/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=6", source="http://omia.org"}
-synonym: "English Coonhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=6"}
+synonym: "Coonhound - English" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "English Coonhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=6", source="https://www.ukcdogs.com/enlgish-coonhound", source="https://venomcoding.org/venom-codes/"}
+synonym: "English Coonhound (Dog)" EXACT [] {source="VBO:0200489"}
 synonym: "Redtick Coonhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=6"}
 xref: iDog:6 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=6"}
+xref: VeNom:13890 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/american-english-coonhound/"}
@@ -274323,7 +274315,10 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/American_English_Coonhound" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=6" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/american-english-coonhound/" xsd:anyURI
+property_value: dcterms:source "https://www.ukcdogs.com/enlgish-coonhound" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0200046
@@ -276123,36 +276118,30 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 
 [Term]
 id: VBO:0200135
-name: Beauce Shepherd Dog (Dog)
-synonym: "Bas Rouge" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Beauce Shepherd Dog" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Beauceron" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Berger de Beauce" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Shepherd Dog - Beauce" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Shepherd Dog - Beauce (Bas Rouge) (Beauceron) (Berger de Beauce)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:14759 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201216 ! Shepherd Dog (Dog)
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+name: obsolete Beauce Shepherd Dog (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200136
 
 [Term]
 id: VBO:0200136
 name: Beauceron (Dog)
-synonym: "Bas Rouge" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
+synonym: "Bas Rouge" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26", source="https://venomcoding.org/venom-codes/"}
 synonym: "Beauce Sheep dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
 synonym: "Beauce Shepherd" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
-synonym: "Beauceron" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Beauceron", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/beauceron/", source="https://www.ukcdogs.com/beauceron", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26", source="https://www.akc.org/dog-breeds/beauceron/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Herding-Dogs/Beauceron"}
-synonym: "Berger de Beauce" EXACT [] {source="https://www.ukcdogs.com/beauceron", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
+synonym: "Beauce Shepherd Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Beauce Shepherd Dog (Dog)" EXACT [] {source="VBO:0200135"}
+synonym: "Beauceron" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Beauceron", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/beauceron/", source="https://www.ukcdogs.com/beauceron", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26", source="https://www.akc.org/dog-breeds/beauceron/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Herding-Dogs/Beauceron", source="https://venomcoding.org/venom-codes/"}
+synonym: "Berger de Beauce" EXACT [] {source="https://www.ukcdogs.com/beauceron", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26", source="https://venomcoding.org/venom-codes/"}
 synonym: "French Short-Haired Shepherd Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
 synonym: "French Shorthaired Shepherd" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
+synonym: "Shepherd Dog - Beauce" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Shepherd Dog - Beauce (Bas Rouge) (Beauceron) (Berger de Beauce)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: iDog:26 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26"}
+xref: VeNom:14759 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201216 ! Shepherd Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/beauceron/"}
 property_value: breed_recognition_status VBO:0300003 {source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
@@ -276163,10 +276152,12 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Beauceron" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=26" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/beauceron/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Herding-Dogs/Beauceron" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/pastoral/beauceron/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/beauceron" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0200137
@@ -278007,21 +277998,11 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 
 [Term]
 id: VBO:0200229
-name: Brazilian Mastiff (Dog)
-synonym: "Brazilian Mastiff" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Cão de Fila" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Fila Brasileiro" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Mastiff - Brazilian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Mastiff - Brazilian (Fila Brasileiro) (Cão de Fila)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:14398 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+name: obsolete Brazilian Mastiff (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200520
 
 [Term]
 id: VBO:0200230
@@ -278568,7 +278549,8 @@ synonym: "British Bulldog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/
 synonym: "Bulldog" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Bulldog", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/bulldog/", source="https://venomcoding.org/venom-codes/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Bulldog", source="http://omia.org", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=58", source="https://www.fci.be/en/nomenclature/BULLDOG-149.html", source="https://www.akc.org/dog-breeds/bulldog/"}
 synonym: "Bulldog (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Bulldog unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "English Bulldog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=58"}
+synonym: "English Bulldog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=58", source="http://omia.org", source="https://www.ukcdogs.com/english-bulldog"}
+synonym: "English Bulldog (Dog)" EXACT [] {source="VBO:0200485"}
 xref: FCI:149 {source="https://www.fci.be/en/nomenclature/BULLDOG-149.html"}
 xref: iDog:58 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=58"}
 xref: VeNom:13759 {source="https://venomcoding.org/venom-codes/"}
@@ -278588,6 +278570,8 @@ property_value: dcterms:source "https://www.akc.org/dog-breeds/bulldog/" xsd:any
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Bulldog" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/BULLDOG-149.html" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/bulldog/" xsd:anyURI
+property_value: dcterms:source "https://www.ukcdogs.com/english-bulldog" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0200259
@@ -279187,8 +279171,13 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200294
 name: Carolina Dog (Dog)
-synonym: "Carolina Dog" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=64", source="https://www.ukcdogs.com/carolina-dog", source="https://www.akc.org/dog-breeds/carolina-dog/", source="https://en.wikipedia.org/wiki/Carolina_Dog"}
+synonym: "American Dingo" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "American Dingo (Carolina Dog) (American Indian Dog)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "American Dingo (Dog)" EXACT [] {source="VBO:0200044"}
+synonym: "American Indian Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Carolina Dog" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=64", source="https://www.ukcdogs.com/carolina-dog", source="https://www.akc.org/dog-breeds/carolina-dog/", source="https://en.wikipedia.org/wiki/Carolina_Dog", source="https://venomcoding.org/venom-codes/"}
 xref: iDog:64 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=64"}
+xref: VeNom:13646 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/carolina-dog/"}
@@ -279199,8 +279188,10 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Carolina_Dog" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=64" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/carolina-dog/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/carolina-dog" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0200295
@@ -282666,17 +282657,11 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 
 [Term]
 id: VBO:0200485
-name: English Bulldog (Dog)
-synonym: "English Bulldog" EXACT most_common_name [] {source="http://omia.org", source="https://www.ukcdogs.com/english-bulldog"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "http://omia.org" xsd:anyURI
-property_value: dcterms:source "https://www.ukcdogs.com/english-bulldog" xsd:anyURI
+name: obsolete English Bulldog (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200258
 
 [Term]
 id: VBO:0200486
@@ -282741,19 +282726,11 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/ENGLISH-COCKE
 
 [Term]
 id: VBO:0200489
-name: English Coonhound (Dog)
-synonym: "Coonhound - English" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "English Coonhound" EXACT most_common_name [] {source="https://www.ukcdogs.com/enlgish-coonhound", source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:13890 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
-property_value: dcterms:source "https://www.ukcdogs.com/enlgish-coonhound" xsd:anyURI
+name: obsolete English Coonhound (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200045
 
 [Term]
 id: VBO:0200490
@@ -283029,44 +283006,35 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/English_White_Terr
 
 [Term]
 id: VBO:0200502
-name: Entlebuch Cattle Dog (Dog)
-synonym: "Cattle Dog - Entlebuch" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Cattle Dog - Entlebuch ( Entlebucher Sennenhund, Entlebucher Mountain Dog )" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Cattle Dog - Entlebuch (Entlebucher Sennenhund)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Entelbuch Mountain Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
-synonym: "Entlebuch Cattle Dog" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html", source="https://venomcoding.org/venom-codes/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
-synonym: "Entlebucher" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
-synonym: "Entlebucher Mountain Dog" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Entlebucher Sennenhund" EXACT [] {source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html", source="https://venomcoding.org/venom-codes/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
-xref: FCI:47 {source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html"}
-xref: iDog:449 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
-xref: VeNom:13836 {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:22410 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0200300 ! Cattle Dog (Dog)
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html"}
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449" xsd:anyURI
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
-property_value: dcterms:source "https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html" xsd:anyURI
+name: obsolete Entlebuch Cattle Dog (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200503
 
 [Term]
 id: VBO:0200503
 name: Entlebucher Mountain Dog (Dog)
+synonym: "Cattle Dog - Entlebuch" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Cattle Dog - Entlebuch ( Entlebucher Sennenhund, Entlebucher Mountain Dog )" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Cattle Dog - Entlebuch (Entlebucher Sennenhund)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Entelbuch Mountain Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
 synonym: "Entelbucher Cattle Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99"}
-synonym: "Entlebucher" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99", source="https://www.ukcdogs.com/entlebucher"}
-synonym: "Entlebucher Mountain Dog" EXACT most_common_name [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/working/entlebucher-mountain-dog-imp/", source="https://www.akc.org/dog-breeds/entlebucher-mountain-dog/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Entlebucher-Mountain-Dog", source="https://en.wikipedia.org/wiki/Entlebucher_Mountain_Dog", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99", source="https://www.ukcdogs.com/entlebucher", source="http://omia.org"}
-synonym: "Entlebucher Sennenhund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99"}
+synonym: "Entlebuch Cattle Dog" EXACT [] {source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html", source="https://venomcoding.org/venom-codes/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
+synonym: "Entlebuch Cattle Dog (Dog)" EXACT [] {source="VBO:0200502"}
+synonym: "Entlebucher" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99", source="https://www.ukcdogs.com/entlebucher", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
+synonym: "Entlebucher Mountain Dog" EXACT most_common_name [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/working/entlebucher-mountain-dog-imp/", source="https://www.akc.org/dog-breeds/entlebucher-mountain-dog/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Entlebucher-Mountain-Dog", source="https://en.wikipedia.org/wiki/Entlebucher_Mountain_Dog", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99", source="https://www.ukcdogs.com/entlebucher", source="http://omia.org", source="https://venomcoding.org/venom-codes/"}
+synonym: "Entlebucher Sennenhund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99", source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html", source="https://venomcoding.org/venom-codes/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
+xref: FCI:47 {source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html"}
+xref: iDog:449 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449"}
 xref: iDog:99 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99"}
+xref: VeNom:13836 {source="https://venomcoding.org/venom-codes/"}
+xref: VeNom:22410 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0200300 ! Cattle Dog (Dog)
 is_a: VBO:0200915 ! Mountain Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/entlebucher-mountain-dog/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
+property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/entlebucher-mountain-dog/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
@@ -283074,11 +283042,15 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Entlebucher_Mountain_Dog" xsd:anyURI
+property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=449" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=99" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/entlebucher-mountain-dog/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Entlebucher-Mountain-Dog" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/working/entlebucher-mountain-dog-imp/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/entlebucher" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0200504
@@ -283391,11 +283363,16 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 [Term]
 id: VBO:0200520
 name: Fila Brasileiro (Dog)
-synonym: "Brazilian Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450"}
+synonym: "Brazilian Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450", source="https://venomcoding.org/venom-codes/"}
+synonym: "Brazilian Mastiff (Dog)" EXACT [] {source="VBO:0200229"}
+synonym: "Cão de Fila" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Cão de fila brasileiro" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450"}
-synonym: "Fila Brasileiro" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Fila_Brasileiro", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450", source="https://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html"}
+synonym: "Fila Brasileiro" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Fila_Brasileiro", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450", source="https://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html", source="https://venomcoding.org/venom-codes/"}
+synonym: "Mastiff - Brazilian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Mastiff - Brazilian (Fila Brasileiro) (Cão de Fila)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: FCI:225 {source="https://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html"}
 xref: iDog:450 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450"}
+xref: VeNom:14398 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html"}
@@ -283406,7 +283383,9 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Fila_Brasileiro" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=450" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0200521
@@ -291758,7 +291737,7 @@ id: VBO:0200967
 name: Old English Bulldog (Dog)
 synonym: "Old English Bulldog" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Old_English_Bulldog"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0200485 ! English Bulldog (Dog)
+is_a: VBO:0200258 ! Bulldog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -292370,10 +292349,13 @@ synonym: "Canary Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/g
 synonym: "Dogo Canario" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180"}
 synonym: "Perro de Presa Canario" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/perro-de-presa-canario/", source="https://en.wikipedia.org/wiki/Perro_de_Presa_Canario", source="http://omia.org", source="https://www.ukcdogs.com/perro-de-presa-canario", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180"}
 synonym: "Presa" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180"}
-synonym: "Presa Canario" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180"}
+synonym: "Presa Canario" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180", source="https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html"}
+synonym: "Presa Canario (Dog)" EXACT [] {source="VBO:0201085"}
+xref: FCI:346 {source="https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html"}
 xref: iDog:180 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
+property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html"}
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/perro-de-presa-canario/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -292384,7 +292366,9 @@ property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Perro_de_Presa_Canario" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=180" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/perro-de-presa-canario/" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/perro-de-presa-canario" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
 
 [Term]
 id: VBO:0201001
@@ -294011,18 +293995,11 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/PRAGUE-RATTER
 
 [Term]
 id: VBO:0201085
-name: Presa Canario (Dog)
-synonym: "Presa Canario" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html"}
-xref: FCI:346 {source="https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html"}
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://www.fci.be/en/nomenclature/PRESA-CANARIO-346.html" xsd:anyURI
+name: obsolete Presa Canario (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0201000
 
 [Term]
 id: VBO:0201086
@@ -299458,7 +299435,7 @@ xref: iDog:250 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action
 xref: VeNom:13913 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-relationship: VBO:0300019 VBO:0200489 {source="https://www.ukcdogs.com/treeing-walker-coonhound"} ! has foundation stock English Coonhound (Dog)
+relationship: VBO:0300019 VBO:0200045 {source="https://www.ukcdogs.com/treeing-walker-coonhound"} ! has foundation stock American English Coonhound (Dog)
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/treeing-walker-coonhound/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
