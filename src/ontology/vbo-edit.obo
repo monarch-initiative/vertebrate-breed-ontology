@@ -1026,7 +1026,7 @@ subset: transboundary
 synonym: "Aberdeen-Angus" EXACT [] {source="ISBN:9781789241532", source="ISBN:9781845934668", source="https://www.fao.org/dad-is"}
 synonym: "Aberdeen-Angus (Cattle)" EXACT [] {source="VBO:0000090"}
 synonym: "Angus" EXACT most_common_name [] {source="LBO:0000017", source="https://omia.org", source="https://www.fao.org/dad-is"}
-synonym: "German Angus" EXACT [] {source="https://omia.org"}
+synonym: "German Angus" RELATED [] {source="https://omia.org"}
 xref: LBO:0000017 {source="https://orcid.org/0000-0002-5002-8648"}
 is_a: NCBITaxon:9913 {source="https://doi.org/10.1017/S0021859614000124", source="https://orcid.org/0000-0002-5520-6597", source="https://www.fao.org/dad-is", source="https://www.cabidigitallibrary.org/doi/epdf/10.1079/9781780642215.0033"} ! Bos taurus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
