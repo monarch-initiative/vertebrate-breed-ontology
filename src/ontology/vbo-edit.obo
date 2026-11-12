@@ -273616,19 +273616,11 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 
 [Term]
 id: VBO:0200005
-name: African Boerboel (Dog)
-synonym: "African Boerboel" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "African Boerboel (African Mastiff)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "African Mastiff" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:13635 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+name: obsolete African Boerboel (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200185
 
 [Term]
 id: VBO:0200006
@@ -277179,11 +277171,16 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200185
 name: Boerboel (Dog)
+synonym: "African Boerboel" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "African Boerboel (African Mastiff)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "African Boerboel (Dog)" EXACT [] {source="VBO:0200005"}
+synonym: "African Mastiff" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Boerboel" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Boerboel", source="https://www.ukcdogs.com/south-african-boerboel", source="https://www.akc.org/dog-breeds/boerboel/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41", source="http://omia.org"}
 synonym: "Boerboel Mastiff" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "South African Boerboel" EXACT [] {source="https://www.ukcdogs.com/south-african-boerboel"}
 synonym: "South African Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41"}
 xref: iDog:41 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41"}
+xref: VeNom:13635 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/boerboel/"}
@@ -277195,8 +277192,10 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Boerboel" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=41" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/boerboel/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/south-african-boerboel" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
 id: VBO:0200186
@@ -281813,19 +281812,11 @@ property_value: dcterms:source "https://www.fao.org/dad-is" xsd:anyURI
 
 [Term]
 id: VBO:0200435
-name: Deerhound (Dog)
-synonym: "Deerhound" EXACT most_common_name [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/deerhound/", source="https://www.fci.be/en/nomenclature/DEERHOUND-164.html"}
-xref: FCI:164 {source="https://www.fci.be/en/nomenclature/DEERHOUND-164.html"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/DEERHOUND-164.html"}
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://www.fci.be/en/nomenclature/DEERHOUND-164.html" xsd:anyURI
-property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/deerhound/" xsd:anyURI
+name: obsolete Deerhound (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0201195
 
 [Term]
 id: VBO:0200436
@@ -284118,17 +284109,11 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Fuegian_dog" xsd:a
 
 [Term]
 id: VBO:0200557
-name: Galgo Español (Dog)
-synonym: "Galgo Español" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Galgo_Espa%C3%B1ol", source="http://omia.org"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "http://omia.org" xsd:anyURI
-property_value: dcterms:source "https://en.wikipedia.org/wiki/Galgo_Espa%C3%B1ol" xsd:anyURI
+name: obsolete Galgo Español (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0201274
 
 [Term]
 id: VBO:0200558
@@ -287108,14 +287093,20 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 id: VBO:0200712
 name: Italian Cane Corso (Dog)
 synonym: "Cane Corso" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Cane-Corso-Listed", source="https://www.akc.org/dog-breeds/cane-corso/", source="https://en.wikipedia.org/wiki/Cane_Corso"}
-synonym: "Cane Corso Italiano" EXACT [] {source="https://www.ukcdogs.com/cane-corso-italiano", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html"}
+synonym: "Cane Corso Italiano" EXACT [] {source="https://www.ukcdogs.com/cane-corso-italiano", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html", source="https://venomcoding.org/venom-codes/"}
 synonym: "Italian Cane Corso" EXACT most_common_name [] {source="https://www.ukcdogs.com/cane-corso-italiano", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Cane-Corso-Listed", source="https://www.akc.org/dog-breeds/cane-corso/", source="http://omia.org", source="https://en.wikipedia.org/wiki/Cane_Corso"}
 synonym: "Cane Corso Mastiff" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
 synonym: "Italian Corso" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
 synonym: "Italian Corso Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
-synonym: "Italian Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
+synonym: "Italian Mastiff" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62", source="https://venomcoding.org/venom-codes/"}
+synonym: "Italian Mastiff (Dog)" EXACT [] {source="VBO:0200715"}
+synonym: "Macellaio" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Mastiff - Italian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Mastiff - Italian (Cane Corso Italiano) (Macellaio) (Sicillian Branchiero)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Sicillian Branchiero" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: FCI:343 {source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html"}
 xref: iDog:62 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62"}
+xref: VeNom:14403 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/cane-corso/", source="https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html"}
@@ -287128,10 +287119,12 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Cane_Corso" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=62" xsd:anyURI
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/cane-corso/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Working-Dogs/Cane-Corso-Listed" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/cane-corso-italiano" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
 id: VBO:0200713
@@ -287141,15 +287134,18 @@ synonym: "German: Italienisches Windspiel" EXACT [] {source="https://ngdc.cncb.a
 synonym: "Greyhound - Italian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Greyhound - Italian (Piccolo Levriero Italiano)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Italian Greyhound" EXACT most_common_name [] {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Toy-Dogs/Italian-Greyhound", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/toy/italian-greyhound/", source="https://venomcoding.org/venom-codes/", source="https://www.ukcdogs.com/italian-greyhound", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=135", source="http://omia.org", source="https://www.akc.org/dog-breeds/italian-greyhound/", source="https://en.wikipedia.org/wiki/Italian_Greyhound"}
+synonym: "Italian Sighthound" EXACT [] {source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
+synonym: "Italian Sighthound (Dog)" EXACT [] {source="VBO:0200720"}
 synonym: "Italian: Piccolo Levriero Italiano" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=135"}
-synonym: "Piccolo Levriero Italiano" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Piccolo Levriero Italiano" EXACT [] {source="https://venomcoding.org/venom-codes/", source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
 synonym: "Spanish: Galgo italiano" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=135"}
+xref: FCI:200 {source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
 xref: iDog:135 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=135"}
 xref: VeNom:14047 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200638 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Toy-Dogs/Italian-Greyhound"} ! has foundation stock Greyhound (Dog)
-property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/italian-greyhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
+property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/italian-greyhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
@@ -287161,9 +287157,11 @@ property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetai
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/italian-greyhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Toy-Dogs/Italian-Greyhound" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/toy/italian-greyhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/italian-greyhound" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/253" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
 id: VBO:0200714
@@ -287188,22 +287186,11 @@ property_value: dcterms:source "https://www.ukcdogs.com/italian-hound" xsd:anyUR
 
 [Term]
 id: VBO:0200715
-name: Italian Mastiff (Dog)
-synonym: "Cane Corso Italiano" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Italian Mastiff" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Macellaio" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Mastiff - Italian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Mastiff - Italian (Cane Corso Italiano) (Macellaio) (Sicillian Branchiero)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Sicillian Branchiero" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-xref: VeNom:14403 {source="https://venomcoding.org/venom-codes/"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+name: obsolete Italian Mastiff (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200712
 
 [Term]
 id: VBO:0200716
@@ -287281,19 +287268,11 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/ITALIAN-SHORT
 
 [Term]
 id: VBO:0200720
-name: Italian Sighthound (Dog)
-synonym: "Italian Sighthound" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
-synonym: "Piccolo Levriero Italiano" EXACT [] {source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
-xref: FCI:200 {source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html"}
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://www.fci.be/en/nomenclature/ITALIAN-SIGHTHOUND-200.html" xsd:anyURI
+name: obsolete Italian Sighthound (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200713
 
 [Term]
 id: VBO:0200721
@@ -287748,27 +287727,11 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 
 [Term]
 id: VBO:0200744
-name: Jindo (Dog)
-synonym: "Chindo" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-synonym: "Jin dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-synonym: "Jindo" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Korean_Jindo", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138", source="https://www.ukcdogs.com/jindo", source="https://www.akc.org/dog-breeds/jindo/"}
-synonym: "Jindo Gae" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-synonym: "JindoGae" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-synonym: "Korea Jindo Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-synonym: "Korean Jindo" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-xref: iDog:138 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/jindo/"}
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://en.wikipedia.org/wiki/Korean_Jindo" xsd:anyURI
-property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138" xsd:anyURI
-property_value: dcterms:source "https://www.akc.org/dog-breeds/jindo/" xsd:anyURI
-property_value: dcterms:source "https://www.ukcdogs.com/jindo" xsd:anyURI
+name: obsolete Jindo (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200783
 
 [Term]
 id: VBO:0200745
@@ -288459,22 +288422,35 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200783
 name: Korean Jindo (Dog)
+synonym: "Chindo" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
+synonym: "Jin dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
+synonym: "Jindo" EXACT [] {source="https://en.wikipedia.org/wiki/Korean_Jindo", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138", source="https://www.ukcdogs.com/jindo", source="https://www.akc.org/dog-breeds/jindo/"}
+synonym: "Jindo (Dog)" EXACT [] {source="VBO:0200744"}
 synonym: "Jindo (Korean)" EXACT [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
-synonym: "Korea Jindo Dog" EXACT [] {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html"}
-synonym: "Korean Jindo" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html", source="https://venomcoding.org/venom-codes/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/korean-jindo-imp/"}
+synonym: "Jindo Gae" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
+synonym: "JindoGae" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
+synonym: "Korea Jindo Dog" EXACT [] {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
+synonym: "Korean Jindo" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html", source="https://venomcoding.org/venom-codes/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/korean-jindo-imp/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
 xref: FCI:334 {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html"}
+xref: iDog:138 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138"}
 xref: VeNom:14322 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html"}
+property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/jindo/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Korean_Jindo" xsd:anyURI
+property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=138" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.akc.org/dog-breeds/jindo/" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/korean-jindo-imp/" xsd:anyURI
+property_value: dcterms:source "https://www.ukcdogs.com/jindo" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
 id: VBO:0200784
@@ -296088,13 +296064,15 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0201195
 name: Scottish Deerhound (Dog)
-synonym: "Deerhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=213"}
+synonym: "Deerhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=213", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/deerhound/", source="https://www.fci.be/en/nomenclature/DEERHOUND-164.html"}
+synonym: "Deerhound (Dog)" EXACT [] {source="VBO:0200435"}
 synonym: "Scottish Deerhound" EXACT most_common_name [] {source="https://www.ukcdogs.com/scottish-deerhound", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=213", source="https://venomcoding.org/venom-codes/", source="http://omia.org", source="https://www.akc.org/dog-breeds/scottish-deerhound/", source="https://en.wikipedia.org/wiki/Scottish_Deerhound", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Deerhound-Scottish"}
+xref: FCI:164 {source="https://www.fci.be/en/nomenclature/DEERHOUND-164.html"}
 xref: iDog:213 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=213"}
 xref: VeNom:14675 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/scottish-deerhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
+property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/scottish-deerhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/DEERHOUND-164.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
@@ -296106,7 +296084,10 @@ property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetai
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/scottish-deerhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Deerhound-Scottish" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/DEERHOUND-164.html" xsd:anyURI
+property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/deerhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/scottish-deerhound" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
 id: VBO:0201196
@@ -297626,7 +297607,8 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0201274
 name: Spanish Greyhound (Dog)
-synonym: "Galgo Español" EXACT [] {source="https://www.fci.be/en/nomenclature/SPANISH-GREYHOUND-285.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=420", source="https://venomcoding.org/venom-codes/"}
+synonym: "Galgo Español" EXACT [] {source="https://www.fci.be/en/nomenclature/SPANISH-GREYHOUND-285.html", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=420", source="https://venomcoding.org/venom-codes/", source="https://en.wikipedia.org/wiki/Galgo_Espa%C3%B1ol", source="http://omia.org"}
+synonym: "Galgo Español (Dog)" EXACT [] {source="VBO:0200557"}
 synonym: "Greyhound - Spanish" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Greyhound - Spanish (Galgo Español)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Spanish Galgo" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=420"}
@@ -297644,11 +297626,13 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Galgo_Espa%C3%B1ol" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=420" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/SPANISH-GREYHOUND-285.html" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/spanish-greyhound" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/253" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
 id: VBO:0201275
