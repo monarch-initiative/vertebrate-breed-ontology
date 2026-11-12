@@ -797,21 +797,14 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 
 [Term]
 id: VBO:0000090
-name: Aberdeen-Angus (Cattle)
-subset: transboundary
-synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="ISBN:9781789241532", source="ISBN:9781845934668", source="https://www.fao.org/dad-is"}
-synonym: "German Angus" EXACT [] {source="https://omia.org"}
-is_a: NCBITaxon:9913 {source="https://doi.org/10.1017/S0021859614000124", source="https://orcid.org/0000-0002-5520-6597", source="https://www.cabidigitallibrary.org/doi/epdf/10.1079/9781780642215.0033", source="https://www.fao.org/dad-is"} ! Bos taurus
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://www.fao.org/dad-is" xsd:anyURI
-property_value: dcterms:source "ISBN:9781789241532" xsd:string
-property_value: dcterms:source "ISBN:9781845934668" xsd:string
+name: obsolete Aberdeen-Angus (Cattle)
+property_value: IAO:0000231 "terms merged" xsd:string
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/120" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/126" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/242" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/66" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0000104
 
 [Term]
 id: VBO:0000091
@@ -1030,15 +1023,22 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0000104
 name: Angus (Cattle)
 subset: transboundary
+synonym: "Aberdeen-Angus" EXACT [] {source="ISBN:9781789241532", source="ISBN:9781845934668", source="https://www.fao.org/dad-is"}
+synonym: "Aberdeen-Angus (Cattle)" EXACT [] {source="VBO:0000090"}
 synonym: "Angus" EXACT most_common_name [] {source="LBO:0000017", source="https://omia.org", source="https://www.fao.org/dad-is"}
+synonym: "German Angus" RELATED [] {source="https://omia.org"}
 xref: LBO:0000017 {source="https://orcid.org/0000-0002-5002-8648"}
-is_a: NCBITaxon:9913 {source="https://doi.org/10.1017/S0021859614000124", source="https://orcid.org/0000-0002-5520-6597", source="https://www.fao.org/dad-is"} ! Bos taurus
+is_a: NCBITaxon:9913 {source="https://doi.org/10.1017/S0021859614000124", source="https://orcid.org/0000-0002-5520-6597", source="https://www.fao.org/dad-is", source="https://www.cabidigitallibrary.org/doi/epdf/10.1079/9781780642215.0033"} ! Bos taurus
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://www.fao.org/dad-is" xsd:anyURI
+property_value: dcterms:source "ISBN:9781789241532" xsd:string
+property_value: dcterms:source "ISBN:9781845934668" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/120" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/126" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/242" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/66" xsd:anyURI
 
 [Term]
@@ -30008,7 +30008,7 @@ id: VBO:0002141
 name: Aberdeen Angus, Latvia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q211 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30023,7 +30023,7 @@ id: VBO:0002142
 name: Aberdeen Angus, Argentina (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q414 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30039,7 +30039,7 @@ name: Angus, Australia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT [] {source="https://www.fao.org/dad-is"}
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q408 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30055,7 +30055,7 @@ name: Aberdeen Angus, Austria (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
 synonym: "Deutsch-Angus" EXACT [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q40 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30070,7 +30070,7 @@ id: VBO:0002145
 name: Aberdeen Angus, Azerbaijan (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q227 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30085,7 +30085,7 @@ id: VBO:0002146
 name: Aberdeen-Angus, Belgium (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q31 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30099,7 +30099,7 @@ name: Aberdeen Angus, Bulgaria (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
 synonym: "Абердин ангус" EXACT [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q219 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30114,7 +30114,7 @@ id: VBO:0002148
 name: Aberdeen-Angus, Belarus (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q184 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30128,7 +30128,7 @@ id: VBO:0002149
 name: Aberdeen Angus, Bolivia (Plurinational State of) (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q750 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30144,7 +30144,7 @@ name: Aberdeen Angus, Brazil (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
 synonym: "Angus" EXACT [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q155 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30159,7 +30159,7 @@ id: VBO:0002151
 name: Aberdeen Angus, Canada (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q16 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30174,7 +30174,7 @@ id: VBO:0002152
 name: Aberdeen Angus, Chile (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q298 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30189,7 +30189,7 @@ id: VBO:0002153
 name: Angus, Chile (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q298 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30202,7 +30202,7 @@ id: VBO:0002154
 name: Angus, China (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q148 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30217,7 +30217,7 @@ id: VBO:0002155
 name: Angus, Cook Islands (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q26988 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30232,7 +30232,7 @@ id: VBO:0002156
 name: Angus, Colombia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q739 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30247,7 +30247,7 @@ id: VBO:0002157
 name: Angus Negro, Cuba (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus Negro" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q241 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30262,7 +30262,7 @@ id: VBO:0002158
 name: Aberdeen Angus, Czechia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q213 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30277,7 +30277,7 @@ name: Aberdeen-Angus, Denmark (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
 synonym: "Angus" EXACT [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q35 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30292,7 +30292,7 @@ id: VBO:0002160
 name: Angus Negro, Ecuador (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus Negro" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q736 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30305,7 +30305,7 @@ id: VBO:0002161
 name: Aberdeen Angus, Estonia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q191 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30320,7 +30320,7 @@ id: VBO:0002162
 name: Aberdeen Angus, Finland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q33 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30335,7 +30335,7 @@ id: VBO:0002163
 name: Angus, France (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q142 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30348,7 +30348,7 @@ id: VBO:0002164
 name: Aberdeen-Angus, United Kingdom of Great Britain and Northern Ireland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q145 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30363,7 +30363,7 @@ id: VBO:0002165
 name: Angus Doddie, United Kingdom of Great Britain and Northern Ireland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus Doddie" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q145 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30378,7 +30378,7 @@ id: VBO:0002166
 name: Angus Negro, Guatemala (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus Negro" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q774 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30393,7 +30393,7 @@ id: VBO:0002167
 name: Angus, Honduras (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q783 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30407,7 +30407,7 @@ id: VBO:0002168
 name: Aberdeen Angus, Hungary (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q28 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30422,7 +30422,7 @@ name: Aberdeen Angus, Ireland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
 synonym: "Angus" EXACT [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q22890 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30437,7 +30437,7 @@ id: VBO:0002170
 name: Aberdeen Angus, Iceland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q189 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30452,7 +30452,7 @@ id: VBO:0002171
 name: Angus, Japan (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q17 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30467,7 +30467,7 @@ id: VBO:0002172
 name: Aberdeen Angus, Kenya (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q114 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30482,7 +30482,7 @@ id: VBO:0002173
 name: Angus, Republic of Korea (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q884 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30497,7 +30497,7 @@ id: VBO:0002174
 name: Angus, Luxembourg (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q32 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30510,7 +30510,7 @@ id: VBO:0002175
 name: Aberdeen Angus, Republic of Moldova (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q217 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30525,7 +30525,7 @@ id: VBO:0002176
 name: Anguss, Republic of Moldova (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Anguss" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q217 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30540,7 +30540,7 @@ id: VBO:0002177
 name: Angus, Mexico (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q96 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30555,7 +30555,7 @@ id: VBO:0002178
 name: Aberdeen Angus, Northern Mariana Islands (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q16644 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30570,7 +30570,7 @@ id: VBO:0002179
 name: Angus, Namibia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q1030 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30585,7 +30585,7 @@ id: VBO:0002180
 name: Angus, Nicaragua (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q811 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30600,7 +30600,7 @@ id: VBO:0002181
 name: Aberdeen Angus, Netherlands (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q55 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30615,7 +30615,7 @@ id: VBO:0002182
 name: Aberdeen Angus, Norway (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q20 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30628,7 +30628,7 @@ id: VBO:0002183
 name: Angus, Panama (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q804 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30643,7 +30643,7 @@ id: VBO:0002184
 name: Aberdeen Angus, Peru (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q419 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30657,7 +30657,7 @@ id: VBO:0002185
 name: Angus, Philippines (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q928 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30671,7 +30671,7 @@ id: VBO:0002186
 name: Aberdeen Angus, Papua New Guinea (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q691 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30686,7 +30686,7 @@ id: VBO:0002187
 name: Angus czarny, Poland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus czarny" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q36 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30700,7 +30700,7 @@ id: VBO:0002188
 name: Angus czerwony, Poland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus czerwony" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q36 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30714,7 +30714,7 @@ id: VBO:0002189
 name: Angus, Portugal (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q45 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30727,7 +30727,7 @@ id: VBO:0002190
 name: Aberdeen Angus, Paraguay (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q733 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30742,7 +30742,7 @@ id: VBO:0002191
 name: Aberdeen-Angus, Russian Federation (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q159 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30756,7 +30756,7 @@ id: VBO:0002192
 name: Angus, Serbia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q403 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30771,7 +30771,7 @@ name: Aberdeen Angus, Slovakia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
 synonym: "aberdeen angus" EXACT [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q214 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30786,7 +30786,7 @@ id: VBO:0002194
 name: Aberden Angus, Slovenia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberden Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q215 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30800,7 +30800,7 @@ id: VBO:0002195
 name: Aberdeen Angus, Sweden (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q34 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30815,7 +30815,7 @@ id: VBO:0002196
 name: Aberdeen Angus, Tajikistan (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q863 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30830,7 +30830,7 @@ id: VBO:0002197
 name: Aberdeen-Angus, United Republic of Tanzania (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q924 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30845,7 +30845,7 @@ id: VBO:0002198
 name: Fipa, United Republic of Tanzania (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Fipa" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q924 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30860,7 +30860,7 @@ id: VBO:0002199
 name: Aberdeen Angus, Ukraine (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q212 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30875,7 +30875,7 @@ id: VBO:0002200
 name: Aberdeen Angus, Uruguay (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q77 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30889,7 +30889,7 @@ id: VBO:0002201
 name: Angus, United States of America (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q30 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30904,7 +30904,7 @@ id: VBO:0002202
 name: Aberdeen Angus, Samoa (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q683 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30920,7 +30920,7 @@ name: SA Angus, South Africa (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT [] {source="https://www.fao.org/dad-is"}
 synonym: "SA Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q258 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -30935,7 +30935,7 @@ id: VBO:0002204
 name: Aberdeen Angus, Zimbabwe (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q954 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -31178,7 +31178,7 @@ id: VBO:0002220
 name: Angus, Croatia (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Angus" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://www.fao.org/dad-is"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://www.fao.org/dad-is"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q224 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -70421,7 +70421,7 @@ id: VBO:0004769
 name: Aberdeen-Angus (original population), United Kingdom of Great Britain and Northern Ireland (Cattle)
 comment: The concept of “breed reported in geographic location by FAO National Coordinators” is unique to DAD-IS (https://www.fao.org/dad-is/en/). This VBO term should therefore be used specifically for the breed conforming to this concept.
 synonym: "Aberdeen-Angus (original population)" EXACT most_common_name [] {source="https://www.fao.org/dad-is"}
-is_a: VBO:0000090 {source="https://orcid.org/0009-0005-4259-4067"} ! Aberdeen-Angus (Cattle)
+is_a: VBO:0000104 {source="https://orcid.org/0009-0005-4259-4067"} ! Angus (Cattle)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300020 http://www.wikidata.org/entity/Q145 {source="https://www.fao.org/dad-is"} ! breed reported in geographic location
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
