@@ -71,6 +71,7 @@ Key conventions:
 - `is_a` relationships link to NCBITaxon species and VBO high-level breed classes
 - Subsets: `local_breed`, `transboundary`, `national_breed_population`
 - Sources are annotated with DOIs, PMIDs, ORCIDs, or URLs
+- Never use a GitHub issue URL as the `source` of an `xref`, a `synonym` or an `is_a` (SubClassOf). Cite the original source (registry, database, publication) or the curator's ORCID instead. GitHub issues belong only in the term tracker annotation (`property_value: IAO:0000233 "<issue URL>" xsd:anyURI`)
 
 ## CI/CD
 
