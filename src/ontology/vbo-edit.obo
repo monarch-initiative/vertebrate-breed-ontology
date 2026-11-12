@@ -271813,6 +271813,7 @@ synonym: "Russian Tabby" EXACT most_common_name [] {source="https://venomcoding.
 synonym: "Russian Tabby" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds"}
 xref: VeNom:18755 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 ! Felis catus
+is_a: VBO:0100348 {source="https://orcid.org/0000-0002-4142-7153"} ! Tabby (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0100200 {source="https://en.wikipedia.org/wiki/Russian_White,_Black,_and_Tabby"} ! has foundation stock Russian Blue (Cat)
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -271822,6 +271823,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0100202
@@ -273246,10 +273248,12 @@ name: Persian, Tabby (Cat)
 synonym: "Persian, Tabby" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:15311 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9685 {source="https://orcid.org/0000-0002-5002-8648"} ! Felis catus
+is_a: VBO:0100348 {source="https://orcid.org/0000-0002-4142-7153"} ! Tabby (Cat)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0100309
@@ -273482,6 +273486,19 @@ is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate 
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:source "https://adoptanimaux.com/en/adoption/data/us/breed-types" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+
+[Term]
+id: VBO:0100348
+name: Tabby (Cat)
+def: "A cat with a tabby coat pattern (classic, mackerel, spotted or ticked), irrespective of breed." [https://en.wikipedia.org/wiki/Tabby_cat, https://orcid.org/0000-0002-4142-7153]
+synonym: "Tabby" EXACT most_common_name [] {source="https://adoptanimaux.com/en/adoption/data/us/breed-types"}
+synonym: "Tabby Cat" EXACT [] {source="https://en.wikipedia.org/wiki/Tabby_cat"}
+is_a: NCBITaxon:9685 {source="https://orcid.org/0000-0002-4142-7153"} ! Felis catus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://adoptanimaux.com/en/adoption/data/us/breed-types" xsd:anyURI
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Tabby_cat" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200000
