@@ -9024,7 +9024,7 @@ xref: iDog:395 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action
 xref: VeNom:14480 {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:14565 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/OLD-DANISH-POINTING-DOG-281.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/OLD-DANISH-POINTING-DOG-281.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/OLD-DANISH-POINTING-DOG-281.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -274641,8 +274641,8 @@ xref: FCI:301 {source="https://www.fci.be/en/nomenclature/AMERICAN-WATER-SPANIEL
 xref: iDog:12 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=12"}
 xref: VeNom:14889 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/AMERICAN-WATER-SPANIEL-301.html", source="https://www.akc.org/dog-breeds/american-water-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0201397 ! Water Spaniel (Dog)
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/AMERICAN-WATER-SPANIEL-301.html", source="https://www.akc.org/dog-breeds/american-water-spaniel/"} ! Gundog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200038 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spaniel-American-Water"} ! has foundation stock American Cocker Spaniel (Dog)
 relationship: VBO:0300019 VBO:0200326 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spaniel-American-Water"} ! has foundation stock Chesapeake Bay Retriever (Dog)
@@ -274947,7 +274947,7 @@ xref: FCI:177 {source="https://www.fci.be/en/nomenclature/ARIEGE-POINTING-DOG-17
 xref: iDog:330 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=330"}
 xref: VeNom:13730 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/ARIEGE-POINTING-DOG-177.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/ARIEGE-POINTING-DOG-177.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/ARIEGE-POINTING-DOG-177.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -275600,7 +275600,7 @@ synonym: "Braque d'Auvergne" EXACT [] {source="https://www.ukcdogs.com/braque-d-
 xref: FCI:180 {source="https://www.fci.be/en/nomenclature/AUVERGNE-POINTER-180.html"}
 xref: VeNom:13677 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/AUVERGNE-POINTER-180.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/AUVERGNE-POINTER-180.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/AUVERGNE-POINTER-180.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -275857,6 +275857,7 @@ xref: FCI:43 {source="https://www.fci.be/en/nomenclature/BASENJI-43.html"}
 xref: iDog:20 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=20"}
 xref: VeNom:13678 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.akc.org/dog-breeds/basenji/", source="https://www.fci.be/Nomenclature/Standards/043g05-en.pdf"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/basenji/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/BASENJI-43.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -275871,8 +275872,10 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/basenji/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Basenji" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/BASENJI-43.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/043g05-en.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/basenji/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/basenji" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200121
@@ -277301,7 +277304,7 @@ synonym: "Ceský Fousek" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/ge
 xref: FCI:245 {source="https://www.fci.be/en/nomenclature/BOHEMIAN-WIRE-HAIRED-POINTING-GRIFFON-245.html"}
 xref: iDog:440 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=440"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/BOHEMIAN-WIRE-HAIRED-POINTING-GRIFFON-245.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/BOHEMIAN-WIRE-HAIRED-POINTING-GRIFFON-245.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/BOHEMIAN-WIRE-HAIRED-POINTING-GRIFFON-245.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -277653,7 +277656,7 @@ synonym: "Pointer - Bourbonnais (Braque du Bourbonnais)" EXACT [] {source="https
 xref: FCI:179 {source="https://www.fci.be/en/nomenclature/BOURBONNAIS-POINTING-DOG-179.html"}
 xref: VeNom:14529 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/BOURBONNAIS-POINTING-DOG-179.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/BOURBONNAIS-POINTING-DOG-179.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/BOURBONNAIS-POINTING-DOG-179.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -277831,7 +277834,7 @@ synonym: "Swamp Poodle" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/get
 xref: iDog:49 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=49"}
 xref: VeNom:14841 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/boykin-spaniel/"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.akc.org/dog-breeds/boykin-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/boykin-spaniel/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -277859,7 +277862,7 @@ xref: FCI:202 {source="https://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-2
 xref: iDog:50 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=50"}
 xref: VeNom:14561 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-202.html", source="https://www.akc.org/dog-breeds/bracco-italiano/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-202.html", source="https://www.akc.org/dog-breeds/bracco-italiano/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/bracco-italiano/", source="https://www.fci.be/en/nomenclature/ITALIAN-POINTING-DOG-202.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -277967,7 +277970,7 @@ synonym: "Bourbonnais Pointing Dog" EXACT [] {source="https://www.akc.org/dog-br
 synonym: "Braque du Bourbonnais" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/braque-du-bourbonnais/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=51", source="https://www.ukcdogs.com/braque-du-bourbonnais", source="http://omia.org", source="https://en.wikipedia.org/wiki/Braque_du_Bourbonnais"}
 xref: iDog:51 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=51"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/braque-du-bourbonnais/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/braque-du-bourbonnais/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/braque-du-bourbonnais/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -278063,7 +278066,7 @@ synonym: "French Pointing Dog Pyrenean Type" EXACT [] {source="https://www.akc.o
 synonym: "French Pointing Dog-Pyrenean type" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=52"}
 xref: iDog:52 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=52"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/braque-francais-pyrenean/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/braque-francais-pyrenean/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/braque-francais-pyrenean/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -278290,7 +278293,7 @@ synonym: "Spaniel - Brittany" EXACT [] {source="https://venomcoding.org/venom-co
 xref: iDog:54 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=54"}
 xref: VeNom:22569 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/brittany/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/brittany/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200494 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/brittany/"} ! has foundation stock English Pointer (Dog)
 relationship: VBO:0300019 VBO:0200495 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spaniel-Brittany", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/brittany/"} ! has foundation stock English Setter (Dog)
@@ -278320,7 +278323,7 @@ synonym: "Spaniel - Brittany unspecified" EXACT [] {source="https://venomcoding.
 xref: FCI:95 {source="https://www.fci.be/en/nomenclature/BRITTANY-SPANIEL-95.html"}
 xref: VeNom:19055 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/BRITTANY-SPANIEL-95.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/BRITTANY-SPANIEL-95.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/BRITTANY-SPANIEL-95.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -278771,7 +278774,7 @@ synonym: "Burgos Pointing Dog" EXACT most_common_name [] {source="https://en.wik
 synonym: "Perdiguero De Burgos" EXACT [] {source="https://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html"}
 xref: FCI:90 {source="https://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/BURGOS-POINTING-DOG-90.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -279902,7 +279905,7 @@ xref: FCI:263 {source="https://www.fci.be/en/nomenclature/CHESAPEAKE-BAY-RETRIEV
 xref: iDog:70 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=70"}
 xref: VeNom:14605 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/CHESAPEAKE-BAY-RETRIEVER-263.html", source="https://www.akc.org/dog-breeds/chesapeake-bay-retriever/"} ! Gundog (Dog)
+is_a: VBO:0201134 {source="https://www.fci.be/en/nomenclature/CHESAPEAKE-BAY-RETRIEVER-263.html", source="https://www.akc.org/dog-breeds/chesapeake-bay-retriever/"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200397 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Chesapeake-Bay"} ! has foundation stock Curly Coated Retriever (Dog)
 relationship: VBO:0300019 VBO:0200528 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Chesapeake-Bay"} ! has foundation stock Flat-Coated Retriever (Dog)
@@ -280615,7 +280618,7 @@ xref: FCI:109 {source="https://www.fci.be/en/nomenclature/CLUMBER-SPANIEL-109.ht
 xref: iDog:77 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=77"}
 xref: VeNom:14845 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/CLUMBER-SPANIEL-109.html", source="https://www.akc.org/dog-breeds/clumber-spaniel/"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/CLUMBER-SPANIEL-109.html", source="https://www.akc.org/dog-breeds/clumber-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200126 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spaniel-Clumber", source="https://www.ukcdogs.com/clumber-spaniel"} ! has foundation stock Basset Hound (Dog)
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/clumber-spaniel/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/CLUMBER-SPANIEL-109.html"}
@@ -280730,7 +280733,7 @@ synonym: "Spaniel, Cocker" EXACT [] {source="https://www.thekennelclub.org.uk/se
 xref: iDog:78 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=78"}
 xref: VeNom:14846 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/cocker-spaniel/"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.akc.org/dog-breeds/cocker-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/cocker-spaniel/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -281194,7 +281197,7 @@ xref: FCI:110 {source="https://www.fci.be/en/nomenclature/CURLY-COATED-RETRIEVER
 xref: iDog:81 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=81"}
 xref: VeNom:14606 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/CURLY-COATED-RETRIEVER-110.html", source="https://www.akc.org/dog-breeds/curly-coated-retriever/"} ! Gundog (Dog)
+is_a: VBO:0201134 {source="https://www.fci.be/en/nomenclature/CURLY-COATED-RETRIEVER-110.html", source="https://www.akc.org/dog-breeds/curly-coated-retriever/"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200500 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Curly-coated", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/retriever-curly-coated/"} ! has foundation stock English Water Spaniel (Dog)
 relationship: VBO:0300019 VBO:0200705 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Curly-coated"} ! has foundation stock Irish Water Spaniel (Dog)
@@ -281375,6 +281378,7 @@ xref: FCI:148 {source="https://www.fci.be/en/nomenclature/DACHSHUND-148.html"}
 xref: iDog:83 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=83"}
 xref: VeNom:13952 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.fci.be/Nomenclature/Standards/148g04-en.pdf"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/dachshund/", source="https://www.fci.be/en/nomenclature/DACHSHUND-148.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -281388,7 +281392,9 @@ property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetai
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/dachshund/" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/DACHSHUND-148.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/148g04-en.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/dachshund" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200407
@@ -281752,6 +281758,7 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0200427
 name: Dalmatian (Dog)
+comment: Not classified as a hound or hunting dog. The Dalmatian is known as a carriage (coach) dog that accompanied horse-drawn carriages, and AKC places it in the Non-Sporting Group, although FCI places it in Group 6 (Scenthounds and related breeds), Section 3 (Related breeds).
 synonym: "Carriage Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=84"}
 synonym: "Dalmatian" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Dalmatian_(dog)", source="https://www.akc.org/dog-breeds/dalmatian/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=84", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Dalmatian", source="https://www.fci.be/en/nomenclature/DALMATIAN-153.html", source="https://www.ukcdogs.com/dalmatian", source="https://venomcoding.org/venom-codes/", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/dalmatian/", source="http://omia.org"}
 synonym: "Dalmatian Coach Hound" EXACT [] {source="http://omia.org"}
@@ -281780,6 +281787,7 @@ property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/DALMATIAN-153.html" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/utility/dalmatian/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/dalmatian" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200428
@@ -281924,7 +281932,7 @@ name: Deutsch Langhaar (Dog)
 synonym: "Deutsch Langhaar" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/DEUTSCH-LANGHAAR-117.html"}
 xref: FCI:117 {source="https://www.fci.be/en/nomenclature/DEUTSCH-LANGHAAR-117.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/DEUTSCH-LANGHAAR-117.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/DEUTSCH-LANGHAAR-117.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/DEUTSCH-LANGHAAR-117.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -281941,7 +281949,7 @@ name: Deutsch Stichelhaar (Dog)
 synonym: "Deutsch Stichelhaar" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html"}
 xref: FCI:232 {source="https://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -281982,7 +281990,7 @@ synonym: "Wachtelhund (Dog)" EXACT [] {source="VBO:0201392"}
 xref: iDog:87 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=87"}
 xref: VeNom:13965 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/deutscher-wachtelhund/"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.akc.org/dog-breeds/deutscher-wachtelhund/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/deutscher-wachtelhund/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -282246,7 +282254,7 @@ synonym: "Dutch Partridge Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/br
 xref: FCI:224 {source="https://www.fci.be/en/nomenclature/DRENTSCHE-PARTRIDGE-DOG-224.html"}
 xref: iDog:91 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=91"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/DRENTSCHE-PARTRIDGE-DOG-224.html", source="https://www.akc.org/dog-breeds/drentsche-patrijshond/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/DRENTSCHE-PARTRIDGE-DOG-224.html", source="https://www.akc.org/dog-breeds/drentsche-patrijshond/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/DRENTSCHE-PARTRIDGE-DOG-224.html"}
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/drentsche-patrijshond/"}
@@ -282949,7 +282957,7 @@ synonym: "Pointer - English" EXACT [] {source="https://venomcoding.org/venom-cod
 xref: FCI:1 {source="https://www.fci.be/en/nomenclature/ENGLISH-POINTER-1.html"}
 xref: VeNom:14530 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/ENGLISH-POINTER-1.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/ENGLISH-POINTER-1.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200175 {source="https://www.ukcdogs.com/english-pointer"} ! has foundation stock Bloodhound (Dog)
 relationship: VBO:0300019 VBO:0200255 {source="https://www.ukcdogs.com/english-pointer"} ! has foundation stock Bull Terrier (Dog)
@@ -282980,7 +282988,7 @@ xref: FCI:2 {source="https://www.fci.be/en/nomenclature/ENGLISH-SETTER-2.html"}
 xref: iDog:96 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=96"}
 xref: VeNom:14677 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/ENGLISH-SETTER-2.html", source="https://www.akc.org/dog-breeds/english-setter/"} ! Gundog (Dog)
+is_a: VBO:0201211 {source="https://www.fci.be/en/nomenclature/ENGLISH-SETTER-2.html", source="https://www.akc.org/dog-breeds/english-setter/"} ! Setter (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200613 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/english-setter/"} ! has foundation stock Gordon Setter (Dog)
 relationship: VBO:0300019 VBO:0200700 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/english-setter/"} ! has foundation stock Irish Red and White Setter (Dog)
@@ -283036,8 +283044,8 @@ xref: FCI:125 {source="https://www.fci.be/en/nomenclature/ENGLISH-SPRINGER-SPANI
 xref: iDog:97 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=97"}
 xref: VeNom:14884 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/ENGLISH-SPRINGER-SPANIEL-125.html", source="https://www.akc.org/dog-breeds/english-springer-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0201287 ! Springer Spaniel (Dog)
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/ENGLISH-SPRINGER-SPANIEL-125.html", source="https://www.akc.org/dog-breeds/english-springer-spaniel/"} ! Gundog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/english-springer-spaniel/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/ENGLISH-SPRINGER-SPANIEL-125.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -283486,7 +283494,7 @@ xref: FCI:123 {source="https://www.fci.be/en/nomenclature/FIELD-SPANIEL-123.html
 xref: iDog:102 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=102"}
 xref: VeNom:14876 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/FIELD-SPANIEL-123.html", source="https://www.akc.org/dog-breeds/field-spaniel/"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/FIELD-SPANIEL-123.html", source="https://www.akc.org/dog-breeds/field-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200486 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spaniel-Field"} ! has foundation stock English Cocker Spaniel (Dog)
 relationship: VBO:0300019 VBO:0200497 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spaniel-Field"} ! has foundation stock English Springer Spaniel (Dog)
@@ -283700,7 +283708,7 @@ xref: FCI:121 {source="https://www.fci.be/en/nomenclature/FLAT-COATED-RETRIEVER-
 xref: iDog:105 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=105"}
 xref: VeNom:14608 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/FLAT-COATED-RETRIEVER-121.html", source="https://www.akc.org/dog-breeds/flat-coated-retriever/"} ! Gundog (Dog)
+is_a: VBO:0201134 {source="https://www.fci.be/en/nomenclature/FLAT-COATED-RETRIEVER-121.html", source="https://www.akc.org/dog-breeds/flat-coated-retriever/"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200375 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Flat-coated"} ! has foundation stock Collie (Dog)
 relationship: VBO:0300019 VBO:0200938 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Flat-coated", source="https://www.ukcdogs.com/flat-coated-retriever"} ! has foundation stock Newfoundland (Dog)
@@ -283996,7 +284004,7 @@ synonym: "Braque Français - Type Gascogne" EXACT [] {source="https://www.fci.be
 synonym: "French Pointing Dog - Gascogne Type" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html"}
 xref: FCI:133 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -284014,7 +284022,7 @@ synonym: "Braque Français - Type Pyrenees" EXACT [] {source="https://www.fci.be
 synonym: "French Pointing Dog - Pyrenean Type" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html"}
 xref: FCI:134 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -284055,7 +284063,7 @@ xref: FCI:175 {source="https://www.fci.be/en/nomenclature/FRENCH-SPANIEL-175.htm
 xref: iDog:107 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=107"}
 xref: VeNom:14877 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/FRENCH-SPANIEL-175.html", source="https://www.akc.org/dog-breeds/french-spaniel/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/FRENCH-SPANIEL-175.html", source="https://www.akc.org/dog-breeds/french-spaniel/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/FRENCH-SPANIEL-175.html"}
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/french-spaniel/"}
@@ -284453,7 +284461,7 @@ synonym: "Pointer - German, Long-Haired (Deutsch Langhaar)" EXACT [] {source="ht
 xref: iDog:108 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=108"}
 xref: VeNom:14555 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/german-longhaired-pointer/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/german-longhaired-pointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/german-longhaired-pointer/"}
@@ -284708,7 +284716,7 @@ xref: FCI:119 {source="https://www.fci.be/en/nomenclature/GERMAN-SHORT-HAIRED-PO
 xref: iDog:111 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=111"}
 xref: VeNom:14557 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/GERMAN-SHORT-HAIRED-POINTING-DOG-119.html", source="https://www.akc.org/dog-breeds/german-shorthaired-pointer/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/GERMAN-SHORT-HAIRED-POINTING-DOG-119.html", source="https://www.akc.org/dog-breeds/german-shorthaired-pointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200494 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pointer-German-Short-haired", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/german-shorthaired-pointer/"} ! has foundation stock English Pointer (Dog)
 relationship: VBO:0300019 VBO:0200972 {source="https://www.ukcdogs.com/german-shorthaired-pointer"} ! has foundation stock Old Spanish Pointer (Dog)
@@ -284740,7 +284748,7 @@ synonym: "Spaniel - German" EXACT [] {source="https://venomcoding.org/venom-code
 xref: FCI:104 {source="https://www.fci.be/en/nomenclature/GERMAN-SPANIEL-104.html"}
 xref: VeNom:14878 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/GERMAN-SPANIEL-104.html"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/GERMAN-SPANIEL-104.html"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/GERMAN-SPANIEL-104.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -285036,7 +285044,7 @@ xref: FCI:98 {source="https://www.fci.be/en/nomenclature/GERMAN-WIRE-HAIRED-POIN
 xref: iDog:113 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=113"}
 xref: VeNom:14558 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/GERMAN-WIRE-HAIRED-POINTING-DOG-98.html", source="https://www.akc.org/dog-breeds/german-wirehaired-pointer/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/GERMAN-WIRE-HAIRED-POINTING-DOG-98.html", source="https://www.akc.org/dog-breeds/german-wirehaired-pointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200575 {source="https://www.ukcdogs.com/german-wirehaired-pointer"} ! has foundation stock German Roughhaired Pointer (Dog)
 relationship: VBO:0300019 VBO:0200583 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pointer-German-Wire-haired"} ! has foundation stock German Shorthaired Pointer (Dog)
@@ -285212,7 +285220,7 @@ xref: FCI:111 {source="https://www.fci.be/en/nomenclature/GOLDEN-RETRIEVER-111.h
 xref: iDog:116 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=116"}
 xref: VeNom:14609 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/GOLDEN-RETRIEVER-111.html", source="https://www.akc.org/dog-breeds/golden-retriever/"} ! Gundog (Dog)
+is_a: VBO:0201134 {source="https://www.fci.be/en/nomenclature/GOLDEN-RETRIEVER-111.html", source="https://www.akc.org/dog-breeds/golden-retriever/"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200175 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Golden", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/retriever-golden/"} ! has foundation stock Bloodhound (Dog)
 relationship: VBO:0300019 VBO:0200528 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Golden", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/retriever-golden/"} ! has foundation stock Flat-Coated Retriever (Dog)
@@ -285275,7 +285283,7 @@ xref: FCI:6 {source="https://www.fci.be/en/nomenclature/GORDON-SETTER-6.html"}
 xref: iDog:117 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=117"}
 xref: VeNom:14678 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/GORDON-SETTER-6.html", source="https://www.akc.org/dog-breeds/gordon-setter/"} ! Gundog (Dog)
+is_a: VBO:0201211 {source="https://www.fci.be/en/nomenclature/GORDON-SETTER-6.html", source="https://www.akc.org/dog-breeds/gordon-setter/"} ! Setter (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200175 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Setter-Gordon"} ! has foundation stock Bloodhound (Dog)
 relationship: VBO:0300019 VBO:0200375 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Setter-Gordon"} ! has foundation stock Collie (Dog)
@@ -286998,7 +287006,7 @@ xref: FCI:330 {source="https://www.fci.be/en/nomenclature/IRISH-RED-AND-WHITE-SE
 xref: iDog:130 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=130"}
 xref: VeNom:14680 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/IRISH-RED-AND-WHITE-SETTER-330.html", source="https://www.akc.org/dog-breeds/irish-red-and-white-setter/"} ! Gundog (Dog)
+is_a: VBO:0201211 {source="https://www.fci.be/en/nomenclature/IRISH-RED-AND-WHITE-SETTER-330.html", source="https://www.akc.org/dog-breeds/irish-red-and-white-setter/"} ! Setter (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/irish-red-and-white-setter/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/IRISH-RED-AND-WHITE-SETTER-330.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -287028,7 +287036,7 @@ synonym: "Setter - Irish, Red" EXACT [] {source="https://venomcoding.org/venom-c
 xref: FCI:120 {source="https://www.fci.be/en/nomenclature/IRISH-RED-SETTER-120.html"}
 xref: VeNom:14679 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/IRISH-RED-SETTER-120.html"} ! Gundog (Dog)
+is_a: VBO:0201211 {source="https://www.fci.be/en/nomenclature/IRISH-RED-SETTER-120.html"} ! Setter (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/IRISH-RED-SETTER-120.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -287054,7 +287062,7 @@ synonym: "Setter - Irish unspecified" EXACT [] {source="https://venomcoding.org/
 xref: iDog:131 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=131"}
 xref: VeNom:22597 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/irish-setter/"} ! Gundog (Dog)
+is_a: VBO:0201211 {source="https://www.akc.org/dog-breeds/irish-setter/"} ! Setter (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200700 {source="https://www.ukcdogs.com/irish-setter"} ! has foundation stock Irish Red and White Setter (Dog)
 relationship: VBO:0300019 VBO:0200704 {source="https://www.ukcdogs.com/irish-setter"} ! has foundation stock Irish Terrier (Dog)
@@ -287133,8 +287141,8 @@ xref: FCI:124 {source="https://www.fci.be/en/nomenclature/IRISH-WATER-SPANIEL-12
 xref: iDog:133 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=133"}
 xref: VeNom:14890 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/IRISH-WATER-SPANIEL-124.html", source="https://www.akc.org/dog-breeds/irish-water-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0201397 ! Water Spaniel (Dog)
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/IRISH-WATER-SPANIEL-124.html", source="https://www.akc.org/dog-breeds/irish-water-spaniel/"} ! Gundog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200119 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-irish-water/"} ! has foundation stock Barbet (Dog)
 relationship: VBO:0300019 VBO:0200500 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-irish-water/"} ! has foundation stock English Water Spaniel (Dog)
@@ -287325,6 +287333,7 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 [Term]
 id: VBO:0200713
 name: Italian Greyhound (Dog)
+comment: Not classified as a hound or sighthound. The Italian Greyhound is a toy breed, developed as a small companion dog; AKC and The Kennel Club (UK) place it in the Toy Group, although FCI places it in Group 10 (Sighthounds).
 synonym: "French: Levrette d'Italie" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=135"}
 synonym: "German: Italienisches Windspiel" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=135"}
 synonym: "Greyhound - Italian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -287357,6 +287366,7 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/ITALIAN-SIGHT
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/toy/italian-greyhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/italian-greyhound" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/253" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/287" xsd:anyURI
 
 [Term]
@@ -287484,7 +287494,7 @@ synonym: "Spinoni" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: FCI:165 {source="https://www.fci.be/en/nomenclature/ITALIAN-SPINONE-165.html"}
 xref: VeNom:14284 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/ITALIAN-SPINONE-165.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/ITALIAN-SPINONE-165.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/ITALIAN-SPINONE-165.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -288486,7 +288496,7 @@ name: Kleiner Münsterländer (Dog)
 synonym: "Kleiner Münsterländer" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html"}
 xref: FCI:102 {source="https://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -288943,7 +288953,7 @@ xref: FCI:122 {source="https://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122
 xref: iDog:147 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=147"}
 xref: VeNom:14631 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122.html", source="https://www.akc.org/dog-breeds/labrador-retriever/"} ! Gundog (Dog)
+is_a: VBO:0201134 {source="https://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122.html", source="https://www.akc.org/dog-breeds/labrador-retriever/"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200397 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Labrador"} ! has foundation stock Curly Coated Retriever (Dog)
 relationship: VBO:0300019 VBO:0200528 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Retriever-Labrador"} ! has foundation stock Flat-Coated Retriever (Dog)
@@ -289269,7 +289279,7 @@ xref: FCI:118 {source="https://www.fci.be/en/nomenclature/LARGE-MUNSTERLANDER-11
 xref: iDog:268 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=268"}
 xref: VeNom:14563 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/LARGE-MUNSTERLANDER-118.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/LARGE-MUNSTERLANDER-118.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200570 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/large-munsterlander/"} ! has foundation stock German Longhaired Pointer (Dog)
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/LARGE-MUNSTERLANDER-118.html"}
@@ -291777,6 +291787,7 @@ synonym: "Small Grey Elk Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/bre
 xref: iDog:170 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
 xref: VeNom:13994 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.fci.be/Nomenclature/Standards/242g05-en.pdf"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/norwegian-elkhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -291790,8 +291801,10 @@ property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetai
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/norwegian-elkhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Norwegian-Elkhound" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/242g05-en.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/norwegian-elkhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/norwegian-elkhound" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200956
@@ -291823,6 +291836,7 @@ synonym: "Norsk Elghund Grå" EXACT [] {source="https://www.fci.be/en/nomenclatu
 synonym: "Norwegian Elkhound Grey" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
 xref: FCI:242 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.fci.be/Nomenclature/Standards/242g05-en.pdf"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -291831,6 +291845,8 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/242g05-en.pdf" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200958
@@ -291953,7 +291969,7 @@ xref: FCI:312 {source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLI
 xref: iDog:173 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=173"}
 xref: VeNom:14632 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html", source="https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever/"} ! Gundog (Dog)
+is_a: VBO:0201134 {source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html", source="https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever/"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/NOVA-SCOTIA-DUCK-TOLLING-RETRIEVER-312.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -292923,6 +292939,7 @@ xref: iDog:183 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action
 xref: VeNom:14201 {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:18768 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.akc.org/dog-breeds/pharaoh-hound/", source="https://www.fci.be/Nomenclature/Standards/248g05-en.pdf"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/pharaoh-hound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/PHARAOH-HOUND-248.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -292936,8 +292953,10 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/pharaoh-hound/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Pharaoh-Hound" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/PHARAOH-HOUND-248.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/248g05-en.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/pharaoh-hound/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/pharaoh-hound" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0201017
@@ -292984,7 +293003,7 @@ synonym: "Spaniel - Picardy" EXACT [] {source="https://venomcoding.org/venom-cod
 xref: FCI:108 {source="https://www.fci.be/en/nomenclature/PICARDY-SPANIEL-108.html"}
 xref: VeNom:14881 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/PICARDY-SPANIEL-108.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/PICARDY-SPANIEL-108.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200495 {source="https://www.ukcdogs.com/epagneul-picard"} ! has foundation stock English Setter (Dog)
 relationship: VBO:0300019 VBO:0200548 {source="https://www.ukcdogs.com/epagneul-picard"} ! has foundation stock French Spaniel (Dog)
@@ -293162,7 +293181,7 @@ synonym: "Pointer unspecified" EXACT [] {source="https://venomcoding.org/venom-c
 xref: iDog:185 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185"}
 xref: VeNom:14527 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/pointer/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/pointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200490 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pointer"} ! has foundation stock English Foxhound (Dog)
 relationship: VBO:0300019 VBO:0200638 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pointer"} ! has foundation stock Greyhound (Dog)
@@ -293537,7 +293556,7 @@ synonym: "Epagneul De Pont-Audemer" EXACT [] {source="https://www.fci.be/en/nome
 synonym: "Pont-Audemer Spaniel" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/PONT-AUDEMER-SPANIEL-114.html", source="https://en.wikipedia.org/wiki/Pont-Audemer_Spaniel"}
 xref: FCI:114 {source="https://www.fci.be/en/nomenclature/PONT-AUDEMER-SPANIEL-114.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/PONT-AUDEMER-SPANIEL-114.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/PONT-AUDEMER-SPANIEL-114.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/PONT-AUDEMER-SPANIEL-114.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -293975,7 +293994,7 @@ xref: FCI:187 {source="https://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DO
 xref: iDog:192 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=192"}
 xref: VeNom:14567 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DOG-187.html", source="https://www.akc.org/dog-breeds/portuguese-pointer/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DOG-187.html", source="https://www.akc.org/dog-breeds/portuguese-pointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DOG-187.html"}
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/portuguese-pointer/"}
@@ -294120,6 +294139,7 @@ property_value: dcterms:source "https://www.fci.be/en/nomenclature/PORTUGUESE-WA
 [Term]
 id: VBO:0201077
 name: Portuguese Water Dog (Dog)
+comment: Not classified as a gundog. The Portuguese Water Dog was developed to assist fishermen (FCI standard 37: "Assistance with fishing and retrieving"; AKC: "bred to be an all-around fisherman's helper"), not to work with hunters; AKC places it in the Working Group, although FCI places it in Group 8 (Retrievers, Flushing Dogs, Water Dogs), Section 3 (Water Dogs).
 synonym: "Cao de agua Algarvio" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=194"}
 synonym: "Cao de agua Portugues" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=194"}
 synonym: "Cão de Agua" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -294154,6 +294174,7 @@ property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a
 property_value: dcterms:source "https://www.ukcdogs.com/portuguese-water-dog" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/276" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0201078
@@ -294309,7 +294330,7 @@ xref: FCI:216 {source="https://www.fci.be/en/nomenclature/PUDELPOINTER-216.html"
 xref: iDog:195 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=195"}
 xref: VeNom:14598 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/PUDELPOINTER-216.html", source="https://www.akc.org/dog-breeds/pudelpointer/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/PUDELPOINTER-216.html", source="https://www.akc.org/dog-breeds/pudelpointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0201029 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pudelpointer"} ! has foundation stock Pointer (Dog)
 relationship: VBO:0300019 VBO:0201048 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pudelpointer", source="https://www.ukcdogs.com/pudelpointer"} ! has foundation stock Poodle (Dog)
@@ -295139,6 +295160,7 @@ xref: FCI:146 {source="https://www.fci.be/en/nomenclature/RHODESIAN-RIDGEBACK-14
 xref: iDog:204 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=204"}
 xref: VeNom:14634 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.akc.org/dog-breeds/rhodesian-ridgeback/", source="https://www.fci.be/Nomenclature/Standards/146g06-en.pdf"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200375 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Rhodesian-Ridgeback"} ! has foundation stock Collie (Dog)
 relationship: VBO:0300019 VBO:0200494 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Rhodesian-Ridgeback"} ! has foundation stock English Pointer (Dog)
@@ -295157,9 +295179,11 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/rhodesian-ridgeback/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Rhodesian-Ridgeback" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/RHODESIAN-RIDGEBACK-146.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/146g06-en.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/rhodesian-ridgeback/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/rhodesian-ridgeback" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/253" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0201136
@@ -295743,7 +295767,7 @@ synonym: "St Germain Pointer" EXACT [] {source="https://venomcoding.org/venom-co
 xref: FCI:115 {source="https://www.fci.be/en/nomenclature/SAINT-GERMAIN-POINTER-115.html"}
 xref: VeNom:14570 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/SAINT-GERMAIN-POINTER-115.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/SAINT-GERMAIN-POINTER-115.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/SAINT-GERMAIN-POINTER-115.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -297310,7 +297334,7 @@ xref: FCI:320 {source="https://www.fci.be/en/nomenclature/WIREHAIRED-SLOVAKIAN-P
 xref: iDog:415 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=415"}
 xref: VeNom:14568 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/WIREHAIRED-SLOVAKIAN-POINTER-320.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/WIREHAIRED-SLOVAKIAN-POINTER-320.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/WIREHAIRED-SLOVAKIAN-POINTER-320.html"}
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/slovakian-wirehaired-pointer/"}
@@ -297458,7 +297482,7 @@ synonym: "Small Münsterländer" EXACT [] {source="https://en.wikipedia.org/wiki
 xref: iDog:226 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=226"}
 xref: VeNom:14564 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/small-munsterlander/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/small-munsterlander/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200584 {source="https://www.ukcdogs.com/small-munsterlander"} ! has foundation stock German Spaniel (Dog)
 property_value: breed_recognition_status VBO:0300003 {source="https://www.akc.org/dog-breeds/small-munsterlander/"}
@@ -298090,7 +298114,7 @@ synonym: "Spinone" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreed
 synonym: "Spinone Italiano" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Spinone_Italiano", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=231", source="https://www.ukcdogs.com/spinone-italiano", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Spinone-Italiano", source="https://www.akc.org/dog-breeds/spinone-italiano/"}
 xref: iDog:231 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=231"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/spinone-italiano/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/spinone-italiano/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/spinone-italiano/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -298291,7 +298315,7 @@ name: Stabijhoun (Dog)
 synonym: "Stabijhoun" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/STABIJHOUN-222.html"}
 xref: FCI:222 {source="https://www.fci.be/en/nomenclature/STABIJHOUN-222.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/STABIJHOUN-222.html"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/STABIJHOUN-222.html"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/STABIJHOUN-222.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -298313,7 +298337,7 @@ synonym: "Staby" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDe
 synonym: "Stabyhoun" EXACT most_common_name [] {source="https://www.akc.org/dog-breeds/stabyhoun/", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=233", source="https://www.ukcdogs.com/stabyhoun", source="https://en.wikipedia.org/wiki/Stabyhoun"}
 xref: iDog:233 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=233"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.akc.org/dog-breeds/stabyhoun/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/stabyhoun/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300004 {source="https://www.akc.org/dog-breeds/stabyhoun/"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -298578,7 +298602,7 @@ xref: FCI:127 {source="https://www.fci.be/en/nomenclature/SUSSEX-SPANIEL-127.htm
 xref: iDog:236 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=236"}
 xref: VeNom:14886 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/SUSSEX-SPANIEL-127.html", source="https://www.akc.org/dog-breeds/sussex-spaniel/"} ! Gundog (Dog)
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/SUSSEX-SPANIEL-127.html", source="https://www.akc.org/dog-breeds/sussex-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/sussex-spaniel/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/SUSSEX-SPANIEL-127.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -300049,7 +300073,7 @@ xref: iDog:460 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action
 xref: VeNom:14560 {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:22528 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/HUNGARIAN-SHORT-HAIRED-POINTER-VIZSLA-57.html", source="https://www.akc.org/dog-breeds/vizsla/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/HUNGARIAN-SHORT-HAIRED-POINTER-VIZSLA-57.html", source="https://www.akc.org/dog-breeds/vizsla/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/vizsla/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/HUNGARIAN-SHORT-HAIRED-POINTER-VIZSLA-57.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -300256,7 +300280,7 @@ xref: FCI:99 {source="https://www.fci.be/en/nomenclature/WEIMARANER-99.html"}
 xref: iDog:252 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=252"}
 xref: VeNom:15122 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/WEIMARANER-99.html", source="https://www.akc.org/dog-breeds/weimaraner/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/WEIMARANER-99.html", source="https://www.akc.org/dog-breeds/weimaraner/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/weimaraner/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/WEIMARANER-99.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -300430,8 +300454,8 @@ xref: FCI:126 {source="https://www.fci.be/en/nomenclature/WELSH-SPRINGER-SPANIEL
 xref: iDog:253 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=253"}
 xref: VeNom:14885 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/WELSH-SPRINGER-SPANIEL-126.html", source="https://www.akc.org/dog-breeds/welsh-springer-spaniel/"} ! Spaniel (Dog)
 is_a: VBO:0201287 ! Springer Spaniel (Dog)
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/WELSH-SPRINGER-SPANIEL-126.html", source="https://www.akc.org/dog-breeds/welsh-springer-spaniel/"} ! Gundog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/welsh-springer-spaniel/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/WELSH-SPRINGER-SPANIEL-126.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -300809,7 +300833,7 @@ xref: FCI:107 {source="https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-G
 xref: iDog:258 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=258"}
 xref: VeNom:14084 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html", source="https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html", source="https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -300845,7 +300869,7 @@ xref: iDog:259 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action
 xref: VeNom:14249 {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:22418 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/HUNGARIAN-WIRE-HAIRED-POINTER-239.html", source="https://www.akc.org/dog-breeds/wirehaired-vizsla/"} ! Gundog (Dog)
+is_a: VBO:0201501 {source="https://www.fci.be/en/nomenclature/HUNGARIAN-WIRE-HAIRED-POINTER-239.html", source="https://www.akc.org/dog-breeds/wirehaired-vizsla/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 relationship: VBO:0300019 VBO:0200602 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Vizsla-Wire-haired", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/hungarian-wirehaired-vizsla/"} ! has foundation stock German Wirehaired Pointer (Dog)
 relationship: VBO:0300019 VBO:0201389 {source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Vizsla-Wire-haired", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/hungarian-wirehaired-vizsla/"} ! has foundation stock Vizsla (Dog)
@@ -301749,6 +301773,19 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:source "https://www.akc.org/sports/coursing/lure-coursing/eligible-breeds/" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/de/nomenclature/10-Windhunde.html" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/10-Sighthounds.html" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
+
+[Term]
+id: VBO:0201501
+name: Pointing Dog (Dog)
+def: "A gundog belonging to a breed developed to find game and show its position to the hunter by standing still (pointing)." [https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
+synonym: "Pointing Dog" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html"}
+is_a: NCBITaxon:9615 {source="https://orcid.org/0000-0002-4142-7153"} ! Canis lupus familiaris
+is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html", source="https://www.akc.org/dog-breeds/sporting/"} ! Gundog (Dog)
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
