@@ -276969,17 +276969,11 @@ property_value: dcterms:source "https://www.ukcdogs.com/black-mouth-cur" xsd:any
 
 [Term]
 id: VBO:0200173
-name: Black Norwegian Elkhound (Dog)
-synonym: "Black Norwegian Elkhound" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Black_Norwegian_Elkhound"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0200955 ! Norwegian Elkhound (Dog)
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://en.wikipedia.org/wiki/Black_Norwegian_Elkhound" xsd:anyURI
+name: obsolete Black Norwegian Elkhound (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200956
 
 [Term]
 id: VBO:0200174
@@ -282694,6 +282688,7 @@ synonym: "Elkhound (unspecified)" EXACT [] {source="https://venomcoding.org/veno
 synonym: "Elkhound unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:13993 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201497 {source="https://www.fci.be/en/nomenclature/5-Spitz-and-primitive-types.html"} ! Hunting Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -282702,6 +282697,8 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/5-Spitz-and-primitive-types.html" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200479
@@ -286096,6 +286093,7 @@ id: VBO:0200652
 name: Hällefors Elkhound (Dog)
 synonym: "Hällefors Elkhound" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/H%C3%A4llefors_Elkhound"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0200478 {source="https://en.wikipedia.org/wiki/H%C3%A4llefors_Elkhound"} ! Elkhound (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -286103,6 +286101,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/H%C3%A4llefors_Elkhound" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200653
@@ -287717,6 +287716,7 @@ name: Jämthund (Dog)
 synonym: "Jämthund" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/JAMTHUND-42.html"}
 xref: FCI:42 {source="https://www.fci.be/en/nomenclature/JAMTHUND-42.html"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0200478 {source="https://www.fci.be/Nomenclature/Standards/042g05-en.pdf"} ! Elkhound (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/JAMTHUND-42.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -287725,6 +287725,8 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/JAMTHUND-42.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/042g05-en.pdf" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200734
@@ -291781,15 +291783,19 @@ synonym: "Gra Norsk Elghund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/bree
 synonym: "Gray Norwegian Elkhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
 synonym: "Harmaa norjanhirvikoira" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
 synonym: "Norsk Elghund" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
+synonym: "Norsk Elghund Grå" EXACT [] {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
 synonym: "Norwegian Elkhound" EXACT most_common_name [] {source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/norwegian-elkhound/", source="https://en.wikipedia.org/wiki/Norwegian_Elkhound", source="https://www.akc.org/dog-breeds/norwegian-elkhound/", source="https://venomcoding.org/venom-codes/", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Norwegian-Elkhound", source="http://omia.org", source="https://www.ukcdogs.com/norwegian-elkhound", source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
+synonym: "Norwegian Elkhound Grey" EXACT [] {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
+synonym: "Norwegian Elkhound Grey (Dog)" EXACT [] {source="VBO:0200957"}
 synonym: "Norwegian Moose Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
 synonym: "Small Grey Elk Dog" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
+xref: FCI:242 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
 xref: iDog:170 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=170"}
 xref: VeNom:13994 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201497 {source="https://www.fci.be/Nomenclature/Standards/242g05-en.pdf"} ! Hunting Dog (Dog)
+is_a: VBO:0200478 {source="https://www.fci.be/Nomenclature/Standards/242g05-en.pdf"} ! Elkhound (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/norwegian-elkhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf"}
+property_value: breed_recognition_status VBO:0300002 {source="https://www.akc.org/dog-breeds/norwegian-elkhound/", source="https://www.ckc.ca/CanadianKennelClub/media/Documents/Chptr-4-Registration_1.pdf", source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
@@ -291801,6 +291807,7 @@ property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetai
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.akc.org/dog-breeds/norwegian-elkhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Hounds/Norwegian-Elkhound" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/242g05-en.pdf" xsd:anyURI
 property_value: dcterms:source "https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/hound/norwegian-elkhound/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/norwegian-elkhound" xsd:anyURI
@@ -291810,7 +291817,8 @@ property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-br
 id: VBO:0200956
 name: Norwegian Elkhound Black (Dog)
 synonym: "Black Elkhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468"}
-synonym: "Black Norwegian Elkhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468"}
+synonym: "Black Norwegian Elkhound" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468", source="https://en.wikipedia.org/wiki/Black_Norwegian_Elkhound"}
+synonym: "Black Norwegian Elkhound (Dog)" EXACT [] {source="VBO:0200173"}
 synonym: "Norsk Elghund Black" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468"}
 synonym: "Norsk Elghund Sort" EXACT [] {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-BLACK-268.html"}
 synonym: "Norsk Elghund Svart" EXACT [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468"}
@@ -291819,6 +291827,7 @@ synonym: "Norwegian Moose Dog (black)" EXACT [] {source="https://ngdc.cncb.ac.cn
 xref: FCI:268 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-BLACK-268.html"}
 xref: iDog:468 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0200478 {source="https://www.fci.be/Nomenclature/Standards/268g05-en.pdf"} ! Elkhound (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-BLACK-268.html"}
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
@@ -291826,27 +291835,19 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
 property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
+property_value: dcterms:source "https://en.wikipedia.org/wiki/Black_Norwegian_Elkhound" xsd:anyURI
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=468" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-BLACK-268.html" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/268g05-en.pdf" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0200957
-name: Norwegian Elkhound Grey (Dog)
-synonym: "Norsk Elghund Grå" EXACT [] {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
-synonym: "Norwegian Elkhound Grey" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
-xref: FCI:242 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
-is_a: NCBITaxon:9615 ! Canis lupus familiaris
-is_a: VBO:0201497 {source="https://www.fci.be/Nomenclature/Standards/242g05-en.pdf"} ! Hunting Dog (Dog)
-is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
-property_value: breed_recognition_status VBO:0300002 {source="https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html"}
-property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
-property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
-property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
-property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
-property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
-property_value: dcterms:source "https://www.fci.be/en/nomenclature/NORWEGIAN-ELKHOUND-GREY-242.html" xsd:anyURI
-property_value: dcterms:source "https://www.fci.be/Nomenclature/Standards/242g05-en.pdf" xsd:anyURI
+name: obsolete Norwegian Elkhound Grey (Dog)
+property_value: IAO:0000231 "terms merged" xsd:string
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
+is_obsolete: true
+replaced_by: VBO:0200955
 
 [Term]
 id: VBO:0200958
@@ -293176,10 +293177,7 @@ id: VBO:0201029
 name: Pointer (Dog)
 synonym: "English Pointer" NARROW [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185"}
 synonym: "Pointer" EXACT most_common_name [] {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185", source="https://www.thekennelclub.org.uk/search/breeds-a-to-z/breeds/gundog/pointer/", source="https://en.wikipedia.org/wiki/Pointer_(dog_breed)", source="https://venomcoding.org/venom-codes/", source="https://www.akc.org/dog-breeds/pointer/", source="http://omia.org", source="https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Sporting-Dogs/Pointer"}
-synonym: "Pointer (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
-synonym: "Pointer unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: iDog:185 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=185"}
-xref: VeNom:14527 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
 is_a: VBO:0201501 {source="https://www.akc.org/dog-breeds/pointer/"} ! Pointing Dog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
@@ -298681,6 +298679,7 @@ synonym: "Swedish Elkhound" EXACT most_common_name [] {source="https://venomcodi
 xref: iDog:426 {source="https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=426"}
 xref: VeNom:13995 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0200478 {source="https://www.ukcdogs.com/swedish-elkhound"} ! Elkhound (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -298691,6 +298690,7 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/J%C3%A4mthund" xsd
 property_value: dcterms:source "https://ngdc.cncb.ac.cn/idog/breed/getBreedDetail.action?breedId=426" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.ukcdogs.com/swedish-elkhound" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
 [Term]
 id: VBO:0201314
@@ -301780,11 +301780,15 @@ id: VBO:0201501
 name: Pointing Dog (Dog)
 def: "A gundog belonging to a breed developed to find game and show its position to the hunter by standing still (pointing)." [https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html, https://orcid.org/0000-0002-4142-7153]
 comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
+synonym: "Pointer (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
+synonym: "Pointer unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Pointing Dog" EXACT most_common_name [] {source="https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html"}
+xref: VeNom:14527 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 {source="https://orcid.org/0000-0002-4142-7153"} ! Canis lupus familiaris
 is_a: VBO:0201498 {source="https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html", source="https://www.akc.org/dog-breeds/sporting/"} ! Gundog (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: dcterms:source "https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/279" xsd:anyURI
 
