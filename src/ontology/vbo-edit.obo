@@ -267872,6 +267872,129 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/132" xsd:anyURI
 
 [Term]
+id: VBO:0018227
+name: Australian Miniature (Goat)
+synonym: "Australian Miniature" EXACT most_common_name [] {source="https://www.miniaturegoatsaustralia.com/the-breeds"}
+synonym: "Australian Miniature Goat" EXACT [] {source="https://aabmgs.org.au/australian-miniature-goat/", source="https://www.miniaturegoatsaustralia.com/about"}
+is_a: NCBITaxon:9925 {source="https://www.miniaturegoatsaustralia.com/about"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+relationship: VBO:0300019 VBO:0000723 {source="https://mgba.com.au/breeds/australian-miniature/", source="https://www-miniaturegoatsaustralia-com.filesusr.com/ugd/d52e6a_0950a98dd6db46b4ad86120e6e16263e.pdf"} ! has foundation stock Angora (Goat)
+relationship: VBO:0300019 VBO:0000745 {source="https://mgba.com.au/breeds/australian-miniature/", source="https://www-miniaturegoatsaustralia-com.filesusr.com/ugd/d52e6a_0950a98dd6db46b4ad86120e6e16263e.pdf"} ! has foundation stock Cashmere (Goat)
+relationship: VBO:0300019 VBO:0017534 {source="https://www-miniaturegoatsaustralia-com.filesusr.com/ugd/d52e6a_0950a98dd6db46b4ad86120e6e16263e.pdf"} ! has foundation stock Rangeland (Goat)
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/australian-miniature-goat/" xsd:anyURI
+property_value: dcterms:source "https://mgba.com.au/breeds/australian-miniature/" xsd:anyURI
+property_value: dcterms:source "https://www.miniaturegoatsaustralia.com/the-breeds" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "An Australian breed officially recognised in 2000, developed by careful breeding of select small goats (predominately cashmere and angora) cross-bred with rangeland goats." xsd:string {source="https://www-miniaturegoatsaustralia-com.filesusr.com/ugd/d52e6a_0950a98dd6db46b4ad86120e6e16263e.pdf"}
+
+[Term]
+id: VBO:0018228
+name: Miniature Nubian (Goat)
+synonym: "Miniature Anglo Nubian" EXACT [] {source="https://aabmgs.org.au/miniature-anglo-nubian-goat/"}
+synonym: "Miniature Nubian" EXACT most_common_name [] {source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+is_a: NCBITaxon:9925 {source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+relationship: VBO:0300019 VBO:0000722 {source="https://aabmgs.org.au/miniature-anglo-nubian-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"} ! has foundation stock Anglo-Nubian (Goat)
+relationship: VBO:0300019 VBO:0000811 {source="https://aabmgs.org.au/miniature-anglo-nubian-goat/"} ! has foundation stock Nigerian Dwarf (Goat)
+relationship: VBO:0300019 VBO:0018227 {source="https://aabmgs.org.au/miniature-anglo-nubian-goat/"} ! has foundation stock Australian Miniature (Goat)
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/miniature-anglo-nubian-goat/" xsd:anyURI
+property_value: dcterms:source "https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "Being bred down from the larger Nubian breed by various breeders throughout Australia. Primarily bred for milk." xsd:string {source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+
+[Term]
+id: VBO:0018229
+name: Miniature Boer (Goat)
+synonym: "Miniature Boer" EXACT most_common_name [] {source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+synonym: "Miniature Boer Goat" EXACT [] {source="https://aabmgs.org.au/miniature-boer-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+is_a: NCBITaxon:9925 {source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+relationship: VBO:0300019 VBO:0000736 {source="https://aabmgs.org.au/miniature-boer-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"} ! has foundation stock Boer (Goat)
+relationship: VBO:0300019 VBO:0000782 {source="https://aabmgs.org.au/miniature-boer-goat/"} ! has foundation stock Kalahari Red (Goat)
+relationship: VBO:0300019 VBO:0000830 {source="https://aabmgs.org.au/miniature-boer-goat/"} ! has foundation stock Savanna (Goat)
+relationship: VBO:0300019 VBO:0017076 {source="https://aabmgs.org.au/miniature-boer-goat/"} ! has foundation stock Pygmy (Goat)
+relationship: VBO:0300019 VBO:0018227 {source="https://aabmgs.org.au/miniature-boer-goat/"} ! has foundation stock Australian Miniature (Goat)
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/miniature-boer-goat/" xsd:anyURI
+property_value: dcterms:source "https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "Being bred down from the larger Boer breed by various breeders throughout Australia, using goats with Boer, Kalahari, Savannah, Australian Red, Australian Miniature and Pygmy genetics. Primarily bred for meat." xsd:string {source="https://aabmgs.org.au/miniature-boer-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+
+[Term]
+id: VBO:0018230
+name: Elf (Goat)
+comment: "Elf" is also used as the name of an ear type (ears up to 5 cm long, tip turned up or down), e.g. in the Australian Miniature and Lamancha breed standards. This term refers to the breed, not to the ear type.
+synonym: "Elf" EXACT most_common_name [] {source="https://aabmgs.org.au/elf-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+synonym: "Elf Goat" EXACT [] {source="https://aabmgs.org.au/elf-goat/"}
+is_a: NCBITaxon:9925 {source="https://aabmgs.org.au/elf-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/elf-goat/" xsd:anyURI
+property_value: dcterms:source "https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "An Australian miniature breed characterized by tiny ears. Distinctly different from the La Mancha, although it may have developed from goats with the same earless gene." xsd:string {source="https://aabmgs.org.au/elf-goat/", source="https://www.miniaturegoatsaustralia.com/copy-of-australian-miniature-1"}
+
+[Term]
+id: VBO:0018231
+name: Australian Miniature Silky (Goat)
+synonym: "Australian Miniature Silky" EXACT most_common_name [] {source="https://aabmgs.org.au/australian-miniature-silky-goat/"}
+synonym: "Australian Miniature Silky Goat" EXACT [] {source="https://aabmgs.org.au/australian-miniature-silky-goat/"}
+synonym: "Australian Sheltie Goat" RELATED [] {source="https://aabmgs.org.au/australian-miniature-silky-goat/"}
+synonym: "Silky Goat" EXACT [] {source="https://aabmgs.org.au/australian-miniature-silky-goat/"}
+is_a: NCBITaxon:9925 {source="https://aabmgs.org.au/australian-miniature-silky-goat/"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/australian-miniature-silky-goat/" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "An Australian miniature breed with a long, straight, flowing and silky coat, descended from cold-adapted British native goats." xsd:string {source="https://aabmgs.org.au/australian-miniature-silky-goat/"}
+
+[Term]
+id: VBO:0018232
+name: Miniature Saanen (Goat)
+synonym: "Miniature Saanen" EXACT most_common_name [] {source="https://aabmgs.org.au/miniature-saanen-goat/"}
+synonym: "Miniature Saanen Goat" EXACT [] {source="https://aabmgs.org.au/miniature-saanen-goat/"}
+is_a: NCBITaxon:9925 {source="https://aabmgs.org.au/miniature-saanen-goat/"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+relationship: VBO:0300019 VBO:0000811 {source="https://aabmgs.org.au/miniature-saanen-goat/"} ! has foundation stock Nigerian Dwarf (Goat)
+relationship: VBO:0300019 VBO:0000827 {source="https://aabmgs.org.au/miniature-saanen-goat/"} ! has foundation stock Saanen (Goat)
+relationship: VBO:0300019 VBO:0018227 {source="https://aabmgs.org.au/miniature-saanen-goat/"} ! has foundation stock Australian Miniature (Goat)
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/miniature-saanen-goat/" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "In the early stages of development in Australia." xsd:string {source="https://aabmgs.org.au/miniature-saanen-goat/"}
+
+[Term]
+id: VBO:0018233
+name: Colonial Percy Island (Goat)
+synonym: "Colonial Percy Island" EXACT most_common_name [] {source="https://aabmgs.org.au/colonial-percy-island-goat/"}
+synonym: "Colonial Percy Island Goat" EXACT [] {source="https://aabmgs.org.au/colonial-percy-island-goat/"}
+synonym: "Percy Island goat" EXACT [] {source="https://aabmgs.org.au/colonial-percy-island-goat/"}
+is_a: NCBITaxon:9925 {source="https://aabmgs.org.au/colonial-percy-island-goat/"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://aabmgs.org.au/colonial-percy-island-goat/" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "From Middle Percy Island, 130 km south east of Mackay, Queensland, Australia, where 12 goats were placed in 1874 to provide meat, milk and skins for seafarers." xsd:string {source="https://aabmgs.org.au/colonial-percy-island-goat/"}
+
+[Term]
+id: VBO:0018234
+name: Nuwby (Goat)
+synonym: "Australian Nuwby Goat" EXACT [] {source="https://mgba.com.au/breeds/nuwby/"}
+synonym: "Nuwby" EXACT most_common_name [] {source="https://mgba.com.au/breeds/nuwby/"}
+synonym: "Nuwby Goat" EXACT [] {source="https://mgba.com.au/breeds/nuwby/"}
+is_a: NCBITaxon:9925 {source="https://mgba.com.au/breeds/nuwby/"} ! Capra hircus
+is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153"} ! Vertebrate breed
+relationship: VBO:0300019 VBO:0000722 {source="https://mgba.com.au/breeds/nuwby/"} ! has foundation stock Anglo-Nubian (Goat)
+relationship: VBO:0300019 VBO:0000736 {source="https://mgba.com.au/breeds/nuwby/"} ! has foundation stock Boer (Goat)
+relationship: VBO:0300019 VBO:0000782 {source="https://mgba.com.au/breeds/nuwby/"} ! has foundation stock Kalahari Red (Goat)
+property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
+property_value: dcterms:source "https://mgba.com.au/breeds/nuwby/" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/monarch-initiative/vertebrate-breed-ontology/issues/275" xsd:anyURI
+property_value: origindescription "An Australian breed originally created in 2001 by pairing Boer, Anglo Nubian and Kalahari goats from both purebred and crossbred lines with carefully selected smaller breeds of goats." xsd:string {source="https://mgba.com.au/breeds/nuwby/"}
+
+[Term]
 id: VBO:0100000
 name: Abyssinian (Cat)
 synonym: "Abyssinian" EXACT most_common_name [] {source="https://wcf.de/en/wcf-ems-code/", source="https://fifeweb.org/cats/breeds/", source="https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/", source="https://www.rareexoticfelineregistry.com/breed-recognition/", source="https://cfa.org/breeds/", source="https://www.worldcatcongress.org/wp/cat_breed_comp_aby.php", source="https://en.wikipedia.org/wiki/List_of_cat_breeds#Breeds", source="https://www.tica.org/breeds/browse-all-breeds"}
