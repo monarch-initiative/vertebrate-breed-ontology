@@ -295253,6 +295253,8 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0201134
 name: Retriever (Dog)
+def: "A gundog belonging to a breed developed to find and bring back (retrieve) shot game to the hunter, on land and from water." [https://www.akc.org/dog-breeds/sporting/, https://www.fci.be/en/nomenclature/8-Retrievers-Flushing-Dogs-Water-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
 synonym: "Retriever" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="http://omia.org"}
 synonym: "Retriever (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Retriever unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -296801,6 +296803,8 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Serrano_Bulldog" x
 [Term]
 id: VBO:0201211
 name: Setter (Dog)
+def: "A gundog belonging to a breed developed to find game and show its position to the hunter by crouching or standing still (setting)." [https://www.akc.org/dog-breeds/sporting/, https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
 synonym: "Setter" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Setter (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Setter unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -297987,6 +297991,8 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Southern_Hound" xs
 [Term]
 id: VBO:0201271
 name: Spaniel (Dog)
+def: "A gundog belonging to a breed developed to find game in cover and flush it for the hunter, and to retrieve it once shot." [https://www.akc.org/dog-breeds/sporting/, https://www.fci.be/en/nomenclature/8-Retrievers-Flushing-Dogs-Water-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
 synonym: "Spaniel" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="http://omia.org"}
 synonym: "Spaniel (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Spaniel unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
