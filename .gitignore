@@ -81,3 +81,9 @@ CLAUDE.local.md
 
 # Local issue-specific working folders (not tracked)
 specific_issue/
+
+# Local release notes drafts
+release-notes/
+
+# Local release announcement email drafts
+release email/
