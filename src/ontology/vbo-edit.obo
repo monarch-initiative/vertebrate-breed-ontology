@@ -281292,6 +281292,7 @@ synonym: "Curly Coated Murray River Retriever" EXACT most_common_name [] {source
 synonym: "Retriever - Curly Coated Murray River" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:14607 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201134 {source="https://www.dogsaustralia.org.au/members/Breed/Detail/232"} ! Retriever (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -281299,6 +281300,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.dogsaustralia.org.au/members/Breed/Detail/232" xsd:anyURI
 
 [Term]
 id: VBO:0200397
@@ -289652,6 +289654,7 @@ synonym: "Llewellin Setter" EXACT most_common_name [] {source="https://venomcodi
 synonym: "Setter - Llewellin" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:14682 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201211 {source="https://www.ukcdogs.com/article/breeds-receiving-fdsb-pedigrees?news_id=3"} ! Setter (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -289659,6 +289662,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.ukcdogs.com/article/breeds-receiving-fdsb-pedigrees?news_id=3" xsd:anyURI
 
 [Term]
 id: VBO:0200831
@@ -291687,6 +291691,7 @@ id: VBO:0200944
 name: Norfolk Spaniel (Dog)
 synonym: "Norfolk Spaniel" EXACT most_common_name [] {source="https://en.wikipedia.org/wiki/Norfolk_Spaniel"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://en.wikipedia.org/wiki/Norfolk_Spaniel", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-english-springer/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -291694,6 +291699,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Norfolk_Spaniel" xsd:anyURI
+property_value: dcterms:source "https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-english-springer/" xsd:anyURI
 
 [Term]
 id: VBO:0200945
@@ -295253,6 +295259,8 @@ property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
 [Term]
 id: VBO:0201134
 name: Retriever (Dog)
+def: "A gundog belonging to a breed developed to find and bring back (retrieve) shot game to the hunter, on land and from water." [https://www.akc.org/dog-breeds/sporting/, https://www.fci.be/en/nomenclature/8-Retrievers-Flushing-Dogs-Water-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
 synonym: "Retriever" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="http://omia.org"}
 synonym: "Retriever (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Retriever unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -295609,6 +295617,7 @@ synonym: "Russian Spaniel" EXACT most_common_name [] {source="https://en.wikiped
 synonym: "Spaniel - Russian" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:14882 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://en.wikipedia.org/wiki/Russian_Spaniel", source="https://www.kennelliitto.fi/files/venajanspanieli-0"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -295617,6 +295626,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://en.wikipedia.org/wiki/Russian_Spaniel" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.kennelliitto.fi/files/venajanspanieli-0" xsd:anyURI
 
 [Term]
 id: VBO:0201151
@@ -296801,6 +296811,8 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Serrano_Bulldog" x
 [Term]
 id: VBO:0201211
 name: Setter (Dog)
+def: "A gundog belonging to a breed developed to find game and show its position to the hunter by crouching or standing still (setting)." [https://www.akc.org/dog-breeds/sporting/, https://www.fci.be/en/nomenclature/7-Pointing-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
 synonym: "Setter" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Setter (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Setter unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -297987,6 +297999,8 @@ property_value: dcterms:source "https://en.wikipedia.org/wiki/Southern_Hound" xs
 [Term]
 id: VBO:0201271
 name: Spaniel (Dog)
+def: "A gundog belonging to a breed developed to find game in cover and flush it for the hunter, and to retrieve it once shot." [https://www.akc.org/dog-breeds/sporting/, https://www.fci.be/en/nomenclature/8-Retrievers-Flushing-Dogs-Water-Dogs.html, https://orcid.org/0000-0002-4142-7153]
+comment: Breeds are classified by the purpose for which they were developed. Dogs of some of these breeds are no longer used for this purpose, for example companion, show or racing dogs.
 synonym: "Spaniel" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="http://omia.org"}
 synonym: "Spaniel (unspecified)" EXACT [] {source="https://venomcoding.org/venom-codes/"}
 synonym: "Spaniel unspecified" EXACT [] {source="https://venomcoding.org/venom-codes/"}
@@ -298342,6 +298356,7 @@ synonym: "Spaniel - Springer unspecified" EXACT [] {source="https://venomcoding.
 synonym: "Springer Spaniel" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/", source="http://omia.org"}
 xref: VeNom:14883 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://www.fci.be/en/nomenclature/8-Retrievers-Flushing-Dogs-Water-Dogs.html", source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-english-springer/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -298350,6 +298365,8 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "http://omia.org" xsd:anyURI
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.fci.be/en/nomenclature/8-Retrievers-Flushing-Dogs-Water-Dogs.html" xsd:anyURI
+property_value: dcterms:source "https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-english-springer/" xsd:anyURI
 
 [Term]
 id: VBO:0201288
@@ -300335,6 +300352,7 @@ synonym: "Spaniel - Water unspecified" EXACT [] {source="https://venomcoding.org
 synonym: "Water Spaniel" EXACT most_common_name [] {source="https://venomcoding.org/venom-codes/"}
 xref: VeNom:14888 {source="https://venomcoding.org/venom-codes/"}
 is_a: NCBITaxon:9615 ! Canis lupus familiaris
+is_a: VBO:0201271 {source="https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-irish-water/"} ! Spaniel (Dog)
 is_a: VBO:0400000 {source="https://orcid.org/0000-0002-4142-7153", source="https://orcid.org/0000-0002-5002-8648"} ! Vertebrate breed
 property_value: dcterms:contributor https://orcid.org/0000-0001-7688-1770
 property_value: dcterms:contributor https://orcid.org/0000-0002-4142-7153
@@ -300342,6 +300360,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-5002-8648
 property_value: dcterms:contributor https://orcid.org/0000-0002-5520-6597
 property_value: dcterms:contributor https://orcid.org/0000-0002-9178-3965
 property_value: dcterms:source "https://venomcoding.org/venom-codes/" xsd:anyURI
+property_value: dcterms:source "https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/gundog/spaniel-irish-water/" xsd:anyURI
 
 [Term]
 id: VBO:0201398
