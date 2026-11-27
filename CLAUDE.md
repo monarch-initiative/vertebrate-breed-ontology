@@ -20,8 +20,11 @@ cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false PAT=fa
 # Full release pipeline
 cd src/ontology && sh run.sh make prepare_release IMP=false -B
 
-# Refresh external imports (ncbitaxon, ro, wikidata, omo, cob)
+# Refresh external imports (ncbitaxon, ro, omo, cob)
 cd src/ontology && sh run.sh make refresh-imports
+
+# Refresh the Wikidata (country label) import - on request only, never part of refresh-imports or the release
+cd src/ontology && sh run.sh make refresh-wikidata
 
 # Sync ROBOT templates from Google Sheets
 cd src/ontology && sh run.sh make sync_google_sheets
