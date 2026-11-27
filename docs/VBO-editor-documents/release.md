@@ -17,14 +17,18 @@ Notes:
 ## Update Imports and Components
 1. Update imports using the command:  
 `sh run.sh make refresh-imports`  
-This will refresh ALL the imports.
+This refreshes all imports except Wikidata (see next step).
 
-2. Update components (see details [here](https://monarch-initiative.github.io/vertebrate-breed-ontology/components))  
+2. Optional: update the Wikidata import using the command:  
+`sh run.sh make refresh-wikidata`  
+The Wikidata labels (the countries used with "breed reported in geographic location") are looked up live on the Wikidata Query Service, which is often rate limited. This is why `refresh-imports` and the release keep the committed `imports/wikidata_import.owl` as it is. Run this step when new countries were added. If the lookup fails, or a country gets no label, the command stops and the existing import is kept, so the release can go ahead without it.
+
+3. Update components (see details [here](https://monarch-initiative.github.io/vertebrate-breed-ontology/components))  
   ```
   sh run.sh make sync_google_sheets 
   sh run.sh make recreate-components
   ```
-3. Create a PR, wait for the QC checks to pass, and merge to Master.
+4. Create a PR, wait for the QC checks to pass, and merge to Master.
 
 
 ## Run the release

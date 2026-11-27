@@ -45,9 +45,19 @@ report-query-%:
 ##### Wikidata import ##########
 ################################
 
-$(IMPORTDIR)/wikidata_terms_combined.txt: $(SRC) $(IMPORTDIR)/wikidata_terms.txt
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --use-graphs true --query $(SPARQLDIR)/wikidata_terms.sparql $(TMPDIR)/wikidata_terms_combined.txt && \
-	cat $(IMPORTDIR)/wikidata_terms.txt $(TMPDIR)/wikidata_terms_combined.txt > $@; fi
+# The Wikidata labels are fetched live from the Wikidata Query Service, which is
+# often rate limited. The import is therefore only rebuilt on request:
+#
+#     sh run.sh make refresh-wikidata
+#
+# Every other workflow (refresh-imports, prepare_release, test, ...) uses the
+# committed imports/wikidata_import.owl as is.
+WIKIDATA_REFRESH ?= false
+
+.PHONY: refresh-wikidata
+refresh-wikidata:
+	$(MAKE) WIKIDATA_REFRESH=true IMP=true MIR=false \
+		--assume-new=$(SRC) $(IMPORTDIR)/wikidata_import.owl
 
 # Needs to be excluded as wikidata does not have a mirror step
 mirror-wikidata:
@@ -57,16 +67,42 @@ mirror-wikidata:
 mirror/wikidata.owl:
 	echo "skipped $@ - wikidata does not have a mirror step"
 
+ifeq ($(WIKIDATA_REFRESH),true)
+
+# Imports are removed first: RO also mentions Wikidata entities, which VBO
+# does not use. ROBOT writes CRLF line endings, which are stripped.
+$(IMPORTDIR)/wikidata_terms_combined.txt: $(SRC) $(IMPORTDIR)/wikidata_terms.txt
+	$(ROBOT) remove -i $< --select imports \
+		query --query $(SPARQLDIR)/wikidata_terms.sparql $(TMPDIR)/wikidata_terms_combined.txt && \
+	cat $(IMPORTDIR)/wikidata_terms.txt $(TMPDIR)/wikidata_terms_combined.txt | tr -d '\r' > $@
+
+# runoak writes to stdout: with --output, OAK's RDF writer flushes after the
+# file is closed and leaves it empty (INCATools/ontology-access-kit#934).
+# Fails if any Wikidata ID in the edit file did not get a label, so that an
+# incomplete lookup never replaces the committed import.
 $(TMPDIR)/wikidata_labels.ttl: $(IMPORTDIR)/wikidata_terms_combined.txt
-	if [ $(IMP) = true ]; then cat $< | grep wikidata | runoak -i wikidata: search -O rdf --output $@ -; fi
+	grep wikidata $< | runoak -i wikidata: search -O rdf - > $@.tmp
+	missing=$$(grep wikidata $< | sed 's|^wikidata:|http://www.wikidata.org/entity/|' | \
+		while read -r iri; do grep -q -F "<$$iri> rdfs:label" $@.tmp || echo "$$iri"; done); \
+	if [ -n "$$missing" ]; then \
+		echo "ERROR: no Wikidata label found for:"; echo "$$missing"; \
+		echo "$(IMPORTDIR)/wikidata_import.owl was not changed."; exit 1; fi
+	mv $@.tmp $@
 
 $(IMPORTDIR)/wikidata_import.owl: $(TMPDIR)/wikidata_labels.ttl
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+	$(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+else
+
+$(IMPORTDIR)/wikidata_import.owl:
+	@echo "Using the committed $@ (run 'make refresh-wikidata' to rebuild it)."
+
+endif
 
 .PHONY: wikidata
-wikidata: $(IMPORTDIR)/wikidata_import.owl
+wikidata: refresh-wikidata
 
 # The below fix basically deals with a longstanding issue that the OBO format converter does not handle the 
 # ObjectInverseOf axiom. This is a workaround until the issue is fixed in the OBO format converter
